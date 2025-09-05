@@ -1,0 +1,1506 @@
+:root {
+      
+      --primary: #8A2BE2;
+      --primary-dark: #7B1FA2;
+      --secondary: #9370DB;
+      --accent: #FF69B4;
+      --accent-dark: #E91E63;
+      --light: #F8F9FF;
+      --dark: #2E2E3A;
+      --dark-light: #4A4A5A;
+      --success: #20BF55;
+      --warning: #FFD166;
+      --danger: #EF476F;
+      --glass: rgba(255, 255, 255, 0.2);
+      --glass-border: rgba(255, 255, 255, 0.3);
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+      --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+      /* Cores para cada nível CEFR */
+      --a1-color: #4CAF50;
+      /* Verde para A1 */
+      --a2-color: #8BC34A;
+      /* Verde claro para A2 */
+      --b1-color: #FFC107;
+      /* Amarelo para B1 */
+      --b2-color: #FF9800;
+      /* Laranja para B2 */
+      --c1-color: #FF5722;
+      /* Laranja escuro para C1 */
+      --c2-color: #F44336;
+      /* Vermelho para C2 */
+    }
+    
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      /* Tamanho de fonte base garantido */
+    }
+
+    body {
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--dark);
+      overflow-x: hidden;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      /* Alterado para flex-start */
+      padding: 1rem;
+      position: relative;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%);
+      overflow: hidden;
+      opacity: 0.1;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      text-align: center;
+      position: relative;
+      overflow: visible;
+      /* Alterado para visible */
+      transition: var(--transition);
+      z-index: 1;
+      margin: 0.5rem auto;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      position: relative;
+      display: inline-block;
+      background: linear-gradient(to right, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      line-height: 1.2;
+    }
+
+    .mode-selector {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+      gap: 0.5rem;
+      background: rgba(138, 43, 226, 0.05);
+      padding: 0.5rem;
+      border-radius: 50px;
+      width: fit-content;
+      margin: 0 auto 1rem;
+      flex-wrap: wrap;
+    }
+
+    .mode-btn {
+      padding: 0.5rem 1rem;
+      border-radius: 50px;
+      background: transparent;
+      border: none;
+      color: var(--dark-light);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      font-size: 0.8rem;
+    }
+
+    .mode-btn.active {
+      background: var(--primary);
+      color: white;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.8rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      min-width: 180px;
+      text-align: left;
+    }
+
+    .control-group label {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+      color: var(--dark-light);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    select,
+    input {
+      appearance: none;
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 0.6rem 1rem 0.6rem 0.8rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234A4A5A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 0.7rem center;
+      background-size: 1em;
+      width: 100%;
+    }
+
+    select:focus,
+    input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.1);
+    }
+
+    .timer-display {
+      position: absolute;
+      right: 10px;
+      top: 55%;
+      transform: translateY(-50%);
+      background: rgba(138, 43, 226, 0.1);
+      color: var(--primary);
+      padding: 0.2rem 0.6rem;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: none;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .timer-display.warning {
+      background: rgba(255, 193, 7, 0.1);
+      color: var(--warning);
+    }
+
+    .timer-display.danger {
+      background: rgba(239, 71, 111, 0.1);
+      color: var(--danger);
+      animation: pulse 0.5s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from {
+        opacity: 1;
+      }
+
+      to {
+        opacity: 0.7;
+      }
+    }
+
+    .main-action {
+      border: none;
+      border-radius: 8px;
+      padding: 0.8rem 1.2rem;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      margin: 0 auto;
+      background: white;
+      border: 1px solid #e0e0e0;
+      color: var(--primary);
+    }
+
+    #btnSortear {
+      background: var(--primary);
+      color: white;
+    }
+
+    #btnVocab {
+      background: var(--primary);
+      color: white;
+    }
+
+    .main-action:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .secondary-buttons {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      width: 100%;
+      margin-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .secondary-button {
+      border: none;
+      border-radius: 6px;
+      padding: 0.4rem 0.7rem;
+      font-family: inherit;
+      font-size: 0.75rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+      background: rgba(138, 43, 226, 0.05);
+      color: var(--dark-light);
+      border: 1px solid rgba(138, 43, 226, 0.1);
+    }
+
+    .secondary-button:hover:not(:disabled) {
+      background: rgba(138, 43, 226, 0.1);
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none !important;
+      box-shadow: none;
+    }
+
+    .difficulty {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 50px;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: white;
+      margin-bottom: 0.5rem;
+    }
+
+    .A1 {
+      background-color: var(--a1-color);
+    }
+
+    .A2 {
+      background-color: var(--a2-color);
+    }
+
+    .B1 {
+      background-color: var(--b1-color);
+    }
+
+    .B2 {
+      background-color: var(--b2-color);
+    }
+
+    .C1 {
+      background-color: var(--c1-color);
+    }
+
+    .C2 {
+      background-color: var(--c2-color);
+    }
+
+    .question-display {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      position: relative;
+      transition: var(--transition);
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .question-text {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: var(--dark);
+      font-weight: 500;
+      margin: 0.8rem 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .vocab-card {
+      display: none;
+      width: 100%;
+      text-align: center;
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .vocab-word {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0.8rem 0;
+      color: var(--primary);
+      word-break: break-word;
+    }
+
+    .vocab-translation {
+      font-size: 1rem;
+      color: var(--dark-light);
+      margin: 0.8rem 0;
+      display: none;
+    }
+
+    .vocab-definition {
+      font-size: 0.9rem;
+      margin: 0.8rem 0;
+      color: var(--dark);
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    .vocab-example {
+      font-style: italic;
+      color: var(--dark-light);
+      margin-top: 1rem;
+      padding: 0.7rem;
+      background: rgba(138, 43, 226, 0.03);
+      border-radius: 8px;
+      border-left: 3px solid var(--primary);
+      line-height: 1.5;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    .vocab-highlight {
+      background-color: rgba(138, 43, 226, 0.15);
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+      font-weight: 600;
+      color: var(--primary);
+      border-bottom: 2px dotted var(--primary);
+    }
+
+    .empty-message {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+      padding: 1.5rem;
+      color: var(--dark-light);
+      text-align: center;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+
+    .reset-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: var(--transition);
+      margin-top: 0.8rem;
+      font-size: 0.8rem;
+    }
+
+    .reset-btn:hover {
+      background: var(--primary-dark);
+    }
+
+    .time-up-notification {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      z-index: 1001;
+      text-align: center;
+      max-width: 80%;
+      display: none;
+      animation: fadeIn 0.5s forwards;
+    }
+
+    .time-up-notification h3 {
+      color: var(--danger);
+      margin-bottom: 0.8rem;
+      font-size: 1.2rem;
+    }
+
+    .time-up-notification p {
+      margin-bottom: 1.2rem;
+      font-size: 0.9rem;
+    }
+
+    .time-up-notification button {
+      background: var(--danger);
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 50px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    .grammar-practice {
+      display: none;
+      margin-top: 1rem;
+    }
+
+    .exercise-container {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .exercise-title {
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .exercise-instructions {
+      margin-bottom: 1rem;
+      color: var(--dark-light);
+      font-size: 0.9rem;
+    }
+
+    .exercise-content {
+      margin-bottom: 1rem;
+    }
+
+    .exercise-options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .exercise-input {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .exercise-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: var(--transition);
+      margin-top: 0.5rem;
+    }
+
+    .exercise-btn:hover {
+      background: var(--primary-dark);
+    }
+
+    .exercise-feedback {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    .exercise-feedback.correct {
+      background: rgba(32, 191, 85, 0.1);
+      color: var(--success);
+      border: 1px solid rgba(32, 191, 85, 0.3);
+    }
+
+    .exercise-feedback.incorrect {
+      background: rgba(239, 71, 111, 0.1);
+      color: var(--danger);
+      border: 1px solid rgba(239, 71, 111, 0.3);
+    }
+
+    .practice-buttons {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    /* Estilos para o quiz de vocabulário */
+    .quiz-container {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+    }
+
+    .quiz-word {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0.1rem 0;
+      color: var(--primary);
+      word-break: break-word;
+    }
+
+    .quiz-options {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .quiz-btn {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: rgba(138, 43, 226, 0.05);
+      transition: var(--transition);
+      font-size: 0.9rem;
+    }
+
+    .quiz-btn:hover:not(:disabled) {
+      background: rgba(138, 43, 226, 0.1);
+    }
+
+    .quiz-btn.correct {
+      background: var(--success);
+      color: rgb(0, 255, 55);
+    }
+
+    .quiz-btn.wrong {
+      background: var(--danger);
+      color: rgb(255, 0, 0);
+    }
+
+    .quiz-feedback {
+      font-weight: bold;
+      margin-top: 12px;
+      text-align: center;
+      min-height: 20px;
+      font-size: 0.9rem;
+    }
+
+    #quizScore {
+      font-size: 0.9rem;
+      word-break: break-word;
+      text-align: center;
+      margin: 8px 0;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -40%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    /* Media queries para responsividade */
+    @media (max-width: 768px) {
+      body {
+        padding: 0.8rem;
+        justify-content: flex-start;
+      }
+
+      .container {
+        padding: 1.2rem;
+        border-radius: 15px;
+        margin: 0.3rem auto;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .mode-selector {
+        margin-bottom: 0.8rem;
+      }
+
+      .mode-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+      }
+
+      .question-display,
+      .vocab-card,
+      .quiz-container {
+        padding: 1.2rem;
+        margin: 0.8rem 0;
+      }
+
+      .question-text {
+        font-size: 1rem;
+      }
+
+      .vocab-word,
+      .quiz-word {
+        font-size: 1.3rem;
+      }
+
+      .controls {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      .control-group {
+        width: 100%;
+        min-width: unset;
+      }
+
+      .quiz-options {
+        gap: 6px;
+      }
+
+      .quiz-btn {
+        padding: 8px;
+        font-size: 0.85rem;
+      }
+
+      .vocab-definition,
+      .vocab-example {
+        font-size: 0.85rem;
+      }
+
+      .main-action {
+        padding: 0.7rem 1rem;
+        font-size: 0.85rem;
+      }
+
+      .secondary-button {
+        padding: 0.35rem 0.6rem;
+        font-size: 0.7rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 0.5rem;
+      }
+
+      .container {
+        padding: 1rem;
+        border-radius: 12px;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .mode-btn {
+        padding: 0.3rem 0.7rem;
+        font-size: 0.7rem;
+      }
+
+      select,
+      input {
+        padding: 0.5rem 0.8rem 0.5rem 0.6rem;
+        font-size: 0.85rem;
+      }
+
+      .question-text {
+        font-size: 0.95rem;
+      }
+
+      .vocab-word,
+      .quiz-word {
+        font-size: 1.2rem;
+      }
+
+      .vocab-definition,
+      .vocab-example {
+        font-size: 0.8rem;
+      }
+
+      .empty-message {
+        padding: 1.2rem;
+        font-size: 0.85rem;
+      }
+    }
+
+    /* Garantir que textos longos quebrem corretamente */
+    .question-text,
+    .vocab-definition,
+    .vocab-example,
+    .quiz-word,
+    .vocab-word {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
+    }
+
+    /* Melhorar a rolagem em dispositivos móveis */
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* Garantir que o container principal se expanda */
+    .container {
+      overflow: visible;
+    }
+    /* Estilos para respostas corretas e incorretas */
+.quiz-btn.correct {
+  background-color: var(--success) !important;
+  color: white !important;
+}
+
+.quiz-btn.incorrect {
+  background-color: var(--danger) !important;
+  color: white !important;
+}
+
+/* Estilos para a área da pergunta */
+.correct-area {
+  border: 2px solid var(--success);
+  border-radius: 15px;
+  padding: 1rem;
+  background-color: rgba(32, 191, 85, 0.05);
+}
+
+.incorrect-area {
+  border: 2px solid var(--danger);
+  border-radius: 15px;
+  padding: 1rem;
+  background-color: rgba(239, 71, 111, 0.05);
+}
+/* Estilos para respostas corretas e incorretas no quiz */
+.quiz-btn.correct {
+  background-color: #4CAF50 !important;
+  color: white !important;
+  border: 2px solid #388E3C !important;
+}
+
+.quiz-btn.incorrect {
+  background-color: #F44336 !important;
+  color: white !important;
+  border: 2px solid #D32F2F !important;
+}
+
+/* Feedback styles */
+.quiz-feedback.correct {
+  color: #4CAF50;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.quiz-feedback.incorrect {
+  color: #F44336;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+/* Garantir que os botões mantenham estilo consistente */
+.quiz-btn {
+  transition: all 0.3s ease;
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.quiz-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Ajustes específicos para o quiz container */
+.quiz-container {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+/* Container das opções do quiz com layout responsivo */
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Botões do quiz com texto quebrado corretamente */
+.quiz-btn {
+  padding: 12px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgba(138, 43, 226, 0.05);
+  transition: var(--transition);
+  font-size: 0.9rem;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  line-height: 1.4;
+}
+
+/* Ajustes para telas maiores */
+@media (min-width: 768px) {
+  .quiz-options {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+  
+  .quiz-btn {
+    min-height: 60px;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 380px) {
+  .quiz-btn {
+    padding: 10px 8px;
+    font-size: 0.85rem;
+    min-height: 45px;
+  }
+  
+  .quiz-word {
+    font-size: 2rem;
+  }
+}
+/* Estilos para a seção de gramática */
+.grammar-explanation,
+.grammar-examples,
+.grammar-rules {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(138, 43, 226, 0.05);
+  border-radius: 10px;
+  border-left: 3px solid var(--primary);
+}
+
+.grammar-explanation p,
+.grammar-examples p,
+.grammar-rules p {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.grammar-examples ul,
+.grammar-rules ul {
+  padding-left: 1.5rem;
+}
+
+.grammar-examples li,
+.grammar-rules li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Estilos para exercícios de gramática */
+.exercise-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.exercise-option {
+  padding: 0.8rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.exercise-option:hover {
+  background: rgba(138, 43, 226, 0.1);
+}
+
+.exercise-option input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.exercise-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.exercise-feedback {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.exercise-feedback.correct {
+  background: rgba(32, 191, 85, 0.1);
+  color: var(--success);
+  border: 1px solid rgba(32, 191, 85, 0.3);
+}
+
+.exercise-feedback.incorrect {
+  background: rgba(239, 71, 111, 0.1);
+  color: var(--danger);
+  border: 1px solid rgba(239, 71, 111, 0.3);
+}
+
+.practice-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.exercise-btn.secondary {
+  background: rgba(138, 43, 226, 0.1);
+  color: var(--primary);
+}
+
+.exercise-btn.secondary:hover {
+  background: rgba(138, 43, 226, 0.2);
+}
+
+.exercise-answer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid var(--warning);
+}
+/* Estilos para o grupo de input e botões */
+.exercise-input-group {
+  display: flex;
+  gap: 10px;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.exercise-input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  min-width: 0; /* Permite que o input encolha */
+}
+
+.exercise-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+/* Estilos para feedback automático */
+.exercise-feedback {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.exercise-feedback.correct {
+  background: rgba(32, 191, 85, 0.1);
+  color: var(--success);
+  border: 1px solid rgba(32, 191, 85, 0.3);
+}
+
+.exercise-feedback.incorrect {
+  background: rgba(239, 71, 111, 0.1);
+  color: var(--danger);
+  border: 1px solid rgba(239, 71, 111, 0.3);
+}
+
+.exercise-answer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid var(--warning);
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .exercise-input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .exercise-buttons {
+    justify-content: center;
+  }
+}
+/* Container para o campo de entrada e botão de verificação */
+.exercise-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* Campo de entrada de exercício */
+.exercise-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #8A2BE2;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.exercise-input:focus {
+  outline: none;
+  border-color: #6A0DAD;
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.2);
+}
+
+/* Botão de verificação */
+.check-btn {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #8A2BE2, #6A0DAD);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.check-btn:hover {
+  background: linear-gradient(135deg, #6A0DAD, #5A0B9D);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.check-btn:active {
+  transform: translateY(0);
+}
+
+.check-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+/* Container para o campo de entrada */
+.exercise-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* Campo de entrada de exercício */
+.exercise-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #8A2BE2;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.exercise-input:focus {
+  outline: none;
+  border-color: #6A0DAD;
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.2);
+}
+
+/* Botão de verificação inline */
+#btnCheckExercise {
+  margin: 0 !important;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #8A2BE2, #6A0DAD);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+#btnCheckExercise:hover {
+  background: linear-gradient(135deg, #6A0DAD, #5A0B9D);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#btnCheckExercise:active {
+  transform: translateY(0);
+}
+
+#btnCheckExercise:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Ajustar os botões secundários para não mostrar o Check Answer inline */
+.secondary-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.secondary-buttons #btnCheckExercise {
+  display: none;
+}
+/* Container para o campo de entrada e botão de verificação */
+.exercise-input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* Campo de entrada de exercício */
+.exercise-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #8A2BE2;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.exercise-input:focus {
+  outline: none;
+  border-color: #6A0DAD;
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.2);
+}
+
+/* Botão de verificação inline */
+.check-btn {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #8A2BE2, #6A0DAD);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  flex-shrink: 0; /* Impede que o botão encolha */
+}
+
+.check-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #6A0DAD, #5A0B9D);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.check-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.check-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Esconder o botão Check Answer na seção secundária durante exercícios */
+.grammar-practice.active ~ .secondary-buttons #btnCheckExercise {
+  display: none;
+}
+/* Estilos para campos de entrada em lacunas */
+/* Estilos para campos de entrada em lacunas */
+/* Estilos para campos de entrada em lacunas - VERSÃO MELHORADA */
+/* Estilos para campos de entrada em lacunas - VERSÃO CORRIGIDA */
+.gap-input {
+  border: 2px solid #8A2BE2;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  background: white;
+  transition: all 0.3s ease;
+  min-width: 150px !important; /* Força largura mínima */
+  width: 150px !important; /* Largura inicial fixa */
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 46px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.gap-input:focus {
+  outline: none;
+  border-color: #6A0DAD;
+  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.3);
+  transform: translateY(-2px);
+}
+
+.gap-input::placeholder {
+  color: #ccc;
+  font-weight: normal;
+}
+
+.exercise-content {
+  line-height: 3;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Melhorar a visualização em dispositivos móveis */
+@media (max-width: 768px) {
+  .gap-input {
+    padding: 7px 16px;
+    margin: 0 6px;
+    min-width: 85px;
+    font-size: 1.05rem;
+    height: 42px;
+  }
+  
+  .exercise-content {
+    line-height: 2.7;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gap-input {
+    padding: 6px 14px;
+    margin: 0 4px;
+    min-width: 75px;
+    font-size: 1rem;
+    height: 40px;
+  }
+  
+  .exercise-content {
+    line-height: 2.5;
+    font-size: 1rem;
+  }
+}
+/* Estilos para a contagem regressiva */
+.countdown {
+  display: inline-block;
+  background: rgba(76, 175, 80, 0.2);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  font-weight: bold;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Estilo para campos desabilitados */
+.gap-input:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+/* Estilo para o botão de tentar novamente */
+.try-again-btn {
+  background: linear-gradient(135deg, #FF9800, #F57C00);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.try-again-btn:hover {
+  background: linear-gradient(135deg, #F57C00, #E65100);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.exercise-mode {
+  background-color: #8A2BE2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+.exercise-input-container {
+  margin: 20px 0;
+}
+
+.exercise-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border: 2px solid #8A2BE2;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.exercise-input:focus {
+  outline: none;
+  border-color: #6A1B9A;
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.2);
+}
+
+.exercise-question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+/* Adicionar ao seu CSS existente */
+.exercise-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #8A2BE2;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.exercise-input:focus {
+  outline: none;
+  border-color: #6A1B9A;
+  box-shadow: 0 0 5px rgba(138, 43, 226, 0.5);
+}
+
+.check-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #8A2BE2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.check-btn:hover {
+  background-color: #6A1B9A;
+}
+
+.check-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.exercise-feedback {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.exercise-feedback.correct {
+  background-color: #e8f5e8;
+  border: 1px solid #4CAF50;
+}
+
+.exercise-feedback.incorrect {
+  background-color: #ffebee;
+  border: 1px solid #F44336;
+}
+
+.exercise-feedback.warning {
+  background-color: #fff8e1;
+  border: 1px solid #FF9800;
+}
+
+.exercise-answer {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+#grammarModeSelect {
+  display: none;
+}
+
+label[for="grammarModeSelect"] {
+  display: none;
+}

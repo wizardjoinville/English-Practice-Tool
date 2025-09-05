@@ -1,0 +1,55 @@
+[
+  {
+    "topic": "Simple Present",
+    "question": "Choose the correct form of the verb: She _____ to school every day.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "went"
+    ],
+    "answer": "goes",
+    "explanation": "We use 'goes' with third person singular (he, she, it) in simple present.",
+    "difficulty": "A1"
+  },
+  {
+    "topic": "Simple Present",
+    "type": "fill_blank",
+    "question": "They _____ (play) soccer on weekends.",
+    "blank": "play",
+    "answer": "play",
+    "explanation": "With plural subjects (they, we, you), we use the base form of the verb.",
+    "difficulty": "A1"
+  },
+  {
+    "topic": "Simple Present",
+    "type": "sentence_correction",
+    "question": "He don't like coffee.",
+    "answer": "He doesn't like coffee.",
+    "explanation": "With third person singular (he, she, it), we use 'does' instead of 'do'.",
+    "difficulty": "A1"
+  },
+  {
+    "topic": "Present Perfect",
+    "type": "multiple_choice",
+    "question": "Choose the correct option: I _____ that movie yet.",
+    "options": [
+      "haven't seen",
+      "didn't see",
+      "don't see",
+      "hadn't seen"
+    ],
+    "answer": "haven't seen",
+    "explanation": "We use present perfect with 'yet' to talk about unfinished actions.",
+    "difficulty": "B1"
+  },
+  {
+    "topic": "Present Perfect",
+    "type": "fill_blank",
+    "question": "She _____ (live) in London for three years.",
+    "blank": "has lived",
+    "answer": ["has lived", "'s lived"],
+    "explanation": "We use present perfect with 'for' to talk about actions that started in the past and continue to the present.",
+    "difficulty": "B1"
+  }
+]

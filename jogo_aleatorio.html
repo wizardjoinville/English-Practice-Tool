@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎡 English Practice Tool</title>
+  <meta name="description" content="Interactive tool to practice English questions and vocabulary at all CEFR levels">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="background"></div>
+
+  <div class="time-up-notification" id="timeUpNotification">
+    <h3>⏰ Time's Up!</h3>
+    <p>Your time to answer this question has ended.</p>
+    <button id="dismissNotification">Continue</button>
+  </div>
+
+  <div class="container">
+    <h1>English Practice Tool</h1>
+
+    <div class="mode-selector">
+      <button class="mode-btn active" id="btnModeQuestions">Questions</button>
+      <button class="mode-btn" id="btnModeVocabulary">Vocabulary</button>
+      <button class="mode-btn" id="btnModeQuiz">Quiz</button>
+      <button class="mode-btn" id="btnModeGrammar">Grammar</button>
+      <button class="mode-btn" id="btnModePhrasal">Phrasal Verbs</button>
+    </div>
+
+    <div id="questionsControls">
+      <div class="controls">
+        <div class="control-group">
+          <label for="levelSelect">Level</label>
+          <select id="levelSelect">
+            <option value="all">All Levels</option>
+            <option value="A1">A1 (Beginner)</option>
+            <option value="A2">A2 (Elementary)</option>
+            <option value="B1">B1 (Intermediate)</option>
+            <option value="B2">B2 (Upper Intermediate)</option>
+            <option value="C1">C1 (Advanced)</option>
+            <option value="C2">C2 (Proficiency)</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <label for="timerToggle">Timer (seconds)</label>
+          <div class="timer-container">
+            <input type="number" id="timerToggle" min="0" max="300" step="10" placeholder="0 = off">
+            <div id="timerDisplay" class="timer-display">
+              <span id="timeRemaining">0</span>s
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="btnSortear" class="main-action" disabled>
+        <span>🎲</span> Draw Question
+      </button>
+
+      <div class="secondary-buttons">
+        <button id="btnResetar" class="secondary-button" disabled>
+          <span>🔄</span> Reset
+        </button>
+        <button id="btnSave" class="secondary-button">
+          <span>💾</span> Save
+        </button>
+        <button id="btnSaved" class="secondary-button">
+          <span>📋</span> Saved
+        </button>
+      </div>
+
+      <div class="question-display" id="questionDisplay">
+        <div id="resultado">
+          <div class="empty-message">
+            Select a level and draw a question to begin
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="vocabularyControls" style="display: none;">
+      <div class="controls">
+        <div class="control-group">
+          <label for="vocabLevelSelect">Level</label>
+          <select id="vocabLevelSelect">
+            <option value="all">All Levels</option>
+            <option value="A1">A1 (Beginner)</option>
+            <option value="A2">A2 (Elementary)</option>
+            <option value="B1">B1 (Intermediate)</option>
+            <option value="B2">B2 (Upper Intermediate)</option>
+            <option value="C1">C1 (Advanced)</option>
+            <option value="C2">C2 (Proficiency)</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="btnVocab" class="main-action" disabled>
+        <span>📖</span> Practice Vocabulary
+      </button>
+
+      <div class="secondary-buttons">
+        <button id="btnVocabReset" class="secondary-button" disabled>
+          <span>🔄</span> Reset
+        </button>
+        <button id="btnShowTranslation" class="secondary-button">
+          <span>👀</span> Show Translation
+        </button>
+        <button id="btnSpeakVocab" class="secondary-button" style="margin-top:10px;">
+          🔊 Ouvir
+        </button>
+      </div>
+
+      <div class="vocab-card" id="vocabCard">
+        <div class="difficulty vocab-level" id="vocabLevel"></div>
+        <div class="vocab-word" id="vocabWord"></div>
+        <div class="vocab-translation" id="vocabTranslation"></div>
+        <div class="vocab-definition" id="vocabDefinition"></div>
+        <div class="vocab-example" id="vocabExample"></div>
+      </div>
+    </div>
+
+    <div id="quizControls" style="display: none;">
+      <div class="controls">
+        <div class="control-group">
+          <label for="quizLevelSelect">Level</label>
+          <select id="quizLevelSelect">
+            <option value="all">All Levels</option>
+            <option value="A1">A1 (Beginner)</option>
+            <option value="A2">A2 (Elementary)</option>
+            <option value="B1">B1 (Intermediate)</option>
+            <option value="B2">B2 (Upper Intermediate)</option>
+            <option value="C1">C1 (Advanced)</option>
+            <option value="C2">C2 (Proficiency)</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <label for="quizMode">Quiz Mode</label>
+          <select id="quizMode">
+            <option value="en-pt">English → Portuguese</option>
+            <option value="pt-en">Portuguese → English</option>
+            <option value="en-en">English → English</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="btnStartQuiz" class="main-action" disabled>
+        <span>🎯</span> Start Quiz
+      </button>
+
+      <div class="secondary-buttons">
+        <button id="btnNextQuestion" class="secondary-button" disabled>
+          <span>➡️</span> Next Question
+        </button>
+        <button id="btnSpeakQuiz" class="secondary-button" style="margin-left: 8px;">
+          🔊 Ouvir
+        </button>
+      </div>
+
+      <div id="quizScore" style="margin: 10px 0 10px 0; font-weight:bold; color:#8A2BE2;">
+        Points: <span id="quizPoints">0</span> | Errors: <span id="quizErrors">0</span> | Total: <span
+          id="quizTotal">0</span>
+      </div>
+      <div class="quiz-container" id="quizContainer">
+        <div class="empty-message">
+          Select a level and start the quiz
+        </div>
+      </div>
+    </div>
+
+    <div id="grammarControls" style="display: none;">
+      <div class="controls">
+        <div class="control-group">
+          <label for="grammarSelect">Grammar Topic</label>
+          <select id="grammarSelect"></select>
+        </div>
+      </div>
+
+      <div class="practice-buttons">
+        <button id="btnShowGrammar" class="main-action">
+          <span>📚</span> Show Grammar
+        </button>
+        <button id="btnPracticeGrammar" class="main-action">
+          <span>✏️</span> Practice Exercises
+        </button>
+      </div>
+
+      <div class="question-display" id="grammarDisplay">
+        <div class="empty-message">
+          Select a topic and click to see explanation and examples.
+        </div>
+      </div>
+
+      <div class="grammar-practice" id="grammarPractice">
+        <div class="exercise-container" id="exerciseContainer">
+          <div class="empty-message">
+            Click "Practice Exercises" to start practicing this grammar topic.
+          </div>
+        </div>
+        <div class="control-group">
+          <label for="grammarModeSelect">Exercise Mode:</label>
+          <select id="grammarModeSelect">
+            <option value="all">All Modes</option>
+          </select>
+        </div>
+
+        <div class="secondary-buttons">
+          <button id="btnCheckExercise" class="secondary-button" disabled>
+            <span>✓</span> Check Answer
+          </button>
+          <button id="btnNextExercise" class="secondary-button" disabled>
+            <span>➡️</span> Next Exercise
+          </button>
+          <button id="btnResetExercises" class="secondary-button">
+            <span>🔄</span> Reset Exercises
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="phrasalControls" style="display: none;">
+      <div class="controls">
+        <div class="control-group">
+          <label for="phrasalLevelSelect">Level</label>
+          <select id="phrasalLevelSelect">
+            <option value="all">All Levels</option>
+            <option value="A1">A1 (Beginner)</option>
+            <option value="A2">A2 (Elementary)</option>
+            <option value="B1">B1 (Intermediate)</option>
+            <option value="B2">B2 (Upper Intermediate)</option>
+            <option value="C1">C1 (Advanced)</option>
+            <option value="C2">C2 (Proficiency)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <label for="phrasalVerbSelect">Main Verb</label>
+          <select id="phrasalVerbSelect">
+            <option value="all">All Verbs</option>
+          </select>
+        </div>
+      </div>
+      <button id="btnDrawPhrasal" class="main-action" disabled>
+        <span>📖</span> Show Phrasal Verb
+      </button>
+      <div class="secondary-buttons">
+        <button id="btnPhrasalReset" class="secondary-button" disabled>
+          <span>🔄</span> Reset
+        </button>
+        <button id="btnShowPhrasalMeaning" class="secondary-button">
+          <span>👀</span> Show Meaning
+        </button>
+        <button id="btnSpeakPhrasal" class="secondary-button">
+          🔊 Listen
+        </button>
+      </div>
+      <div class="vocab-card" id="phrasalCard">
+        <div class="difficulty phrasal-level" id="phrasalLevel"></div>
+        <div class="vocab-word" id="phrasalVerb"></div>
+        <div class="vocab-translation" id="phrasalTranslation"></div>
+        <div class="vocab-definition" id="phrasalDefinition"></div>
+        <div class="vocab-example" id="phrasalExample"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

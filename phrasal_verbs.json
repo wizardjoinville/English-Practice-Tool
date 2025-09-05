@@ -1,0 +1,2675 @@
+[
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get up",
+    "translation": "Levantar-se",
+    "definition_en": "To rise from bed after sleeping.",
+    "definition_pt": "Levantar da cama após dormir.",
+    "example": "I need to get up early tomorrow for my flight."
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get along with",
+    "translation": "Dar-se bem com",
+    "definition_en": "To have a friendly relationship with someone.",
+    "definition_pt": "Ter um relacionamento amigável com alguém.",
+    "example": "She gets along with all her colleagues."
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get back",
+    "translation": "Voltar",
+    "definition_en": "To return to a place.",
+    "definition_pt": "Retornar a um lugar.",
+    "example": "What time did you get back from the party?"
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get in",
+    "translation": "Entrar (em veículo)",
+    "definition_en": "To enter a vehicle.",
+    "definition_pt": "Entrar em um veículo.",
+    "example": "Quick, get in the car before it rains!"
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get off",
+    "translation": "Sair (de veículo/transporte)",
+    "definition_en": "To leave a vehicle or transportation.",
+    "definition_pt": "Sair de um veículo ou transporte.",
+    "example": "Get off at the next bus stop."
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get on",
+    "translation": "Entrar (em veículo/transporte)",
+    "definition_en": "To enter a vehicle or transportation.",
+    "definition_pt": "Entrar em um veículo ou transporte.",
+    "example": "We need to get on the train quickly."
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get out",
+    "translation": "Sair",
+    "definition_en": "To leave or exit a place.",
+    "definition_pt": "Sair ou deixar um lugar.",
+    "example": "Get out of my room right now!"
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get together",
+    "translation": "Reunir-se",
+    "definition_en": "To meet socially with someone.",
+    "definition_pt": "Encontrar-se socialmente com alguém.",
+    "example": "Let's get together for coffee next week."
+  },
+  {
+    "level": "B1",
+    "verb": "Take",
+    "phrasal_verb": "Take off",
+    "translation": "Decolar / Tirar (roupa)",
+    "definition_en": "To leave the ground (aircraft); to remove clothing.",
+    "definition_pt": "Deixar o solo (aeronave); remover roupa.",
+    "example": "The plane will take off in 10 minutes. / Please take off your shoes."
+  },
+  {
+    "level": "B1",
+    "verb": "Take",
+    "phrasal_verb": "Take out",
+    "translation": "Tirar para fora / Levar para sair",
+    "definition_en": "To remove something from a place; to take someone on a date.",
+    "definition_pt": "Remover algo de um lugar; levar alguém para sair.",
+    "example": "Take the trash out, please. / He took her out to dinner."
+  },
+  {
+    "level": "B1",
+    "verb": "Take",
+    "phrasal_verb": "Take care of",
+    "translation": "Cuidar de",
+    "definition_en": "To look after someone or something.",
+    "definition_pt": "Cuidar de alguém ou algo.",
+    "example": "Can you take care of my plants while I'm away?"
+  },
+  {
+    "level": "B1",
+    "verb": "Take",
+    "phrasal_verb": "Take after",
+    "translation": "Parecer-se com (familiar)",
+    "definition_en": "To resemble a family member in appearance or character.",
+    "definition_pt": "Assemelhar-se a um familiar na aparência ou caráter.",
+    "example": "She takes after her mother - they're both very creative."
+  },
+  {
+    "level": "B1",
+    "verb": "Take",
+    "phrasal_verb": "Take back",
+    "translation": "Devolver / Retirar (o que disse)",
+    "definition_en": "To return something; to retract a statement.",
+    "definition_pt": "Devolver algo; retirar o que disse.",
+    "example": "I need to take this book back to the library. / I take back what I said earlier."
+  },
+  {
+    "level": "B1",
+    "verb": "Look",
+    "phrasal_verb": "Look for",
+    "translation": "Procurar",
+    "definition_en": "To search for something or someone.",
+    "definition_pt": "Buscar por algo ou alguém.",
+    "example": "I'm looking for my keys. Have you seen them?"
+  },
+  {
+    "level": "B1",
+    "verb": "Look",
+    "phrasal_verb": "Look forward to",
+    "translation": "Estar ansioso por",
+    "definition_en": "To anticipate something with pleasure.",
+    "definition_pt": "Antecipar algo com prazer.",
+    "example": "I'm really looking forward to our vacation."
+  },
+  {
+    "level": "B1",
+    "verb": "Look",
+    "phrasal_verb": "Look after",
+    "translation": "Cuidar de",
+    "definition_en": "To take care of someone or something.",
+    "definition_pt": "Cuidar de alguém ou algo.",
+    "example": "Can you look after the children while I'm out?"
+  },
+  {
+    "level": "B1",
+    "verb": "Look",
+    "phrasal_verb": "Look up",
+    "translation": "Procurar (informação)",
+    "definition_en": "To search for information in a reference source.",
+    "definition_pt": "Buscar informação em uma fonte de referência.",
+    "example": "If you don't know the word, look it up in the dictionary."
+  },
+  {
+    "level": "B1",
+    "verb": "Look",
+    "phrasal_verb": "Look out",
+    "translation": "Cuidado!",
+    "definition_en": "To be careful; to watch for danger.",
+    "definition_pt": "Ter cuidado; ficar atento ao perigo.",
+    "example": "Look out! There's a car coming!"
+  },
+  {
+    "level": "B1",
+    "verb": "Put",
+    "phrasal_verb": "Put on",
+    "translation": "Vestir / Colocar",
+    "definition_en": "To dress oneself with clothing; to apply something.",
+    "definition_pt": "Vestir-se com roupa; aplicar algo.",
+    "example": "Put on your coat, it's cold outside. / She put on some makeup."
+  },
+  {
+    "level": "B1",
+    "verb": "Put",
+    "phrasal_verb": "Put away",
+    "translation": "Guardar",
+    "definition_en": "To return something to its proper storage place.",
+    "definition_pt": "Devolver algo ao seu lugar de armazenamento adequado.",
+    "example": "Please put away your toys when you finish playing."
+  },
+  {
+    "level": "B1",
+    "verb": "Put",
+    "phrasal_verb": "Put off",
+    "translation": "Adiar",
+    "definition_en": "To postpone something.",
+    "definition_pt": "Adiar algo.",
+    "example": "They put off the meeting until next week."
+  },
+  {
+    "level": "B1",
+    "verb": "Put",
+    "phrasal_verb": "Put out",
+    "translation": "Apagar (fogo)",
+    "definition_en": "To extinguish a fire.",
+    "definition_pt": "Apagar um fogo.",
+    "example": "The firefighters put out the forest fire."
+  },
+  {
+    "level": "B1",
+    "verb": "Put",
+    "phrasal_verb": "Put up with",
+    "translation": "Tolerar / Aguentar",
+    "definition_en": "To tolerate or endure something unpleasant.",
+    "definition_pt": "Tolerar ou aguentar algo desagradável.",
+    "example": "I don't know how she puts up with his constant complaining."
+  },
+  {
+    "level": "B1",
+    "verb": "Come",
+    "phrasal_verb": "Come back",
+    "translation": "Voltar",
+    "definition_en": "To return to a place.",
+    "definition_pt": "Voltar a um lugar.",
+    "example": "When are you coming back from your trip?"
+  },
+  {
+    "level": "B1",
+    "verb": "Come",
+    "phrasal_verb": "Come in",
+    "translation": "Entrar",
+    "definition_en": "To enter a place.",
+    "definition_pt": "Entrar em um lugar.",
+    "example": "Please come in and make yourself comfortable."
+  },
+  {
+    "level": "B1",
+    "verb": "Come",
+    "phrasal_verb": "Come on",
+    "translation": "Vamos! / Vem cá!",
+    "definition_en": "Used to encourage someone or to express disbelief.",
+    "definition_pt": "Usado para encorajar alguém ou expressar descrença.",
+    "example": "Come on, we're going to be late! / Oh come on, you don't really mean that!"
+  },
+  {
+    "level": "B1",
+    "verb": "Come",
+    "phrasal_verb": "Come from",
+    "translation": "Vir de",
+    "definition_en": "To originate from a place.",
+    "definition_pt": "Originar-se de um lugar.",
+    "example": "Where do you come from originally?"
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go out",
+    "translation": "Sair (socialmente)",
+    "definition_en": "To leave home for social activities.",
+    "definition_pt": "Sair de casa para atividades sociais.",
+    "example": "We're going out for dinner tonight."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go back",
+    "translation": "Voltar",
+    "definition_en": "To return to a place.",
+    "definition_pt": "Voltar a um lugar.",
+    "example": "I need to go back home to get my wallet."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go away",
+    "translation": "Ir embora",
+    "definition_en": "To leave a place.",
+    "definition_pt": "Deixar um lugar.",
+    "example": "I wish this headache would go away."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go on",
+    "translation": "Continuar / Acontecer",
+    "definition_en": "To continue; to happen.",
+    "definition_pt": "Continuar; acontecer.",
+    "example": "What's going on here? / Please go on with your story."
+  },
+  {
+    "level": "B1",
+    "verb": "Turn",
+    "phrasal_verb": "Turn on",
+    "translation": "Ligar",
+    "definition_en": "To activate a device or machine.",
+    "definition_pt": "Ativar um dispositivo ou máquina.",
+    "example": "Can you turn on the lights, please?"
+  },
+  {
+    "level": "B1",
+    "verb": "Turn",
+    "phrasal_verb": "Turn off",
+    "translation": "Desligar",
+    "definition_en": "To deactivate a device or machine.",
+    "definition_pt": "Desativar um dispositivo ou máquina.",
+    "example": "Don't forget to turn off the TV before you leave."
+  },
+  {
+    "level": "B1",
+    "verb": "Turn",
+    "phrasal_verb": "Turn up",
+    "translation": "Aumentar (volume) / Aparecer",
+    "definition_en": "To increase volume; to arrive or appear.",
+    "definition_pt": "Aumentar o volume; chegar ou aparecer.",
+    "example": "Can you turn up the music? / He finally turned up an hour late."
+  },
+  {
+    "level": "B1",
+    "verb": "Turn",
+    "phrasal_verb": "Turn down",
+    "translation": "Diminuir (volume) / Recusar",
+    "definition_en": "To decrease volume; to reject an offer.",
+    "definition_pt": "Diminuir o volume; recusar uma oferta.",
+    "example": "Please turn down the radio. / She turned down the job offer."
+  },
+  {
+    "level": "B1",
+    "verb": "Give",
+    "phrasal_verb": "Give up",
+    "translation": "Desistir",
+    "definition_en": "To stop trying; to quit.",
+    "definition_pt": "Parar de tentar; desistir.",
+    "example": "Don't give up, you can do it!"
+  },
+  {
+    "level": "B1",
+    "verb": "Give",
+    "phrasal_verb": "Give back",
+    "translation": "Devolver",
+    "definition_en": "To return something to its owner.",
+    "definition_pt": "Devolver algo ao seu dono.",
+    "example": "I need to give these books back to the library."
+  },
+  {
+    "level": "B1",
+    "verb": "Give",
+    "phrasal_verb": "Give out",
+    "translation": "Distribuir",
+    "definition_en": "To distribute something to people.",
+    "definition_pt": "Distribuir algo para as pessoas.",
+    "example": "The teacher gave out the exam papers."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get away with",
+    "translation": "Sair impune",
+    "definition_en": "To succeed in avoiding punishment for something.",
+    "definition_pt": "Conseguir evitar punição por algo.",
+    "example": "He cheated on the test and got away with it."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get over",
+    "translation": "Superar",
+    "definition_en": "To recover from an illness or emotional distress.",
+    "definition_pt": "Recuperar-se de uma doença ou sofrimento emocional.",
+    "example": "It took her months to get over the breakup."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get through",
+    "translation": "Atravessar / Completar",
+    "definition_en": "To survive a difficult period; to complete something.",
+    "definition_pt": "Sobreviver a um período difícil; completar algo.",
+    "example": "We need to get through this week, then we can relax."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get by",
+    "translation": "Se virar / Sobreviver",
+    "definition_en": "To manage to survive or cope with difficulty.",
+    "definition_pt": "Conseguir sobreviver ou lidar com dificuldade.",
+    "example": "They don't earn much, but they get by."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get across",
+    "translation": "Transmitir (mensagem)",
+    "definition_en": "To successfully communicate an idea or message.",
+    "definition_pt": "Comunicar com sucesso uma ideia ou mensagem.",
+    "example": "I'm trying to get across the importance of this project."
+  },
+  {
+    "level": "B2",
+    "verb": "Take",
+    "phrasal_verb": "Take up",
+    "translation": "Começar (hobby) / Ocupar (espaço)",
+    "definition_en": "To start a new activity or hobby; to occupy space or time.",
+    "definition_pt": "Começar uma nova atividade ou hobby; ocupar espaço ou tempo.",
+    "example": "She's taken up photography. / This sofa takes up too much space."
+  },
+  {
+    "level": "B2",
+    "verb": "Take",
+    "phrasal_verb": "Take over",
+    "translation": "Assumir o controle",
+    "definition_en": "To assume control or responsibility for something.",
+    "definition_pt": "Assumir controle ou responsabilidade por algo.",
+    "example": "The new manager will take over next month."
+  },
+  {
+    "level": "B2",
+    "verb": "Take",
+    "phrasal_verb": "Take apart",
+    "translation": "Desmontar",
+    "definition_en": "To disassemble something into pieces.",
+    "definition_pt": "Desmontar algo em pedaços.",
+    "example": "He took the engine apart to see what was wrong."
+  },
+  {
+    "level": "B2",
+    "verb": "Look",
+    "phrasal_verb": "Look into",
+    "translation": "Investigar",
+    "definition_en": "To investigate or examine something.",
+    "definition_pt": "Investigar ou examinar algo.",
+    "example": "The police are looking into the matter."
+  },
+  {
+    "level": "B2",
+    "verb": "Look",
+    "phrasal_verb": "Look up to",
+    "translation": "Admirar",
+    "definition_en": "To admire and respect someone.",
+    "definition_pt": "Admirar e respeitar alguém.",
+    "example": "I've always looked up to my older sister."
+  },
+  {
+    "level": "B2",
+    "verb": "Look",
+    "phrasal_verb": "Look down on",
+    "translation": "Desprezar",
+    "definition_en": "To regard someone with contempt or superiority.",
+    "definition_pt": "Considerar alguém com desprezo ou superioridade.",
+    "example": "She looks down on people who didn't go to college."
+  },
+  {
+    "level": "B2",
+    "verb": "Put",
+    "phrasal_verb": "Put forward",
+    "translation": "Propor",
+    "definition_en": "To suggest an idea or proposal.",
+    "definition_pt": "Sugerir uma ideia ou proposta.",
+    "example": "He put forward a new plan for the project."
+  },
+  {
+    "level": "B2",
+    "verb": "Put",
+    "phrasal_verb": "Put through",
+    "translation": "Conectar (telefone)",
+    "definition_en": "To connect someone by telephone.",
+    "definition_pt": "Conectar alguém por telefone.",
+    "example": "Please hold while I put you through to the manager."
+  },
+  {
+    "level": "B2",
+    "verb": "Put",
+    "phrasal_verb": "Put up",
+    "translation": "Hospedar / Erguer",
+    "definition_en": "To provide accommodation; to erect or build.",
+    "definition_pt": "Fornecer acomodação; erguer ou construir.",
+    "example": "Can you put me up for the night? / They put up a new building."
+  },
+  {
+    "level": "B2",
+    "verb": "Come",
+    "phrasal_verb": "Come across",
+    "translation": "Encontrar por acaso",
+    "definition_en": "To find or encounter something by chance.",
+    "definition_pt": "Encontrar algo por acaso.",
+    "example": "I came across this old photo while cleaning."
+  },
+  {
+    "level": "B2",
+    "verb": "Come",
+    "phrasal_verb": "Come up with",
+    "translation": "Elaborar / Criar",
+    "definition_en": "To think of an idea, plan, or solution.",
+    "definition_pt": "Pensar em uma ideia, plano ou solução.",
+    "example": "We need to come up with a better strategy."
+  },
+  {
+    "level": "B2",
+    "verb": "Come",
+    "phrasal_verb": "Come forward",
+    "translation": "Apresentar-se",
+    "definition_en": "To volunteer information or help.",
+    "definition_pt": "Oferecer informação ou ajuda voluntariamente.",
+    "example": "Several witnesses came forward with information."
+  },
+  {
+    "level": "B2",
+    "verb": "Go",
+    "phrasal_verb": "Go through",
+    "translation": "Passar por / Examinar",
+    "definition_en": "To experience something difficult; to examine carefully.",
+    "definition_pt": "Experienciar algo difícil; examinar cuidadosamente.",
+    "example": "She's going through a difficult time. / I need to go through these documents."
+  },
+  {
+    "level": "B2",
+    "verb": "Go",
+    "phrasal_verb": "Go ahead",
+    "translation": "Prosseguir / Ir em frente",
+    "definition_en": "To proceed with something; to give permission.",
+    "definition_pt": "Prosseguir com algo; dar permissão.",
+    "example": "Go ahead and start without me."
+  },
+  {
+    "level": "B2",
+    "verb": "Go",
+    "phrasal_verb": "Go over",
+    "translation": "Rever / Repassar",
+    "definition_en": "To review or examine something carefully.",
+    "definition_pt": "Rever ou examinar algo cuidadosamente.",
+    "example": "Let's go over the plan one more time."
+  },
+  {
+    "level": "B2",
+    "verb": "Go",
+    "phrasal_verb": "Go along with",
+    "translation": "Concordar com",
+    "definition_en": "To agree with or support something.",
+    "definition_pt": "Concordar com ou apoiar algo.",
+    "example": "I'll go along with whatever the committee decides."
+  },
+  {
+    "level": "B2",
+    "verb": "Turn",
+    "phrasal_verb": "Turn into",
+    "translation": "Transformar-se em",
+    "definition_en": "To become something different.",
+    "definition_pt": "Tornar-se algo diferente.",
+    "example": "The argument turned into a full-blown fight."
+  },
+  {
+    "level": "B2",
+    "verb": "Turn",
+    "phrasal_verb": "Turn out",
+    "translation": "Resultar / Comparecer",
+    "definition_en": "To result in a particular way; to attend an event.",
+    "definition_pt": "Resultar de uma maneira particular; comparecer a um evento.",
+    "example": "The party turned out to be great. / Thousands turned out for the concert."
+  },
+  {
+    "level": "B2",
+    "verb": "Turn",
+    "phrasal_verb": "Turn around",
+    "translation": "Virar-se / Melhorar",
+    "definition_en": "To face the opposite direction; to improve significantly.",
+    "definition_pt": "Virar para a direção oposta; melhorar significativamente.",
+    "example": "Turn around and look at me. / The company's fortunes turned around quickly."
+  },
+  {
+    "level": "B2",
+    "verb": "Give",
+    "phrasal_verb": "Give in",
+    "translation": "Ceder",
+    "definition_en": "To surrender or yield to pressure.",
+    "definition_pt": "Render-se ou ceder à pressão.",
+    "example": "After hours of arguing, he finally gave in."
+  },
+  {
+    "level": "B2",
+    "verb": "Give",
+    "phrasal_verb": "Give away",
+    "translation": "Doar / Revelar",
+    "definition_en": "To donate something; to reveal a secret.",
+    "definition_pt": "Doar algo; revelar um segredo.",
+    "example": "We're giving away old clothes. / Don't give away the surprise!"
+  },
+  {
+    "level": "B2",
+    "verb": "Give",
+    "phrasal_verb": "Give off",
+    "translation": "Emitir (odor/calor)",
+    "definition_en": "To emit or produce something like smell or heat.",
+    "definition_pt": "Emitir ou produzir algo como odor ou calor.",
+    "example": "The flowers give off a wonderful fragrance."
+  },
+  {
+    "level": "B2",
+    "verb": "Break",
+    "phrasal_verb": "Break down",
+    "translation": "Quebrar (máquina) / Entrar em colapso",
+    "definition_en": "To stop functioning (machine); to lose emotional control.",
+    "definition_pt": "Parar de funcionar (máquina); perder controle emocional.",
+    "example": "My car broke down on the highway. / She broke down in tears."
+  },
+  {
+    "level": "B2",
+    "verb": "Break",
+    "phrasal_verb": "Break up",
+    "translation": "Terminar (relação)",
+    "definition_en": "To end a romantic relationship.",
+    "definition_pt": "Terminar um relacionamento amoroso.",
+    "example": "They broke up after three years together."
+  },
+  {
+    "level": "B2",
+    "verb": "Break",
+    "phrasal_verb": "Break out",
+    "translation": "Eclodir / Fugir",
+    "definition_en": "To start suddenly (war, disease); to escape from prison.",
+    "definition_pt": "Começar subitamente (guerra, doença); escapar da prisão.",
+    "example": "War broke out in 1939. / Three prisoners broke out of jail."
+  },
+  {
+    "level": "B2",
+    "verb": "Break",
+    "phrasal_verb": "Break into",
+    "translation": "Arrombar",
+    "definition_en": "To enter a building illegally by force.",
+    "definition_pt": "Entrar em um prédio ilegalmente pela força.",
+    "example": "Thieves broke into our house last night."
+  },
+  {
+    "level": "B2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring up",
+    "translation": "Criar (crianças) / Mencionar",
+    "definition_en": "To raise children; to mention a topic.",
+    "definition_pt": "Criar crianças; mencionar um tópico.",
+    "example": "She brought up three children alone. / Don't bring up that subject again."
+  },
+  {
+    "level": "B2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring about",
+    "translation": "Provocar / Causar",
+    "definition_en": "To cause something to happen.",
+    "definition_pt": "Causar algo para acontecer.",
+    "example": "The new policy brought about significant changes."
+  },
+  {
+    "level": "B2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring forward",
+    "translation": "Adiantar (data)",
+    "definition_en": "To move something to an earlier date or time.",
+    "definition_pt": "Mover algo para uma data ou hora mais cedo.",
+    "example": "They brought the meeting forward to Tuesday."
+  },
+  {
+    "level": "B2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring out",
+    "translation": "Lançar (produto) / Revelar",
+    "definition_en": "To release a new product; to reveal a quality.",
+    "definition_pt": "Lançar um novo produto; revelar uma qualidade.",
+    "example": "The company is bringing out a new smartphone. / Stress brings out the worst in people."
+  },
+  {
+    "level": "C1",
+    "verb": "Get",
+    "phrasal_verb": "Get round to",
+    "translation": "Encontrar tempo para",
+    "definition_en": "To eventually find time to do something that has been delayed.",
+    "definition_pt": "Finalmente encontrar tempo para fazer algo que foi adiado.",
+    "example": "I finally got round to replying to all my emails."
+  },
+  {
+    "level": "C1",
+    "verb": "Get",
+    "phrasal_verb": "Get at",
+    "translation": "Insinuar",
+    "definition_en": "To suggest something indirectly.",
+    "definition_pt": "Sugerir algo indiretamente.",
+    "example": "What are you getting at? Just say it directly."
+  },
+  {
+    "level": "C1",
+    "verb": "Get",
+    "phrasal_verb": "Get ahead",
+    "translation": "Prosperar / Avançar",
+    "definition_en": "To be successful in one's career or life.",
+    "definition_pt": "Ser bem-sucedido na carreira ou vida.",
+    "example": "It's hard to get ahead without a good education."
+  },
+  {
+    "level": "C1",
+    "verb": "Get",
+    "phrasal_verb": "Get behind",
+    "translation": "Apoiar",
+    "definition_en": "To support someone or something.",
+    "definition_pt": "Apoiar alguém ou algo.",
+    "example": "We need to get behind this initiative if we want it to succeed."
+  },
+  {
+    "level": "C1",
+    "verb": "Take",
+    "phrasal_verb": "Take to",
+    "translation": "Criar afeição por",
+    "definition_en": "To develop a liking for someone or something.",
+    "definition_pt": "Desenvolver afeição por alguém ou algo.",
+    "example": "I didn't take to him immediately, but he grew on me."
+  },
+  {
+    "level": "C1",
+    "verb": "Take",
+    "phrasal_verb": "Take aback",
+    "translation": "Pegar de surpresa",
+    "definition_en": "To surprise or shock someone.",
+    "definition_pt": "Surpreender ou chocar alguém.",
+    "example": "I was taken aback by her sudden anger."
+  },
+  {
+    "level": "C1",
+    "verb": "Take",
+    "phrasal_verb": "Take in",
+    "translation": "Assimilar / Enganar",
+    "definition_en": "To understand information; to deceive someone.",
+    "definition_pt": "Assimilar informação; enganar alguém.",
+    "example": "It was too much information to take in at once. / She was taken in by his smooth talk."
+  },
+  {
+    "level": "C1",
+    "verb": "Take",
+    "phrasal_verb": "Take on",
+    "translation": "Assumir (responsabilidade)",
+    "definition_en": "To accept a responsibility or challenge.",
+    "definition_pt": "Aceitar uma responsabilidade ou desafio.",
+    "example": "She's taken on too much work lately."
+  },
+  {
+    "level": "C1",
+    "verb": "Look",
+    "phrasal_verb": "Look back on",
+    "translation": "Relembrar",
+    "definition_en": "To think about something in the past.",
+    "definition_pt": "Pensar sobre algo no passado.",
+    "example": "When I look back on my childhood, I have fond memories."
+  },
+  {
+    "level": "C1",
+    "verb": "Look",
+    "phrasal_verb": "Look to",
+    "translation": "Contar com",
+    "definition_en": "To rely on or expect help from someone.",
+    "definition_pt": "Contar com ou esperar ajuda de alguém.",
+    "example": "We're looking to you for guidance on this matter."
+  },
+  {
+    "level": "C1",
+    "verb": "Look",
+    "phrasal_verb": "Look around",
+    "translation": "Procurar (opções)",
+    "definition_en": "To search for different options before deciding.",
+    "definition_pt": "Buscar por diferentes opções antes de decidir.",
+    "example": "We should look around before we buy a house."
+  },
+  {
+    "level": "C1",
+    "verb": "Put",
+    "phrasal_verb": "Put across",
+    "translation": "Comunicar eficazmente",
+    "definition_en": "To communicate an idea effectively.",
+    "definition_pt": "Comunicar uma ideia eficazmente.",
+    "example": "She put her points across very clearly in the meeting."
+  },
+  {
+    "level": "C1",
+    "verb": "Put",
+    "phrasal_verb": "Put down to",
+    "translation": "Atribuir a",
+    "definition_en": "To attribute something to a particular cause.",
+    "definition_pt": "Atribuir algo a uma causa particular.",
+    "example": "I put his bad mood down to lack of sleep."
+  },
+  {
+    "level": "B1",
+    "verb": "Break",
+    "phrasal_verb": "Break in",
+    "translation": "Amaciar (calçado) / Interromper",
+    "definition_en": "To wear something until it's comfortable; to interrupt.",
+    "definition_pt": "Usar algo até ficar confortável; interromper.",
+    "example": "I need to break in these new shoes. / He broke in with some exciting news."
+  },
+  {
+    "level": "B1",
+    "verb": "Call",
+    "phrasal_verb": "Call for",
+    "translation": "Exigir / Pedir",
+    "definition_en": "To require or demand something.",
+    "definition_pt": "Exigir ou pedir algo.",
+    "example": "This recipe calls for two eggs. / The situation calls for immediate action."
+  },
+  {
+    "level": "B1",
+    "verb": "Carry",
+    "phrasal_verb": "Carry on",
+    "translation": "Continuar",
+    "definition_en": "To continue doing something.",
+    "definition_pt": "Continuar fazendo algo.",
+    "example": "Please carry on with your work."
+  },
+  {
+    "level": "B1",
+    "verb": "Catch",
+    "phrasal_verb": "Catch on",
+    "translation": "Entender / Fazer sucesso",
+    "definition_en": "To understand; to become popular.",
+    "definition_pt": "Compreender; tornar-se popular.",
+    "example": "He quickly caught on to the new software. / That song is really catching on."
+  },
+  {
+    "level": "B1",
+    "verb": "Come",
+    "phrasal_verb": "Come along",
+    "translation": "Acompanhar / Aparecer",
+    "definition_en": "To accompany someone; to appear or arrive.",
+    "definition_pt": "Acompanhar alguém; aparecer ou chegar.",
+    "example": "You can come along if you want. / A new job opportunity came along."
+  },
+  {
+    "level": "B1",
+    "verb": "Come",
+    "phrasal_verb": "Come out",
+    "translation": "Sair / Ser publicado",
+    "definition_en": "To exit; to be published or released.",
+    "definition_pt": "Sair; ser publicado ou lançado.",
+    "example": "Come out of the house right now! / Her new book comes out next week."
+  },
+  {
+    "level": "B1",
+    "verb": "Do",
+    "phrasal_verb": "Do up",
+    "translation": "Abrigar-se / Fazer",
+    "definition_en": "To fasten or close; to decorate.",
+    "definition_pt": "Abrigar-se; decorar.",
+    "example": "Do up your coat, it's cold. / They did up the old house beautifully."
+  },
+  {
+    "level": "B1",
+    "verb": "Fall",
+    "phrasal_verb": "Fall down",
+    "translation": "Cair",
+    "definition_en": "To fall to the ground.",
+    "definition_pt": "Cair no chão.",
+    "example": "Be careful not to fall down on the ice."
+  },
+  {
+    "level": "B1",
+    "verb": "Fall",
+    "phrasal_verb": "Fall over",
+    "translation": "Tropeçar e cair",
+    "definition_en": "To lose balance and fall.",
+    "definition_pt": "Perder o equilíbrio e cair.",
+    "example": "The child fell over but didn't cry."
+  },
+  {
+    "level": "B1",
+    "verb": "Find",
+    "phrasal_verb": "Find out",
+    "translation": "Descobrir",
+    "definition_en": "To discover a fact or piece of information.",
+    "definition_pt": "Descobrir um fato ou uma informação.",
+    "example": "I need to find out when the train leaves."
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get down",
+    "translation": "Descer / Desanimar",
+    "definition_en": "To move to a lower level; to feel sad.",
+    "definition_pt": "Mover-se para um nível inferior; sentir-se triste.",
+    "example": "Get down from that tree! / This weather is getting me down."
+  },
+  {
+    "level": "B1",
+    "verb": "Give",
+    "phrasal_verb": "Give up on",
+    "translation": "Desistir de",
+    "definition_en": "To stop hoping or believing in someone/something.",
+    "definition_pt": "Parar de ter esperança ou acreditar em alguém/algo.",
+    "example": "Don't give up on me, I can change."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go down",
+    "translation": "Descer / Ser registrado",
+    "definition_en": "To move to a lower place; to be recorded or remembered.",
+    "definition_pt": "Mover-se para um lugar inferior; ser registrado ou lembrado.",
+    "example": "The sun goes down in the evening. / This day will go down in history."
+  },
+  {
+    "level": "B1",
+    "verb": "Grow",
+    "phrasal_verb": "Grow out of",
+    "translation": "Deixar de fazer com a idade",
+    "definition_en": "To stop doing something as you get older.",
+    "definition_pt": "Deixar de fazer algo conforme fica mais velho.",
+    "example": "He grew out of playing with toys."
+  },
+  {
+    "level": "B1",
+    "verb": "Hold",
+    "phrasal_verb": "Hold on",
+    "translation": "Esperar / Segurar firme",
+    "definition_en": "To wait; to grip something tightly.",
+    "definition_pt": "Esperar; segurar algo firmemente.",
+    "example": "Hold on, I need to tie my shoe. / Hold on to the railing."
+  },
+  {
+    "level": "B1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep up",
+    "translation": "Manter o ritmo",
+    "definition_en": "To continue at the same rate or level.",
+    "definition_pt": "Continuar no mesmo ritmo ou nível.",
+    "example": "I can't keep up with all these changes."
+  },
+  {
+    "level": "B1",
+    "verb": "Let",
+    "phrasal_verb": "Let down",
+    "translation": "Decepcionar",
+    "definition_en": "To disappoint someone.",
+    "definition_pt": "Decepcionar alguém.",
+    "example": "I promised I would help and I don't want to let him down."
+  },
+  {
+    "level": "B1",
+    "verb": "Look",
+    "phrasal_verb": "Look through",
+    "translation": "Examinar",
+    "definition_en": "To examine or read something quickly.",
+    "definition_pt": "Examinar ou ler algo rapidamente.",
+    "example": "Can you look through this report for errors?"
+  },
+  {
+    "level": "B1",
+    "verb": "Make",
+    "phrasal_verb": "Make up for",
+    "translation": "Compensar",
+    "definition_en": "To compensate for something.",
+    "definition_pt": "Compensar por algo.",
+    "example": "I'll make up for the lost time this weekend."
+  },
+  {
+    "level": "B1",
+    "verb": "Pass",
+    "phrasal_verb": "Pass away",
+    "translation": "Falecer",
+    "definition_en": "To die (a more gentle expression).",
+    "definition_pt": "Morrer (uma expressão mais gentil).",
+    "example": "His grandfather passed away last night."
+  },
+  {
+    "level": "B1",
+    "verb": "Pick",
+    "phrasal_verb": "Pick out",
+    "translation": "Escolher",
+    "definition_en": "To select or choose.",
+    "definition_pt": "Selecionar ou escolher.",
+    "example": "Can you help me pick out a dress for the party?"
+  },
+  {
+    "level": "B1",
+    "verb": "Put",
+    "phrasal_verb": "Put back",
+    "translation": "Devolver ao lugar",
+    "definition_en": "To return something to its original place.",
+    "definition_pt": "Devolver algo ao seu lugar original.",
+    "example": "Please put the book back on the shelf when you're done."
+  },
+  {
+    "level": "B1",
+    "verb": "Run",
+    "phrasal_verb": "Run into",
+    "translation": "Encontrar por acaso",
+    "definition_en": "To meet someone unexpectedly.",
+    "definition_pt": "Encontrar alguém inesperadamente.",
+    "example": "I ran into my old teacher at the supermarket."
+  },
+  {
+    "level": "B1",
+    "verb": "Set",
+    "phrasal_verb": "Set off",
+    "translation": "Partir (viagem) / Ativar",
+    "definition_en": "To begin a journey; to cause something to activate.",
+    "definition_pt": "Iniciar uma jornada; fazer algo ativar.",
+    "example": "We set off at dawn. / The loud noise set off the car alarm."
+  },
+  {
+    "level": "B1",
+    "verb": "Take",
+    "phrasal_verb": "Take down",
+    "translation": "Anotar / Desmontar",
+    "definition_en": "To write something down; to dismantle.",
+    "definition_pt": "Escrever algo; desmontar.",
+    "example": "Let me take down your phone number. / We need to take down the tent."
+  },
+  {
+    "level": "B1",
+    "verb": "Talk",
+    "phrasal_verb": "Talk over",
+    "translation": "Discutir",
+    "definition_en": "To discuss something thoroughly.",
+    "definition_pt": "Discutir algo thoroughly.",
+    "example": "Let's talk over the plans before we decide."
+  },
+  {
+    "level": "B1",
+    "verb": "Turn",
+    "phrasal_verb": "Turn back",
+    "translation": "Voltar",
+    "definition_en": "To return the way you came.",
+    "definition_pt": "Voltar pelo mesmo caminho.",
+    "example": "The road was blocked so we had to turn back."
+  },
+  {
+    "level": "B1",
+    "verb": "Work",
+    "phrasal_verb": "Work on",
+    "translation": "Trabalhar em",
+    "definition_en": "To spend time repairing or improving something.",
+    "definition_pt": "Passar tempo consertando ou melhorando algo.",
+    "example": "I need to work on my pronunciation."
+  },
+  {
+    "level": "B2",
+    "verb": "Act",
+    "phrasal_verb": "Act up",
+    "translation": "Funcionar mal / Comportar-se mal",
+    "definition_en": "To malfunction; to behave badly.",
+    "definition_pt": "Funcionar mal; comportar-se mal.",
+    "example": "My knee is acting up again. / The children were acting up in class."
+  },
+  {
+    "level": "B2",
+    "verb": "Answer",
+    "phrasal_verb": "Answer back",
+    "translation": "Responder com insolência",
+    "definition_en": "To reply rudely to someone in authority.",
+    "definition_pt": "Responder com insolência a alguém em autoridade.",
+    "example": "Don't answer back to your mother!"
+  },
+  {
+    "level": "B2",
+    "verb": "Back",
+    "phrasal_verb": "Back down",
+    "translation": "Voltar atrás",
+    "definition_en": "To withdraw a claim or demand in a conflict.",
+    "definition_pt": "Retirar uma reivindicação ou demanda em um conflito.",
+    "example": "He refused to back down from his position."
+  },
+  {
+    "level": "B2",
+    "verb": "Blow",
+    "phrasal_verb": "Blow up",
+    "translation": "Explodir / Ampliar",
+    "definition_en": "To explode; to enlarge.",
+    "definition_pt": "Explodir; ampliar.",
+    "example": "The building blew up in the fire. / Can you blow up this photo?"
+  },
+  {
+    "level": "B2",
+    "verb": "Break",
+    "phrasal_verb": "Break through",
+    "translation": "Romper",
+    "definition_en": "To make a significant advance or discovery.",
+    "definition_pt": "Fazer um avanço ou descoberta significativa.",
+    "example": "Scientists have broken through in cancer research."
+  },
+  {
+    "level": "B2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring along",
+    "translation": "Trazer consigo",
+    "definition_en": "To bring someone or something with you.",
+    "definition_pt": "Trazer alguém ou algo com você.",
+    "example": "You can bring along a friend to the party."
+  },
+  {
+    "level": "B2",
+    "verb": "Call",
+    "phrasal_verb": "Call off",
+    "translation": "Cancelar",
+    "definition_en": "To cancel an event or agreement.",
+    "definition_pt": "Cancelar um evento ou acordo.",
+    "example": "They called off the wedding at the last minute."
+  },
+  {
+    "level": "B2",
+    "verb": "Carry",
+    "phrasal_verb": "Carry out",
+    "translation": "Realizar",
+    "definition_en": "To perform a task or experiment.",
+    "definition_pt": "Realizar uma tarefa ou experimento.",
+    "example": "The study was carried out over three years."
+  },
+  {
+    "level": "B2",
+    "verb": "Catch",
+    "phrasal_verb": "Catch up with",
+    "translation": "Alcançar",
+    "definition_en": "To reach someone who is ahead.",
+    "definition_pt": "Alcançar alguém que está à frente.",
+    "example": "I need to catch up with the rest of the class."
+  },
+  {
+    "level": "B2",
+    "verb": "Come",
+    "phrasal_verb": "Come about",
+    "translation": "Acontecer",
+    "definition_en": "To happen, especially in a way that is not planned.",
+    "definition_pt": "Acontecer, especialmente de maneira não planejada.",
+    "example": "How did this situation come about?"
+  },
+  {
+    "level": "B2",
+    "verb": "Count",
+    "phrasal_verb": "Count on",
+    "translation": "Contar com",
+    "definition_en": "To rely on someone or something.",
+    "definition_pt": "Contar com alguém ou algo.",
+    "example": "You can count on me to help you move."
+  },
+  {
+    "level": "B2",
+    "verb": "Cut",
+    "phrasal_verb": "Cut off",
+    "translation": "Cortar / Isolar",
+    "definition_en": "To remove with a sharp tool; to isolate.",
+    "definition_pt": "Remover com uma ferramenta afiada; isolar.",
+    "example": "He cut off a piece of cheese. / The storm cut off the village."
+  },
+  {
+    "level": "B2",
+    "verb": "Do",
+    "phrasal_verb": "Do without",
+    "translation": "Ficar sem",
+    "definition_en": "To manage without something.",
+    "definition_pt": "Administrar-se sem algo.",
+    "example": "We'll have to do without electricity tonight."
+  },
+  {
+    "level": "B2",
+    "verb": "Draw",
+    "phrasal_verb": "Draw up",
+    "translation": "Elaborar",
+    "definition_en": "To prepare a written document.",
+    "definition_pt": "Preparar um documento escrito.",
+    "example": "The lawyer will draw up the contract."
+  },
+  {
+    "level": "B2",
+    "verb": "Drop",
+    "phrasal_verb": "Drop off",
+    "translation": "Deixar (alguém) / Diminuir",
+    "definition_en": "To deliver someone or something; to decrease.",
+    "definition_pt": "Deixar alguém ou algo; diminuir.",
+    "example": "Can you drop me off at the station? / Sales have dropped off recently."
+  },
+  {
+    "level": "B2",
+    "verb": "End",
+    "phrasal_verb": "End up",
+    "translation": "Acabar (terminar em)",
+    "definition_en": "To eventually reach a state, place, or situation.",
+    "definition_pt": "Acabar em um estado, lugar ou situação.",
+    "example": "If you don't study, you'll end up failing."
+  },
+  {
+    "level": "B2",
+    "verb": "Fall",
+    "phrasal_verb": "Fall for",
+    "translation": "Apaixonar-se por / Acreditar",
+    "definition_en": "To fall in love with; to be deceived by.",
+    "definition_pt": "Apaixonar-se por; ser enganado por.",
+    "example": "He fell for her immediately. / Don't fall for that trick."
+  },
+  {
+    "level": "B2",
+    "verb": "Figure",
+    "phrasal_verb": "Figure out",
+    "translation": "Descobrir / Entender",
+    "definition_en": "To understand or find a solution.",
+    "definition_pt": "Compreender ou encontrar uma solução.",
+    "example": "I need to figure out how to solve this problem."
+  },
+  {
+    "level": "B2",
+    "verb": "Give",
+    "phrasal_verb": "Give in to",
+    "translation": "Ceder a",
+    "definition_en": "To yield to pressure or temptation.",
+    "definition_pt": "Ceder à pressão ou tentação.",
+    "example": "Don't give in to their demands."
+  },
+  {
+    "level": "B2",
+    "verb": "Go",
+    "phrasal_verb": "Go for",
+    "translation": "Optar por / Atacar",
+    "definition_en": "To choose; to attack.",
+    "definition_pt": "Escolher; atacar.",
+    "example": "I think I'll go for the salad. / The dog went for the postman."
+  },
+  {
+    "level": "B2",
+    "verb": "Hold",
+    "phrasal_verb": "Hold back",
+    "translation": "Conter / Reter",
+    "definition_en": "To hesitate; to prevent from advancing.",
+    "definition_pt": "Hesitar; impedir de avançar.",
+    "example": "Don't hold back, tell me what you think. / The police held back the crowd."
+  },
+  {
+    "level": "B2",
+    "verb": "Keep",
+    "phrasal_verb": "Keep from",
+    "translation": "Impedir / Evitar",
+    "definition_en": "To prevent from doing something.",
+    "definition_pt": "Impedir de fazer algo.",
+    "example": "I could hardly keep from laughing."
+  },
+  {
+    "level": "B2",
+    "verb": "Let",
+    "phrasal_verb": "Let in on",
+    "translation": "Participar de (segredo)",
+    "definition_en": "To allow someone to know a secret.",
+    "definition_pt": "Permitir que alguém saiba um segredo.",
+    "example": "They let me in on their plan."
+  },
+  {
+    "level": "B2",
+    "verb": "Live",
+    "phrasal_verb": "Live up to",
+    "translation": "Estar à altura",
+    "definition_en": "To be as good as expected.",
+    "definition_pt": "Ser tão bom quanto esperado.",
+    "example": "The restaurant lived up to its reputation."
+  },
+  {
+    "level": "B2",
+    "verb": "Make",
+    "phrasal_verb": "Make out",
+    "translation": "Distinguir / Entender",
+    "definition_en": "To see, hear, or understand something with difficulty.",
+    "definition_pt": "Ver, ouvir ou entender algo com dificuldade.",
+    "example": "I can't make out what this says."
+  },
+  {
+    "level": "B2",
+    "verb": "Pass",
+    "phrasal_verb": "Pass for",
+    "translation": "Passar por",
+    "definition_en": "To be accepted as something else.",
+    "definition_pt": "Ser aceito como outra coisa.",
+    "example": "He could pass for someone much younger."
+  },
+  {
+    "level": "B2",
+    "verb": "Pick",
+    "phrasal_verb": "Pick up on",
+    "translation": "Perceber",
+    "definition_en": "To notice something subtle.",
+    "definition_pt": "Perceber algo sutil.",
+    "example": "She quickly picked up on the tension in the room."
+  },
+  {
+    "level": "B2",
+    "verb": "Point",
+    "phrasal_verb": "Point out",
+    "translation": "Apontar",
+    "definition_en": "To direct attention to something.",
+    "definition_pt": "Direcionar a atenção para algo.",
+    "example": "She pointed out an error in the report."
+  },
+  {
+    "level": "B2",
+    "verb": "Put",
+    "phrasal_verb": "Put aside",
+    "translation": "Deixar de lado",
+    "definition_en": "To ignore or save for later.",
+    "definition_pt": "Ignorar ou guardar para depois.",
+    "example": "Let's put aside our differences."
+  },
+  {
+    "level": "B2",
+    "verb": "Rule",
+    "phrasal_verb": "Rule out",
+    "translation": "Descartar",
+    "definition_en": "To eliminate as a possibility.",
+    "definition_pt": "Eliminar como possibilidade.",
+    "example": "The doctor ruled out a broken bone."
+  },
+  {
+    "level": "B2",
+    "verb": "Run",
+    "phrasal_verb": "Run over",
+    "translation": "Atropelar / Repassar",
+    "definition_en": "To hit with a vehicle; to review.",
+    "definition_pt": "Atropelar; revisar.",
+    "example": "The dog was run over by a car. / Let's run over the plan one more time."
+  },
+  {
+    "level": "B2",
+    "verb": "Set",
+    "phrasal_verb": "Set out",
+    "translation": "Partir / Expôr",
+    "definition_en": "To begin a journey; to explain clearly.",
+    "definition_pt": "Iniciar uma jornada; explicar claramente.",
+    "example": "They set out at dawn. / The rules are set out in this document."
+  },
+  {
+    "level": "B2",
+    "verb": "Stand",
+    "phrasal_verb": "Stand out",
+    "translation": "Destacar-se",
+    "definition_en": "To be noticeably better or different.",
+    "definition_pt": "Ser notavelmente melhor ou diferente.",
+    "example": "Her red hair makes her stand out in a crowd."
+  },
+  {
+    "level": "B2",
+    "verb": "Take",
+    "phrasal_verb": "Take aside",
+    "translation": "Chamar à parte",
+    "definition_en": "To speak to someone privately.",
+    "definition_pt": "Falar com alguém em privado.",
+    "example": "The manager took her aside to give her some feedback."
+  },
+  {
+    "level": "B2",
+    "verb": "Talk",
+    "phrasal_verb": "Talk into",
+    "translation": "Convencer",
+    "definition_en": "To persuade someone to do something.",
+    "definition_pt": "Persuadir alguém a fazer algo.",
+    "example": "She talked me into going to the party."
+  },
+  {
+    "level": "B2",
+    "verb": "Turn",
+    "phrasal_verb": "Turn to",
+    "translation": "Recorrer a",
+    "definition_en": "To go to someone for help or support.",
+    "definition_pt": "Recorrer a alguém por ajuda ou apoio.",
+    "example": "When I'm in trouble, I turn to my family."
+  },
+  {
+    "level": "B2",
+    "verb": "Work",
+    "phrasal_verb": "Work out at",
+    "translation": "Sair por (custo)",
+    "definition_en": "To have a particular cost or result.",
+    "definition_pt": "Ter um custo ou resultado particular.",
+    "example": "The total bill worked out at $50 per person."
+  },
+  {
+    "level": "C1",
+    "verb": "Account",
+    "phrasal_verb": "Account for",
+    "translation": "Explicar / Representar",
+    "definition_en": "To explain; to constitute.",
+    "definition_pt": "Explicar; constituir.",
+    "example": "How do you account for your actions? / Imports account for 30% of sales."
+  },
+  {
+    "level": "C1",
+    "verb": "Answer",
+    "phrasal_verb": "Answer for",
+    "translation": "Responsabilizar-se por",
+    "definition_en": "To be held responsible for something.",
+    "definition_pt": "Ser responsabilizado por algo.",
+    "example": "You will have to answer for your mistakes."
+  },
+  {
+    "level": "C1",
+    "verb": "Back",
+    "phrasal_verb": "Back out",
+    "translation": "Voltar atrás (promessa)",
+    "definition_en": "To withdraw from a commitment.",
+    "definition_pt": "Retirar-se de um compromisso.",
+    "example": "He backed out of the deal at the last minute."
+  },
+  {
+    "level": "C1",
+    "verb": "Bail",
+    "phrasal_verb": "Bail out",
+    "translation": "Socorrer financeiramente",
+    "definition_en": "To rescue someone from financial difficulty.",
+    "definition_pt": "Resgatar alguém de dificuldade financeira.",
+    "example": "The government bailed out the bank."
+  },
+  {
+    "level": "C1",
+    "verb": "Bear",
+    "phrasal_verb": "Bear out",
+    "translation": "Confirmar",
+    "definition_en": "To confirm or support something.",
+    "definition_pt": "Confirmar ou apoiar algo.",
+    "example": "The evidence bears out his story."
+  },
+  {
+    "level": "C1",
+    "verb": "Break",
+    "phrasal_verb": "Break with",
+    "translation": "Romper com",
+    "definition_en": "To end a relationship or tradition.",
+    "definition_pt": "Terminar um relacionamento ou tradição.",
+    "example": "He broke with his family over their political views."
+  },
+  {
+    "level": "C1",
+    "verb": "Bring",
+    "phrasal_verb": "Bring forth",
+    "translation": "Produzir / Apresentar",
+    "definition_en": "To produce; to present something.",
+    "definition_pt": "Produzir; apresentar algo.",
+    "example": "The tree brings forth fruit in autumn. / She brought forth new evidence."
+  },
+  {
+    "level": "C1",
+    "verb": "Call",
+    "phrasal_verb": "Call forth",
+    "translation": "Evocar",
+    "definition_en": "To cause something to appear or happen.",
+    "definition_pt": "Fazer algo aparecer ou acontecer.",
+    "example": "The speech called forth a standing ovation."
+  },
+  {
+    "level": "C1",
+    "verb": "Come",
+    "phrasal_verb": "Come by",
+    "translation": "Conseguir / Passar por",
+    "definition_en": "To obtain something; to visit.",
+    "definition_pt": "Obter algo; visitar.",
+    "example": "How did you come by that painting? / Come by sometime for coffee."
+  },
+  {
+    "level": "C1",
+    "verb": "Crop",
+    "phrasal_verb": "Crop up",
+    "translation": "Surgir inesperadamente",
+    "definition_en": "To appear or happen unexpectedly.",
+    "definition_pt": "Aparecer ou acontecer inesperadamente.",
+    "example": "A problem has cropped up with the delivery."
+  },
+  {
+    "level": "C1",
+    "verb": "Do",
+    "phrasal_verb": "Do away with",
+    "translation": "Abolir",
+    "definition_en": "To abolish or get rid of something.",
+    "definition_pt": "Abolir ou livrar-se de algo.",
+    "example": "The law did away with the old tax system."
+  },
+  {
+    "level": "C1",
+    "verb": "Draw",
+    "phrasal_verb": "Draw out",
+    "translation": "Extrair / Prolongar",
+    "definition_en": "To elicit information; to make something last longer.",
+    "definition_pt": "Extrair informação; fazer algo durar mais.",
+    "example": "The interviewer drew out his opinions. / She drew out the story for dramatic effect."
+  },
+  {
+    "level": "C1",
+    "verb": "Fall",
+    "phrasal_verb": "Fall back on",
+    "translation": "Recorrer a",
+    "definition_en": "To use something when in difficulty.",
+    "definition_pt": "Usar algo quando em dificuldade.",
+    "example": "I have my savings to fall back on."
+  },
+  {
+    "level": "C1",
+    "verb": "Get",
+    "phrasal_verb": "Get around to",
+    "translation": "Encontrar tempo para",
+    "definition_en": "To eventually find time to do something.",
+    "definition_pt": "Finalmente encontrar tempo para fazer algo.",
+    "example": "I finally got around to cleaning the garage."
+  },
+  {
+    "level": "C1",
+    "verb": "Go",
+    "phrasal_verb": "Go in for",
+    "translation": "Dedicar-se a",
+    "definition_en": "To participate in; to like or enjoy.",
+    "definition_pt": "Participar de; gostar ou desfrutar.",
+    "example": "She goes in for tennis. / I don't go in for modern art."
+  },
+  {
+    "level": "C1",
+    "verb": "Hold",
+    "phrasal_verb": "Hold out for",
+    "translation": "Esperar por (algo melhor)",
+    "definition_en": "To wait for something better.",
+    "definition_pt": "Esperar por algo melhor.",
+    "example": "Don't accept the first offer; hold out for more money."
+  },
+  {
+    "level": "C1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep up with",
+    "translation": "Manter-se atualizado",
+    "definition_en": "To stay informed about something.",
+    "definition_pt": "Manter-se informado sobre algo.",
+    "example": "It's hard to keep up with all the news."
+  },
+  {
+    "level": "C1",
+    "verb": "Live",
+    "phrasal_verb": "Live down",
+    "translation": "Superar (vergonha)",
+    "definition_en": "To overcome embarrassment about something.",
+    "definition_pt": "Superar o constrangimento sobre algo.",
+    "example": "He'll never live down that embarrassing moment."
+  },
+  {
+    "level": "C1",
+    "verb": "Make",
+    "phrasal_verb": "Make off with",
+    "translation": "Fugir com",
+    "definition_en": "To steal something and escape.",
+    "definition_pt": "Roubar algo e escapar.",
+    "example": "The thieves made off with the jewels."
+  },
+  {
+    "level": "C1",
+    "verb": "Pass",
+    "phrasal_verb": "Pass over",
+    "translation": "Ignorar / Preterir",
+    "definition_en": "To ignore or not consider someone for promotion.",
+    "definition_pt": "Ignorar ou não considerar alguém para promoção.",
+    "example": "He was passed over for promotion again."
+  },
+  {
+    "level": "C1",
+    "verb": "Pick",
+    "phrasal_verb": "Pick up after",
+    "translation": "Arrumar a bagunça de",
+    "definition_en": "To tidy things someone has left untidy.",
+    "definition_pt": "Arrumar as coisas que alguém deixou bagunçadas.",
+    "example": "I'm tired of picking up after you."
+  },
+  {
+    "level": "C1",
+    "verb": "Set",
+    "phrasal_verb": "Set about",
+    "translation": "Começar a fazer",
+    "definition_en": "To begin doing something.",
+    "definition_pt": "Começar a fazer algo.",
+    "example": "She set about cleaning the entire house."
+  },
+  {
+    "level": "C1",
+    "verb": "Stand",
+    "phrasal_verb": "Stand in for",
+    "translation": "Substituir",
+    "definition_en": "To take someone's place temporarily.",
+    "definition_pt": "Tomar o lugar de alguém temporariamente.",
+    "example": "Can you stand in for me at the meeting?"
+  },
+  {
+    "level": "C1",
+    "verb": "Take",
+    "phrasal_verb": "Take out on",
+    "translation": "Descontar em",
+    "definition_en": "To make someone else suffer for your own bad feelings.",
+    "definition_pt": "Fazer outra pessoa sofrer por seus próprios sentimentos ruins.",
+    "example": "Don't take your frustration out on me."
+  },
+  {
+    "level": "C1",
+    "verb": "Work",
+    "phrasal_verb": "Work up to",
+    "translation": "Chegar gradualmente a",
+    "definition_en": "To progress gradually to something more difficult.",
+    "definition_pt": "Progressar gradualmente para algo mais difícil.",
+    "example": "I'm working up to running a marathon."
+  },
+  {
+    "level": "A1",
+    "verb": "Wake",
+    "phrasal_verb": "Wake up",
+    "translation": "Acordar",
+    "definition_en": "To stop sleeping.",
+    "definition_pt": "Parar de dormir.",
+    "example": "I wake up at 7 AM every day."
+  },
+  {
+    "level": "A1",
+    "verb": "Stand",
+    "phrasal_verb": "Stand up",
+    "translation": "Levantar-se",
+    "definition_en": "To rise to a standing position.",
+    "definition_pt": "Levantar-se para uma posição em pé.",
+    "example": "Please stand up when the teacher enters the room."
+  },
+  {
+    "level": "A1",
+    "verb": "Sit",
+    "phrasal_verb": "Sit down",
+    "translation": "Sentar-se",
+    "definition_en": "To lower oneself into a seated position.",
+    "definition_pt": "Baixar-se para uma posição sentada.",
+    "example": "Let's sit down and talk about this."
+  },
+  {
+    "level": "A1",
+    "verb": "Come",
+    "phrasal_verb": "Come here",
+    "translation": "Venha aqui",
+    "definition_en": "To move toward the speaker.",
+    "definition_pt": "Mover-se em direção ao falante.",
+    "example": "Come here, I want to show you something."
+  },
+  {
+    "level": "A1",
+    "verb": "Put",
+    "phrasal_verb": "Put down",
+    "translation": "Colocar no chão",
+    "definition_en": "To place something on a surface.",
+    "definition_pt": "Colocar algo em uma superfície.",
+    "example": "Put down your bags and make yourself comfortable."
+  },
+  {
+    "level": "A1",
+    "verb": "Pick",
+    "phrasal_verb": "Pick up",
+    "translation": "Pegar",
+    "definition_en": "To lift something from a surface.",
+    "definition_pt": "Levantar algo de uma superfície.",
+    "example": "Can you pick up that book for me?"
+  },
+  {
+    "level": "A1",
+    "verb": "Look",
+    "phrasal_verb": "Look at",
+    "translation": "Olhar para",
+    "definition_en": "To direct your eyes toward something.",
+    "definition_pt": "Direcionar os olhos para algo.",
+    "example": "Look at this beautiful painting!"
+  },
+  {
+    "level": "A1",
+    "verb": "Listen",
+    "phrasal_verb": "Listen to",
+    "translation": "Ouvir",
+    "definition_en": "To pay attention to sound.",
+    "definition_pt": "Prestar atenção ao som.",
+    "example": "I like to listen to music while I work."
+  },
+  {
+    "level": "A2",
+    "verb": "Get",
+    "phrasal_verb": "Get dressed",
+    "translation": "Vestir-se",
+    "definition_en": "To put clothes on.",
+    "definition_pt": "Colocar roupas.",
+    "example": "I need to get dressed before we go out."
+  },
+  {
+    "level": "A2",
+    "verb": "Get",
+    "phrasal_verb": "Get undressed",
+    "translation": "Despir-se",
+    "definition_en": "To take clothes off.",
+    "definition_pt": "Tirar roupas.",
+    "example": "He got undressed and took a shower."
+  },
+  {
+    "level": "A2",
+    "verb": "Hurry",
+    "phrasal_verb": "Hurry up",
+    "translation": "Apresse-se",
+    "definition_en": "To do something more quickly.",
+    "definition_pt": "Fazer algo mais rapidamente.",
+    "example": "Hurry up or we'll be late!"
+  },
+  {
+    "level": "A2",
+    "verb": "Slow",
+    "phrasal_verb": "Slow down",
+    "translation": "Desacelerar",
+    "definition_en": "To reduce speed.",
+    "definition_pt": "Reduzir a velocidade.",
+    "example": "Slow down, you're driving too fast."
+  },
+  {
+    "level": "A2",
+    "verb": "Calm",
+    "phrasal_verb": "Calm down",
+    "translation": "Acalmar-se",
+    "definition_en": "To become calm or less agitated.",
+    "definition_pt": "Tornar-se calmo ou menos agitado.",
+    "example": "Please calm down and tell me what happened."
+  },
+  {
+    "level": "A2",
+    "verb": "Clean",
+    "phrasal_verb": "Clean up",
+    "translation": "Limpar",
+    "definition_en": "To make something clean and tidy.",
+    "definition_pt": "Deixar algo limpo e arrumado.",
+    "example": "We need to clean up the kitchen after cooking."
+  },
+  {
+    "level": "A2",
+    "verb": "Wash",
+    "phrasal_verb": "Wash up",
+    "translation": "Lavar a louça",
+    "definition_en": "To wash dishes after a meal.",
+    "definition_pt": "Lavar a louça após uma refeição.",
+    "example": "I'll cook if you wash up afterwards."
+  },
+  {
+    "level": "A2",
+    "verb": "Try",
+    "phrasal_verb": "Try on",
+    "translation": "Experimentar roupa",
+    "definition_en": "To put on clothing to see if it fits.",
+    "definition_pt": "Vestir uma roupa para ver se serve.",
+    "example": "I need to try on these shoes before I buy them."
+  },
+  {
+    "level": "A2",
+    "verb": "Switch",
+    "phrasal_verb": "Switch off",
+    "translation": "Desligar",
+    "definition_en": "To turn off an electrical device.",
+    "definition_pt": "Desligar um dispositivo elétrico.",
+    "example": "Switch off your phone during the movie."
+  },
+  {
+    "level": "A2",
+    "verb": "Switch",
+    "phrasal_verb": "Switch on",
+    "translation": "Ligar",
+    "definition_en": "To turn on an electrical device.",
+    "definition_pt": "Ligar um dispositivo elétrico.",
+    "example": "Switch on the lamp so we can see better."
+  },
+  {
+    "level": "A2",
+    "verb": "Plug",
+    "phrasal_verb": "Plug in",
+    "translation": "Conectar na tomada",
+    "definition_en": "To connect an electrical device to a power source.",
+    "definition_pt": "Conectar um dispositivo elétrico a uma fonte de energia.",
+    "example": "Plug in your laptop so it can charge."
+  },
+  {
+    "level": "A2",
+    "verb": "Hang",
+    "phrasal_verb": "Hang up",
+    "translation": "Desligar o telefone",
+    "definition_en": "To end a phone call.",
+    "definition_pt": "Terminar uma ligação telefônica.",
+    "example": "I said goodbye and hung up the phone."
+  },
+  {
+    "level": "A2",
+    "verb": "Write",
+    "phrasal_verb": "Write down",
+    "translation": "Anotar",
+    "definition_en": "To record information on paper.",
+    "definition_pt": "Registrar informação no papel.",
+    "example": "Write down my phone number so you don't forget it."
+  },
+  {
+    "level": "B1",
+    "verb": "Call",
+    "phrasal_verb": "Call back",
+    "translation": "Ligar de volta",
+    "definition_en": "To return a phone call.",
+    "definition_pt": "Retornar uma ligação telefônica.",
+    "example": "I'm busy right now, can I call you back later?"
+  },
+  {
+    "level": "B1",
+    "verb": "Check",
+    "phrasal_verb": "Check in",
+    "translation": "Fazer check-in",
+    "definition_en": "To register at a hotel or airport.",
+    "definition_pt": "Registrar-se em um hotel ou aeroporto.",
+    "example": "We need to check in at the hotel before 3 PM."
+  },
+  {
+    "level": "B1",
+    "verb": "Check",
+    "phrasal_verb": "Check out",
+    "translation": "Fazer check-out",
+    "definition_en": "To leave a hotel after paying.",
+    "definition_pt": "Sair de um hotel após pagar.",
+    "example": "We checked out of the hotel this morning."
+  },
+  {
+    "level": "B1",
+    "verb": "Fill",
+    "phrasal_verb": "Fill in",
+    "translation": "Preencher",
+    "definition_en": "To complete a form by writing information.",
+    "definition_pt": "Completar um formulário com informações.",
+    "example": "Please fill in this application form with your details."
+  },
+  {
+    "level": "B1",
+    "verb": "Grow",
+    "phrasal_verb": "Grow up",
+    "translation": "Crescer",
+    "definition_en": "To change from being a child to an adult.",
+    "definition_pt": "Mudar de criança para adulto.",
+    "example": "He grew up in a small town in the countryside."
+  },
+  {
+    "level": "B1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep on",
+    "translation": "Continuar",
+    "definition_en": "To continue doing something.",
+    "definition_pt": "Continuar fazendo algo.",
+    "example": "Keep on practicing and you'll improve quickly."
+  },
+  {
+    "level": "B1",
+    "verb": "Make",
+    "phrasal_verb": "Make up",
+    "translation": "Inventar",
+    "definition_en": "To invent a story or excuse.",
+    "definition_pt": "Inventar uma história ou desculpa.",
+    "example": "He made up an excuse for being late to work."
+  },
+  {
+    "level": "B1",
+    "verb": "Run",
+    "phrasal_verb": "Run out of",
+    "translation": "Ficar sem",
+    "definition_en": "To have no more of something left.",
+    "definition_pt": "Não ter mais algo restante.",
+    "example": "We've run out of milk. I need to go to the store."
+  },
+  {
+    "level": "B1",
+    "verb": "Set",
+    "phrasal_verb": "Set up",
+    "translation": "Montar",
+    "definition_en": "To assemble or arrange something.",
+    "definition_pt": "Montar ou organizar algo.",
+    "example": "It took me two hours to set up the new computer."
+  },
+  {
+    "level": "B1",
+    "verb": "Work",
+    "phrasal_verb": "Work out",
+    "translation": "Exercitar-se",
+    "definition_en": "To exercise.",
+    "definition_pt": "Fazer exercícios físicos.",
+    "example": "I work out at the gym three times a week."
+  },
+  {
+    "level": "B2",
+    "verb": "Act",
+    "phrasal_verb": "Act out",
+    "translation": "Representar",
+    "definition_en": "To perform a role or story.",
+    "definition_pt": "Desempenhar um papel ou história.",
+    "example": "The children acted out their favorite fairy tale."
+  },
+  {
+    "level": "B2",
+    "verb": "Add",
+    "phrasal_verb": "Add up",
+    "translation": "Somar",
+    "definition_en": "To calculate the total of numbers.",
+    "definition_pt": "Calcular o total de números.",
+    "example": "Add up all the expenses and see how much we spent."
+  },
+  {
+    "level": "B2",
+    "verb": "Back",
+    "phrasal_verb": "Back up",
+    "translation": "Apoiar",
+    "definition_en": "To support someone.",
+    "definition_pt": "Apoiar alguém.",
+    "example": "I'll back you up in the meeting if you need help."
+  },
+  {
+    "level": "B2",
+    "verb": "Blow",
+    "phrasal_verb": "Blow away",
+    "translation": "Impressionar muito",
+    "definition_en": "To greatly impress someone.",
+    "definition_pt": "Impressionar muito alguém.",
+    "example": "Her performance blew everyone away."
+  },
+  {
+    "level": "B2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring back",
+    "translation": "Trazer de volta",
+    "definition_en": "To return something.",
+    "definition_pt": "Devolver algo.",
+    "example": "Can you bring back my book when you're finished?"
+  },
+  {
+    "level": "B2",
+    "verb": "Call",
+    "phrasal_verb": "Call on",
+    "translation": "Visitar",
+    "definition_en": "To visit someone briefly.",
+    "definition_pt": "Visitar alguém brevemente.",
+    "example": "I'll call on you when I'm in your neighborhood."
+  },
+  {
+    "level": "B2",
+    "verb": "Catch",
+    "phrasal_verb": "Catch up",
+    "translation": "Alcançar",
+    "definition_en": "To reach someone who is ahead.",
+    "definition_pt": "Alcançar alguém que está à frente.",
+    "example": "I need to catch up on my reading this weekend."
+  },
+  {
+    "level": "B2",
+    "verb": "Come",
+    "phrasal_verb": "Come down with",
+    "translation": "Ficar doente",
+    "definition_en": "To become sick with an illness.",
+    "definition_pt": "Ficar doente com uma doença.",
+    "example": "I think I'm coming down with a cold."
+  },
+  {
+    "level": "B2",
+    "verb": "Come",
+    "phrasal_verb": "Come up",
+    "translation": "Surgir",
+    "definition_en": "To occur or happen unexpectedly.",
+    "definition_pt": "Ocorrer ou acontecer inesperadamente.",
+    "example": "Something urgent has come up and I can't meet you today."
+  },
+  {
+    "level": "B2",
+    "verb": "Cut",
+    "phrasal_verb": "Cut back",
+    "translation": "Reduzir",
+    "definition_en": "To reduce consumption or spending.",
+    "definition_pt": "Reduzir consumo ou gastos.",
+    "example": "We need to cut back on our expenses this month."
+  },
+  {
+    "level": "B2",
+    "verb": "Cut",
+    "phrasal_verb": "Cut down",
+    "translation": "Reduzir",
+    "definition_en": "To reduce the amount of something.",
+    "definition_pt": "Reduzir a quantidade de algo.",
+    "example": "I'm trying to cut down on coffee."
+  },
+  {
+    "level": "B2",
+    "verb": "Drop",
+    "phrasal_verb": "Drop by",
+    "translation": "Passar rapidamente",
+    "definition_en": "To visit someone informally.",
+    "definition_pt": "Visitar alguém informalmente.",
+    "example": "Feel free to drop by anytime you're in the area."
+  },
+  {
+    "level": "B2",
+    "verb": "Drop",
+    "phrasal_verb": "Drop out",
+    "translation": "Desistir",
+    "definition_en": "To leave school or college before finishing.",
+    "definition_pt": "Deixar a escola ou faculdade antes de terminar.",
+    "example": "He dropped out of college to start his own business."
+  },
+  {
+    "level": "B2",
+    "verb": "Fall",
+    "phrasal_verb": "Fall apart",
+    "translation": "Desmoronar",
+    "definition_en": "To break into pieces.",
+    "definition_pt": "Quebrar em pedaços.",
+    "example": "The old book fell apart when I touched it."
+  },
+  {
+    "level": "B2",
+    "verb": "Fall",
+    "phrasal_verb": "Fall out",
+    "translation": "Discutir",
+    "definition_en": "To have an argument with someone.",
+    "definition_pt": "Discutir com alguém.",
+    "example": "They fell out over money issues."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get along",
+    "translation": "Dar-se bem",
+    "definition_en": "To have a friendly relationship.",
+    "definition_pt": "Ter um relacionamento amigável.",
+    "example": "She gets along with all her coworkers."
+  },
+  {
+    "level": "B2",
+    "verb": "Get",
+    "phrasal_verb": "Get around",
+    "translation": "Circular",
+    "definition_en": "To move from place to place.",
+    "definition_pt": "Mover-se de um lugar para outro.",
+    "example": "It's easy to get around the city by public transportation."
+  },
+  {
+    "level": "A1",
+    "verb": "Brush",
+    "phrasal_verb": "Brush up",
+    "translation": "Escovar (dentes/cabelo)",
+    "definition_en": "To clean teeth or hair with a brush.",
+    "definition_pt": "Limpar dentes ou cabelo com uma escova.",
+    "example": "Brush up your teeth before bed."
+  },
+  {
+    "level": "A1",
+    "verb": "Throw",
+    "phrasal_verb": "Throw away",
+    "translation": "Jogar fora",
+    "definition_en": "To dispose of something.",
+    "definition_pt": "Descartar algo.",
+    "example": "Throw away the empty bottle."
+  },
+  {
+    "level": "A1",
+    "verb": "Wait",
+    "phrasal_verb": "Wait for",
+    "translation": "Esperar por",
+    "definition_en": "To stay in a place until someone arrives.",
+    "definition_pt": "Ficar em um lugar até alguém chegar.",
+    "example": "Wait for me at the bus stop."
+  },
+  {
+    "level": "A1",
+    "verb": "Talk",
+    "phrasal_verb": "Talk to",
+    "translation": "Falar com",
+    "definition_en": "To speak with someone.",
+    "definition_pt": "Falar com alguém.",
+    "example": "I need to talk to my teacher after class."
+  },
+  {
+    "level": "A1",
+    "verb": "Speak",
+    "phrasal_verb": "Speak to",
+    "translation": "Falar com",
+    "definition_en": "To have a conversation with someone.",
+    "definition_pt": "Ter uma conversa com alguém.",
+    "example": "Can I speak to the manager, please?"
+  },
+  {
+    "level": "A1",
+    "verb": "Think",
+    "phrasal_verb": "Think about",
+    "translation": "Pensar sobre",
+    "definition_en": "To consider something.",
+    "definition_pt": "Considerar algo.",
+    "example": "I need to think about your proposal."
+  },
+  {
+    "level": "A1",
+    "verb": "Play",
+    "phrasal_verb": "Play with",
+    "translation": "Brincar com",
+    "definition_en": "To engage in activity for enjoyment.",
+    "definition_pt": "Participar de atividade por diversão.",
+    "example": "The children play with their toys."
+  },
+  {
+    "level": "A1",
+    "verb": "Eat",
+    "phrasal_verb": "Eat out",
+    "translation": "Comer fora",
+    "definition_en": "To have a meal at a restaurant.",
+    "definition_pt": "Fazer uma refeição em um restaurante.",
+    "example": "Let's eat out tonight."
+  },
+  {
+    "level": "A1",
+    "verb": "Drink",
+    "phrasal_verb": "Drink up",
+    "translation": "Beber tudo",
+    "definition_en": "To finish your drink.",
+    "definition_pt": "Terminar sua bebida.",
+    "example": "Drink up your milk before it gets warm."
+  },
+  {
+    "level": "A1",
+    "verb": "Read",
+    "phrasal_verb": "Read out",
+    "translation": "Ler em voz alta",
+    "definition_en": "To read something aloud.",
+    "definition_pt": "Ler algo em voz alta.",
+    "example": "The teacher read out the story to the class."
+  },
+  {
+    "level": "A1",
+    "verb": "Sing",
+    "phrasal_verb": "Sing along",
+    "translation": "Cantar junto",
+    "definition_en": "To sing with someone else.",
+    "definition_pt": "Cantar com outra pessoa.",
+    "example": "Everyone sang along with the popular song."
+  },
+  {
+    "level": "A1",
+    "verb": "Dance",
+    "phrasal_verb": "Dance to",
+    "translation": "Dançar conforme",
+    "definition_en": "To move to the rhythm of music.",
+    "definition_pt": "Mover-se ao ritmo da música.",
+    "example": "The children danced to the music."
+  },
+  {
+    "level": "A1",
+    "verb": "Run",
+    "phrasal_verb": "Run around",
+    "translation": "Correr por aí",
+    "definition_en": "To run in different directions.",
+    "definition_pt": "Correr em direções diferentes.",
+    "example": "The kids ran around in the park."
+  },
+  {
+    "level": "A1",
+    "verb": "Jump",
+    "phrasal_verb": "Jump up",
+    "translation": "Pular para cima",
+    "definition_en": "To propel oneself upward.",
+    "definition_pt": "Impulsionar-se para cima.",
+    "example": "The dog jumped up to catch the ball."
+  },
+  {
+    "level": "A1",
+    "verb": "Climb",
+    "phrasal_verb": "Climb up",
+    "translation": "Escalar para cima",
+    "definition_en": "To move upward using hands and feet.",
+    "definition_pt": "Mover-se para cima usando mãos e pés.",
+    "example": "The cat climbed up the tree."
+  },
+  {
+    "level": "A1",
+    "verb": "Help",
+    "phrasal_verb": "Help out",
+    "translation": "Ajudar",
+    "definition_en": "To assist someone.",
+    "definition_pt": "Ajudar alguém.",
+    "example": "Can you help out with the dishes?"
+  },
+  {
+    "level": "A1",
+    "verb": "Ask",
+    "phrasal_verb": "Ask for",
+    "translation": "Pedir por",
+    "definition_en": "To request something.",
+    "definition_pt": "Solicitar algo.",
+    "example": "Don't be afraid to ask for help."
+  },
+  {
+    "level": "A1",
+    "verb": "Pay",
+    "phrasal_verb": "Pay for",
+    "translation": "Pagar por",
+    "definition_en": "To give money in exchange for something.",
+    "definition_pt": "Dar dinheiro em troca de algo.",
+    "example": "I'll pay for the tickets."
+  },
+  {
+    "level": "B1",
+    "verb": "Get",
+    "phrasal_verb": "Get away",
+    "translation": "Escapar",
+    "definition_en": "To escape from a place or situation.",
+    "definition_pt": "Escapar de um lugar ou situação.",
+    "example": "We need to get away from this crowded place."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go along",
+    "translation": "Acompanhar",
+    "definition_en": "To accompany someone.",
+    "definition_pt": "Acompanhar alguém.",
+    "example": "I'll go along with you to the store."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go by",
+    "translation": "Passar (tempo)",
+    "definition_en": "To pass (time).",
+    "definition_pt": "Passar (tempo).",
+    "example": "The days go by quickly when you're busy."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go off",
+    "translation": "Desligar (alarme)",
+    "definition_en": "To make a sudden loud noise (alarm).",
+    "definition_pt": "Fazer um barulho alto repentino (alarme).",
+    "example": "The fire alarm went off in the middle of the night."
+  },
+  {
+    "level": "B1",
+    "verb": "Go",
+    "phrasal_verb": "Go up",
+    "translation": "Subir",
+    "definition_en": "To move to a higher level.",
+    "definition_pt": "Mover-se para um nível superior.",
+    "example": "Prices go up every year."
+  },
+  {
+    "level": "B1",
+    "verb": "Grow",
+    "phrasal_verb": "Grow apart",
+    "translation": "Distanciar-se",
+    "definition_en": "To gradually become less close to someone.",
+    "definition_pt": "Gradualmente tornar-se menos próximo de alguém.",
+    "example": "We were best friends in school but grew apart over the years."
+  },
+  {
+    "level": "B1",
+    "verb": "Grow",
+    "phrasal_verb": "Grow into",
+    "translation": "Crescer e caber em",
+    "definition_en": "To become large enough to wear something.",
+    "definition_pt": "Tornar-se grande o suficiente para usar algo.",
+    "example": "The shoes are too big now, but he'll grow into them."
+  },
+  {
+    "level": "B1",
+    "verb": "Hand",
+    "phrasal_verb": "Hand in",
+    "translation": "Entregar",
+    "definition_en": "To submit something formally.",
+    "definition_pt": "Submeter algo formalmente.",
+    "example": "Please hand in your assignments by Friday."
+  },
+  {
+    "level": "B1",
+    "verb": "Hand",
+    "phrasal_verb": "Hand out",
+    "translation": "Distribuir",
+    "definition_en": "To distribute something to a group of people.",
+    "definition_pt": "Distribuir algo para um grupo de pessoas.",
+    "example": "The teacher handed out the test papers."
+  },
+  {
+    "level": "B1",
+    "verb": "Hand",
+    "phrasal_verb": "Hand over",
+    "translation": "Entregar",
+    "definition_en": "To give something to someone else.",
+    "definition_pt": "Dar algo para outra pessoa.",
+    "example": "Hand over the money and no one gets hurt."
+  },
+  {
+    "level": "B1",
+    "verb": "Hang",
+    "phrasal_verb": "Hang around",
+    "translation": "Ficar por perto",
+    "definition_en": "To spend time in a place without any specific purpose.",
+    "definition_pt": "Passar tempo em um lugar sem nenhum propósito específico.",
+    "example": "We used to hang around the mall after school."
+  },
+  {
+    "level": "B1",
+    "verb": "Hang",
+    "phrasal_verb": "Hang on",
+    "translation": "Esperar",
+    "definition_en": "To wait for a short time.",
+    "definition_pt": "Esperar por um curto tempo.",
+    "example": "Hang on, I'll be right with you."
+  },
+  {
+    "level": "B1",
+    "verb": "Hang",
+    "phrasal_verb": "Hang out",
+    "translation": "Passar tempo",
+    "definition_en": "To spend time relaxing or socializing informally.",
+    "definition_pt": "Passar tempo relaxando ou socializando informalmente.",
+    "example": "Let's hang out at my place this weekend."
+  },
+  {
+    "level": "B1",
+    "verb": "Hold",
+    "phrasal_verb": "Hold up",
+    "translation": "Atrasar",
+    "definition_en": "To delay someone or something.",
+    "definition_pt": "Atrasar alguém ou algo.",
+    "example": "Sorry I'm late, I was held up in traffic."
+  },
+  {
+    "level": "B1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep away",
+    "translation": "Manter afastado",
+    "definition_en": "To avoid going near something or someone.",
+    "definition_pt": "Evitar aproximar-se de algo ou alguém.",
+    "example": "Keep away from the edge of the cliff."
+  },
+  {
+    "level": "B1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep back",
+    "translation": "Reter",
+    "definition_en": "To not give or tell something.",
+    "definition_pt": "Não dar ou contar algo.",
+    "example": "He kept back some important information."
+  },
+  {
+    "level": "B1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep down",
+    "translation": "Manter baixo",
+    "definition_en": "To keep something at a low level.",
+    "definition_pt": "Manter algo em um nível baixo.",
+    "example": "We need to keep down the noise."
+  },
+  {
+    "level": "B1",
+    "verb": "Keep",
+    "phrasal_verb": "Keep off",
+    "translation": "Manter fora",
+    "definition_en": "To avoid touching or entering something.",
+    "definition_pt": "Evitar tocar ou entrar em algo.",
+    "example": "Keep off the grass."
+  },
+  {
+    "level": "B1",
+    "verb": "Knock",
+    "phrasal_verb": "Knock down",
+    "translation": "Derrubar",
+    "definition_en": "To hit someone so they fall to the ground.",
+    "definition_pt": "Bater em alguém para que caia no chão.",
+    "example": "The boxer knocked down his opponent."
+  },
+  {
+    "level": "B1",
+    "verb": "Knock",
+    "phrasal_verb": "Knock out",
+    "translation": "Nocautear",
+    "definition_en": "To make someone unconscious.",
+    "definition_pt": "Deixar alguém inconsciente.",
+    "example": "The blow to the head knocked him out."
+  },
+  {
+    "level": "C2",
+    "verb": "Abide",
+    "phrasal_verb": "Abide by",
+    "translation": "Cumprir (regras/acordo)",
+    "definition_en": "To accept and follow a decision, rule, or agreement.",
+    "definition_pt": "Aceitar e seguir uma decisão, regra ou acordo.",
+    "example": "All members must abide by the club's regulations."
+  },
+  {
+    "level": "C2",
+    "verb": "Attend",
+    "phrasal_verb": "Attend to",
+    "translation": "Atender a",
+    "definition_en": "To deal with or take care of something.",
+    "definition_pt": "Lidar com ou cuidar de algo.",
+    "example": "I have some urgent matters to attend to first."
+  },
+  {
+    "level": "C2",
+    "verb": "Band",
+    "phrasal_verb": "Band together",
+    "translation": "Unir-se",
+    "definition_en": "To form a group to achieve something.",
+    "definition_pt": "Formar um grupo para alcançar algo.",
+    "example": "The community banded together to clean up the park."
+  },
+  {
+    "level": "C2",
+    "verb": "Beaver",
+    "phrasal_verb": "Beaver away",
+    "translation": "Trabalhar diligentemente",
+    "definition_en": "To work hard and diligently at something.",
+    "definition_pt": "Trabalhar arduamente e com diligência em algo.",
+    "example": "She's been beavering away at that project all week."
+  },
+  {
+    "level": "C2",
+    "verb": "Bounce",
+    "phrasal_verb": "Bounce back",
+    "translation": "Recuperar-se",
+    "definition_en": "To recover quickly after a setback.",
+    "definition_pt": "Recuperar-se rapidamente após um revés.",
+    "example": "The company bounced back stronger after the crisis."
+  },
+  {
+    "level": "C2",
+    "verb": "Branch",
+    "phrasal_verb": "Branch out",
+    "translation": "Diversificar",
+    "definition_en": "To expand into new areas or activities.",
+    "definition_pt": "Expandir para novas áreas ou atividades.",
+    "example": "The company is branching out into international markets."
+  },
+  {
+    "level": "C2",
+    "verb": "Break",
+    "phrasal_verb": "Break even",
+    "translation": "Empatar (financeiro)",
+    "definition_en": "To neither make a profit nor suffer a loss.",
+    "definition_pt": "Nem ter lucro nem sofrer perda.",
+    "example": "It took two years for the business to break even."
+  },
+  {
+    "level": "C2",
+    "verb": "Bring",
+    "phrasal_verb": "Bring round",
+    "translation": "Fazer recuperar a consciência",
+    "definition_en": "To make someone conscious again.",
+    "definition_pt": "Fazer alguém recuperar a consciência.",
+    "example": "The smelling salts brought him round quickly."
+  },
+  {
+    "level": "C2",
+    "verb": "Buckle",
+    "phrasal_verb": "Buckle down",
+    "translation": "Aplicar-se seriamente",
+    "definition_en": "To start working seriously at something.",
+    "definition_pt": "Começar a trabalhar seriamente em algo.",
+    "example": "You need to buckle down if you want to pass those exams."
+  },
+  {
+    "level": "C2",
+    "verb": "Budge",
+    "phrasal_verb": "Budge up",
+    "translation": "Mover-se para dar espaço",
+    "definition_en": "To move to make space for someone.",
+    "definition_pt": "Mover-se para dar espaço para alguém.",
+    "example": "Budge up so I can sit down too."
+  },
+  {
+    "level": "C2",
+    "verb": "Buy",
+    "phrasal_verb": "Buy into",
+    "translation": "Aceitar (ideia) / Comprar ações",
+    "definition_en": "To accept that an idea is true; to purchase shares.",
+    "definition_pt": "Aceitar que uma ideia é verdadeira; comprar ações.",
+    "example": "I don't buy into that conspiracy theory. / He bought into the company early."
+  },
+  {
+    "level": "C2",
+    "verb": "Buy",
+    "phrasal_verb": "Buy out",
+    "translation": "Comprar a parte de alguém",
+    "definition_en": "To purchase someone's share of a business.",
+    "definition_pt": "Comprar a parte de alguém em um negócio.",
+    "example": "The partners bought him out for millions."
+  },
+  {
+    "level": "C2",
+    "verb": "Call",
+    "phrasal_verb": "Call in",
+    "translation": "Pedir ajuda profissional",
+    "definition_en": "To ask for the services of someone professional.",
+    "definition_pt": "Pedir os serviços de alguém profissional.",
+    "example": "We had to call in a specialist to fix the problem."
+  },
+  {
+    "level": "C2",
+    "verb": "Carry",
+    "phrasal_verb": "Carry off",
+    "translation": "Realizar com sucesso",
+    "definition_en": "To succeed in doing something difficult.",
+    "definition_pt": "Ter sucesso em fazer algo difícil.",
+    "example": "She carried off the performance despite being ill."
+  },
+  {
+    "level": "C2",
+    "verb": "Cast",
+    "phrasal_verb": "Cast about",
+    "translation": "Procurar ansiosamente",
+    "definition_en": "To search anxiously for something.",
+    "definition_pt": "Procurar ansiosamente por algo.",
+    "example": "He was casting about for a solution to the problem."
+  },
+  {
+    "level": "C2",
+    "verb": "Cast",
+    "phrasal_verb": "Cast aside",
+    "translation": "Descartar",
+    "definition_en": "To get rid of something or someone.",
+    "definition_pt": "Livar-se de algo ou alguém.",
+    "example": "She cast aside her doubts and pursued her dream."
+  },
+  {
+    "level": "C2",
+    "verb": "Chalk",
+    "phrasal_verb": "Chalk up",
+    "translation": "Atribuir / Anotar",
+    "definition_en": "To attribute something to a particular cause; to record.",
+    "definition_pt": "Atribuir algo a uma causa particular; registrar.",
+    "example": "We can chalk up the success to good planning. / Chalk up another victory for our team."
+  },
+  {
+    "level": "C2",
+    "verb": "Charge",
+    "phrasal_verb": "Charge with",
+    "translation": "Acusar de",
+    "definition_en": "To accuse someone of something, especially legally.",
+    "definition_pt": "Acusar alguém de algo, especialmente legalmente.",
+    "example": "He was charged with embezzlement."
+  },
+  {
+    "level": "C2",
+    "verb": "Chase",
+    "phrasal_verb": "Chase up",
+    "translation": "Perseguir (informação)",
+    "definition_en": "To try to make something happen more quickly.",
+    "definition_pt": "Tentar fazer algo acontecer mais rapidamente.",
+    "example": "I need to chase up that delivery—it's late."
+  },
+  {
+    "level": "C2",
+    "verb": "Cheat",
+    "phrasal_verb": "Cheat on",
+    "translation": "Trair (parceiro)",
+    "definition_en": "To be unfaithful to a partner.",
+    "definition_pt": "Ser infiel a um parceiro.",
+    "example": "She discovered he'd been cheating on her for months."
+  },
+  {
+    "level": "C2",
+    "verb": "Check",
+    "phrasal_verb": "Check up on",
+    "translation": "Verificar",
+    "definition_en": "To make sure someone is behaving correctly.",
+    "definition_pt": "Certificar-se de que alguém está se comportando corretamente.",
+    "example": "The boss checks up on our progress weekly."
+  },
+  {
+    "level": "C2",
+    "verb": "Chicken",
+    "phrasal_verb": "Chicken out",
+    "translation": "Acovardar-se",
+    "definition_en": "To decide not to do something because of fear.",
+    "definition_pt": "Decidir não fazer algo por medo.",
+    "example": "He was going to bungee jump but chickened out at the last moment."
+  },
+  {
+    "level": "C2",
+    "verb": "Churn",
+    "phrasal_verb": "Churn out",
+    "translation": "Produzir em massa",
+    "definition_en": "To produce large quantities of something mechanically.",
+    "definition_pt": "Produzir grandes quantidades de algo mecanicamente.",
+    "example": "The factory churns out thousands of units daily."
+  },
+  {
+    "level": "C2",
+    "verb": "Clam",
+    "phrasal_verb": "Clam up",
+    "translation": "Calar-se subitamente",
+    "definition_en": "To suddenly become silent or refuse to speak.",
+    "definition_pt": "Subitamente calar-se ou recusar-se a falar.",
+    "example": "He clammed up when the police started asking questions."
+  },
+  {
+    "level": "C2",
+    "verb": "Clamp",
+    "phrasal_verb": "Clamp down",
+    "translation": "Reprimir",
+    "definition_en": "To take strict action to prevent something.",
+    "definition_pt": "Tomar ação rigorosa para prevenir algo.",
+    "example": "The government is clamping down on illegal immigration."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come down to",
+    "translation": "Resumir-se a",
+    "definition_en": "To be able to be explained by a single important point.",
+    "definition_pt": "Poder ser explicado por um único ponto importante.",
+    "example": "It all comes down to whether we can secure funding."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come in for",
+    "translation": "Receber (críticas)",
+    "definition_en": "To receive criticism or blame.",
+    "definition_pt": "Receber críticas ou culpa.",
+    "example": "The government has come in for severe criticism recently."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come into",
+    "translation": "Herdar",
+    "definition_en": "To inherit money or property.",
+    "definition_pt": "Herdar dinheiro ou propriedade.",
+    "example": "She came into a fortune when her grandfather died."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come off",
+    "translation": "Ser bem-sucedido",
+    "definition_en": "To succeed; to happen as planned.",
+    "definition_pt": "Ter sucesso; acontecer como planejado.",
+    "example": "The event came off without any problems."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come out with",
+    "translation": "Declarar publicamente",
+    "definition_en": "To say something suddenly or unexpectedly.",
+    "definition_pt": "Dizer algo subitamente ou inesperadamente.",
+    "example": "He came out with a ridiculous excuse."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come round",
+    "translation": "Mudar de opinião",
+    "definition_en": "To change your opinion to agree with someone.",
+    "definition_pt": "Mudar sua opinião para concordar com alguém.",
+    "example": "Eventually she came round to my way of thinking."
+  },
+  {
+    "level": "C2",
+    "verb": "Come",
+    "phrasal_verb": "Come up against",
+    "translation": "Enfrentar (obstáculo)",
+    "definition_en": "To have to deal with a problem or difficulty.",
+    "definition_pt": "Ter que lidar com um problema ou dificuldade.",
+    "example": "We've come up against some unexpected opposition."
+  },
+  {
+    "level": "C2",
+    "verb": "Conjure",
+    "phrasal_verb": "Conjure up",
+    "translation": "Evocar (memória/imagem)",
+    "definition_en": "To bring a thought, picture, or memory to your mind.",
+    "definition_pt": "Trazer um pensamento, imagem ou memória à sua mente.",
+    "example": "The smell conjured up memories of my grandmother's kitchen."
+  },
+  {
+    "level": "C2",
+    "verb": "Cotton",
+    "phrasal_verb": "Cotton on",
+    "translation": "Compreender",
+    "definition_en": "To begin to understand or realize something.",
+    "definition_pt": "Começar a compreender ou perceber algo.",
+    "example": "It took me a while to cotton on to what they were doing."
+  },
+  {
+    "level": "C2",
+    "verb": "Cry",
+    "phrasal_verb": "Cry out for",
+    "translation": "Clamar por",
+    "definition_en": "To need something urgently.",
+    "definition_pt": "Precisar de algo urgentemente.",
+    "example": "The education system is crying out for reform."
+  }
+]

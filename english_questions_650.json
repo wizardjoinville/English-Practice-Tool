@@ -1,0 +1,5512 @@
+[
+  {
+    "level": "A1",
+    "question": "What is your name?"
+  },
+    {
+    "level": "A1",
+    "question": "How do you say 'hello' in your language?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your address?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your nationality?"
+  },
+  {
+    "level": "A1",
+    "question": "What languages do you speak?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your mother tongue?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite word in English?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you feel?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you happy?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you tired?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you hungry?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you thirsty?"
+  },
+  {
+    "level": "A1",
+    "question": "Is it hot today?"
+  },
+  {
+    "level": "A1",
+    "question": "Is it cold today?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite room in your house?"
+  },
+  {
+    "level": "A1",
+    "question": "Where is the bathroom?"
+  },
+  {
+    "level": "A1",
+    "question": "What is in your living room?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you live in a house or an apartment?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing in your bedroom?"
+  },
+  {
+    "level": "A1",
+    "question": "Where is the supermarket?"
+  },
+  {
+    "level": "A1",
+    "question": "Where is the bank?"
+  },
+  {
+    "level": "A1",
+    "question": "Where is the hospital?"
+  },
+  {
+    "level": "A1",
+    "question": "How much is this? (point to an object)"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you have breakfast?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you have lunch?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you have dinner?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you eat for breakfast?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you drink in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like tea?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like water?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like fruit?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like vegetables?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite meal?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you cook eggs?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite snack?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you like to do on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you like to do in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you like to do in the evening?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work or study?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your school called?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your company called?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your teacher's name?"
+  },
+  {
+    "level": "A1",
+    "question": "Who is your best friend?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your boss's name?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a notebook?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a pen?"
+  },
+  {
+    "level": "A1",
+    "question": "What color is your shirt?"
+  },
+  {
+    "level": "A1",
+    "question": "What color are your eyes?"
+  },
+  {
+    "level": "A1",
+    "question": "What color is your hair?"
+  },
+  {
+    "level": "A1",
+    "question": "What are you wearing?"
+  },
+  {
+    "level": "A1",
+    "question": "What size are your shoes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to read?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to watch movies?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to listen to music?"
+  },
+  {
+    "level": "A1",
+    "question": "What music do you like?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to exercise?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to walk?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to run?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you jump?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite place in your city?"
+  },
+  {
+    "level": "A1",
+    "question": "Is your city big or small?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like your city?"
+  },
+  {
+    "level": "A1",
+    "question": "What is the capital of your country?"
+  },
+  {
+    "level": "A1",
+    "question": "What currency do you use in your country?"
+  },
+  {
+    "level": "A1",
+    "question": "What is the weather like in your country?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite country to visit?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a bicycle?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a motorcycle?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you get to work?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you get to school?"
+  },
+  {
+    "level": "A1",
+    "question": "How long does it take to get to work?"
+  },
+  {
+    "level": "A1",
+    "question": "How long does it take to get to school?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite flower?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like trees?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite planet?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite fruit juice?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like sandwiches?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like cake?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to take pictures?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a camera?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use your phone to take pictures?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite sound?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite smell?"
+  },
+  {
+    "level": "A1",
+    "question": "How old are you?"
+  },
+  {
+    "level": "A1",
+    "question": "Where are you from?"
+  },
+  {
+    "level": "A1",
+    "question": "What time is it now?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have any brothers or sisters?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite color?"
+  },
+  {
+    "level": "A1",
+    "question": "How are you today?"
+  },
+  {
+    "level": "A1",
+    "question": "What day is it today?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your phone number?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you do in your free time?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you speak English?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your job?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like sports?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite food?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you spell your name?"
+  },
+  {
+    "level": "A1",
+    "question": "What's the weather like today?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a pet?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you wake up?"
+  },
+  {
+    "level": "A1",
+    "question": "How many people are in your family?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite season?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you swim?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like coffee?"
+  },
+  {
+    "level": "A1",
+    "question": "What's in your bag?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you go to school or work?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your email address?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like music?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you go to bed?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite animal?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you cook at home?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite drink?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you ride a bicycle?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your mother's name?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like chocolate?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite movie?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a car?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite fruit?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play any musical instruments?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your father's job?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like shopping?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite vegetable?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you drive?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your best friend's name?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like ice cream?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite day of the week?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you watch TV every day?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite month?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you use a computer?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite sport?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to travel?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite number?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you dance?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite holiday?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like pizza?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite subject?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you sing?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite book?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like the beach?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite city?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you draw?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite TV show?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like rain?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite season?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you write with your left hand?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite game?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like cats?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite song?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you whistle?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite store?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like dogs?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite restaurant?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you ride a horse?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite website?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like winter?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite app?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you ski?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite social media?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like summer?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite brand?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play chess?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite clothing?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like spring?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite shoes?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play cards?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite hat?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like autumn?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite jewelry?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play video games?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite accessory?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like snow?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite bag?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play football?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite watch?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like sunny days?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite perfume?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play basketball?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite cologne?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like cloudy days?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite makeup?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play tennis?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite shampoo?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like windy days?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite soap?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play volleyball?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite toothpaste?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like stormy days?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite deodorant?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play baseball?"
+  },
+  {
+    "level": "A1",
+    "question": "What's your favorite lotion?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like foggy days?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you want to move to another city?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you want to move to?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually keep broken things? If so, why?"
+  },
+  {
+    "level": "A2",
+    "question": "Is your room tidy or messy?"
+  },
+  {
+    "level": "A2",
+    "question": "Who cleans up your bedroom?"
+  },
+  {
+    "level": "A2",
+    "question": "Are there carpets in your house?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you live in a house or in an apartment? Is it large or tiny?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you own your place or do you pay rent?"
+  },
+  {
+    "level": "A2",
+    "question": "What view do you have from your house?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer a gated community or a cottage in the country?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually lose your temper with?"
+  },
+  {
+    "level": "A2",
+    "question": "What makes you lose control?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you like to share food with other people?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you like languages? Do you find it easy to learn?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you get lost?"
+  },
+  {
+    "level": "A2",
+    "question": "What makes you lose faith?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you like to have your name on name tags?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you have your charger in your backpack / bag?"
+  },
+  {
+    "level": "A2",
+    "question": "What is there in your living room?"
+  },
+  {
+    "level": "A2",
+    "question": "What is there behind your house?"
+  },
+  {
+    "level": "A2",
+    "question": "Where were you this morning?"
+  },
+  {
+    "level": "A2",
+    "question": "Who were you with on your last birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your day yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the weather like last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you know anybody who is very jealous?"
+  },
+  {
+    "level": "A2",
+    "question": "Where were you last summer?"
+  },
+  {
+    "level": "A2",
+    "question": "How old were you in 2005?"
+  },
+  {
+    "level": "A2",
+    "question": "Are your parents married, single, or divorced?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you were excited about something?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you married?"
+  },
+  {
+    "level": "A2",
+    "question": "Who is the person you rely on?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you like to do when it’s rainy?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you like to do when it’s sunny?"
+  },
+  {
+    "level": "A2",
+    "question": "When do you get scared?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you get along well with?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you a jealous person?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually turn down invitations?"
+  },
+  {
+    "level": "A2",
+    "question": "What is the weather like today?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually give your friends a hug and a kiss?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you get frustrated with?"
+  },
+
+  {
+    "level": "A2",
+    "question": "Whose book is this on your desk?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you like binge-watching?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you into?"
+  },
+  {
+    "level": "A2",
+    "question": "How many episodes of a series can you watch on a rainy weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you a spoiler?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it hard for you to choose a movie to watch?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you watching a season at the moment? How many seasons does it have?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer to watch dubbed movies or movies with subtitles?"
+  },
+  {
+    "level": "A2",
+    "question": "What is your favorite kind of movie?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of music do you like to listen to?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you believe classical music helps us while we are studying?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you always turn off your cell phone while you are having classes?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you follow anybody on the Internet?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you post on social media?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you happy with your profile?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually write on your friends’ timelines?"
+  },
+  {
+    "level": "A2",
+    "question": "Do influencers make a lot of money in your country?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you think social media can really help people?"
+  },
+  {
+    "level": "A2",
+    "question": "What dish can you make?"
+  },
+  {
+    "level": "A2",
+    "question": "How much can you eat at an all-you-can-eat restaurant?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you and your friends / family usually have fun?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the weather like yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you excited about anything?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you get scared when you have to get a shot?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you visited someone in another city?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite pizza place in your city?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the weather like last week?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you go on your last vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you had a fever?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you like to do to have fun?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer to stay at hotels, inns, or bed and breakfasts when you travel?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the best place you traveled to?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you got a shot? What was it for?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of insurance do you have?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you have a visa on your passport to travel abroad? If so, where is this visa from?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the best itinerary to travel through the state you live in?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the best thing you ate last week?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you an employer or an employee?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it good to have a partner in business?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you happy with your salary?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you have a lot of opportunities in your job?"
+  },
+  {
+    "level": "A2",
+    "question": "How much is the minimum salary in Brazil?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you know how to work on spreadsheets?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you need a salary raise?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you have good marks / grades in English?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you write a good essay?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you skip classes when you were a teenager?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you get frustrated when you fail a test?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you like chemistry?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you like to do physical education?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you looking for a job?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you tell your secrets to anybody?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you always tell the truth?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of clothes do groomsmen usually wear?"
+  },
+  {
+    "level": "A2",
+    "question": "What color can’t the maids of honor wear in a wedding?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you get along well with your in-laws and stepfather?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when somebody tells a lie?"
+  },
+  {
+    "level": "A2",
+    "question": "Would you like to go on an exchange program? Why and where?"
+  },
+  {
+    "level": "A2",
+    "question": "Which of the abilities would you like to improve: listening, reading, writing?"
+  },
+  {
+    "level": "A2",
+    "question": "Which of the abilities above do you prefer?"
+  },
+  {
+    "level": "A2",
+    "question": "How many years do you think people take to speak English fluently?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you like to speak in public? Is it easy for you?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you know how to swim well?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you prefer to swim?"
+  },
+  {
+    "level": "A2",
+    "question": "Is the ocean far away from your city?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually go for a walk?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you run fast when you played with your friends?"
+  },
+  {
+    "level": "A2",
+    "question": "What could you do well when you were a child / teenager?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you waiting for something in the long run?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you do your homework?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you think you need to lose weight?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you following any diet?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of physical activities do you like to practice?"
+  },
+  {
+    "level": "A2",
+    "question": "Would you live abroad? Where?"
+  },
+  {
+    "level": "A2",
+    "question": "Would you like to have your own business?"
+  },
+  {
+    "level": "A2",
+    "question": "Would you tell a lie for a good reason?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you look like?"
+  },
+  {
+    "level": "A2",
+    "question": "What does your favorite famous actress look like?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you look like anyone in your family?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you remember about your vacation when you were a kid?"
+  },
+  {
+    "level": "A2",
+    "question": "How tall are you?"
+  },
+  {
+    "level": "A2",
+    "question": "How big is your house?"
+  },
+  {
+    "level": "A2",
+    "question": "How long is your favorite movie?"
+  },
+  {
+    "level": "A2",
+    "question": "How do people need to behave in a job interview?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you describe your best friend?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you like?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s an annoying kind of music for you?"
+  },
+  {
+    "level": "A2",
+    "question": "When did you meet your best friend for the first time?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you like about your English classes?"
+  },
+  {
+    "level": "A2",
+    "question": "Which famous person would you like to be compared to?"
+  },
+  {
+    "level": "A2",
+    "question": "Mention a professional strong desire you have."
+  },
+  {
+    "level": "A2",
+    "question": "What makes you anxious?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you describe yourself as an optimistic or pessimistic person?"
+  },
+  {
+    "level": "A2",
+    "question": "Mention something you can do very well."
+  },
+  {
+    "level": "A2",
+    "question": "Mention somebody you know who is very faithful."
+  },
+  {
+    "level": "A2",
+    "question": "Mention something you don’t like about your English classes."
+  },
+  {
+    "level": "A2",
+    "question": "Are you a patient person?"
+  },
+  {
+    "level": "A2",
+    "question": "What makes you impatient?"
+  },
+  {
+    "level": "A2",
+    "question": "Who pays the check when you go to a restaurant?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you anxiously waiting for anything?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer quiet or fancy places?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the furthest place you visited last year?"
+  },
+  {
+    "level": "A2",
+    "question": "Who cooks the best in your family?"
+  },
+  {
+    "level": "A2",
+    "question": "Who is the luckiest person that you know?"
+  },
+  {
+    "level": "A2",
+    "question": "What school material do you have with you?"
+  },
+  {
+    "level": "A2",
+    "question": "Give examples of some poor countries."
+  },
+  {
+    "level": "A2",
+    "question": "Is there anything you hate?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell us something you love."
+  },
+  {
+    "level": "A2",
+    "question": "Is it OK for you to lend your things?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you tell people when you lend them something?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you tell people when you borrow things from them?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when people don’t give back your stuff?"
+  },
+  {
+    "level": "A2",
+    "question": "Would you lend money to your friends?"
+  },
+  {
+    "level": "A2",
+    "question": "What do people usually bring to school?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you have any tools at home? Do you like to work with them?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the best thing you can do?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the most important decision you made this year?"
+  },
+  {
+    "level": "A2",
+    "question": "What makes you hang up on somebody?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you called in sick?"
+  },
+  {
+    "level": "A2",
+    "question": "Why did you decide to study English?"
+  },
+  {
+    "level": "A2",
+    "question": "Who is the person you talk to on the phone the most?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you thinking of doing on your next vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you received an invitation?"
+  },
+  {
+    "level": "A2",
+    "question": "What award would you give your best friend if you had the chance?"
+  },
+  {
+    "level": "A2",
+    "question": "What's the most serious institution you know?"
+  },
+  {
+    "level": "A2",
+    "question": "Who is the most thoughtful person you know?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer to call or message people? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What's the biggest improvement the society you live in needs?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually pay extra money for guarantees when you buy electronics?"
+  },
+  {
+    "level": "A2",
+    "question": "Mention a means of transportation you never use."
+  },
+  {
+    "level": "A2",
+    "question": "What's the best means of communication in your opinion nowadays?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you are stressed out?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you follow any newsletter monthly or weekly?"
+  },
+  {
+    "level": "A2",
+    "question": "When was the last time you got frustrated?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you ever receive a prize?"
+  },
+  {
+    "level": "A2",
+    "question": "What's the first thing that needs to be changed in society?"
+  },
+  {
+    "level": "A2",
+    "question": "When will you finish W4?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you have a degree? In case you don’t, would you like to?"
+  },
+  {
+    "level": "A2",
+    "question": "What year of university is a senior student in? What about a freshman?"
+  },
+  {
+    "level": "A2",
+    "question": "Are public schools good in your city?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you think private initiative is a good way for our country?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the last time you enrolled in a course?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you applying for a job at the moment?"
+  },
+  {
+    "level": "A2",
+    "question": "What time do you usually start class at Wizard?"
+  },
+  {
+    "level": "A2",
+    "question": "What time will you leave your house for school / work tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do next weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "How many times a week do you attend English classes?"
+  },
+  {
+    "level": "A2",
+    "question": "What does ASAP mean?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you always available to talk to your friends?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to attend any conferences, conventions or lectures in the near future?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell us about a career you definitely wouldn’t follow."
+  },
+  {
+    "level": "A2",
+    "question": "Are you selling anything?"
+  },
+  {
+    "level": "A2",
+    "question": "Would you be a good salesperson?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you always ask for a discount when you buy something?"
+  },
+  {
+    "level": "A2",
+    "question": "Mention something that you bought and wanted to exchange. Tell your classmates the exchange."
+  },
+
+  {
+    "level": "A2",
+    "question": "What do you usually do on weekends?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you exercise?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do last summer?"
+  },
+  {
+    "level": "A2",
+    "question": "Describe your best friend."
+  },
+  {
+    "level": "A2",
+    "question": "What are your plans for next weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually celebrate your birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite type of weather? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What chores do you do at home?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about your last vacation."
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite season? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you get to school or work every day?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite holiday? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do after class today?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite room in your house? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you eat for breakfast today?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite way to relax?"
+  },
+  {
+    "level": "A2",
+    "question": "What time do you usually go to bed?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite place in your town? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite type of music? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s something you’re good at?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to cook?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your job/school?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your least favorite chore?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite way to exercise?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on a rainy day?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in the morning?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in the evening?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your hometown?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your country?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on a rainy day?"
+  },
+  {
+    "level": "A2",
+    "question": "Describe your ideal weekend. What would you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What foods do you dislike, and why?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could visit any country, where would you go and what would you do there?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting movie you’ve watched recently? Tell me about it."
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually celebrate your birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite season, and what do you like to do during it?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about your best friend. How did you meet?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s something you’re good at? How did you learn it?"
+  },
+  {
+    "level": "A2",
+    "question": "Describe your favorite meal. What’s in it?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite way to relax after a busy day?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most exciting place you’ve ever been to? What made it special?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could learn any new skill, what would it be and why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite holiday, and how do you celebrate it?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a book or story you enjoyed. What was it about?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite type of music? Who’s your favorite artist?"
+  },
+  {
+    "level": "A2",
+    "question": "What chores do you dislike doing at home? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "Describe a typical day in your life."
+  },
+  {
+    "level": "A2",
+    "question": "What’s something you want to buy in the future? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any animal as a pet, what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite childhood memory?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the best gift you’ve ever received? Why was it special?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do in the evenings?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you helped someone. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite sport or physical activity? Why do you like it?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could change one thing about your school or job, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite app or website? How do you use it?"
+  },
+  {
+    "level": "A2",
+    "question": "Describe your dream house. What would it look like?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s something that makes you laugh?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a tradition in your family or country."
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite way to travel (car, plane, train, etc.)? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could meet any famous person, who would it be and what would you ask them?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the best advice you’ve ever received?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your hometown?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you tried something new. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite type of weather? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only eat one food for a week, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s something you’re afraid of? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "Describe a place you’d like to visit in your country."
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite board game or video game? How do you play it?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you felt proud of yourself."
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do with friends?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could live in any time period, past or future, when would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to study or learn about? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to solve a problem. What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite type of clothing to wear? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could invent something, what would it be and how would it help people?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most beautiful place you’ve ever seen?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you were surprised. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do outdoors?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could be any fictional character, who would you be and why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about learning English?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to wait for something. How did you feel?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re bored?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have dinner with anyone, alive or dead, who would it be and why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most difficult thing you’ve ever done?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you got lost. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in the morning?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only listen to one song for the rest of your life, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s something you’ve always wanted to try but haven’t yet?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you were really happy. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your family?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could give one piece of advice to everyone, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the strangest food you’ve ever eaten? Did you like it?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be brave. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any job for one day, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting animal you’ve ever seen? Tell me about it."
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you made a mistake. What did you learn?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do at the beach?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could time travel, would you go to the past or the future? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in winter?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to work hard for something. What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about nature?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could be an expert in one thing, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the best party or celebration you’ve ever been to?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you were really scared. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on a sunny day?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could live in any movie or TV show, which one would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do with your family?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had good luck. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your culture?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could change one thing about the world, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most useful thing you own? How do you use it?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to make a difficult decision. What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in the summer?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only keep three possessions, what would they be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re alone?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you were disappointed. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your home?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any superpower, what would it be and why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the funniest thing that’s ever happened to you?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to ask for help. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in the fall?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could be any age for a week, what age would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on weekends?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you met someone new. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your school or job?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only eat one type of cuisine (Italian, Chinese, etc.) for a month, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most adventurous thing you’ve ever done?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to apologize. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do in the spring?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could learn any language instantly, which one would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do at night?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be patient. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your neighborhood?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could swap lives with someone for a day, who would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most unusual thing you’ve ever eaten?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you felt grateful. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when it’s cold outside?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any fictional vehicle (like a flying carpet), what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do at a party?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to share something. How did you feel?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your best friend?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could live in any book’s world, which book would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting fact you know?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to say goodbye to someone. How did you feel?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re stressed?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could be famous for something, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about traveling?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be quiet. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on a long trip?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only watch one TV show for the rest of your life, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most beautiful thing you’ve ever seen in nature?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be creative. What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re sick?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any historical figure as a friend, who would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about mornings?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to wait in a long line. How did you pass the time?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on a holiday?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any magical object, what would it be and why?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most surprising thing you’ve learned recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to follow strict rules. How did you feel?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re excited?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could solve one world problem, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your favorite season?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to give someone a gift. What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re tired?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could live in any city in the world, where would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most challenging thing you’ve ever cooked or baked?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to wake up very early. How did you feel?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do at a friend’s house?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could be any character from a fairy tale, who would you be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about rainy days?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to take care of someone or something. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re feeling sad?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could design your own holiday, what would it celebrate?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting job you can think of? Why?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to pack for a trip. What did you bring?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you have free time?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any wild animal as a friendly pet, what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about the ocean?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to say sorry. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re angry?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only wear one color for the rest of your life, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most unusual habit you have?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very organized. What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do on a plane or train ride?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any view from your window, what would you want to see?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about winter holidays?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to convince someone. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re nervous?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any job in the world for just one day, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting place you’ve ever visited in your country?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very careful. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re happy?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any extinct animal as a pet, what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about summer nights?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to make someone laugh. What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re feeling lazy?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only eat one type of dessert for the rest of your life, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most memorable dream you’ve ever had?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very quick. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re with a big group of people?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any job from the past (like a blacksmith), what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about autumn?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very quiet. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re waiting for something?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any plant or tree in your garden, what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most unusual place you’ve ever slept?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very polite. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re at a park?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any weather every day, what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about spring mornings?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to remember something important. What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re at a café?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any mythical creature as a pet, what would you choose?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting building you’ve ever seen?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very brave. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re at the mountains?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could only listen to one musical instrument for the rest of your life, what would it be?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about winter mornings?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very patient. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re at a lake or river?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any type of shop, what would you sell?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s the most interesting tradition in your country?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very strong. What happened?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re at a friend’s party?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could have any type of restaurant, what kind of food would you serve?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about summer afternoons?"
+  },
+  {
+    "level": "A2",
+    "question": "Tell me about a time you had to be very kind. What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing to do when you’re at the beach?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your yard?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your fence?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your gate?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your mailbox?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your doorbell?"
+  },
+  {
+    "level": "A2",
+    "question": "What’s your favorite thing about your keyhole?"
+  },
+
+  {
+    "level": "B1",
+    "question": "What are the advantages and disadvantages of living in a big city?"
+  },
+  {
+    "level": "B1",
+    "question": "How would you describe your personality to someone who doesn't know you?"
+  },
+  {
+    "level": "B1",
+    "question": "What do you think makes a good friend?"
+  },
+  {
+    "level": "B1",
+    "question": "If you could live anywhere in the world, where would you choose and why?"
+  },
+  {
+    "level": "B1",
+    "question": "How has technology changed the way we communicate?"
+  },
+  {
+    "level": "B1",
+    "question": "What's the most interesting place you've ever visited? Describe it."
+  },
+  {
+    "level": "B1",
+    "question": "What are some healthy habits you try to maintain?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a difficult decision you had to make recently."
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about social media? Do you think it's mostly positive or negative?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually deal with stress?"
+  },
+  {
+    "level": "B1",
+    "question": "What skills would you like to learn in the future? Why?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a book or movie that had a big impact on you."
+  },
+  {
+    "level": "B1",
+    "question": "What traditions in your country do you think are important to preserve?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is it to learn a foreign language in today's world?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you do if you had a free month with no work or school?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to work as part of a team."
+  },
+  {
+    "level": "B1",
+    "question": "What are some differences between your generation and your parents' generation?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think education will change in the next 20 years?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your favorite way to learn new things? Why?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe an achievement you're proud of."
+  },
+  {
+    "level": "B1",
+    "question": "What are some important factors when choosing a career?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think life will be different in 50 years?"
+  },
+  {
+    "level": "B1",
+    "question": "What's the best advice you've ever received?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to adapt to a new situation."
+  },
+  {
+    "level": "B1",
+    "question": "What are some benefits of traveling to other countries?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually make important decisions?"
+  },
+  {
+    "level": "B1",
+    "question": "What qualities do you think make someone a good leader?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you helped someone or someone helped you."
+  },
+  {
+    "level": "B1",
+    "question": "What are some environmental problems that concern you?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you balance work/school and personal life?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about working from home?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to solve a problem creatively."
+  },
+  {
+    "level": "B1",
+    "question": "What are some challenges young people face today?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is it to have hobbies? Why?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you do if you won a lot of money?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you experienced culture shock."
+  },
+  {
+    "level": "B1",
+    "question": "What are some advantages of reading books compared to watching movies?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think artificial intelligence will affect our lives?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about fast food? How often do you eat it?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to persuade someone."
+  },
+  {
+    "level": "B1",
+    "question": "What are some important qualities in a romantic relationship?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think social media affects relationships?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you do if you had more free time?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to overcome a fear."
+  },
+  {
+    "level": "B1",
+    "question": "What are some benefits of volunteering?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually celebrate special occasions?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about online shopping versus traditional shopping?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to apologize to someone."
+  },
+  {
+    "level": "B1",
+    "question": "What are some ways to stay motivated when learning something difficult?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think childhood today is different from when your parents were children?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about reality TV shows?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to make a first impression."
+  },
+  {
+    "level": "B1",
+    "question": "What are some pros and cons of living alone?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually handle conflicts with others?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about standardized tests in education?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to manage your time carefully."
+  },
+  {
+    "level": "B1",
+    "question": "What are some important factors when choosing a place to live?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think transportation will change in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about video games? Do you think they're beneficial or harmful?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to learn something quickly."
+  },
+  {
+    "level": "B1",
+    "question": "What are some ways to maintain a healthy lifestyle?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think the workplace will change in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about celebrity culture?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to be patient."
+  },
+  {
+    "level": "B1",
+    "question": "What are some advantages and disadvantages of globalization?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually make new friends?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the education system in your country?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to step out of your comfort zone."
+  },
+  {
+    "level": "B1",
+    "question": "What are some ways to reduce stress in daily life?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think family structures are changing in modern society?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the importance of art in society?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to give someone feedback."
+  },
+  {
+    "level": "B1",
+    "question": "What are some challenges of learning a new language?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think the internet has changed the way we learn?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the role of government in people's lives?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to organize an event or activity."
+  },
+  {
+    "level": "B1",
+    "question": "What are some important factors for a successful marriage or long-term relationship?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think climate change will affect our lives in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the importance of history in education?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to compromise with someone."
+  },
+  {
+    "level": "B1",
+    "question": "What are some ways to improve communication skills?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think social norms have changed in recent years?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the role of sports in society?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to deal with a difficult customer or classmate."
+  },
+  {
+    "level": "B1",
+    "question": "What are some advantages and disadvantages of remote work?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think artificial intelligence will affect jobs in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the importance of learning about other cultures?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to make a presentation in front of people."
+  },
+  {
+    "level": "B1",
+    "question": "What are some ways to build self-confidence?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think social media affects mental health?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the importance of financial education?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to deal with an unexpected problem."
+  },
+  {
+    "level": "B1",
+    "question": "What are some important factors when choosing a university or course of study?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think technology affects children's development?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the importance of space exploration?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to work under pressure."
+  },
+  {
+    "level": "B1",
+    "question": "What are some ways to maintain good relationships with colleagues or classmates?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you think the media influences public opinion?"
+  },
+  {
+    "level": "B1",
+    "question": "What's your opinion about the importance of learning practical skills in school?"
+  },
+  {
+    "level": "B1",
+    "question": "Describe a time when you had to learn from a mistake."
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe your hometown to a foreign visitor in English?"
+  },
+  {
+    "level": "B2",
+    "question": "What phrases would you use to politely decline an invitation to a party in English?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain your favorite holiday tradition to someone from another culture?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to give directions to a tourist in English if they’re lost?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe your favorite movie plot without spoiling the ending?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to comfort a friend who failed an important exam?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you politely ask someone to stop using their phone during a movie in a theater?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s a tactful way to tell someone they have food stuck in their teeth?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you convince a friend to try a food they think they’ll dislike?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely end a phone call with a talkative relative?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe your worst travel experience without sounding rude?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to react when someone gives you an unwanted gift?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain a popular local superstition to a foreigner?"
+  },
+  {
+    "level": "B2",
+    "question": "What phrases would you use to calm down an angry child in public?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you politely ask a neighbor to lower their music at night?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to describe a person’s personality without being offensive?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you apologize for accidentally breaking a friend’s favorite item?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely correct someone who mispronounces your name?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain why you don’t drink alcohol at a party?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s a good way to change the topic when a conversation becomes uncomfortable?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe a stressful day without complaining too much?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely refuse a second helping of food at a dinner party?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain your country’s education system to a foreign student?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to ask a stranger to take a photo of you at a tourist spot?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe a book you disliked without offending someone who loved it?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to console a friend who just went through a breakup?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you politely ask someone to repeat gossip you didn’t hear clearly?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s a good way to respond when someone insults you as a joke?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain your favorite childhood memory to a new friend?"
+  },
+  {
+    "level": "B2",
+    "question": "What phrases would you use to discreetly tell someone they have bad breath?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe a cultural taboo in your country to a foreign visitor?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to ask for a vegetarian option at a restaurant abroad?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you convince a friend to try an extreme sport they’re scared of?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely interrupt someone who’s dominating a conversation?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain a local festival to someone who’s never experienced it?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s a tactful way to tell a friend they’ve gained weight?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe your dream vacation to a travel agent?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely decline a hug from someone you just met?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain your political views without starting an argument?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to ask for a discount at a flea market in English?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe a time you embarrassed yourself without feeling awkward?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely ask someone to stop flirting with you?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain climate change to a skeptical older relative?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s a good way to respond when someone mistakes you for someone else?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe your ideal weekend to a new roommate?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely ask a friend to repay borrowed money?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain social media to someone who’s never used it?"
+  },
+  {
+    "level": "B2",
+    "question": "What’s the best way to react when someone cooks a meal you don’t like?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you describe a time you overcame a fear?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you say to politely end a friendship that’s turned toxic?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you explain your life philosophy in simple English?"
+  },
+  {
+    "level": "B2",
+    "question": "To what extent do you believe personality is shaped by environment rather than genetics?"
+  },
+  {
+    "level": "B2",
+    "question": "How might the increasing automation of jobs impact society in the coming decades?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the ethical implications of artificial intelligence in decision-making processes?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you compare the education system in your country with that of other developed nations?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies would you propose to bridge the gap between theoretical knowledge and practical skills in education?"
+  },
+  {
+    "level": "B2",
+    "question": "How do cultural differences manifest in communication styles, and what challenges can this create?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential long-term consequences of society's increasing reliance on social media?"
+  },
+  {
+    "level": "B2",
+    "question": "How has social media changed the way we form and maintain relationships compared to previous generations?"
+  },
+  {
+    "level": "B2",
+    "question": "Should governments regulate artificial intelligence development, or should it be left to tech companies? Why?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss the pros and cons of remote work becoming the norm rather than the exception in many industries."
+  },
+  {
+    "level": "B2",
+    "question": "How might climate change alter migration patterns in the coming decades, and what challenges might this create?"
+  },
+  {
+    "level": "B2",
+    "question": "Do you think universal basic income could solve income inequality? What potential benefits and drawbacks do you foresee?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the globalization of entertainment (movies, music, etc.) affected local cultures around the world?"
+  },
+  {
+    "level": "B2",
+    "question": "Should schools place more emphasis on teaching emotional intelligence alongside traditional subjects? Why or why not?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how the concept of privacy has evolved in the digital age. What rights should individuals have over their personal data?"
+  },
+  {
+    "level": "B2",
+    "question": "How might the increasing automation of jobs affect society's values and the way people find purpose in life?"
+  },
+  {
+    "level": "B2",
+    "question": "Do you think genetic testing (like DNA ancestry tests) does more harm than good? Discuss the ethical implications."
+  },
+  {
+    "level": "B2",
+    "question": "How has the way we consume news changed in the past 20 years, and what impact has this had on society?"
+  },
+  {
+    "level": "B2",
+    "question": "Should there be limits on how much time young people can spend on digital devices? Who should set these limits?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how urbanization affects people's lifestyles and mental health compared to rural living."
+  },
+  {
+    "level": "B2",
+    "question": "How might traditional gender roles continue to evolve in the next generation? What factors are driving these changes?"
+  },
+  {
+    "level": "B2",
+    "question": "Should governments invest more in space exploration when there are still so many problems to solve on Earth?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the gig economy (Uber, freelance work, etc.) changed people's attitudes toward employment and job security?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss whether social media platforms should be held legally responsible for the content users post on their sites."
+  },
+  {
+    "level": "B2",
+    "question": "How might virtual reality change education in the next decade? What subjects would benefit most from this technology?"
+  },
+  {
+    "level": "B2",
+    "question": "Do you think traditional universities will become obsolete as more people turn to online education? Why or why not?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the way we define 'success' changed compared to our parents' generation? What factors have influenced this change?"
+  },
+  {
+    "level": "B2",
+    "question": "Should countries have open borders for migration? Discuss the economic and cultural implications."
+  },
+  {
+    "level": "B2",
+    "question": "How might artificial intelligence affect creative fields like art, music, and writing in the future?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss whether it's ethical to use psychological techniques (like those in advertising) to influence people's behavior for social good."
+  },
+  {
+    "level": "B2",
+    "question": "How has the concept of family changed in modern society compared to traditional family structures?"
+  },
+  {
+    "level": "B2",
+    "question": "Should governments ban fast food advertising to combat obesity? What other measures could be effective?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how the aging population in many countries might affect healthcare systems and social structures."
+  },
+  {
+    "level": "B2",
+    "question": "How has online shopping changed consumer behavior and local economies in your country?"
+  },
+  {
+    "level": "B2",
+    "question": "Should children be taught coding and computer science from primary school? Why or why not?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how travel and tourism have changed in the past 50 years, and what impacts this has had globally."
+  },
+  {
+    "level": "B2",
+    "question": "How might the development of self-driving cars change our cities and transportation systems?"
+  },
+  {
+    "level": "B2",
+    "question": "Should people have the right to be forgotten online (have their personal data permanently deleted)? Discuss the implications."
+  },
+  {
+    "level": "B2",
+    "question": "How has the workplace changed for women in the past few decades, and what challenges still remain?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss whether professional athletes and celebrities deserve the extremely high salaries they earn compared to other professions."
+  },
+  {
+    "level": "B2",
+    "question": "How might 3D printing technology transform manufacturing and consumer habits in the future?"
+  },
+  {
+    "level": "B2",
+    "question": "Should governments provide free internet access as a basic human right? What would be the benefits and drawbacks?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how childhood today differs from childhood 50 years ago in terms of education, play, and family life."
+  },
+  {
+    "level": "B2",
+    "question": "How has the medical field changed with advancing technology, and what ethical dilemmas has this created?"
+  },
+  {
+    "level": "B2",
+    "question": "Should schools teach more practical life skills (like taxes, cooking, home repairs) instead of some traditional subjects?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how the fashion industry affects society and the environment. Should fast fashion be more heavily regulated?"
+  },
+  {
+    "level": "B2",
+    "question": "How might virtual assistants (like Siri, Alexa) evolve in the future, and what impact could this have on daily life?"
+  },
+  {
+    "level": "B2",
+    "question": "Should countries invest more in renewable energy even if it means higher costs for citizens in the short term?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how the music industry has changed with digital streaming services. Are these changes positive or negative for artists?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the way people protest and advocate for social change evolved with technology and social media?"
+  },
+  {
+    "level": "B2",
+    "question": "Should parents limit their children's participation in competitive sports? Discuss the physical and psychological impacts."
+  },
+  {
+    "level": "B2",
+    "question": "How might the increasing popularity of plant-based diets affect food industries and agriculture in the coming years?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss whether video games should be considered a form of art. What makes something 'art' in your opinion?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the concept of privacy in the home changed with the development of smart home devices and assistants?"
+  },
+  {
+    "level": "B2",
+    "question": "Should governments impose stricter regulations on influencers and content creators? Why or why not?"
+  },
+  {
+    "level": "B2",
+    "question": "Discuss how dating and relationships have changed with dating apps compared to traditional ways of meeting people."
+  },
+  {
+    "level": "B2",
+    "question": "How might the increasing automation of household chores affect family dynamics and gender roles?"
+  },
+  {
+    "level": "B2",
+    "question": "How might climate change policies need to evolve to effectively address the crisis?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to successful intercultural relationships in today's globalized world?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the balance between national security and individual privacy in the digital age?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of prolonged exposure to curated online personas?"
+  },
+  {
+    "level": "B2",
+    "question": "How might traditional gender roles continue to evolve in the next generation?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages and disadvantages of the gig economy compared to traditional employment?"
+  },
+  {
+    "level": "B2",
+    "question": "How effective do you believe international organizations are in resolving global conflicts?"
+  },
+  {
+    "level": "B2",
+    "question": "What role should governments play in regulating emerging technologies?"
+  },
+  {
+    "level": "B2",
+    "question": "How might urbanization patterns change in response to environmental concerns?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of an aging population for economic systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate the effectiveness of different approaches to criminal rehabilitation?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to the preservation or loss of cultural heritage in immigrant communities?"
+  },
+  {
+    "level": "B2",
+    "question": "How might virtual reality transform education and professional training?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential consequences of the declining popularity of traditional news media?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of globalization on local cultures and traditions?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits and drawbacks of remote work arrangements?"
+  },
+  {
+    "level": "B2",
+    "question": "How might genetic engineering technologies challenge our ethical boundaries in the future?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be implemented to make cities more sustainable and livable?"
+  },
+  {
+    "level": "B2",
+    "question": "How do economic inequalities affect social mobility across generations?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of the increasing commercialization of space exploration?"
+  },
+  {
+    "level": "B2",
+    "question": "How might political systems need to adapt to address 21st-century challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does critical thinking play in navigating today's information landscape?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate the effectiveness of different approaches to mental health awareness?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential consequences of the blurring line between work and personal life?"
+  },
+  {
+    "level": "B2",
+    "question": "How might advances in medical technology change our approach to healthcare?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to the success or failure of multicultural societies?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of digital currencies on traditional financial systems?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the ethical considerations surrounding data privacy in the age of big data?"
+  },
+  {
+    "level": "B2",
+    "question": "How might changing family structures affect social support systems in the future?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be employed to combat misinformation in digital spaces?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate the effectiveness of international climate agreements?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential consequences of the increasing automation of creative processes?"
+  },
+  {
+    "level": "B2",
+    "question": "How might artificial intelligence influence artistic expression and creativity?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to the polarization of political views in modern societies?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the balance between economic growth and environmental protection?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of extended human lifespan for retirement systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How might education systems need to adapt to prepare students for future job markets?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does emotional intelligence play in professional success?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate different approaches to sustainable urban transportation?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological impacts of constant connectivity through digital devices?"
+  },
+  {
+    "level": "B2",
+    "question": "How might cultural perceptions of success evolve in response to global challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to effective cross-cultural communication in business settings?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of social media on political participation?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential benefits and risks of universal basic income systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How might neurotechnology challenge our understanding of privacy and identity?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be implemented to address the digital divide between generations?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate the effectiveness of different approaches to renewable energy adoption?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of algorithmic bias in decision-making systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How might changing work patterns affect urban planning and housing needs?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to successful international collaboration in scientific research?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of virtual communication on interpersonal relationships?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential consequences of the commodification of personal data?"
+  },
+  {
+    "level": "B2",
+    "question": "How might advances in biotechnology challenge our ethical frameworks?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be employed to maintain cultural identity in a globalized world?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate different approaches to addressing income inequality?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of automation for job satisfaction and purpose?"
+  },
+  {
+    "level": "B2",
+    "question": "How might changing demographics affect political landscapes in developed nations?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to the success of international peacekeeping efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of digital nomadism on local economies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential benefits and drawbacks of decentralized organizational structures?"
+  },
+  {
+    "level": "B2",
+    "question": "How might climate migration reshape global demographics in the coming decades?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be implemented to improve media literacy among populations?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate the effectiveness of different approaches to plastic waste reduction?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of extended reality technologies for human interaction?"
+  },
+  {
+    "level": "B2",
+    "question": "How might changing dietary trends impact global food production systems?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to successful adaptation to rapidly changing technologies?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of influencer culture on consumer behavior?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential consequences of the privatization of space exploration?"
+  },
+  {
+    "level": "B2",
+    "question": "How might quantum computing revolutionize various industries?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be employed to address the challenges of an interconnected global economy?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate different approaches to preserving linguistic diversity?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of deepfake technology for trust in media?"
+  },
+  {
+    "level": "B2",
+    "question": "How might the concept of privacy evolve in smart city environments?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to effective crisis management in global emergencies?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of automation on creative industries?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential benefits and risks of human augmentation technologies?"
+  },
+  {
+    "level": "B2",
+    "question": "How might changing energy needs affect international relations?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be implemented to reduce the environmental impact of fast fashion?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate different approaches to digital detoxification?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of predictive policing algorithms for civil liberties?"
+  },
+  {
+    "level": "B2",
+    "question": "How might the rise of micro-credentials challenge traditional education systems?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to successful intercultural negotiation in business?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of subscription-based models on consumer habits?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential consequences of the increasing use of biometric identification?"
+  },
+  {
+    "level": "B2",
+    "question": "How might advances in material science transform manufacturing industries?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies could be employed to address the challenges of digital addiction?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you evaluate different approaches to regulating artificial intelligence?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the implications of 3D printing for global supply chains?"
+  },
+  {
+    "level": "B2",
+    "question": "How might changing work-life balance expectations affect corporate cultures?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors contribute to effective leadership in times of rapid change?"
+  },
+  {
+    "level": "B2",
+    "question": "How would you assess the impact of voice-assisted technology on human behavior?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the potential benefits and drawbacks of smart home technologies?"
+  },
+  {
+    "level": "B2",
+    "question": "How might the metaverse concept transform social interactions in the future?"
+  },
+  {
+    "level": "C1",
+    "question": "How might the proliferation of deepfake technology fundamentally alter our conception of truth and evidence in legal and social contexts?"
+  },
+  {
+    "level": "C1",
+    "question": "To what extent could the advent of quantum computing render current cryptographic systems obsolete, and what implications would this have for global cybersecurity?"
+  },
+  {
+    "level": "C1",
+    "question": "How do societal expectations influence individual career choices, and have you experienced this personally?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a technological advancement you believe has had unintended consequences. How could these be mitigated?"
+  },
+  {
+    "level": "C1",
+    "question": "To what extent do you think globalization has eroded cultural uniqueness? Provide examples."
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the ethical implications of artificial intelligence in healthcare. Where should boundaries be drawn?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your perspective on success evolved over time, and what factors triggered this change?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a historical event you believe is often misinterpreted. What narrative should replace it?"
+  },
+  {
+    "level": "C1",
+    "question": "Can true altruism exist in a capitalist society? Defend your position."
+  },
+  {
+    "level": "C1",
+    "question": "How do language barriers shape power dynamics in multinational workplaces?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of social media in polarizing political discourse. Is regulation the solution?"
+  },
+  {
+    "level": "C1",
+    "question": "Describe a piece of art, literature, or music that challenged your worldview. How did it do so?"
+  },
+  {
+    "level": "C1",
+    "question": "What societal taboos do you think will disappear in the next 50 years, and why?"
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘cancel culture’ impact freedom of expression, and where should lines be drawn?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you had to navigate a moral dilemma. What frameworks guided your decision?"
+  },
+  {
+    "level": "C1",
+    "question": "Is universal basic income a viable solution to automation-induced unemployment? Why or why not?"
+  },
+  {
+    "level": "C1",
+    "question": "How do cultural differences in communication styles lead to misunderstandings in diplomacy?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the trade-offs between privacy and convenience in the digital age."
+  },
+  {
+    "level": "C1",
+    "question": "What role does nostalgia play in shaping political movements? Provide examples."
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a scientific breakthrough you believe is overhyped. What risks are overlooked?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your definition of ‘home’ changed over your life, and what influenced this?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the psychological effects of long-term remote work. How can organizations adapt?"
+  },
+  {
+    "level": "C1",
+    "question": "Should governments have the authority to limit artistic expression? Where would you draw the line?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss an instance where ‘good intentions’ led to negative outcomes. What lessons emerged?"
+  },
+  {
+    "level": "C1",
+    "question": "How do generational differences manifest in workplace values, and how can conflicts be resolved?"
+  },
+  {
+    "level": "C1",
+    "question": "Is the concept of ‘work-life balance’ unrealistic in modern society? Justify your view."
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the impact of urbanization on mental health. What policy changes could address this?"
+  },
+  {
+    "level": "C1",
+    "question": "How would you redesign education systems to better prepare students for an uncertain future?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a controversial figure you admire. How do you reconcile their flaws with their contributions?"
+  },
+  {
+    "level": "C1",
+    "question": "To what extent is climate change a symptom of deeper systemic issues in capitalism?"
+  },
+  {
+    "level": "C1",
+    "question": "How does linguistic relativity (the Sapir-Whorf hypothesis) shape cultural worldviews?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the ethics of ‘voluntourism.’ Does it help or harm communities in need?"
+  },
+  {
+    "level": "C1",
+    "question": "What philosophical or spiritual belief has most influenced your approach to life?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you changed a long-held belief. What evidence or experience prompted this?"
+  },
+  {
+    "level": "C1",
+    "question": "How do algorithms perpetuate bias, and what steps can mitigate this?"
+  },
+  {
+    "level": "C1",
+    "question": "Should democracies limit misinformation at the cost of free speech? Argue your case."
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the role of humor in coping with trauma. Can it ever be counterproductive?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your understanding of ‘power’ evolved over time? Provide personal or historical examples."
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the paradox of ‘choice overload’ in consumer culture. How does it affect wellbeing?"
+  },
+  {
+    "level": "C1",
+    "question": "Is cultural appropriation ever justified? Provide nuanced examples."
+  },
+  {
+    "level": "C1",
+    "question": "How do non-verbal communication differences lead to diplomatic misunderstandings?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the ethical dilemmas of gene editing technologies like CRISPR."
+  },
+  {
+    "level": "C1",
+    "question": "What role does ‘luck’ play in success, and how should societies account for it?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you witnessed systemic inequality. How could the system be redesigned?"
+  },
+  {
+    "level": "C1",
+    "question": "How does the ‘gig economy’ redefine traditional employer-employee relationships?"
+  },
+  {
+    "level": "C1",
+    "question": "Should children be taught critical thinking over rote memorization? Defend your stance."
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the psychological impact of ‘doomscrolling’ on political engagement."
+  },
+  {
+    "level": "C1",
+    "question": "How do you distinguish between ‘adaptation’ and ‘compromise’ in personal values?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a law or policy you believe is well-intentioned but ineffective. How would you improve it?"
+  },
+  {
+    "level": "C1",
+    "question": "Is the concept of ‘national identity’ becoming obsolete in a globalized world?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the tension between economic growth and environmental sustainability."
+  },
+  {
+    "level": "C1",
+    "question": "How does tribalism manifest in modern politics, and what are its consequences?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you had to unlearn a subconscious bias. What triggered this realization?"
+  },
+  {
+    "level": "C1",
+    "question": "Should corporations be held accountable for their carbon footprint even if it reduces profits?"
+  },
+  {
+    "level": "C1",
+    "question": "How does nostalgia distort our perception of history?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the role of irony and satire in political resistance movements."
+  },
+  {
+    "level": "C1",
+    "question": "What defines ‘cultural heritage,’ and who has the right to claim it?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss an ethical dilemma in AI (e.g., self-driving car decisions). How should it be resolved?"
+  },
+  {
+    "level": "C1",
+    "question": "How do power dynamics in language (e.g., ‘standard’ vs. dialect) marginalize communities?"
+  },
+  {
+    "level": "C1",
+    "question": "Is the pursuit of happiness a universal right or a cultural construct?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the psychological effects of prolonged social isolation."
+  },
+  {
+    "level": "C1",
+    "question": "How has digital communication altered the nature of empathy?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you experienced cognitive dissonance. How did you resolve it?"
+  },
+  {
+    "level": "C1",
+    "question": "Should governments incentivize declining birth rates, or is population decline a natural correction?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the role of ‘meritocracy’ in perpetuating inequality."
+  },
+  {
+    "level": "C1",
+    "question": "How do urban design and architecture reflect societal values?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘de-extinction’ efforts. Should we revive extinct species?"
+  },
+  {
+    "level": "C1",
+    "question": "What responsibilities do wealthy nations have toward climate refugees?"
+  },
+  {
+    "level": "C1",
+    "question": "How does the commodification of wellness culture impact public health?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of shame in societal behavior regulation. Is it ever constructive?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a historical figure whose legacy is contested. How should they be remembered?"
+  },
+  {
+    "level": "C1",
+    "question": "How do linguistic euphemisms obscure moral accountability (e.g., ‘collateral damage’)?"
+  },
+  {
+    "level": "C1",
+    "question": "Is technological progress inevitably linked to environmental degradation?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the societal impact of declining trust in institutions."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘choice architecture’ (e.g., default options) manipulate behavior?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of using behavioral psychology in marketing."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘digital privacy’ be considered a human right? Argue your position."
+  },
+  {
+    "level": "C1",
+    "question": "How does cultural relativism challenge universal human rights frameworks?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of irony in postmodern art and literature."
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you witnessed the ‘banality of evil’ in everyday life."
+  },
+  {
+    "level": "C1",
+    "question": "How does socioeconomic status shape access to justice?"
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘emotional labor’ undervalued in modern economies? Why or why not?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the psychological effects of ‘fear-based’ vs. ‘hope-based’ political messaging."
+  },
+  {
+    "level": "C1",
+    "question": "How do cultural narratives around ‘success’ contribute to mental health crises?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘fast fashion’ in a climate-conscious era."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘whistleblowing’ be protected even when it breaches national security?"
+  },
+  {
+    "level": "C1",
+    "question": "How does the ‘attention economy’ degrade public discourse?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of silence in communication. When is it powerful or oppressive?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you experienced ‘imposter syndrome.’ How did you overcome it?"
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘cultural assimilation’ ever a justified expectation for immigrants?"
+  },
+  {
+    "level": "C1",
+    "question": "How do memorials and monuments shape collective memory?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the tension between intellectual property rights and open-source collaboration."
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of using animals in scientific research."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘late-stage capitalism’ redefine notions of community?"
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘microaggressions’ be legally actionable? Why or why not?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of ‘gatekeeping’ in cultural movements (e.g., ‘real’ fans vs. newcomers)."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘virtue signaling’ undermine or advance social justice?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the psychological impact of ‘perfectionism’ in high-achieving environments."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘disruption’ always a positive force in industries? Provide counterexamples."
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the role of ‘myth’ in shaping national identities."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘cancel culture’ intersect with accountability and redemption?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘dark tourism’ (visiting sites of tragedy)."
+  },
+  {
+    "level": "C1",
+    "question": "Should governments regulate ‘fake news’ even if it limits free expression?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of ‘aesthetics’ in political movements (e.g., propaganda art)."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘toxic positivity’ harm emotional authenticity?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss a time you observed ‘groupthink’ in action. What were the consequences?"
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘cultural capital’ (e.g., education, tastes) a form of elitism?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the ethics of ‘surveillance capitalism’ in the age of big data."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘filter bubbles’ exacerbate political polarization?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the implications of ‘deplatforming’ controversial figures."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘hate speech’ laws prioritize safety over free speech? Argue your case."
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of ‘nostalgia’ in consumer marketing."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘linguistic prescriptivism’ reinforce social hierarchies?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘life extension’ technologies. Should death be ‘cured’?"
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘cultural hybridity’ (e.g., fusion cuisines) a form of appropriation or progress?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the psychological effects of ‘doomsday prepping.’"
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘memes’ shape political discourse and collective memory?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘voluntary human extinction’ movements."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘universal design’ (accessibility for all) be legally mandated?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of ‘charisma’ in leadership. Is it a strength or a liability?"
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘neoliberalism’ redefine individual responsibility?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the implications of ‘post-truth’ politics for democracy."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘cultural preservation’ inherently conservative, or can it be progressive?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the ethics of ‘geoengineering’ to combat climate change."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘conspiracy theories’ fill psychological needs for certainty?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the role of ‘shame’ in rehabilitating offenders vs. perpetuating stigma."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘algorithmic transparency’ be required by law? Why or why not?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the ethics of ‘mind uploading’ for immortality."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘performative activism’ help or hinder social change?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the implications of ‘neurodiversity’ in workplace accommodations."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘cultural imperialism’ an inevitable byproduct of globalization?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the role of ‘humor’ in coping with existential threats (e.g., climate change)."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘microcultures’ (e.g., fandoms) challenge mainstream norms?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘designer babies’ through genetic engineering."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘ecoterrorism’ ever be morally justified?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the psychological impact of ‘ambient apocalypse’ (constant crisis news)."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘linguistic imperialism’ manifest in global business and education?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the role of ‘mythmaking’ in corporate branding (e.g., Apple’s ‘think different’)."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘radical transparency’ in organizations feasible or desirable?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the ethics of ‘predatory publishing’ in academia."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘deepfakes’ challenge notions of truth and consent?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the implications of ‘quantified self’ (self-tracking) for autonomy."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘junk food’ be regulated like tobacco? Why or why not?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of ‘irony’ in Gen Z’s political engagement."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘platform capitalism’ (e.g., Uber, Airbnb) exploit labor?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘deceptive design’ (e.g., dark patterns) in apps/websites."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘posthumanism’ a liberating or dehumanizing philosophy?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the psychological effects of ‘climate doomism’ vs. ‘climate activism.’"
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘alternative facts’ reshape democratic accountability?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the role of ‘aesthetic labor’ (e.g., ‘looking the part’) in service industries."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘universal basic assets’ (e.g., housing, internet) replace universal basic income?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the ethics of ‘emotional AI’ (e.g., chatbots that mimic human empathy)."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘prestige bias’ distort scientific research priorities?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the implications of ‘digital afterlife’ (e.g., posthumous AI avatars)."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘neocolonialism’ an accurate term for modern economic exploitation?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the role of ‘hope’ in sustaining social movements."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘moral panics’ distract from systemic issues?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘targeted advertising’ based on personal data."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘misinformation superspreaders’ be banned from social media?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the psychological impact of ‘chronoworking’ (flexible schedules)."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘epistemic injustice’ (e.g., dismissing marginalized voices) manifest in academia?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the role of ‘solastalgia’ (ecological grief) in climate activism."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘degrowth’ a viable alternative to capitalism?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the ethics of ‘neuroenhancement’ (e.g., brain implants for cognition)."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘parasocial relationships’ (e.g., with influencers) affect social bonds?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the implications of ‘algorithmic governance’ (e.g., AI-led policymaking)."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘whiteness studies’ be included in school curricula? Why or why not?"
+  },
+  {
+    "level": "C1",
+    "question": "Examine the role of ‘collective trauma’ in shaping national identity."
+  },
+  {
+    "level": "C1",
+    "question": "How does ‘greenwashing’ undermine environmental progress?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the ethics of ‘human challenge trials’ (deliberately infecting volunteers for research)."
+  },
+  {
+    "level": "C1",
+    "question": "Is ‘intersectionality’ overused as a term, or does it remain a critical lens?"
+  },
+  {
+    "level": "C1",
+    "question": "Analyze the psychological effects of ‘polycrisis’ (facing multiple simultaneous crises)."
+  },
+  {
+    "level": "C1",
+    "question": "How do ‘luxury beliefs’ (ideas that signal status but harm the poor) perpetuate inequality?"
+  },
+  {
+    "level": "C1",
+    "question": "Discuss the role of ‘futurism’ in shaping policy decisions."
+  },
+  {
+    "level": "C1",
+    "question": "Should ‘animal rights’ extend to insects or AI entities? Where do you draw the line?"
+  },
+  {
+    "level": "C1",
+    "question": "How could the development of topological insulators transform electronic devices?"
+  },
+  {
+    "level": "C1",
+    "question": "To what extent might developments in bioelectronic medicine revolutionize therapeutic approaches?"
+  },
+  {
+    "level": "C1",
+    "question": "How might the emerging field of quantum cognition challenge traditional psychological models?"
+  },
+  {
+    "level": "C1",
+    "question": "What philosophical questions emerge from the potential existence of Boltzmann brains in cosmology?"
+  },
+  {
+    "level": "C1",
+    "question": "How could the development of atomically thin materials transform various industrial applications?"
+  },
+  {
+    "level": "C1",
+    "question": "To what degree might developments in neural dust interfaces enable new brain monitoring capabilities?"
+  },
+  {
+    "level": "C1",
+    "question": "How might the emerging field of computational creativity inform our understanding of artistic processes?"
+  },
+  {
+    "level": "C1",
+    "question": "What ethical dilemmas arise from the potential use of artificial intelligence in historical analysis?"
+  },
+  {
+    "level": "C1",
+    "question": "How could the development of excitonic transistors revolutionize optoelectronic computing?"
+  },
+  {
+    "level": "C1",
+    "question": "To what extent might developments in magnetic skyrmions enable new memory storage technologies?"
+  },
+  {
+    "level": "C1",
+    "question": "How might the emerging field of machine epistemology inform our understanding of knowledge validation?"
+  },
+  {
+    "level": "C1",
+    "question": "What philosophical implications stem from the potential discovery of time crystals?"
+  },
+  {
+    "level": "C1",
+    "question": "How could the development of biological neural networks challenge traditional AI architectures?"
+  },
+  {
+    "level": "C1",
+    "question": "To what degree might developments in quantum machine learning revolutionize pattern recognition?"
+  },
+  {
+    "level": "C1",
+    "question": "How might the emerging field of algocracy transform traditional governance structures?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the ontological implications of quantum decoherence theories challenge our fundamental understanding of reality and consciousness?"
+  },
+  {
+    "level": "C2",
+    "question": "To what extent could the holographic principle in theoretical physics necessitate a paradigm shift in our conception of spacetime and information?"
+  },
+  {
+    "level": "C2",
+    "question": "What epistemological ramifications might emerge from the potential verification of the mathematical universe hypothesis?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical zombie argument in consciousness studies fundamentally undermine physicalist accounts of qualia?"
+  },
+  {
+    "level": "C2",
+    "question": "What sociolinguistic transformations might occur if neural lace technology enabled direct brain-to-brain linguistic transmission?"
+  },
+  {
+    "level": "C2",
+    "question": "How might Gödel's incompleteness theorems impose fundamental limitations on the development of self-verifying artificial general intelligence?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you navigate cultural nuances in humor when communicating in English? Give an example where a joke fell flat or was misunderstood."
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you had to mediate a conflict caused by language barriers. What strategies worked?"
+  },
+  {
+    "level": "C2",
+    "question": "If you had to convince someone to learn your native language, how would you pitch its unique advantages?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a common misconception about your culture that you’ve had to explain repeatedly in English?"
+  },
+  {
+    "level": "C2",
+    "question": "How would you summarize your country’s current social/political climate to a foreigner without oversimplifying?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you code-switched (changed communication style) to fit an English-speaking context. Why was it necessary?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a phrase or idiom in your language that loses all meaning when translated directly to English?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you adapt your body language in cross-cultural English interactions to avoid misunderstandings?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a situation where you had to ‘read between the lines’ in an English conversation. What clues did you notice?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a subtle grammatical error even advanced English learners make that gives them away as non-native?"
+  },
+  {
+    "level": "C2",
+    "question": "How would you explain a complex concept from your field of work to a 10-year-old in English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘untranslatable’ emotion or social dynamic from your culture that English struggles to capture?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used irony or sarcasm in English and it backfired. What did you learn?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you politely refuse or disagree in English without sounding rude in high-stakes situations (e.g., business, academia)?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a regional English accent or dialect you find challenging to understand? How do you handle it?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about an English word you misused embarrassingly. How did you realize your mistake?"
+  },
+  {
+    "level": "C2",
+    "question": "How would you describe your personality differently in English vs. your native language? Why?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘rule’ of English grammar or pronunciation you deliberately break to sound more natural?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you had to interpret tone (e.g., email, Zoom) correctly in English without visual cues."
+  },
+  {
+    "level": "C2",
+    "question": "What’s a topic you can discuss fluently in English but struggle to articulate in your native language? Why?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you signal respect or hierarchy in English when your culture expresses it very differently?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a common English small-talk question that would be awkward or intrusive in your culture?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to ‘unlearn’ a direct translation from your language to sound natural in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you handle jokes or wordplay in English that rely on homophones (e.g., ‘bear’ vs. ‘bare’)?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a professional or academic scenario where you felt your English limited your expression? How did you adapt?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a cultural reference in English (film, book, history) you had to research to fully grasp."
+  },
+  {
+    "level": "C2",
+    "question": "How do you gauge formality levels in English (e.g., ‘hey’ vs. ‘dear sir’) when emailing strangers?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a gesture or habit in your culture that could be misinterpreted negatively in English-speaking contexts?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to paraphrase complex ideas in English because the exact translation didn’t exist."
+  },
+  {
+    "level": "C2",
+    "question": "How do you recover when your mind goes blank mid-conversation in English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a slang term or Gen Z expression in English you’ve adopted ironically (or unironically)?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you mimicked a native speaker’s phrasing/intonation and it improved your communication."
+  },
+  {
+    "level": "C2",
+    "question": "How do you politely interrupt or ask for clarification in fast-paced English discussions?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a word in English you deliberately avoid because you’re unsure of its connotations?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about an English podcast/TV show that helped you grasp casual speech patterns."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss sensitive topics (e.g., politics, religion) in English without causing offense?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘false friend’ (word that looks similar but means something different) that tripped you up in English?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used humor to diffuse tension in English. How did you ensure it landed well?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you balance sounding natural vs. grammatically perfect in spoken English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a pronunciation challenge in English you’ve worked to overcome (e.g., ‘th,’ vowel sounds)?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to advocate for yourself or negotiate in English. What phrasing worked?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you signal active listening (e.g., backchanneling) in English conversations?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a topic you’re passionate about but avoid discussing in English due to vocabulary gaps?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you translated a proverb from your language into English and it lost its impact."
+  },
+  {
+    "level": "C2",
+    "question": "How do you handle regional variations in vocabulary (e.g., ‘lift’ vs. ‘elevator’) when speaking English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a conversational ‘filler’ word (e.g., ‘like,’ ‘you know’) you’ve adopted to sound more fluent?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you misunderstood a euphemism or indirect request in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe colors, tastes, or textures in English when exact equivalents don’t exist in your language?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a social norm in English-speaking cultures (e.g., tipping, queueing) you found puzzling at first?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you had to ‘think in English’ to respond quickly under pressure."
+  },
+  {
+    "level": "C2",
+    "question": "How do you adapt your storytelling style (e.g., chronology, punchlines) for English audiences?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a word in English you love for its sound or expressiveness, even if it’s not directly translatable?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you accidentally over-explained something simple in English due to insecurity."
+  },
+  {
+    "level": "C2",
+    "question": "How do you handle compliments or praise in English when direct acceptance feels uncomfortable?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘rule’ of English you wish native speakers followed more consistently?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a metaphor or analogy in English that resonated well."
+  },
+  {
+    "level": "C2",
+    "question": "How do you signal sarcasm or irony in writing (e.g., emails, texts) without emojis or tone?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a conversation topic in English you find unexpectedly challenging due to cultural differences?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you ‘faked’ understanding in an English conversation to avoid embarrassment. What backfired?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe familial relationships in English when your language has more specific terms (e.g., maternal vs. paternal cousins)?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a gesture or facial expression in your culture that means the opposite in English-speaking contexts?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you had to ‘translate’ cultural context, not just words, for an English speaker."
+  },
+  {
+    "level": "C2",
+    "question": "How do you navigate generational differences in English (e.g., slang, formality) in workplace settings?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a word in your language you wish English would borrow because it’s so useful?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you struggled to express an emotion in English because the word felt ‘inauthentic.’"
+  },
+  {
+    "level": "C2",
+    "question": "How do you politely correct a native English speaker’s mistake about your culture or language?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a hyper-local English phrase (e.g., regional slang) you’ve adopted to fit in?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a thesaurus to find the ‘perfect’ English word and it backfired."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss food or cuisine in English when direct translations sound unappetizing (e.g., ‘fermented soybeans’ vs. ‘natto’)?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a common English phrase you deliberately avoid because it feels clichéd or inauthentic to you?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to simplify your accent in English to be better understood."
+  },
+  {
+    "level": "C2",
+    "question": "How do you handle moments when you forget a word in English mid-sentence?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘natural’ English speaker habit (e.g., contractions, dropped syllables) you’ve consciously practiced?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used humor self-deprecatingly in English to connect with others."
+  },
+  {
+    "level": "C2",
+    "question": "How do you signal hesitation or uncertainty in English without undermining your credibility?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a grammatical ‘error’ native English speakers make that still confuses you?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to defend a nuanced opinion in English without sounding confrontational."
+  },
+  {
+    "level": "C2",
+    "question": "How do you adapt your humor when speaking English with people from different age groups?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a word in English you’ve heard mispronounced so often you started doubting the correct pronunciation?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you ‘code-mixed’ (switched between languages) in an English conversation. Why?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe time or punctuality in English when your culture has a more flexible approach?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a social media trend or meme in English you struggled to understand without cultural context?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to ‘perform’ a more extroverted version of yourself to fit English-speaking norms."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss mental health or emotions in English when direct translations feel too clinical or vague?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a professional title or role in your language that doesn’t translate neatly into English?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a cultural reference in English that no one understood. How did you recover?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you handle compliments about your English fluency without sounding dismissive or arrogant?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘polite’ English phrase (e.g., ‘bless your heart’) you’ve learned has hidden meanings?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you mimicked a celebrity’s or politician’s speech pattern in English as a learning tool."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss superstitions or folk beliefs from your culture in English without sounding ‘irrational’?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a double entendre or pun in English you only understood after an awkward moment?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you had to explain a historical or political nuance about your country in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you navigate small talk in English when your culture values deeper conversations upfront?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘natural’ English filler sound (e.g., ‘um,’ ‘ah’) you’ve adopted to buy thinking time?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you accidentally offended someone by translating a phrase too literally into English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe personal space or physical contact norms from your culture in English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a word in English you avoid because it’s a homophone for something embarrassing in your language?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a metaphor from nature/sports/etc. in English that confused listeners."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss gender roles or family structures from your culture in English without oversimplifying?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘trendy’ English word (e.g., ‘woke,’ ‘gaslighting’) you feel is overused or misused?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a traditional ceremony or ritual in English without the proper vocabulary."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe shades of emotion (e.g., nostalgia, schadenfreude) in English when single words don’t exist?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a common English phrase you’ve rephrased to sound more like your ‘voice’?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a rhetorical question in English to make a point more persuasively."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss socioeconomic class in English when direct translations sound judgmental or outdated?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘redundant’ phrase in English (e.g., ‘free gift’) that still confuses you?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to paraphrase a joke from your language into English. Did it work?"
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local holidays or festivals in English when there’s no equivalent?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘polite’ interruption tactic in English (e.g., ‘Sorry to jump in…’) you’ve mastered?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a word in English correctly but it sounded odd because of register (e.g., too formal)."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss art or music in English when aesthetic values differ across cultures?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘brand name’ in English (e.g., Kleenex, Band-Aid) you didn’t realize was a trademark?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a gesture or body language norm from your culture in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local cuisine in English when ingredients have no direct translation?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘loaded’ word in English (e.g., ‘feminism,’ ‘socialism’) you’ve learned to use carefully?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a historical or literary allusion in English and had to explain it."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss work-life balance in English when your culture has different priorities?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘buzzword’ in English (e.g., ‘synergy,’ ‘disrupt’) you find overused in professional settings?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to ‘translate’ your resume or professional background into culturally relatable terms."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe a complex family relationship (e.g., step-siblings, in-laws) in English without a flowchart?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘minimal pair’ (e.g., ship/sheep) you still occasionally mix up in pronunciation?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a rhyming phrase or alliteration in English to make a point memorable."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss local politics in English without assuming listeners know the context?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘false cognate’ (word that looks similar but means something different) you’ve learned to avoid?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a generational or age-related cultural gap in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe weather or seasonal changes in English when your climate is radically different?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘corporate jargon’ phrase in English (e.g., ‘think outside the box’) you find meaningless?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a sports metaphor in English and realized the listener wasn’t a sports fan."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss personal achievements in English without sounding boastful (by your culture’s standards)?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘dysphemism’ (harsh term for something neutral, e.g., ‘kick the bucket’) you’ve learned to use cautiously?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to clarify that a direct translation from your language sounded rude in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe traditional clothing or attire from your culture in English when terms don’t exist?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘loanword’ from your language that English has adopted but pronounces strangely?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a sarcastic tone in English and it was taken literally."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss superstitions or folklore from your culture in English without sounding ‘quaint’?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘contronym’ (word with two opposite meanings, e.g., ‘sanction’) that still trips you up?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a non-verbal communication norm (e.g., eye contact) from your culture."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local wildlife or plants in English when they’re unfamiliar to listeners?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘ghost word’ (e.g., ‘dord’) or common misspelling in English you’ve learned to avoid?"
+  },
+
+  {
+    "level": "C2",
+    "question": "How do you discuss regional dialects or accents within your own country in English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘non-gendered’ term in English (e.g., ‘they’ as singular) you’ve adopted despite it feeling unnatural at first?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to ‘unpack’ a stereotype about your culture in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local transportation or infrastructure in English when equivalents don’t exist?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘portmanteau’ (blended word like ‘brunch’) in English you find clever or confusing?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a word in English that was technically correct but culturally inappropriate."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss holidays or celebrations in English when they’re tied to untranslatable concepts?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘fossil word’ (archaic term only used in phrases, e.g., ‘kith and kin’) you’ve encountered in English?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a gesture or facial expression from your culture in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local architecture or urban planning in English when terms don’t directly translate?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘singulative’ (word for a single item from a group, e.g., ‘a grain of rice’) you’ve learned in English?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a word in English that was correct but made you sound ‘old-fashioned.’"
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss traditional medicine or healing practices from your culture in English?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘ghost word’ (e.g., ‘dord’) or common misspelling in English you’ve learned to avoid?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a cultural ‘third rail’ (taboo topic) in English."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local sports or games in English when they’re unfamiliar to listeners?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘nonce word’ (made-up word for a specific occasion) in English you’ve found amusing or useful?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a word in English that was correct but sounded oddly formal or technical."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss local environmental issues in English without assuming shared knowledge?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘backronym’ (phrase retrofitted to fit an acronym, e.g., ‘POSH’) you’ve encountered in English?"
+  },
+  {
+    "level": "C2",
+    "question": "Tell me about a time you had to explain a historical event from your country in English without bias."
+  },
+  {
+    "level": "C2",
+    "question": "How do you describe local fashion or beauty standards in English when terms don’t translate?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘sniglet’ (word that should exist but doesn’t, e.g., ‘elbow grease’) you wish English would adopt?"
+  },
+  {
+    "level": "C2",
+    "question": "Describe a time you used a word in English that was correct but regionally obscure."
+  },
+  {
+    "level": "C2",
+    "question": "How do you discuss local education systems in English without direct equivalents?"
+  },
+  {
+    "level": "C2",
+    "question": "What’s a ‘retronym’ (new term for an old thing, e.g., ‘acoustic guitar’) you’ve learned in English?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical problem of personal identity be addressed in cases of gradual substrate replacement?"
+  },
+  {
+    "level": "C2",
+    "question": "To what degree could the concept of free will be maintained in light of perfect behavioral prediction algorithms?"
+  },
+  {
+    "level": "C2",
+    "question": "What metaphysical implications would follow from the discovery of closed timelike curves in spacetime?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of aesthetics be transformed by artificial intelligence that creates perfect art?"
+  },
+  {
+    "level": "C2",
+    "question": "What phenomenological consequences might emerge from the ability to directly share sensory experiences?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical concept of knowledge be transformed by direct neural knowledge implantation?"
+  },
+  {
+    "level": "C2",
+    "question": "To what extent could the Chinese room argument be circumvented by artificial systems that claim to experience qualia?"
+  },
+  {
+    "level": "C2",
+    "question": "What noetic consequences might emerge from artificial intelligence systems that develop non-linguistic reasoning?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of mathematics be challenged by artificial intelligence that discovers new mathematical realms?"
+  },
+  {
+    "level": "C2",
+    "question": "What hermeneutic challenges would arise in interpreting music created by artificial superintelligence?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical problem of induction be transformed by predictive algorithms with perfect accuracy?"
+  },
+  {
+    "level": "C2",
+    "question": "To what degree could the concept of personal identity be maintained in cases of consciousness merging?"
+  },
+  {
+    "level": "C2",
+    "question": "What ontological implications would follow from the discovery that reality is fundamentally mathematical?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of ethics be transformed by neurotechnologies that modify moral reasoning?"
+  },
+  {
+    "level": "C2",
+    "question": "What phenomenological differences might emerge between biological and artificial emotional experiences?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical concept of truth be maintained in an era of perfect reality simulation?"
+  },
+  {
+    "level": "C2",
+    "question": "To what extent could the hard problem of consciousness be resolved by integrated information theory?"
+  },
+  {
+    "level": "C2",
+    "question": "What epistemological ramifications might emerge from artificial intelligence systems that perceive quantum superpositions?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of physics be transformed by the discovery of new fundamental forces?"
+  },
+  {
+    "level": "C2",
+    "question": "What noetic consequences might emerge from direct neural access to all human knowledge?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical problem of other minds be addressed by perfect mind-reading technology?"
+  },
+  {
+    "level": "C2",
+    "question": "To what degree could the concept of free will be maintained in light of complete neural determinism?"
+  },
+  {
+    "level": "C2",
+    "question": "What metaphysical implications would follow from the discovery that consciousness creates reality?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of art be transformed by artificial intelligence that creates perfect beauty?"
+  },
+  {
+    "level": "C2",
+    "question": "What phenomenological consequences might emerge from the ability to experience multiple consciousness streams simultaneously?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical concept of self be transformed by distributed consciousness networks?"
+  },
+  {
+    "level": "C2",
+    "question": "To what extent could the simulation hypothesis be tested through quantum physics experiments?"
+  },
+  {
+    "level": "C2",
+    "question": "What ontological implications would follow from the discovery of non-computable processes in the brain?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of language be transformed by direct concept transmission?"
+  },
+  {
+    "level": "C2",
+    "question": "What epistemological ramifications might emerge from artificial intelligence systems that perceive higher dimensions?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical problem of personal identity be addressed in cases of consciousness duplication?"
+  },
+  {
+    "level": "C2",
+    "question": "To what degree could the concept of qualia be operationalized in artificial consciousness systems?"
+  },
+  {
+    "level": "C2",
+    "question": "What metaphysical implications would follow from the discovery that time is an emergent property?"
+  },
+  {
+    "level": "C2",
+    "question": "How could the philosophical foundations of science be transformed by artificial intelligence that discovers new laws of nature?"
+  },
+  {
+    "level": "C2",
+    "question": "What phenomenological differences might emerge between original and copied conscious experiences?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the philosophical concept of meaning be transformed by perfect communication technologies?"
+  },
+  {
+    "level": "C2",
+    "question": "To what extent could the hard problem of consciousness be resolved by panpsychist theories?"
+  },
+  {
+    "level": "C2",
+    "question": "What noetic consequences might emerge from artificial intelligence systems that develop non-human values?"
+  },
+   {
+    "level": "C2",
+    "question": "How might the increasing sophistication of deepfake technology alter our fundamental understanding of truth and evidence in legal and social contexts?"
+  },
+  {
+    "level": "C2",
+    "question": "To what extent could the development of quantum computing render our current cybersecurity systems obsolete, and what societal implications would this have?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss how the philosophical zombie argument challenges physicalist accounts of consciousness. Where do you stand on this debate?"
+  },
+  {
+    "level": "C2",
+    "question": "How would society need to adapt if neurotechnology allowed for direct sharing of memories and emotions between individuals?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze the potential consequences of achieving indefinite human lifespans through biological age reversal technologies."
+  },
+  {
+    "level": "C2",
+    "question": "How might the concept of personal identity evolve in a world where consciousness can be digitally transferred or duplicated?"
+  },
+  {
+    "level": "C2",
+    "question": "Debate the ethical implications of using artificial intelligence to make life-or-death decisions in medical and judicial systems."
+  },
+  {
+    "level": "C2",
+    "question": "How could the ability to edit emotions and personality traits through neurotechnology affect human relationships and society?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential impacts on global power structures if certain nations achieve artificial general intelligence significantly before others."
+  },
+  {
+    "level": "C2",
+    "question": "How might the discovery of extraterrestrial microbial life force us to reconsider our philosophical and religious frameworks?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the development of perfect virtual reality environments might change human priorities and values."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether advanced AI systems should be granted legal personhood status and what rights they might deserve."
+  },
+  {
+    "level": "C2",
+    "question": "How could the emergence of brain-computer interfaces that enable direct knowledge uploading transform education systems?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential consequences of creating artificial consciousness that experiences suffering. What moral obligations would we have?"
+  },
+  {
+    "level": "C2",
+    "question": "How might the ability to precisely edit human embryos for enhanced traits affect social equality and the concept of human nature?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the development of molecular manufacturing could disrupt global economic systems and labor markets."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether advanced surveillance technologies can ever be compatible with maintaining personal freedoms and privacy."
+  },
+  {
+    "level": "C2",
+    "question": "How might the increasing automation of creative processes (art, music, writing) affect our appreciation of human creativity?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the philosophical implications if we discovered that our universe is a highly advanced computer simulation."
+  },
+  {
+    "level": "C2",
+    "question": "How could the development of technologies that allow communication with deceased individuals through their digital footprints affect grief and mourning processes?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze the potential consequences of creating artificial superintelligence that develops values fundamentally different from human values."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether it would be ethical to create digital afterlives where uploaded consciousnesses could continue existing indefinitely."
+  },
+  {
+    "level": "C2",
+    "question": "How might the ability to read and interpret dreams affect our understanding of the subconscious and concepts of privacy?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential impacts on human psychology if we develop perfect memory enhancement and editing technologies."
+  },
+  {
+    "level": "C2",
+    "question": "How could the development of technologies that allow direct brain-to-brain communication transform language and human interaction?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the concept of childhood might evolve in a world where cognitive enhancement can accelerate learning and maturation."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether governments should have the right to use predictive algorithms to prevent crimes before they occur."
+  },
+  {
+    "level": "C2",
+    "question": "How might the ability to genetically engineer new species affect our ethical responsibilities toward the natural world?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential consequences if neuroscience advances allow us to precisely identify and manipulate political beliefs in the brain."
+  },
+  {
+    "level": "C2",
+    "question": "How could the development of technologies that significantly extend human attention spans transform education and work?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the concept of personal achievement might change in a world where cognitive enhancement drugs are widely available."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether it would be ethical to create artificial beings designed to experience only positive emotions."
+  },
+  {
+    "level": "C2",
+    "question": "How might the ability to digitally archive and replay personal experiences affect our perception of time and memory?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential impacts on human relationships if we develop technologies that can perfectly simulate the presence of deceased loved ones."
+  },
+  {
+    "level": "C2",
+    "question": "How could the development of emotion-reading AI affect interpersonal relationships and social dynamics?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the concept of privacy might need to evolve in a world where brain activity can be remotely monitored."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether advanced AI systems should be allowed to own property or have independent economic agency."
+  },
+  {
+    "level": "C2",
+    "question": "How might the ability to control dreams transform entertainment, therapy, and education?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential consequences if neuroscience advances allow us to identify the neural correlates of religious experiences."
+  },
+  {
+    "level": "C2",
+    "question": "How could the development of technologies that allow group consciousness (multiple minds merging temporarily) affect human society?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the concept of personal identity might change if we develop the ability to merge consciousnesses permanently."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether it would be ethical to create artificial consciousness that can experience suffering for scientific research purposes."
+  },
+  {
+    "level": "C2",
+    "question": "How might the ability to precisely control human fertility through technological means affect gender relations and family structures?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential impacts on human psychology if we develop technologies that can erase traumatic memories at will."
+  },
+  {
+    "level": "C2",
+    "question": "How could the development of perfect lie detection technologies affect legal systems and personal relationships?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the concept of free will might need to be reconsidered if neuroscience advances can predict decisions before conscious awareness."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether advanced civilizations should actively work to prevent the heat death of the universe or accept cosmic entropy as inevitable."
+  },
+  {
+    "level": "C2",
+    "question": "How might the discovery of multiple universes with different physical laws affect our philosophical understanding of reality?"
+  },
+  {
+    "level": "C2",
+    "question": "Discuss the potential consequences if we develop technologies that allow humans to hibernate for extended periods of time."
+  },
+  {
+    "level": "C2",
+    "question": "How could the ability to digitally 'backup' and restore human consciousness affect our approach to mortality and risk-taking?"
+  },
+  {
+    "level": "C2",
+    "question": "Analyze how the development of artificial wombs might change concepts of parenthood and gender roles in society."
+  },
+  {
+    "level": "C2",
+    "question": "Debate whether it would be ethical to create human-animal hybrids with enhanced cognitive abilities."
+  }
+]
+
+
