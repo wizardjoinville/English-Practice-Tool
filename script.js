@@ -1009,104 +1009,144 @@ function iniciarExercicios(exercises) {
 }
 
 
+// --- FUNÇÕES DE GRAMÁTICA ---
 function criarExercicioComCaixasPorGrupo(exercise) {
-  // Usar regex para encontrar todos os grupos de underscores consecutivos
-  const regex = /_{2,}/g;
-  const questionWithInputs = exercise.question.replace(regex, '<input type="text" class="gap-input" style="width: 100px; margin: 0 5px;" placeholder="________">');
+  // Usar regex para encontrar grupos de underscores consecutivos
+  const regex = /(_{2,})/g;
+  const parts = exercise.question.split(regex);
 
-  document.getElementById('exerciseContainer').innerHTML = `
+  let questionHTML = `
     <div class="exercise-title">${exercise.instruction}</div>
-    <div class="exercise-content">${questionWithInputs}</div>
-    <div class="exercise-buttons" style="margin-top: 15px;">
-      <button class="check-btn" id="inlineCheckBtn">✓ Check Answer</button>
+    <div class="exercise-content" style="font-size: 1.1rem; line-height: 1.6; display: flex; flex-wrap: wrap; align-items: center;">
+  `;
+
+  let gapCount = 0;
+  
+  // CORREÇÃO: Handle both string and array answers properly
+  let answers;
+  if (Array.isArray(exercise.answer)) {
+    answers = exercise.answer;
+  } else {
+    answers = exercise.answer.split(',');
+  }
+  
+  parts.forEach(part => {
+    if (part.startsWith('_') && part.length >= 2) {
+      // É um grupo de underscores - criar UMA caixa de texto
+      const answerValue = answers[gapCount] ? String(answers[gapCount]).trim() : '';
+      questionHTML += `
+         <input type="text" class="gap-input" data-index="${gapCount}" 
+               data-answer="${answerValue.replace(/"/g, '&quot;')}"
+               style="min-width: 120px; width: 120px; padding: 8px 12px; 
+                      margin: 0 5px; border: 2px solid #8A2BE2; border-radius: 6px;"
+               placeholder="________" oninput="ajustarLarguraInput(this)">
+      `;
+      gapCount++;
+    } else {
+      // É texto normal
+      questionHTML += `<span class="sentence-text">${part}</span>`;
+    }
+  });
+
+  // CORREÇÃO: Display answer correctly for both array and string
+  const answerDisplay = Array.isArray(exercise.answer) 
+    ? exercise.answer.join(', ') 
+    : exercise.answer;
+
+  questionHTML += `</div>`;
+
+  document.getElementById('exerciseContainer').innerHTML = questionHTML + `
+    <div class="exercise-buttons" style="margin-top: 20px; text-align: center;">
+      <button class="check-btn" id="inlineCheckBtn" style="padding: 10px 20px;">
+        ✓ Verificar Resposta
+      </button>
     </div>
     <div class="exercise-feedback" id="exerciseFeedback"></div>
     <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none;">
-      <strong>Correct answer:</strong> <span>${exercise.answer}</span>
+      <strong>Resposta correta:</strong> <span>${answerDisplay}</span>
     </div>
   `;
 
-  // Adicionar event listener ao botão de verificação
-  document.getElementById('inlineCheckBtn').addEventListener('click', function () {
-
-    verificarExercicioComCaixas(exercise.answer);
-  });
-
-  // Adicionar event listeners aos campos de entrada para melhor UX
+  // Adicionar event listeners
   const gapInputs = document.querySelectorAll('.gap-input');
   gapInputs.forEach((input, index) => {
-    input.dataset.index = index;
-
     input.addEventListener('input', function () {
-      // Ajustar a largura do campo conforme o conteúdo
-      this.style.width = Math.max(80, this.value.length * 10 + 30) + 'px';
+      ajustarLarguraInput(this);
     });
 
     input.addEventListener('keydown', function (e) {
-      // Navegar entre campos com a tecla Tab
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        verificarExercicioComCaixas(exercise.answer);
+      }
+
       if (e.key === 'Tab') {
         e.preventDefault();
         const nextIndex = parseInt(this.dataset.index) + 1;
-        const nextInput = document.querySelectorAll('.gap-input')[nextIndex];
+        const nextInput = document.querySelector(`.gap-input[data-index="${nextIndex}"]`);
         if (nextInput) nextInput.focus();
       }
     });
   });
 
-  // Focar no primeiro campo
-  setTimeout(() => {
-    const firstInput = document.querySelector('.gap-input');
-    if (firstInput) firstInput.focus();
-  }, 100);
-}
-function criarExercicioComUmaCaixa(exercise, modeDisplay = '') {
-  const exerciseContainer = document.getElementById('exerciseContainer');
-  
-  // Garantir que answer seja uma string (caso seja array)
-  const answerText = Array.isArray(exercise.answer) 
-    ? exercise.answer.join(' / ') 
-    : exercise.answer;
-  
-  exerciseContainer.innerHTML = `
-    ${modeDisplay}
-    <div class="exercise-title">${exercise.instruction}</div>
-    <div class="exercise-content">
-      <div class="exercise-question">${exercise.question}</div>
-      <div class="exercise-input-container">
-        <input type="text" id="exerciseAnswer" 
-               placeholder="Digite sua resposta aqui..." 
-               class="exercise-input"
-               style="width: 100%; padding: 12px; margin: 10px 0; border: 2px solid #8A2BE2; border-radius: 8px; font-size: 16px;">
-      </div>
-    </div>
-    <div class="exercise-buttons" style="margin-top: 20px; text-align: center;">
-      <button class="check-btn" id="inlineCheckBtn" style="padding: 12px 24px; font-size: 16px; background-color: #8A2BE2; color: white; border: none; border-radius: 8px; cursor: pointer;">
-        ✓ Verificar Resposta
-      </button>
-    </div>
-    <div class="exercise-feedback" id="exerciseFeedback" style="margin-top: 15px; padding: 10px; border-radius: 5px;"></div>
-    <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none; margin-top: 15px; padding: 10px; background-color: #f0f0f0; border-radius: 5px;">
-      <strong>Resposta correta:</strong> <span>${answerText.replace(/\//g, ' ou ')}</span>
-    </div>
-  `;
-
   // Adicionar event listener ao botão de verificação
-  document.getElementById('inlineCheckBtn').addEventListener('click', function() {
-    verificarExercicio();
+  document.getElementById('inlineCheckBtn').addEventListener('click', function () {
+    verificarExercicioComCaixas(exercise.answer);
   });
 
-  // Permitir verificação com Enter
-  document.getElementById('exerciseAnswer').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      verificarExercicio();
+  // Focar no primeiro campo
+  if (gapInputs.length > 0) {
+    setTimeout(() => gapInputs[0].focus(), 100);
+  }
+}
+
+// Also update the verificarExercicioComCaixas function to handle array answers
+function verificarExercicioComCaixas(correctAnswer) {
+  const gapInputs = document.querySelectorAll('.gap-input');
+  
+  // Handle both string and array answers
+  const answers = Array.isArray(correctAnswer) 
+    ? correctAnswer 
+    : String(correctAnswer).split(',');
+  
+  let allCorrect = true;
+  const feedbackElement = document.getElementById('exerciseFeedback');
+
+  gapInputs.forEach((input, index) => {
+    const userAnswer = input.value.trim().toLowerCase();
+    const possibleAnswers = answers[index] 
+      ? String(answers[index]).trim().toLowerCase().split('/') 
+      : [''];
+
+    const isCorrect = possibleAnswers.some(correct => 
+      userAnswer === correct.trim().toLowerCase()
+    );
+
+    if (isCorrect) {
+      input.style.borderColor = '#4CAF50';
+      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
+    } else {
+      input.style.borderColor = '#F44336';
+      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
+      allCorrect = false;
     }
+    input.disabled = true;
   });
 
-  // Focar no campo de resposta
-  setTimeout(() => {
-    document.getElementById('exerciseAnswer').focus();
-  }, 100);
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) inlineBtn.disabled = true;
+
+  if (allCorrect) {
+    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
+    feedbackElement.className = 'exercise-feedback correct';
+    setTimeout(proximoExercicio, 2000);
+  } else {
+    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
+    feedbackElement.className = 'exercise-feedback incorrect';
+    const correct = document.getElementById('exerciseCorrectAnswer');
+    if (correct) correct.style.display = 'block';
+    setTimeout(proximoExercicio, 2000);
+  }
 }
 
 
@@ -1344,14 +1384,23 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   `;
 
   let gapCount = 0;
-  const answers = exercise.answer.split(',');
-
+  
+  // CORREÇÃO: Handle both string and array answers properly
+  let answers;
+  if (Array.isArray(exercise.answer)) {
+    answers = exercise.answer;
+  } else {
+    // Se for string, converter para array (separando por vírgula se necessário)
+    answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
+  }
+  
   parts.forEach(part => {
     if (part.startsWith('_') && part.length >= 2) {
       // É um grupo de underscores - criar UMA caixa de texto
+      const answerValue = answers[gapCount] ? String(answers[gapCount]).trim() : '';
       questionHTML += `
          <input type="text" class="gap-input" data-index="${gapCount}" 
-               data-answer="${answers[gapCount] ? answers[gapCount].trim() : ''}"
+               data-answer="${answerValue.replace(/"/g, '&quot;')}"
                style="min-width: 120px; width: 120px; padding: 8px 12px; 
                       margin: 0 5px; border: 2px solid #8A2BE2; border-radius: 6px;"
                placeholder="________" oninput="ajustarLarguraInput(this)">
@@ -1363,6 +1412,11 @@ function criarExercicioComCaixasPorGrupo(exercise) {
     }
   });
 
+  // CORREÇÃO: Display answer correctly for both array and string
+  const answerDisplay = Array.isArray(exercise.answer) 
+    ? exercise.answer.join(', ') 
+    : exercise.answer;
+
   questionHTML += `</div>`;
 
   document.getElementById('exerciseContainer').innerHTML = questionHTML + `
@@ -1373,7 +1427,7 @@ function criarExercicioComCaixasPorGrupo(exercise) {
     </div>
     <div class="exercise-feedback" id="exerciseFeedback"></div>
     <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none;">
-      <strong>Resposta correta:</strong> <span>${exercise.answer}</span>
+      <strong>Resposta correta:</strong> <span>${answerDisplay}</span>
     </div>
   `;
 
@@ -1382,9 +1436,6 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   gapInputs.forEach((input, index) => {
     input.addEventListener('input', function () {
       ajustarLarguraInput(this);
-
-      // Auto-foco no próximo campo quando preencher
-
     });
 
     input.addEventListener('keydown', function (e) {
@@ -1518,49 +1569,49 @@ function verificarExercicioComLacunas(correctAnswer) {
 
 function verificarExercicioComCaixas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
-  const answers = correctAnswer.split(',');
+  
+  // Handle both string and array answers
+  const answers = Array.isArray(correctAnswer) 
+    ? correctAnswer 
+    : String(correctAnswer).split(',');
+  
   let allCorrect = true;
   const feedbackElement = document.getElementById('exerciseFeedback');
 
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
+    const possibleAnswers = answers[index] 
+      ? String(answers[index]).trim().toLowerCase().split('/') 
+      : [''];
 
-    // Verificar se há múltiplas respostas possíveis (separadas por "/")
-    const possibleAnswers = answers[index] ?
-      answers[index].trim().toLowerCase().split('/') :
-      [''];
-
-    // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
-    const isCorrect = possibleAnswers.some(correct =>
+    const isCorrect = possibleAnswers.some(correct => 
       userAnswer === correct.trim().toLowerCase()
     );
 
     if (isCorrect) {
       input.style.borderColor = '#4CAF50';
-      input.style.backgroundColor = 'rgba(76, 175, 80, 0.1)';
+      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
     } else {
       input.style.borderColor = '#F44336';
-      input.style.backgroundColor = 'rgba(244, 67, 54, 0.1)';
+      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
       allCorrect = false;
     }
-
-    // Desabilitar a edição após verificação
     input.disabled = true;
   });
 
-  // Resto da função permanece igual...
-  document.getElementById('inlineCheckBtn').disabled = true;
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) inlineBtn.disabled = true;
 
   if (allCorrect) {
-    feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correto! Parabéns!</span>';
+    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
-    setTimeout(() => {
-      proximoExercicio();
-    }, 2000);
+    setTimeout(proximoExercicio, 2000);
   } else {
-    feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Algumas respostas estão incorretas.</span>';
+    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
-    document.getElementById('exerciseCorrectAnswer').style.display = 'block';
+    const correct = document.getElementById('exerciseCorrectAnswer');
+    if (correct) correct.style.display = 'block';
+    setTimeout(proximoExercicio, 2000);
   }
 }
 function iniciarContagemRegressiva() {
