@@ -906,11 +906,6 @@ function praticarGramatica(forceRefresh = false) {
     return;
   }
 
-  // Se for um refresh forçado (mudança de tópico), resetar o índice do exercício
-  if (forceRefresh) {
-    currentExerciseIndex = 0;
-  }
-
   let newGrammarTopic;
   
   // Se for selecionado "Random", escolher um tópico aleatório
@@ -926,7 +921,11 @@ function praticarGramatica(forceRefresh = false) {
   // Atualizar o tópico atual apenas se for diferente
   if (!currentGrammarTopic || currentGrammarTopic.topic !== newGrammarTopic.topic) {
     currentGrammarTopic = newGrammarTopic;
-    currentExerciseIndex = 0; // Resetar para o primeiro exercício ao mudar de tópico
+    // SEMPRE começar com um exercício aleatório do tópico
+    currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
+  } else if (forceRefresh) {
+    // Se for refresh forçado, escolher um novo exercício aleatório do mesmo tópico
+    currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
   }
 
   if (!currentGrammarTopic.exercises || currentGrammarTopic.exercises.length === 0) {
@@ -940,6 +939,11 @@ function praticarGramatica(forceRefresh = false) {
   if (exerciciosFiltrados.length === 0) {
     alert(`No ${selectedMode} exercises available for this topic.`);
     return;
+  }
+
+  // Se não for modo Random Topic, escolher um exercício aleatório dos filtrados
+  if (selectedTopic !== 'random') {
+    currentExerciseIndex = Math.floor(Math.random() * exerciciosFiltrados.length);
   }
 
   // Mostrar a seção de prática
@@ -972,35 +976,9 @@ function iniciarExercicios(exercises) {
   const topicSelect = document.getElementById('grammarSelect');
   const selectedTopic = topicSelect.value;
 
+  // Verificar se o índice atual é válido
   if (currentExerciseIndex >= exercises.length) {
-    // Se estiver no modo Random, escolher um novo tópico em vez de mostrar mensagem de conclusão
-    if (selectedTopic === 'random') {
-      const randomIndex = Math.floor(Math.random() * grammarTopics.length);
-      const randomTopic = grammarTopics[randomIndex];
-      currentGrammarTopic = randomTopic;
-      currentExerciseIndex = 0;
-      
-      // Filtrar exercícios pelo modo selecionado
-      const modeSelect = document.getElementById('grammarModeSelect');
-      const selectedMode = modeSelect.value;
-      let exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
-      
-      // Continuar com os exercícios FILTRADOS do novo tópico
-      iniciarExercicios(exerciciosFiltrados);
-      return;
-    } else {
-      // Comportamento normal para tópicos específicos
-      exerciseContainer.innerHTML = `
-        <div class="empty-message">
-          <p>🎉 Todos os exercícios concluídos!</p>
-          <p>Você completou todos os ${exercises.length} exercícios.</p>
-          <button class="reset-btn" onclick="praticarGramatica()">Tentar Novamente</button>
-        </div>
-      `;
-      document.getElementById('btnCheckExercise').disabled = true;
-      document.getElementById('btnNextExercise').disabled = false;
-      return;
-    }
+    currentExerciseIndex = 0; // Voltar ao início se o índice for inválido
   }
 
   const exercise = exercises[currentExerciseIndex];
@@ -1027,7 +1005,7 @@ function iniciarExercicios(exercises) {
   }
 
   // Atualizar botões de navegação
-  document.getElementById('btnNextExercise').disabled = currentExerciseIndex >= exercises.length - 1 && selectedTopic !== 'random';
+  document.getElementById('btnNextExercise').disabled = false;
 }
 
 
@@ -1987,15 +1965,16 @@ function proximoExercicio() {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
     const randomTopic = grammarTopics[randomIndex];
     
-    // Atualizar o select para mostrar qual tópico está sendo usado
-    // Mas manter a seleção como "Random" para continuar o comportamento
     currentGrammarTopic = randomTopic;
-    currentExerciseIndex = 0; // Resetar para o primeiro exercício
+    // Escolher um exercício aleatório do novo tópico
+    currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
     
     console.log(`Random topic selected: ${randomTopic.topic}`);
   } else {
-    // Comportamento normal: avançar para o próximo exercício do mesmo tópico
-    currentExerciseIndex++;
+    // Para tópicos específicos, avançar para o próximo exercício
+    // Mas escolher aleatoriamente em vez de sequencialmente
+    const exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
+    currentExerciseIndex = Math.floor(Math.random() * exerciciosFiltrados.length);
   }
 
   // Limpar estilos e reativar campos
