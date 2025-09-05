@@ -21,7 +21,6 @@
           "question": "She usually __ (listen) to music on her way to work.",
           "answer": "listens"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -67,6 +66,216 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "I __ (not / like) coffee in the morning.",
+          "answer": "do not like/don't like"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "We __ (watch) TV every evening.",
+          "answer": "watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "He __ (play) football on weekends.",
+          "answer": "plays"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "She __ (not / eat) meat because she's vegetarian.",
+          "answer": "does not eat/doesn't eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "They __ (study) English at school.",
+          "answer": "study"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "My father __ (read) the newspaper every morning.",
+          "answer": "reads"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "I __ (not / understand) this question.",
+          "answer": "do not understand/don't understand"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "The sun __ (rise) in the east.",
+          "answer": "rises"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "Water __ (boil) at 100 degrees Celsius.",
+          "answer": "boils"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "Birds __ (fly) south for the winter.",
+          "answer": "fly"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "Cats __ (not / like) water.",
+          "answer": "do not like/don't like"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "We __ (not / know) the answer to that question.",
+          "answer": "do not know/don't know"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "It __ (rain) a lot in this region during winter.",
+          "answer": "rains"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "They __ (not / believe) in ghosts.",
+          "answer": "do not believe/don't believe"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "She __ (go) to the gym every day.",
+          "answer": "goes"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "They __ (not / watch) TV in the morning.",
+          "answer": "do not watch/don't watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "My sister __ (live) in New York.",
+          "answer": "lives"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "I __ (not / speak) French very well.",
+          "answer": "do not speak/don't speak"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "He __ (drive) to work every day.",
+          "answer": "drives"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "We __ (not / have) classes on weekends.",
+          "answer": "do not have/don't have"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "The Earth __ (revolve) around the Sun.",
+          "answer": "revolves"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "Children __ (love) to play in the park.",
+          "answer": "love"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "She __ (not / drink) coffee, she __ (prefer) tea.",
+          "answer": "does not drink/doesn't drink/prefers"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "I usually __ (wake up) at 7 AM and __ (have) breakfast at 7:30.",
+          "answer": "wake up/have"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "He __ (not / smoke) cigarettes.",
+          "answer": "does not smoke/doesn't smoke"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "They __ (speak) English fluently.",
+          "answer": "speak"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "She __ (not / work) on Sundays.",
+          "answer": "does not work/doesn't work"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "He __ (like) to read books in his free time.",
+          "answer": "likes"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "We __ (not / go) to the gym every day.",
+          "answer": "do not go/don't go"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "The shop __ (open) at 9 AM and __ (close) at 9 PM.",
+          "answer": "opens/closes"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "I __ (not / eat) breakfast in the morning.",
+          "answer": "do not eat/don't eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "She __ (teach) math at a high school.",
+          "answer": "teaches"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "They __ (not / like) spicy food.",
+          "answer": "do not like/don't like"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
+          "question": "He __ (play) guitar in a band.",
+          "answer": "plays"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
+          "question": "You __ (not / need) a visa to enter this country.",
+          "answer": "do not need/don't need"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "She __ (not / live) in this city.",
           "answer": "does not live/ doesn't live"
         },
@@ -100,21 +309,18 @@
           "question": "My brother __ (work) in a big hospital.",
           "answer": "works"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete with do or does.",
           "question": "__ you like pizza?",
           "answer": "Do"
         },
-        
         {
           "mode": "complete",
           "instruction": "Choose the correct option.",
           "question": "My brother __ (watch/watches) TV every evening.",
           "answer": "watches"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete with the negative form.",
@@ -122,18 +328,11 @@
           "answer": "doesn't work/does not work"
         },
         {
-          "mode": "transform",
-          "instruction": "Transform the sentence using the third person singular (he/she/it).",
-          "question": "I eat breakfast at 8 AM.",
-          "answer": "He eats breakfast at 8 AM/She eats breakfast at 8 AM"
-        },
-        {
           "mode": "complete",
           "instruction": "Complete with the correct verb form.",
           "question": "They __ (study) English twice a week.",
           "answer": "study"
         },
-        
         {
           "mode": "complete",
           "instruction": "Choose the correct form.",
@@ -141,18 +340,11 @@
           "answer": "doesn't"
         },
         {
-          "mode": "transform",
-          "instruction": "Make a question from the statement.",
-          "question": "They live in Paris.",
-          "answer": "Do they live in Paris?"
-        },
-        {
           "mode": "complete",
           "instruction": "Complete with the appropriate form.",
           "question": "Maria __ (teach) English at the university.",
           "answer": "teaches"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete with do, does, don't or doesn't.",
@@ -160,18 +352,11 @@
           "answer": "Does/doesn't"
         },
         {
-          "mode": "transform",
-          "instruction": "Change the subject to 'she'.",
-          "question": "I work from home.",
-          "answer": "She works from home"
-        },
-        {
           "mode": "complete",
           "instruction": "Complete the sentence.",
           "question": "We __ (not eat) meat because we're vegetarian.",
           "answer": "don't eat/do not eat"
         },
-        
         {
           "mode": "complete",
           "instruction": "Choose the correct option.",
@@ -179,18 +364,11 @@
           "answer": "rises"
         },
         {
-          "mode": "transform",
-          "instruction": "Change to the negative form.",
-          "question": "Cats like water.",
-          "answer": "Cats don't like water/Cats do not like water"
-        },
-        {
           "mode": "complete",
           "instruction": "Complete with the correct form.",
           "question": "My parents __ (live) in a small house.",
           "answer": "live"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete with the negative form.",
@@ -362,139 +540,568 @@
           "answer": "aren't studying/are not studying"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "She usually __ (listen) to music on her way to work.",
-          "answer": "listens"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "We __ (not / study) tonight; we're going to the cinema.",
+          "answer": "aren't studying/are not studying"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "They __ (play) tennis every weekend.",
-          "answer": "play"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (read) a very interesting book at the moment.",
+          "answer": "am reading/'m reading"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "He __ (not / eat) meat; he's a vegetarian.",
-          "answer": "does not eat/doesn't eat"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (watch) TV in the living room.",
+          "answer": "is watching/'s watching"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "I __ (brush) my teeth three times a day.",
-          "answer": "brush"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (play) football in the park right now.",
+          "answer": "are playing/'re playing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "My brother __ (work) in a big hospital.",
-          "answer": "works"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "He __ (not / work) today; he's sick.",
+          "answer": "isn't working/'s not working/is not working"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "We __ (study) English on Mondays and Wednesdays.",
-          "answer": "study"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (wait) for the bus at the moment.",
+          "answer": "are waiting/'re waiting"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "The sun __ (rise) in the east.",
-          "answer": "rises"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The students __ (study) for their exam now.",
+          "answer": "are studying/'re studying"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "The train to London __ (leave) at 7:30 PM.",
-          "answer": "leaves"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / listen) to music right now.",
+          "answer": "am not listening/'m not listening"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "Cats __ (sleep) for many hours during the day.",
-          "answer": "sleep"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "It __ (rain) outside at the moment.",
+          "answer": "is raining/'s raining"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "I __ (not / like) coffee in the morning.",
-          "answer": "do not like/don't like"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "My parents __ (travel) in Europe this month.",
+          "answer": "are traveling/'re traveling/are travelling/'re travelling"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "She __ (not / live) in this city.",
-          "answer": "does not live/doesn't live"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "She __ (not / wear) a coat today.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "Water __ (boil) at 100 degrees Celsius.",
-          "answer": "boils"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The dog __ (bark) at the mailman.",
+          "answer": "is barking/'s barking"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "We __ (not / watch) TV after 10 PM.",
-          "answer": "do not watch/don't watch"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (write) an email to my friend.",
+          "answer": "am writing/'m writing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "He __ (go) to the gym twice a week.",
-          "answer": "goes"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (build) a new house near the river.",
+          "answer": "are building/'re building"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "It __ (not / rain) much in the desert.",
-          "answer": "does not rain/doesn't rain"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "We __ (not / cook) dinner tonight; we're ordering pizza.",
+          "answer": "aren't cooking/are not cooking/'re not cooking"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "My parents __ (travel) to the beach every summer.",
-          "answer": "travel"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (learn) to play the guitar these days.",
+          "answer": "is learning/'s learning"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "You __ (not / speak) Spanish, do you?",
-          "answer": "do not speak/don't speak"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The children __ (play) in the garden now.",
+          "answer": "are playing/'re playing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "That store __ (open) at 9 AM every day.",
-          "answer": "opens"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / work) on the project right now.",
+          "answer": "am not working/'m not working"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "John __ (not / know) the answer to the question.",
-          "answer": "does not know/doesn't know"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (teach) English at the university this semester.",
+          "answer": "is teaching/'s teaching"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "Birds __ (fly) south for the winter.",
-          "answer": "fly"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (plan) our vacation for next summer.",
+          "answer": "are planning/'re planning"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "I __ (not / understand) this lesson.",
-          "answer": "do not understand/don't understand"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "They __ (not / watch) the movie; they're talking.",
+          "answer": "aren't watching/are not watching/'re not watching"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "She __ (finish) work at 5 o'clock.",
-          "answer": "finishes"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The phone __ (ring). Can you answer it?",
+          "answer": "is ringing/'s ringing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "They __ (not / believe) his story.",
-          "answer": "do not believe/don't believe"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (try) to concentrate on my homework.",
+          "answer": "am trying/'m trying"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "The bus __ (arrive) at this stop every 15 minutes.",
-          "answer": "arrives"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (fix) his car in the garage.",
+          "answer": "is fixing/'s fixing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "He __ (not / wear) glasses.",
-          "answer": "does not wear/doesn't wear"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "She __ (not / wear) glasses today.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "We always __ (have) dinner at 7 PM.",
-          "answer": "have"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The birds __ (sing) in the trees this morning.",
+          "answer": "are singing/'re singing"
         },
         {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "This phone __ (not / work) properly.",
-          "answer": "does not work/doesn't work"
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (have) a meeting right now.",
+          "answer": "are having/'re having"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / feel) well today.",
+          "answer": "am not feeling/'m not feeling"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / come) to the party tonight.",
+          "answer": "isn't coming/'s not coming/is not coming"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (run) in the marathon this weekend.",
+          "answer": "are running/'re running"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / eat) meat these days; I'm vegetarian now.",
+          "answer": "am not eating/'m not eating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (drive) to work this week because his car is broken.",
+          "answer": "isn't driving/'s not driving/is not driving"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (stay) at a hotel while our house is being renovated.",
+          "answer": "are staying/'re staying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The company __ (hire) new employees this month.",
+          "answer": "is hiring/'s hiring"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / sleep) well these nights.",
+          "answer": "am not sleeping/'m not sleeping"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (paint) her bedroom this weekend.",
+          "answer": "is painting/'s painting"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (not / speak) to each other after the argument.",
+          "answer": "aren't speaking/are not speaking/'re not speaking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (look) for a new apartment in the city center.",
+          "answer": "am looking/'m looking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / wear) his uniform today because it's laundry day.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (celebrate) our anniversary this evening.",
+          "answer": "are celebrating/'re celebrating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The baby __ (cry) because he's hungry.",
+          "answer": "is crying/'s crying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "They __ (not / attend) the conference this year.",
+          "answer": "aren't attending/are not attending/'re not attending"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (take) Spanish classes this semester.",
+          "answer": "am taking/'m taking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / answer) her phone because she's in a meeting.",
+          "answer": "isn't answering/'s not answering/is not answering"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (move) to a bigger house next month.",
+          "answer": "are moving/'re moving"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / play) video games this week; he's studying for exams.",
+          "answer": "isn't playing/'s not playing/is not playing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The government __ (build) new schools in the area.",
+          "answer": "is building/'s building"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / drink) coffee this month; I'm trying to quit.",
+          "answer": "am not drinking/'m not drinking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (prepare) for their wedding next week.",
+          "answer": "are preparing/'re preparing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / work) overtime this month.",
+          "answer": "isn't working/'s not working/is not working"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (save) money for our trip to Japan.",
+          "answer": "are saving/'re saving"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / eat) sugar these days for health reasons.",
+          "answer": "isn't eating/'s not eating/is not eating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The team __ (practice) for the championship game.",
+          "answer": "is practicing/'s practicing/is practising/'s practising"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / watch) TV these days; I'm reading more books.",
+          "answer": "am not watching/'m not watching"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (renovate) their kitchen this summer.",
+          "answer": "are renovating/'re renovating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / use) social media this month for a digital detox.",
+          "answer": "isn't using/'s not using/is not using"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (learn) to cook Italian food.",
+          "answer": "are learning/'re learning"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / smoke) anymore; he quit last month.",
+          "answer": "isn't smoking/'s not smoking/is not smoking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The students __ (prepare) for their final exams this week.",
+          "answer": "are preparing/'re preparing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / drink) alcohol this year for health reasons.",
+          "answer": "am not drinking/'m not drinking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (build) a new shopping mall downtown.",
+          "answer": "are building/'re building"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / wear) makeup these days; she prefers the natural look.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (train) for the marathon next month.",
+          "answer": "are training/'re training"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / eat) meat this month; he's trying a vegetarian diet.",
+          "answer": "isn't eating/'s not eating/is not eating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The company __ (develop) a new product for the market.",
+          "answer": "is developing/'s developing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / use) my car this week to reduce pollution.",
+          "answer": "am not using/'m not using"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (plan) a surprise party for their friend.",
+          "answer": "are planning/'re planning"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / work) on weekends this month.",
+          "answer": "isn't working/'s not working/is not working"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (study) French for our trip to Paris.",
+          "answer": "are studying/'re studying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / play) football this season due to an injury.",
+          "answer": "isn't playing/'s not playing/is not playing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The children __ (decorate) the Christmas tree.",
+          "answer": "are decorating/'re decorating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / eat) junk food this month to improve my health.",
+          "answer": "am not eating/'m not eating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (organize) a charity event for next weekend.",
+          "answer": "are organizing/'re organizing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / drive) to work this week; she's taking the bus.",
+          "answer": "isn't driving/'s not driving/is not driving"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (paint) the house this summer.",
+          "answer": "are painting/'re painting"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / watch) sports these days; he's more interested in documentaries.",
+          "answer": "isn't watching/'s not watching/is not watching"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The students __ (write) essays for their literature class.",
+          "answer": "are writing/'re writing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / buy) new clothes this month to save money.",
+          "answer": "am not buying/'m not buying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (install) solar panels on their roof.",
+          "answer": "are installing/'re installing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / eat) dairy products this month due to allergies.",
+          "answer": "isn't eating/'s not eating/is not eating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (practice) yoga for our mental health.",
+          "answer": "are practicing/'re practicing/are practising/'re practising"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / drink) soda these days; only water and tea.",
+          "answer": "isn't drinking/'s not drinking/is not drinking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The company __ (hire) more staff for the busy season.",
+          "answer": "is hiring/'s hiring"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / use) plastic bags anymore to help the environment.",
+          "answer": "am not using/'m not using"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (plant) trees in the park this weekend.",
+          "answer": "are planting/'re planting"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / wear) high heels these days; only comfortable shoes.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (learn) to play the guitar together.",
+          "answer": "are learning/'re learning"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / eat) after 8 PM to improve his digestion.",
+          "answer": "isn't eating/'s not eating/is not eating"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The government __ (build) new hospitals in rural areas.",
+          "answer": "is building/'s building"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (not / watch) the news these days; it's too stressful.",
+          "answer": "am not watching/'m not watching"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (clean) the beach as part of a community project.",
+          "answer": "are cleaning/'re cleaning"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (not / use) her phone during meals anymore.",
+          "answer": "isn't using/'s not using/is not using"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (grow) vegetables in our garden this year.",
+          "answer": "are growing/'re growing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (not / drink) coffee after 4 PM to sleep better.",
+          "answer": "isn't drinking/'s not drinking/is not drinking"
         }
       ]
     },
@@ -527,106 +1134,6 @@
           "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
           "question": "They __ (not / enjoy) the film at all.",
           "answer": "didn't enjoy/did not enjoy"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Look! The children __ (play) in the garden.",
-          "answer": "are playing"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "She __ (watch) TV right now.",
-          "answer": "is watching"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "I __ (not / study) at the moment; I'm resting.",
-          "answer": "am not studying/'m not studying"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "They __ (wait) for the bus now.",
-          "answer": "are waiting"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (read) a very interesting book this week.",
-          "answer": "is reading"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "We __ (not / work) today; it's a holiday.",
-          "answer": "are not working/aren't working"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Please be quiet. The baby __ (sleep).",
-          "answer": "is sleeping"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "You __ (not / listen) to me!",
-          "answer": "are not listening/aren't listening"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Why __ you __ (cry)? What's wrong?",
-          "answer": "are; crying"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "She __ (not / tell) the truth, I'm sure of it.",
-          "answer": "is not telling/isn't telling"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Hurry up! The train __ (leave) soon!",
-          "answer": "is leaving"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "I __ (not / joke); this is serious.",
-          "answer": "am not joking/'m not joking"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Look at that man! He __ (try) to open your car door!",
-          "answer": "is trying"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "They __ (not / play) well today. They will lose the match.",
-          "answer": "are not playing/aren't playing"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Be careful! You __ (spill) your coffee!",
-          "answer": "are spilling"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "He __ (not / feel) well, so he's going home.",
-          "answer": "is not feeling/isn't feeling"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "What __ you __ (do) this evening?",
-          "answer": "are; doing"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "The computer __ (not / work). I think it's broken.",
-          "answer": "is not working/isn't working"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "The population of the world __ (increase) very fast.",
-          "answer": "is increasing"
-        },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "It __ (not / rain) anymore. We can go out.",
-          "answer": "is not raining/isn't raining"
         }
       ]
     },
@@ -1574,6 +2081,180 @@
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous.",
           "question": "Don't call me at 8 PM; I __ (have) dinner with my family.",
           "answer": "will be having/'ll be having"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "Look at that crowd! Something __ (happen) in the street.",
+          "answer": "is happening/'s happening"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "We __ (not / study) tonight; we're going to the cinema.",
+          "answer": "aren't studying/are not studying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (read) a very interesting book at the moment.",
+          "answer": "am reading/'m reading"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (watch) TV in the living room.",
+          "answer": "is watching/'s watching"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (play) football in the park right now.",
+          "answer": "are playing/'re playing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "He __ (not / work) today; he's sick.",
+          "answer": "isn't working/'s not working/is not working"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (wait) for the bus at the moment.",
+          "answer": "are waiting/'re waiting"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The students __ (study) for their exam now.",
+          "answer": "are studying/'re studying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / listen) to music right now.",
+          "answer": "am not listening/'m not listening"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "It __ (rain) outside at the moment.",
+          "answer": "is raining/'s raining"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "My parents __ (travel) in Europe this month.",
+          "answer": "are traveling/'re traveling/are travelling/'re travelling"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "She __ (not / wear) a coat today.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The dog __ (bark) at the mailman.",
+          "answer": "is barking/'s barking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (write) an email to my friend.",
+          "answer": "am writing/'m writing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "They __ (build) a new house near the river.",
+          "answer": "are building/'re building"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "We __ (not / cook) dinner tonight; we're ordering pizza.",
+          "answer": "aren't cooking/are not cooking/'re not cooking"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (learn) to play the guitar these days.",
+          "answer": "is learning/'s learning"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The children __ (play) in the garden now.",
+          "answer": "are playing/'re playing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / work) on the project right now.",
+          "answer": "am not working/'m not working"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "She __ (teach) English at the university this semester.",
+          "answer": "is teaching/'s teaching"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (plan) our vacation for next summer.",
+          "answer": "are planning/'re planning"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "They __ (not / watch) the movie; they're talking.",
+          "answer": "aren't watching/are not watching/'re not watching"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The phone __ (ring). Can you answer it?",
+          "answer": "is ringing/'s ringing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "I __ (try) to concentrate on my homework.",
+          "answer": "am trying/'m trying"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "He __ (fix) his car in the garage.",
+          "answer": "is fixing/'s fixing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "She __ (not / wear) glasses today.",
+          "answer": "isn't wearing/'s not wearing/is not wearing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "The birds __ (sing) in the trees this morning.",
+          "answer": "are singing/'re singing"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
+          "question": "We __ (have) a meeting right now.",
+          "answer": "are having/'re having"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
+          "question": "I __ (not / feel) well today.",
+          "answer": "am not feeling/'m not feeling"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous.",
