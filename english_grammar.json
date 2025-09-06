@@ -47,6 +47,600 @@
         },
         {
           "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ want to go out tonight.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ it rain a lot in your city?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "I _____ know the answer.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they have a car?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ eat meat.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your sister study English?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "You _____ look very happy today.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ we need to bring anything?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "The dog _____ like cats.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your friend work with you?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "They _____ believe in ghosts.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ I need to call them?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ want to talk about it.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your children go to school here?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ remember my name.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they live near you?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ have enough time.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your boss know about this?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "I _____ think that's a good idea.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ the store open on Sundays?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ seem very interested.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you understand the instructions?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "They _____ want to help us.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your computer work properly?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ like chocolate.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ we have any milk left?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "You _____ look very well.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your parents know you're here?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "It _____ matter what you think.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ she play any musical instruments?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ agree with you.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they serve food here?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ care about money.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you have any questions?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "I _____ want to go to bed yet.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your phone have a good camera?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ know how to swim.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they understand the problem?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ believe his story.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your brother live alone?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ want to come with us.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you like Italian food?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "They _____ have any children.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ the bus stop here?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ remember your name.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ we need to make a reservation?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "You _____ seem to understand.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your friends like to dance?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "It _____ make any sense.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ he work on weekends?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ want to wait any longer.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they have a garden?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ like to read books.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you play any sports?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "I _____ know how to cook.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your sister drive a car?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ want to get married.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they speak English well?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ have enough money.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ the movie start at 8 PM?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ believe in God.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you want some coffee?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "They _____ like to travel.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your grandmother live with you?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ know how to drive.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ we have any homework?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "You _____ look familiar.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your neighbors make noise?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "It _____ seem right to me.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ he have any brothers or sisters?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ want to leave yet.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they sell newspapers here?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ like to watch TV.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you understand what I mean?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "I _____ think that's true.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your cat like milk?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ want to answer the question.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they know about the party?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ have any sugar.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ the restaurant accept credit cards?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ seem to care.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you need help with that?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "They _____ want to participate.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your teacher speak slowly?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ like to exercise.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ we have to finish today?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "You _____ look tired.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your parents support your decision?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "It _____ matter to me.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ he play video games?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ agree with that policy.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they offer discounts?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "He _____ want to change jobs.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ you believe in magic?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "I _____ think we should go.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ your phone have internet?",
+          "answer": "Does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "She _____ know the way.",
+          "answer": "doesn't/does not"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "_____ they want to come with us?",
+          "answer": "Do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
+          "question": "We _____ have any plans.",
+          "answer": "don't/do not"
+        },
+        {
+          "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "The train to London __ (leave) at 7:30 PM.",
           "answer": "leaves"
@@ -199,13 +793,13 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "She __ (not / drink) coffee, she __ (prefer) tea.",
-          "answer": "does not drink/doesn't drink/prefers"
+          "answer": ["does not drink/doesn't drink","prefers"]
         },
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "I usually __ (wake up) at 7 AM and __ (have) breakfast at 7:30.",
-          "answer": "wake up/have"
+          "answer": ["wake up", "have"]
         },
         {
           "mode": "complete",
@@ -241,7 +835,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "The shop __ (open) at 9 AM and __ (close) at 9 PM.",
-          "answer": "opens/closes"
+          "answer": ["opens","closes"]
         },
         {
           "mode": "complete",
@@ -349,7 +943,7 @@
           "mode": "complete",
           "instruction": "Complete with do, does, don't or doesn't.",
           "question": "__ your sister work here? No, she __.",
-          "answer": "Does/doesn't"
+          "answer": ["Does","doesn't/does not"]
         },
         {
           "mode": "complete",
