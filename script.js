@@ -1027,7 +1027,8 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   if (Array.isArray(exercise.answer)) {
     answers = exercise.answer;
   } else {
-    answers = exercise.answer.split(',');
+    // Se for string, converter para array (separando por vírgula se necessário)
+    answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
   }
   
   parts.forEach(part => {
