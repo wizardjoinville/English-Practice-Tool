@@ -47,600 +47,6 @@
         },
         {
           "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ want to go out tonight.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ it rain a lot in your city?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "I _____ know the answer.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they have a car?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ eat meat.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your sister study English?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "You _____ look very happy today.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ we need to bring anything?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "The dog _____ like cats.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your friend work with you?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "They _____ believe in ghosts.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ I need to call them?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ want to talk about it.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your children go to school here?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ remember my name.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they live near you?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ have enough time.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your boss know about this?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "I _____ think that's a good idea.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ the store open on Sundays?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ seem very interested.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you understand the instructions?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "They _____ want to help us.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your computer work properly?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ like chocolate.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ we have any milk left?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "You _____ look very well.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your parents know you're here?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "It _____ matter what you think.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ she play any musical instruments?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ agree with you.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they serve food here?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ care about money.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you have any questions?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "I _____ want to go to bed yet.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your phone have a good camera?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ know how to swim.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they understand the problem?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ believe his story.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your brother live alone?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ want to come with us.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you like Italian food?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "They _____ have any children.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ the bus stop here?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ remember your name.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ we need to make a reservation?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "You _____ seem to understand.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your friends like to dance?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "It _____ make any sense.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ he work on weekends?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ want to wait any longer.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they have a garden?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ like to read books.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you play any sports?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "I _____ know how to cook.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your sister drive a car?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ want to get married.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they speak English well?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ have enough money.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ the movie start at 8 PM?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ believe in God.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you want some coffee?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "They _____ like to travel.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your grandmother live with you?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ know how to drive.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ we have any homework?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "You _____ look familiar.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your neighbors make noise?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "It _____ seem right to me.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ he have any brothers or sisters?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ want to leave yet.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they sell newspapers here?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ like to watch TV.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you understand what I mean?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "I _____ think that's true.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your cat like milk?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ want to answer the question.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they know about the party?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ have any sugar.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ the restaurant accept credit cards?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ seem to care.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you need help with that?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "They _____ want to participate.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your teacher speak slowly?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ like to exercise.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ we have to finish today?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "You _____ look tired.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your parents support your decision?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "It _____ matter to me.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ he play video games?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ agree with that policy.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they offer discounts?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "He _____ want to change jobs.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ you believe in magic?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "I _____ think we should go.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ your phone have internet?",
-          "answer": "Does"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "She _____ know the way.",
-          "answer": "doesn't/does not"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "_____ they want to come with us?",
-          "answer": "Do"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete com DO, DOES, DON'T ou DOESN'T",
-          "question": "We _____ have any plans.",
-          "answer": "don't/do not"
-        },
-        {
-          "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "The train to London __ (leave) at 7:30 PM.",
           "answer": "leaves"
@@ -657,6 +63,7 @@
           "question": "I __ (not / like) coffee in the morning.",
           "answer": "do not like/ don't like"
         },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
@@ -793,13 +200,13 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "She __ (not / drink) coffee, she __ (prefer) tea.",
-          "answer": ["does not drink/doesn't drink","prefers"]
+          "answer": ["does not drink","doesn't drink/prefers"]
         },
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "I usually __ (wake up) at 7 AM and __ (have) breakfast at 7:30.",
-          "answer": ["wake up", "have"]
+          "answer": ["wake up","have"]
         },
         {
           "mode": "complete",
@@ -888,7 +295,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "He __ (not / eat) meat; he's a vegetarian.",
+          "question": "He __ (not / eat) meat, he's a vegetarian.",
           "answer": "does not eat/doesn't eat"
         },
         {
@@ -943,7 +350,7 @@
           "mode": "complete",
           "instruction": "Complete with do, does, don't or doesn't.",
           "question": "__ your sister work here? No, she __.",
-          "answer": ["Does","doesn't/does not"]
+          "answer": ["Does","doesn't"]
         },
         {
           "mode": "complete",
@@ -1130,13 +537,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "We __ (not / study) tonight; we're going to the cinema.",
-          "answer": "aren't studying/are not studying"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "We __ (not / study) tonight; we're going to the cinema.",
+          "question": "We __ (not / study) tonight, we're going to the cinema.",
           "answer": "aren't studying/are not studying"
         },
         {
@@ -1160,7 +561,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "He __ (not / work) today; he's sick.",
+          "question": "He __ (not / work) today, he's sick.",
           "answer": "isn't working/'s not working/is not working"
         },
         {
@@ -1220,7 +621,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "We __ (not / cook) dinner tonight; we're ordering pizza.",
+          "question": "We __ (not / cook) dinner tonight, we're ordering pizza.",
           "answer": "aren't cooking/are not cooking/'re not cooking"
         },
         {
@@ -1256,7 +657,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "They __ (not / watch) the movie; they're talking.",
+          "question": "They __ (not / watch) the movie, they're talking.",
           "answer": "aren't watching/are not watching/'re not watching"
         },
         {
@@ -1316,7 +717,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (not / eat) meat these days; I'm vegetarian now.",
+          "question": "I __ (not / eat) meat these days, I'm vegetarian now.",
           "answer": "am not eating/'m not eating"
         },
         {
@@ -1406,7 +807,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (not / play) video games this week; he's studying for exams.",
+          "question": "He __ (not / play) video games this week, he's studying for exams.",
           "answer": "isn't playing/'s not playing/is not playing"
         },
         {
@@ -1418,7 +819,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (not / drink) coffee this month; I'm trying to quit.",
+          "question": "I __ (not / drink) coffee this month, I'm trying to quit.",
           "answer": "am not drinking/'m not drinking"
         },
         {
@@ -1454,7 +855,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (not / watch) TV these days; I'm reading more books.",
+          "question": "I __ (not / watch) TV these days, I'm reading more books.",
           "answer": "am not watching/'m not watching"
         },
         {
@@ -1478,7 +879,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (not / smoke) anymore; he quit last month.",
+          "question": "He __ (not / smoke) anymore, he quit last month.",
           "answer": "isn't smoking/'s not smoking/is not smoking"
         },
         {
@@ -1502,7 +903,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "She __ (not / wear) makeup these days; she prefers the natural look.",
+          "question": "She __ (not / wear) makeup these days, she prefers the natural look.",
           "answer": "isn't wearing/'s not wearing/is not wearing"
         },
         {
@@ -1514,7 +915,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (not / eat) meat this month; he's trying a vegetarian diet.",
+          "question": "He __ (not / eat) meat this month, he's trying a vegetarian diet.",
           "answer": "isn't eating/'s not eating/is not eating"
         },
         {
@@ -1574,7 +975,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "She __ (not / drive) to work this week; she's taking the bus.",
+          "question": "She __ (not / drive) to work this week, she's taking the bus.",
           "answer": "isn't driving/'s not driving/is not driving"
         },
         {
@@ -1586,7 +987,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (not / watch) sports these days; he's more interested in documentaries.",
+          "question": "He __ (not / watch) sports these days, he's more interested in documentaries.",
           "answer": "isn't watching/'s not watching/is not watching"
         },
         {
@@ -1622,7 +1023,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (not / drink) soda these days; only water and tea.",
+          "question": "He __ (not / drink) soda these days, only water and tea.",
           "answer": "isn't drinking/'s not drinking/is not drinking"
         },
         {
@@ -1646,7 +1047,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "She __ (not / wear) high heels these days; only comfortable shoes.",
+          "question": "She __ (not / wear) high heels these days, only comfortable shoes.",
           "answer": "isn't wearing/'s not wearing/is not wearing"
         },
         {
@@ -1670,7 +1071,7 @@
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (not / watch) the news these days; it's too stressful.",
+          "question": "I __ (not / watch) the news these days, it's too stressful.",
           "answer": "am not watching/'m not watching"
         },
         {
@@ -1728,6 +1129,606 @@
           "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
           "question": "They __ (not / enjoy) the film at all.",
           "answer": "didn't enjoy/did not enjoy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / enjoy) the film at all.",
+          "answer": "didn't enjoy/did not enjoy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (go) to the beach last weekend.",
+          "answer": "went"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (study) English for three years when he was younger.",
+          "answer": "studied"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / see) that movie yet.",
+          "answer": "didn't see/did not see"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (eat) dinner at a nice restaurant yesterday.",
+          "answer": "ate"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (write) a letter to her grandmother last week.",
+          "answer": "wrote"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ (not / have) time to finish the project.",
+          "answer": "didn't have/did not have"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (run) in the marathon last year.",
+          "answer": "ran"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (meet) my best friend in high school.",
+          "answer": "met"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / come) to the party last night.",
+          "answer": "didn't come/did not come"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (travel) to Japan in 2019.",
+          "answer": "traveled/travelled"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (build) this house in 1990.",
+          "answer": "built"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / know) the answer to that question.",
+          "answer": "didn't know/did not know"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (teach) English at our school for five years.",
+          "answer": "taught"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (break) his leg while playing football.",
+          "answer": "broke"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / understand) the instructions.",
+          "answer": "didn't understand/did not understand"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (find) my keys under the bed.",
+          "answer": "found"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (swim) in the ocean every day during our vacation.",
+          "answer": "swam"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ (not / finish) his homework on time.",
+          "answer": "didn't finish/did not finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (sing) beautifully at the concert last night.",
+          "answer": "sang"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (begin) the meeting at 9 AM sharp.",
+          "answer": "began"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / feel) well yesterday.",
+          "answer": "didn't feel/did not feel"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (catch) a big fish during the fishing trip.",
+          "answer": "caught"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (choose) the blue car instead of the red one.",
+          "answer": "chose"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / tell) anyone about the surprise.",
+          "answer": "didn't tell/did not tell"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (drive) to California last summer.",
+          "answer": "drove"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (forget) to buy milk at the supermarket.",
+          "answer": "forgot"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ (not / hear) the phone ring.",
+          "answer": "didn't hear/did not hear"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (lose) his wallet on the bus.",
+          "answer": "lost"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (make) a delicious cake for the party.",
+          "answer": "made"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / read) the book before watching the movie.",
+          "answer": "didn't read/did not read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (say) goodbye to my friends before leaving.",
+          "answer": "said"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (sell) our old house last month.",
+          "answer": "sold"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ (not / sleep) well last night.",
+          "answer": "didn't sleep/did not sleep"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (speak) to the manager about the problem.",
+          "answer": "spoke"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (spend) two weeks in Europe last summer.",
+          "answer": "spent"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / take) any photos during the trip.",
+          "answer": "didn't take/did not take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (think) about changing jobs last year.",
+          "answer": "thought"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (understand) the lesson perfectly.",
+          "answer": "understood"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / wear) her glasses to the party.",
+          "answer": "didn't wear/did not wear"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (win) the championship last season.",
+          "answer": "won"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (work) as a waiter during college.",
+          "answer": "worked"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ (not / write) the report yesterday.",
+          "answer": "didn't write/did not write"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (bring) flowers to his wife on their anniversary.",
+          "answer": "brought"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (cost) much less than we expected.",
+          "answer": "cost"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / cut) the grass last weekend.",
+          "answer": "didn't cut/did not cut"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (draw) a picture for my mother's birthday.",
+          "answer": "drew"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (feed) the ducks at the park yesterday.",
+          "answer": "fed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ (not / fight) with his brother.",
+          "answer": "didn't fight/did not fight"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (fly) to London for a business meeting.",
+          "answer": "flew"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (grow) vegetables in their garden last summer.",
+          "answer": "grew"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / hang) the painting properly.",
+          "answer": "didn't hang/did not hang"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (hide) the Christmas presents in the closet.",
+          "answer": "hid"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (hold) hands during the scary movie.",
+          "answer": "held"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / keep) her promise.",
+          "answer": "didn't keep/did not keep"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (lead) the team to victory last season.",
+          "answer": "led"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (leave) my umbrella at the restaurant.",
+          "answer": "left"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ (not / lend) him any money.",
+          "answer": "didn't lend/did not lend"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (light) the candles on the birthday cake.",
+          "answer": "lit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (pay) for dinner last night.",
+          "answer": "paid"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / ride) their bikes to school yesterday.",
+          "answer": "didn't ride/did not ride"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (ring) the doorbell but nobody answered.",
+          "answer": "rang"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (rise) early to watch the sunrise.",
+          "answer": "rose"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ (not / seek) help when he needed it.",
+          "answer": "didn't seek/did not seek"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (send) an email to all the participants.",
+          "answer": "sent"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (shake) hands after the agreement.",
+          "answer": "shook"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / shoot) any photos at the event.",
+          "answer": "didn't shoot/did not shoot"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (shut) the door quietly behind him.",
+          "answer": "shut"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (sit) in the front row at the concert.",
+          "answer": "sat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / slide) on the icy pavement.",
+          "answer": "didn't slide/did not slide"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (smell) the flowers in the garden.",
+          "answer": "smelled/smelt"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (sow) the seeds in early spring.",
+          "answer": "sowed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the extreme with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ (not / spin) around too fast.",
+          "answer": "didn't spin/did not spin"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the extreme in the Past Simple.",
+          "question": "He __ (spit) out the bad-tasting medicine.",
+          "answer": "spat/spit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (spread) the blanket on the grass for the picnic.",
+          "answer": "spread"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / spring) into action immediately.",
+          "answer": "didn't spring/did not spring"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (stand) in line for two hours to get tickets.",
+          " extreme": "stood"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (steal) a glance at the answers.",
+          "answer": "stole"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ (not / stick) to his diet during the holidays.",
+          "answer": "didn't stick/did not stick"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (sting) by a bee last summer.",
+          "answer": "was stung/got stung"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (strike) a deal after long negotiations.",
+          "answer": "struck"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / strive) for perfection in that project.",
+          "answer": "didn't strive/did not strive"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (swear) to tell the truth in court.",
+          "answer": "swore"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (sweep) the floor before the guests arrived.",
+          "answer": "swept"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the extreme form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / swell) up after the insect bite.",
+          "answer": "didn't swell/did not swell"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (swim) across the lake in record time.",
+          "answer": "swam"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (swing) on the swings at the playground.",
+          "answer": "swung"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ (not / take) the shortcut through the woods.",
+          "answer": "didn't take/did not take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (teach) me how to play chess.",
+          "answer": "taught"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (tear) the paper into small pieces.",
+          "answer": "tore"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ (not / tell) anyone about their plans.",
+          " extreme": "didn't tell/did not tell"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ (think) about you all day yesterday.",
+          "answer": "thought"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (throw) a surprise party for her birthday.",
+          "answer": "threw"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ (not / understand) the joke.",
+          "answer": "didn't understand/did not understand"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ (wake) up early to prepare for the exam.",
+          "answer": "woke"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ (wear) traditional costumes to the festival.",
+          "answer": "wore"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ (not / weep) at the sad movie.",
+          "answer": "didn't weep/did not weep"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ (win) first prize in the competition.",
+          "answer": "won"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ (write) letters to our grandparents.",
+          "answer": "wrote"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ (not / yield) to pressure from her colleagues.",
+          "answer": "didn't yield/did not yield"
         }
       ]
     },
@@ -1779,11 +1780,11 @@
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous.",
           "question": "What __ you __ (do) when the accident happened?",
-          "answer": "were; doing"
+          "answer": "were, doing"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous (NEGATIVE).",
-          "question": "We __ (not / sleep) when you came home; we were just resting our eyes.",
+          "question": "We __ (not / sleep) when you came home, we were just resting our eyes.",
           "answer": "were not sleeping/weren't sleeping"
         },
         {
@@ -1793,7 +1794,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous (NEGATIVE).",
-          "question": "I __ (not / joke); I was being completely serious.",
+          "question": "I __ (not / joke), I was being completely serious.",
           "answer": "was not joking/wasn't joking"
         },
         {
@@ -1829,7 +1830,7 @@
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous.",
           "question": "Why __ he __ (run) down the street?",
-          "answer": "was; running"
+          "answer": "was, running"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous (NEGATIVE).",
@@ -1843,7 +1844,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous (NEGATIVE).",
-          "question": "I __ (not / work) last summer; I was traveling.",
+          "question": "I __ (not / work) last summer, I was traveling.",
           "answer": "was not working/wasn't working"
         },
         {
@@ -1853,7 +1854,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Past Continuous (NEGATIVE).",
-          "question": "You __ (not / imagine) things; I saw it too.",
+          "question": "You __ (not / imagine) things, I saw it too.",
           "answer": "were not imagining/weren't imagining"
         },
         {
@@ -2480,7 +2481,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Simple (Will) (NEGATIVE).",
-          "question": "I __ (not / eat) that; it looks strange.",
+          "question": "I __ (not / eat) that, it looks strange.",
           "answer": "will not eat/won't eat"
         },
         {
@@ -2500,7 +2501,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Simple (Will) (NEGATIVE).",
-          "question": "I __ (not / buy) that car; it's too expensive.",
+          "question": "I __ (not / buy) that car, it's too expensive.",
           "answer": "will not buy/won't buy"
         },
         {
@@ -2547,7 +2548,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of 'be going to' (NEGATIVE).",
-          "question": "They __ (not / buy) a new car this year; it's too expensive.",
+          "question": "They __ (not / buy) a new car this year, it's too expensive.",
           "answer": "aren't going to buy/are not going to buy"
         },
         {
@@ -2673,183 +2674,10 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous.",
-          "question": "Don't call me at 8 PM; I __ (have) dinner with my family.",
+          "question": "Don't call me at 8 PM, I __ (have) dinner with my family.",
           "answer": "will be having/'ll be having"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "Look at that crowd! Something __ (happen) in the street.",
-          "answer": "is happening/'s happening"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "We __ (not / study) tonight; we're going to the cinema.",
-          "answer": "aren't studying/are not studying"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (read) a very interesting book at the moment.",
-          "answer": "am reading/'m reading"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "She __ (watch) TV in the living room.",
-          "answer": "is watching/'s watching"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "They __ (play) football in the park right now.",
-          "answer": "are playing/'re playing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "He __ (not / work) today; he's sick.",
-          "answer": "isn't working/'s not working/is not working"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "We __ (wait) for the bus at the moment.",
-          "answer": "are waiting/'re waiting"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "The students __ (study) for their exam now.",
-          "answer": "are studying/'re studying"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "I __ (not / listen) to music right now.",
-          "answer": "am not listening/'m not listening"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "It __ (rain) outside at the moment.",
-          "answer": "is raining/'s raining"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "My parents __ (travel) in Europe this month.",
-          "answer": "are traveling/'re traveling/are travelling/'re travelling"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "She __ (not / wear) a coat today.",
-          "answer": "isn't wearing/'s not wearing/is not wearing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "The dog __ (bark) at the mailman.",
-          "answer": "is barking/'s barking"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (write) an email to my friend.",
-          "answer": "am writing/'m writing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "They __ (build) a new house near the river.",
-          "answer": "are building/'re building"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "We __ (not / cook) dinner tonight; we're ordering pizza.",
-          "answer": "aren't cooking/are not cooking/'re not cooking"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (learn) to play the guitar these days.",
-          "answer": "is learning/'s learning"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "The children __ (play) in the garden now.",
-          "answer": "are playing/'re playing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "I __ (not / work) on the project right now.",
-          "answer": "am not working/'m not working"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "She __ (teach) English at the university this semester.",
-          "answer": "is teaching/'s teaching"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "We __ (plan) our vacation for next summer.",
-          "answer": "are planning/'re planning"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "They __ (not / watch) the movie; they're talking.",
-          "answer": "aren't watching/are not watching/'re not watching"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "The phone __ (ring). Can you answer it?",
-          "answer": "is ringing/'s ringing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "I __ (try) to concentrate on my homework.",
-          "answer": "am trying/'m trying"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "He __ (fix) his car in the garage.",
-          "answer": "is fixing/'s fixing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "She __ (not / wear) glasses today.",
-          "answer": "isn't wearing/'s not wearing/is not wearing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "The birds __ (sing) in the trees this morning.",
-          "answer": "are singing/'re singing"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous.",
-          "question": "We __ (have) a meeting right now.",
-          "answer": "are having/'re having"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Continuous (NEGATIVE).",
-          "question": "I __ (not / feel) well today.",
-          "answer": "am not feeling/'m not feeling"
-        },
+        
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous.",
           "question": "When you arrive at the party, everyone __ (dance).",
@@ -2872,7 +2700,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous.",
-          "question": "Don't call at 6 PM; I __ (drive) home from work.",
+          "question": "Don't call at 6 PM, I __ (drive) home from work.",
           "answer": "will be driving/'ll be driving"
         },
         {
@@ -2897,7 +2725,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous (NEGATIVE).",
-          "question": "Don't visit at 3 PM; she __ (not / sleep) then.",
+          "question": "Don't visit at 3 PM, she __ (not / sleep) then.",
           "answer": "will not be sleeping/won't be sleeping"
         },
         {
@@ -2927,7 +2755,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb in the Future Continuous (NEGATIVE).",
-          "question": "At 7 PM, he __ (not / watch) TV; he'll be exercising.",
+          "question": "At 7 PM, he __ (not / watch) TV, he'll be exercising.",
           "answer": "will not be watching/won't be watching"
         },
         {
@@ -3252,102 +3080,102 @@
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "If you __ (heat) water to 100 degrees, it __ (boil).",
-          "answer": "heat; boils"
+          "answer": "heat, boils"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "If it __ (rain) tomorrow, we __ (cancel) the picnic.",
-          "answer": "rains; will cancel/'ll cancel"
+          "answer": "rains, will cancel/'ll cancel"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "If people __ (not eat) for too long, they __ (get) hungry.",
-          "answer": "do not eat/don't eat; get"
+          "answer": "do not eat/don't eat, get"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "If you __ (study) hard, you __ (pass) the exam.",
-          "answer": "study; will pass/'ll pass"
+          "answer": "study, will pass/'ll pass"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "When you __ (mix) blue and yellow, you __ (get) green.",
-          "answer": "mix; get"
+          "answer": "mix, get"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "Unless you __ (hurry), you __ (miss) the bus.",
-          "answer": "hurry; will miss/'ll miss"
+          "answer": "hurry, will miss/'ll miss"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "If plants __ (not get) enough water, they __ (die).",
-          "answer": "do not get/don't get; die"
+          "answer": "do not get/don't get, die"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "If she __ (arrive) on time, we __ (have) dinner together.",
-          "answer": "arrives; will have/'ll have"
+          "answer": "arrives, will have/'ll have"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "When it __ (rain), the streets __ (get) wet.",
-          "answer": "rains; get"
+          "answer": "rains, get"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "Unless he __ (apologize), I __ (not speak) to him again.",
-          "answer": "apologizes; will not speak/won't speak"
+          "answer": "apologizes, will not speak/won't speak"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "If you __ (touch) fire, you __ (get) burned.",
-          "answer": "touch; get"
+          "answer": "touch, get"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "If they __ (offer) me the job, I __ (take) it.",
-          "answer": "offer; will take/'ll take"
+          "answer": "offer, will take/'ll take"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "When you __ (freeze) water, it __ (turn) into ice.",
-          "answer": "freeze; turns"
+          "answer": "freeze, turns"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "Unless we __ (leave) now, we __ (be) late for the movie.",
-          "answer": "leave; will be/'ll be"
+          "answer": "leave, will be/'ll be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "If you __ (not sleep) enough, you __ (feel) tired.",
-          "answer": "do not sleep/don't sleep; feel"
+          "answer": "do not sleep/don't sleep, feel"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "If I __ (see) him, I __ (tell) him the news.",
-          "answer": "see; will tell/'ll tell"
+          "answer": "see, will tell/'ll tell"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "When you __ (press) this button, the light __ (turn) on.",
-          "answer": "press; turns"
+          "answer": "press, turns"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "Unless she __ (practice) more, she __ (not improve) her English.",
-          "answer": "practices; will not improve/won't improve"
+          "answer": "practices, will not improve/won't improve"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Zero Conditional.",
           "question": "If you __ (add) sugar to coffee, it __ (taste) sweeter.",
-          "answer": "add; tastes"
+          "answer": "add, tastes"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for First Conditional.",
           "question": "If you __ (not finish) your work, you __ (not go) to the party.",
-          "answer": "do not finish/don't finish; will not go/won't go"
+          "answer": "do not finish/don't finish, will not go/won't go"
         }
       ]
     },
@@ -3384,102 +3212,102 @@
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If I __ (win) the lottery, I __ (travel) around the world.",
-          "answer": "won; would travel/'d travel"
+          "answer": "won, would travel/'d travel"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If she __ (have) more time, she __ (learn) to play the guitar.",
-          "answer": "had; would learn/'d learn"
+          "answer": "had, would learn/'d learn"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If I __ (not be) so busy, I __ (not miss) your call.",
-          "answer": "were not/weren't; would not miss/wouldn't miss"
+          "answer": "were not/weren't, would not miss/wouldn't miss"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If he __ (be) taller, he __ (become) a professional basketball player.",
-          "answer": "were; would become/'d become"
+          "answer": "were, would become/'d become"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If we __ (not live) so far away, we __ (not need) to drive so much.",
-          "answer": "did not live/didn't live; would not need/wouldn't need"
+          "answer": "did not live/didn't live, would not need/wouldn't need"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If I __ (know) the answer, I __ (tell) you.",
-          "answer": "knew; would tell/'d tell"
+          "answer": "knew, would tell/'d tell"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If they __ (not be) so expensive, I __ (not hesitate) to buy them.",
-          "answer": "were not/weren't; would not hesitate/wouldn't hesitate"
+          "answer": "were not/weren't, would not hesitate/wouldn't hesitate"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If you __ (practice) more, you __ (speak) English fluently.",
-          "answer": "practiced; would speak/'d speak"
+          "answer": "practiced, would speak/'d speak"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If I __ (not have) this job, I __ (not be) able to pay my bills.",
-          "answer": "did not have/didn't have; would not be/wouldn't be"
+          "answer": "did not have/didn't have, would not be/wouldn't be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If it __ (not rain) so much here, we __ (go) hiking more often.",
-          "answer": "did not rain/didn't rain; would go/'d go"
+          "answer": "did not rain/didn't rain, would go/'d go"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If she __ (not be) so shy, she __ (not avoid) social events.",
-          "answer": "were not/weren't; would not avoid/wouldn't avoid"
+          "answer": "were not/weren't, would not avoid/wouldn't avoid"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If we __ (have) a bigger house, we __ (invite) more guests.",
-          "answer": "had; would invite/'d invite"
+          "answer": "had, would invite/'d invite"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If I __ (not need) to work, I __ (not wake up) so early.",
-          "answer": "did not need/didn't need; would not wake up/wouldn't wake up"
+          "answer": "did not need/didn't need, would not wake up/wouldn't wake up"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If you __ (ask) him nicely, he __ (probably help) you.",
-          "answer": "asked; would probably help/'d probably help"
+          "answer": "asked, would probably help/'d probably help"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If they __ (not be) so stubborn, they __ (not argue) all the time.",
-          "answer": "were not/weren't; would not argue/wouldn't argue"
+          "answer": "were not/weren't, would not argue/wouldn't argue"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If I __ (be) you, I __ (take) that job offer.",
-          "answer": "were; would take/'d take"
+          "answer": "were, would take/'d take"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If he __ (not smoke), he __ (not have) breathing problems.",
-          "answer": "did not smoke/didn't smoke; would not have/wouldn't have"
+          "answer": "did not smoke/didn't smoke, would not have/wouldn't have"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If we __ (have) more money, we __ (buy) a new car.",
-          "answer": "had; would buy/'d buy"
+          "answer": "had, would buy/'d buy"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional (NEGATIVE).",
           "question": "If I __ (not love) this city, I __ (not live) here.",
-          "answer": "did not love/didn't love; would not live/wouldn't live"
+          "answer": "did not love/didn't love, would not live/wouldn't live"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Second Conditional.",
           "question": "If you __ (have) the chance, what __ you __ (do) differently?",
-          "answer": "had; would; do"
+          "answer": "had, would, do"
         }
       ]
     },
@@ -3515,102 +3343,102 @@
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If I __ (study) harder, I __ (pass) the exam.",
-          "answer": "had studied/'d studied; would have passed/'d have passed"
+          "answer": "had studied/'d studied, would have passed/'d have passed"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If she __ (leave) earlier, she __ (not miss) the train.",
-          "answer": "had left/'d left; would not have missed/wouldn't have missed"
+          "answer": "had left/'d left, would not have missed/wouldn't have missed"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If they __ (not forget) the map, they __ (not get) lost.",
-          "answer": "had not forgotten/hadn't forgotten; would not have gotten/wouldn't have gotten"
+          "answer": "had not forgotten/hadn't forgotten, would not have gotten/wouldn't have gotten"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If we __ (know) about the traffic, we __ (take) a different route.",
-          "answer": "had known/'d known; would have taken/'d have taken"
+          "answer": "had known/'d known, would have taken/'d have taken"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If he __ (not be) so careless, he __ (not have) the accident.",
-          "answer": "had not been/hadn't been; would not have had/wouldn't have had"
+          "answer": "had not been/hadn't been, would not have had/wouldn't have had"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If you __ (tell) me the truth, I __ (help) you.",
-          "answer": "had told/'d told; would have helped/'d have helped"
+          "answer": "had told/'d told, would have helped/'d have helped"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If it __ (not rain) so heavily, we __ (not cancel) the picnic.",
-          "answer": "had not rained/hadn't rained; would not have canceled/wouldn't have canceled"
+          "answer": "had not rained/hadn't rained, would not have canceled/wouldn't have canceled"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If she __ (listen) to my advice, she __ (avoid) the problem.",
-          "answer": "had listened/'d listened; would have avoided/'d have avoided"
+          "answer": "had listened/'d listened, would have avoided/'d have avoided"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If I __ (not see) it with my own eyes, I __ (not believe) it.",
-          "answer": "had not seen/hadn't seen; would not have believed/wouldn't have believed"
+          "answer": "had not seen/hadn't seen, would not have believed/wouldn't have believed"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If they __ (invest) in that company, they __ (become) millionaires.",
-          "answer": "had invested/'d invested; would have become/'d have become"
+          "answer": "had invested/'d invested, would have become/'d have become"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If he __ (not waste) so much time, he __ (finish) the project.",
-          "answer": "had not wasted/hadn't wasted; would have finished/'d have finished"
+          "answer": "had not wasted/hadn't wasted, would have finished/'d have finished"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If we __ (bring) umbrella, we __ (not get) wet.",
-          "answer": "had brought/'d brought; would not have gotten/wouldn't have gotten"
+          "answer": "had brought/'d brought, would not have gotten/wouldn't have gotten"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If you __ (not interrupt) me, I __ (explain) everything.",
-          "answer": "had not interrupted/hadn't interrupted; would have explained/'d have explained"
+          "answer": "had not interrupted/hadn't interrupted, would have explained/'d have explained"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If she __ (accept) the job offer, she __ (earn) more money.",
-          "answer": "had accepted/'d accepted; would have earned/'d have earned"
+          "answer": "had accepted/'d accepted, would have earned/'d have earned"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If I __ (not trust) him, I __ (not lend) him the money.",
-          "answer": "had not trusted/hadn't trusted; would not have lent/wouldn't have lent"
+          "answer": "had not trusted/hadn't trusted, would not have lent/wouldn't have lent"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If they __ (practice) more, they __ (win) the competition.",
-          "answer": "had practiced/'d practiced; would have won/'d have won"
+          "answer": "had practiced/'d practiced, would have won/'d have won"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If we __ (not make) that mistake, we __ (succeed).",
-          "answer": "had not made/hadn't made; would have succeeded/'d have succeeded"
+          "answer": "had not made/hadn't made, would have succeeded/'d have succeeded"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If he __ (take) the medicine, he __ (feel) better.",
-          "answer": "had taken/'d taken; would have felt/'d have felt"
+          "answer": "had taken/'d taken, would have felt/'d have felt"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional (NEGATIVE).",
           "question": "If you __ (not remind) me, I __ (forget) the appointment.",
-          "answer": "had not reminded/hadn't reminded; would have forgotten/'d have forgotten"
+          "answer": "had not reminded/hadn't reminded, would have forgotten/'d have forgotten"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Third Conditional.",
           "question": "If I __ (have) your number, I __ (call) you yesterday.",
-          "answer": "had had/'d had; would have called/'d have called"
+          "answer": "had had/'d had, would have called/'d have called"
         }
       ]
     },
@@ -3646,102 +3474,102 @@
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (study) medicine when I was younger, I __ (be) a doctor now.",
-          "answer": "had studied/'d studied; would be/'d be"
+          "answer": "had studied/'d studied, would be/'d be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If she __ (not eat) so much sugar, she __ (not have) those health problems now.",
-          "answer": "had not eaten/hadn't eaten; would not have/wouldn't have"
+          "answer": "had not eaten/hadn't eaten, would not have/wouldn't have"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (know) how to swim, I __ (join) you at the beach yesterday.",
-          "answer": "knew; would have joined/'d have joined"
+          "answer": "knew, would have joined/'d have joined"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If he __ (listen) to my advice, he __ (not be) in trouble right now.",
-          "answer": "had listened/'d listened; would not be/wouldn't be"
+          "answer": "had listened/'d listened, would not be/wouldn't be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (be) more organized, I __ (finish) the project on time last week.",
-          "answer": "were; would have finished/'d have finished"
+          "answer": "were, would have finished/'d have finished"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If they __ (invest) in that property, they __ (be) millionaires today.",
-          "answer": "had invested/'d invested; would be/'d be"
+          "answer": "had invested/'d invested, would be/'d be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (not break) my leg, I __ (play) in the championship game tomorrow.",
-          "answer": "had not broken/hadn't broken; would be playing/'d be playing"
+          "answer": "had not broken/hadn't broken, would be playing/'d be playing"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If she __ (speak) French fluently, she __ (get) that job in Paris last month.",
-          "answer": "spoke; would have gotten/'d have gotten"
+          "answer": "spoke, would have gotten/'d have gotten"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If we __ (not move) to this city, we __ (not meet) each other now.",
-          "answer": "had not moved/hadn't moved; would not have met/wouldn't have met"
+          "answer": "had not moved/hadn't moved, would not have met/wouldn't have met"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (have) more confidence, I __ (ask) for a promotion years ago.",
-          "answer": "had; would have asked/'d have asked"
+          "answer": "had, would have asked/'d have asked"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If he __ (take) his studies seriously, he __ (have) a better job now.",
-          "answer": "had taken/'d taken; would have/'d have"
+          "answer": "had taken/'d taken, would have/'d have"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (not love) chocolate so much, I __ (not gain) this weight last year.",
-          "answer": "did not love/didn't love; would not have gained/wouldn't have gained"
+          "answer": "did not love/didn't love, would not have gained/wouldn't have gained"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If they __ (save) more money, they __ (buy) a house by now.",
-          "answer": "had saved/'d saved; would have bought/'d have bought"
+          "answer": "had saved/'d saved, would have bought/'d have bought"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (be) better at math, I __ (choose) a different career path years ago.",
-          "answer": "were; would have chosen/'d have chosen"
+          "answer": "were, would have chosen/'d have chosen"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If she __ (not miss) her flight, she __ (be) here with us right now.",
-          "answer": "had not missed/hadn't missed; would be/'d be"
+          "answer": "had not missed/hadn't missed, would be/'d be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (know) how difficult it would be, I __ (not start) this business.",
-          "answer": "had known/'d known; would not have started/wouldn't have started"
+          "answer": "had known/'d known, would not have started/wouldn't have started"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If he __ (not waste) his youth, he __ (have) more opportunities today.",
-          "answer": "had not wasted/hadn't wasted; would have/'d have"
+          "answer": "had not wasted/hadn't wasted, would have/'d have"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If we __ (not meet) that day, we __ (not be) together now.",
-          "answer": "had not met/hadn't met; would not be/wouldn't be"
+          "answer": "had not met/hadn't met, would not be/wouldn't be"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If I __ (have) your phone number, I __ (call) you when I was in town.",
-          "answer": "had; would have called/'d have called"
+          "answer": "had, would have called/'d have called"
         },
         {
           "instruction": "Complete the sentence with the correct form of the verb for Mixed Conditionals.",
           "question": "If she __ (not practice) so hard, she __ (not perform) so well tonight.",
-          "answer": "had not practiced/hadn't practiced; would not be performing/wouldn't be performing"
+          "answer": "had not practiced/hadn't practiced, would not be performing/wouldn't be performing"
         }
       ]
     },
@@ -3776,7 +3604,7 @@
           "answer": "has been stolen/'s been stolen"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "English __ (speak) in many countries around the world.",
           "answer": "is spoken"
         },
@@ -3791,7 +3619,7 @@
           "answer": "have already been finished"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "Coffee __ (grow) in Brazil and Colombia.",
           "answer": "is grown"
         },
@@ -3806,7 +3634,7 @@
           "answer": "have been sold"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "This software __ (use) by millions of people worldwide.",
           "answer": "is used"
         },
@@ -3821,7 +3649,7 @@
           "answer": "has not been solved/hasn't been solved"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "These cars __ (make) in Germany.",
           "answer": "are made"
         },
@@ -3836,7 +3664,7 @@
           "answer": "have been lost"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "Passengers __ (ask) to fasten their seatbelts during takeoff.",
           "answer": "are asked"
         },
@@ -3851,7 +3679,7 @@
           "answer": "has been developed"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "The information __ (update) regularly.",
           "answer": "is updated"
         },
@@ -3866,7 +3694,7 @@
           "answer": "have been changed"
         },
         {
-          "instruction": "Complete the sentence with the correct passive form of the verb (Present Simple).",
+          "instruction": "Complete the sentence with the correct passive form of the verb.",
           "question": "Employees __ (require) to attend the safety training.",
           "answer": "are required"
         },
@@ -3874,139 +3702,6 @@
           "instruction": "Complete the sentence with the correct passive form of the verb (Past Simple).",
           "question": "The famous novel __ (write) in the 19th century.",
           "answer": "was written"
-        }
-      ]
-    },
-    {
-      "topic": "Reported Speech",
-      "level": "B2",
-      "explanation": "Use reported speech to tell someone what another person said. Verbs usually move one tense back in time.",
-      "rules": [
-        "Present simple → past simple",
-        "Present continuous → past continuous",
-        "Will → would",
-        "Change pronouns and time expressions"
-      ],
-      "examples": [
-        "She said she was tired",
-        "He told me he would call later",
-        "They said they had already eaten"
-      ],
-      "exercises": [
-        {
-          "instruction": "Report what the person said.",
-          "question": "\"I feel ill.\" -> She said she __ ill.",
-          "answer": "felt"
-        },
-        {
-          "instruction": "Report what the person said.",
-          "question": "\"We are watching a film.\" -> They said they __ a film.",
-          "answer": "were watching"
-        },
-        {
-          "instruction": "Report what the person said.",
-          "question": "\"I will be late.\" -> He said he __ late.",
-          "answer": "would be/'d be"
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I am tired,\" she said.",
-          "answer": "She said (that) she was tired."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We will call you tomorrow,\" they told me.",
-          "answer": "They told me (that) they would call me the next day."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I have finished my homework,\" he said.",
-          "answer": "He said (that) he had finished his homework."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We are watching a movie,\" they said.",
-          "answer": "They said (that) they were watching a movie."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I can help you,\" she told him.",
-          "answer": "She told him (that) she could help him."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We went to the beach yesterday,\" they said.",
-          "answer": "They said (that) they had gone to the beach the day before."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I don't like pizza,\" he said.",
-          "answer": "He said (that) he didn't like pizza."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We are going to travel next week,\" they said.",
-          "answer": "They said (that) they were going to travel the following week."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I have been working all day,\" she said.",
-          "answer": "She said (that) she had been working all day."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We won't be able to come,\" they told us.",
-          "answer": "They told us (that) they wouldn't be able to come."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I saw that movie last night,\" he said.",
-          "answer": "He said (that) he had seen that movie the night before."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We are meeting them here,\" she said.",
-          "answer": "She said (that) they were meeting them there."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I can't swim,\" he told her.",
-          "answer": "He told her (that) he couldn't swim."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We have already eaten,\" they said.",
-          "answer": "They said (that) they had already eaten."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I will finish this tomorrow,\" she said.",
-          "answer": "She said (that) she would finish that the next day."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We were playing soccer,\" they said.",
-          "answer": "They said (that) they had been playing soccer."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I don't understand this question,\" he said.",
-          "answer": "He said (that) he didn't understand that question."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We can meet you today,\" they told me.",
-          "answer": "They told me (that) they could meet me that day."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"I was sleeping when you called,\" she said.",
-          "answer": "She said (that) she had been sleeping when I called."
-        },
-        {
-          "instruction": "Convert the direct speech to reported speech.",
-          "question": "\"We haven't decided yet,\" they said.",
-          "answer": "They said (that) they hadn't decided yet."
         }
       ]
     },
@@ -4083,7 +3778,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct modal verb (advice).",
-          "question": "You __ try the chocolate cake; it's delicious.",
+          "question": "You __ try the chocolate cake, it's delicious.",
           "answer": "should/ought to"
         },
         {
@@ -4118,7 +3813,7 @@
         },
         {
           "instruction": "Complete the sentence with the correct modal verb (advice).",
-          "question": "You __ not eat so much sugar; it's bad for your health.",
+          "question": "You __ not eat so much sugar, it's bad for your health.",
           "answer": "should/ought to"
         },
         {
