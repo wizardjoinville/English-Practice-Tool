@@ -25,6 +25,12 @@ let quizPoints = 0;
 let quizErrors = 0;
 
 // Grammar
+// Grammar scoring and control
+let grammarActiveExercises = [];
+let grammarUsedExercises = [];
+let grammarPoints = 0;
+let grammarErrors = 0;
+
 const URL_PERGUNTAS = "english_questions_650.json";
 const URL_VOCABULARIO = "english_vocabulary.json";
 const URL_GRAMMAR = "english_grammar.json";
@@ -106,7 +112,7 @@ function inicializarSelects() {
       if (document.getElementById('grammarDisplay').style.display === 'block') {
         mostrarGramatica();
       }
-      
+
       // Atualizar automaticamente os exercícios se estiverem visíveis
       if (document.getElementById('grammarPractice').style.display === 'block') {
         praticarGramatica();
@@ -844,7 +850,7 @@ function mostrarGramatica() {
   }
 
   let topic;
-  
+
   // Se for selecionado "Random", escolher um tópico aleatório
   if (selectedTopic === 'random') {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
@@ -852,7 +858,7 @@ function mostrarGramatica() {
   } else {
     topic = grammarTopics.find(t => t.topic === selectedTopic);
   }
-  
+
   if (!topic) return;
 
   const grammarDisplay = document.getElementById('grammarDisplay');
@@ -907,7 +913,7 @@ function praticarGramatica(forceRefresh = false) {
   }
 
   let newGrammarTopic;
-  
+
   // Se for selecionado "Random", escolher um tópico aleatório
   if (selectedTopic === 'random') {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
@@ -915,7 +921,7 @@ function praticarGramatica(forceRefresh = false) {
   } else {
     newGrammarTopic = grammarTopics.find(t => t.topic === selectedTopic);
   }
-  
+
   if (!newGrammarTopic) return;
 
   // Atualizar o tópico atual apenas se for diferente
@@ -935,11 +941,16 @@ function praticarGramatica(forceRefresh = false) {
 
   // Filtrar exercícios pelo modo selecionado
   let exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
-  
+
   if (exerciciosFiltrados.length === 0) {
     alert(`No ${selectedMode} exercises available for this topic.`);
     return;
   }
+  grammarActiveExercises = [...exerciciosFiltrados];
+  grammarUsedExercises = [];
+  grammarPoints = 0;
+  grammarErrors = 0;
+  atualizarPontuacaoGrammar();
 
   // Se não for modo Random Topic, escolher um exercício aleatório dos filtrados
   if (selectedTopic !== 'random') {
@@ -991,7 +1002,7 @@ function iniciarExercicios(exercises) {
   } else if (exercise.mode) {
     modeDisplay = `<div class="exercise-mode">${exercise.mode.toUpperCase()}</div>`;
   }
-  
+
   // VERIFICAR TIPO DE EXERCÍCIO CORRETAMENTE
   // Para exercícios rewrite, SEMPRE usar a caixa única
   if (exercise.mode === 'rewrite') {
@@ -1021,16 +1032,15 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   `;
 
   let gapCount = 0;
-  
+
   // CORREÇÃO: Handle both string and array answers properly
   let answers;
   if (Array.isArray(exercise.answer)) {
     answers = exercise.answer;
   } else {
-    // Se for string, converter para array (separando por vírgula se necessário)
-    answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
+    answers = exercise.answer.split(',');
   }
-  
+
   parts.forEach(part => {
     if (part.startsWith('_') && part.length >= 2) {
       // É um grupo de underscores - criar UMA caixa de texto
@@ -1050,8 +1060,8 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   });
 
   // CORREÇÃO: Display answer correctly for both array and string
-  const answerDisplay = Array.isArray(exercise.answer) 
-    ? exercise.answer.join(', ') 
+  const answerDisplay = Array.isArray(exercise.answer)
+    ? exercise.answer.join(', ')
     : exercise.answer;
 
   questionHTML += `</div>`;
@@ -1104,22 +1114,22 @@ function criarExercicioComCaixasPorGrupo(exercise) {
 // Also update the verificarExercicioComCaixas function to handle array answers
 function verificarExercicioComCaixas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
-  
+
   // Handle both string and array answers
-  const answers = Array.isArray(correctAnswer) 
-    ? correctAnswer 
+  const answers = Array.isArray(correctAnswer)
+    ? correctAnswer
     : String(correctAnswer).split(',');
-  
+
   let allCorrect = true;
   const feedbackElement = document.getElementById('exerciseFeedback');
 
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
-    const possibleAnswers = answers[index] 
-      ? String(answers[index]).trim().toLowerCase().split('/') 
+    const possibleAnswers = answers[index]
+      ? String(answers[index]).trim().toLowerCase().split('/')
       : [''];
 
-    const isCorrect = possibleAnswers.some(correct => 
+    const isCorrect = possibleAnswers.some(correct =>
       userAnswer === correct.trim().toLowerCase()
     );
 
@@ -1138,14 +1148,21 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (inlineBtn) inlineBtn.disabled = true;
 
   if (allCorrect) {
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+
     feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
+
+    atualizarPontuacaoGrammar();
     setTimeout(proximoExercicio, 2000);
   } else {
+    grammarErrors++;
+
     feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
-    const correct = document.getElementById('exerciseCorrectAnswer');
-    if (correct) correct.style.display = 'block';
+
+    atualizarPontuacaoGrammar();
     setTimeout(proximoExercicio, 2000);
   }
 }
@@ -1385,7 +1402,7 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   `;
 
   let gapCount = 0;
-  
+
   // CORREÇÃO: Handle both string and array answers properly
   let answers;
   if (Array.isArray(exercise.answer)) {
@@ -1394,7 +1411,7 @@ function criarExercicioComCaixasPorGrupo(exercise) {
     // Se for string, converter para array (separando por vírgula se necessário)
     answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
   }
-  
+
   parts.forEach(part => {
     if (part.startsWith('_') && part.length >= 2) {
       // É um grupo de underscores - criar UMA caixa de texto
@@ -1414,8 +1431,8 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   });
 
   // CORREÇÃO: Display answer correctly for both array and string
-  const answerDisplay = Array.isArray(exercise.answer) 
-    ? exercise.answer.join(', ') 
+  const answerDisplay = Array.isArray(exercise.answer)
+    ? exercise.answer.join(', ')
     : exercise.answer;
 
   questionHTML += `</div>`;
@@ -1469,7 +1486,7 @@ function criarExercicioComCaixasPorGrupo(exercise) {
 // Na função verificarExercicioComLacunas:
 function verificarExercicioComLacunas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
-  
+
   // Garantir que as respostas sejam um array
   let answers;
   if (Array.isArray(correctAnswer)) {
@@ -1477,7 +1494,7 @@ function verificarExercicioComLacunas(correctAnswer) {
   } else {
     answers = correctAnswer.split(',');
   }
-  
+
   let allCorrect = true;
   const feedbackElement = document.getElementById('exerciseFeedback');
 
@@ -1495,7 +1512,7 @@ function verificarExercicioComLacunas(correctAnswer) {
     }
 
     // ... resto do código permanece o mesmo
-  
+
 
     // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
     const isCorrect = possibleAnswers.some(correct =>
@@ -1538,7 +1555,7 @@ function verificarExercicioComLacunas(correctAnswer) {
     feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Algumas respostas estão incorretas. Tente novamente!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
     document.getElementById('exerciseCorrectAnswer').style.display = 'block';
-    
+
 
 
     const tryAgainBtn = document.createElement('button');
@@ -1570,22 +1587,22 @@ function verificarExercicioComLacunas(correctAnswer) {
 
 function verificarExercicioComCaixas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
-  
+
   // Handle both string and array answers
-  const answers = Array.isArray(correctAnswer) 
-    ? correctAnswer 
+  const answers = Array.isArray(correctAnswer)
+    ? correctAnswer
     : String(correctAnswer).split(',');
-  
+
   let allCorrect = true;
   const feedbackElement = document.getElementById('exerciseFeedback');
 
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
-    const possibleAnswers = answers[index] 
-      ? String(answers[index]).trim().toLowerCase().split('/') 
+    const possibleAnswers = answers[index]
+      ? String(answers[index]).trim().toLowerCase().split('/')
       : [''];
 
-    const isCorrect = possibleAnswers.some(correct => 
+    const isCorrect = possibleAnswers.some(correct =>
       userAnswer === correct.trim().toLowerCase()
     );
 
@@ -1645,7 +1662,7 @@ function filtrarExerciciosPorModo(exercises, modoSelecionado) {
 // Modificar a função verificarExercicio para lidar corretamente com exercícios rewrite
 function verificarExercicio() {
   const userAnswerElement = document.getElementById('exerciseAnswer');
-  
+
   // Verificar se o elemento existe
   if (!userAnswerElement) {
     console.error('Elemento exerciseAnswer não encontrado!');
@@ -1665,13 +1682,13 @@ function verificarExercicio() {
 
   const feedbackElement = document.getElementById('exerciseFeedback');
   const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
-  
+
   // Obter as respostas válidas do exercício
   const possibleAnswers = obterRespostasValidas(exercise.answer);
-  
+
   // Normalizar a resposta do usuário
   const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  
+
   // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
   const isCorrect = possibleAnswers.some(correct => {
     const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
@@ -1682,25 +1699,31 @@ function verificarExercicio() {
   console.log('Está correto:', isCorrect, 'Respostas possíveis:', possibleAnswers);
 
   if (isCorrect) {
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove da pool
+
     feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
     feedbackElement.style.display = 'block';
 
-    // Desabilitar campos e botões
     userAnswerElement.disabled = true;
     const inlineCheckBtn = document.getElementById('inlineCheckBtn');
     if (inlineCheckBtn) inlineCheckBtn.disabled = true;
 
-    // Autoavanço após 2 segundos
+    atualizarPontuacaoGrammar();
+
     iniciarContagemRegressiva();
     setTimeout(() => {
       proximoExercicio();
     }, 2000);
   } else {
+    grammarErrors++; // erro → volta pra pool
+
     feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Incorreto. Tente novamente!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
     feedbackElement.style.display = 'block';
-    
+
+
 
     // Mostrar resposta correta
     const correctAnswerElement = document.getElementById('exerciseCorrectAnswer');
@@ -1708,13 +1731,14 @@ function verificarExercicio() {
       correctAnswerElement.style.display = 'block';
       correctAnswerElement.innerHTML = `<strong>Resposta correta:</strong> ${possibleAnswers.join(' ou ')}`;
     }
+    atualizarPontuacaoGrammar();
   }
 }
 
 // Nova função para obter respostas válidas do exercício
 function obterRespostasValidas(answer) {
   let possibleAnswers = [];
-  
+
   if (Array.isArray(answer)) {
     // Se for array, usar diretamente
     possibleAnswers = answer.map(a => a.trim());
@@ -1725,7 +1749,7 @@ function obterRespostasValidas(answer) {
     console.error('Formato de resposta inválido:', answer);
     possibleAnswers = [''];
   }
-  
+
   // Filtrar possíveis respostas vazias
   return possibleAnswers.filter(a => a !== '');
 }
@@ -1733,11 +1757,11 @@ function obterRespostasValidas(answer) {
 // Modificar a função criarExercicioComUmaCaixa para mostrar as respostas corretas
 function criarExercicioComUmaCaixa(exercise, modeDisplay = '') {
   const exerciseContainer = document.getElementById('exerciseContainer');
-  
+
   // Obter respostas válidas para exibir
   const possibleAnswers = obterRespostasValidas(exercise.answer);
   const answerText = possibleAnswers.join(' ou ');
-  
+
   exerciseContainer.innerHTML = `
     ${modeDisplay}
     <div class="exercise-title">${exercise.instruction}</div>
@@ -1762,12 +1786,12 @@ function criarExercicioComUmaCaixa(exercise, modeDisplay = '') {
   `;
 
   // Adicionar event listener ao botão de verificação
-  document.getElementById('inlineCheckBtn').addEventListener('click', function() {
+  document.getElementById('inlineCheckBtn').addEventListener('click', function () {
     verificarExercicio();
   });
 
   // Permitir verificação com Enter
-  document.getElementById('exerciseAnswer').addEventListener('keydown', function(e) {
+  document.getElementById('exerciseAnswer').addEventListener('keydown', function (e) {
     if (e.key === 'Enter') {
       e.preventDefault();
       verificarExercicio();
@@ -1803,7 +1827,7 @@ function verificarExercicioRewrite() {
 
   const feedbackElement = document.getElementById('exerciseFeedback');
   const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
-  
+
   // Garantir que as respostas sejam um array
   let possibleAnswers;
   if (Array.isArray(exercise.answer)) {
@@ -1812,10 +1836,10 @@ function verificarExercicioRewrite() {
     // Dividir por "/" para múltiplas respostas aceitáveis
     possibleAnswers = exercise.answer.split('/').map(a => a.trim());
   }
-  
+
   // Normalizar a resposta do usuário (remover espaços extras, tornar minúscula)
   const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  
+
   // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
   const isCorrect = possibleAnswers.some(correct => {
     const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
@@ -1852,7 +1876,7 @@ function verificarExercicioRewrite() {
 }
 function verificarRespostaNormal(userAnswer, exercise) {
   const feedbackElement = document.getElementById('exerciseFeedback');
-  
+
   // Garantir que as respostas sejam um array
   let possibleAnswers;
   if (Array.isArray(exercise.answer)) {
@@ -1861,10 +1885,10 @@ function verificarRespostaNormal(userAnswer, exercise) {
     // Dividir por "/" para múltiplas respostas aceitáveis
     possibleAnswers = exercise.answer.split('/').map(a => a.trim());
   }
-  
+
   // Normalizar a resposta do usuário
   const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  
+
   // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
   const isCorrect = possibleAnswers.some(correct => {
     const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
@@ -1951,7 +1975,7 @@ function verificarExercicio() {
 
   const feedbackElement = document.getElementById('exerciseFeedback');
   const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
-  
+
   // Garantir que as respostas sejam um array (caso answer seja string ou array)
   let possibleAnswers;
   if (Array.isArray(exercise.answer)) {
@@ -1960,11 +1984,11 @@ function verificarExercicio() {
     // Dividir por "/" primeiro, depois por "," se necessário
     possibleAnswers = exercise.answer.split('/').map(a => a.trim());
   }
-  
-  
+
+
   // E também remover espaços extras para comparação mais flexível
   const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  
+
   const isCorrect = possibleAnswers.some(correct => {
     const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
     return normalizedUserAnswer === normalizedCorrect;
@@ -2016,11 +2040,11 @@ function proximoExercicio() {
   if (selectedTopic === 'random') {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
     const randomTopic = grammarTopics[randomIndex];
-    
+
     currentGrammarTopic = randomTopic;
     // Escolher um exercício aleatório do novo tópico
     currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
-    
+
     console.log(`Random topic selected: ${randomTopic.topic}`);
   } else {
     // Para tópicos específicos, avançar para o próximo exercício
@@ -2056,10 +2080,16 @@ function proximoExercicio() {
 }
 
 function resetarExercicios() {
-  const exerciseContainer = document.getElementById('exerciseContainer');
-  exerciseContainer.innerHTML = `
+  grammarActiveExercises = [];
+  grammarUsedExercises = [];
+  grammarPoints = 0;
+  grammarErrors = 0;
+  atualizarPontuacaoGrammar();
+
+  document.getElementById('exerciseContainer').innerHTML = `
     <div class="empty-message">
-      Select a mode and click "Practice Exercises" to start.
+      <p>Exercises have been reset.</p>
+      <p>Select a grammar topic and click "Practice Grammar" to begin.</p>
     </div>
   `;
 
@@ -2070,6 +2100,13 @@ function resetarExercicios() {
   // Resetar botão de verificação
   document.getElementById('btnCheckExercise').style.display = 'flex';
 }
+
+function atualizarPontuacaoGrammar() {
+  document.getElementById('grammarPoints').textContent = grammarPoints;
+  document.getElementById('grammarErrors').textContent = grammarErrors;
+  document.getElementById('grammarTotal').textContent = grammarPoints + grammarErrors;
+}
+
 
 // --- FUNÇÕES DE PHRASAL VERBS ---
 function filtrarPhrasalVerbs() {
@@ -2245,7 +2282,7 @@ function exibirPhrasalVerb(phrasalVerb) {
 
   // Garantir que a definição está sempre visível
   document.getElementById('phrasalDefinition').style.display = 'block';
-  
+
   // Esconder apenas a tradução inicialmente
   document.getElementById('phrasalTranslation').style.display = 'none';
 }
@@ -2253,14 +2290,14 @@ function exibirPhrasalVerb(phrasalVerb) {
 // Na função mostrarSignificadoPhrasal, altere para:
 function mostrarSignificadoPhrasal() {
   const translationElement = document.getElementById('phrasalTranslation');
-  
+
   // Apenas mostrar/ocultar a tradução, mantendo a definição sempre visível
   if (translationElement.style.display === 'none') {
     translationElement.style.display = 'block';
   } else {
     translationElement.style.display = 'none';
   }
-  
+
   // A definição deve permanecer sempre visível
   document.getElementById('phrasalDefinition').style.display = 'block';
 }
@@ -2268,14 +2305,14 @@ function mostrarSignificadoPhrasal() {
 // Na função mostrarSignificadoPhrasal, altere para:
 function mostrarSignificadoPhrasal() {
   const translationElement = document.getElementById('phrasalTranslation');
-  
+
   // Apenas mostrar/ocultar a tradução
   if (translationElement.style.display === 'none') {
     translationElement.style.display = 'block';
   } else {
     translationElement.style.display = 'none';
   }
-  
+
   // Forçar a definição a permanecer visível (em caso de algum bug)
   document.getElementById('phrasalDefinition').style.display = 'block';
 }
@@ -2456,17 +2493,28 @@ function verificarExercicioComLacunas(correctAnswer) {
   if (inlineBtn) inlineBtn.disabled = true;
 
   if (allCorrect) {
-    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+
+    feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
+
+
     setTimeout(proximoExercicio, 2000);
   } else {
-    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas. Tente novamente!</span>';
+    grammarErrors++; // volta pra pool
+
+    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
+
+    // Mostrar resposta correta
     const correct = document.getElementById('exerciseCorrectAnswer');
     if (correct) correct.style.display = 'block';
-    // sem botão "Tentar Novamente"; avança sozinho:
+
+    atualizarPontuacaoGrammar();
     setTimeout(proximoExercicio, 2000);
   }
+
 }
 
 function verificarExercicioComCaixas(correctAnswer) {
@@ -2495,16 +2543,28 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (inlineBtn) inlineBtn.disabled = true;
 
   if (allCorrect) {
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+
     feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
+
+    atualizarPontuacaoGrammar();
     setTimeout(proximoExercicio, 2000);
   } else {
-    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
-    feedbackElement.className = 'exercise-feedback incorrect';
-    const correct = document.getElementById('exerciseCorrectAnswer');
-    if (correct) correct.style.display = 'block';
-    setTimeout(proximoExercicio, 2000);
+  grammarErrors++;
+
+  feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
+  feedbackElement.className = 'exercise-feedback incorrect';
+
+  // Mostrar resposta correta
+  const correct = document.getElementById('exerciseCorrectAnswer');
+  if (correct) correct.style.display = 'block';
+
+  atualizarPontuacaoGrammar();
+  setTimeout(proximoExercicio, 2000);
   }
+
 }
 
 function verificarExercicio() {
@@ -2529,8 +2589,8 @@ function verificarExercicio() {
 
   const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
   const possibleAnswers = Array.isArray(exercise.answer) ? exercise.answer : String(exercise.answer).split('/');
-  const normalizedUser = userAnswer.toLowerCase().replace(/\s+/g,' ').trim();
-  const isCorrect = possibleAnswers.some(a => normalizedUser === String(a).toLowerCase().replace(/\s+/g,' ').trim());
+  const normalizedUser = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
+  const isCorrect = possibleAnswers.some(a => normalizedUser === String(a).toLowerCase().replace(/\s+/g, ' ').trim());
 
   if (isCorrect) {
     feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
