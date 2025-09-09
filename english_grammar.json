@@ -3,10 +3,10 @@
     {
       "topic": "Present Simple",
       "level": "A1",
-      "explanation": "Use the present simple to talk about habits, facts, and regular actions.",
+      "explanation": "Usado para ações habituais, fatos gerais, verdades universais e rotinas. Estrutura: sujeito + verbo (base form, acrescenta -s ou -es na 3ª pessoa singular). Também usado em instruções, manchetes e para eventos futuros programados (e.g. 'The train leaves at 8').",
       "rules": [
-        "I/You/We/They + base form of verb",
-        "He/She/It + base form + 's' or 'es'",
+        "I/You/We/They + base form of verb (Ex: I work)",
+        "He/She/It + base form + 's' or 'es'(ex: He works, She watches)",
         "Use 'do/does' for questions and negatives"
       ],
       "examples": [
@@ -524,7 +524,7 @@
     {
       "topic": "Present Continuous",
       "level": "A1",
-      "explanation": "Use 'am/is/are + verb-ing' to talk about actions happening now or around now.",
+      "explanation": "Usado para ações que estão acontecendo agora, situações temporárias e planos futuros próximos. Estrutura: sujeito + am/is/are + verbo com -ing.",
       "rules": [
         "I am + verb-ing",
         "He/She/It is + verb-ing",
@@ -1114,11 +1114,12 @@
     {
       "topic": "Past Simple",
       "level": "A2",
-      "explanation": "Use the past simple to talk about completed actions at a specific time in the past.",
+      "explanation": "Usado para ações concluídas em um tempo definido no passado. Estrutura: sujeito + verbo no passado simples (regular ou irregular). (ex: I worked, She went)",
       "rules": [
         "Regular verbs: verb + 'ed'",
-        "Irregular verbs have special forms",
-        "Use 'did' for questions and negatives"
+        "Irregular verbs tem formas especiais (ex: go -> went, have -> had)",
+        "Use 'did' for questions and negatives",
+        "Não é usado para conectar passado ao presente; nesse caso, usa-se Present Perfect."
       ],
       "examples": [
         "I worked yesterday",
@@ -1146,6 +1147,606 @@
           "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
           "question": "They __ the film at all. (not / enjoy)",
           "answer": "didn't enjoy/did not enjoy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ a film yesterday? (do, watch)",
+          "answer": "Did,watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ football yesterday? (do, play)",
+          "answer": "Did,play"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ grandparents yesterday? (do, visit)",
+          "answer": "Did,visit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ pizza yesterday? (do, eat)",
+          "answer": "Did,eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ a car yesterday? (do, buy)",
+          "answer": "Did,buy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ a book yesterday? (do, read)",
+          "answer": "Did,read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ a letter yesterday? (do, write)",
+          "answer": "Did,write"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ that show yesterday? (do, see)",
+          "answer": "Did,see"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ the bus yesterday? (do, take)",
+          "answer": "Did,take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ a film yesterday? (do, watch)",
+          "answer": "Did,watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ football yesterday? (do, play)",
+          "answer": "Did,play"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ grandparents yesterday? (do, visit)",
+          "answer": "Did,visit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ pizza yesterday? (do, eat)",
+          "answer": "Did,eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ a car yesterday? (do, buy)",
+          "answer": "Did,buy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ a book yesterday? (do, read)",
+          "answer": "Did,read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ a letter yesterday? (do, write)",
+          "answer": "Did,write"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ that show yesterday? (do, see)",
+          "answer": "Did,see"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ the bus yesterday? (do, take)",
+          "answer": "Did,take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ he __ homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ a film yesterday? (do, watch)",
+          "answer": "Did,watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ football yesterday? (do, play)",
+          "answer": "Did,play"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ grandparents yesterday? (do, visit)",
+          "answer": "Did,visit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ pizza yesterday? (do, eat)",
+          "answer": "Did,eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ a car yesterday? (do, buy)",
+          "answer": "Did,buy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ a book yesterday? (do, read)",
+          "answer": "Did,read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ a letter yesterday? (do, write)",
+          "answer": "Did,write"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ that show yesterday? (do, see)",
+          "answer": "Did,see"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ the bus yesterday? (do, take)",
+          "answer": "Did,take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ she __ homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ a film yesterday? (do, watch)",
+          "answer": "Did,watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ football yesterday? (do, play)",
+          "answer": "Did,play"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ grandparents yesterday? (do, visit)",
+          "answer": "Did,visit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ pizza yesterday? (do, eat)",
+          "answer": "Did,eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ a car yesterday? (do, buy)",
+          "answer": "Did,buy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ a book yesterday? (do, read)",
+          "answer": "Did,read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ a letter yesterday? (do, write)",
+          "answer": "Did,write"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ that show yesterday? (do, see)",
+          "answer": "Did,see"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ the bus yesterday? (do, take)",
+          "answer": "Did,take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ they __ homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ a film yesterday? (do, watch)",
+          "answer": "Did,watch"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ football yesterday? (do, play)",
+          "answer": "Did,play"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ grandparents yesterday? (do, visit)",
+          "answer": "Did,visit"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ pizza yesterday? (do, eat)",
+          "answer": "Did,eat"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ a car yesterday? (do, buy)",
+          "answer": "Did,buy"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ a book yesterday? (do, read)",
+          "answer": "Did,read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ a letter yesterday? (do, write)",
+          "answer": "Did,write"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ that show yesterday? (do, see)",
+          "answer": "Did,see"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ the bus yesterday? (do, take)",
+          "answer": "Did,take"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ we __ homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with 'did' and the correct form of the verb.",
+          "question": "__ you __ your homework yesterday? (do, finish)",
+          "answer": "Did,finish"
         },
         {
           "mode": "complete",
@@ -1200,6 +1801,402 @@
           "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
           "question": "She __ to the party last night. (not / come)",
           "answer": "didn't come/did not come"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ to the park and __ football yesterday. (go, play)",
+          "answer": "went,played"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ the book but I __ the movie. (not / read, watch)",
+          "answer": "didn't read/did not read,watched"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ her keys at home and __ late for work. (leave, be)",
+          "answer": "left,was"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ dinner at a restaurant and __ ice cream later. (have, eat)",
+          "answer": "had,ate"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ the train, so they __ home on foot. (not / catch, walk)",
+          "answer": "didn't catch/did not catch,walked"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ the guitar and __ a new song. (play, sing)",
+          "answer": "played,sang"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ my room and __ my clothes. (clean, wash)",
+          "answer": "cleaned,washed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ coffee but she __ tea. (not / drink, drink)",
+          "answer": "didn't drink/did not drink,drank"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ a taxi and __ to the airport. (take, go)",
+          "answer": "took,went"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ at the hotel and __ photos. (arrive, take)",
+          "answer": "arrived,took"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ a letter and __ it to his friend. (write, send)",
+          "answer": "wrote,sent"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ my homework but I __ my room. (not / finish, clean)",
+          "answer": "didn't finish/did not finish,cleaned"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ a cake and __ it to school. (bake, bring)",
+          "answer": "baked,brought"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ TV and __ popcorn. (watch, eat)",
+          "answer": "watched,ate"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ the movie and __ early. (not / like, leave)",
+          "answer": "didn't like/did not like,left"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ a new phone and __ it yesterday. (buy, use)",
+          "answer": "bought,used"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ the ball and __ a goal. (kick, score)",
+          "answer": "kicked,scored"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ English and __ history. (study, study)",
+          "answer": "studied,studied"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ the car and __ to the city. (wash, drive)",
+          "answer": "washed,drove"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ to school but she __ her homework. (not / go, forget)",
+          "answer": "didn't go/did not go,forgot"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ football and __ a shower. (play, take)",
+          "answer": "played,took"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ his homework and __ a book. (finish, read)",
+          "answer": "finished,read"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ to Spain and __ many places. (travel, visit)",
+          "answer": "traveled,visited"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ lunch but we __ coffee. (not / have, drink)",
+          "answer": "didn't have/did not have,drank"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ the door and __ goodbye. (open, say)",
+          "answer": "opened,said"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ in the pool and __ the sun. (swim, enjoy)",
+          "answer": "swam,enjoyed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ my keys but I __ my phone. (not / find, lose)",
+          "answer": "didn't find/did not find,lost"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ the game and __ happy. (win, feel)",
+          "answer": "won,felt"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ the house and __ it quickly. (paint, sell)",
+          "answer": "painted,sold"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ money and __ a new bike. (save, buy)",
+          "answer": "saved,bought"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ the news but she __ a call. (not / hear, get)",
+          "answer": "didn't hear/did not hear,got"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ a photo and __ it online. (take, post)",
+          "answer": "took,posted"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ books and __ stories. (read, tell)",
+          "answer": "read,told"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ the dog and __ it outside. (feed, let)",
+          "answer": "fed,let"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ the room and __ the table. (decorate, set)",
+          "answer": "decorated,set"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ my bag but I __ my wallet. (not / carry, bring)",
+          "answer": "didn't carry/did not carry,brought"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ in the park and __ flowers. (walk, pick)",
+          "answer": "walked,picked"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ hard and __ the prize. (work, win)",
+          "answer": "worked,won"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ the bell and __ for the bus. (ring, wait)",
+          "answer": "rang,waited"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "We __ football but we __ basketball. (not / play, watch)",
+          "answer": "didn't play/did not play,watched"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ him a story and he __ me a secret. (tell, tell)",
+          "answer": "told,told"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ a party and __ many friends. (have, invite)",
+          "answer": "had,invited"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ the ball and __ the window. (throw, break)",
+          "answer": "threw,broke"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ breakfast and __ to work. (eat, go)",
+          "answer": "ate,went"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ early and __ the first train. (wake, catch)",
+          "answer": "woke,caught"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ the answer but I __ the question. (not / know, understand)",
+          "answer": "didn't know/did not know,understood"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ the window and __ the lights. (close, turn off)",
+          "answer": "closed,turned off"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ the problem and __ a solution. (discuss, find)",
+          "answer": "discussed,found"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ the news but they __ a message. (not / hear, receive)",
+          "answer": "didn't hear/did not hear,received"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ soccer and __ the winning goal. (play, score)",
+          "answer": "played,scored"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ a taxi and __ to the airport. (call, go)",
+          "answer": "called,went"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ me but she __ my friend. (not / see, greet)",
+          "answer": "didn't see/did not see,greeted"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ in the park and __ sandwiches. (sit, eat)",
+          "answer": "sat,ate"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ hard and __ the exam. (study, pass)",
+          "answer": "studied,passed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "He __ his car and __ it to work. (repair, drive)",
+          "answer": "repaired,drove"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "I __ breakfast but I __ coffee. (not / eat, drink)",
+          "answer": "didn't eat/did not eat,drank"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ her room and __ new posters. (clean, put)",
+          "answer": "cleaned,put"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ a film and __ home late. (watch, arrive)",
+          "answer": "watched,arrived"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "He __ a letter but he __ an email. (not / write, send)",
+          "answer": "didn't write/did not write,sent"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "We __ the tickets and __ to the concert. (buy, go)",
+          "answer": "bought,went"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "I __ my friend and we __ together. (meet, talk)",
+          "answer": "met,talked"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "They __ the question but they __ the answer. (not / ask, guess)",
+          "answer": "didn't ask/did not ask,guessed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "She __ the floor and __ the dishes. (sweep, wash)",
+          "answer": "swept,washed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ the mountain and __ the view. (climb, enjoy)",
+          "answer": "climbed,enjoyed"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
+          "question": "She __ the bus but she __ a taxi. (not / take, call)",
+          "answer": "didn't take/did not take,called"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple.",
+          "question": "They __ home and __ TV. (arrive, watch)",
+          "answer": "arrived,watched"
         },
         {
           "mode": "complete",
@@ -1746,10 +2743,10 @@
     {
       "topic": "Past Continuous",
       "level": "A2",
-      "explanation": "Use 'was/were + verb-ing' to talk about actions in progress at a specific time in the past.",
+      "explanation": "Usado para descrever ações em progresso em um momento específico do passado ou ações interrompidas por outra. Estrutura: sujeito + was/were + verbo com -ing. (ex: I was reading when he called.)",
       "rules": [
-        "I/He/She/It was + verb-ing",
-        "You/We/They were + verb-ing",
+        "I/He/She/It was + verb-ing (e.g., He was reading)",
+        "You/We/They were + verb-ing (e.g., They were playing)",
         "Often used with 'when' or 'while' for interrupted actions"
       ],
       "examples": [
@@ -1878,11 +2875,12 @@
     {
       "topic": "Present Perfect",
       "level": "B1",
-      "explanation": "Use 'have/has + past participle' to talk about past experiences or actions with present relevance.",
+      "explanation": "Usado para conectar passado e presente: experiências de vida, ações que começaram no passado e continuam no presente, ou ações passadas com efeito no presente. Estrutura: sujeito + have/has + particípio passado (ex: I have eaten).",
       "rules": [
         "I/You/We/They have + past participle",
         "He/She/It has + past participle",
-        "Often used with 'ever', 'never', 'already', 'yet'"
+        "Geralmente utilizado com 'ever', 'never', 'already', 'yet'",
+        "Não se usa com expressões de tempo terminado (yesterday, last year, in 2010). Nestes casos, usa-se Past Simple."
       ],
       "examples": [
         "I have visited Paris three times",
@@ -2010,11 +3008,11 @@
     {
       "topic": "Present Perfect Continuous",
       "level": "B1",
-      "explanation": "Use 'have/has been + verb-ing' to emphasize the duration of an action that started in the past and continues to the present.",
+      "explanation": "Usado para enfatizar a duração de uma ação que começou no passado e ainda continua, ou cujos efeitos ainda são visíveis. Estrutura: sujeito + have/has + been + verbo com -ing ou a forma contraída: (ex: I have been studying ou I've been studying).",
       "rules": [
-        "I/You/We/They have been + verb-ing",
-        "He/She/It has been + verb-ing",
-        "Often used with 'for' or 'since'"
+        "I/You/We/They have been + verb-ing. (e.g., I have been studying)",
+        "He/She/It has been + verb-ing. (e.g., She has been working)",
+        "Geralmente utilizado com 'for' ou 'since'"
       ],
       "examples": [
         "I have been studying English for five years",
@@ -2142,10 +3140,11 @@
     {
       "topic": "Past Perfect",
       "level": "B2",
-      "explanation": "Use 'had + past participle' to talk about an action that happened before another action in the past.",
+      "explanation": "Usado para indicar uma ação que aconteceu antes de outra ação no passado. Estrutura: sujeito + had + particípio passado. (ex: I had eaten before he arrived).",
       "rules": [
-        "Had + past participle for all subjects",
-        "Often used in reported speech and conditional sentences"
+        "Had + past participle for all subjects (e.g., I had eaten, She had gone)",
+        "Often used in reported speech and conditional sentences",
+        "Não é necessário se a ordem dos eventos já estiver clara. É mais comum em escrita formal e narrativa."
       ],
       "examples": [
         "When I arrived, she had already left",
@@ -2273,10 +3272,11 @@
     {
       "topic": "Past Perfect Continuous",
       "level": "B2",
-      "explanation": "Use 'had been + verb-ing' to emphasize the duration of an action that happened before another action in the past.",
+      "explanation": "Usado para enfatizar a duração de uma ação que estava acontecendo antes de outra no passado. Estrutura: sujeito + had been + verbo com -ing.(ex: I had been studying for two hours when he arrived).",
       "rules": [
-        "Had been + verb-ing for all subjects",
-        "Often used with 'for' or 'since' to indicate duration"
+        "Had been + verb-ing for all subjects (e.g., I had been studying, She had been working)",
+        "Often used with 'for' or 'since' to indicate duration",
+        "Mais raro na fala cotidiana; usado em narrativas para dar ênfase a tempo/duração."
       ],
       "examples": [
         "I had been studying for two hours when you called",
@@ -2404,15 +3404,17 @@
     {
       "topic": "Future Simple (Will)",
       "level": "A2",
-      "explanation": "Use 'will + base form' to make predictions, promises, or spontaneous decisions about the future.",
+      "explanation": "Usamos 'will + base form' para fazer previsões, promessas, ou decisões espontâneas sobre o futuro. (ex: I will call you later).",
       "rules": [
-        "Will + base form for all subjects",
-        "Use 'will not' or 'won't' for negatives"
+        "Will + base form for all subjects (e.g., I will go, She will see)",
+        "Usa-se 'will not' ou 'won't' para negativas (e.g., I won't go)",
+        "‘Will’ não se usa para planos já decididos (usa-se 'going to' nesses casos)"
       ],
       "examples": [
-        "I will call you tomorrow",
-        "She will probably arrive late",
-        "They won't come to the party"
+        "I will help you with your homework. (decisão espontânea)",
+        "It will rain tomorrow. (previsão)",
+        "I will always support you. (promessa)",
+        "I will carry your bag for you. (oferta)"
       ],
       "exercises": [
         {
@@ -2535,11 +3537,12 @@
     {
       "topic": "Future with Going To",
       "level": "A2",
-      "explanation": "Use 'am/is/are going to + base form' to talk about plans and intentions for the future.",
+      "explanation": "Usa-se 'am/is/are going to + base form'  para planos ou previsões baseadas em evidências (ex: Look at those dark clouds. It's going to rain).",
       "rules": [
-        "I am going to + base form",
-        "He/She/It is going to + base form",
-        "You/We/They are going to + base form"
+        "I am going to + base form (ex: I am going to study)",
+        "He/She/It is going to + base form (ex: She is going to travel)",
+        "You/We/They are going to + base form (ex: They are going to buy a house)",
+        "‘going to’ não se usa para horários fixos (usa-se Present Simple ou Present Continuous).(ex: The train leaves at 6 PM)"
       ],
       "examples": [
         "I am going to visit my parents next week",
@@ -2798,10 +3801,11 @@
     {
       "topic": "Future Perfect",
       "level": "B2",
-      "explanation": "Use 'will have + past participle' to talk about actions that will be completed before a specific time in the future.",
+      "explanation": "Usado para ações que terão sido concluídas antes de um momento específico no futuro. Estrutura: sujeito + will have + particípio passado.",
       "rules": [
-        "Will have + past participle for all subjects",
-        "Often used with 'by' or 'by the time'"
+        "Will have + past participle for all subjects (e.g., I will have finished, She will have seen)",
+        "normalmente utilizado com 'by' or 'by the time'(ex: By next year, I will have graduated)",
+        "Mais usado em escrita formal, raramente em conversas informais."
       ],
       "examples": [
         "By next year, I will have graduated",
@@ -2929,10 +3933,11 @@
     {
       "topic": "Future Perfect Continuous",
       "level": "C1",
-      "explanation": "Use 'will have been + verb-ing' to emphasize the duration of an action up to a specific time in the future.",
+      "explanation": "Usado para enfatizar a duração de uma ação até certo ponto no futuro. Estrutura: sujeito + will have been + verbo com -ing.(ex: By next month, I will have been working here for five years).",
       "rules": [
-        "Will have been + verb-ing for all subjects",
-        "Often used with 'for' to indicate duration"
+        "Will have been + verb-ing for all subjects (e.g., I will have been working, She will have been studying)",
+        "Geralmente utilizado com 'for' para indicar duração (ex: for five years) e 'by' para indicar o ponto no futuro (ex: by next month)",
+        "Pouco comum em conversas cotidianas; aparece mais em contextos formais ou acadêmicos."
       ],
       "examples": [
         "By next month, I will have been working here for five years",
@@ -3060,11 +4065,11 @@
     {
       "topic": "Conditionals - Zero & First",
       "level": "B1",
-      "explanation": "Zero conditional: for general truths (if + present, present). First conditional: for real future possibilities (if + present, will + base form).",
+      "explanation": "Usa-se Zero conditional para verdades gerais (if + presente, presente) ex:(If you heat water, it boils) e First conditional: para possibilidades reais no futuro (if + presente, will + forma base).(ex: If it rains, we will stay home). 'Unless' significa 'if not' (ex: Unless you study, you won't pass the exam).",
       "rules": [
-        "Zero conditional: If + present simple, present simple",
-        "First conditional: If + present simple, will + base form",
-        "Use 'unless' instead of 'if not'"
+        "Zero conditional: If + present simple, present simple (para fatos gerais e verdades universais ex: If you heat water, it boils)",
+        "First conditional: If + present simple, will + base form (para situações futuras possíveis ex: If it rains, we will stay home)",
+        "Use 'unless' instead of 'if not'(ex: Unless you study, you won't pass the exam)"
       ],
       "examples": [
         "If you heat ice, it melts (zero conditional)",
@@ -3192,11 +4197,11 @@
     {
       "topic": "Second Conditional",
       "level": "B2",
-      "explanation": "Use 'if + past simple, would + base form' to talk about hypothetical or unlikely situations in the present or future.",
+      "explanation": "Usado para situações hipotéticas ou irreais no presente ou futuro. Estrutura: If + passado simples, would + forma base. (ex: If I were rich, I would travel the world). 'Were' é usado em vez de 'was' para todos os sujeitos em inglês formal. Frequentemente usado para dar conselhos.",
       "rules": [
-        "If + past simple, would + base form",
-        "Use 'were' instead of 'was' for all subjects in formal English",
-        "Often used to give advice"
+        "If + past simple, would + base form (e.g., If I were, I would go)",
+        "Use 'were' instead of 'was' for all subjects in formal English (e.g., If he were, If I were)",
+        "Often used to give advice (e.g., If I were you, I would...)"
       ],
       "examples": [
         "If I had more time, I would learn French",
@@ -3324,10 +4329,11 @@
     {
       "topic": "Third Conditional",
       "level": "C1",
-      "explanation": "Use 'if + past perfect, would have + past participle' to talk about hypothetical situations in the past.",
+      "explanation": "Usado para situações hipotéticas no passado, expressando arrependimento ou críticas. Estrutura: If + past perfect, would have + past participle. (ex: If I had studied harder, I would have passed the exam).",
       "rules": [
-        "If + past perfect, would have + past participle",
-        "Used to express regret or criticism about past events"
+        "If + past perfect, would have + past participle (e.g., If I had known, I would have gone)",
+        "Used to express regret or criticism about past events (e.g., If I had studied harder, I would have passed the exam)",
+        "Pode também ser usado 'could have' ou 'might have' instead of 'would have' para indicar possibilidade ou habilidade (e.g., If she had tried, she could have succeeded)"
       ],
       "examples": [
         "If I had studied harder, I would have passed the exam",
@@ -3461,9 +4467,12 @@
         "If + past simple, would have + past participle (present condition, past result)"
       ],
       "examples": [
-        "If I had studied languages, I would be a translator now",
-        "If I were smarter, I would have gone to university",
-        "If she wasn't so busy, she would have helped us yesterday"
+        "If I had studied harder, I would have passed the exam. (situação irreal no passado)",
+        "If they had left earlier, they would have caught the train. (oportunidade perdida no passado)",
+        "If I were you, I would take that job. (conselho no presente)",
+        "If she were more organized, she would have finished the project on time. (situação irreal no presente)",
+        "If he had listened to my advice, he wouldn't be in trouble now (past condition, present result)",
+        "If she wasn't so busy, she would have helped us yesterday (present condition, past result)"
       ],
       "exercises": [
         {
@@ -3586,16 +4595,19 @@
     {
       "topic": "Passive Voice",
       "level": "B2",
-      "explanation": "Use passive voice when the focus is on the action rather than who performed it. Form: be + past participle.",
+      "explanation": "Usada para dar ênfase à ação em vez do sujeito. Estrutura: sujeito + verbo to be (em tempo adequado) + particípio passado. (ex: The book was written by Shakespeare).",
       "rules": [
-        "Present simple: am/is/are + past participle",
-        "Past simple: was/were + past participle",
-        "Present perfect: have/has been + past participle"
+        "Present simple: am/is/are + past participle (e.g., is written)",
+        "Past simple: was/were + past participle (e.g., was written)",
+        "Present perfect: have/has been + past participle (e.g., has been written)",
+        "O agente da ação pode ser incluído usando 'by' (e.g., The book was written by Shakespeare)"
       ],
       "examples": [
-        "The book was written by Shakespeare",
-        "English is spoken all over the world",
-        "The project has been completed"
+        "The cake was eaten by the children. (ação passada, foco no bolo)",
+        "The project is being managed by a new team. (ação presente contínua, foco no projeto)",
+        "The reports have been completed by the team. (ação presente perfeita, foco nos relatórios)",
+        "The house is cleaned every day. (ação habitual, foco na casa)",
+        "The letters were sent yesterday. (ação passada, foco nas cartas)"
       ],
       "exercises": [
         {
@@ -3718,17 +4730,33 @@
     {
       "topic": "Modal Verbs",
       "level": "B1",
-      "explanation": "Modal verbs (can, could, may, might, must, should, etc.) express ability, possibility, permission, or obligation.",
+      "explanation": "Modal verbs são verbos auxiliares usados para expressar habilidade, possibilidade, permissão, obrigação, necessidade, probabilidade, hipóteses ou atitudes do falante. Eles são sempre seguidos pelo verbo na forma base (sem 'to'). Cada modal tem usos específicos. são eles: (can, could, may, might, must, shall, should, will, would)",
       "rules": [
-        "Followed by base form of verb",
-        "No 's' for third person singular",
-        "Form questions by inversion",
-        "Form negatives with 'not'"
+        "Modal verbs não mudam de forma (não existe 'to can' ou 'cans'). Não recebem -s na 3ª pessoa do singular. Para expressar passado ou aspectos mais específicos, usam-se construções como 'could' (passado de can), 'should have + particípio' (aconselhamento no passado), 'must have + particípio' (dedução no passado). Alguns modais são pouco usados em contextos informais, como 'shall'.",
+        "Can: habilidade, permissão, possibilidade (e.g., I can swim)",
+        "Could: habilidade no passado, possibilidade, pedido educado (e.g., She could speak French when she was young)",
+        "May: permissão formal, possibilidade (e.g., May I leave early?)",
+        "Might: possibilidade (e.g., It might rain later)",
+        "Must: obrigação, dedução (e.g., You must wear a seatbelt)",
+        "Shall: sugestão, oferta (formal) (e.g., Shall we dance?)",
+        "Should: conselho, expectativa (e.g., You should see a doctor)",
+        "Will: futuro, vontade, promessa (e.g., I will help you)",
+        "Would: pedido educado, hipótese (e.g., Would you like some coffee?)"
       ],
       "examples": [
-        "I can speak English",
-        "You should study more",
-        "She must finish her homework"
+        "I can speak English. (habilidade)",
+        "You must wear a seatbelt. (obrigação)",
+        "She might come to the party. (possibilidade)",
+        "May I leave early? (permissão)",
+        "You should see a doctor. (conselho)",
+        "He will help you with your homework. (futuro)",
+        "If I were you, I would take that job. (hipótese)",
+        "Could you please pass the salt? (pedido educado)",
+        "They must be at home; the lights are on. (dedução)",
+        "Shall we go for a walk? (sugestão)",
+        "She could play the piano when she was five. (habilidade no passado)",
+        "You should have called me earlier. (conselho no passado)",
+        "He must have forgotten the meeting. (dedução no passado)"
       ],
       "exercises": [
         {
@@ -3851,16 +4879,24 @@
     {
       "topic": "Relative Clauses",
       "level": "B2",
-      "explanation": "Use relative clauses to give additional information about something. Use 'who' for people, 'which' for things, 'that' for both, and 'where' for places.",
+      "explanation": "Orações subordinadas que identificam ou dão informações extras sobre um substantivo. Usam pronomes relativos: who (pessoas), which (coisas/animais), that (pessoas/coisas), whose (posse), where (lugares), when (tempo). Podem ser defining (essenciais) ou non-defining (adicionais, entre vírgulas).",
       "rules": [
+        "That' não pode ser usado em non-defining clauses. Em defining clauses, o pronome relativo pode ser omitido se for o objeto da oração (ex: 'The book (that) I read was great').",
+        "Use 'who' para pessoas, 'which' para coisas/animais, 'that' para ambos (em defining clauses), 'whose' para posse, 'where' para lugares, 'when' para tempo.",
         "Defining clauses give essential information (no commas)",
         "Non-defining clauses give extra information (use commas)",
-        "You can omit the relative pronoun when it is the object"
+        "O pronome relativo pode ser omitido se for o objeto da oração na defining clause"
       ],
       "examples": [
-        "The woman who lives next door is a doctor",
-        "This is the book that I told you about",
-        "London, which is the capital of England, is a beautiful city"
+        "The man who called you is my uncle. (pessoa)",
+        "The dog which barked all night kept me awake. (coisa/animal)",
+        "The movie that we watched was amazing. (defining clause, pessoa ou coisa)",
+        "I met a writer whose books I love. (posse)",
+        "This is the park where I play football. (lugar)",
+        "I remember the day when we first met. (tempo)",
+        "My brother, who lives in New York, is visiting us next week. (non-defining clause)",
+        "The Eiffel Tower, which is in Paris, is a famous landmark. (non-defining clause)",
+        "The car that he bought last year is already broken. (defining clause)"
       ],
       "exercises": [
         {
