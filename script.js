@@ -844,15 +844,13 @@ function mostrarGramatica() {
   const topicSelect = document.getElementById('grammarSelect');
   const selectedTopic = topicSelect.value;
 
-  if (!selectedTopic) {
-    alert('Please select a grammar topic first.');
-    return;
-  }
-
-  let topic;
-
-  // Se for selecionado "Random", escolher um tópico aleatório
-  if (selectedTopic === 'random') {
+  // Se estivermos no modo Random Topic mas já temos um tópico atual (de um exercício)
+  // usar esse tópico em vez de sortear um novo
+  if (selectedTopic === 'random' && currentGrammarTopic) {
+    // Usar o tópico atual do exercício em vez de sortear um novo
+    topic = currentGrammarTopic;
+  } else if (selectedTopic === 'random') {
+    // Se não há tópico atual, sortear um
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
     topic = grammarTopics[randomIndex];
   } else {
@@ -898,6 +896,7 @@ function mostrarGramatica() {
 
 
 
+
 let currentExerciseIndex = 0;
 let currentGrammarTopic = null;
 
@@ -925,14 +924,11 @@ function praticarGramatica(forceRefresh = false) {
   if (!newGrammarTopic) return;
 
   // Atualizar o tópico atual apenas se for diferente
-  if (!currentGrammarTopic || currentGrammarTopic.topic !== newGrammarTopic.topic) {
-    currentGrammarTopic = newGrammarTopic;
-    // SEMPRE começar com um exercício aleatório do tópico
-    currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
-  } else if (forceRefresh) {
-    // Se for refresh forçado, escolher um novo exercício aleatório do mesmo tópico
-    currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
-  }
+  // Esta é a chave: sempre atualizar o currentGrammarTopic com o tópico do exercício
+  currentGrammarTopic = newGrammarTopic;
+  
+  // SEMPRE começar com um exercício aleatório do tópico
+  currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
 
   if (!currentGrammarTopic.exercises || currentGrammarTopic.exercises.length === 0) {
     alert('No exercises available for this topic.');
@@ -946,16 +942,12 @@ function praticarGramatica(forceRefresh = false) {
     alert(`No ${selectedMode} exercises available for this topic.`);
     return;
   }
+  
   grammarActiveExercises = [...exerciciosFiltrados];
   grammarUsedExercises = [];
   grammarPoints = 0;
   grammarErrors = 0;
   atualizarPontuacaoGrammar();
-
-  // Se não for modo Random Topic, escolher um exercício aleatório dos filtrados
-  if (selectedTopic !== 'random') {
-    currentExerciseIndex = Math.floor(Math.random() * exerciciosFiltrados.length);
-  }
 
   // Mostrar a seção de prática
   document.getElementById('grammarPractice').style.display = 'block';
@@ -1155,7 +1147,7 @@ function verificarExercicioComCaixas(correctAnswer) {
     feedbackElement.className = 'exercise-feedback correct';
 
     atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 0.4);
   } else {
     grammarErrors++;
 
@@ -1163,7 +1155,7 @@ function verificarExercicioComCaixas(correctAnswer) {
     feedbackElement.className = 'exercise-feedback incorrect';
 
     atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 4000);
   }
 }
 
@@ -1550,7 +1542,7 @@ function verificarExercicioComLacunas(correctAnswer) {
     iniciarContagemRegressiva();
     setTimeout(() => {
       proximoExercicio();
-    }, 2000);
+    }, 0.4);
   } else {
     feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Algumas respostas estão incorretas. Tente novamente!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
@@ -1623,13 +1615,13 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (allCorrect) {
     feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 0.4);
   } else {
     feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
     const correct = document.getElementById('exerciseCorrectAnswer');
     if (correct) correct.style.display = 'block';
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 4000);
   }
 }
 function iniciarContagemRegressiva() {
@@ -1715,7 +1707,7 @@ function verificarExercicio() {
     iniciarContagemRegressiva();
     setTimeout(() => {
       proximoExercicio();
-    }, 2000);
+    }, 0.4);
   } else {
     grammarErrors++; // erro → volta pra pool
 
@@ -1861,7 +1853,7 @@ function verificarExercicioRewrite() {
     // Autoavanço após 2 segundos
     setTimeout(() => {
       proximoExercicio();
-    }, 2000);
+    }, 0.4);
   } else {
     feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Incorrect. Try again!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
@@ -1908,7 +1900,7 @@ function verificarRespostaNormal(userAnswer, exercise) {
     // Autoavanço após 2 segundos
     setTimeout(() => {
       proximoExercicio();
-    }, 2000);
+    }, 0.4);
   } else {
     feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Incorrect. Try again!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
@@ -2006,7 +1998,7 @@ function verificarExercicio() {
     // Autoavanço após 2 segundos
     setTimeout(() => {
       proximoExercicio();
-    }, 2000);
+    }, 0.4);
   } else {
     feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Incorrect. Try again!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
@@ -2500,7 +2492,7 @@ function verificarExercicioComLacunas(correctAnswer) {
     feedbackElement.className = 'exercise-feedback correct';
 
 
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 0.4);
   } else {
     grammarErrors++; // volta pra pool
 
@@ -2512,7 +2504,7 @@ function verificarExercicioComLacunas(correctAnswer) {
     if (correct) correct.style.display = 'block';
 
     atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 4000);
   }
 
 }
@@ -2550,7 +2542,7 @@ function verificarExercicioComCaixas(correctAnswer) {
     feedbackElement.className = 'exercise-feedback correct';
 
     atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 1000);
   } else {
   grammarErrors++;
 
@@ -2562,7 +2554,7 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (correct) correct.style.display = 'block';
 
   atualizarPontuacaoGrammar();
-  setTimeout(proximoExercicio, 2000);
+  setTimeout(proximoExercicio, 4000);
   }
 
 }
@@ -2597,7 +2589,7 @@ function verificarExercicio() {
     feedbackElement.className = 'exercise-feedback correct';
     userAnswerElement.disabled = true;
     const inlineBtn = document.getElementById('inlineCheckBtn'); if (inlineBtn) inlineBtn.disabled = true;
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 0.4);
   } else {
     feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Incorreto. Tente novamente!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
@@ -2605,7 +2597,7 @@ function verificarExercicio() {
     if (correct) correct.style.display = 'block';
     userAnswerElement.disabled = true;
     const inlineBtn = document.getElementById('inlineCheckBtn'); if (inlineBtn) inlineBtn.disabled = true;
-    setTimeout(proximoExercicio, 2000);
+    setTimeout(proximoExercicio, 4000);
   }
 }
 
