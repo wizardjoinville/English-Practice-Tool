@@ -314,11 +314,16 @@ function alternarModo(modo) {
 function filtrarPerguntas() {
   const nivel = document.getElementById('levelSelect').value;
 
+  // Debug: verificar se há itens undefined
+  const undefinedItems = perguntasOriginais.filter(p => !p || !p.level);
+  if (undefinedItems.length > 0) {
+    console.warn('Encontrados itens inválidos no array perguntasOriginais:', undefinedItems);
+  }
+
   if (nivel === 'all') {
     perguntasFiltradas = [...perguntasOriginais];
   } else {
-    // Certifique-se de que está comparando corretamente os níveis
-    perguntasFiltradas = perguntasOriginais.filter(p => p.level.toUpperCase() === nivel.toUpperCase());
+    perguntasFiltradas = perguntasOriginais.filter(p => p && p.level && p.level.toUpperCase() === nivel.toUpperCase());
   }
 
   // Reiniciar perguntas ativas
@@ -568,7 +573,6 @@ function exibirVocabulario(vocab) {
   // Esconder a tradução inicialmente
   document.getElementById('vocabTranslation').style.display = 'none';
 }
-
 
 // --- FUNÇÕES DE QUIZ ---
 
