@@ -3,7 +3,7 @@
     "level": "A1",
     "question": "What is your name?"
   },
-    {
+  {
     "level": "A1",
     "question": "How do you say 'hello' in your language?"
   },
@@ -923,7 +923,6 @@
     "level": "A2",
     "question": "What do you get frustrated with?"
   },
-
   {
     "level": "A2",
     "question": "Whose book is this on your desk?"
@@ -1003,6 +1002,692 @@
   {
     "level": "A2",
     "question": "How much can you eat at an all-you-can-eat restaurant?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to eat pizza?"
+  },
+  {
+    "level": "A1",
+    "question": "What food do you like?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to drink water?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to go to the park?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer tea or coffee?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you love your family?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you speak English?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you study?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you live in a house or an apartment?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you understand English?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you go on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you need help?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you read books?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you send emails?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work or study?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sleep early or late?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to cook?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you eat for breakfast?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you stay at home on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you come to school by bus?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you know your teacher’s name?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you want to learn?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you buy clothes online?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you go to buy food?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to walk in the park?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to visit your friends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to drive?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to start the lesson?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you watch TV every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you write emails?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you think English is easy?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you happy today?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you a student?"
+  },
+  {
+    "level": "A1",
+    "question": "Is your city big or small?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to give me an example?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you open the window?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you close the door?"
+  },
+  {
+    "level": "A1",
+    "question": "Who do you call every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you wait for the bus?"
+  },
+  {
+    "level": "A1",
+    "question": "What are you wearing now?"
+  },
+  {
+    "level": "A1",
+    "question": "What are you changing now?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you selling something?"
+  },
+  {
+    "level": "A1",
+    "question": "when you buy things Do you usually pay by cash or card?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you usually eat breakfast at home or at school?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to drink coffee or tea in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you want to eat today?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to study at school or at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to read books or watch TV?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you live? Alone or with your family?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you need a pen or a pencil to write?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you usually read a book in the evening?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work early or late during the week?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to cook some meals at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sometimes come to school on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you know how to swim or ride a bike?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to buy a lot of things or only a few?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you and your friends study together at school?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually eat and drink for breakfast?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to learn something new this year?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you really like to get up early?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a book or a notebook on your desk now?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you live? Is it near or far from here?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sometimes walk to school or do you always go by bus?"
+  },
+  {
+    "level": "A1",
+    "question": "What is that? Is this your pen or my pen?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you need to buy some food or do you have any food at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you usually do your homework in the afternoon or in the evening?"
+  },
+  {
+    "level": "A1",
+    "question": "Can you play football or run very fast?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favourite book and why do you like it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you think English is easy or difficult?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you want to travel and why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a lot of friends at school?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you like to watch on TV tonight?"
+  },
+  
+  {
+    "level": "A1",
+    "question": "What do you like to eat for breakfast? Do you prefer coffee or tea with it?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you live? Is your home near here or far from here?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually drink in the morning: water, juice, or milk?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to study alone or with friends? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you usually go to school? Do you go by bus or walk?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have any brothers or sisters? What are their names?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite day of the week? Why do you like it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to cook? What simple meals can you make?"
+  },
+  {
+    "level": "A1",
+    "question": "Where do you prefer to study: at home, at school, or in a library?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually do on weekends? Do you relax or go out?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a favorite color? Why do you like that color?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you usually wake up on school days?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer hot weather or cold weather? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What sports do you like to play or watch?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have pets? What animals do you like?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite subject at school? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to read books? What kind of stories do you enjoy?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually do after school? Do you do homework or play?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to use a phone or a computer? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite season: spring, summer, autumn, or winter?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you help with cleaning at home? What chores do you do?"
+  },
+  {
+    "level": "A1",
+    "question": "What foods do you really not like to eat? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to spend time indoors or outdoors? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What music do you like to listen to? Do you have a favorite song?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to travel? Where do you want to go?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you go to bed? Do you sleep early or late?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a best friend? What do you like to do together?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite fruit? How often do you eat it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to watch movies? What kind of movies do you enjoy?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually do on your birthday? Do you have a party?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer the city or the countryside? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What languages do you speak? Do you want to learn more?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to draw or paint? What do you like to create?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite meal: breakfast, lunch, or dinner?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you play any musical instruments? Which ones?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually do on holidays? Do you travel or stay home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to go shopping? What do you like to buy?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite animal? Why do you like it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer sunny days or rainy days? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What games do you like to play with your friends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a favorite teacher? What subject do they teach?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually do in the evening? Do you watch TV or read?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to exercise? What activities do you do?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite place in your city? Why do you like it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to text message or call people? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you usually eat dinner? Is it early or late?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to take photos? What do you like to photograph?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite holiday? How do you celebrate it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer beaches or mountains? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually do on Friday nights? Do you go out or stay home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to dance? What kind of music do you dance to?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing to do with your family?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to study in the morning or at night? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite snack? How often do you eat it?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to swim? Where do you go swimming?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you want to learn how to do? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to spend time with friends or alone? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing about your home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to ride a bicycle? Where do you like to go?"
+  },
+  {
+    "level": "A1",
+    "question": "What makes you really happy? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer summer vacation or winter vacation? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing to do when you have free time?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to help other people? How do you help?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite memory from school?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to write with a pen or pencil? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you think about when you can't sleep?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to learn new words in English? Why or why not?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing to do on a rainy day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to eat at home or at a restaurant? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What makes a good friend? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to watch sports? Which sports do you watch?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing about learning English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to get up early or sleep late? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you usually dream about at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to try new foods? What new food did you try recently?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing to do on a sunny day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to save money or spend money? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What makes you feel nervous or scared? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to plan your day or be spontaneous? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite thing about your culture?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to learn by watching, listening, or doing? Why?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you want to be when you grow up? Why?"
+  },
+
+  {
+    "level": "A1",
+    "question": "Do you usually clean your room on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you say 'hello' in your language?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer to spend time with somebody or to be alone?"
+  },
+  {
+    "level": "A1",
+    "question": "What are you doing now? Are you reading or writing?"
+  },
+  {
+    "level": "A1",
+    "question": "How often do you meet your friends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you drive to school or walk?"
+  },
+  {
+    "level": "A1",
+    "question": "When do you usually start your homework?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to talk to your classmates in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Why do you like to write stories or letters?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you usually pay for things by cash or card?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you put on a jacket when it is cold?"
+  },
+  {
+    "level": "A1",
+    "question": "What are you doing now?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to play football? if so, when and where?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like to run?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to travel? if so, where?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you arrive at school early or late?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you pay attention in class?"
   },
   {
     "level": "A2",
@@ -1087,6 +1772,1004 @@
   {
     "level": "A2",
     "question": "Do you have a lot of opportunities in your job?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "What were you doing at this time yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever visited another city in your country? Which one?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you watching on TV recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been learning English?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you eating for dinner last night?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever tried a new type of food? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you reading last month?"
+  },
+  {
+    "level": "A2",
+    "question": "How many times have you gone to a restaurant this month?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you cooking the last time you made a meal?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever lost something important? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you listening to on your way here today?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you lived in your current home?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you doing when it last rained?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever seen a movie star in a film? Who was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you studying this time last year?"
+  },
+  {
+    "level": "A2",
+    "question": "How many books have you read this year?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you wearing to the last party you attended?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever broken something by accident? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you thinking about this morning?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you known your closest friend?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you playing when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever ridden a bicycle? Where do you like to ride?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you hoping to learn this year?"
+  },
+  {
+    "level": "A2",
+    "question": "How many times have you changed your hairstyle?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you planning to do last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever spoken to someone in English outside class?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you enjoying doing before you started studying English?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been working or studying at your current place?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you buying the last time you went shopping?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever climbed a hill or mountain? Where was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you worrying about recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many different schools have you attended in your life?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "Can you speak English well?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you swim when you were 5 years old?"
+  },
+  {
+    "level": "A2",
+    "question": "Where were you yesterday at 8 PM?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you eat for breakfast this morning?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you travel last year?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you meet last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you go on your last vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you study in school yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you ride a bike when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Can I borrow your pen, please?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you doing when I called you?"
+  },
+  {
+    "level": "A2",
+    "question": "Where is there a good restaurant near here?"
+  },
+  {
+    "level": "A2",
+    "question": "Whose book is this on the table?"
+  },
+  {
+    "level": "A2",
+    "question": "How tall is your brother?"
+  },
+  {
+    "level": "A2",
+    "question": "What time are you going to arrive tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to study English next year?"
+  },
+  {
+    "level": "A2",
+    "question": "Will you travel abroad in the future?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do after class?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you watch TV last night?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you drink with your lunch?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you help me with this exercise, please?"
+  },
+  {
+    "level": "A2",
+    "question": "Where were you born?"
+  },
+  {
+    "level": "A2",
+    "question": "How long did you stay at the beach?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you like the movie you watched?"
+  },
+  {
+    "level": "A2",
+    "question": "What time did you get up this morning?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you understand English movies when you started learning?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to buy anything this weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you want to be when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you practice any sport yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Can we share this pizza?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you live when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you watching on TV last night?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you finish your homework?"
+  },
+  {
+    "level": "A2",
+    "question": "How big is your apartment?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do last Saturday?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you turn off the light, please?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you put my keys?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you wait for the bus for a long time?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do next summer?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you speak any English before starting classes?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you receive any messages today?"
+  },
+  {
+    "level": "A2",
+    "question": "What time did you go to bed last night?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to call anyone tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you bring your book to class?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you have for dinner yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you lend me some money until tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you find your lost phone?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you visit any museums on your trip?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to study next?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you play any musical instrument as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you order food delivery yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you learn in class yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to change your job soon?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you understand the lesson?"
+  },
+  {
+    "level": "A2",
+    "question": "What time are you going to leave tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you remember your first teacher's name?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you wait for your friend?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you try to cook something new recently?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you doing before this class?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to attend the meeting tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you pay for the coffee?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you want to buy but couldn't?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you describe your best friend?"
+  },
+  {
+    "level": "A2",
+    "question": "Where are you going to travel next?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you listen to music this morning?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you choose for lunch?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to finish work early today?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you behave well in school as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What time did you arrive home yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you improve your English quickly?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you leave your umbrella?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you practice speaking English yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do after finishing this course?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you understand the teacher when you first started?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you invite anyone to your birthday party?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you need to buy at the supermarket?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to sell your car?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you tell your parents about your test results?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you thinking about during the break?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you wait for me for five minutes?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you hide the birthday present?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you receive any packages this week?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to cook for dinner?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you dance well when you were younger?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you decide what to study in university?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you like about the movie?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to start a new hobby soon?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you notice anything different about me today?"
+  },
+  {
+    "level": "A2",
+    "question": "What time are you going to wake up tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you help me move this table?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you go after school yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you work last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to watch on TV tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you read when you started primary school?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you post any photos on social media recently?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you forget to do yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to rent a car for your trip?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you talk to your friends about the problem?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you looking for in your bag?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you tell me the time, please?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you keep important documents?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you practice any English yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to buy at the mall?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you write in English before taking classes?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you ask the teacher about the homework?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you love doing as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to change your hairstyle?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you remember to bring your notebook?"
+  },
+  {
+    "level": "A2",
+    "question": "What time did you start work yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you show me how to use this app?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you meet your best friend?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you play any games last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do for your next birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you practicing to improve your skills?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever written an email in English? Who was it to?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you discussing with your friends recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been interested in your favorite hobby?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you imagining your future would be like five years ago?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever sung a song in English? Which one?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you discovering about yourself last year?"
+  },
+  {
+    "level": "A2",
+    "question": "How many times have you moved to a new home?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you creating for a school project recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever run in a race? How did it go?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you explaining to someone recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you wanted to visit a particular place?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you building with blocks or LEGO as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever driven a car? Where did you go?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you comparing when you made your last big purchase?"
+  },
+  {
+    "level": "A2",
+    "question": "How many languages have you tried to learn?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you celebrating on your last birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever swum in the ocean? Where was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you choosing between for your last meal?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been following your favorite sports team?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you drawing in art class recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever flown on an airplane? Where did you go?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you repairing at home last month?"
+  },
+  {
+    "level": "A2",
+    "question": "How many different teachers have you had this year?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you teaching someone how to do recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever danced at a party? What kind of music was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you searching for online yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been playing your favorite sport?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you planting in a garden recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever ridden a motorcycle? Was it fun?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you organizing in your room recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many concerts have you been to in your life?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you collecting as a hobby when you were younger?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever sailed on a boat? Where did you go?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you improving about your English speaking?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been using social media?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you designing for a school project?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever skied on snow? Where was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you exploring in your city recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many pets have you had in your lifetime?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you performing in a school play or show?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever camped outdoors? Where did you go?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you investigating for a school project?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been cooking meals for yourself?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you translating for a friend or family member?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever volunteered to help someone? What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you memorizing for a test recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many different cities have you visited?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you photographing on your phone recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever given a presentation in English? What was it about?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you debating with your friends recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been driving a car or riding a bicycle?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you building with friends as children?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever participated in a competition? What was it for?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you calculating in math class recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many times have you changed your opinion about something important?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you composing for music class or fun?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever trained for a sports event? What sport was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you arranging for a special occasion?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been watching your favorite TV series?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you measuring in a science experiment?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever interviewed for a job or school program?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you observing in nature recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many different hobbies have you tried?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you cleaning in your home last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever used a map to find a new place?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you suggesting to a friend who needed advice?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been studying your favorite subject?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you borrowing from a friend or library?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever helped an animal? What did you do?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you confirming with your teacher recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How many nice surprises have you had this month?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you recommending to someone who asked for suggestions?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever decorated your room for a special day?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you doubting about yourself recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been saving money for something special?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you promising yourself you would do better?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever shown visitors around your city? What did you show them?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you admitting to yourself that was difficult?"
+  },
+  {
+    "level": "A2",
+    "question": "How many different types of exercise have you tried?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you celebrating with your family recently?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever fixed something that was broken? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you risking when you tried something new?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you wanted to learn a new skill?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you offering to help someone with?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever planned a special event? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you realizing about learning a new language?"
+  },
+  {
+    "level": "A2",
+    "question": "How many recipes have you learned to cook?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you valuing most in your life last year?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever negotiated a price when shopping? What did you buy?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you witnessing at a concert or show?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been playing a musical instrument?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you achieving in your studies last semester?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever designed something for fun? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you questioning about the world around you?"
+  },
+  {
+    "level": "A2",
+    "question": "How many times have you changed your personal style?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you conquering in a game or sport?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever helped friends solve a disagreement?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you preserving from your family traditions?"
+  },
+  {
+    "level": "A2",
+    "question": "How long have you been working on your personal goals?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you transforming in your daily routine?"
+  },
+  {
+    "level": "A2",
+    "question": "Have you ever customized something to make it personal? What was it?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you enduring during a difficult time at school?"
+  },
+  {
+    "level": "A2",
+    "question": "How many different careers have you thought about pursuing?"
   },
   {
     "level": "A2",
@@ -1548,7 +3231,6 @@
     "level": "A2",
     "question": "Mention something that you bought and wanted to exchange. Tell your classmates the exchange."
   },
-
   {
     "level": "A2",
     "question": "What do you usually do on weekends?"
@@ -1680,6 +3362,87 @@
   {
     "level": "A2",
     "question": "If you could visit any country, where would you go and what would you do there?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "What time do you usually have breakfast?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do yesterday evening?"
+  },
+  {
+    "level": "A2",
+    "question": "Can you tell me three things there are in your bedroom?"
+  },
+  {
+    "level": "A2",
+    "question": "What's your favourite season and why?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do next weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you watch any good films last week?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of music do you like listening to?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you go to the cinema?"
+  },
+  {
+    "level": "A2",
+    "question": "What is the best book you have ever read?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you like when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "If you could visit any country, where would you go?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do on your birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you get to work or school every day?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you good at cooking?"
+  },
+  {
+    "level": "A2",
+    "question": "What time did you go to bed last night?"
+  },
+  {
+    "level": "A2",
+    "question": "Who is your best friend? How did you meet?"
+  },
+  {
+    "level": "A2",
+    "question": "What hobbies did you have five years ago?"
+  },
+  {
+    "level": "A2",
+    "question": "What's the weather like today?"
+  },
+  {
+    "level": "A2",
+    "question": "What's your plan for the next holiday?"
   },
   {
     "level": "A2",
@@ -2473,34 +4236,573 @@
     "level": "A2",
     "question": "What’s your favorite thing to do when you’re at the beach?"
   },
+  
   {
     "level": "A2",
-    "question": "What’s your favorite thing about your yard?"
+    "question": "Where were you born?"
   },
   {
     "level": "A2",
-    "question": "What’s your favorite thing about your fence?"
+    "question": "What time did you get up this morning?"
   },
   {
     "level": "A2",
-    "question": "What’s your favorite thing about your gate?"
+    "question": "What did you have for breakfast today?"
   },
   {
     "level": "A2",
-    "question": "What’s your favorite thing about your mailbox?"
+    "question": "How did you come to school/work today?"
   },
   {
     "level": "A2",
-    "question": "What’s your favorite thing about your doorbell?"
+    "question": "What did you do last weekend?"
   },
   {
     "level": "A2",
-    "question": "What’s your favorite thing about your keyhole?"
+    "question": "Where did you go on your last vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the last movie you watched?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "What time did you go to bed last night?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you buy the last time you went shopping?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you live when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What was your first job?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you celebrate your last birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you study in school yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Who was your first teacher?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "When did you start learning English?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you cook for dinner yesterday?"
+  },
+ 
+  
+  {
+    "level": "A2",
+    "question": "What did you watch on TV last night?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "What time did you arrive home yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you wear to work/school yesterday?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "What did you order at the restaurant last time?"
+  },
+ 
+  {
+    "level": "A2",
+    "question": "Who did you invite to your last party?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you learn in your last English class?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "What did you forget to do yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you behave in school as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you notice about the weather yesterday?"
+  },
+ 
+ 
+  {
+    "level": "A2",
+    "question": "Where did you leave your umbrella?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you choose for lunch yesterday?"
+  },
+ 
+  {
+    "level": "A2",
+    "question": "What did you think about the last book you read?"
+  },
+  {
+    "level": "A2",
+    "question": "What would you like to do this weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What will you buy the next time you go to the supermarket?"
+  },
+  {
+    "level": "A2",
+    "question": "Where will you go on your next vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "What time will you finish work/school today?"
+  },
+  {
+    "level": "A2",
+    "question": "How will you get to school/work tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "What will you do after this class?"
+  },
+  {
+    "level": "A2",
+    "question": "What will you eat for dinner tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "Who will you meet this weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "When will you start your next job/school year?"
+  },
+  {
+    "level": "A2",
+    "question": "What will you wear to your next party?"
+  },
+  {
+    "level": "A2",
+    "question": "Where will you live in the future?"
+  },
+  {
+    "level": "A2",
+    "question": "What will you study next year?"
+  },
+  {
+    "level": "A2",
+    "question": "How many languages will you speak in five years?"
+  },
+  {
+    "level": "A2",
+    "question": "What will you do if it rains tomorrow?"
+  },
+ 
+  {
+    "level": "A2",
+    "question": "What could you do well when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What would you like to have for breakfast tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Who will be at home when you arrive?"
+  },
+  {
+    "level": "A2",
+    "question": "Will the weather be nice tomorrow, do you think?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "Could you count to ten in English as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What would make you happy today?"
+  },
+  {
+    "level": "A2",
+    "question": "What time will you go to sleep tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "Will you listen to music today?"
+  },
+  {
+    "level": "A2",
+    "question": "Could you use a computer when you started school?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you visit last month?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you practice yesterday? (sport, instrument, language)"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you travel to last year?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you need to buy at the supermarket?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you describe your house to your friend?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you tell your parents about your day?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you ask for help recently?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you look for on the internet yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you go after work/school yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you finish doing before dinner?"
+  },
+  {
+    "level": "A2",
+    "question": "When did you start your current job/school?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you love doing when you were a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you share your lunch with yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you hate eating when you were young?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you come to class today?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you prefer to drink as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you lend your book to?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you borrow from your friend?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you bring your lunch from yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you call your first pet?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you change your hairstyle last year?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you decide to cook for dinner?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you think about yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "How much money did you earn in your first job?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you send a message to yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you receive for your last birthday?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you get your shoes?"
+  },
+ 
+  {
+    "level": "A2",
+    "question": "How did you find the answer to the question?"
+  },
+  {
+    "level": "A2",
+    "question": "When did you graduate from school?"
+  },
+  {
+    "level": "A2",
+    "question": "What time did you start work yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you attend university?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you buy at the mall last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "How much did you sell your old phone for?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you try to cook for the first time?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you move to last year?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you put your glasses?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you share your room with as a child?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you rent last? (a car, a movie, an apartment)"
+  },
+  {
+    "level": "A2",
+    "question": "When did you lose your phone?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you find your keys?"
+  },
+ 
+  {
+    "level": "A2",
+    "question": "What did you wear to your last party?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you celebrate New Year's Eve last year?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you read before going to sleep last night?"
+  },
+  {
+    "level": "A2",
+    "question": "When did you visit your grandparents last?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you drink at the café yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you go shopping last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do after school/work yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Who did you meet for the first time recently?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you listen to on the radio yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "When did you clean your room last?"
+  },
+  {
+    "level": "A2",
+    "question": "Where did you go for a walk yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you draw or paint recently?"
+  },
+  {
+    "level": "A2",
+    "question": "How did you celebrate your last holiday?"
+  },
+  {
+    "level": "A2",
+    "question": "Where were you sitting during the class?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you eating for lunch yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Who were you talking to before the class started?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you studying at school last year?"
+  },
+  {
+    "level": "A2",
+    "question": "Where were you living five years ago?"
+  },
+  {
+    "level": "A2",
+    "question": "What were you doing before you came to class today?"
+  },
+  {
+    "level": "A2",
+    "question": "What was the teacher doing when you entered the classroom?"
+  },
+  
+  
+ 
+  
+  {
+    "level": "A2",
+    "question": "What was the weather like when you woke up yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What music were you listening to yesterday?"
+  },
+  
+  {
+    "level": "A2",
+    "question": "Where were you walking to yesterday afternoon?"
+  },
+  {
+    "level": "A2",
+    "question": "What was your friend doing when you called them?"
   },
 
+  
   {
     "level": "B1",
     "question": "What are the advantages and disadvantages of living in a big city?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What's the most interesting place you have ever visited?"
+  },
+  {
+    "level": "B1",
+    "question": "How long have you been studying English?"
+  },
+  {
+    "level": "B1",
+    "question": "What had you already done by the time you left home this morning?"
+  },
+  {
+    "level": "B1",
+    "question": "If you won a million dollars, what would you do first?"
+  },
+  {
+    "level": "B1",
+    "question": "What are you going to do after you finish this English course?"
+  },
+  {
+    "level": "B1",
+    "question": "What's something you should do more often?"
+  },
+  {
+    "level": "B1",
+    "question": "Can you describe a problem that needs to be solved in your city?"
+  },
+  {
+    "level": "B1",
+    "question": "Who is someone you look up to and why?"
+  },
+  {
+    "level": "B1",
+    "question": "What were you doing this time last year?"
+  },
+  {
+    "level": "B1",
+    "question": "Have you ever been working on a project and had to give up? What happened?"
+  },
+  {
+    "level": "B1",
+    "question": "What's a goal you are working towards at the moment?"
+  },
+  {
+    "level": "B1",
+    "question": "If you could change one thing about your past, what would it be?"
+  },
+  {
+    "level": "B1",
+    "question": "What's a tradition in your country that you think should be kept?"
+  },
+  {
+    "level": "B1",
+    "question": "What's the best book you've ever read? What's it about?"
+  },
+  {
+    "level": "B1",
+    "question": "How would your life be different if you had chosen a different career?"
+  },
+  {
+    "level": "B1",
+    "question": "What's a skill you'd like to take up in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "Do you think you will have achieved all your goals by the time you are 50?"
+  },
+  {
+    "level": "B1",
+    "question": "What's an app you can't live without? Why is it so useful?"
+  },
+  {
+    "level": "B1",
+    "question": "Have you ever had to put off an important plan? What was the reason?"
+  },
+  {
+    "level": "B1",
+    "question": "What's a decision you made that turned out to be a blessing in disguise?"
   },
   {
     "level": "B1",
@@ -2952,6 +5254,490 @@
   },
   {
     "level": "B2",
+    "question": "What are the advantages and disadvantages of social media?"
+  },
+  {
+    "level": "B2",
+    "question": "How do cultural differences affect communication?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies can people use to manage stress effectively?"
+  },
+  {
+    "level": "B2",
+    "question": "How does technology influence the way people learn languages?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does education play in shaping a person’s future?"
+  },
+  {
+    "level": "B2",
+    "question": "How do advertising techniques influence consumer behavior?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the main challenges of living in a foreign country?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is teamwork in professional life?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does climate change have on everyday life?"
+  },
+  {
+    "level": "B2",
+    "question": "How do public transport systems improve life in big cities?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of learning more than one foreign language?"
+  },
+  {
+    "level": "B2",
+    "question": "How do books and movies influence people’s values and opinions?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the pros and cons of working from home?"
+  },
+  {
+    "level": "B2",
+    "question": "How do governments encourage citizens to live healthier lives?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the main benefits and drawbacks of globalization?"
+  },
+  {
+    "level": "B2",
+    "question": "How does technology affect the quality of human relationships?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies can people use to improve time management?"
+  },
+  {
+    "level": "B2",
+    "question": "How does the media influence public opinion?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do immigrants face when moving to a new country?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages of learning history in modern society?"
+  },
+  {
+    "level": "B2",
+    "question": "How can governments promote equality in education?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do sports play in building national identity?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of consumerism on the environment?"
+  },
+  {
+    "level": "B2",
+    "question": "How does tourism impact local cultures and traditions?"
+  },
+  {
+    "level": "B2",
+    "question": "What qualities make a good leader in today’s world?"
+  },
+  {
+    "level": "B2",
+    "question": "How does art contribute to social change?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the challenges of achieving gender equality?"
+  },
+  {
+    "level": "B2",
+    "question": "How can young people be encouraged to participate in politics?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does climate change have on global health?"
+  },
+  {
+    "level": "B2",
+    "question": "How do cultural festivals contribute to society?"
+  },
+  {
+    "level": "B2",
+    "question": "What skills are necessary to succeed in a globalized economy?"
+  },
+  {
+    "level": "B2",
+    "question": "How do advertisements affect people’s lifestyle choices?"
+  },
+  {
+    "level": "B2",
+    "question": "What role should governments play in protecting the environment?"
+  },
+  {
+    "level": "B2",
+    "question": "How does literature reflect the values of a society?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of speaking multiple languages?"
+  },
+  {
+    "level": "B2",
+    "question": "How does the internet influence the way we communicate?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do developing countries face in education?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of overpopulation on cities?"
+  },
+  {
+    "level": "B2",
+    "question": "How can renewable energy replace fossil fuels effectively?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages of online learning compared to traditional classrooms?"
+  },
+  {
+    "level": "B2",
+    "question": "How does music influence people’s emotions and behavior?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does science play in improving human life?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the challenges of maintaining cultural traditions in modern times?"
+  },
+  {
+    "level": "B2",
+    "question": "How does social inequality affect opportunities in life?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the pros and cons of living in a big city?"
+  },
+  {
+    "level": "B2",
+    "question": "How does teamwork improve productivity in companies?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does creativity play in problem-solving?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do families face in modern society?"
+  },
+  {
+    "level": "B2",
+    "question": "How can recycling be encouraged in communities?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of fast food on public health?"
+  },
+  {
+    "level": "B2",
+    "question": "How does advertising target different age groups?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do teachers play in shaping students’ values?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages of reading books compared to watching movies?"
+  },
+  {
+    "level": "B2",
+    "question": "How can people prepare for a job interview successfully?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the challenges of learning a new language as an adult?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect local economies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of social media on teenagers?"
+  },
+  {
+    "level": "B2",
+    "question": "How can governments encourage people to use public transport?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does fashion play in expressing identity?"
+  },
+  {
+    "level": "B2",
+    "question": "How do films influence the way people see the world?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of taking part in volunteer work?"
+  },
+  {
+    "level": "B2",
+    "question": "How does culture affect the way people celebrate holidays?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the challenges of protecting cultural heritage sites?"
+  },
+  {
+    "level": "B2",
+    "question": "How can schools prepare students for the future job market?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do parents play in their children’s education?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of globalization on languages?"
+  },
+  {
+    "level": "B2",
+    "question": "How does technology improve healthcare systems?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the pros and cons of using nuclear energy?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urbanization affect the natural environment?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does friendship play in personal development?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do students face when studying abroad?"
+  },
+  {
+    "level": "B2",
+    "question": "How does sportsmanship influence society?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of working long hours on health?"
+  },
+  {
+    "level": "B2",
+    "question": "How do books help people develop critical thinking?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do NGOs play in solving social problems?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of intercultural exchange programs?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cinema influence people’s perception of history?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages and disadvantages of online shopping?"
+  },
+  {
+    "level": "B2",
+    "question": "How does music bring people from different cultures together?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do scientists face in medical research?"
+  },
+  {
+    "level": "B2",
+    "question": "How can young people develop leadership skills?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of climate change on agriculture?"
+  },
+  {
+    "level": "B2",
+    "question": "How does education reduce poverty in society?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do libraries play in modern communities?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages of learning through projects?"
+  },
+  {
+    "level": "B2",
+    "question": "How does technology change the way people read books?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of unemployment on society?"
+  },
+  {
+    "level": "B2",
+    "question": "How do traditions influence modern celebrations?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do sports events play in the economy?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of healthy eating habits?"
+  },
+  {
+    "level": "B2",
+    "question": "How does the internet change the music industry?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do journalists face today?"
+  },
+  {
+    "level": "B2",
+    "question": "How do governments support cultural diversity?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of using bicycles in cities?"
+  },
+  {
+    "level": "B2",
+    "question": "How does photography document history?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of poverty on education?"
+  },
+  {
+    "level": "B2",
+    "question": "How do inventions change people’s daily lives?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does teamwork play in solving global issues?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the pros and cons of online communication?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cinema reflect cultural identity?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the challenges of preserving forests?"
+  },
+  {
+    "level": "B2",
+    "question": "How do social movements create political change?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of learning through experience?"
+  },
+  {
+    "level": "B2",
+    "question": "How does advertising influence young people?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do traditions play in shaping values?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of technology on employment?"
+  },
+  {
+    "level": "B2",
+    "question": "How do books inspire social change?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do cities face with traffic congestion?"
+  },
+  {
+    "level": "B2",
+    "question": "How does education promote tolerance and respect?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of spending time in nature?"
+  },
+  {
+    "level": "B2",
+    "question": "How do role models influence young people?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do films play in spreading cultural awareness?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the challenges of water scarcity?"
+  },
+  {
+    "level": "B2",
+    "question": "How does social media change the way we learn news?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the effects of using renewable energy?"
+  },
+  {
+    "level": "B2",
+    "question": "How do parents influence children’s career choices?"
+  },
+  {
+    "level": "B2",
+    "question": "What skills are most important for success in the workplace?"
+  },
+  {
+    "level": "B2",
+    "question": "How do traditions and customs shape national identity?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the advantages of using renewable energy sources?"
+  },
+  {
+    "level": "B2",
+    "question": "How can people balance work and personal life effectively?"
+  },
+  {
+    "level": "B2",
+    "question": "What role do museums and galleries play in society?"
+  },
+  {
+    "level": "B2",
     "question": "What phrases would you use to calm down an angry child in public?"
   },
   {
@@ -2969,6 +5755,1087 @@
   {
     "level": "B2",
     "question": "What would you say to politely correct someone who mispronounces your name?"
+  },
+  
+  {
+    "level": "B2",
+    "question": "What are the main advantages and disadvantages of living in a large metropolitan area?"
+  },
+  {
+    "level": "B2",
+    "question": "How has technology changed the way people communicate in the last decade?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does social media have on political discourse in modern society?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is it to learn a second language in today's globalized world?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the key differences between traditional education and online learning?"
+  },
+  {
+    "level": "B2",
+    "question": "How does climate change affect economic development in different regions?"
+  },
+  {
+    "level": "B2",
+    "question": "What role should governments play in regulating artificial intelligence development?"
+  },
+  {
+    "level": "B2",
+    "question": "How has remote work changed corporate culture and employee expectations?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the ethical implications of genetic engineering in medicine?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural diversity benefit workplace innovation and problem-solving?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do healthcare systems face in aging populations?"
+  },
+  {
+    "level": "B2",
+    "question": "How has globalization affected local traditions and cultural practices?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of constant digital connectivity?"
+  },
+  {
+    "level": "B2",
+    "question": "How do economic inequalities impact access to quality education?"
+  },
+  {
+    "level": "B2",
+    "question": "What measures can cities implement to become more sustainable and environmentally friendly?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the entertainment industry evolved with streaming services and digital content?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits and drawbacks of renewable energy sources compared to fossil fuels?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect local economies and job markets?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does critical thinking play in evaluating news and information sources?"
+  },
+  {
+    "level": "B2",
+    "question": "How have transportation systems evolved to address urban congestion problems?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the main factors that contribute to successful intercultural communication?"
+  },
+  {
+    "level": "B2",
+    "question": "How does workplace automation affect employment opportunities in different sectors?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental consequences of fast fashion and consumerism?"
+  },
+  {
+    "level": "B2",
+    "question": "How do educational systems prepare students for rapidly changing job markets?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does tourism have on local communities and cultural heritage?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital banking transformed traditional financial services?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of maintaining strong social connections?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban planning address the needs of growing populations?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in reducing environmental pollution?"
+  },
+  {
+    "level": "B2",
+    "question": "How have dietary habits changed with increased global food availability?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of space exploration and commercialization?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language preservation contribute to cultural identity maintenance?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do immigrants face when adapting to new cultural environments?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital marketing changed consumer behavior and advertising strategies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the health implications of sedentary lifestyles in modern society?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international cooperation address global health crises?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does infrastructure development play in economic growth?"
+  },
+  {
+    "level": "B2",
+    "question": "How have privacy concerns evolved with increased data collection practices?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the educational benefits of studying abroad programs?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural exchange promote mutual understanding between nations?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does agricultural technology have on food security issues?"
+  },
+  {
+    "level": "B2",
+    "question": "How do legal systems adapt to technological advancements and digital crimes?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental benefits of conservation efforts and protected areas?"
+  },
+  {
+    "level": "B2",
+    "question": "How has the concept of privacy changed with social media adoption?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public health education play in disease prevention?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international migration affect labor markets in host countries?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of investing in renewable energy infrastructure?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital communication affected traditional journalism practices?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges do educational institutions face in digital transformation?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural heritage preservation contribute to tourism development?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate social responsibility have on brand reputation?"
+  },
+  {
+    "level": "B2",
+    "question": "How have banking services evolved with financial technology innovations?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of information overload in digital age?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban agriculture address food security in cities?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does international law play in resolving cross-border disputes?"
+  },
+  {
+    "level": "B2",
+    "question": "How has e-commerce changed retail shopping habits and consumer expectations?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental impacts of plastic pollution on marine ecosystems?"
+  },
+  {
+    "level": "B2",
+    "question": "How does vocational training address skills gaps in various industries?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public art play in urban community development?"
+  },
+  {
+    "level": "B2",
+    "question": "How have workplace safety standards evolved with technological advancements?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does cultural diversity have on culinary traditions and food innovation?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade policy affect domestic manufacturing sectors?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the benefits of multilingual education in early childhood development?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital photography changed visual storytelling and documentation?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in urban mobility solutions?"
+  },
+  {
+    "level": "B2",
+    "question": "How does climate change adaptation planning address natural disaster risks?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does social media influence have on consumer purchasing decisions?"
+  },
+  {
+    "level": "B2",
+    "question": "How have privacy laws evolved to protect personal data in digital environments?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of cultural and creative industries?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international development assistance address poverty reduction goals?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does digital literacy play in modern education systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How have housing policies evolved to address urban affordability crises?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does agricultural innovation have on sustainable farming practices?"
+  },
+  {
+    "level": "B2",
+    "question": "How does corporate governance affect business ethics and accountability?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of outdoor recreation and nature exposure?"
+  },
+  {
+    "level": "B2",
+    "question": "How has international travel become more accessible in recent decades?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public funding play in scientific research and innovation?"
+  },
+  {
+    "level": "B2",
+    "question": "How does waste management infrastructure address environmental pollution concerns?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital transformation have on traditional business models?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed long-distance relationship dynamics?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of aging populations in developed countries?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural exchange programming promote international understanding?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does renewable energy investment play in climate change mitigation?"
+  },
+  {
+    "level": "B2",
+    "question": "How has online education changed access to learning opportunities worldwide?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does urban green space have on community health and wellbeing?"
+  },
+  {
+    "level": "B2",
+    "question": "How do international standards facilitate global trade and commerce?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental benefits of sustainable transportation systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital entertainment changed content consumption patterns?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public health infrastructure play in emergency response systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural preservation contribute to historical understanding?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does technological innovation have on employment patterns?"
+  },
+  {
+    "level": "B2",
+    "question": "How have banking regulations evolved to prevent financial crises?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of social media comparison on self-esteem?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban planning address climate change resilience in cities?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does international diplomacy play in conflict resolution?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital documentation changed administrative processes and efficiency?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate transparency have on consumer trust?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language learning enhance cognitive abilities and brain function?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of tourism development in local communities?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical technology improved diagnostic accuracy and treatment outcomes?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in reducing traffic congestion?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international cooperation address marine conservation challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital automation have on manufacturing processes?"
+  },
+  {
+    "level": "B2",
+    "question": "How have educational methodologies evolved with technological integration?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental implications of fast fashion consumption patterns?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural diversity influence innovation in creative industries?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public policy play in addressing income inequality?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital communication changed customer service expectations?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does renewable energy adoption have on energy security?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect cultural exchange and global understanding?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of community engagement and volunteering?"
+  },
+  {
+    "level": "B2",
+    "question": "How has urban development changed to accommodate population growth?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does digital security play in protecting personal information?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural heritage tourism contribute to local economic development?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does technological advancement have on educational accessibility?"
+  },
+  {
+    "level": "B2",
+    "question": "How have workplace diversity initiatives changed corporate cultures?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental benefits of sustainable agricultural practices?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international migration affect cultural diversity in host countries?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public infrastructure play in economic development?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital technology changed artistic expression and creation?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate social responsibility have on employee satisfaction?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language proficiency affect international business communication?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of climate change adaptation measures?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical research changed treatment approaches for chronic diseases?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public education play in environmental awareness campaigns?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international collaboration address global health challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital transformation have on traditional retail businesses?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed news dissemination patterns?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of urban living on mental health?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural exchange influence culinary innovation and food trends?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does renewable energy research play in technological innovation?"
+  },
+  {
+    "level": "B2",
+    "question": "How has online banking changed financial management practices?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does tourism have on environmental conservation efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international law address human rights protection globally?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of digital innovation in various sectors?"
+  },
+  {
+    "level": "B2",
+    "question": "How has educational technology changed classroom learning experiences?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in reducing carbon emissions?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural preservation contribute to national identity formation?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate transparency have on investment decisions?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital communication changed political campaigning strategies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental implications of electronic waste management?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect domestic employment opportunities?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public health education play in disease prevention efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How has urban planning evolved to address sustainable development goals?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital literacy have on employment opportunities?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural diversity influence fashion industry trends and innovation?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of infrastructure development projects?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical technology improved surgical procedures and recovery times?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does international cooperation play in space exploration efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How does digital transformation affect traditional publishing industries?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does renewable energy adoption have on job creation?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed family relationship dynamics?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of cultural immersion experiences?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban development address housing affordability challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public policy play in addressing environmental pollution?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital technology changed music production and distribution?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate social responsibility have on consumer loyalty?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language learning facilitate cross-cultural understanding?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of digital payment systems?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical research advanced understanding of genetic diseases?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public education play in promoting civic engagement?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international collaboration address wildlife conservation challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital automation have on service industry employment?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed academic research methodologies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of social media on interpersonal relationships?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural exchange influence architectural design and urban landscapes?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does renewable energy innovation play in addressing energy poverty?"
+  },
+  {
+    "level": "B2",
+    "question": "How has online education changed professional development opportunities?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does tourism development have on cultural heritage preservation?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international law address cybersecurity threats and digital crimes?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of cultural industry development?"
+  },
+  {
+    "level": "B2",
+    "question": "How has educational technology changed distance learning accessibility?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in urban accessibility?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural preservation contribute to educational curriculum development?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate transparency have on regulatory compliance?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital communication changed customer feedback collection?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental implications of sustainable packaging solutions?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect agricultural practices and food security?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public health infrastructure play in pandemic response?"
+  },
+  {
+    "level": "B2",
+    "question": "How has urban planning evolved to address climate change adaptation?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital literacy have on social inclusion efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural diversity influence entertainment industry content creation?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of technological innovation in healthcare?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical technology improved patient monitoring and care?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does international cooperation play in addressing refugee crises?"
+  },
+  {
+    "level": "B2",
+    "question": "How does digital transformation affect traditional media consumption patterns?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does renewable energy adoption have on energy independence?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed business meeting practices?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of multicultural education programs?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban development address public space design and community needs?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public policy play in promoting renewable energy adoption?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital technology changed documentary filmmaking techniques?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate social responsibility have on supply chain management?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language learning enhance international travel experiences?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of e-commerce growth on traditional retail?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical research advanced treatment options for infectious diseases?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public education play in promoting digital citizenship?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international collaboration address marine pollution challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital automation have on manufacturing quality control?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed political participation methods?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of urban noise pollution on residents?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural exchange influence performing arts and theatrical production?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does renewable energy research play in addressing energy storage challenges?"
+  },
+  {
+    "level": "B2",
+    "question": "How has online banking changed financial inclusion efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does tourism have on local artisan and craft traditions?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international law address intellectual property protection globally?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of green building construction practices?"
+  },
+  {
+    "level": "B2",
+    "question": "How has educational technology changed special education approaches?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in social equity and access?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural preservation contribute to museum exhibition development?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate transparency have on risk management practices?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital communication changed crisis management strategies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental implications of sustainable fashion initiatives?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect technology transfer and innovation?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public health education play in nutrition awareness campaigns?"
+  },
+  {
+    "level": "B2",
+    "question": "How has urban planning evolved to address public health concerns?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital literacy have on democratic participation?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural diversity influence advertising and marketing strategies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of waste reduction and recycling programs?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical technology improved emergency response capabilities?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does international cooperation play in disaster relief efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How does digital transformation affect library services and information access?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does renewable energy adoption have on grid stability?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed language translation services?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of community gardening initiatives?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban development address historical preservation concerns?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public policy play in supporting small business development?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital technology changed archaeological research methods?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate social responsibility have on brand differentiation?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language learning facilitate international business negotiation?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of remote work on urban economies?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical research advanced understanding of neurological disorders?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public education play in environmental conservation education?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international collaboration address water resource management?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital automation have on agricultural productivity?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed diplomatic relations between countries?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological effects of green space access on urban residents?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural exchange influence literary translation and publishing?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does renewable energy innovation play in rural development?"
+  },
+  {
+    "level": "B2",
+    "question": "How has online education changed access to vocational training?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does tourism have on wildlife conservation efforts?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international law address climate change mitigation agreements?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of digital infrastructure investment?"
+  },
+  {
+    "level": "B2",
+    "question": "How has educational technology changed language learning methodologies?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public transportation play in reducing air pollution?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural preservation contribute to cultural tourism development?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate transparency have on stakeholder relations?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital communication changed public relations strategies?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the environmental implications of electric vehicle adoption?"
+  },
+  {
+    "level": "B2",
+    "question": "How does international trade affect cultural product exchange?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public health education play in substance abuse prevention?"
+  },
+  {
+    "level": "B2",
+    "question": "How has urban planning evolved to address affordable housing needs?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does digital literacy have on economic mobility?"
+  },
+  {
+    "level": "B2",
+    "question": "How does cultural diversity influence product design and development?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic benefits of sustainable tourism practices?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical technology improved diagnostic imaging capabilities?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does international cooperation play in scientific research funding?"
+  },
+  {
+    "level": "B2",
+    "question": "How does digital transformation affect traditional art market practices?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does renewable energy adoption have on rural electrification?"
+  },
+  {
+    "level": "B2",
+    "question": "How have communication technologies changed emergency alert systems?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the psychological benefits of public art installations?"
+  },
+  {
+    "level": "B2",
+    "question": "How does urban development address transportation infrastructure needs?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public policy play in promoting cultural industry growth?"
+  },
+  {
+    "level": "B2",
+    "question": "How has digital technology changed historical archive accessibility?"
+  },
+  {
+    "level": "B2",
+    "question": "What impact does corporate social responsibility have on employee retention?"
+  },
+  {
+    "level": "B2",
+    "question": "How does language learning enhance cognitive flexibility and problem-solving?"
+  },
+  {
+    "level": "B2",
+    "question": "What are the economic implications of artificial intelligence implementation?"
+  },
+  {
+    "level": "B2",
+    "question": "How has medical research advanced cancer treatment methodologies?"
+  },
+  {
+    "level": "B2",
+    "question": "What role does public education play in promoting financial literacy?"
+  },
+  {
+    "极": "B2",
+    "question": "How does international collaboration address desertification challenges?"
   },
   {
     "level": "B2",
@@ -5042,7 +8909,6 @@
     "level": "C2",
     "question": "What’s a ‘ghost word’ (e.g., ‘dord’) or common misspelling in English you’ve learned to avoid?"
   },
-
   {
     "level": "C2",
     "question": "How do you discuss regional dialects or accents within your own country in English?"
@@ -5299,7 +9165,7 @@
     "level": "C2",
     "question": "What noetic consequences might emerge from artificial intelligence systems that develop non-human values?"
   },
-   {
+  {
     "level": "C2",
     "question": "How might the increasing sophistication of deepfake technology alter our fundamental understanding of truth and evidence in legal and social contexts?"
   },
@@ -5508,5 +9374,3 @@
     "question": "Debate whether it would be ethical to create human-animal hybrids with enhanced cognitive abilities."
   }
 ]
-
-
