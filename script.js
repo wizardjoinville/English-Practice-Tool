@@ -567,7 +567,30 @@ function exibirVocabulario(vocab) {
 
   // Esconder a tradução inicialmente
   document.getElementById('vocabTranslation').style.display = 'none';
+
+  // 🔹 Aqui dentro você adiciona o botão do Youglish
+  const youglishDiv = document.createElement('div');
+  youglishDiv.innerHTML = `
+    <button class="secondary-button" onclick="mostrarYouglish('${vocab.word}')">
+      🎥 Ver em Youglish
+    </button>
+    <div id="youglishPlayer" style="margin-top:15px;"></div>
+  `;
+  vocabCard.appendChild(youglishDiv);
 }
+
+// Função separada (pode ficar fora)
+function mostrarYouglish(word) {
+  const playerDiv = document.getElementById("youglishPlayer");
+  playerDiv.innerHTML = `
+    <iframe width="560" height="315"
+      src="https://youglish.com/pronounce/${encodeURIComponent(word)}/english?"
+      frameborder="0" allowfullscreen>
+    </iframe>
+  `;
+}
+
+
 
 // --- FUNÇÕES DE QUIZ ---
 
