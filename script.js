@@ -572,6 +572,66 @@ function exibirVocabulario(vocab) {
 
   // Esconder a tradução inicialmente
   document.getElementById('vocabTranslation').style.display = 'none';
+
+  // YouGlish: render widget for current word
+  try {
+    const ygContainer = document.getElementById('youglishContainer');
+    if (ygContainer && vocab.word) {
+      const query = encodeURIComponent(vocab.word);
+      // Use div-based widget and include accent; also include a fallback link
+      ygContainer.innerHTML = `
+        <div id="yg-widget-0" class="youglish-widget" data-query="${query}" data-lang="english" data-accent="us" data-components="8415" data-bkg-color="theme_light"></div>
+        <div style="margin-top:8px; font-size:12px;">
+          <a href="https://youglish.com/search/${query}?lang=english" target="_blank" rel="nofollow">Open on YouGlish ↗</a>
+        </div>
+      `;
+
+      // Ensure script is loaded, then scan to render the widget
+      ensureYouglishLoaded().then(() => {
+        if (window.YG && typeof window.YG.scan === 'function') {
+          setTimeout(() => { try { window.YG.scan(); } catch(_){} }, 0);
+        }
+      }).catch(() => {
+        // If loader fails, keep the fallback link visible
+      });
+    }
+  } catch (e) {
+    console.warn('YouGlish widget error:', e);
+  }
+}
+
+// Lazy load YouGlish widget script once and resolve when ready
+function ensureYouglishLoaded() {
+  return new Promise((resolve, reject) => {
+    if (window.YG && typeof window.YG.scan === 'function') {
+      resolve();
+      return;
+    }
+    // Check if a loader script tag already exists
+    const existing = document.querySelector('script[src^="https://youglish.com/public/emb/widget.js"]');
+    if (existing) {
+      // Poll briefly until YG is available
+      const start = Date.now();
+      const wait = () => {
+        if (window.YG && typeof window.YG.scan === 'function') {
+          resolve();
+        } else if (Date.now() - start > 5000) {
+          reject(new Error('YouGlish not ready'));
+        } else {
+          setTimeout(wait, 100);
+        }
+      };
+      wait();
+      return;
+    }
+    const s = document.createElement('script');
+    s.src = 'https://youglish.com/public/emb/widget.js';
+    s.async = true;
+    s.charset = 'utf-8';
+    s.onload = () => resolve();
+    s.onerror = () => reject(new Error('Failed to load YouGlish'));
+    document.body.appendChild(s);
+  });
 }
 
 // --- FUNÇÕES DE QUIZ ---
