@@ -1939,10 +1939,7 @@
     "level": "A2",
     "question": "Could you ride a bike when you were a child?"
   },
-  {
-    "level": "A2",
-    "question": "Can I borrow your pen, please?"
-  },
+  
   {
     "level": "A2",
     "question": "What were you doing when I called you?"
@@ -3428,10 +3425,7 @@
     "level": "A2",
     "question": "What time did you go to bed last night?"
   },
-  {
-    "level": "A2",
-    "question": "Who is your best friend? How did you meet?"
-  },
+ 
   {
     "level": "A2",
     "question": "What hobbies did you have five years ago?"
@@ -6847,6 +6841,4398 @@
     "question": "How would you describe a stressful day without complaining too much?"
   },
   {
+    "level": "B1",
+    "question": "What should you do if your wallet is stolen?"
+  },
+  {
+    "level": "B1",
+    "question": "What did your parents tell you to do when you were a child that you still remember?"
+  },
+  {
+    "level": "B1",
+    "question": "Do you agree that learning a second language is important?"
+  },
+  {
+    "level": "B1",
+    "question": "What measures can be taken to prevent identity theft online?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you enjoy doing alone rather than with other people?"
+  },
+  {
+    "level": "B1",
+    "question": "How would you investigate a problem with a product you purchased online?"
+  },
+  {
+    "level": "B1",
+    "question": "What are you looking forward to in the coming months?"
+  },
+  {
+    "level": "B1",
+    "question": "How often do you use public transport to get around the city?"
+  },
+  {
+    "level": "B1",
+    "question": "What ingredients are required to make a classic omelette?"
+  },
+  {
+    "level": "B1",
+    "question": "Where is the best place to exchange currency in this city?"
+  },
+  {
+    "level": "B1",
+    "question": "What should you do in case you lose your passport while traveling abroad?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you plan to develop your professional skills next year?"
+  },
+
+  {
+    "level": "B1",
+    "question": "What are the most important things to organize before a long trip?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "How long can someone typically live in a foreign country without a visa?"
+  },
+  {
+    "level": "B1",
+    "question": "What factors should people consider when choosing a university?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to submit official documents before a deadline?"
+  },
+  {
+    "level": "B1",
+    "question": "At which station do most people need to get off to reach the main square?"
+  },
+
+  {
+    "level": "B1",
+    "question": "What is the most efficient way to search for reliable information on the internet?"
+  },
+  {
+    "level": "B1",
+    "question": "How can someone politely request a day off from work?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a digital calendar to schedule appointments?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do people often need to carry identification with them?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the procedure for a passenger to board an international flight?"
+  },
+  {
+    "level": "B1",
+    "question": "Where should visitors sit when they enter a formal meeting?"
+  },
+  {
+    "level": "B1",
+    "question": "How does an airplane pilot know when to begin the descent to land?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to answer a difficult question in an interview?"
+  },
+  {
+    "level": "B1",
+    "question": "Why would a person need to claim a lost item at an airport?"
+  },
+  {
+    "level": "B1",
+    "question": "What steps should be taken to make a formal complaint about a faulty product?"
+  },
+  {
+    "level": "B1",
+    "question": "How can neighbors help each other in a community?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the difference between something you have to do and something you needn't do?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to fix a small problem before it becomes a big one?"
+  },
+  {
+    "level": "B1",
+    "question": "What might a customer say to refuse a service they did not ask for?"
+  },
+  {
+    "level": "B1",
+    "question": "How do teams typically settle disagreements about a project's direction?"
+  },
+  {
+    "level": "B1",
+    "question": "What kind of personal information are you not allowed to share online?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to confirm receipt of an important email?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common reasons a website might require you to create an account?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually explore a new city they are visiting for the first time?"
+  },
+
+  {
+    "level": "B1",
+    "question": "How has the way people order food changed in the last decade?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits for someone to sign up for a professional newsletter?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to develop a habit of saving money regularly?"
+  },
+  {
+    "level": "B1",
+    "question": "What does a company usually guarantee when you purchase a new electronic device?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person grab the attention of a waiter in a polite way?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the potential dangers for a tourist who wanders into an unfamiliar area?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do people enjoy the experience of tasting local food when they travel?"
+  },
+  {
+    "level": "B1",
+    "question": "What is such a beautiful natural wonder that everyone should see?"
+  },
+  {
+    "level": "B1",
+    "question": "How do review websites help people to rank hotels or restaurants?"
+  },
+  {
+    "level": "B1",
+    "question": "What is an example of a user-friendly gadget that is easy to access?"
+  },
+  {
+    "level": "B1",
+    "question": "Why should people avoid giving out their password to anyone?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business extend its services to attract more customers?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process to vote in a national election?"
+  },
+  {
+    "level": "B1",
+    "question": "How is a class president typically elected in a school?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the consequences for someone who is caught trying to steal from a shop?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to report a crime to the police immediately?"
+  },
+  {
+    "level": "B1",
+    "question": "What might a teacher ask a student to do to prepare for an exam?"
+  },
+  {
+    "level": "B1",
+    "question": "How can two people agree on a movie to watch together if they have different tastes?"
+  },
+  {
+    "level": "B1",
+    "question": "What measures can be taken to prevent unauthorized access to a building?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What is the role of a journalist who needs to investigate a story?"
+  },
+  {
+    "level": "B1",
+    "question": "How can looking into the details of a problem lead to a better solution?"
+  },
+  {
+    "level": "B1",
+    "question": "What do people often miss about their hometown when they move away?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it exciting to look forward to a future event?"
+  },
+ 
+  
+  {
+    "level": "B1",
+    "question": "What are the rules for participants in a professional race?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person pack when they go on a hiking trip?"
+  },
+  {
+    "level": "B1",
+    "question": "How can someone access their bank account online securely?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most polite way to address a customer's complaint?"
+  },
+  {
+    "level": "B1",
+    "question": "Why would a company edit its website content regularly?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the ethical reasons not to hack into a computer system?"
+  },
+  {
+    "level": "B1",
+    "question": "How do friends often beat boredom on a weekend?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the first step to upload a document to a cloud service?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do people sometimes need to analyze data in their jobs?"
+  },
+  {
+    "level": "B1",
+    "question": "What is a common situation where someone might hold their opinion until they have more information?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a presenter check that the audience is understanding the information?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in an email to confirm an appointment?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to charge electronic devices regularly?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of using a massage to relieve stress?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person politely refuse a request to lend money?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to select a gift for a friend?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do people often state their expectations clearly at the beginning of a project?"
+  },
+  {
+    "level": "B1",
+    "question": "What does a government usually promise to its citizens?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person rule out possible solutions to a problem?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the correct way to use a public computer terminal?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person wander through a bookstore without a specific book in mind?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the steps to download and install a new software application?"
+  },
+  {
+    "level": "B1",
+    "question": "How do companies usually deliver products that are ordered online?"
+  },
+  {
+    "level": "B1",
+    "question": "What is a common reason for someone to purchase a warranty for a new product?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to prepare answers to common interview questions?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they discover an error in their bank statement?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a team work together to create a successful advertising campaign?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the characteristics of a well-organized office space?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary for a lawyer to investigate all the facts of a case?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most effective way to learn how to use a new piece of technology?"
+  },
+  {
+    "level": "B1",
+    "question": "How do cultural norms influence the way people greet each other?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of settling an argument through discussion rather than anger?"
+  },
+  {
+    "level": "B1",
+    "question": "Why should tourists be encouraged to taste local cuisine?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process to elect a new member to a club committee?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person protect their skin from the sun during a long day at the beach?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a website that is easy to navigate?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a system to handle customer complaints?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before they decide to exchange currency?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a teacher typically present new vocabulary to students?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about where you are not allowed to park your car?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it useful to analyze the results of a survey?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to save important documents so they are not lost?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to concentrate while studying?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the safety instructions that must be followed in a science laboratory?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do people often need to charge their phones during the day?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the procedure for a customer to return an item they purchased online?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a team leader ensure that all members are helping each other effectively?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning how to edit videos?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a news report to state its sources clearly?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they are not permitted to enter a restricted area?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually decide which movie to watch at the cinema?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most secure way to create a password for an online account?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a company refuse to guarantee a product that has been misused?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the steps involved in preparing a budget for a small project?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person avoid making the same mistake twice?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a referee in a sports match?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to tip waitstaff in some countries but not in others?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a report about a stolen item?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people typically celebrate a national holiday?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the rules of a new board game?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to deliver products on time?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of being able to access work files from home?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person politely interrupt a conversation to ask a question?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most common reason for a flight to be delayed?"
+  },
+  {
+    "level": "B1",
+    "question": "Why should people avoid using their phones while driving?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the key elements to consider when planning a wedding?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a chef ensure that a new dish will taste good before adding it to the menu?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a new student to sign up for university classes?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a country to have a fair system for electing its leaders?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they face an unexpected problem during a trip?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a company prevent its confidential information from being stolen?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of working in a team where members trust each other?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to rub sunscreen into the skin thoroughly?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most effective way to learn and remember new vocabulary words?"
+  },
+  {
+    "level": "B1",
+    "question": "How do cultural differences influence the way people negotiate a business deal?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person check before they agree to the terms of a software update?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a news article to present facts without bias?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a well-designed public park?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to speak in public?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the procedure for booking a ticket for a popular concert?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person need to request a copy of their birth certificate?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a map application on a phone while traveling?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a teacher typically manage a classroom of young students?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to respond to a customer who has a valid complaint?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to declare all items when traveling to another country?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they are not sure how to use a new machine?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a team create a positive and productive working environment?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using a mobile phone on an airplane?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a valid passport to travel internationally?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most efficient way to organize files on a computer?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually decide what to order from a large menu?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a first-aid kit for a long hiking trip?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to analyze its competitors?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the steps to successfully plant a tree?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person avoid misunderstandings when communicating in a foreign language?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a tour guide when showing a group around a city?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a company edit an advertisement after it has been published?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of having a regular routine for exercise?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a bank protect its customers from fraud?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of a foreign country?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to get off a bus at the correct stop?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before they decide to invest money?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a government encourage citizens to vote in elections?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a digital dictionary instead of a paper one?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to charge sales tax on most purchased goods?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the protocol for making an emergency call?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people typically choose a name for a new business?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a thank-you note after a job interview?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a restaurant to have a clean and organized kitchen?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common reasons for a website to require users to accept cookies?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their memory for important dates and events?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a new law to be passed in a democratic country?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person need to carry a medical ID card?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning how to code computers?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a company decide on the price for a new product?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to settle a disagreement between two friends?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to confirm the time and location of a meeting with all participants?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a package they did not order?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a student effectively prepare for a final exam?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the characteristics of a good public transportation system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have rules in a sports game?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the most polite way to ask someone to repeat what they said?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually discover new music that they like?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when selecting a suitable gift for a colleague?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear mission statement?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the steps to writing a formal letter of complaint?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person reduce their monthly expenses to save money?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a judge in a courtroom?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a tourist want to wander through a local market?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a credit card for online purchases?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a teacher manage different ability levels in one classroom?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about a company's culture before applying for a job?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to tip a taxi driver for good service?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they witness a car accident?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a team celebrate its success after completing a big project?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a successful social media post?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a valid driver's license to operate a car?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a new employee to be introduced to a company?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually decide on a destination for their holiday?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a daily weather forecast?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a restaurant to have a varied menu?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning a second language at a young age?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person avoid feeling stressed during a busy work period?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a conductor on a train?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a company create a new logo for its brand?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of living in a city compared to the countryside?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a doctor diagnose a common illness like the flu?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to keep in touch with friends who live far away?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to read the instructions before using a new appliance?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before adopting a pet?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community work together to reduce crime?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about recycling in your local area?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a balanced diet for good health?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for applying for a visa to visit another country?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a movie to watch on a streaming service?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a CV when applying for a job?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have clear information next to each exhibit?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of regular exercise for mental health?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more confident in speaking a foreign language?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a translator in international business meetings?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a student need to request an extension for an assignment?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of cooking at home instead of eating out?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a library organize its books so members can find them easily?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about current events in the world?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have insurance for a car or a house?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they find a lost wallet?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a company improve its customer service?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good mobile phone application?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to pay taxes to the government?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for making a reservation at a popular restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually learn to drive a car?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new place to live?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a news reporter to check their facts before publishing a story?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of working part-time while studying?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person reduce their use of plastic to help the environment?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a cashier in a supermarket?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a business decide to develop a new product?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of traveling by train instead of by car?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a parent teach a child to be polite?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to apologize if you have made a mistake?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a fire escape plan in a building?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they are not satisfied with a service they received?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a student improve their note-taking skills during lectures?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using a mobile phone in a cinema?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a passport photo that is recent?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for ordering a custom-made piece of furniture?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually find a reliable plumber or electrician?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a welcome package for a new hotel guest?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a website to have a secure payment system?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of reading books from different genres?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more organized in their daily life?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a volunteer in a community event?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a company charge a fee for canceling a booking at short notice?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using public libraries?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a chef create a balanced and tasty menu?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to resolve a conflict between two team members?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have clear signs in a public building?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive too much change in a shop?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business attract customers from other countries?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a fair employment contract?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a quiet environment for studying?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for renewing a driving license?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a charity to donate to?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when planning a healthy diet?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a teacher to create a positive atmosphere in the classroom?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to play a musical instrument?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person stay safe when using social media?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a receptionist in a large company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to create more parks and green spaces?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of buying food from local farmers?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a parent help a child with their homework?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to give constructive feedback to a colleague?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a variety of plants in a garden?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they are feeling unwell at work?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community reduce the amount of litter in public spaces?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about noise levels in residential areas at night?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have regular maintenance for a car?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a customer to return an unwanted gift to a store?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually find a job in their field of interest?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a safety briefing before a flight takes off?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a website in today's world?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of carpooling with colleagues?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their pronunciation in a foreign language?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a coach in a sports team?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a student need to use a dictionary during an exam?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of watching films in their original language?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a bank decide whether to give a loan to a customer?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to start a conversation with someone you don't know at a party?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a first aid kit in a car?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before making a large investment?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a company ensure that its products are environmentally friendly?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good public speech?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good internet connection for online learning?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for registering a new business with the government?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually celebrate a birthday in your culture?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a rental agreement for an apartment?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a restaurant to have good hygiene ratings?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning about other cultures?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more patient in difficult situations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a security guard in a shopping mall?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city create a cycle-sharing scheme?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of buying products from a local market?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a teacher assess the progress of their students?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to negotiate the price of a car?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a variety of activities in a school curriculum?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they are lost in an unfamiliar city?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community support elderly people who live alone?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about walking dogs in public parks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a balanced workout routine at the gym?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for applying for a scholarship to study abroad?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a name for their child?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when planning a long journey by car?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to offer guided tours?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of using a to-do list to manage daily tasks?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their writing skills in a foreign language?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a flight attendant on an airplane?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a company decide to invest in renewable energy?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of eating seasonal fruits and vegetables?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a parent teach a child about money management?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to thank someone for a generous gift?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have clear goals when starting a new project?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they accidentally break something in a shop?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business use social media to connect with its customers?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a comfortable and functional office chair?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of math for everyday life?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a customer to exchange a size of clothing in a store?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually find a reliable babysitter or pet sitter?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in an emergency contact list?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a hotel to have a 24-hour reception desk?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of volunteering for a local charity?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more environmentally conscious in their daily choices?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a cashier in a fast-food restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to organize an international day?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a password manager application?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a manager motivate their team to achieve targets?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the traditions of a different culture?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a reliable alarm clock for waking up in the morning?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before choosing a university course?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a city improve its public transportation system to reduce traffic?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using a barbecue in a public park?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good quality camera on a modern smartphone?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a patient to make an appointment with a doctor?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually decide on a theme for a party?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a instruction manual for a new appliance?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to respond quickly to customer inquiries?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of reading the news from different sources?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become a more attentive listener?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a lifeguard at a swimming pool?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a family decide to create a weekly meal plan?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a cloud service to store photos?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a judge ensure a trial is fair for everyone involved?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to encourage a friend who is feeling discouraged?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a variety of books in a school library?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they see someone being treated unfairly?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a company create a more inclusive workplace for all employees?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a well-designed website homepage?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good sense of direction when traveling?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to report a problem with a public service?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a wedding ring?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when buying a gift for a person who has everything?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a teacher to give clear instructions for an assignment?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to cook a few basic meals?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person stay hydrated throughout the day?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in providing feedback to a business?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a town decide to hold a annual festival?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a note-taking app on a phone?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a author create interesting characters in a novel?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to pack a suitcase for a two-week trip?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good pair of walking shoes for traveling?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before getting a tattoo?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community make its streets safer for children to play?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about fishing in rivers and lakes?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good ventilation system in a kitchen?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get a part-time job?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually decide on a color scheme for a room?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a FAQ section on a website?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear returns policy?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning about personal finance?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more resilient in the face of challenges?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a barista in a coffee shop?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn a martial art?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable water bottle?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a musician learn to play a new piece of music?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to store vegetables to keep them fresh longer?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a first-aid kit at home?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a suspicious email asking for personal information?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a company reduce its environmental impact?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good pair of headphones?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of history?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a customer to cancel a subscription to a service?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a charity to support through fundraising?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new pair of glasses?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a restaurant to accommodate customers with food allergies?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of taking a short break during a long study session?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their posture when sitting at a desk?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the success of a local business?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city create a network of bicycle lanes?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a digital ticket for public transport?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a photographer choose the right lighting for a portrait?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the local customs when visiting a new country?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good quality mattress for sleeping?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before starting their own business?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town attract more tourists to visit?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using a mobile phone in a hospital?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of sunglasses for driving on a sunny day?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to apply for a student loan?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a paint color for their living room?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a product description on an online store?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a company to have a diverse workforce?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to meditate for a few minutes each day?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more organized with their email inbox?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a waiter in providing good service in a restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to sew?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable shopping bag?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a gardener decide which plants to grow in a particular season?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to clean a computer screen without damaging it?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good dictionary when learning a language?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they see a fire in a public building?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business build trust with its customers?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a comfortable pair of shoes for walking?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of basic science?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a customer to register a complaint with a company's head office?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a movie to nominate for an award?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new hair stylist or barber?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a hotel to have a clear evacuation procedure in case of fire?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of drinking a sufficient amount of water every day?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to remember people's names?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in leaving online reviews for products and services?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to implement a recycling program?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a hands-free device while driving?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a filmmaker create suspense in a movie?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the architecture of a historic city?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good insurance policy for a mobile phone?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before adopting a child?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a city reduce air pollution from vehicles?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about camping in national parks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of gloves for cold weather?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a patient to get a prescription from a doctor?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a theme for a child's birthday party?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a welcome email for a new online service?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a strong social media presence?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to play a team sport?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more creative in their problem-solving?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a cashier in a busy retail store during the holidays?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a family decide to grow their own vegetables?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a video conferencing app for meetings?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a scientist test a new hypothesis?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the marine life in a particular ocean?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good pair of earphones for listening to music in public?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they find a lost animal?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a company ensure the quality of its products?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good winter coat?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of geography?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to vote in a local election?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a book to read for a book club?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new dentist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a quiet area for studying?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning a few words in the local language before traveling?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their time management skills?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in helping to reduce plastic waste in stores?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a town decide to install more public benches and seating areas?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a fitness tracker to monitor daily activity?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a journalist verify the facts of a story before publishing it?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the different types of coffee?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good backup plan for an outdoor event in case of rain?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before moving to a different country for work?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community support local artists and musicians?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying drones in urban areas?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of hiking boots for mountain trails?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get a letter of recommendation from a teacher?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a pattern for a new carpet or rug?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a privacy policy for a website?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to offer training opportunities to its employees?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of trees and plants?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more confident in making public speeches?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a server in a busy restaurant during the lunch rush?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to code?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable coffee cup?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a chef ensure that a dish is cooked to the correct temperature?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of a famous painting?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good umbrella for rainy days?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a package that is damaged?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business adapt to changes in technology?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good office desk?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of basic economics?"
+  },
+ 
+  {
+    "level": "B1",
+    "question": "How do people usually choose a name for a new pet?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new gym?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have interactive exhibits for children?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to play a strategic board game?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to give clear directions?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in providing suggestions for new products?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to create more pedestrian-only zones?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a digital voice recorder for lectures?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a director guide actors during the filming of a movie?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the different genres of music?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good repair kit for a bicycle?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before investing in the stock market?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town preserve its historic buildings?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using a metal detector on public land?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good anti-virus software on a computer?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a patient to get a referral to a specialist doctor?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a soundtrack for a video they are making?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a terms and conditions agreement for software?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to conduct market research before launching a product?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different bird species?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more patient when teaching someone a new skill?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a bartender in creating a pleasant atmosphere in a bar?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to paint?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable straw?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a teacher create a lesson plan for a week of classes?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the solar system and planets?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good flashlight during a power outage?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they accidentally send an email to the wrong person?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business create a loyal customer base?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good camping tent?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of cultural differences in international business?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to report a pothole in the road?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a design for a custom-made piece of jewelry?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new accountant or financial advisor?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a hotel to have a efficient check-in and check-out process?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to do basic car maintenance?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to work in a team?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in spreading word-of-mouth recommendations?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to start a school garden?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a project management app for group work?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a composer create a melody for a song?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the different styles of architecture?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good can opener in the kitchen?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming a foster parent?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a city promote the use of electric vehicles?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about feeding wildlife in national parks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of safety goggles for certain DIY tasks?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get an internship in their field of study?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a font for a formal document?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a safety data sheet for a chemical product?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a disaster recovery plan?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different cloud formations?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more empathetic towards others?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a host in making guests feel welcome at a party?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to dance?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable food container?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a mechanic diagnose a problem with a car engine?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of your own family?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good pair of earplugs for sleeping in a noisy environment?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they witness a cyberbullying incident?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business ensure that its advertising is truthful and not misleading?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality backpack for travel?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of statistics for interpreting news reports?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to propose a new law to their local government?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a flavor for a custom-made cake?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new vet for a pet?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a system for recommending books to readers?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different rock types?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their negotiation skills?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in providing product ideas to a company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a town decide to install more electric vehicle charging stations?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a language translation app when traveling?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a poet choose the right words for a poem?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the ecosystem of a rainforest?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good multi-tool for camping trips?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before volunteering for a clinical trial?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community create a program to help homeless people?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying kites in public parks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good fire extinguisher in the kitchen?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to apply for a scholarship based on community service?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a color for a new car?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a code of conduct for an online forum?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on diversity and inclusion?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different constellations in the night sky?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more assertive without being aggressive?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a sommelier in a fine dining restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to play chess?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable produce bag for fruits and vegetables?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a graphic designer choose a color palette for a brand?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the water cycle?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good whistle for safety during outdoor activities?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a product that is different from what was advertised?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business use customer feedback to improve its products?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality sleeping bag?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of logic for problem-solving?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to request a new traffic light at a dangerous intersection?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a style for a new tattoo?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new physical therapist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to offer audio guides for visitors?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different animal tracks?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their active listening skills?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in testing beta versions of software?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a noise-cancelling app for studying?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a sculptor choose the right material for a statue?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the migration patterns of birds?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good compass for hiking in unfamiliar terrain?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming a mentor to someone?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town reduce light pollution to improve stargazing?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about building a bonfire on a beach?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of waders for fishing in a river?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get involved in student government?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a ringtone for their phone?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a fair use policy for internet data?"
+  },
+ 
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of mushrooms?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more adaptable to change?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a maître d' in a high-end restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to juggle?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable beeswax wrap instead of plastic wrap?"
+  },
+  {
+    "level": "B1",
+    "question": "How does an architect design a building to be energy efficient?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the principles of democracy?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency radio that doesn't require electricity?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they accidentally overpay an invoice?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business contribute to the local community?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality kitchen knife?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of psychology for effective communication?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to organize a neighborhood watch program?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a design for a custom skateboard?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new yoga instructor?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a hotel to have a business center for guests?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of soil?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their conflict resolution skills?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in participating in product focus groups?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to implement a composting program?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a habit-tracking app for personal goals?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a perfumer create a new fragrance?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the life cycle of a butterfly?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good signal mirror for emergency situations in the wilderness?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before starting a blog or podcast?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a city encourage more residents to use recycling facilities?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying model airplanes in public spaces?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of safety gloves for gardening?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to start a new club at school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a screensaver for their computer?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a responsible disclosure policy for cybersecurity researchers?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a plan for reducing its carbon footprint?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of knots and their uses?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more mindful in their daily activities?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a barista in educating customers about different coffee beans?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do calligraphy?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone baking mat?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a landscape designer choose plants for a drought-tolerant garden?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of currency?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good water filtration system for camping?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they discover a security vulnerability in a website?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business ensure fair trade practices with its suppliers?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality hammock for relaxing?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of sociology for understanding societal trends?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to petition for a new crosswalk near a school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a theme for a photo album?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new life coach?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a digital archive of historical documents?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of waves at the beach?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to delegate tasks effectively?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in co-creating products with a company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a town decide to host a weekly farmers' market?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a star chart app for astronomy enthusiasts?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a jeweler set a stone into a ring securely?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the process of photosynthesis?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good paracord bracelet for survival situations?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before creating a will?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community support families in need during the holidays?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about collecting seashells from a protected beach?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of polarized sunglasses for driving and fishing?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to publish an article in the school newspaper?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a signature for themselves?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a transparency report for a technology company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on remote work?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of fossils?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more proactive in preventing problems?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a dive master in leading a group of scuba divers?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to solve a Rubik's cube?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable metal razor instead of disposable plastic ones?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a urban planner design a park for multiple age groups?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the invention of the telephone?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency blanket in a car during winter?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they find a historical artifact on their property?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business promote healthy eating habits among its employees?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of binoculars for birdwatching?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of geology for certain engineering projects?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer as a poll worker during an election?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a nickname for a friend?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new acupuncturist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have programs for people with disabilities?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of tides?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to give and receive constructive criticism?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in beta testing new features for an app?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to create a bike repair station in a public park?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a plant identification app for gardeners?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a glassblower shape molten glass into a vase?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the human digestive system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good multi-bit screwdriver for basic home repairs?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming a blood donor?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town create a more vibrant downtown area with small businesses?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying flags on public buildings?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of knee pads for skateboarding or gardening?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to organize a charity event at their school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a username for a new online account?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a sustainable packaging policy for a company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a mentorship program for new employees?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of musical instruments by sound?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more resourceful in everyday situations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a tea sommelier in a specialty tea shop?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do origami?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable cotton rounds for makeup removal?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a cartographer create an accurate map of a new area?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the principles of flight?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good headlamp for hands-free lighting during camping?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a jury duty summons?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality yoga mat?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of probability for making informed decisions?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "How do people usually choose a mascot for a sports team?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new massage therapist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a hotel to have a loyalty program for frequent guests?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of precipitation?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to motivate others?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in participating in a product recall if necessary?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to have a student-run cafe?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a sky map app to learn about constellations?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a blacksmith forge a piece of iron into a tool?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the structure of a atom?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency strobe light for safety at night?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before investing in a timeshare property?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a city create more affordable housing options for residents?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about metal detecting in historical sites?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of pruning shears for gardening?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to run for class president?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a wallpaper for their phone or computer?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a responsible AI development policy for a tech company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on data privacy for customers?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of bark on trees?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more decisive when faced with multiple choices?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a cheese monger in a specialty cheese shop?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do woodworking?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone lid for bowls instead of plastic wrap?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a florist create a balanced and beautiful flower arrangement?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the printing press?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency whistle on a keychain?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they find a lost child in a public place?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business implement more sustainable practices in its office?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of hiking socks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of rhetoric for effective public speaking?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to request a new streetlight in a dark area?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a team name for a trivia competition?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a quiet room for individual study?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of animal behavior?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to manage a budget?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in helping to improve accessibility features of a product?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a town decide to create a public art installation?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a recipe app for meal planning?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a potter center clay on a wheel to make a pot?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the water purification process?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency car kit for long road trips?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming an organ donor?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community create a neighborhood emergency preparedness plan?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about feeding ducks and other waterfowl in public ponds?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of safety goggles for chemistry experiments?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get a work permit for a part-time job?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a font for a personal blog?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a corporate social responsibility report?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear chain of command for decision-making?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of architectural columns?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more persuasive in their arguments?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a mixologist in creating new cocktail recipes?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do archery?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable stainless steel straw?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a winemaker decide when to harvest grapes for wine?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the invention of the light bulb?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency crank radio for power outages?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they accidentally overdraw their bank account?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business reduce paper waste in its operations?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality travel pillow for long flights?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of ethics for business leadership?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer for a local environmental clean-up day?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a symbol to represent themselves or their brand?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new personal trainer?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have tactile exhibits for visually impaired visitors?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of bird songs?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to prioritize tasks?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in advocating for better product safety standards?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to install more drinking fountains in public spaces?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a language learning app with speech recognition?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a watchmaker assemble the tiny parts of a mechanical watch?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the human respiratory system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good multi-tool with pliers for various tasks?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before signing up for a clinical research study?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town support the development of local artists and crafters?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying hot air balloons over populated areas?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of gardening gloves with reinforced fingertips?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to start a petition for a change at their school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a avatar for a online gaming profile?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a ethical AI usage policy for a company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on workplace harassment?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of knots used in sailing?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more innovative in their thinking?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a chocolate taster in a confectionery company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do parkour?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable fabric snack bag instead of plastic bags?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a floriculturist crossbreed plants to create new flower varieties?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the internet?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency fire starter for survival situations?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a suspicious phone call asking for banking information?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business encourage its employees to use public transportation?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of running shoes?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of game theory for strategic decision-making?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to propose a new community garden in their neighborhood?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a theme for a personal website?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new nutritionist or dietitian?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a hotel to have a efficient lost and found system?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of cloud formations for weather prediction?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to manage a team project?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in providing data for improving product design?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to have a student-led conference for parents?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a constellation guide app for stargazing?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a luthier repair a crack in a vintage guitar?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the process of fermentation in food and drinks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency shelter, like a tent, for unexpected outdoor stays?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before creating a living will or advance healthcare directive?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a city improve its waste management and recycling programs?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using amplified music in public parks?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of wading boots for fly fishing?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to participate in a model United Nations conference?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a ringback tone for their phone?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a digital accessibility statement for a website?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on artificial intelligence ethics?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of geological formations?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more diplomatic in difficult conversations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a tea master in a traditional Japanese tea ceremony?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do ice skating?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone cupcake liner instead of paper ones?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a horologist restore an antique clock?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the discovery of penicillin?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency personal locator beacon for remote hiking?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they find a wallet with a large amount of cash inside?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business implement a four-day workweek successfully?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of cycling shorts?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of behavioral economics for marketing?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to request a speed bump on their residential street?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a tagline for their business or personal brand?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new occupational therapist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a program for teaching digital literacy to seniors?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of animal footprints?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to conduct effective meetings?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in a product's lifecycle from idea to retirement?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a town decide to create a community tool library where residents can borrow tools?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a bird song identification app for ornithologists?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a bookbinder repair a damaged antique book?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the human circulatory system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency water storage system for natural disasters?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming a bone marrow donor?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community create a program to reduce food waste from local restaurants?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying drones near airports?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of safety gloves for handling chemicals?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get a research paper published in an academic journal?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a gamertag for online gaming?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a company's policy on responsible mineral sourcing?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on whistleblower protection?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of knots used in climbing?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more strategic in their long-term planning?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a coffee roaster in developing the flavor profile of coffee beans?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do stand-up paddleboarding?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable bamboo toothbrush?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a gemologist identify a genuine diamond from a fake one?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the Roman Empire?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency flare gun for boating safety?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they witness a hit-and-run accident?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business reduce its energy consumption in its offices?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of snow goggles for skiing?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of cryptography for online security?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer as a tutor for adult literacy programs?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a logo for their startup company?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new physiotherapist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have a program for hosting school field trips?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of moss and lichen?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to write clear and concise reports?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the quality assurance process for new software?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to implement a city-wide composting program?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a star tracker app for astrophotography?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a violin maker (luthier) apply varnish to a finished instrument?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the process of photosynthesis in plants?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency satellite messenger for communication in remote areas?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before investing in cryptocurrency?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town support the establishment of a local farmers' cooperative?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about flying lanterns in areas with dry vegetation?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of archery gloves for protection?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to organize a debate tournament at their school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a signature scent or perfume?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a policy for the ethical use of customer data?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on non-compete agreements?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of traditional architectural styles from around the world?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more effective in cross-cultural communication?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a sake sommelier in a Japanese restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do rock climbing?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone zip-top bag for food storage?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a taxidermist preserve an animal for display?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the invention of the telescope?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency blanket that retains body heat?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they receive a phishing email that looks like it's from their bank?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business promote a culture of continuous learning among its employees?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of mountaineering boots?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of semiotics for interpreting media messages?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to propose a new public park in their neighborhood?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a mascot for a university or college?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new chiropractor?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a program for lending out museum passes?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of insect behavior?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to manage remote teams?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the development of user-generated content for a platform?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to create a student-run radio station?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a plant care app for keeping houseplants alive?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a conservator restore a faded painting?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the human nervous system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency water filter for backpacking?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming a living kidney donor?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community create a program to promote local tourism?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using metal detectors on archaeological sites?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of welding gloves for metalworking?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get an article published in a local newspaper?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a theme for their wedding invitations?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a company's policy on sustainable supply chain management?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on intellectual property rights?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of traditional dance forms from various cultures?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more adept at managing crisis situations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a oyster shucker in a seafood restaurant?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do synchronized swimming?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable cotton mesh produce bag?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a cartographer create a topographic map showing elevation changes?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the Silk Road?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency distress signal for aviation or maritime use?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they accidentally commit a traffic violation like running a stop sign?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of snorkeling fins?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of conflict resolution for community leadership?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer for a local search and rescue team?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a jingle for their advertising campaign?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new audiologist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have a program for artifact conservation and preservation?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of animal migration patterns?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to write persuasive proposals?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the beta testing phase of a video game?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to create a network of electric scooter charging stations?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a bird migration tracking app for birdwatchers?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a piano tuner adjust the tension of piano strings to achieve the correct pitch?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the process of cheese making?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency shelter system like a bivy sack for mountaineering?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before participating in a medical trial for a new vaccine?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town support the development of a local tech startup ecosystem?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using fireworks in residential areas?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of falconry gloves for handling birds of prey?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to organize a science fair at their school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a alias for writing under a pen name?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a policy for the responsible development of autonomous vehicles?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on data retention and deletion?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of traditional musical scales from around the world?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more skilled at mediating disputes between others?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a cheese affineur in aging and caring for cheeses?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do trapeze arts?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone steeper for loose-leaf tea?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a forensic scientist analyze DNA evidence from a crime scene?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the Olympic Games?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency position-indicating radio beacon (EPIRB) for boating?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they discover a forgotten bank account with money in it?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business create an effective employee recognition program?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of cross-country skiing boots?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of international law for global business operations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to propose a new ordinance to their city council?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new prosthetist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a program for promoting local authors?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of predator-prey relationships in an ecosystem?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to manage large-scale events?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in shaping the future roadmap of a software product?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to implement a peer tutoring program?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a mushroom identification app for foragers?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the human endocrine system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency water purification tablets for travel in developing countries?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before becoming a surrogate mother?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community create a program to support victims of natural disasters?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about keeping exotic pets in residential areas?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of blacksmithing gloves for forging metal?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to get a patent for their invention?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a signature cocktail for their wedding?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a policy for the ethical use of facial recognition technology?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on corporate espionage and confidentiality?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of traditional weaving patterns from various cultures?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more effective in public policy advocacy?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a master brewer in developing new beer recipes?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do freediving?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone ice cube tray?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a marine biologist track the migration patterns of whales?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the Samurai in Japan?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency personal desalination device for survival at sea?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they find an unattended bag in a public transportation terminal?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business foster innovation and creativity within its teams?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of ice skating boots?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of macroeconomics for national policy-making?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer as a court-appointed special advocate (CASA) for children?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a symbol for their family crest or coat of arms?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new speech-language pathologist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have a program for digital archiving of its collections?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of symbiotic relationships in nature?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to write grant proposals for non-profit organizations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the user acceptance testing (UAT) phase of software development?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to create a public seed library for gardeners?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a tree identification app for forestry workers?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a clockmaker repair the intricate gears of a grandfather clock?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the process of winemaking from grape to bottle?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency avalanche transceiver for skiing in the backcountry?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before investing in a franchise business?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a town support the revitalization of its historic downtown district?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about using amplified sound for outdoor events in residential neighborhoods?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of chainsaw chaps for forestry work?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to present their research at an academic conference?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a theme for their annual holiday card?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a policy for the ethical development of artificial general intelligence (AGI)?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on human rights in its global supply chain?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of traditional mask-making techniques from various cultures?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more proficient in risk management and assessment?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a tea taster in a tea importing company?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do parkour freerunning?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone baking cup for muffins?"
+  },
+  {
+    "level": "B1",
+    "question": "How does an archaeologist carefully excavate a fragile artifact from an ancient site?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the Vikings?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency satellite phone for expeditions to remote polar regions?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they accidentally transfer money to the wrong bank account?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business create a successful mentorship program pairing senior and junior employees?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of horseback riding boots?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of microeconomics for running a small business?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer for a community emergency response team (CERT)?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a hashtag for their social media campaign?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new optometrist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a library to have a program for teaching coding to children?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of plant pollination methods?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to manage international business negotiations?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the design thinking process for new services?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a school decide to create a student-led investment club?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a rock identification app for geologists?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a glass etcher create intricate designs on glassware?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the human lymphatic system?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency water storage barrel for home preparedness?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person consider before volunteering for a humanitarian aid mission in a conflict zone?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a community create a program to promote cyberbullying awareness and prevention?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the rules about keeping beehives in urban backyards?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good pair of radiation protection gloves for handling radioactive materials?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a student to start a small business while still in school?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a signature fragrance for their home?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be included in a policy for the ethical use of biometric data?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a business to have a clear policy on modern slavery and human trafficking in its operations?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of traditional pottery techniques from around the world?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person become more effective in change management within an organization?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a master distiller in creating a new whiskey blend?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a person decide to learn how to do kiteboarding?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a reusable silicone sandwich bag?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a paleontologist carefully extract a dinosaur fossil from rock?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the history of the Aztec civilization?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have a good emergency locator transmitter (ELT) for aircraft?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do if they discover a billing error on their medical insurance statement?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a business implement a successful corporate volunteering program?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common features of a good quality pair of fishing waders?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to have a good understanding of constitutional law for civil rights advocacy?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the process for a citizen to volunteer as a pollinator habitat steward?"
+  },
+  {
+    "level": "B1",
+    "question": "How do people usually choose a mascot for a sports team that represents their local culture?"
+  },
+  {
+    "level": "B1",
+    "question": "What should be considered when choosing a new podiatrist?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important for a museum to have a program for repatriating cultural artifacts to their countries of origin?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the benefits of learning to identify different types of animal communication methods?"
+  },
+  {
+    "level": "B1",
+    "question": "How can a person improve their ability to write technical documentation?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the role of a customer in the agile development process for software?"
+  },
+  {
+    "level": "B1",
+    "question": "Why might a city decide to create a network of community refrigerators for food sharing?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the advantages of using a soil composition analysis app for farmers?"
+  },
+  {
+    "level": "B1",
+    "question": "How does a book conservator repair a water-damaged manuscript?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the best way to learn about the process of chocolate making from cacao bean to bar?"
+  },
+  
+  {
+    "level": "B1",
+    "question": "What is the polite way to refuse an invitation to a party?"
+  },
+  {
+    "level": "B1",
+    "question": "Do passengers have to fasten their seatbelts during the entire flight?"
+  },
+  {
+    "level": "B1",
+    "question": "Why must travelers declare certain items at customs?"
+  },
+  {
+    "level": "B1",
+    "question": "What do people usually prefer to do on a rainy weekend, stay in or go out?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to have enough memory on a smartphone?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the first thing a person should do if they lose their passport?"
+  },
+  {
+    "level": "B1",
+    "question": "What types of public events do cities commonly hold?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it necessary to confirm a hotel reservation a few days before arrival?"
+  },
+  {
+    "level": "B1",
+    "question": "How often should a person back up their important computer files?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the common requirements for opening a bank account?"
+  },
+  {
+    "level": "B1",
+    "question": "Where is the best place to exchange currency for the best rate?"
+  },
+  {
+    "level": "B1",
+    "question": "What should a person do in case of a fire in a public building?"
+  },
+  {
+    "level": "B1",
+    "question": "How can someone develop their skills in a new language?"
+  },
+  {
+    "level": "B1",
+    "question": "What is a popular activity that people have just started doing in recent years?"
+  },
+  {
+    "level": "B1",
+    "question": "What is such an important skill for success in today's world?"
+  },
+  {
+    "level": "B1",
+    "question": "If someone could create a new public holiday, what should it celebrate?"
+  },
+  {
+    "level": "B1",
+    "question": "What are the characteristics of a high-quality product?"
+  },
+  {
+    "level": "B1",
+    "question": "What is an unforgettable experience many people have when they travel?"
+  },
+  {
+    "level": "B1",
+    "question": "How are leaders typically elected in a democratic country?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the correct procedure to report a stolen phone?"
+  },
+  {
+    "level": "B1",
+    "question": "What kind of advice do parents often tell their children about strangers?"
+  },
+  {
+    "level": "B1",
+    "question": "Why is it important to agree on the terms of a contract before signing it?"
+  },
+  {
+    "level": "B1",
+    "question": "What can people do to protect their personal data online?"
+  },
+  {
+    "level": "B1",
+    "question": "What is a common activity that people enjoy doing in groups?"
+  },
+  {
+    "level": "B1",
+    "question": "How do authorities investigate a serious crime?"
+  },
+  {
+    "level": "B1",
+    "question": "What are common things people look forward to at the start of a new year?"
+  },
+  {
+    "level": "B1",
+    "question": "What is the difference between someone who has been to a country and someone who has gone to live there?"
+  },
+  {
+    "level": "B1",
+    "question": "Have you just finished reading a good book?"
+  },
+  {
+    "level": "B1",
+    "question": "What is such an important skill to have in the modern workplace?"
+  },
+  {
+    "level": "B1",
+    "question": "If you could create a new law, what would it be?"
+  },
+  {
+    "level": "B1",
+    "question": "What is a well-known brand that is famous for its high-quality products?"
+  },
+  {
+    "level": "B1",
+    "question": "What is an unforgettable experience you have had while traveling?"
+  },
+  {
     "level": "B2",
     "question": "What would you say to politely refuse a second helping of food at a dinner party?"
   },
@@ -6982,10 +11368,7 @@
     "level": "B2",
     "question": "How would you compare the education system in your country with that of other developed nations?"
   },
-  {
-    "level": "B2",
-    "question": "What strategies would you propose to bridge the gap between theoretical knowledge and practical skills in education?"
-  },
+  
   {
     "level": "B2",
     "question": "How do cultural differences manifest in communication styles, and what challenges can this create?"
