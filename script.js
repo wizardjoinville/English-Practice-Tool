@@ -13,6 +13,10 @@ let timerSeconds = 0;
 let currentQuestion = null;
 let savedQuestions = JSON.parse(localStorage.getItem('savedQuestions')) || [];
 let currentMode = 'questions';
+let vocabularioHistorico = [];
+let phrasalHistorico = [];
+
+
 
 
 // Quiz
@@ -204,6 +208,9 @@ function inicializarEventListeners() {
   document.getElementById('btnVocab').addEventListener('click', sortearVocabulario);
   document.getElementById('btnStartQuiz').addEventListener('click', iniciarQuiz);
   document.getElementById('btnDrawPhrasal').addEventListener('click', sortearPhrasalVerb);
+  document.getElementById('btnVocabBack').addEventListener('click', voltarVocabulario);
+  
+
 
   // Botões secundários
   document.getElementById('btnResetar').addEventListener('click', resetarPerguntas);
@@ -353,7 +360,7 @@ function filtrarPerguntas() {
 // --- FUNÇÕES DE PERGUNTAS ---
 function sortearPergunta() {
   // Primeiro filtrar as perguntas baseado no nível selecionado
-  filtrarPerguntas();
+  
 
   // Verificar se há perguntas disponíveis
   if (perguntasAtivas.length === 0) {
@@ -462,21 +469,18 @@ function filtrarVocabulario() {
 
 function sortearVocabulario() {
   // Verificar se há vocabulário disponível
-  if (vocabularioFiltrado.length === 0) {
-    alert('No vocabulary available for the selected level.');
-    return;
-  }
-
-  // Se não houver palavras ativas, recarregar do vocabulário filtrado
   if (vocabularioAtivo.length === 0) {
-    if (vocabularioUsado.length > 0) {
-      // Se já usamos todas as palavras, resetar
-      vocabularioAtivo = [...vocabularioUsado];
-      vocabularioUsado = [];
-    } else {
-      // Primeira vez usando, carregar do vocabulário filtrado
-      vocabularioAtivo = [...vocabularioFiltrado];
+    document.getElementById('vocabCard').style.display = 'none';
+    const vocabularyControls = document.getElementById('vocabularyControls');
+    const emptyMessage = vocabularyControls.querySelector('.empty-message');
+    if (!emptyMessage) {
+      vocabularyControls.insertAdjacentHTML('beforeend', `
+        <div class="empty-message">
+          <p>No more words left. Click "Reset Vocabulary" to start again.</p>
+        </div>
+      `);
     }
+    return;
   }
 
   // Sortear uma palavra aleatória
@@ -489,9 +493,12 @@ function sortearVocabulario() {
     return;
   }
 
-  // Remover a palavra sorteada do array ativo e adicionar ao usado
+  // Remover do ativo e colocar no usado
   vocabularioAtivo.splice(indiceSorteado, 1);
   vocabularioUsado.push(palavraSorteada);
+
+  // 👉 Guardar no histórico para permitir "voltar"
+  vocabularioHistorico.push(palavraSorteada);
 
   // Exibir a palavra
   exibirVocabulario(palavraSorteada);
@@ -499,6 +506,22 @@ function sortearVocabulario() {
   // Atualizar botões
   atualizarBotoes();
 }
+function voltarVocabulario() {
+  if (vocabularioHistorico.length < 2) {
+    alert("No previous word to return to.");
+    return;
+  }
+
+  // Remover a última sorteada
+  vocabularioHistorico.pop();
+
+  // Pegar a anterior
+  const palavraAnterior = vocabularioHistorico[vocabularioHistorico.length - 1];
+
+  // Mostrar de novo
+  exibirVocabulario(palavraAnterior);
+}
+
 function resetarVocabulario() {
   const nivel = document.getElementById('vocabLevelSelect').value;
 
@@ -855,10 +878,9 @@ function mostrarGramatica() {
   const topicSelect = document.getElementById('grammarSelect');
   const selectedTopic = topicSelect.value;
 
-  // Se estivermos no modo Random Topic mas já temos um tópico atual (de um exercício)
-  // usar esse tópico em vez de sortear um novo
-  if (selectedTopic === 'random' && currentGrammarTopic) {
-    // Usar o tópico atual do exercício em vez de sortear um novo
+  // 🔹 Usar o tópico atual do exercício (se existir)
+  let topic;
+  if (currentGrammarTopic) {
     topic = currentGrammarTopic;
   } else if (selectedTopic === 'random') {
     // Se não há tópico atual, sortear um
@@ -898,7 +920,6 @@ function mostrarGramatica() {
   document.getElementById('grammarPractice').style.display = 'none';
   grammarDisplay.style.display = 'block';
 
-  // 🔹 Ativar botão de voltar
   document.getElementById('btnVoltarExercicio').addEventListener('click', () => {
     grammarDisplay.style.display = 'none';
     document.getElementById('grammarPractice').style.display = 'block';
@@ -922,23 +943,17 @@ function praticarGramatica(forceRefresh = false) {
     return;
   }
 
-  let newGrammarTopic;
-
-  // Se for selecionado "Random", escolher um tópico aleatório
+  // 🔹 SEMPRE sortear um novo tópico se for "Random"
   if (selectedTopic === 'random') {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
-    newGrammarTopic = grammarTopics[randomIndex];
+    currentGrammarTopic = grammarTopics[randomIndex];
   } else {
-    newGrammarTopic = grammarTopics.find(t => t.topic === selectedTopic);
+    currentGrammarTopic = grammarTopics.find(t => t.topic === selectedTopic);
   }
 
-  if (!newGrammarTopic) return;
+  if (!currentGrammarTopic) return;
 
-  // Atualizar o tópico atual apenas se for diferente
-  // Esta é a chave: sempre atualizar o currentGrammarTopic com o tópico do exercício
-  currentGrammarTopic = newGrammarTopic;
-  
-  // SEMPRE começar com um exercício aleatório do tópico
+  // Sempre começar com um exercício aleatório do tópico atual
   currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
 
   if (!currentGrammarTopic.exercises || currentGrammarTopic.exercises.length === 0) {
@@ -1166,7 +1181,7 @@ function verificarExercicioComCaixas(correctAnswer) {
     feedbackElement.className = 'exercise-feedback incorrect';
 
     atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 4000);
+    setTimeout(proximoExercicio, 3000);
   }
 }
 
@@ -1632,7 +1647,7 @@ function verificarExercicioComCaixas(correctAnswer) {
     feedbackElement.className = 'exercise-feedback incorrect';
     const correct = document.getElementById('exerciseCorrectAnswer');
     if (correct) correct.style.display = 'block';
-    setTimeout(proximoExercicio, 4000);
+    setTimeout(proximoExercicio, 3000);
   }
 }
 function iniciarContagemRegressiva() {
@@ -2034,53 +2049,44 @@ function mostrarResposta() {
 }
 
 function proximoExercicio() {
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
+  if (correctEl) {
+    correctEl.style.display = 'none';
+  }
+
+  // 🔹 Se estiver no modo "Random", sortear um novo tópico
   const topicSelect = document.getElementById('grammarSelect');
-  const selectedTopic = topicSelect.value;
-  const modeSelect = document.getElementById('grammarModeSelect');
-  const selectedMode = modeSelect.value;
-
-  // Se estiver no modo Random Topic, escolher um novo tópico aleatório
-  if (selectedTopic === 'random') {
+  if (topicSelect.value === 'random') {
+    // Sortear novo tópico aleatório
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
-    const randomTopic = grammarTopics[randomIndex];
-
-    currentGrammarTopic = randomTopic;
-    // Escolher um exercício aleatório do novo tópico
-    currentExerciseIndex = Math.floor(Math.random() * currentGrammarTopic.exercises.length);
-
-    console.log(`Random topic selected: ${randomTopic.topic}`);
-  } else {
-    // Para tópicos específicos, avançar para o próximo exercício
-    // Mas escolher aleatoriamente em vez de sequencialmente
-    const exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
-    currentExerciseIndex = Math.floor(Math.random() * exerciciosFiltrados.length);
+    currentGrammarTopic = grammarTopics[randomIndex];
+    
+    // Recarregar exercícios do novo tópico
+    const modeSelect = document.getElementById('grammarModeSelect');
+    const selectedMode = modeSelect.value;
+    
+    let exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
+    grammarActiveExercises = [...exerciciosFiltrados];
+    
+    // Reiniciar índice do exercício
+    currentExerciseIndex = 0;
   }
 
-  // Limpar estilos e reativar campos
-  const gapInputs = document.querySelectorAll('.gap-input');
-  gapInputs.forEach(input => {
-    input.disabled = false;
-    input.style.borderColor = '';
-    input.style.backgroundColor = '';
-  });
-
-  const exerciseInput = document.getElementById('exerciseAnswer');
-  if (exerciseInput) {
-    exerciseInput.disabled = false;
-    exerciseInput.value = '';
+  if (grammarActiveExercises.length === 0) {
+    document.getElementById('exerciseContainer').innerHTML = `
+      <div class="empty-message">
+        <p>All exercises completed! 🎉</p>
+        <button class="reset-btn" onclick="resetarExercicios()">Reset Exercises</button>
+      </div>
+    `;
+    return;
   }
 
-  const inlineCheckBtn = document.getElementById('inlineCheckBtn');
-  if (inlineCheckBtn) {
-    inlineCheckBtn.disabled = false;
-  }
-
-  // Filtrar exercícios pelo modo selecionado
-  let exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
-
-  // Continuar com os exercícios FILTRADOS
-  iniciarExercicios(exerciciosFiltrados);
+  // Pega o primeiro exercício da fila
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  iniciarExercicios([exercise]);
 }
+
 
 function resetarExercicios() {
   grammarActiveExercises = [];
@@ -2250,11 +2256,29 @@ function sortearPhrasalVerb() {
   phrasalVerbsAtivos.splice(randomIndex, 1);
   phrasalVerbsUsados.push(currentPhrasalVerb);
 
+  phrasalHistorico.push(currentPhrasalVerb);
+
   // Exibir o phrasal verb
   exibirPhrasalVerb(currentPhrasalVerb);
 
   atualizarBotoes();
 }
+function voltarPhrasalVerb() {
+  if (phrasalHistorico.length < 2) {
+    alert("No previous phrasal verb to return to.");
+    return;
+  }
+
+  // Remover o último sorteado
+  phrasalHistorico.pop();
+
+  // Pegar o anterior
+  const phrasalAnterior = phrasalHistorico[phrasalHistorico.length - 1];
+
+  // Exibir novamente
+  exibirPhrasalVerb(phrasalAnterior);
+}
+
 
 
 // Na função exibirPhrasalVerb, altere para:
@@ -2471,148 +2495,160 @@ function verificarExercicioComLacunas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
   const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
   let allCorrect = true;
-  const feedbackElement = document.getElementById('exerciseFeedback');
 
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
-    const possibleAnswers = Array.isArray(answers[index])
-      ? answers[index].map(a => String(a).trim().toLowerCase())
-      : (answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : ['']);
+    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
+    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
 
-    const isCorrect = possibleAnswers.some(correct => userAnswer === String(correct).trim().toLowerCase());
-
-    if (isCorrect) {
-      input.style.borderColor = '#4CAF50';
-      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
-      input.style.color = '#2E7D32';
-    } else {
-      input.style.borderColor = '#F44336';
-      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
-      input.style.color = '#C62828';
+    if (!isCorrect) {
       allCorrect = false;
+      input.style.borderColor = '#F44336';
+    } else {
+      input.style.borderColor = '#4CAF50';
     }
     input.disabled = true;
   });
 
-  const inlineBtn = document.getElementById('inlineCheckBtn');
-  if (inlineBtn) inlineBtn.disabled = true;
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
 
   if (allCorrect) {
     grammarPoints++;
-    grammarActiveExercises.splice(currentExerciseIndex, 1);
-
-    feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correto! Parabéns!</span>';
-    feedbackElement.className = 'exercise-feedback correct';
-
-
-    setTimeout(proximoExercicio, 0.4);
+    grammarUsedExercises.push(exercise);
+    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove de vez
+    if (correctEl) correctEl.style.display = 'none';
   } else {
-    grammarErrors++; // volta pra pool
+    grammarErrors++;
+    // mover para o final da fila
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
 
-    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
-    feedbackElement.className = 'exercise-feedback incorrect';
-
-    // Mostrar resposta correta
-    const correct = document.getElementById('exerciseCorrectAnswer');
-    if (correct) correct.style.display = 'block';
-
-    atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 4000);
+    // Mostrar resposta correta composta
+    const respostasFormatadas = answers.map(a => (typeof a === 'string' ? a.replace(/\//g, ' ou ') : String(a))).join(' , ');
+    if (correctEl) {
+      correctEl.style.display = 'block';
+      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostasFormatadas}</span>`;
+    }
   }
 
+  atualizarPontuacaoGrammar();
+  
+  // 🔹 DIFERENCIAR TEMPO: 1.2s para acerto, 4s para erro
+  const delayTime = allCorrect ? 1200 : 3000;
+  setTimeout(proximoExercicio, delayTime);
 }
+
 
 function verificarExercicioComCaixas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
-  const answers = String(correctAnswer).split(',');
+  const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
   let allCorrect = true;
-  const feedbackElement = document.getElementById('exerciseFeedback');
 
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
-    const possibleAnswers = answers[index] ? answers[index].trim().toLowerCase().split('/') : [''];
-    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim().toLowerCase());
+    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
+    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
 
-    if (isCorrect) {
-      input.style.borderColor = '#4CAF50';
-      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
-    } else {
-      input.style.borderColor = '#F44336';
-      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
+    if (!isCorrect) {
       allCorrect = false;
+      input.style.borderColor = '#F44336';
+    } else {
+      input.style.borderColor = '#4CAF50';
     }
     input.disabled = true;
   });
 
-  const inlineBtn = document.getElementById('inlineCheckBtn');
-  if (inlineBtn) inlineBtn.disabled = true;
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
 
   if (allCorrect) {
     grammarPoints++;
-    grammarActiveExercises.splice(currentExerciseIndex, 1);
-
-    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
-    feedbackElement.className = 'exercise-feedback correct';
-
-    atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 1000);
+    grammarUsedExercises.push(exercise);
+    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove de vez
+    if (correctEl) correctEl.style.display = 'none';
   } else {
-  grammarErrors++;
+    grammarErrors++;
+    // mover para o final da fila
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
 
-  feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
-  feedbackElement.className = 'exercise-feedback incorrect';
-
-  // Mostrar resposta correta
-  const correct = document.getElementById('exerciseCorrectAnswer');
-  if (correct) correct.style.display = 'block';
+    // Mostrar resposta correta composta
+    const respostasFormatadas = answers.map(a => (typeof a === 'string' ? a.replace(/\//g, ' ou ') : String(a))).join(' , ');
+    if (correctEl) {
+      correctEl.style.display = 'block';
+      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostasFormatadas}</span>`;
+    }
+  }
 
   atualizarPontuacaoGrammar();
-  setTimeout(proximoExercicio, 4000);
-  }
-
+  
+  // 🔹 DIFERENCIAR TEMPO: 1.2s para acerto, 4s para erro
+  const delayTime = allCorrect ? 1200 : 3000;
+  setTimeout(proximoExercicio, delayTime);
 }
 
-function verificarExercicio() {
-  // Se for exercício com lacunas/caixas, delega:
-  const gaps = document.querySelectorAll('.gap-input');
-  if (gaps.length) {
-    const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
-    return verificarExercicioComLacunas(exercise.answer);
-  }
 
+function verificarExercicio() {
   const userAnswerElement = document.getElementById('exerciseAnswer');
   if (!userAnswerElement) return;
 
   const userAnswer = userAnswerElement.value.trim();
-  const feedbackElement = document.getElementById('exerciseFeedback');
-
   if (!userAnswer) {
-    feedbackElement.innerHTML = '<span style="color:#FF9800;font-weight:600;">⚠️ Por favor, digite uma resposta primeiro!</span>';
+    const feedbackElement = document.getElementById('exerciseFeedback');
+    feedbackElement.innerHTML = '<span style="color: #FF9800;">⚠️ Por favor, digite uma resposta primeiro!</span>';
     feedbackElement.className = 'exercise-feedback warning';
     return;
   }
 
-  const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
-  const possibleAnswers = Array.isArray(exercise.answer) ? exercise.answer : String(exercise.answer).split('/');
-  const normalizedUser = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  const isCorrect = possibleAnswers.some(a => normalizedUser === String(a).toLowerCase().replace(/\s+/g, ' ').trim());
+  const feedbackElement = document.getElementById('exerciseFeedback');
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  const possibleAnswers = obterRespostasValidas(exercise.answer);
+  const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
+
+  const isCorrect = possibleAnswers.some(correct => {
+    const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
+    return normalizedUserAnswer === normalizedCorrect;
+  });
+
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
 
   if (isCorrect) {
-    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
+    grammarPoints++;
+    grammarUsedExercises.push(exercise);
+    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove de vez
+
+    if (correctEl) {
+      correctEl.style.display = 'none';
+    }
+
+    feedbackElement.innerHTML = '<span style="color:#4CAF50;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
-    userAnswerElement.disabled = true;
-    const inlineBtn = document.getElementById('inlineCheckBtn'); if (inlineBtn) inlineBtn.disabled = true;
-    setTimeout(proximoExercicio, 0.4);
   } else {
-    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Incorreto. Tente novamente!</span>';
+    grammarErrors++;
+
+    // mover para o final da fila
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
+
+    // Mostrar resposta correta (formatada)
+    const respostaTexto = possibleAnswers.join(' ou ');
+    if (correctEl) {
+      correctEl.style.display = 'block';
+      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostaTexto}</span>`;
+    }
+
+    feedbackElement.innerHTML = '<span style="color:#F44336;">❌ Incorreto. Você verá este exercício novamente no final.</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
-    const correct = document.getElementById('exerciseCorrectAnswer');
-    if (correct) correct.style.display = 'block';
-    userAnswerElement.disabled = true;
-    const inlineBtn = document.getElementById('inlineCheckBtn'); if (inlineBtn) inlineBtn.disabled = true;
-    setTimeout(proximoExercicio, 4000);
   }
+
+  atualizarPontuacaoGrammar();
+  
+  // 🔹 DIFERENCIAR TEMPO: 1.2s para acerto, 4s para erro
+  const delayTime = isCorrect ? 1200 : 3000;
+  setTimeout(proximoExercicio, delayTime);
 }
+
 
 
 // --- INICIALIZAÇÃO ---
