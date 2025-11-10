@@ -27,48 +27,23 @@
           "question": "I __ my teeth three times a day. (brush)",
           "answer": "brush"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "My brother __ in a big hospital. (work)",
-          "answer": "works"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "We __ English on Mondays and Wednesdays. (study)",
-          "answer": "study"
-        },
+        
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "The sun __ in the east. (rise)",
           "answer": "rises"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "The train to London __ at 7:30 PM. (leave)",
-          "answer": "leaves"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "Cats __ for many hours during the day. (sleep)",
-          "answer": "sleep"
-        },
+       
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "I __ coffee in the morning. (not / like)",
           "answer": "do not like/ don't like"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "I __ coffee in the morning. (not / like)",
-          "answer": "do not like/don't like"
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -99,24 +74,9 @@
           "question": "My father __ the newspaper every morning. (read)",
           "answer": "reads"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "I __ this question. (not / understand)",
-          "answer": "do not understand/don't understand"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "The sun __ in the east. (rise)",
-          "answer": "rises"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "Water __ at 100 degrees Celsius. (boil)",
-          "answer": "boils"
-        },
+        
+       
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -282,18 +242,8 @@
           "question": "You __ a visa to enter this country. (not / need)",
           "answer": "do not need/don't need"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "She __ in this city. (not / live)",
-          "answer": "does not live/ doesn't live"
-        },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "She usually __ to music on her way to work. (listen)",
-          "answer": "listens"
-        },
+       
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -306,12 +256,7 @@
           "question": "He __ meat, he's a vegetarian. (not / eat)",
           "answer": "does not eat/doesn't eat"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "I __ my teeth three times a day. (brush)",
-          "answer": "brush"
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -369,12 +314,7 @@
           "question": "We __ meat because we're vegetarian. (not eat)",
           "answer": "don't eat/do not eat"
         },
-        {
-          "mode": "complete",
-          "instruction": "Choose the correct option.",
-          "question": "The sun __ in the east. (rise/rises)",
-          "answer": "rises"
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete with the correct form.",
@@ -393,12 +333,7 @@
           "question": "We __ English on Mondays and Wednesdays. (study)",
           "answer": "study"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "The sun __ in the east. (rise)",
-          "answer": "rises"
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -411,12 +346,7 @@
           "question": "Cats __ for many hours during the day. (sleep)",
           "answer": "sleep"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "I __ coffee in the morning. (not / like)",
-          "answer": "do not like/don't like"
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
@@ -471,12 +401,7 @@
           "question": "John __ the answer to the question. (not / know)",
           "answer": "does not know/doesn't know"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
-          "question": "Birds __ south for the winter. (fly)",
-          "answer": "fly"
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
@@ -571,6 +496,992 @@
           "instruction": "Complete the dialogues with the correct form of the verb TO BE.",
           "question": "A: __ it Saturday today? B: No, it __ Sunday.",
           "answer": "Is,is/'s"
+        },
+              {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Hello, I __ Peter. B: Nice to meet you, Peter. I __ Anna.",
+          "answer": "am/'m,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: How __ you feeling? B: I __ very well, thank you.",
+          "answer": "are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple. Use the pronouns given as a hint.",
+          "question": "Maria __ a doctor. (She) She __ very smart. (She)",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Where __ you from, Marco? B: I __ from Italy.",
+          "answer": "are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple. Pay attention to the subject.",
+          "question": "My brother and I __ students. (We) We __ in the same class.",
+          "answer": "are/'re,are/'re"
+        },
+        
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ a new student. B: Welcome! My name __ Clara.",
+          "answer": "am/'m,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Hello, __ you Mr. Davis? B: Yes, I __.",
+          "answer": "are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Excuse me, where __ the bus stop? B: It __ just around the corner.",
+          "answer": "is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ Sarah and Tom at the party? B: No, they __ sick at home.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ sorry, but this seat __ taken. B: Oh, no problem.",
+          "answer": "am/'m,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your birthday in June? B: No, it __ in July.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The instructions for this game __ very complicated. B: I think they __ quite simple.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ there any milk in the fridge? B: Yes, there __ some.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: You __ the new manager, right? B: That __ correct.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Why __ the stores closed today? B: It __ a national holiday.",
+          "answer": "are,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your car electric? B: No, it __ a hybrid.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My sisters __ both taller than me. B: Really? How tall __ they?",
+          "answer": "are/'re,are"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this train going to Central Station? B: Yes, it __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The movie __ starting in five minutes. B: Good, we __ just on time.",
+          "answer": "is/'s,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you ready to order? B: Yes, we __.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: His jokes __ always very funny. B: I agree, he __ a great comedian.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the meeting still on for today? B: No, it __ postponed until tomorrow.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ not very good at cooking. B: But your pasta __ always delicious!",
+          "answer": "am,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ these your sunglasses? B: Yes, they __. Thank you for finding them!",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The final exam __ next week. B: I know, I __ a bit nervous.",
+          "answer": "is/'s,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your apartment near the city center? B: Yes, it __ very convenient.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The mountains __ covered in snow. B: The view __ absolutely breathtaking.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ he aware of the problem? B: No, I think he __ completely unaware.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: We __ lost. B: Let me check the map on my phone. It __ right here.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your grandparents from Italy? B: No, they __ from Portugal.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The solution to this puzzle __ tricky. B: Actually, it __ quite easy once you see it.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you sure this is the right way? B: Yes, I __ positive.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My favorite subjects in school __ math and science. B: For me, they __ history and art.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the package from London here yet? B: No, it __ still in customs.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: You __ very quiet today. B: I __ just thinking about my vacation.",
+          "answer": "are/'re,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this your first visit to New York? B: No, it __ my third time here.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The flowers in the garden __ beautiful this time of year. B: Yes, they __.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the news always so depressing? B: Unfortunately, it often __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ allergic to cats. B: Oh, that __ too bad because I have two.",
+          "answer": "am/'m,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the boss in a good mood today? B: Yes, she __ very happy with our work.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The decisions we make now __ important for our future. B: I know, the pressure __ on.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your phone battery full? B: Yes, it __. I charged it all night.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The streets __ wet because it just rained. B: Yes, everything __ so fresh now.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you familiar with this software? B: No, I __ not. Can you show me?",
+          "answer": "Are,am"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My dream __ to travel around the world. B: That __ an excellent dream!",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the children asleep already? B: Yes, they __ very tired from the trip.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The main character in the book __ very brave. B: Yes, her story __ inspiring.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ we supposed to wear formal clothes? B: Yes, the invitation said it __ a black-tie event.",
+          "answer": "Are,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ not interested in watching horror movies. B: Neither __ I.",
+          "answer": "am,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the airport far from the city? B: No, it __ only a 20-minute drive.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Your ideas for the project __ very creative. B: Thank you, I __ glad you like them.",
+          "answer": "are/'re,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the windows open? It's cold in here. B: I'll check. Yes, they __.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The reason for his success __ his hard work. B: That __ true, he never gives up.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you happy with your new job? B: Yes, I __. It's perfect for me.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The cookies you baked __ amazing! B: I'm happy you like them. The recipe __ easy.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the concert free for students? B: Yes, it __. Just show your ID.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My keys __ missing. B: They __ probably in your coat pocket.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the meeting room available now? B: No, it __ occupied until 3 PM.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The stars __ very bright tonight. B: Yes, the sky __ clear.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this the last train to the city? B: I'm afraid it __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ confident we will win the game. B: I hope you __ right.",
+          "answer": "am/'m,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The rules for this competition __ very strict. B: Yes, they __ clearly written in the document.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your sister older or younger than you? B: She __ two years younger.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The water in the pool __ cold. B: Really? It __ perfect for me.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you coming to the meeting tomorrow? B: Yes, I __.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The results of the test __ available online. B: That __ convenient.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ he the owner of this restaurant? B: No, he __ just the manager.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My plans for the weekend __ still uncertain. B: Well, let me know what you decide.",
+          "answer": "are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the museum open on Mondays? B: No, it __ closed on Mondays.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The colors of the flag __ red, white, and blue. B: Yes, they __ very patriotic.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you afraid of flying? B: No, I __ not. I actually enjoy it.",
+          "answer": "Are,am"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The source of the problem __ still unknown. B: That __ worrying.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ these documents important? B: Yes, they __. Please keep them safe.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ grateful for your help. B: You __ welcome. It was my pleasure.",
+          "answer": "am/'m,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the coffee too strong for you? B: No, it __ just right.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The team's spirit __ high after the victory. B: Yes, they __ very motivated.",
+          "answer": "is/'s,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your passport valid for at least six months? B: Yes, it __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The instructions on the screen __ easy to follow. B: Good, I __ not very good with technology.",
+          "answer": "are/'re,am"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the neighbors making all that noise? B: Yes, they __ having a party.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The best time to visit __ during the spring. B: Yes, the weather __ perfect then.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you satisfied with the service? B: Yes, we __ very satisfied.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The path to the beach __ through those trees. B: Great, let's go!",
+          "answer": "is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the company's profits increasing this year? B: Yes, they __ up by 10%.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ curious about different cultures. B: That __ why you love traveling so much.",
+          "answer": "am/'m,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the lights in the basement working? B: No, they __ broken.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The most important thing __ your health. B: You __ absolutely right.",
+          "answer": "is/'s,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the software compatible with my computer? B: Yes, it __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My memories of that day __ still very clear. B: For me, they __ a bit blurry.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the customer always right? B: In our business, they __.",
+          "answer": "Is,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ not sure if I can attend. B: Please let us know as soon as you __ sure.",
+          "answer": "am,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the repairs on the bridge finished? B: No, they __ expected to take another week.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The sound from the speakers __ too loud. B: I agree, it __ disturbing everyone.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your hometown by the sea? B: No, it __ in the mountains.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The responsibilities of this job __ clearly listed in the description. B: That __ helpful.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you the one who called me earlier? B: Yes, I __.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The future of our planet __ in our hands. B: That __ a big responsibility.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the tickets for the concert expensive? B: Yes, they __ quite pricey.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ impressed by your work. B: Thank you, that __ very kind of you to say.",
+          "answer": "am/'m,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the bank open on Saturdays? B: Yes, but it __ only open until 1 PM.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The differences between the two models __ minor. B: So, either one __ a good choice.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you the person I need to speak to about my account? B: Yes, that __ me.",
+          "answer": "Are,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The keys to the car __ on the hook by the door. B: Oh, yes, there they __.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the situation under control? B: Yes, everything __ fine now.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My favorite thing about Sundays __ the relaxed atmosphere. B: Mine __ the big family breakfast.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ all the participants here? B: Yes, everyone __ present.",
+          "answer": "Are,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The risks involved __ too high. B: I think they __ acceptable.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this street safe at night? B: Yes, it __ a very quiet neighborhood.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ convinced that this is the right decision. B: I __ glad to hear that.",
+          "answer": "am/'m,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The requirements for the job __ listed on the website. B: Good, I will check them.",
+          "answer": "are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the manager available to see me now? B: Let me see if she __ in her office.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The stories he tells __ always fascinating. B: Yes, he __ a great storyteller.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you responsible for this project? B: Yes, I __.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The answer to your question __ in chapter five. B: Thank you, I will look it up.",
+          "answer": "is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the computers in the lab working properly? B: No, some of them __ very slow today.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My main concern __ the cost of the project. B: That __ also our main concern.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the hotel close to the beach? B: Yes, it __ only a two-minute walk.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The results __ better than we expected. B: Yes, they __ excellent!",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you the owner of this dog? B: Yes, he __ my dog. His name is Max.",
+          "answer": "Are,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The purpose of this meeting __ to discuss the new policy. B: Okay, let's begin.",
+          "answer": "is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the shelves sturdy enough for these heavy books? B: Yes, they __ made of strong wood.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ aware of the rules. B: Good, because they __ very important.",
+          "answer": "am/'m,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the flight from Paris on time? B: Yes, it __ landing now.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The advantages of this method __ obvious. B: Yes, they __.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this the right way to hold the guitar? B: Yes, that __ correct.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My feelings for you __ still the same. B: That __ wonderful to hear.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the documents signed and ready? B: Yes, they __ on your desk.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The best part of the movie __ the ending. B: I agree, it __ surprising.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you sure you want to do this? B: Yes, I __ completely sure.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The walls of the old castle __ very thick. B: Yes, they __ over 500 years old.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: How __ your mother today? B: She __ very well, thank you.",
+          "answer": "is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you from Spain? B: No, we __ from Mexico.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Where __ my notebook? B: It __ on your desk.",
+          "answer": "is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ he a good soccer player? B: Yes, he __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The books __ very interesting. B: Yes, they __.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ it cold outside? B: No, it __. It __ quite warm.",
+          "answer": "Is,isn't/is not,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Why __ you sad? B: I __ worried about the test.",
+          "answer": "are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your parents at home? B: No, they __ at work.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: What time __ the meeting? B: It __ at 3 o'clock.",
+          "answer": "is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ sure this is the right address. B: Okay, good.",
+          "answer": "am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this your first time here? B: Yes, it __.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My favorite color __ blue. B: Really? Mine __ green.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The children __ in the garden. B: Great! They __ happy playing outside.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the supermarket open now? B: No, I think it __ closed.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: You __ very kind to help me. B: It __ my pleasure.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ I in the right room for the English class? B: Yes, you __.",
+          "answer": "Am,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: His name __ Robert, but we all call him Bob. B: That __ a nice nickname.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: We __ late! The movie starts in 5 minutes. B: Don't worry, we __ almost there.",
+          "answer": "are/'re,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ she your sister? B: No, she __ my cousin.",
+          "answer": "Is,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The answer __ correct. B: Are you sure? It __ different from mine.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: How old __ you? B: I __ 25 years old.",
+          "answer": "are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The windows __ clean now. B: Good, the room __ much brighter.",
+          "answer": "are/'re,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ you hungry? B: No, I __ thirsty.",
+          "answer": "Are,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Brazil __ a beautiful country. B: Yes, the people __ very friendly too.",
+          "answer": "is/'s,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: My keys __ not in my bag. B: They __ on the kitchen table.",
+          "answer": "are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ the students in the library? B: No, they __ in the classroom.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: Today __ Monday. B: Already? The weekend __ over so quickly!",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: I __ not afraid of the dark. B: But I __!",
+          "answer": "am,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ your phone number 555-1234? B: No, it __. That __ the old number.",
+          "answer": "Is,isn't/is not,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: The coffee __ hot. Be careful. B: Thanks, I __ always careful.",
+          "answer": "is/'s,am/'m"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: __ this your book? B: No, it __. My book __ over there.",
+          "answer": "Is,isn't/is not,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple. Use the contractions when possible.",
+          "question": "A: __ they ready to leave? B: Yes, they __.",
+          "answer": "Are,are/'re"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "The weather today __ fantastic! It __ a perfect day for the beach.",
+          "answer": "is/'s,is/'s"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple. Pay attention to the negative form.",
+          "question": "A: __ you tired? B: No, I __. I __ full of energy!",
+          "answer": "Are,'m not/am not,am/'m"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
+          "question": "A: What __ your profession? B: I __ an engineer.",
+          "answer": "is,am/'m"
         },
         {
           "mode": "complete",
@@ -1202,11 +2113,7 @@
           "question": "She __ a new car last month. (buy)",
           "answer": "bought"
         },
-        {
-          "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
-          "question": "They __ the film at all. (not / enjoy)",
-          "answer": "didn't enjoy/did not enjoy"
-        },
+       
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",
