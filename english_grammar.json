@@ -41,7 +41,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "I __ coffee in the morning. (not / like)",
-          "answer": "do not like/ don't like"
+          "answer": "do not like/ don't like/ dont like"
         },
         
         {
@@ -60,7 +60,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "She __ meat because she's vegetarian. (not / eat)",
-          "answer": "does not eat/doesn't eat"
+          "answer": "does not eat/doesn't eat/ doesnt eat"
         },
         {
           "mode": "complete",
@@ -87,13 +87,13 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "Cats __ water. (not / like)",
-          "answer": "do not like/don't like"
+          "answer": "do not like/don't like/ dont like"
         },
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "We __ the answer to that question. (not / know)",
-          "answer": "do not know/don't know"
+          "answer": "do not know/don't know/ dont know"
         },
         {
           "mode": "complete",
@@ -105,7 +105,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "They __ in ghosts. (not / believe)",
-          "answer": "do not believe/don't believe"
+          "answer": "do not believe/don't believe/ dont believe"
         },
         {
           "mode": "complete",
@@ -117,7 +117,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "They __ TV in the morning. (not / watch)",
-          "answer": "do not watch/don't watch"
+          "answer": "do not watch/don't watch/ dont watch"
         },
         {
           "mode": "complete",
@@ -129,7 +129,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "I __ French very well. (not / speak)",
-          "answer": "do not speak/don't speak"
+          "answer": "do not speak/don't speak/ dont speak"
         },
         {
           "mode": "complete",
@@ -141,7 +141,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "We __ classes on weekends. (not / have)",
-          "answer": "do not have/don't have"
+          "answer": "do not have/don't have/ dont have"
         },
         {
           "mode": "complete",
@@ -155,15 +155,7 @@
           "question": "Children __ to play in the park. (love)",
           "answer": "love"
         },
-        {
-          "mode": "complete",
-          "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
-          "question": "She __ coffee, she __ tea. (not / drink / prefer)",
-          "answer": [
-            "does not drink",
-            "doesn't drink/prefers"
-          ]
-        },
+        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -177,7 +169,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "He __ cigarettes. (not / smoke)",
-          "answer": "does not smoke/doesn't smoke"
+          "answer": "does not smoke/doesn't smoke/ doesnt smoke"
         },
         {
           "mode": "complete",
@@ -189,7 +181,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "She __ on Sundays. (not / work)",
-          "answer": "does not work/doesn't work"
+          "answer": "does not work/doesn't work/ doesnt work"
         },
         {
           "mode": "complete",
@@ -201,7 +193,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "We __ to the gym every day. (not / go)",
-          "answer": "do not go/don't go"
+          "answer": "do not go/don't go/ dont go"
         },
         {
           "mode": "complete",
@@ -216,7 +208,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "I __ breakfast in the morning. (not / eat)",
-          "answer": "do not eat/don't eat"
+          "answer": "do not eat/don't eat/ dont eat"
         },
         {
           "mode": "complete",
@@ -228,7 +220,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "They __ spicy food. (not / like)",
-          "answer": "do not like/don't like"
+          "answer": "do not like/don't like/ dont like"
         },
         {
           "mode": "complete",
@@ -240,7 +232,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "You __ a visa to enter this country. (not / need)",
-          "answer": "do not need/don't need"
+          "answer": "do not need/don't need/ dont need"
         },
        
         
@@ -254,7 +246,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "He __ meat, he's a vegetarian. (not / eat)",
-          "answer": "does not eat/doesn't eat"
+          "answer": "does not eat/doesn't eat/ doesnt eat"
         },
         
         {
@@ -279,7 +271,7 @@
           "mode": "complete",
           "instruction": "Complete with the negative form.",
           "question": "She __ on Sundays. (not work)",
-          "answer": "doesn't work/does not work"
+          "answer": "doesn't work/does not work/ doesnt work"
         },
         {
           "mode": "complete",
@@ -291,7 +283,7 @@
           "mode": "complete",
           "instruction": "Choose the correct form.",
           "question": "He __ like coffee. (don't/doesn't)",
-          "answer": "doesn't"
+          "answer": "doesn't/does not/doesnt"
         },
         {
           "mode": "complete",
@@ -305,14 +297,14 @@
           "question": "__ your sister work here? No, she __.",
           "answer": [
             "Does",
-            "doesn't"
+            "doesn't/does not/doesnt"
           ]
         },
         {
           "mode": "complete",
           "instruction": "Complete the sentence.",
           "question": "We __ meat because we're vegetarian. (not eat)",
-          "answer": "don't eat/do not eat"
+          "answer": "don't eat/do not eat/ dont eat"
         },
         
         {
@@ -325,7 +317,7 @@
           "mode": "complete",
           "instruction": "Complete with the negative form.",
           "question": "It __ much in the desert. (not rain)",
-          "answer": "doesn't rain/does not rain"
+          "answer": "doesn't rain/does not rain/ doesnt rain"
         },
         {
           "mode": "complete",
@@ -351,7 +343,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "She __ in this city. (not / live)",
-          "answer": "does not live/doesn't live"
+          "answer": "does not live/doesn't live/ doesnt live"
         },
         {
           "mode": "complete",
@@ -363,7 +355,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "We __ TV after 10 PM. (not / watch)",
-          "answer": "do not watch/don't watch"
+          "answer": "do not watch/don't watch/ dont watch"
         },
         {
           "mode": "complete",
@@ -375,7 +367,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "It __ much in the desert. (not / rain)",
-          "answer": "does not rain/doesn't rain"
+          "answer": "does not rain/doesn't rain/ doesnt rain"
         },
         {
           "mode": "complete",
@@ -387,7 +379,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "You __ Spanish, do you?. (not / speak)",
-          "answer": "do not speak/don't speak"
+          "answer": "do not speak/don't speak/ dont speak"
         },
         {
           "mode": "complete",
@@ -399,14 +391,14 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "John __ the answer to the question. (not / know)",
-          "answer": "does not know/doesn't know"
+          "answer": "does not know/doesn't know/ doesnt know"
         },
         
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "I __ this lesson. (not / understand)",
-          "answer": "do not understand/don't understand"
+          "answer": "do not understand/don't understand/ dont understand"
         },
         {
           "mode": "complete",
@@ -418,7 +410,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "They __ his story. (not / believe)",
-          "answer": "do not believe/don't believe"
+          "answer": "do not believe/don't believe/ dont believe"
         },
         {
           "mode": "complete",
@@ -430,7 +422,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "He __ glasses. (not / wear)",
-          "answer": "does not wear/doesn't wear"
+          "answer": "does not wear/doesn't wear/ doesnt wear"
         },
         {
           "mode": "complete",
@@ -442,7 +434,7 @@
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "This phone __ properly. (not / work)",
-          "answer": "does not work/doesn't work"
+          "answer": "does not work/doesn't work/ doesnt work"
         }
       ]
     },
