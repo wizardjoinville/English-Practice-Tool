@@ -1,6 +1,830 @@
 [
   {
     "level": "A1",
+    "question": "Do you like mornings?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like afternoons?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like evenings?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like nights?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you do in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you do in the afternoon?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you do at night?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you leave home?"
+  },
+  {
+    "level": "A1",
+    "question": "What time do you arrive home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you eat lunch at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you eat lunch at work or school?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you drink water every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you drink juice every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you drink soda?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like milk?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you eat fruit every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you eat vegetables every day?"
+  },
+  {
+    "level": "A1",
+    "question": "What fruit do you eat most?"
+  },
+  {
+    "level": "A1",
+    "question": "What vegetable do you eat most?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like bread?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like rice?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like beans?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like pasta?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like soup?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you eat for dinner?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you cook every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Who cooks in your house?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you help in the kitchen?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you wash the dishes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you clean your room?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you make your bed?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you live with your parents?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you live with friends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you live alone?"
+  },
+  {
+    "level": "A1",
+    "question": "How many rooms are there in your home?"
+  },
+  {
+    "level": "A1",
+    "question": "Is your home big?"
+  },
+  {
+    "level": "A1",
+    "question": "Is your home small?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like your home?"
+  },
+  {
+    "level": "A1",
+    "question": "What is your favorite place at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have a TV at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you watch TV at night?"
+  },
+  {
+    "level": "A1",
+    "question": "What do you watch on TV?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you watch series?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you watch movies at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use streaming apps?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use your phone a lot?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use your phone in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use your phone at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you send messages every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you read messages every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you answer messages fast?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like phone calls?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer messages or calls?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use social media?"
+  },
+  {
+    "level": "A1",
+    "question": "Which social media do you use?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you post photos?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like taking selfies?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you follow your friends online?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like emojis?"
+  },
+  {
+    "level": "A1",
+    "question": "Which emoji do you use most?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen to music every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen to music in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen to music at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen to music while studying?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen to music while working?"
+  },
+  {
+    "level": "A1",
+    "question": "What music do you listen to today?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like calm music?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like fast music?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sing in English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sing in the shower?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like your voice?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like learning English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study English every week?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study English at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study English alone?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study English with friends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you practice English outside class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you speak English in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you understand simple English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you ask questions in English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like English classes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like your English teacher?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you bring your notebook to class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you bring a pen to class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you write a lot in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you read in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen carefully in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like group activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like pair activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like speaking activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like listening activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like writing activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you arrive early to class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you arrive on time to class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you arrive late sometimes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you miss classes sometimes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like homework?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you do your homework alone?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you do your homework at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you do your homework on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you check your homework?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like tests?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel nervous in tests?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel calm in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel comfortable speaking English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel shy speaking English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel confident today?"
+  },
+  {
+    "level": "A1",
+    "question": "How do you feel right now?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you relaxed now?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you focused now?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you sleepy now?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you hungry now?"
+  },
+  {
+    "level": "A1",
+    "question": "Are you thirsty now?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you need water now?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you need a break?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you need help now?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you understand the question?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to repeat the question?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to try again?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to answer?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to ask something?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to practice more?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to learn new words?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to improve your English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to speak more English?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to listen more?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to read more?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you want to write more?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like challenges?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like easy activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like difficult activities?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like games in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like learning with games?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like videos in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like songs in class?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like repetition?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like examples?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like explanations?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like practicing a lot?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like learning slowly?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like learning fast?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like studying every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you study at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer short classes or long classes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you prefer online classes or in-person classes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like working?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work during the week?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work in the afternoon?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you work at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like your job?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like your coworkers?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you talk to people at work?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use a computer at work?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use English at work?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you meet new people often?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like meeting new people?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you talk a lot during the day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you listen more than you speak?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like quiet places?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like busy places?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like noise?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like silence?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like staying at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like going out?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you go out on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you go out with friends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you visit your family often?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you call your family often?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you send messages to your family?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have family nearby?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like family gatherings?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you eat with your family?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have breakfast at home?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you have dinner with your family?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like simple food?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like sweet food?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like salty food?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like hot food?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like cold food?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like trying new things?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you repeat the same routine every day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like routines?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like changes?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you plan your day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you wake up early on weekdays?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you wake up late on weekends?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use an alarm clock?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you snooze the alarm?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you check your phone first thing in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you drink coffee in the morning?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you drink tea at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you relax at night?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you watch TV before bed?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you use your phone before bed?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you read before bed?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sleep well?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you sleep enough hours?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel tired during the day?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you take naps?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you like naps?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel productive today?"
+  },
+  {
+    "level": "A1",
+    "question": "Do you feel motivated today?"
+  },
+  {
+    "level": "A1",
     "question": "What is your name?"
   },
   {
@@ -765,6 +1589,726 @@
   },
   {
     "level": "A2",
+    "question": "What do you usually do after work or school?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do before going to bed?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do on Friday nights?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do on Sunday mornings?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do when you feel tired?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do when you feel stressed?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do to relax?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do to have fun?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do during the week?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you usually do on weekends?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you exercise?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you cook at home?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you eat out?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you meet your friends?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you talk to your family?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you use English outside class?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you watch movies?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you watch series?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you listen to music?"
+  },
+  {
+    "level": "A2",
+    "question": "How often do you read books?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of music do you usually listen to?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of movies do you like most?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of food do you prefer?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of activities do you enjoy?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of places do you like to visit?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of people do you like to work with?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of games do you like?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of apps do you use every day?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of videos do you watch online?"
+  },
+  {
+    "level": "A2",
+    "question": "What kind of posts do you like on social media?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer studying in the morning or at night?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer staying at home or going out?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer watching movies or series?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer coffee or tea in the morning?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer sweet food or salty food?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer working alone or in a group?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer easy tasks or challenging tasks?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer short breaks or long breaks?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer reading or listening?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you prefer talking or writing in English?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you like learning English?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you study English now?"
+  },
+  {
+    "level": "A2",
+    "question": "Why is English important for you?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you think English is useful?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do people learn English?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you like your job or school?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you like your city?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you like your favorite place?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you like your favorite food?"
+  },
+  {
+    "level": "A2",
+    "question": "Why do you like your favorite activity?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do yesterday morning?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do yesterday afternoon?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do last night?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you eat yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you watch last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you study last week?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do after class yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do before going to bed yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do last Friday?"
+  },
+  {
+    "level": "A2",
+    "question": "What did you do last Sunday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you work yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you study yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you cook yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you clean your house last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you watch TV yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you use your phone a lot yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you talk to your friends yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you go out last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you stay at home last night?"
+  },
+  {
+    "level": "A2",
+    "question": "Did you wake up early today?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your day yesterday?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your morning today?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your English class last week?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last test?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last vacation?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last holiday?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last trip?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last workday?"
+  },
+  {
+    "level": "A2",
+    "question": "How was your last class?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do after class?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do tomorrow morning?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do this weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do next week?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to study next?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to watch later?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to eat tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to do on your next day off?"
+  },
+  {
+    "level": "A2",
+    "question": "What are you going to practice in English?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to travel this year?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to study English next year?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to change your routine?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to try something new soon?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to rest this weekend?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to work tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to wake up early tomorrow?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to meet friends soon?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to stay at home tonight?"
+  },
+  {
+    "level": "A2",
+    "question": "Are you going to watch something later?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you are tired at work?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you have free time?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you finish your work early?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you feel bored?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you feel happy?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you feel stressed?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you don’t understand something in class?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you make a mistake?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you forget something important?"
+  },
+  {
+    "level": "A2",
+    "question": "What do you do when you have a problem?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually plan your day?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually wake up at the same time?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually eat at the same time every day?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually check your phone in the morning?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually watch TV at night?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually listen to music while working?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually study alone or with someone?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually take notes in class?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually review after class?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually practice English at home?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually speak English in class?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you usually feel confident speaking English?"
+  },
+  {
+    "level": "A2",
+    "question": "Do you feel more confident now than before?"
+  },
+  {
+    "level": "A2",
+    "question": "Is English easier for you now?"
+  },
+  {
+    "level": "A2",
+    "question": "Is English more interesting now?"
+  },
+  {
+    "level": "A2",
+    "question": "Is English more difficult than you expected?"
+  },
+  {
+    "level": "A2",
+    "question": "Is English useful in your daily life?"
+  },
+  {
+    "level": "A2",
+    "question": "Is English important for your future plans?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it easy for you to learn new words?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it difficult for you to remember vocabulary?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it easy for you to understand listening activities?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it hard for you to speak English?"
+  },
+  {
+    "level": "A2",
+    "question": "Is it easier to read or to listen in English?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you learn English better?"
+  },
+  {
+    "level": "A2",
+    "question": "What makes learning English difficult for you?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you remember new words?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you stay focused in class?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you relax after a long day?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you feel motivated?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you learn faster?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you practice English more?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you understand English better?"
+  },
+  {
+    "level": "A2",
+    "question": "What helps you speak English with confidence?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually talk to during the day?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually spend time with on weekends?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually study with?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually ask for help?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually message first in the morning?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually talk to at work or school?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually relax with?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually share news with?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually have dinner with?"
+  },
+  {
+    "level": "A2",
+    "question": "Who do you usually spend your free time with?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually go on weekends?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually relax?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually study?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually have lunch?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually meet your friends?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually go after work or school?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually spend your evenings?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually go to have fun?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually go when you want to relax?"
+  },
+  {
+    "level": "A2",
+    "question": "Where do you usually go on your days off?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually go to work or school?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually feel on Monday mornings?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually feel on Friday nights?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually organize your day?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually relax at home?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually spend your free time?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually study English?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually practice new words?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually prepare for tests?"
+  },
+  {
+    "level": "A2",
+    "question": "How do you usually solve problems at work or school?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you want to improve in your routine?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you want to change in your habits?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you want to learn better?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you enjoy doing alone?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you enjoy doing with others?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you do every day without thinking?"
+  },
+  {
+    "level": "A2",
+    "question": "What is something you do to feel better?"
+  },
+  {
+    "level": "A2",
     "question": "Do you want to move to another city?"
   },
   {
@@ -1135,10 +2679,7 @@
     "level": "A1",
     "question": "Are you a student?"
   },
-  {
-    "level": "A1",
-    "question": "Is your city big or small?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you want to give me an example?"
@@ -1653,10 +3194,7 @@
     "level": "A1",
     "question": "Do you like to talk to your classmates in the morning?"
   },
-  {
-    "level": "A1",
-    "question": "Why do you like to write stories or letters?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you usually pay for things by cash or card?"
@@ -1685,10 +3223,7 @@
     "level": "A1",
     "question": "Do you arrive at school early or late?"
   },
-  {
-    "level": "A1",
-    "question": "Do you pay attention in class?"
-  },
+  
   {
     "level": "A2",
     "question": "Where do you and your friends / family usually have fun?"
@@ -4711,8 +6246,739 @@
     "level": "A2",
     "question": "What was your friend doing when you called them?"
   },
-
-  
+  {
+    "level": "B1",
+    "question": "How do you usually organize your week?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you balance work or study with your personal life?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you decide what is important in your day?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually deal with stress?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually relax after a long day?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually spend your free time during the week?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually spend your weekends?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your routine changed in the last few years?"
+  },
+  {
+    "level": "B1",
+    "question": "How did your routine change after you started studying English?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you feel when your routine changes suddenly?"
+  },
+  {
+    "level": "B1",
+    "question": "What activities help you feel more productive?"
+  },
+  {
+    "level": "B1",
+    "question": "What activities help you relax the most?"
+  },
+  {
+    "level": "B1",
+    "question": "What activities do you enjoy even when you are tired?"
+  },
+  {
+    "level": "B1",
+    "question": "What activities do you avoid when you feel stressed?"
+  },
+  {
+    "level": "B1",
+    "question": "What habits help you stay focused?"
+  },
+  {
+    "level": "B1",
+    "question": "What habits would you like to change?"
+  },
+  {
+    "level": "B1",
+    "question": "What habits are difficult for you to keep?"
+  },
+  {
+    "level": "B1",
+    "question": "What habits are easy for you to maintain?"
+  },
+  {
+    "level": "B1",
+    "question": "What habits did you develop recently?"
+  },
+  {
+    "level": "B1",
+    "question": "What habits did you stop doing?"
+  },
+  {
+    "level": "B1",
+    "question": "What motivates you to study or work every day?"
+  },
+  {
+    "level": "B1",
+    "question": "What motivates you to learn new things?"
+  },
+  {
+    "level": "B1",
+    "question": "What motivates you when you feel tired?"
+  },
+  {
+    "level": "B1",
+    "question": "What makes a day feel productive for you?"
+  },
+  {
+    "level": "B1",
+    "question": "What makes a day feel stressful for you?"
+  },
+  {
+    "level": "B1",
+    "question": "What usually distracts you when you are studying?"
+  },
+  {
+    "level": "B1",
+    "question": "What helps you concentrate better?"
+  },
+  {
+    "level": "B1",
+    "question": "What makes it difficult to stay focused?"
+  },
+  {
+    "level": "B1",
+    "question": "What makes you lose track of time?"
+  },
+  {
+    "level": "B1",
+    "question": "What makes you feel satisfied at the end of the day?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is routine in your life?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is free time for you?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is rest for your productivity?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is learning for your future?"
+  },
+  {
+    "level": "B1",
+    "question": "How important is English in your life now?"
+  },
+  {
+    "level": "B1",
+    "question": "How important was English for you in the past?"
+  },
+  {
+    "level": "B1",
+    "question": "How has learning English changed your confidence?"
+  },
+  {
+    "level": "B1",
+    "question": "How has learning English helped you personally?"
+  },
+  {
+    "level": "B1",
+    "question": "How has learning English helped you professionally?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your English improved since you started studying?"
+  },
+  {
+    "level": "B1",
+    "question": "What was difficult for you when you started learning English?"
+  },
+  {
+    "level": "B1",
+    "question": "What is easier for you now than before?"
+  },
+  {
+    "level": "B1",
+    "question": "What is still challenging for you in English?"
+  },
+  {
+    "level": "B1",
+    "question": "What skills do you want to improve next?"
+  },
+  {
+    "level": "B1",
+    "question": "What strategies help you learn better?"
+  },
+  {
+    "level": "B1",
+    "question": "What strategies do not work well for you?"
+  },
+  {
+    "level": "B1",
+    "question": "What kind of activities help you remember vocabulary?"
+  },
+  {
+    "level": "B1",
+    "question": "What kind of activities help you speak more confidently?"
+  },
+  {
+    "level": "B1",
+    "question": "What kind of practice helps you improve listening?"
+  },
+  {
+    "level": "B1",
+    "question": "What kind of mistakes do you make most often?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually correct your mistakes?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you feel when you make mistakes?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you feel when you speak English in public?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you feel when people don’t understand you?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you react when someone corrects you?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually ask for clarification?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually explain something you don’t know well?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually give your opinion?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually disagree politely?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually agree with someone?"
+  },
+  {
+    "level": "B1",
+    "question": "What topics are easy for you to talk about?"
+  },
+  {
+    "level": "B1",
+    "question": "What topics are difficult for you to talk about?"
+  },
+  {
+    "level": "B1",
+    "question": "What topics do you enjoy discussing?"
+  },
+  {
+    "level": "B1",
+    "question": "What topics do you avoid discussing?"
+  },
+  {
+    "level": "B1",
+    "question": "What conversations make you feel confident?"
+  },
+  {
+    "level": "B1",
+    "question": "What conversations make you feel uncomfortable?"
+  },
+  {
+    "level": "B1",
+    "question": "What was a good conversation you had recently?"
+  },
+  {
+    "level": "B1",
+    "question": "What was a difficult conversation you had recently?"
+  },
+  {
+    "level": "B1",
+    "question": "Who do you usually feel comfortable talking to?"
+  },
+  {
+    "level": "B1",
+    "question": "Who do you usually avoid talking to?"
+  },
+  {
+    "level": "B1",
+    "question": "Who influences your decisions the most?"
+  },
+  {
+    "level": "B1",
+    "question": "Who supports you when you have a problem?"
+  },
+  {
+    "level": "B1",
+    "question": "Who do you usually ask for advice?"
+  },
+  {
+    "level": "B1",
+    "question": "Who do you usually share good news with?"
+  },
+  {
+    "level": "B1",
+    "question": "Who do you usually share problems with?"
+  },
+  {
+    "level": "B1",
+    "question": "Who helped you recently?"
+  },
+  {
+    "level": "B1",
+    "question": "Who did you help recently?"
+  },
+  {
+    "level": "B1",
+    "question": "Who do you admire and why?"
+  },
+  {
+    "level": "B1",
+    "question": "Who inspires you to improve?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you feel most comfortable?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you feel most productive?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you usually go to relax?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you usually go when you need to focus?"
+  },
+  {
+    "level": "B1",
+    "question": "Where did you go last time you needed a break?"
+  },
+  {
+    "level": "B1",
+    "question": "Where would you like to spend more time?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you feel more motivated to work or study?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you usually meet people?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you prefer to spend your weekends?"
+  },
+  {
+    "level": "B1",
+    "question": "Where do you feel more like yourself?"
+  },
+  {
+    "level": "B1",
+    "question": "When do you feel most energetic during the day?"
+  },
+  {
+    "level": "B1",
+    "question": "When do you feel least productive?"
+  },
+  {
+    "level": "B1",
+    "question": "When do you usually feel stressed?"
+  },
+  {
+    "level": "B1",
+    "question": "When do you usually feel relaxed?"
+  },
+  {
+    "level": "B1",
+    "question": "When do you feel proud of yourself?"
+  },
+  {
+    "level": "B1",
+    "question": "When did you last feel really motivated?"
+  },
+  {
+    "level": "B1",
+    "question": "When did you last feel challenged?"
+  },
+  {
+    "level": "B1",
+    "question": "When did you last feel satisfied with your work?"
+  },
+  {
+    "level": "B1",
+    "question": "When did you last learn something important?"
+  },
+  {
+    "level": "B1",
+    "question": "When did you last change your mind about something?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think routines are important?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think breaks are necessary?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think learning never really stops?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think people feel stressed today?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think people have difficulty relaxing?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think people avoid making mistakes?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think communication is important?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think misunderstandings happen?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think learning English takes time?"
+  },
+  {
+    "level": "B1",
+    "question": "Why do you think practice is important?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you learn recently that surprised you?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you do recently that made you proud?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you do recently that was difficult?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you do recently that was new for you?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you change recently in your routine?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you stop doing recently?"
+  },
+  {
+    "level": "B1",
+    "question": "What did you start doing recently?"
+  },
+  {
+    "level": "B1",
+    "question": "What was the last thing that made you think deeply?"
+  },
+  {
+    "level": "B1",
+    "question": "What was the last decision you made quickly?"
+  },
+  {
+    "level": "B1",
+    "question": "What was the last decision you made carefully?"
+  },
+  {
+    "level": "B1",
+    "question": "What was a challenge you faced recently?"
+  },
+  {
+    "level": "B1",
+    "question": "What was something difficult you learned to do?"
+  },
+  {
+    "level": "B1",
+    "question": "What was something easy you expected to be hard?"
+  },
+  {
+    "level": "B1",
+    "question": "What was something harder than you expected?"
+  },
+  {
+    "level": "B1",
+    "question": "What was something easier than you expected?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you are working on improving?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you are proud of achieving?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you are still learning?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to do better?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to understand better?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to practice more?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to stop doing?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to start doing?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to change in your routine?"
+  },
+  {
+    "level": "B1",
+    "question": "What is something you want to keep the same?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually make decisions?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually solve problems?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually deal with difficult situations?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually react to unexpected changes?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually prepare for important tasks?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually manage your time?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually prioritize tasks?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually handle pressure?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually stay motivated?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually recover from a bad day?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually support other people?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually ask for help?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually offer help?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually express your feelings?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually express your opinions?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually explain your ideas?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually organize your thoughts?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually reflect on your day?"
+  },
+  {
+    "level": "B1",
+    "question": "How do you usually evaluate your progress?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your perspective changed over time?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your way of thinking changed?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your confidence changed recently?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your routine changed this year?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your lifestyle changed recently?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your way of learning changed?"
+  },
+  {
+    "level": "B1",
+    "question": "How has your relationship with learning changed?"
+  },
+  {
+    "level": "B1",
+    "question": "How has technology changed your routine?"
+  },
+  {
+    "level": "B1",
+    "question": "How has technology helped you learn?"
+  },
+  {
+    "level": "B1",
+    "question": "How has technology made things harder?"
+  },
+  {
+    "level": "B1",
+    "question": "What will you probably do differently in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "What will you focus on improving next?"
+  },
+  {
+    "level": "B1",
+    "question": "What will help you reach your goals?"
+  },
+  {
+    "level": "B1",
+    "question": "What will be important for you in the future?"
+  },
+  {
+    "level": "B1",
+    "question": "What will make you feel successful?"
+  },
+  {
+    "level": "B1",
+    "question": "What will help you stay motivated long-term?"
+  },
+  {
+    "level": "B1",
+    "question": "What will you do if you feel discouraged?"
+  },
+  {
+    "level": "B1",
+    "question": "What will you do if you feel overwhelmed?"
+  },
+  {
+    "level": "B1",
+    "question": "What will you do if something doesn’t go as planned?"
+  },
+  {
+    "level": "B1",
+    "question": "What will you do to keep improving your English?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to be better at?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to learn next?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to change about your routine?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to improve about yourself?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to do more often?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to do less often?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to spend more time on?"
+  },
+  {
+    "level": "B1",
+    "question": "What would you like to spend less time on?"
+  },
+  {
+    "level": "B1",
+    "question": "What would help you feel more balanced?"
+  },
+  {
+    "level": "B1",
+    "question": "What would make your days easier?"
+  },
+    
   {
     "level": "B1",
     "question": "What are the advantages and disadvantages of living in a big city?"
@@ -5194,6 +7460,619 @@
     "level": "B1",
     "question": "Describe a time when you had to learn from a mistake."
   },
+  {
+    "level": "B2",
+    "question": "How do you usually decide what deserves your time and energy?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you manage your responsibilities when everything feels urgent?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you normally react when plans change at the last minute?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you deal with situations you cannot control?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually balance short-term needs with long-term goals?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you know when it is time to rest instead of pushing harder?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you organize your priorities when you feel overwhelmed?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually recover after a very demanding week?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you deal with mental fatigue?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you avoid burnout in your routine?"
+  },
+  {
+    "level": "B2",
+    "question": "What factors influence your daily decisions the most?"
+  },
+  {
+    "level": "B2",
+    "question": "What usually affects your mood during the day?"
+  },
+  {
+    "level": "B2",
+    "question": "What situations make you feel under pressure?"
+  },
+  {
+    "level": "B2",
+    "question": "What situations help you stay calm even under stress?"
+  },
+  {
+    "level": "B2",
+    "question": "What habits help you stay consistent over time?"
+  },
+  {
+    "level": "B2",
+    "question": "What habits slowly reduce your productivity?"
+  },
+  {
+    "level": "B2",
+    "question": "What habits did you develop that changed your routine significantly?"
+  },
+  {
+    "level": "B2",
+    "question": "What habits were difficult to build but worth the effort?"
+  },
+  {
+    "level": "B2",
+    "question": "What habits did you abandon because they were not effective?"
+  },
+  {
+    "level": "B2",
+    "question": "What habits would you recommend to someone with a busy routine?"
+  },
+  {
+    "level": "B2",
+    "question": "What motivates you to stay disciplined even when you feel tired?"
+  },
+  {
+    "level": "B2",
+    "question": "What usually makes you lose motivation?"
+  },
+  {
+    "level": "B2",
+    "question": "What helps you regain motivation after a setback?"
+  },
+  {
+    "level": "B2",
+    "question": "What helps you stay focused for long periods of time?"
+  },
+  {
+    "level": "B2",
+    "question": "What usually distracts you the most in your daily life?"
+  },
+  {
+    "level": "B2",
+    "question": "What makes a day feel meaningful to you?"
+  },
+  {
+    "level": "B2",
+    "question": "What makes a day feel wasted?"
+  },
+  {
+    "level": "B2",
+    "question": "What makes you feel satisfied with your progress?"
+  },
+  {
+    "level": "B2",
+    "question": "What makes you feel frustrated with yourself?"
+  },
+  {
+    "level": "B2",
+    "question": "What makes you feel proud of your personal growth?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is flexibility in your daily routine?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is discipline compared to motivation?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is rest for long-term performance?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is personal time in your life right now?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is continuous learning for you?"
+  },
+  {
+    "level": "B2",
+    "question": "How important is English for your professional goals?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your definition of success changed over time?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your routine changed as your responsibilities increased?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your mindset changed in recent years?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your way of dealing with stress evolved?"
+  },
+  {
+    "level": "B2",
+    "question": "How has learning English influenced your way of thinking?"
+  },
+  {
+    "level": "B2",
+    "question": "What challenges did you face when you started learning English seriously?"
+  },
+  {
+    "level": "B2",
+    "question": "What aspects of English still require conscious effort from you?"
+  },
+  {
+    "level": "B2",
+    "question": "What parts of English feel natural now?"
+  },
+  {
+    "level": "B2",
+    "question": "What strategies helped you move beyond intermediate level?"
+  },
+  {
+    "level": "B2",
+    "question": "What mistakes helped you learn the most?"
+  },
+  {
+    "level": "B2",
+    "question": "What feedback has helped you improve the most?"
+  },
+  {
+    "level": "B2",
+    "question": "What learning methods did not work for you as expected?"
+  },
+  {
+    "level": "B2",
+    "question": "What kind of practice gives you the best results?"
+  },
+  {
+    "level": "B2",
+    "question": "What kind of practice feels useful but is actually ineffective?"
+  },
+  {
+    "level": "B2",
+    "question": "What kind of learning environment helps you focus better?"
+  },
+  {
+    "level": "B2",
+    "question": "What kind of feedback do you find most useful?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually evaluate your own progress?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you know when you are improving?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you deal with frustration when progress feels slow?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually respond to constructive criticism?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually express disagreement politely?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually support your opinions in discussions?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you adapt your communication depending on who you are talking to?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually clarify misunderstandings?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you handle conversations where emotions are involved?"
+  },
+  {
+    "level": "B2",
+    "question": "What topics do you feel confident discussing in depth?"
+  },
+  {
+    "level": "B2",
+    "question": "What topics require more preparation for you?"
+  },
+  {
+    "level": "B2",
+    "question": "What conversations challenge you intellectually?"
+  },
+  {
+    "level": "B2",
+    "question": "What conversations drain your energy?"
+  },
+  {
+    "level": "B2",
+    "question": "What conversations motivate you to reflect more?"
+  },
+  {
+    "level": "B2",
+    "question": "What was a conversation that changed your perspective recently?"
+  },
+  {
+    "level": "B2",
+    "question": "What was a discussion where you had to defend your point of view?"
+  },
+  {
+    "level": "B2",
+    "question": "What was a conversation that helped you understand someone better?"
+  },
+  {
+    "level": "B2",
+    "question": "Who influences your decisions more than you would like?"
+  },
+  {
+    "level": "B2",
+    "question": "Who do you trust when you need honest feedback?"
+  },
+  {
+    "level": "B2",
+    "question": "Who challenges your way of thinking the most?"
+  },
+  {
+    "level": "B2",
+    "question": "Who supports your growth even when it is uncomfortable?"
+  },
+  {
+    "level": "B2",
+    "question": "Who has influenced your habits positively?"
+  },
+  {
+    "level": "B2",
+    "question": "Who has influenced your mindset the most?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you feel most capable of deep focus?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you usually reflect on your life decisions?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you feel most creative?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you usually go to disconnect mentally?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you feel most productive and why?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you struggle to concentrate?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you usually solve complex problems?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you feel mentally exhausted?"
+  },
+  {
+    "level": "B2",
+    "question": "Where do you feel mentally refreshed?"
+  },
+  {
+    "level": "B2",
+    "question": "Where would you like to spend more of your time?"
+  },
+  {
+    "level": "B2",
+    "question": "When do you feel most mentally sharp?"
+  },
+  {
+    "level": "B2",
+    "question": "When do you usually feel mentally drained?"
+  },
+  {
+    "level": "B2",
+    "question": "When do you feel the need to slow down?"
+  },
+  {
+    "level": "B2",
+    "question": "When do you realize you are doing too much?"
+  },
+  {
+    "level": "B2",
+    "question": "When did you last question an important decision?"
+  },
+  {
+    "level": "B2",
+    "question": "When did you last change a strong opinion?"
+  },
+  {
+    "level": "B2",
+    "question": "When did you last step outside your comfort zone?"
+  },
+  {
+    "level": "B2",
+    "question": "When did you last feel truly challenged?"
+  },
+  {
+    "level": "B2",
+    "question": "When did you last feel proud of your discipline?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think people struggle to maintain balance?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think routines are difficult to sustain long-term?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think consistency is harder than motivation?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think people avoid uncomfortable conversations?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think stress has become so common?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think rest is often undervalued?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think learning slows down at some point?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think people resist change?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think habits are difficult to change?"
+  },
+  {
+    "level": "B2",
+    "question": "Why do you think self-discipline is misunderstood?"
+  },
+  {
+    "level": "B2",
+    "question": "What did you learn recently that challenged your assumptions?"
+  },
+  {
+    "level": "B2",
+    "question": "What did you realize recently about your habits?"
+  },
+  {
+    "level": "B2",
+    "question": "What did you change after receiving feedback?"
+  },
+  {
+    "level": "B2",
+    "question": "What did you stop doing because it was not sustainable?"
+  },
+  {
+    "level": "B2",
+    "question": "What did you start doing that improved your routine?"
+  },
+  {
+    "level": "B2",
+    "question": "What had you underestimated before experiencing it?"
+  },
+  {
+    "level": "B2",
+    "question": "What had you overestimated in the past?"
+  },
+  {
+    "level": "B2",
+    "question": "What had you assumed that turned out to be wrong?"
+  },
+  {
+    "level": "B2",
+    "question": "What was something you learned later than you expected?"
+  },
+  {
+    "level": "B2",
+    "question": "What was something you learned sooner than expected?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you are currently trying to improve?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you are intentionally prioritizing now?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you are trying to simplify in your life?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you are trying to do more consciously?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you are trying to let go of?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you are proud of maintaining over time?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you still find mentally demanding?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you have learned through experience, not theory?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you wish you had known earlier?"
+  },
+  {
+    "level": "B2",
+    "question": "What is something you would approach differently today?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually make complex decisions?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually evaluate risks before acting?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually deal with uncertainty?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually manage competing priorities?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually adapt when something does not work?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually maintain discipline over time?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually prevent small problems from growing bigger?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually reflect on past decisions?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually identify what needs improvement?"
+  },
+  {
+    "level": "B2",
+    "question": "How do you usually adjust your expectations?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your perspective on productivity changed?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your relationship with time changed?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your tolerance for stress changed?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your confidence evolved over time?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your way of learning languages changed?"
+  },
+  {
+    "level": "B2",
+    "question": "How has technology affected your focus and attention?"
+  },
+  {
+    "level": "B2",
+    "question": "How has technology changed the way you work or study?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your routine adapted to new demands?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your lifestyle changed your priorities?"
+  },
+  {
+    "level": "B2",
+    "question": "How has your experience shaped your expectations?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you do differently if you had more time?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you change if you had fewer obligations?"
+  },
+  {
+    "level": "B2",
+    "question": "What would help you maintain balance more easily?"
+  },
+  {
+    "level": "B2",
+    "question": "What would make your routine more sustainable?"
+  },
+  {
+    "level": "B2",
+    "question": "What would improve your focus immediately?"
+  },
+  {
+    "level": "B2",
+    "question": "What would help you manage stress better?"
+  },
+  {
+    "level": "B2",
+    "question": "What would motivate you to stay consistent long-term?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you remove from your routine if necessary?"
+  },
+  {
+    "level": "B2",
+    "question": "What would you add to improve your quality of life?"
+  },
+  
   {
     "level": "B2",
     "question": "How would you describe your hometown to a foreign visitor in English?"
@@ -11951,6 +14830,618 @@
   },
   {
     "level": "C1",
+    "question": "How do you usually decide what deserves your time and energy?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you manage your responsibilities when everything feels urgent?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you normally react when plans change at the last minute?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you deal with situations you cannot control?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually balance short-term needs with long-term goals?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you know when it is time to rest instead of pushing harder?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you organize your priorities when you feel overwhelmed?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually recover after a very demanding week?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you deal with mental fatigue?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you avoid burnout in your routine?"
+  },
+  {
+    "level": "C1",
+    "question": "What factors influence your daily decisions the most?"
+  },
+  {
+    "level": "C1",
+    "question": "What usually affects your mood during the day?"
+  },
+  {
+    "level": "C1",
+    "question": "What situations make you feel under pressure?"
+  },
+  {
+    "level": "C1",
+    "question": "What situations help you stay calm even under stress?"
+  },
+  {
+    "level": "C1",
+    "question": "What habits help you stay consistent over time?"
+  },
+  {
+    "level": "C1",
+    "question": "What habits slowly reduce your productivity?"
+  },
+  {
+    "level": "C1",
+    "question": "What habits did you develop that changed your routine significantly?"
+  },
+  {
+    "level": "C1",
+    "question": "What habits were difficult to build but worth the effort?"
+  },
+  {
+    "level": "C1",
+    "question": "What habits did you abandon because they were not effective?"
+  },
+  {
+    "level": "C1",
+    "question": "What habits would you recommend to someone with a busy routine?"
+  },
+  {
+    "level": "C1",
+    "question": "What motivates you to stay disciplined even when you feel tired?"
+  },
+  {
+    "level": "C1",
+    "question": "What usually makes you lose motivation?"
+  },
+  {
+    "level": "C1",
+    "question": "What helps you regain motivation after a setback?"
+  },
+  {
+    "level": "C1",
+    "question": "What helps you stay focused for long periods of time?"
+  },
+  {
+    "level": "C1",
+    "question": "What usually distracts you the most in your daily life?"
+  },
+  {
+    "level": "C1",
+    "question": "What makes a day feel meaningful to you?"
+  },
+  {
+    "level": "C1",
+    "question": "What makes a day feel wasted?"
+  },
+  {
+    "level": "C1",
+    "question": "What makes you feel satisfied with your progress?"
+  },
+  {
+    "level": "C1",
+    "question": "What makes you feel frustrated with yourself?"
+  },
+  {
+    "level": "C1",
+    "question": "What makes you feel proud of your personal growth?"
+  },
+  {
+    "level": "C1",
+    "question": "How important is flexibility in your daily routine?"
+  },
+  {
+    "level": "C1",
+    "question": "How important is discipline compared to motivation?"
+  },
+  {
+    "level": "C1",
+    "question": "How important is rest for long-term performance?"
+  },
+  {
+    "level": "C1",
+    "question": "How important is personal time in your life right now?"
+  },
+  {
+    "level": "C1",
+    "question": "How important is continuous learning for you?"
+  },
+  {
+    "level": "C1",
+    "question": "How important is English for your professional goals?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your definition of success changed over time?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your routine changed as your responsibilities increased?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your mindset changed in recent years?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your way of dealing with stress evolved?"
+  },
+  {
+    "level": "C1",
+    "question": "How has learning English influenced your way of thinking?"
+  },
+  {
+    "level": "C1",
+    "question": "What challenges did you face when you started learning English seriously?"
+  },
+  {
+    "level": "C1",
+    "question": "What aspects of English still require conscious effort from you?"
+  },
+  {
+    "level": "C1",
+    "question": "What parts of English feel natural now?"
+  },
+  {
+    "level": "C1",
+    "question": "What strategies helped you move beyond intermediate level?"
+  },
+  {
+    "level": "C1",
+    "question": "What mistakes helped you learn the most?"
+  },
+  {
+    "level": "C1",
+    "question": "What feedback has helped you improve the most?"
+  },
+  {
+    "level": "C1",
+    "question": "What learning methods did not work for you as expected?"
+  },
+  {
+    "level": "C1",
+    "question": "What kind of practice gives you the best results?"
+  },
+  {
+    "level": "C1",
+    "question": "What kind of practice feels useful but is actually ineffective?"
+  },
+  {
+    "level": "C1",
+    "question": "What kind of learning environment helps you focus better?"
+  },
+  {
+    "level": "C1",
+    "question": "What kind of feedback do you find most useful?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually evaluate your own progress?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you know when you are improving?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you deal with frustration when progress feels slow?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually respond to constructive criticism?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually express disagreement politely?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually support your opinions in discussions?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you adapt your communication depending on who you are talking to?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually clarify misunderstandings?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you handle conversations where emotions are involved?"
+  },
+  {
+    "level": "C1",
+    "question": "What topics do you feel confident discussing in depth?"
+  },
+  {
+    "level": "C1",
+    "question": "What topics require more preparation for you?"
+  },
+  {
+    "level": "C1",
+    "question": "What conversations challenge you intellectually?"
+  },
+  {
+    "level": "C1",
+    "question": "What conversations drain your energy?"
+  },
+  {
+    "level": "C1",
+    "question": "What conversations motivate you to reflect more?"
+  },
+  {
+    "level": "C1",
+    "question": "What was a conversation that changed your perspective recently?"
+  },
+  {
+    "level": "C1",
+    "question": "What was a discussion where you had to defend your point of view?"
+  },
+  {
+    "level": "C1",
+    "question": "What was a conversation that helped you understand someone better?"
+  },
+  {
+    "level": "C1",
+    "question": "Who influences your decisions more than you would like?"
+  },
+  {
+    "level": "C1",
+    "question": "Who do you trust when you need honest feedback?"
+  },
+  {
+    "level": "C1",
+    "question": "Who challenges your way of thinking the most?"
+  },
+  {
+    "level": "C1",
+    "question": "Who supports your growth even when it is uncomfortable?"
+  },
+  {
+    "level": "C1",
+    "question": "Who has influenced your habits positively?"
+  },
+  {
+    "level": "C1",
+    "question": "Who has influenced your mindset the most?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you feel most capable of deep focus?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you usually reflect on your life decisions?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you feel most creative?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you usually go to disconnect mentally?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you feel most productive and why?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you struggle to concentrate?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you usually solve complex problems?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you feel mentally exhausted?"
+  },
+  {
+    "level": "C1",
+    "question": "Where do you feel mentally refreshed?"
+  },
+  {
+    "level": "C1",
+    "question": "Where would you like to spend more of your time?"
+  },
+  {
+    "level": "C1",
+    "question": "When do you feel most mentally sharp?"
+  },
+  {
+    "level": "C1",
+    "question": "When do you usually feel mentally drained?"
+  },
+  {
+    "level": "C1",
+    "question": "When do you feel the need to slow down?"
+  },
+  {
+    "level": "C1",
+    "question": "When do you realize you are doing too much?"
+  },
+  {
+    "level": "C1",
+    "question": "When did you last question an important decision?"
+  },
+  {
+    "level": "C1",
+    "question": "When did you last change a strong opinion?"
+  },
+  {
+    "level": "C1",
+    "question": "When did you last step outside your comfort zone?"
+  },
+  {
+    "level": "C1",
+    "question": "When did you last feel truly challenged?"
+  },
+  {
+    "level": "C1",
+    "question": "When did you last feel proud of your discipline?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think people struggle to maintain balance?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think routines are difficult to sustain long-term?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think consistency is harder than motivation?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think people avoid uncomfortable conversations?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think stress has become so common?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think rest is often undervalued?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think learning slows down at some point?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think people resist change?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think habits are difficult to change?"
+  },
+  {
+    "level": "C1",
+    "question": "Why do you think self-discipline is misunderstood?"
+  },
+  {
+    "level": "C1",
+    "question": "What did you learn recently that challenged your assumptions?"
+  },
+  {
+    "level": "C1",
+    "question": "What did you realize recently about your habits?"
+  },
+  {
+    "level": "C1",
+    "question": "What did you change after receiving feedback?"
+  },
+  {
+    "level": "C1",
+    "question": "What did you stop doing because it was not sustainable?"
+  },
+  {
+    "level": "C1",
+    "question": "What did you start doing that improved your routine?"
+  },
+  {
+    "level": "C1",
+    "question": "What had you underestimated before experiencing it?"
+  },
+  {
+    "level": "C1",
+    "question": "What had you overestimated in the past?"
+  },
+  {
+    "level": "C1",
+    "question": "What had you assumed that turned out to be wrong?"
+  },
+  {
+    "level": "C1",
+    "question": "What was something you learned later than you expected?"
+  },
+  {
+    "level": "C1",
+    "question": "What was something you learned sooner than expected?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you are currently trying to improve?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you are intentionally prioritizing now?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you are trying to simplify in your life?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you are trying to do more consciously?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you are trying to let go of?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you are proud of maintaining over time?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you still find mentally demanding?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you have learned through experience, not theory?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you wish you had known earlier?"
+  },
+  {
+    "level": "C1",
+    "question": "What is something you would approach differently today?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually make complex decisions?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually evaluate risks before acting?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually deal with uncertainty?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually manage competing priorities?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually adapt when something does not work?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually maintain discipline over time?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually prevent small problems from growing bigger?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually reflect on past decisions?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually identify what needs improvement?"
+  },
+  {
+    "level": "C1",
+    "question": "How do you usually adjust your expectations?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your perspective on productivity changed?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your relationship with time changed?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your tolerance for stress changed?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your confidence evolved over time?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your way of learning languages changed?"
+  },
+  {
+    "level": "C1",
+    "question": "How has technology affected your focus and attention?"
+  },
+  {
+    "level": "C1",
+    "question": "How has technology changed the way you work or study?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your routine adapted to new demands?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your lifestyle changed your priorities?"
+  },
+  {
+    "level": "C1",
+    "question": "How has your experience shaped your expectations?"
+  },
+  {
+    "level": "C1",
+    "question": "What would you do differently if you had more time?"
+  },
+  {
+    "level": "C1",
+    "question": "What would you change if you had fewer obligations?"
+  },
+  {
+    "level": "C1",
+    "question": "What would help you maintain balance more easily?"
+  },
+  {
+    "level": "C1",
+    "question": "What would make your routine more sustainable?"
+  },
+  {
+    "level": "C1",
+    "question": "What would improve your focus immediately?"
+  },
+  {
+    "level": "C1",
+    "question": "What would help you manage stress better?"
+  },
+  {
+    "level": "C1",
+    "question": "What would motivate you to stay consistent long-term?"
+  },
+  {
+    "level": "C1",
+    "question": "What would you remove from your routine if necessary?"
+  },
+  {
+    "level": "C1",
+    "question": "What would you add to improve your quality of life?"
+  },
+  {
+    "level": "C1",
     "question": "How might the proliferation of deepfake technology fundamentally alter our conception of truth and evidence in legal and social contexts?"
   },
   {
@@ -12711,1046 +16202,618 @@
   },
   {
     "level": "C2",
-    "question": "How might the ontological implications of quantum decoherence theories challenge our fundamental understanding of reality and consciousness?"
+    "question": "How do you determine whether clarity or ambiguity is more appropriate in a given situation?"
   },
   {
     "level": "C2",
-    "question": "To what extent could the holographic principle in theoretical physics necessitate a paradigm shift in our conception of spacetime and information?"
+    "question": "How do you recognize when a problem cannot be solved but must be managed?"
   },
   {
     "level": "C2",
-    "question": "What epistemological ramifications might emerge from the potential verification of the mathematical universe hypothesis?"
+    "question": "How do you decide which complexities deserve deeper analysis and which do not?"
   },
   {
     "level": "C2",
-    "question": "How could the philosophical zombie argument in consciousness studies fundamentally undermine physicalist accounts of qualia?"
+    "question": "How do you distinguish insight from overinterpretation?"
   },
   {
     "level": "C2",
-    "question": "What sociolinguistic transformations might occur if neural lace technology enabled direct brain-to-brain linguistic transmission?"
+    "question": "How do you evaluate the reliability of your own reasoning?"
   },
   {
     "level": "C2",
-    "question": "How might Gödel's incompleteness theorems impose fundamental limitations on the development of self-verifying artificial general intelligence?"
+    "question": "How do you identify hidden assumptions in your thinking?"
   },
   {
     "level": "C2",
-    "question": "How do you navigate cultural nuances in humor when communicating in English? Give an example where a joke fell flat or was misunderstood."
+    "question": "How do you decide when certainty is necessary and when doubt is productive?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you had to mediate a conflict caused by language barriers. What strategies worked?"
+    "question": "How do you balance intellectual rigor with practical constraints?"
   },
   {
     "level": "C2",
-    "question": "If you had to convince someone to learn your native language, how would you pitch its unique advantages?"
+    "question": "How do you approach problems that resist linear solutions?"
   },
   {
     "level": "C2",
-    "question": "What’s a common misconception about your culture that you’ve had to explain repeatedly in English?"
+    "question": "How do you remain open to revision without losing coherence?"
   },
   {
     "level": "C2",
-    "question": "How would you summarize your country’s current social/political climate to a foreigner without oversimplifying?"
+    "question": "What criteria do you use to judge the quality of an argument?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you code-switched (changed communication style) to fit an English-speaking context. Why was it necessary?"
+    "question": "What factors most often distort otherwise sound reasoning?"
   },
   {
     "level": "C2",
-    "question": "What’s a phrase or idiom in your language that loses all meaning when translated directly to English?"
+    "question": "What patterns do you notice when discussions become unproductive?"
   },
   {
     "level": "C2",
-    "question": "How do you adapt your body language in cross-cultural English interactions to avoid misunderstandings?"
+    "question": "What makes certain explanations feel satisfying even when they are incomplete?"
   },
   {
     "level": "C2",
-    "question": "Describe a situation where you had to ‘read between the lines’ in an English conversation. What clues did you notice?"
+    "question": "What kinds of questions tend to expose deeper layers of understanding?"
   },
   {
     "level": "C2",
-    "question": "What’s a subtle grammatical error even advanced English learners make that gives them away as non-native?"
+    "question": "What intellectual habits have you consciously cultivated over time?"
   },
   {
     "level": "C2",
-    "question": "How would you explain a complex concept from your field of work to a 10-year-old in English?"
+    "question": "What habits of thought have you had to unlearn?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘untranslatable’ emotion or social dynamic from your culture that English struggles to capture?"
+    "question": "What mental shortcuts do you actively try to avoid?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used irony or sarcasm in English and it backfired. What did you learn?"
+    "question": "What forms of complexity energize rather than exhaust you?"
   },
   {
     "level": "C2",
-    "question": "How do you politely refuse or disagree in English without sounding rude in high-stakes situations (e.g., business, academia)?"
+    "question": "What kinds of ambiguity do you find intellectually useful?"
   },
   {
     "level": "C2",
-    "question": "What’s a regional English accent or dialect you find challenging to understand? How do you handle it?"
+    "question": "What sustains long-term intellectual curiosity?"
   },
   {
     "level": "C2",
-    "question": "Tell me about an English word you misused embarrassingly. How did you realize your mistake?"
+    "question": "What undermines curiosity even in motivated individuals?"
   },
   {
     "level": "C2",
-    "question": "How would you describe your personality differently in English vs. your native language? Why?"
+    "question": "What makes reflection transformative rather than repetitive?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘rule’ of English grammar or pronunciation you deliberately break to sound more natural?"
+    "question": "What allows insight to translate into action?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you had to interpret tone (e.g., email, Zoom) correctly in English without visual cues."
+    "question": "What prevents understanding from becoming paralysis?"
   },
   {
     "level": "C2",
-    "question": "What’s a topic you can discuss fluently in English but struggle to articulate in your native language? Why?"
+    "question": "What makes certain ideas persist despite weak evidence?"
   },
   {
     "level": "C2",
-    "question": "How do you signal respect or hierarchy in English when your culture expresses it very differently?"
+    "question": "What causes well-intentioned reasoning to lead to poor outcomes?"
   },
   {
     "level": "C2",
-    "question": "What’s a common English small-talk question that would be awkward or intrusive in your culture?"
+    "question": "What distinguishes depth from obscurity in communication?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to ‘unlearn’ a direct translation from your language to sound natural in English."
+    "question": "What makes an idea robust across contexts?"
   },
   {
     "level": "C2",
-    "question": "How do you handle jokes or wordplay in English that rely on homophones (e.g., ‘bear’ vs. ‘bare’)?"
+    "question": "What makes a conclusion feel provisional rather than final?"
   },
   {
     "level": "C2",
-    "question": "What’s a professional or academic scenario where you felt your English limited your expression? How did you adapt?"
+    "question": "How important is uncertainty as a tool for understanding?"
   },
   {
     "level": "C2",
-    "question": "Describe a cultural reference in English (film, book, history) you had to research to fully grasp."
+    "question": "How important is intellectual humility in complex decision-making?"
   },
   {
     "level": "C2",
-    "question": "How do you gauge formality levels in English (e.g., ‘hey’ vs. ‘dear sir’) when emailing strangers?"
+    "question": "How important is coherence compared to adaptability?"
   },
   {
     "level": "C2",
-    "question": "What’s a gesture or habit in your culture that could be misinterpreted negatively in English-speaking contexts?"
+    "question": "How important is precision when addressing abstract concepts?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to paraphrase complex ideas in English because the exact translation didn’t exist."
+    "question": "How has your tolerance for ambiguity evolved?"
   },
   {
     "level": "C2",
-    "question": "How do you recover when your mind goes blank mid-conversation in English?"
+    "question": "How has experience reshaped your confidence in your judgments?"
   },
   {
     "level": "C2",
-    "question": "What’s a slang term or Gen Z expression in English you’ve adopted ironically (or unironically)?"
+    "question": "How has exposure to different perspectives altered your thinking patterns?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you mimicked a native speaker’s phrasing/intonation and it improved your communication."
+    "question": "How has your understanding of complexity matured?"
   },
   {
     "level": "C2",
-    "question": "How do you politely interrupt or ask for clarification in fast-paced English discussions?"
+    "question": "How has your relationship with certainty changed over time?"
   },
   {
     "level": "C2",
-    "question": "What’s a word in English you deliberately avoid because you’re unsure of its connotations?"
+    "question": "What experiences revealed the limits of your previous assumptions?"
   },
   {
     "level": "C2",
-    "question": "Tell me about an English podcast/TV show that helped you grasp casual speech patterns."
+    "question": "What experiences forced you to reconsider deeply held beliefs?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss sensitive topics (e.g., politics, religion) in English without causing offense?"
+    "question": "What challenges exposed gaps between theory and practice?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘false friend’ (word that looks similar but means something different) that tripped you up in English?"
+    "question": "What failures refined your judgment more than success ever did?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used humor to diffuse tension in English. How did you ensure it landed well?"
+    "question": "What contradictions have proven most instructive for you?"
   },
   {
     "level": "C2",
-    "question": "How do you balance sounding natural vs. grammatically perfect in spoken English?"
+    "question": "What tensions do you now see as productive rather than problematic?"
   },
   {
     "level": "C2",
-    "question": "What’s a pronunciation challenge in English you’ve worked to overcome (e.g., ‘th,’ vowel sounds)?"
+    "question": "What trade-offs are unavoidable in most meaningful decisions?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to advocate for yourself or negotiate in English. What phrasing worked?"
+    "question": "What strategies help you reason clearly under cognitive load?"
   },
   {
     "level": "C2",
-    "question": "How do you signal active listening (e.g., backchanneling) in English conversations?"
+    "question": "What strategies help you detect flawed logic early?"
   },
   {
     "level": "C2",
-    "question": "What’s a topic you’re passionate about but avoid discussing in English due to vocabulary gaps?"
+    "question": "What strategies help you integrate conflicting viewpoints?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you translated a proverb from your language into English and it lost its impact."
+    "question": "What strategies prevent analysis from becoming self-referential?"
   },
   {
     "level": "C2",
-    "question": "How do you handle regional variations in vocabulary (e.g., ‘lift’ vs. ‘elevator’) when speaking English?"
+    "question": "What approaches help maintain intellectual integrity in debate?"
   },
   {
     "level": "C2",
-    "question": "What’s a conversational ‘filler’ word (e.g., ‘like,’ ‘you know’) you’ve adopted to sound more fluent?"
+    "question": "What approaches reduce defensiveness during disagreement?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you misunderstood a euphemism or indirect request in English."
+    "question": "How do you evaluate claims in areas beyond your expertise?"
   },
   {
     "level": "C2",
-    "question": "How do you describe colors, tastes, or textures in English when exact equivalents don’t exist in your language?"
+    "question": "How do you decide when expertise becomes dogma?"
   },
   {
     "level": "C2",
-    "question": "What’s a social norm in English-speaking cultures (e.g., tipping, queueing) you found puzzling at first?"
+    "question": "How do you test the limits of your understanding?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you had to ‘think in English’ to respond quickly under pressure."
+    "question": "How do you respond when evidence challenges your worldview?"
   },
   {
     "level": "C2",
-    "question": "How do you adapt your storytelling style (e.g., chronology, punchlines) for English audiences?"
+    "question": "How do you engage with ideas you strongly disagree with?"
   },
   {
     "level": "C2",
-    "question": "What’s a word in English you love for its sound or expressiveness, even if it’s not directly translatable?"
+    "question": "How do you maintain openness without drifting into relativism?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you accidentally over-explained something simple in English due to insecurity."
+    "question": "How do you communicate nuance without diluting meaning?"
   },
   {
     "level": "C2",
-    "question": "How do you handle compliments or praise in English when direct acceptance feels uncomfortable?"
+    "question": "How do you simplify complexity without distorting it?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘rule’ of English you wish native speakers followed more consistently?"
+    "question": "How do you recognize when persuasion replaces understanding?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a metaphor or analogy in English that resonated well."
+    "question": "How do you disengage from unproductive intellectual conflict?"
   },
   {
     "level": "C2",
-    "question": "How do you signal sarcasm or irony in writing (e.g., emails, texts) without emojis or tone?"
+    "question": "What conversations sharpen your thinking the most?"
   },
   {
     "level": "C2",
-    "question": "What’s a conversation topic in English you find unexpectedly challenging due to cultural differences?"
+    "question": "What discussions reveal hidden value systems?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you ‘faked’ understanding in an English conversation to avoid embarrassment. What backfired?"
+    "question": "What dialogues expose conceptual blind spots?"
   },
   {
     "level": "C2",
-    "question": "How do you describe familial relationships in English when your language has more specific terms (e.g., maternal vs. paternal cousins)?"
+    "question": "What exchanges shift your perspective incrementally rather than dramatically?"
   },
   {
     "level": "C2",
-    "question": "What’s a gesture or facial expression in your culture that means the opposite in English-speaking contexts?"
+    "question": "What conversations leave unresolved but fruitful questions?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you had to ‘translate’ cultural context, not just words, for an English speaker."
+    "question": "What ideas challenge you precisely because they are partially convincing?"
   },
   {
     "level": "C2",
-    "question": "How do you navigate generational differences in English (e.g., slang, formality) in workplace settings?"
+    "question": "What beliefs remain tentative despite long reflection?"
   },
   {
     "level": "C2",
-    "question": "What’s a word in your language you wish English would borrow because it’s so useful?"
+    "question": "What concepts resist stable definition?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you struggled to express an emotion in English because the word felt ‘inauthentic.’"
+    "question": "Who has most influenced how you think rather than what you think?"
   },
   {
     "level": "C2",
-    "question": "How do you politely correct a native English speaker’s mistake about your culture or language?"
+    "question": "Who challenges your reasoning without triggering defensiveness?"
   },
   {
     "level": "C2",
-    "question": "What’s a hyper-local English phrase (e.g., regional slang) you’ve adopted to fit in?"
+    "question": "Who helps you refine ideas through questioning rather than answers?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a thesaurus to find the ‘perfect’ English word and it backfired."
+    "question": "Who has shaped your intellectual discipline indirectly?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss food or cuisine in English when direct translations sound unappetizing (e.g., ‘fermented soybeans’ vs. ‘natto’)?"
+    "question": "Who models intellectual integrity in practice?"
   },
   {
     "level": "C2",
-    "question": "What’s a common English phrase you deliberately avoid because it feels clichéd or inauthentic to you?"
+    "question": "Where do you find conditions that support sustained deep thinking?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to simplify your accent in English to be better understood."
+    "question": "Where does your thinking become more synthetic than analytical?"
   },
   {
     "level": "C2",
-    "question": "How do you handle moments when you forget a word in English mid-sentence?"
+    "question": "Where do you tend to oversimplify?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘natural’ English speaker habit (e.g., contractions, dropped syllables) you’ve consciously practiced?"
+    "question": "Where does complexity feel most manageable to you?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used humor self-deprecatingly in English to connect with others."
+    "question": "Where does your thinking become most flexible?"
   },
   {
     "level": "C2",
-    "question": "How do you signal hesitation or uncertainty in English without undermining your credibility?"
+    "question": "Where do you feel conceptually constrained?"
   },
   {
     "level": "C2",
-    "question": "What’s a grammatical ‘error’ native English speakers make that still confuses you?"
+    "question": "Where does reflection become most productive?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to defend a nuanced opinion in English without sounding confrontational."
+    "question": "Where does overthinking most often occur?"
   },
   {
     "level": "C2",
-    "question": "How do you adapt your humor when speaking English with people from different age groups?"
+    "question": "Where do insights tend to emerge unexpectedly?"
   },
   {
     "level": "C2",
-    "question": "What’s a word in English you’ve heard mispronounced so often you started doubting the correct pronunciation?"
+    "question": "Where do ideas feel most provisional?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you ‘code-mixed’ (switched between languages) in an English conversation. Why?"
+    "question": "When do you notice reasoning becoming emotionally driven?"
   },
   {
     "level": "C2",
-    "question": "How do you describe time or punctuality in English when your culture has a more flexible approach?"
+    "question": "When does intuition outperform deliberate analysis for you?"
   },
   {
     "level": "C2",
-    "question": "What’s a social media trend or meme in English you struggled to understand without cultural context?"
+    "question": "When do you recognize diminishing returns in further analysis?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to ‘perform’ a more extroverted version of yourself to fit English-speaking norms."
+    "question": "When does reflection need to give way to action?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss mental health or emotions in English when direct translations feel too clinical or vague?"
+    "question": "When did you last revise a core belief incrementally?"
   },
   {
     "level": "C2",
-    "question": "What’s a professional title or role in your language that doesn’t translate neatly into English?"
+    "question": "When did you last accept uncertainty without discomfort?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a cultural reference in English that no one understood. How did you recover?"
+    "question": "When did complexity clarify rather than confuse?"
   },
   {
     "level": "C2",
-    "question": "How do you handle compliments about your English fluency without sounding dismissive or arrogant?"
+    "question": "When did ambiguity improve understanding?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘polite’ English phrase (e.g., ‘bless your heart’) you’ve learned has hidden meanings?"
+    "question": "When did questioning prove more valuable than answers?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you mimicked a celebrity’s or politician’s speech pattern in English as a learning tool."
+    "question": "Why do humans seek certainty even when it misleads?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss superstitions or folk beliefs from your culture in English without sounding ‘irrational’?"
+    "question": "Why does complexity often provoke resistance?"
   },
   {
     "level": "C2",
-    "question": "What’s a double entendre or pun in English you only understood after an awkward moment?"
+    "question": "Why do simple narratives persist despite complex realities?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you had to explain a historical or political nuance about your country in English."
+    "question": "Why do intelligent people defend weak positions?"
   },
   {
     "level": "C2",
-    "question": "How do you navigate small talk in English when your culture values deeper conversations upfront?"
+    "question": "Why does disagreement often escalate unnecessarily?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘natural’ English filler sound (e.g., ‘um,’ ‘ah’) you’ve adopted to buy thinking time?"
+    "question": "Why does nuance struggle to survive public discourse?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you accidentally offended someone by translating a phrase too literally into English."
+    "question": "Why is ambiguity often perceived as weakness?"
   },
   {
     "level": "C2",
-    "question": "How do you describe personal space or physical contact norms from your culture in English?"
+    "question": "Why does insight rarely feel conclusive?"
   },
   {
     "level": "C2",
-    "question": "What’s a word in English you avoid because it’s a homophone for something embarrassing in your language?"
+    "question": "Why does understanding sometimes increase doubt?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a metaphor from nature/sports/etc. in English that confused listeners."
+    "question": "Why is intellectual restraint difficult to practice?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss gender roles or family structures from your culture in English without oversimplifying?"
+    "question": "What have you learned about the limits of explanation?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘trendy’ English word (e.g., ‘woke,’ ‘gaslighting’) you feel is overused or misused?"
+    "question": "What have you learned about the costs of overconfidence?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to explain a traditional ceremony or ritual in English without the proper vocabulary."
+    "question": "What have you learned about the fragility of rationality?"
   },
   {
     "level": "C2",
-    "question": "How do you describe shades of emotion (e.g., nostalgia, schadenfreude) in English when single words don’t exist?"
+    "question": "What realizations required sustained discomfort?"
   },
   {
     "level": "C2",
-    "question": "What’s a common English phrase you’ve rephrased to sound more like your ‘voice’?"
+    "question": "What assumptions dissolved gradually rather than suddenly?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a rhetorical question in English to make a point more persuasively."
+    "question": "What beliefs have become more conditional over time?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss socioeconomic class in English when direct translations sound judgmental or outdated?"
+    "question": "What ideas lost certainty but gained usefulness?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘redundant’ phrase in English (e.g., ‘free gift’) that still confuses you?"
+    "question": "What perspectives became clearer only after contradiction?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to paraphrase a joke from your language into English. Did it work?"
+    "question": "What insights emerged indirectly rather than deliberately?"
   },
   {
     "level": "C2",
-    "question": "How do you describe local holidays or festivals in English when there’s no equivalent?"
+    "question": "What understanding came through synthesis rather than analysis?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘polite’ interruption tactic in English (e.g., ‘Sorry to jump in…’) you’ve mastered?"
+    "question": "What are you currently questioning at a foundational level?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a word in English correctly but it sounded odd because of register (e.g., too formal)."
+    "question": "What assumptions are you actively suspending?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss art or music in English when aesthetic values differ across cultures?"
+    "question": "What conceptual frameworks are you reassessing?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘brand name’ in English (e.g., Kleenex, Band-Aid) you didn’t realize was a trademark?"
+    "question": "What distinctions are becoming increasingly important to you?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to explain a gesture or body language norm from your culture in English."
+    "question": "What categories no longer seem sufficient?"
   },
   {
     "level": "C2",
-    "question": "How do you describe local cuisine in English when ingredients have no direct translation?"
+    "question": "What definitions feel increasingly unstable?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘loaded’ word in English (e.g., ‘feminism,’ ‘socialism’) you’ve learned to use carefully?"
+    "question": "What tensions are you learning to hold rather than resolve?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a historical or literary allusion in English and had to explain it."
+    "question": "What uncertainties are you learning to tolerate productively?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss work-life balance in English when your culture has different priorities?"
+    "question": "What complexities are you learning to navigate without closure?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘buzzword’ in English (e.g., ‘synergy,’ ‘disrupt’) you find overused in professional settings?"
+    "question": "What ambiguities now feel informative rather than problematic?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to ‘translate’ your resume or professional background into culturally relatable terms."
+    "question": "How do you decide when to stop refining an idea?"
   },
   {
     "level": "C2",
-    "question": "How do you describe a complex family relationship (e.g., step-siblings, in-laws) in English without a flowchart?"
+    "question": "How do you recognize when clarity becomes oversimplification?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘minimal pair’ (e.g., ship/sheep) you still occasionally mix up in pronunciation?"
+    "question": "How do you evaluate intellectual progress without clear metrics?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a rhyming phrase or alliteration in English to make a point memorable."
+    "question": "How do you reconcile competing explanatory models?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss local politics in English without assuming listeners know the context?"
+    "question": "How do you manage the emotional dimension of complex reasoning?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘false cognate’ (word that looks similar but means something different) you’ve learned to avoid?"
+    "question": "How do you prevent abstraction from detaching from reality?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to explain a generational or age-related cultural gap in English."
+    "question": "How do you remain intellectually honest under social pressure?"
   },
   {
     "level": "C2",
-    "question": "How do you describe weather or seasonal changes in English when your climate is radically different?"
+    "question": "How do you detect when reasoning serves identity rather than truth?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘corporate jargon’ phrase in English (e.g., ‘think outside the box’) you find meaningless?"
+    "question": "How do you preserve nuance in binary environments?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a sports metaphor in English and realized the listener wasn’t a sports fan."
+    "question": "How do you cultivate depth without elitism?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss personal achievements in English without sounding boastful (by your culture’s standards)?"
+    "question": "How has your thinking changed as problems grew more complex?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘dysphemism’ (harsh term for something neutral, e.g., ‘kick the bucket’) you’ve learned to use cautiously?"
+    "question": "How has your approach to disagreement matured?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to clarify that a direct translation from your language sounded rude in English."
+    "question": "How has your understanding of objectivity evolved?"
   },
   {
     "level": "C2",
-    "question": "How do you describe traditional clothing or attire from your culture in English when terms don’t exist?"
+    "question": "How has your tolerance for unresolved questions increased?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘loanword’ from your language that English has adopted but pronounces strangely?"
+    "question": "How has your intellectual confidence become more provisional?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a sarcastic tone in English and it was taken literally."
+    "question": "How has experience reshaped your standards of evidence?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss superstitions or folklore from your culture in English without sounding ‘quaint’?"
+    "question": "How has your thinking become more integrative?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘contronym’ (word with two opposite meanings, e.g., ‘sanction’) that still trips you up?"
+    "question": "How has reflection changed the way you act?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to explain a non-verbal communication norm (e.g., eye contact) from your culture."
+    "question": "How has your relationship with knowledge itself changed?"
   },
   {
     "level": "C2",
-    "question": "How do you describe local wildlife or plants in English when they’re unfamiliar to listeners?"
+    "question": "How has your understanding of understanding evolved?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘ghost word’ (e.g., ‘dord’) or common misspelling in English you’ve learned to avoid?"
+    "question": "What would you reconsider if coherence were not required?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss regional dialects or accents within your own country in English?"
+    "question": "What would change if certainty were no longer prioritized?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘non-gendered’ term in English (e.g., ‘they’ as singular) you’ve adopted despite it feeling unnatural at first?"
+    "question": "What would improve if ambiguity were embraced more openly?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to ‘unpack’ a stereotype about your culture in English."
+    "question": "What would become possible if complexity were not feared?"
   },
   {
     "level": "C2",
-    "question": "How do you describe local transportation or infrastructure in English when equivalents don’t exist?"
+    "question": "What would shift if questions were valued over answers?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘portmanteau’ (blended word like ‘brunch’) in English you find clever or confusing?"
+    "question": "What would be lost if everything had to be resolved?"
   },
   {
     "level": "C2",
-    "question": "Describe a time you used a word in English that was technically correct but culturally inappropriate."
+    "question": "What would you preserve even if it resisted explanation?"
   },
   {
     "level": "C2",
-    "question": "How do you discuss holidays or celebrations in English when they’re tied to untranslatable concepts?"
+    "question": "What would you defend despite its ambiguity?"
   },
   {
     "level": "C2",
-    "question": "What’s a ‘fossil word’ (archaic term only used in phrases, e.g., ‘kith and kin’) you’ve encountered in English?"
+    "question": "What would you question even if it felt foundational?"
   },
   {
     "level": "C2",
-    "question": "Tell me about a time you had to explain a gesture or facial expression from your culture in English."
-  },
-  {
-    "level": "C2",
-    "question": "How do you describe local architecture or urban planning in English when terms don’t directly translate?"
-  },
-  {
-    "level": "C2",
-    "question": "What’s a ‘singulative’ (word for a single item from a group, e.g., ‘a grain of rice’) you’ve learned in English?"
-  },
-  {
-    "level": "C2",
-    "question": "Describe a time you used a word in English that was correct but made you sound ‘old-fashioned.’"
-  },
-  {
-    "level": "C2",
-    "question": "How do you discuss traditional medicine or healing practices from your culture in English?"
-  },
-  {
-    "level": "C2",
-    "question": "What’s a ‘ghost word’ (e.g., ‘dord’) or common misspelling in English you’ve learned to avoid?"
-  },
-  {
-    "level": "C2",
-    "question": "Tell me about a time you had to explain a cultural ‘third rail’ (taboo topic) in English."
-  },
-  {
-    "level": "C2",
-    "question": "How do you describe local sports or games in English when they’re unfamiliar to listeners?"
-  },
-  {
-    "level": "C2",
-    "question": "What’s a ‘nonce word’ (made-up word for a specific occasion) in English you’ve found amusing or useful?"
-  },
-  {
-    "level": "C2",
-    "question": "Describe a time you used a word in English that was correct but sounded oddly formal or technical."
-  },
-  {
-    "level": "C2",
-    "question": "How do you discuss local environmental issues in English without assuming shared knowledge?"
-  },
-  {
-    "level": "C2",
-    "question": "What’s a ‘backronym’ (phrase retrofitted to fit an acronym, e.g., ‘POSH’) you’ve encountered in English?"
-  },
-  {
-    "level": "C2",
-    "question": "Tell me about a time you had to explain a historical event from your country in English without bias."
-  },
-  {
-    "level": "C2",
-    "question": "How do you describe local fashion or beauty standards in English when terms don’t translate?"
-  },
-  {
-    "level": "C2",
-    "question": "What’s a ‘sniglet’ (word that should exist but doesn’t, e.g., ‘elbow grease’) you wish English would adopt?"
-  },
-  {
-    "level": "C2",
-    "question": "Describe a time you used a word in English that was correct but regionally obscure."
-  },
-  {
-    "level": "C2",
-    "question": "How do you discuss local education systems in English without direct equivalents?"
-  },
-  {
-    "level": "C2",
-    "question": "What’s a ‘retronym’ (new term for an old thing, e.g., ‘acoustic guitar’) you’ve learned in English?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical problem of personal identity be addressed in cases of gradual substrate replacement?"
-  },
-  {
-    "level": "C2",
-    "question": "To what degree could the concept of free will be maintained in light of perfect behavioral prediction algorithms?"
-  },
-  {
-    "level": "C2",
-    "question": "What metaphysical implications would follow from the discovery of closed timelike curves in spacetime?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of aesthetics be transformed by artificial intelligence that creates perfect art?"
-  },
-  {
-    "level": "C2",
-    "question": "What phenomenological consequences might emerge from the ability to directly share sensory experiences?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical concept of knowledge be transformed by direct neural knowledge implantation?"
-  },
-  {
-    "level": "C2",
-    "question": "To what extent could the Chinese room argument be circumvented by artificial systems that claim to experience qualia?"
-  },
-  {
-    "level": "C2",
-    "question": "What noetic consequences might emerge from artificial intelligence systems that develop non-linguistic reasoning?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of mathematics be challenged by artificial intelligence that discovers new mathematical realms?"
-  },
-  {
-    "level": "C2",
-    "question": "What hermeneutic challenges would arise in interpreting music created by artificial superintelligence?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical problem of induction be transformed by predictive algorithms with perfect accuracy?"
-  },
-  {
-    "level": "C2",
-    "question": "To what degree could the concept of personal identity be maintained in cases of consciousness merging?"
-  },
-  {
-    "level": "C2",
-    "question": "What ontological implications would follow from the discovery that reality is fundamentally mathematical?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of ethics be transformed by neurotechnologies that modify moral reasoning?"
-  },
-  {
-    "level": "C2",
-    "question": "What phenomenological differences might emerge between biological and artificial emotional experiences?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical concept of truth be maintained in an era of perfect reality simulation?"
-  },
-  {
-    "level": "C2",
-    "question": "To what extent could the hard problem of consciousness be resolved by integrated information theory?"
-  },
-  {
-    "level": "C2",
-    "question": "What epistemological ramifications might emerge from artificial intelligence systems that perceive quantum superpositions?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of physics be transformed by the discovery of new fundamental forces?"
-  },
-  {
-    "level": "C2",
-    "question": "What noetic consequences might emerge from direct neural access to all human knowledge?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical problem of other minds be addressed by perfect mind-reading technology?"
-  },
-  {
-    "level": "C2",
-    "question": "To what degree could the concept of free will be maintained in light of complete neural determinism?"
-  },
-  {
-    "level": "C2",
-    "question": "What metaphysical implications would follow from the discovery that consciousness creates reality?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of art be transformed by artificial intelligence that creates perfect beauty?"
-  },
-  {
-    "level": "C2",
-    "question": "What phenomenological consequences might emerge from the ability to experience multiple consciousness streams simultaneously?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical concept of self be transformed by distributed consciousness networks?"
-  },
-  {
-    "level": "C2",
-    "question": "To what extent could the simulation hypothesis be tested through quantum physics experiments?"
-  },
-  {
-    "level": "C2",
-    "question": "What ontological implications would follow from the discovery of non-computable processes in the brain?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of language be transformed by direct concept transmission?"
-  },
-  {
-    "level": "C2",
-    "question": "What epistemological ramifications might emerge from artificial intelligence systems that perceive higher dimensions?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical problem of personal identity be addressed in cases of consciousness duplication?"
-  },
-  {
-    "level": "C2",
-    "question": "To what degree could the concept of qualia be operationalized in artificial consciousness systems?"
-  },
-  {
-    "level": "C2",
-    "question": "What metaphysical implications would follow from the discovery that time is an emergent property?"
-  },
-  {
-    "level": "C2",
-    "question": "How could the philosophical foundations of science be transformed by artificial intelligence that discovers new laws of nature?"
-  },
-  {
-    "level": "C2",
-    "question": "What phenomenological differences might emerge between original and copied conscious experiences?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the philosophical concept of meaning be transformed by perfect communication technologies?"
-  },
-  {
-    "level": "C2",
-    "question": "To what extent could the hard problem of consciousness be resolved by panpsychist theories?"
-  },
-  {
-    "level": "C2",
-    "question": "What noetic consequences might emerge from artificial intelligence systems that develop non-human values?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the increasing sophistication of deepfake technology alter our fundamental understanding of truth and evidence in legal and social contexts?"
-  },
-  {
-    "level": "C2",
-    "question": "To what extent could the development of quantum computing render our current cybersecurity systems obsolete, and what societal implications would this have?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss how the philosophical zombie argument challenges physicalist accounts of consciousness. Where do you stand on this debate?"
-  },
-  {
-    "level": "C2",
-    "question": "How would society need to adapt if neurotechnology allowed for direct sharing of memories and emotions between individuals?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze the potential consequences of achieving indefinite human lifespans through biological age reversal technologies."
-  },
-  {
-    "level": "C2",
-    "question": "How might the concept of personal identity evolve in a world where consciousness can be digitally transferred or duplicated?"
-  },
-  {
-    "level": "C2",
-    "question": "Debate the ethical implications of using artificial intelligence to make life-or-death decisions in medical and judicial systems."
-  },
-  {
-    "level": "C2",
-    "question": "How could the ability to edit emotions and personality traits through neurotechnology affect human relationships and society?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential impacts on global power structures if certain nations achieve artificial general intelligence significantly before others."
-  },
-  {
-    "level": "C2",
-    "question": "How might the discovery of extraterrestrial microbial life force us to reconsider our philosophical and religious frameworks?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the development of perfect virtual reality environments might change human priorities and values."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether advanced AI systems should be granted legal personhood status and what rights they might deserve."
-  },
-  {
-    "level": "C2",
-    "question": "How could the emergence of brain-computer interfaces that enable direct knowledge uploading transform education systems?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential consequences of creating artificial consciousness that experiences suffering. What moral obligations would we have?"
-  },
-  {
-    "level": "C2",
-    "question": "How might the ability to precisely edit human embryos for enhanced traits affect social equality and the concept of human nature?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the development of molecular manufacturing could disrupt global economic systems and labor markets."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether advanced surveillance technologies can ever be compatible with maintaining personal freedoms and privacy."
-  },
-  {
-    "level": "C2",
-    "question": "How might the increasing automation of creative processes (art, music, writing) affect our appreciation of human creativity?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the philosophical implications if we discovered that our universe is a highly advanced computer simulation."
-  },
-  {
-    "level": "C2",
-    "question": "How could the development of technologies that allow communication with deceased individuals through their digital footprints affect grief and mourning processes?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze the potential consequences of creating artificial superintelligence that develops values fundamentally different from human values."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether it would be ethical to create digital afterlives where uploaded consciousnesses could continue existing indefinitely."
-  },
-  {
-    "level": "C2",
-    "question": "How might the ability to read and interpret dreams affect our understanding of the subconscious and concepts of privacy?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential impacts on human psychology if we develop perfect memory enhancement and editing technologies."
-  },
-  {
-    "level": "C2",
-    "question": "How could the development of technologies that allow direct brain-to-brain communication transform language and human interaction?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the concept of childhood might evolve in a world where cognitive enhancement can accelerate learning and maturation."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether governments should have the right to use predictive algorithms to prevent crimes before they occur."
-  },
-  {
-    "level": "C2",
-    "question": "How might the ability to genetically engineer new species affect our ethical responsibilities toward the natural world?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential consequences if neuroscience advances allow us to precisely identify and manipulate political beliefs in the brain."
-  },
-  {
-    "level": "C2",
-    "question": "How could the development of technologies that significantly extend human attention spans transform education and work?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the concept of personal achievement might change in a world where cognitive enhancement drugs are widely available."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether it would be ethical to create artificial beings designed to experience only positive emotions."
-  },
-  {
-    "level": "C2",
-    "question": "How might the ability to digitally archive and replay personal experiences affect our perception of time and memory?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential impacts on human relationships if we develop technologies that can perfectly simulate the presence of deceased loved ones."
-  },
-  {
-    "level": "C2",
-    "question": "How could the development of emotion-reading AI affect interpersonal relationships and social dynamics?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the concept of privacy might need to evolve in a world where brain activity can be remotely monitored."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether advanced AI systems should be allowed to own property or have independent economic agency."
-  },
-  {
-    "level": "C2",
-    "question": "How might the ability to control dreams transform entertainment, therapy, and education?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential consequences if neuroscience advances allow us to identify the neural correlates of religious experiences."
-  },
-  {
-    "level": "C2",
-    "question": "How could the development of technologies that allow group consciousness (multiple minds merging temporarily) affect human society?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the concept of personal identity might change if we develop the ability to merge consciousnesses permanently."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether it would be ethical to create artificial consciousness that can experience suffering for scientific research purposes."
-  },
-  {
-    "level": "C2",
-    "question": "How might the ability to precisely control human fertility through technological means affect gender relations and family structures?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential impacts on human psychology if we develop technologies that can erase traumatic memories at will."
-  },
-  {
-    "level": "C2",
-    "question": "How could the development of perfect lie detection technologies affect legal systems and personal relationships?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the concept of free will might need to be reconsidered if neuroscience advances can predict decisions before conscious awareness."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether advanced civilizations should actively work to prevent the heat death of the universe or accept cosmic entropy as inevitable."
-  },
-  {
-    "level": "C2",
-    "question": "How might the discovery of multiple universes with different physical laws affect our philosophical understanding of reality?"
-  },
-  {
-    "level": "C2",
-    "question": "Discuss the potential consequences if we develop technologies that allow humans to hibernate for extended periods of time."
-  },
-  {
-    "level": "C2",
-    "question": "How could the ability to digitally 'backup' and restore human consciousness affect our approach to mortality and risk-taking?"
-  },
-  {
-    "level": "C2",
-    "question": "Analyze how the development of artificial wombs might change concepts of parenthood and gender roles in society."
-  },
-  {
-    "level": "C2",
-    "question": "Debate whether it would be ethical to create human-animal hybrids with enhanced cognitive abilities."
+    "question": "What would you leave intentionally unresolved?"
   }
 ]
