@@ -446,6 +446,429 @@
         }
       ]
     },
+        {
+      "topic": "Wh Questions",
+      "level": "A1",
+      "explanation": "Wh Questions são usadas para obter informações específicas. Começam com palavras interrogativas como what, where, when, who, why e how. No Present Simple, usamos 'do/does' antes do sujeito.",
+      "rules": [
+        "Wh word + do + I/you/we/they + base verb (Ex: Where do you live?)",
+        "Wh word + does + he/she/it + base verb (Ex: Where does she live?)",
+        "Use base form of the verb after do/does",
+        "For 'who' as subject, do/does is not necessary (Ex: Who called you?)"
+      ],
+      "examples": [
+        "Where do you live?",
+        "What does she study?",
+        "Why do they wake up early?",
+        "How do you go to school?",
+        "Who plays the guitar?"
+      ],
+      "exercises": [
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ you work?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ she eat for breakfast?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you go to bed? At 10 p.m.",
+          "answer": "When"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is your teacher? Mr. Brown.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you study English? Because I like it.",
+          "answer": "Why"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "How __ he go to school?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the sentence by forming a correct Wh question.",
+          "question": "__ do they live? They live in Brazil.",
+          "answer": "Where"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you spell your name?",
+          "answer": "How"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What time __ she start work?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you do on weekends?",
+          "answer": "What"
+        },
+        
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ they live?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ he want?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you wake up? At 7 a.m.",
+          "answer": "When"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you buy food? At the supermarket.",
+          "answer": "Where"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is your best friend? Anna.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Why __ she cry?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "How __ you get to school?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do they play soccer? On Sundays.",
+          "answer": "When"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you open this box?",
+          "answer": "How"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ your parents cook for dinner?",
+          "answer": "do"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ she study?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you like pizza? Because it's delicious.",
+          "answer": "Why"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is your phone number?",
+          "answer": "What"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "When __ he finish school?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "How __ they learn English?",
+          "answer": "do"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you sit? Next to Maria.",
+          "answer": "Where"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ helps you with homework? My brother.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ she read at night?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Why __ we have homework today?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you feel today?",
+          "answer": "How"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ he park the car?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you visit your grandparents? On holidays.",
+          "answer": "When"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ they watch on TV?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is your favorite color?",
+          "answer": "What"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "How __ she make this cake?",
+          "answer": "does"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you go after school? Home.",
+          "answer": "Where"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "When __ they start class?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ teaches you math? Mrs. Clark.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Why __ he run every morning?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you clean your room? On Saturdays.",
+          "answer": "When"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ we meet?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is that woman? She is my aunt.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "How __ he spell your name?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you eat for lunch? Rice and beans.",
+          "answer": "What"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What time __ she leave home?",
+          "answer": "does"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you carry your books? In my backpack.",
+          "answer": "How"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Why __ they study at night?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you live with? My parents.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ she put the keys?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you practice English? Every day.",
+          "answer": "When"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "How __ we solve this problem?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is your birthday? In May.",
+          "answer": "When"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ he drink in the morning?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you talk to your teacher? After class.",
+          "answer": "When"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Why __ she wear glasses?",
+          "answer": "does"
+        },
+
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do they keep the dog? In the yard.",
+          "answer": "Where"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ you buy clothes?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you say 'hello' in Japanese?",
+          "answer": "How"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "When __ he call his mother?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ is your favorite teacher? Mr. Lee.",
+          "answer": "Who"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "What __ we need for the test?",
+          "answer": "do"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you open the door? With this key.",
+          "answer": "How"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with do or does.",
+          "question": "Where __ she work on weekends?",
+          "answer": "does"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ do you like English class? Because it's fun.",
+          "answer": "Why"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete the question with the correct Wh word.",
+          "question": "__ plays the piano in your family?",
+          "answer": "Who"
+        }
+
+      ]
+    },
+  
+
+
     {
       "topic": "Verb To Be - Present Simple",
       "level": "A1",
