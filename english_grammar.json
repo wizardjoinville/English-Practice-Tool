@@ -27,23 +27,18 @@
           "question": "I __ my teeth three times a day. (brush)",
           "answer": "brush"
         },
-        
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
           "question": "The sun __ in the east. (rise)",
           "answer": "rises"
         },
-       
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
           "question": "I __ coffee in the morning. (not / like)",
           "answer": "do not like/ don't like/ dont like"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -74,9 +69,6 @@
           "question": "My father __ the newspaper every morning. (read)",
           "answer": "reads"
         },
-        
-       
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -155,7 +147,6 @@
           "question": "Children __ to play in the park. (love)",
           "answer": "love"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -234,8 +225,6 @@
           "question": "You __ a visa to enter this country. (not / need)",
           "answer": "do not need/don't need/ dont need"
         },
-       
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -248,7 +237,6 @@
           "question": "He __ meat, he's a vegetarian. (not / eat)",
           "answer": "does not eat/doesn't eat/ doesnt eat"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -306,7 +294,6 @@
           "question": "We __ meat because we're vegetarian. (not eat)",
           "answer": "don't eat/do not eat/ dont eat"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete with the correct form.",
@@ -325,7 +312,6 @@
           "question": "We __ English on Mondays and Wednesdays. (study)",
           "answer": "study"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple.",
@@ -338,7 +324,6 @@
           "question": "Cats __ for many hours during the day. (sleep)",
           "answer": "sleep"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
@@ -393,7 +378,6 @@
           "question": "John __ the answer to the question. (not / know)",
           "answer": "does not know/doesn't know/ doesnt know"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Present Simple (NEGATIVE).",
@@ -438,7 +422,210 @@
         }
       ]
     },
+    {
+      "topic": "Prepositions of Time and Place: IN, ON, AT",
+      "level": "A2",
+      "explanation": "As preposições IN, ON e AT são usadas para indicar tempo e lugar. Cada uma tem usos específicos: IN para períodos longos e espaços amplos, ON para dias e superfícies, AT para horários específicos e pontos exatos.",
+      "rules": [
+        "IN → usado para: meses (in May), anos (in 2023), estações (in winter), partes do dia (in the morning), séculos (in the 20th century)",
+        "IN → para lugares: países (in Brazil), cidades (in London), espaços fechados (in the room), meios de transporte (in the car)",
+        "ON → usado para: dias da semana (on Monday), datas (on May 5th), feriados com 'day' (on Christmas Day), fins de semana (on the weekend - US)",
+        "ON → para lugares: superfícies (on the table), ruas (on Main Street), meios de transporte (on the bus/train/plane)",
+        "AT → usado para: horários específicos (at 5 PM), refeições (at lunchtime), fins de semana (at the weekend - UK), feriados (at Christmas)",
+        "AT → para lugares: pontos específicos (at the door), endereços (at 123 Main Street), eventos (at the concert), posições exatas (at the bus stop)"
+      ],
+      "examples": [
+        "TIME: I wake up at 7 AM. (horário específico)",
+        "TIME: Let's meet on Friday. (dia da semana)",
+        "TIME: She was born in 1995. (ano)",
+        "PLACE: The keys are on the table. (superfície)",
+        "PLACE: He lives in New York. (cidade)",
+        "PLACE: I'll wait for you at the entrance. (ponto específico)"
+      ],
+      "exercises": [
         {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I usually wake up __ 7 AM.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "Let's meet __ Friday evening.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "She was born __ 1995.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The book is __ the table.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "He lives __ Paris.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I'll wait for you __ the bus stop.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "We usually go to the beach __ summer.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The meeting is __ Monday morning.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "They arrived __ the airport at 8 PM.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I like to drink coffee __ the morning.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The picture is hanging __ the wall.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "We had dinner __ a nice restaurant.",
+          "answer": "in/at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I'll see you __ Christmas.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "She's sitting __ the sofa.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The store closes __ 9 PM.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I was born __ May 15th.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "He's __ the hospital right now.",
+          "answer": "at/in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "We met __ a cold winter day.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The keys are __ my pocket.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "She works __ the hospital.",
+          "answer": "at/in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I'll be there __ 10 minutes.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The concert starts __ Saturday.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "He's waiting __ the corner.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "We live __ the third floor.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I'll call you __ the afternoon.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The cat is sleeping __ the bed.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "She was born __ the 1990s.",
+          "answer": "in"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "Let's meet __ noon.",
+          "answer": "at"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "The party is __ Saturday night.",
+          "answer": "on"
+        },
+        {
+          "mode": "complete",
+          "instruction": "Complete with IN, ON or AT.",
+          "question": "I left my phone __ home.",
+          "answer": "at"
+        }
+      ]
+    },
+    {
       "topic": "Wh Questions",
       "level": "A1",
       "explanation": "Wh Questions são usadas para obter informações específicas. Começam com palavras interrogativas como what, where, when, who, why e how. No Present Simple, usamos 'do/does' antes do sujeito.",
@@ -516,7 +703,6 @@
           "question": "__ do you do on weekends?",
           "answer": "What"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the question with do or does.",
@@ -577,7 +763,6 @@
           "question": "What __ your parents cook for dinner?",
           "answer": "do"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with do or does.",
@@ -608,7 +793,6 @@
           "question": "How __ they learn English?",
           "answer": "do"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with the correct Wh word.",
@@ -639,7 +823,6 @@
           "question": "__ do you feel today?",
           "answer": "How"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with do or does.",
@@ -670,7 +853,6 @@
           "question": "How __ she make this cake?",
           "answer": "does"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with the correct Wh word.",
@@ -701,7 +883,6 @@
           "question": "__ do you clean your room? On Saturdays.",
           "answer": "When"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with do or does.",
@@ -732,7 +913,6 @@
           "question": "What time __ she leave home?",
           "answer": "does"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with the correct Wh word.",
@@ -763,7 +943,6 @@
           "question": "__ do you practice English? Every day.",
           "answer": "When"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with do or does.",
@@ -794,7 +973,6 @@
           "question": "Why __ she wear glasses?",
           "answer": "does"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the question with the correct Wh word.",
@@ -855,12 +1033,8 @@
           "question": "__ plays the piano in your family?",
           "answer": "Who"
         }
-
       ]
     },
-  
-
-
     {
       "topic": "Verb To Be - Present Simple",
       "level": "A1",
@@ -912,7 +1086,7 @@
           "question": "A: __ it Saturday today? B: No, it __ Sunday.",
           "answer": "Is,is/'s"
         },
-              {
+        {
           "mode": "complete",
           "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
           "question": "A: Hello, I __ Peter. B: Nice to meet you, Peter. I __ Anna.",
@@ -942,7 +1116,6 @@
           "question": "My brother and I __ students. (We) We __ in the same class.",
           "answer": "are/'re,are/'re"
         },
-        
         {
           "mode": "complete",
           "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
@@ -1867,7 +2040,6 @@
           "question": "A: The coffee __ hot. Be careful. B: Thanks, I __ always careful.",
           "answer": "is/'s,am/'m"
         },
-
         {
           "mode": "complete",
           "instruction": "Complete the sentences with the correct form of the verb TO BE in the Present Simple.",
@@ -2528,7 +2700,6 @@
           "question": "She __ a new car last month. (buy)",
           "answer": "bought"
         },
-       
         {
           "mode": "complete",
           "instruction": "Complete the sentence with the correct form of the verb in the Past Simple (NEGATIVE).",

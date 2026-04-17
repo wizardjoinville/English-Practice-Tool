@@ -661,8 +661,7 @@ function iniciarQuiz() {
   document.getElementById('btnNextQuestion').disabled = false;
   atualizarBotoes();
 }
-
-
+// ...existing code...
 function exibirQuizQuestion() {
   const quizContainer = document.getElementById('quizContainer');
 
@@ -697,7 +696,7 @@ function exibirQuizQuestion() {
   quizContainer.innerHTML = `
     <div class="quiz-question-area" id="quizQuestionArea">
       <div class="difficulty ${currentQuizQuestion.level}">${currentQuizQuestion.level}</div>
-      <div class="quiz-word" id="quizWord">${palavraPergunta}</div>
+      <div class="vocab-word" id="quizWord">${palavraPergunta}</div>
       <div class="quiz-instruction">${pergunta}</div>
     </div>
     <div class="quiz-options">
@@ -711,6 +710,9 @@ function exibirQuizQuestion() {
     falarTexto(palavraPergunta, 'en-US');
   };
 }
+// ...existing code...
+
+
 
 
 function gerarOpcoesQuiz(palavraCorreta) {
@@ -1056,7 +1058,8 @@ function criarExercicioComCaixasPorGrupo(exercise) {
   if (Array.isArray(exercise.answer)) {
     answers = exercise.answer;
   } else {
-    answers = exercise.answer.split(',');
+    // Se for string, converter para array (separando por vírgula se necessário)
+    answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
   }
 
   parts.forEach(part => {
@@ -1166,403 +1169,6 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (inlineBtn) inlineBtn.disabled = true;
 
   if (allCorrect) {
-    grammarPoints++;
-    grammarActiveExercises.splice(currentExerciseIndex, 1);
-
-    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
-    feedbackElement.className = 'exercise-feedback correct';
-
-    atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 0.4);
-  } else {
-    grammarErrors++;
-
-    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
-    feedbackElement.className = 'exercise-feedback incorrect';
-
-    atualizarPontuacaoGrammar();
-    setTimeout(proximoExercicio, 3000);
-  }
-}
-
-
-function validarCampoPreenchido() {
-  const userAnswerElement = document.getElementById('exerciseAnswer');
-  if (userAnswerElement && !userAnswerElement.value.trim()) {
-    const feedbackElement = document.getElementById('exerciseFeedback');
-    feedbackElement.innerHTML = '<span style="color: #FF9800; font-weight: 600;">⚠️ Please provide an answer first!</span>';
-    feedbackElement.className = 'exercise-feedback warning';
-    return false;
-  }
-  return true;
-}
-
-
-
-function filtrarExerciciosPorModo(exercises, modoSelecionado) {
-  if (modoSelecionado === 'all') {
-    return exercises;
-  }
-  return exercises.filter(exercise => exercise.mode === modoSelecionado);
-}
-
-
-
-// Nova função para criar exercícios com lacunas
-function criarExercicioComLacunas(exercise, modeDisplay = '') {
-  // Dividir a pergunta nas lacunas
-  const parts = exercise.question.split('_____');
-  const numGaps = parts.length - 1;
-
-  // Criar HTML com campos de entrada para cada lacuna
-  let questionHTML = `
-    ${modeDisplay}
-    <div class="exercise-title">${exercise.instruction}</div>
-    <div class="exercise-content" style="font-size: 1.1rem; line-height: 1.6;">
-  `;
-
-  parts.forEach((part, index) => {
-    questionHTML += part;
-    if (index < numGaps) {
-      questionHTML += `
-        <input type="text" class="gap-input" id="gap${index}" data-index="${index}" 
-               style="min-width: 150px; width: 150px; padding: 10px 20px; font-size: 1.1rem;
-                      border: 2px solid #8A2BE2; border-radius: 8px; margin: 0 10px;"
-               placeholder="________" oninput="ajustarLarguraInput(this)">
-      `;
-    }
-  });
-
-  questionHTML += `</div>`;
-
-  document.getElementById('exerciseContainer').innerHTML = questionHTML + `
-  <div class="exercise-buttons" style="margin-top: 25px; text-align: center;">
-    <button class="check-btn" id="inlineCheckBtn" style="padding: 12px 24px; font-size: 1.1rem;">✓ Verificar Resposta</button>
-  </div>
-  <div class="exercise-feedback" id="exerciseFeedback" style="margin-top: 20px;"></div>
-  <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none; margin-top: 15px;">
-    <strong>Resposta correta:</strong> <span style="font-weight: 600;">${exercise.answer.replace(/\//g, ' ou ')}</span>
-  </div>
-`;
-
-  // Adicionar event listeners
-  const gapInputs = document.querySelectorAll('.gap-input');
-  gapInputs.forEach((input, index) => {
-    input.addEventListener('input', function () {
-      ajustarLarguraInput(this);
-
-      // Auto-foco no próximo campo
-    });
-
-    input.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        verificarExercicioComLacunas(exercise.answer);
-      }
-
-      if (e.key === 'Tab') {
-        e.preventDefault();
-        const nextIndex = parseInt(this.dataset.index) + 1;
-        const nextInput = document.getElementById(`gap${nextIndex}`);
-        if (nextInput) nextInput.focus();
-      }
-    });
-  });
-
-  // Adicionar event listener ao botão de verificação
-  document.getElementById('inlineCheckBtn').addEventListener('click', function () {
-    verificarExercicioComLacunas(exercise.answer);
-  });
-
-  // Focar no primeiro campo
-  if (gapInputs.length > 0) {
-    setTimeout(() => gapInputs[0].focus(), 100);
-  }
-}
-
-// FUNÇÃO PARA AJUSTAR LARGURA DINAMICAMENTE
-function ajustarLarguraInput(input) {
-  // Largura mínima aumentada significativamente
-  const minWidth = 150;
-  // Largura por caractere (valor mais generoso)
-  const charWidth = 12;
-  // Padding lateral generoso
-  const padding = 40;
-
-  // Calcular largura baseada no conteúdo, mas ser mais generoso
-  const contentWidth = Math.max(minWidth, (input.value.length * charWidth) + padding);
-
-  // Aplicar largura (mínimo 150px)
-  input.style.width = contentWidth + 'px';
-
-  // Permitir que o campo cresça conforme necessário
-  input.style.minWidth = contentWidth + 'px';
-}
-
-
-// Função para calcular a largura do campo de entrada com base no conteúdo - VERSÃO MELHORADA
-function calculateInputWidth(text) {
-  const minWidth = 100; // Largura mínima significativamente aumentada
-  const charWidth = 10; // Largura por caractere aumentada (considerando font-weight: 500)
-  const padding = 40; // Espaço para padding lateral (20px de cada lado)
-  return Math.max(minWidth, (text.length * charWidth) + padding) + 'px';
-}
-
-// Modificar a função criarExercicioComLacunas para garantir melhor visualização
-function criarExercicioComLacunas(exercise) {
-  // Dividir a pergunta nas lacunas
-  const parts = exercise.question.split('_____');
-  const numGaps = parts.length - 1;
-
-  // Criar HTML com campos de entrada para cada lacuna
-  let questionHTML = `<div class="exercise-title">${exercise.instruction}</div><div class="exercise-content">`;
-
-  parts.forEach((part, index) => {
-    questionHTML += part;
-    if (index < numGaps) {
-      // Obter resposta esperada para este gap (se existir)
-      const expectedAnswer = exercise.answer.split(',')[index] || '';
-      // Adicionar um pouco de largura extra para garantir que não haja corte
-      const extraWidth = 15; // pixels extras para garantir
-      const calculatedWidth = parseInt(calculateInputWidth(expectedAnswer)) + extraWidth;
-
-      questionHTML += `<input type="text" class="gap-input" id="gap${index}" data-index="${index}" style="width: ${calculatedWidth}px" placeholder="________">`;
-    }
-  });
-
-  questionHTML += `</div>`;
-
-  document.getElementById('exerciseContainer').innerHTML = questionHTML + `
-  <div class="exercise-buttons" style="margin-top: 20px; text-align: center;">
-    <button class="check-btn" id="inlineCheckBtn" style="padding: 10px 20px;">
-      ✓ Verificar Resposta
-    </button>
-  </div>
-  <div class="exercise-feedback" id="exerciseFeedback"></div>
-  <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none;">
-    <strong>Resposta correta:</strong> <span>${exercise.answer.replace(/\//g, ' ou ')}</span>
-  </div>
-`;
-
-  // Adicionar event listeners aos campos de entrada
-  const gapInputs = document.querySelectorAll('.gap-input');
-  gapInputs.forEach(input => {
-    // Ajustar a largura inicial baseada no placeholder
-    input.style.width = calculateInputWidth("________");
-
-    input.addEventListener('input', function () {
-      // Ajustar a largura do campo conforme o conteúdo
-      // Adicionar largura extra para garantir que não haja corte
-      const extraWidth = 15;
-      const calculatedWidth = parseInt(calculateInputWidth(this.value)) + extraWidth;
-      this.style.width = calculatedWidth + 'px';
-
-      // Mover para o próximo campo quando este estiver preenchido
-
-    });
-
-    input.addEventListener('keydown', function (e) {
-      // Navegar entre campos com a tecla Tab ou Enter
-      if (e.key === 'Tab' || e.key === 'Enter') {
-        e.preventDefault();
-        const nextIndex = parseInt(this.dataset.index) + 1;
-        const nextInput = document.getElementById(`gap${nextIndex}`);
-        if (nextInput) {
-          nextInput.focus();
-        } else {
-          // Se não há próximo campo, focar no botão de verificação
-          document.getElementById('inlineCheckBtn').focus();
-        }
-      }
-
-      // Voltar para o campo anterior com Shift+Tab
-      if (e.key === 'Tab' && e.shiftKey) {
-        e.preventDefault();
-        const prevIndex = parseInt(this.dataset.index) - 1;
-        const prevInput = document.getElementById(`gap${prevIndex}`);
-        if (prevInput) {
-          prevInput.focus();
-        }
-      }
-    });
-  });
-
-  // Adicionar event listener ao botão de verificação
-  document.getElementById('inlineCheckBtn').addEventListener('click', function () {
-    verificarExercicioComLacunas(exercise.answer);
-  });
-
-  // Permitir verificação com Enter no último campo
-  if (gapInputs.length > 0) {
-    const lastInput = gapInputs[gapInputs.length - 1];
-    lastInput.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' && !e.shiftKey) {
-        e.preventDefault();
-        verificarExercicioComLacunas(exercise.answer);
-      }
-    });
-  }
-
-  // Focar no primeiro campo
-  if (gapInputs.length > 0) {
-    setTimeout(() => gapInputs[0].focus(), 100);
-  }
-}
-
-function criarExercicioComCaixasPorGrupo(exercise) {
-  // Usar regex para encontrar grupos de underscores consecutivos
-  const regex = /(_{2,})/g;
-  const parts = exercise.question.split(regex);
-
-  let questionHTML = `
-    <div class="exercise-title">${exercise.instruction}</div>
-    <div class="exercise-content" style="font-size: 1.1rem; line-height: 1.6; display: flex; flex-wrap: wrap; align-items: center;">
-  `;
-
-  let gapCount = 0;
-
-  // CORREÇÃO: Handle both string and array answers properly
-  let answers;
-  if (Array.isArray(exercise.answer)) {
-    answers = exercise.answer;
-  } else {
-    // Se for string, converter para array (separando por vírgula se necessário)
-    answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
-  }
-
-  parts.forEach(part => {
-    if (part.startsWith('_') && part.length >= 2) {
-      // É um grupo de underscores - criar UMA caixa de texto
-      const answerValue = answers[gapCount] ? String(answers[gapCount]).trim() : '';
-      questionHTML += `
-         <input type="text" class="gap-input" data-index="${gapCount}" 
-               data-answer="${answerValue.replace(/"/g, '&quot;')}"
-               style="min-width: 120px; width: 120px; padding: 8px 12px; 
-                      margin: 0 5px; border: 2px solid #8A2BE2; border-radius: 6px;"
-               placeholder="________" oninput="ajustarLarguraInput(this)">
-      `;
-      gapCount++;
-    } else {
-      // É texto normal
-      questionHTML += `<span class="sentence-text">${part}</span>`;
-    }
-  });
-
-  // CORREÇÃO: Display answer correctly for both array and string
-  const answerDisplay = Array.isArray(exercise.answer)
-    ? exercise.answer.join(', ')
-    : exercise.answer;
-
-  questionHTML += `</div>`;
-
-  document.getElementById('exerciseContainer').innerHTML = questionHTML + `
-    <div class="exercise-buttons" style="margin-top: 20px; text-align: center;">
-      <button class="check-btn" id="inlineCheckBtn" style="padding: 10px 20px;">
-        ✓ Verificar Resposta
-      </button>
-    </div>
-    <div class="exercise-feedback" id="exerciseFeedback"></div>
-    <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none;">
-      <strong>Resposta correta:</strong> <span>${answerDisplay}</span>
-    </div>
-  `;
-
-  // Adicionar event listeners
-  const gapInputs = document.querySelectorAll('.gap-input');
-  gapInputs.forEach((input, index) => {
-    input.addEventListener('input', function () {
-      ajustarLarguraInput(this);
-    });
-
-    input.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        verificarExercicioComCaixas(exercise.answer);
-      }
-
-      if (e.key === 'Tab') {
-        e.preventDefault();
-        const nextIndex = parseInt(this.dataset.index) + 1;
-        const nextInput = document.querySelector(`.gap-input[data-index="${nextIndex}"]`);
-        if (nextInput) nextInput.focus();
-      }
-    });
-  });
-
-  // Adicionar event listener ao botão de verificação
-  document.getElementById('inlineCheckBtn').addEventListener('click', function () {
-    verificarExercicioComCaixas(exercise.answer);
-  });
-
-  // Focar no primeiro campo
-  if (gapInputs.length > 0) {
-    setTimeout(() => gapInputs[0].focus(), 100);
-  }
-}
-
-// Nova função para verificar exercícios com lacunas - COM AUTOAVANÇO
-// Na função verificarExercicioComLacunas:
-function verificarExercicioComLacunas(correctAnswer) {
-  const gapInputs = document.querySelectorAll('.gap-input');
-
-  // Garantir que as respostas sejam um array
-  let answers;
-  if (Array.isArray(correctAnswer)) {
-    answers = correctAnswer;
-  } else {
-    answers = correctAnswer.split(',');
-  }
-
-  let allCorrect = true;
-  const feedbackElement = document.getElementById('exerciseFeedback');
-
-  gapInputs.forEach((input, index) => {
-    const userAnswer = input.value.trim().toLowerCase();
-
-    // Verificar se há múltiplas respostas possíveis (separadas por "/")
-    let possibleAnswers;
-    if (Array.isArray(answers[index])) {
-      possibleAnswers = answers[index].map(a => a.trim().toLowerCase());
-    } else {
-      possibleAnswers = answers[index] ?
-        answers[index].trim().toLowerCase().split('/') :
-        [''];
-    }
-
-    // ... resto do código permanece o mesmo
-
-
-    // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
-    const isCorrect = possibleAnswers.some(correct =>
-      userAnswer === correct.trim().toLowerCase()
-    );
-
-    if (isCorrect) {
-      input.style.borderColor = '#4CAF50';
-      input.style.backgroundColor = 'rgba(76, 175, 80, 0.1)';
-      input.style.color = '#2E7D32';
-    } else {
-      input.style.borderColor = '#F44336';
-      input.style.backgroundColor = 'rgba(244, 67, 54, 0.1)';
-      input.style.color = '#C62828';
-      allCorrect = false;
-
-      // Mostrar as respostas corretas possíveis
-      const originalPlaceholder = input.placeholder;
-      input.placeholder = possibleAnswers.join(' ou ');
-      setTimeout(() => {
-        input.placeholder = originalPlaceholder;
-      }, 3000);
-    }
-
-    // Desabilitar a edição após verificação
-    input.disabled = true;
-  });
-
-  // Resto da função permanece igual...
-  document.getElementById('inlineCheckBtn').disabled = true;
-
-  if (allCorrect) {
     feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
     iniciarContagemRegressiva();
@@ -1570,7 +1176,7 @@ function verificarExercicioComLacunas(correctAnswer) {
       proximoExercicio();
     }, 0.4);
   } else {
-    feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Algumas respostas estão incorretas. Tente novamente!</span>';
+    feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Algumas respostas estão incorretas.</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
     document.getElementById('exerciseCorrectAnswer').style.display = 'block';
 
@@ -1626,12 +1232,23 @@ function verificarExercicioComCaixas(correctAnswer) {
 
     if (isCorrect) {
       input.style.borderColor = '#4CAF50';
-      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
+      input.style.backgroundColor = 'rgba(76, 175, 80, 0.1)';
+      input.style.color = '#2E7D32';
     } else {
       input.style.borderColor = '#F44336';
-      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
+      input.style.backgroundColor = 'rgba(244, 67, 54, 0.1)';
+      input.style.color = '#C62828';
       allCorrect = false;
+
+      // Mostrar as respostas corretas possíveis
+      const originalPlaceholder = input.placeholder;
+      input.placeholder = possibleAnswers.join(' ou ');
+      setTimeout(() => {
+        input.placeholder = originalPlaceholder;
+      }, 3000);
     }
+
+    // Desabilitar a edição após verificação
     input.disabled = true;
   });
 
@@ -1639,15 +1256,40 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (inlineBtn) inlineBtn.disabled = true;
 
   if (allCorrect) {
-    feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
+    feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correto! Parabéns!</span>';
     feedbackElement.className = 'exercise-feedback correct';
-    setTimeout(proximoExercicio, 0.4);
+    iniciarContagemRegressiva();
+    setTimeout(() => {
+      proximoExercicio();
+    }, 0.4);
   } else {
-    feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
+    feedbackElement.innerHTML = '<span style="color: #F44336; font-weight: 600;">❌ Algumas respostas estão incorretas. Tente novamente!</span>';
     feedbackElement.className = 'exercise-feedback incorrect';
-    const correct = document.getElementById('exerciseCorrectAnswer');
-    if (correct) correct.style.display = 'block';
-    setTimeout(proximoExercicio, 3000);
+    document.getElementById('exerciseCorrectAnswer').style.display = 'block';
+
+
+
+    const tryAgainBtn = document.createElement('button');
+    tryAgainBtn.textContent = '🔄 Tentar Novamente';
+    tryAgainBtn.className = 'reset-btn';
+    tryAgainBtn.style.marginTop = '15px';
+    tryAgainBtn.onclick = () => {
+      gapInputs.forEach(input => {
+        input.disabled = false;
+        input.style.borderColor = '#8A2BE2';
+        input.style.backgroundColor = 'white';
+        input.style.color = 'inherit';
+        input.value = ''; // Limpar o campo
+      });
+      document.getElementById('inlineCheckBtn').disabled = false;
+      feedbackElement.innerHTML = '';
+      document.getElementById('exerciseCorrectAnswer').style.display = 'none';
+      tryAgainBtn.remove();
+      if (gapInputs.length > 0) {
+        gapInputs[0].focus();
+      }
+    };
+    feedbackElement.appendChild(tryAgainBtn);
   }
 }
 function iniciarContagemRegressiva() {
@@ -1710,7 +1352,6 @@ function verificarExercicio() {
   // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
   const isCorrect = possibleAnswers.some(correct => {
     const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
-    console.log('Comparando:', normalizedUserAnswer, 'vs', normalizedCorrect);
     return normalizedUserAnswer === normalizedCorrect;
   });
 
@@ -1846,26 +1487,23 @@ function verificarExercicioRewrite() {
   const feedbackElement = document.getElementById('exerciseFeedback');
   const exercise = currentGrammarTopic.exercises[currentExerciseIndex];
 
-  // Garantir que as respostas sejam um array
+  // Garantir que as respostas sejam um array (caso answer seja string ou array)
   let possibleAnswers;
   if (Array.isArray(exercise.answer)) {
     possibleAnswers = exercise.answer.map(a => a.trim());
   } else {
-    // Dividir por "/" para múltiplas respostas aceitáveis
+    // Dividir por "/" primeiro, depois por "," se necessário
     possibleAnswers = exercise.answer.split('/').map(a => a.trim());
   }
 
-  // Normalizar a resposta do usuário (remover espaços extras, tornar minúscula)
+
+  // E também remover espaços extras para comparação mais flexível
   const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
 
-  // Verificar se a resposta do usuário corresponde a qualquer uma das possibilidades
   const isCorrect = possibleAnswers.some(correct => {
     const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
-    console.log('Comparing:', normalizedUserAnswer, 'vs', normalizedCorrect);
     return normalizedUserAnswer === normalizedCorrect;
   });
-
-  console.log('Is correct:', isCorrect, 'Possible answers:', possibleAnswers);
 
   if (isCorrect) {
     feedbackElement.innerHTML = '<span style="color: #4CAF50; font-weight: 600;">✅ Correct! Well done!</span>';
@@ -1918,8 +1556,7 @@ function verificarRespostaNormal(userAnswer, exercise) {
     feedbackElement.className = 'exercise-feedback correct';
 
     // Desabilitar campos e botões
-    const userAnswerElement = document.getElementById('exerciseAnswer');
-    if (userAnswerElement) userAnswerElement.disabled = true;
+    userAnswerElement.disabled = true;
     const inlineCheckBtn = document.getElementById('inlineCheckBtn');
     if (inlineCheckBtn) inlineCheckBtn.disabled = true;
 
@@ -2054,70 +1691,342 @@ function proximoExercicio() {
     correctEl.style.display = 'none';
   }
 
+  // Limpar feedback
+  const feedbackElement = document.getElementById('exerciseFeedback');
+  if (feedbackElement) {
+    feedbackElement.innerHTML = '';
+    feedbackElement.className = 'exercise-feedback';
+  }
+
+  // Limpar qualquer botão inline pendente
+  const inlineCheckBtn = document.getElementById('inlineCheckBtn');
+  if (inlineCheckBtn) {
+    inlineCheckBtn.disabled = false;
+  }
+
   // 🔹 Se estiver no modo "Random", sortear um novo tópico
   const topicSelect = document.getElementById('grammarSelect');
-  if (topicSelect.value === 'random') {
-    // Sortear novo tópico aleatório
+  if (topicSelect && topicSelect.value === 'random') {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
     currentGrammarTopic = grammarTopics[randomIndex];
     
-    // Recarregar exercícios do novo tópico
     const modeSelect = document.getElementById('grammarModeSelect');
-    const selectedMode = modeSelect.value;
+    const selectedMode = modeSelect ? modeSelect.value : 'all';
     
     let exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
     grammarActiveExercises = [...exerciciosFiltrados];
-    
-    // Reiniciar índice do exercício
     currentExerciseIndex = 0;
   }
 
+  // VERIFICAR SE AINDA HÁ EXERCÍCIOS
   if (grammarActiveExercises.length === 0) {
-    document.getElementById('exerciseContainer').innerHTML = `
-      <div class="empty-message">
-        <p>All exercises completed! 🎉</p>
-        <button class="reset-btn" onclick="resetarExercicios()">Reset Exercises</button>
-      </div>
-    `;
+    const exerciseContainer = document.getElementById('exerciseContainer');
+    if (exerciseContainer) {
+      exerciseContainer.innerHTML = `
+        <div class="empty-message">
+          <p>🎉 All exercises completed! 🎉</p>
+          <p>Final score: ${grammarPoints} correct, ${grammarErrors} errors</p>
+          <button class="reset-btn" onclick="resetarExercicios()">Reset Exercises</button>
+        </div>
+      `;
+    }
+    const nextBtn = document.getElementById('btnNextExercise');
+    if (nextBtn) nextBtn.disabled = true;
     return;
   }
 
-  // Pega o primeiro exercício da fila
+  // 🔥 CORREÇÃO: Garantir que o índice esteja dentro dos limites
+  if (currentExerciseIndex >= grammarActiveExercises.length) {
+    currentExerciseIndex = 0;
+  }
+
+  // Pegar o próximo exercício
   const exercise = grammarActiveExercises[currentExerciseIndex];
+  
+  // Recriar o exercício na tela
   iniciarExercicios([exercise]);
 }
 
+// ============================================
+// FUNÇÃO 2: verificarExercicioComLacunas() - SUBSTITUIR COMPLETAMENTE
+// ============================================
+function verificarExercicioComLacunas(correctAnswer) {
+  const gapInputs = document.querySelectorAll('.gap-input');
+  if (gapInputs.length === 0) return;
+  
+  const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
+  let allCorrect = true;
+  const userAnswers = [];
 
-function resetarExercicios() {
-  grammarActiveExercises = [];
-  grammarUsedExercises = [];
-  grammarPoints = 0;
-  grammarErrors = 0;
+  // Coletar e verificar cada resposta
+  gapInputs.forEach((input, index) => {
+    const userAnswer = input.value.trim().toLowerCase();
+    userAnswers.push(userAnswer);
+    
+    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
+    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
+
+    if (!isCorrect) {
+      allCorrect = false;
+      input.style.borderColor = '#F44336';
+      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
+    } else {
+      input.style.borderColor = '#4CAF50';
+      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
+    }
+    input.disabled = true;
+  });
+
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
+  const feedbackElement = document.getElementById('exerciseFeedback');
+
+  if (allCorrect) {
+    // ✅ ACERTO: Remove o exercício da lista permanentemente
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+    // Não incrementar currentExerciseIndex porque o próximo item agora está no mesmo índice
+    
+    if (correctEl) correctEl.style.display = 'none';
+    
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Excelente!</span>';
+      feedbackElement.className = 'exercise-feedback correct';
+    }
+  } else {
+    // ❌ ERRO: Move o exercício para o final da fila
+    grammarErrors++;
+    
+    // Remove da posição atual e adiciona ao final
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
+    // Não incrementar currentExerciseIndex porque o próximo item agora está no mesmo índice
+    
+    // Mostrar resposta correta formatada
+    const respostasFormatadas = answers.map((a, idx) => {
+      const answerStr = typeof a === 'string' ? a : String(a);
+      const userAnswer = userAnswers[idx] || '(vazio)';
+      return `<div style="margin: 5px 0;">
+        <strong>Campo ${idx + 1}:</strong> Sua resposta: "${userAnswer}" | Correto: ${answerStr.replace(/\//g, ' ou ')}
+      </div>`;
+    }).join('');
+    
+    if (correctEl) {
+      correctEl.style.display = 'block';
+      correctEl.innerHTML = `<strong>Respostas corretas:</strong><br>${respostasFormatadas}`;
+    }
+    
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Incorreto. Você verá este exercício novamente.</span>';
+      feedbackElement.className = 'exercise-feedback incorrect';
+    }
+  }
+
   atualizarPontuacaoGrammar();
-
-  document.getElementById('exerciseContainer').innerHTML = `
-    <div class="empty-message">
-      <p>Exercises have been reset.</p>
-      <p>Select a grammar topic and click "Practice Grammar" to begin.</p>
-    </div>
-  `;
-
-  document.getElementById('grammarPractice').style.display = 'none';
-  document.getElementById('btnCheckExercise').disabled = true;
-  document.getElementById('btnNextExercise').disabled = false;
-
-  // Resetar botão de verificação
-  document.getElementById('btnCheckExercise').style.display = 'flex';
+  
+  // Desabilitar botão de verificação inline
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) inlineBtn.disabled = true;
+  
+  // Aguardar e ir para o próximo exercício
+  const delayTime = allCorrect ? 1500 : 3000;
+  setTimeout(() => {
+    proximoExercicio();
+  }, delayTime);
 }
 
-function atualizarPontuacaoGrammar() {
-  document.getElementById('grammarPoints').textContent = grammarPoints;
-  document.getElementById('grammarErrors').textContent = grammarErrors;
-  document.getElementById('grammarTotal').textContent = grammarPoints + grammarErrors;
+// ============================================
+// FUNÇÃO 3: verificarExercicioComCaixas() - SUBSTITUIR COMPLETAMENTE
+// ============================================
+function verificarExercicioComCaixas(correctAnswer) {
+  const gapInputs = document.querySelectorAll('.gap-input');
+  if (gapInputs.length === 0) return;
+  
+  const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
+  let allCorrect = true;
+  const userAnswers = [];
+
+  gapInputs.forEach((input, index) => {
+    const userAnswer = input.value.trim().toLowerCase();
+    userAnswers.push(userAnswer);
+    
+    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
+    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
+
+    if (!isCorrect) {
+      allCorrect = false;
+      input.style.borderColor = '#F44336';
+      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
+    } else {
+      input.style.borderColor = '#4CAF50';
+      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
+    }
+    input.disabled = true;
+  });
+
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
+  const feedbackElement = document.getElementById('exerciseFeedback');
+
+  if (allCorrect) {
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+    
+    if (correctEl) correctEl.style.display = 'none';
+    
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
+      feedbackElement.className = 'exercise-feedback correct';
+    }
+  } else {
+    grammarErrors++;
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
+    
+    const respostasFormatadas = answers.map((a, idx) => {
+      const answerStr = typeof a === 'string' ? a : String(a);
+      const userAnswer = userAnswers[idx] || '(vazio)';
+      return `<div style="margin: 5px 0;">
+        <strong>Campo ${idx + 1}:</strong> Sua resposta: "${userAnswer}" | Correto: ${answerStr.replace(/\//g, ' ou ')}
+      </div>`;
+    }).join('');
+    
+    if (correctEl) {
+      correctEl.style.display = 'block';
+      correctEl.innerHTML = `<strong>Respostas corretas:</strong><br>${respostasFormatadas}`;
+    }
+    
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
+      feedbackElement.className = 'exercise-feedback incorrect';
+    }
+  }
+
+  atualizarPontuacaoGrammar();
+  
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) inlineBtn.disabled = true;
+  
+  const delayTime = allCorrect ? 1500 : 3000;
+  setTimeout(() => {
+    proximoExercicio();
+  }, delayTime);
 }
 
+// ============================================
+// FUNÇÃO 4: verificarExercicio() - SUBSTITUIR COMPLETAMENTE
+// ============================================
+function verificarExercicio() {
+  const userAnswerElement = document.getElementById('exerciseAnswer');
+  if (!userAnswerElement) return;
 
-// --- FUNÇÕES DE PHRASAL VERBS ---
+  const userAnswer = userAnswerElement.value.trim();
+  if (!userAnswer) {
+    const feedbackElement = document.getElementById('exerciseFeedback');
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color: #FF9800;">⚠️ Por favor, digite uma resposta primeiro!</span>';
+      feedbackElement.className = 'exercise-feedback warning';
+    }
+    return;
+  }
+
+  const feedbackElement = document.getElementById('exerciseFeedback');
+  const exercise = grammarActiveExercises[currentExerciseIndex];
+  const possibleAnswers = obterRespostasValidas(exercise.answer);
+  const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
+
+  const isCorrect = possibleAnswers.some(correct => {
+    const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
+    return normalizedUserAnswer === normalizedCorrect;
+  });
+
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
+
+  if (isCorrect) {
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+    
+    if (correctEl) correctEl.style.display = 'none';
+    
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#4CAF50;">✅ Correto! Parabéns!</span>';
+      feedbackElement.className = 'exercise-feedback correct';
+    }
+    userAnswerElement.disabled = true;
+    
+    const inlineCheckBtn = document.getElementById('inlineCheckBtn');
+    if (inlineCheckBtn) inlineCheckBtn.disabled = true;
+  } else {
+    grammarErrors++;
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
+    
+    const respostaTexto = possibleAnswers.join(' ou ');
+    if (correctEl) {
+      correctEl.style.display = 'block';
+      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostaTexto}</span>`;
+    }
+    
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#F44336;">❌ Incorreto. Você verá este exercício novamente.</span>';
+      feedbackElement.className = 'exercise-feedback incorrect';
+    }
+  }
+
+  atualizarPontuacaoGrammar();
+  
+  const delayTime = isCorrect ? 1500 : 3000;
+  setTimeout(() => {
+    proximoExercicio();
+  }, delayTime);
+}
+
+// ============================================
+// FUNÇÃO 5: iniciarExercicios() - CORRIGIR (opcional, mas recomendado)
+// ============================================
+function iniciarExercicios(exercises) {
+  const exerciseContainer = document.getElementById('exerciseContainer');
+  const topicSelect = document.getElementById('grammarSelect');
+  const selectedTopic = topicSelect ? topicSelect.value : '';
+
+  // 🔥 CORREÇÃO: Garantir que o índice esteja dentro dos limites
+  if (currentExerciseIndex >= exercises.length) {
+    currentExerciseIndex = 0;
+  }
+
+  const exercise = exercises[currentExerciseIndex];
+  if (!exercise) {
+    console.error('No exercise found at index', currentExerciseIndex);
+    return;
+  }
+  
+  exerciseContainer.innerHTML = '';
+
+  let modeDisplay = '';
+  if (selectedTopic === 'random' && currentGrammarTopic) {
+    modeDisplay = `<div class="exercise-mode">Current Topic: ${currentGrammarTopic.topic}</div>`;
+  } else if (exercise.mode) {
+    modeDisplay = `<div class="exercise-mode">${exercise.mode.toUpperCase()}</div>`;
+  }
+
+  // VERIFICAR TIPO DE EXERCÍCIO CORRETAMENTE
+  if (exercise.mode === 'rewrite') {
+    criarExercicioComUmaCaixa(exercise, modeDisplay);
+  } else if (exercise.question && exercise.question.includes('_____')) {
+    criarExercicioComLacunas(exercise, modeDisplay);
+  } else if (exercise.question && exercise.question.includes('_')) {
+    criarExercicioComCaixasPorGrupo(exercise, modeDisplay);
+  } else {
+    criarExercicioComUmaCaixa(exercise, modeDisplay);
+  }
+
+  const nextBtn = document.getElementById('btnNextExercise');
+  if (nextBtn) nextBtn.disabled = false;
+}
+// ============================================
+// FUNÇÕES DE PHRASAL VERBS - ADICIONAR COMPLETAMENTE
+// ============================================
+
 function filtrarPhrasalVerbs() {
   const nivel = document.getElementById('phrasalLevelSelect').value;
 
@@ -2128,6 +2037,12 @@ function filtrarPhrasalVerbs() {
     listaFiltrada = listaFiltrada.filter(pv => pv && pv.level === nivel);
   }
 
+  // Filtrar por main verb se algum estiver selecionado
+  const mainVerbSelect = document.getElementById('phrasalVerbSelect');
+  if (mainVerbSelect && mainVerbSelect.value !== 'all') {
+    listaFiltrada = listaFiltrada.filter(pv => pv && pv.verb === mainVerbSelect.value);
+  }
+
   phrasalVerbsFiltrados = listaFiltrada;
   phrasalVerbsAtivos = [...phrasalVerbsFiltrados];
   phrasalVerbsUsados = [];
@@ -2136,23 +2051,21 @@ function filtrarPhrasalVerbs() {
   // Atualizar o select de main verbs com base no nível selecionado
   atualizarSelectMainVerbs(nivel);
 
-  // Filtrar também por main verb se algum estiver selecionado
-  const mainVerb = document.getElementById('phrasalVerbSelect').value;
-  if (mainVerb !== 'all') {
-    phrasalVerbsFiltrados = phrasalVerbsFiltrados.filter(pv => pv && pv.verb === mainVerb);
-    phrasalVerbsAtivos = [...phrasalVerbsFiltrados];
-  }
-
   // Atualizar o botão baseado na disponibilidade
-  document.getElementById("btnDrawPhrasal").disabled = phrasalVerbsFiltrados.length === 0;
+  const drawBtn = document.getElementById("btnDrawPhrasal");
+  if (drawBtn) drawBtn.disabled = phrasalVerbsFiltrados.length === 0;
 
   // Limpar display se não houver resultados
   if (phrasalVerbsFiltrados.length === 0) {
-    document.getElementById("phrasalCard").style.display = "none";
+    const phrasalCard = document.getElementById("phrasalCard");
+    if (phrasalCard) phrasalCard.style.display = "none";
     const emptyMsg = document.querySelector('#phrasalControls .empty-message');
     if (!emptyMsg) {
-      document.getElementById("phrasalControls").insertAdjacentHTML('beforeend',
-        '<div class="empty-message">No phrasal verbs found for the selected filters.</div>');
+      const controls = document.getElementById("phrasalControls");
+      if (controls) {
+        controls.insertAdjacentHTML('beforeend',
+          '<div class="empty-message">No phrasal verbs found for the selected filters.</div>');
+      }
     }
   } else {
     const emptyMsg = document.querySelector('#phrasalControls .empty-message');
@@ -2162,45 +2075,9 @@ function filtrarPhrasalVerbs() {
   atualizarBotoes();
 }
 
-// Adicionar esta função para garantir que os selects tenham valores válidos
-
-
-// Nova função para atualizar o select de main verbs baseado no nível
 function atualizarSelectMainVerbs(nivel) {
   const phrasalVerbSelect = document.getElementById('phrasalVerbSelect');
-
-  // Obter todos os phrasal verbs do nível selecionado (ou todos se for 'all')
-  let phrasalVerbsParaFiltrar;
-  if (nivel === 'all') {
-    phrasalVerbsParaFiltrar = [...phrasalVerbsOriginal];
-  } else {
-    phrasalVerbsParaFiltrar = phrasalVerbsOriginal.filter(pv => pv.level === nivel);
-  }
-
-  // Obter verbos principais únicos do nível selecionado
-  const mainVerbs = [...new Set(phrasalVerbsParaFiltrar.map(pv => pv.verb))].sort();
-
-  // Salvar o valor atual selecionado
-  const valorAtual = phrasalVerbSelect.value;
-
-  // Atualizar o select
-  phrasalVerbSelect.innerHTML = '<option value="all">All Verbs</option>';
-  mainVerbs.forEach(verb => {
-    const option = document.createElement('option');
-    option.value = verb;
-    option.textContent = verb;
-    phrasalVerbSelect.appendChild(option);
-  });
-
-  // Tentar manter a seleção anterior se ainda estiver disponível
-  if (mainVerbs.includes(valorAtual)) {
-    phrasalVerbSelect.value = valorAtual;
-  } else {
-    phrasalVerbSelect.value = 'all';
-  }
-}
-function atualizarSelectMainVerbs(nivel) {
-  const phrasalVerbSelect = document.getElementById('phrasalVerbSelect');
+  if (!phrasalVerbSelect) return;
 
   // Obter todos os phrasal verbs do nível selecionado (ou todos se for 'all')
   let phrasalVerbsParaFiltrar;
@@ -2239,195 +2116,201 @@ function sortearPhrasalVerb() {
 
   if (existingEmptyMessage) existingEmptyMessage.remove();
 
-  if (phrasalVerbsAtivos.length === 0) {
-    if (phrasalVerbsUsados.length > 0) {
+  if (!phrasalVerbsAtivos || phrasalVerbsAtivos.length === 0) {
+    if (phrasalVerbsUsados && phrasalVerbsUsados.length > 0) {
       container.insertAdjacentHTML('beforeend',
         '<div class="empty-message">🎉 All phrasal verbs for this filter have been practiced!<br><button class="reset-btn" onclick="resetarPhrasalVerbs()">Reset</button></div>');
     } else {
       container.insertAdjacentHTML('beforeend',
         '<div class="empty-message">No phrasal verbs found for the current filters.</div>');
     }
-    document.getElementById("btnDrawPhrasal").disabled = true;
+    const btn = document.getElementById("btnDrawPhrasal");
+    if (btn) btn.disabled = true;
     return;
   }
 
   const randomIndex = Math.floor(Math.random() * phrasalVerbsAtivos.length);
   currentPhrasalVerb = phrasalVerbsAtivos[randomIndex];
   phrasalVerbsAtivos.splice(randomIndex, 1);
+  if (!phrasalVerbsUsados) phrasalVerbsUsados = [];
   phrasalVerbsUsados.push(currentPhrasalVerb);
 
+  if (!phrasalHistorico) phrasalHistorico = [];
   phrasalHistorico.push(currentPhrasalVerb);
 
-  // Exibir o phrasal verb
   exibirPhrasalVerb(currentPhrasalVerb);
-
   atualizarBotoes();
 }
-function voltarPhrasalVerb() {
-  if (phrasalHistorico.length < 2) {
-    alert("No previous phrasal verb to return to.");
-    return;
-  }
 
-  // Remover o último sorteado
-  phrasalHistorico.pop();
-
-  // Pegar o anterior
-  const phrasalAnterior = phrasalHistorico[phrasalHistorico.length - 1];
-
-  // Exibir novamente
-  exibirPhrasalVerb(phrasalAnterior);
-}
-
-
-
-// Na função exibirPhrasalVerb, altere para:
-// Na função exibirPhrasalVerb, altere para:
 function exibirPhrasalVerb(phrasalVerb) {
   const phrasalCard = document.getElementById('phrasalCard');
+  if (!phrasalCard) return;
   phrasalCard.style.display = 'block';
 
-  document.getElementById('phrasalLevel').className = `difficulty ${phrasalVerb.level}`;
-  document.getElementById('phrasalLevel').textContent = phrasalVerb.level;
-  document.getElementById('phrasalVerb').textContent = phrasalVerb.phrasal_verb;
-  document.getElementById('phrasalTranslation').textContent = phrasalVerb.translation;
+  const levelEl = document.getElementById('phrasalLevel');
+  if (levelEl) {
+    levelEl.className = `difficulty ${phrasalVerb.level}`;
+    levelEl.textContent = phrasalVerb.level;
+  }
+  
+  const verbEl = document.getElementById('phrasalVerb');
+  if (verbEl) verbEl.textContent = phrasalVerb.phrasal_verb;
+  
+  const transEl = document.getElementById('phrasalTranslation');
+  if (transEl) transEl.textContent = phrasalVerb.translation;
+  
+  const defEl = document.getElementById('phrasalDefinition');
+  if (defEl) {
+    defEl.innerHTML = `<strong>English:</strong> ${phrasalVerb.definition_en || "—"}<br>
+                       <strong>Português:</strong> ${phrasalVerb.definition_pt || "—"}`;
+  }
 
-  // ✅ Definir a definição em inglês e português (sempre visível)
-  document.getElementById("phrasalDefinition").innerHTML = `
-    <strong>English:</strong> ${phrasalVerb.definition_en || "—"}<br>
-    <strong>Português:</strong> ${phrasalVerb.definition_pt || "—"}
-  `;
-
-  // Destacar o phrasal verb no exemplo
   let exemploDestacado = phrasalVerb.example;
   if (phrasalVerb.phrasal_verb && phrasalVerb.example) {
     const regex = new RegExp(`\\b${phrasalVerb.phrasal_verb}\\b`, 'gi');
     exemploDestacado = phrasalVerb.example.replace(regex, `<span class="vocab-highlight">$&</span>`);
   }
-
-  document.getElementById('phrasalExample').innerHTML = `Example: ${exemploDestacado}`;
-
-  // Garantir que a definição está sempre visível
-  document.getElementById('phrasalDefinition').style.display = 'block';
-
-  // Esconder apenas a tradução inicialmente
-  document.getElementById('phrasalTranslation').style.display = 'none';
-
-  // YouGlish removed
+  
+  const exEl = document.getElementById('phrasalExample');
+  if (exEl) exEl.innerHTML = `Example: ${exemploDestacado}`;
+  
+  if (transEl) transEl.style.display = 'none';
+  if (defEl) defEl.style.display = 'block';
 }
 
-// Na função mostrarSignificadoPhrasal, altere para:
-function mostrarSignificadoPhrasal() {
-  const translationElement = document.getElementById('phrasalTranslation');
-
-  // Apenas mostrar/ocultar a tradução, mantendo a definição sempre visível
-  if (translationElement.style.display === 'none') {
-    translationElement.style.display = 'block';
-  } else {
-    translationElement.style.display = 'none';
+function voltarPhrasalVerb() {
+  if (!phrasalHistorico || phrasalHistorico.length < 2) {
+    alert("No previous phrasal verb to return to.");
+    return;
   }
-
-  // A definição deve permanecer sempre visível
-  document.getElementById('phrasalDefinition').style.display = 'block';
+  phrasalHistorico.pop();
+  const phrasalAnterior = phrasalHistorico[phrasalHistorico.length - 1];
+  exibirPhrasalVerb(phrasalAnterior);
 }
-
-// Na função mostrarSignificadoPhrasal, altere para:
-function mostrarSignificadoPhrasal() {
-  const translationElement = document.getElementById('phrasalTranslation');
-
-  // Apenas mostrar/ocultar a tradução
-  if (translationElement.style.display === 'none') {
-    translationElement.style.display = 'block';
-  } else {
-    translationElement.style.display = 'none';
-  }
-
-  // Forçar a definição a permanecer visível (em caso de algum bug)
-  document.getElementById('phrasalDefinition').style.display = 'block';
-}
-
 
 function resetarPhrasalVerbs() {
-  filtrarPhrasalVerbs(); // Isso recarrega os phrasal verbs com os filtros atuais
-
+  filtrarPhrasalVerbs();
   const emptyMessage = document.querySelector('#phrasalControls .empty-message');
   if (emptyMessage) emptyMessage.remove();
-
-  document.getElementById("phrasalCard").style.display = "none";
-
+  const phrasalCard = document.getElementById("phrasalCard");
+  if (phrasalCard) phrasalCard.style.display = "none";
   atualizarBotoes();
 }
 
 function mostrarSignificadoPhrasal() {
   const translationElement = document.getElementById('phrasalTranslation');
-  const definitionElement = document.getElementById('phrasalDefinition');
-
-  translationElement.style.display = translationElement.style.display === 'none' ? 'block' : 'none';
-  definitionElement.style.display = definitionElement.style.display === 'none' ? 'block' : 'none';
-}
-
-// --- FUNÇÕES DE UTILIDADE ---
-function iniciarTimer() {
-  const timerDisplay = document.getElementById('timerDisplay');
-  const timeRemaining = document.getElementById('timeRemaining');
-
-  // Mostrar o display do timer
-  timerDisplay.style.display = 'flex';
-
-  let secondsLeft = timerSeconds;
-  timeRemaining.textContent = secondsLeft;
-
-  // Atualizar a classe com base no tempo restante
-  if (secondsLeft <= 10) {
-    timerDisplay.classList.add('danger');
-    timerDisplay.classList.remove('warning');
-  } else if (secondsLeft <= 30) {
-    timerDisplay.classList.add('warning');
-    timerDisplay.classList.remove('danger');
-  } else {
-    timerDisplay.classList.remove('warning', 'danger');
-  }
-
-  // Limpar qualquer timer existente
-  if (timerInterval) {
-    clearInterval(timerInterval);
-  }
-
-  // Iniciar novo timer
-  timerInterval = setInterval(() => {
-    secondsLeft--;
-    timeRemaining.textContent = secondsLeft;
-
-    // Atualizar a classe com base no tempo restante
-    if (secondsLeft <= 10) {
-      timerDisplay.classList.add('danger');
-      timerDisplay.classList.remove('warning');
-    } else if (secondsLeft <= 30) {
-      timerDisplay.classList.add('warning');
-      timerDisplay.classList.remove('danger');
-    }
-
-    // Quando o tempo acabar
-    if (secondsLeft <= 0) {
-      clearInterval(timerInterval);
-      timerInterval = null;
-
-      // Mostrar notificação de tempo esgotado
-      document.getElementById('timeUpNotification').style.display = 'block';
-    }
-  }, 1000);
-}
-
-function falarTexto(texto, idioma = 'en-US') {
-  if ('speechSynthesis' in window) {
-    const utterance = new SpeechSynthesisUtterance(texto);
-    utterance.lang = idioma;
-    utterance.rate = 0.9;
-    window.speechSynthesis.speak(utterance);
-  } else {
-    alert('Seu navegador não suporta síntese de voz.');
+  if (translationElement) {
+    translationElement.style.display = translationElement.style.display === 'none' ? 'block' : 'none';
   }
 }
+// ============================================
+// FUNÇÃO RESETAR EXERCICIOS - ADICIONAR
+// ============================================
+
+function resetarExercicios() {
+  // Resetar arrays de exercícios
+  grammarActiveExercises = [];
+  grammarUsedExercises = [];
+  
+  // Resetar pontuação
+  grammarPoints = 0;
+  grammarErrors = 0;
+  
+  // Resetar índice
+  currentExerciseIndex = 0;
+  
+  // Atualizar display da pontuação
+  atualizarPontuacaoGrammar();
+  
+  // Limpar o container de exercícios
+  const exerciseContainer = document.getElementById('exerciseContainer');
+  if (exerciseContainer) {
+    exerciseContainer.innerHTML = `
+      <div class="empty-message">
+        <p>✅ Exercises have been reset.</p>
+        <p>Select a grammar topic and click "Practice Exercises" to begin.</p>
+      </div>
+    `;
+  }
+  
+  // Esconder a seção de prática
+  const grammarPractice = document.getElementById('grammarPractice');
+  if (grammarPractice) {
+    grammarPractice.style.display = 'none';
+  }
+  
+  // Resetar botões
+  const checkBtn = document.getElementById('btnCheckExercise');
+  if (checkBtn) checkBtn.disabled = true;
+  
+  const nextBtn = document.getElementById('btnNextExercise');
+  if (nextBtn) nextBtn.disabled = false;
+  
+  // Limpar feedback se existir
+  const feedbackElement = document.getElementById('exerciseFeedback');
+  if (feedbackElement) {
+    feedbackElement.innerHTML = '';
+    feedbackElement.className = 'exercise-feedback';
+  }
+  
+  // Mostrar mensagem de sucesso
+  console.log('Exercícios resetados com sucesso!');
+}
+// ... todas as outras funções ...
+
+// ============================================
+// FUNÇÕES DE PHRASAL VERBS
+// ============================================
+// (todo o código que você já adicionou das funções de phrasal verbs)
+
+// ============================================
+// FUNÇÕES DE RESET E UTILITÁRIAS
+// ============================================
+
+function atualizarPontuacaoGrammar() {
+  document.getElementById('grammarPoints').textContent = grammarPoints;
+  document.getElementById('grammarErrors').textContent = grammarErrors;
+  document.getElementById('grammarTotal').textContent = grammarPoints + grammarErrors;
+}
+
+function resetarExercicios() {
+  grammarActiveExercises = [];
+  grammarUsedExercises = [];
+  grammarPoints = 0;
+  grammarErrors = 0;
+  currentExerciseIndex = 0;
+  atualizarPontuacaoGrammar();
+  
+  const exerciseContainer = document.getElementById('exerciseContainer');
+  if (exerciseContainer) {
+    exerciseContainer.innerHTML = `
+      <div class="empty-message">
+        <p>✅ Exercises have been reset.</p>
+        <p>Select a grammar topic and click "Practice Exercises" to begin.</p>
+      </div>
+    `;
+  }
+  
+  const grammarPractice = document.getElementById('grammarPractice');
+  if (grammarPractice) grammarPractice.style.display = 'none';
+  
+  const checkBtn = document.getElementById('btnCheckExercise');
+  if (checkBtn) checkBtn.disabled = true;
+  
+  const nextBtn = document.getElementById('btnNextExercise');
+  if (nextBtn) nextBtn.disabled = false;
+}
+
+function ajustarLarguraInput(input) {
+  const minWidth = 120;
+  const charWidth = 10;
+  const padding = 30;
+  const newWidth = Math.max(minWidth, (input.value.length * charWidth) + padding);
+  input.style.width = newWidth + 'px';
+}
+// ============================================
+// FUNÇÕES DE SALVAMENTO DE PERGUNTAS
+// ============================================
 
 function salvarPergunta() {
   if (!currentQuestion) {
@@ -2488,165 +2371,168 @@ function limparSalvas() {
     `;
   }
 }
-// === FIX: auto-avança em 2s mesmo quando ERRA ===
-// Cole no FINAL do arquivo para sobrescrever versões anteriores.
 
-function verificarExercicioComLacunas(correctAnswer) {
-  const gapInputs = document.querySelectorAll('.gap-input');
-  const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
-  let allCorrect = true;
+// ============================================
+// FUNÇÃO DE TIMER
+// ============================================
 
-  gapInputs.forEach((input, index) => {
-    const userAnswer = input.value.trim().toLowerCase();
-    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
-    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
+function iniciarTimer() {
+  const timerDisplay = document.getElementById('timerDisplay');
+  const timeRemaining = document.getElementById('timeRemaining');
 
-    if (!isCorrect) {
-      allCorrect = false;
-      input.style.borderColor = '#F44336';
-    } else {
-      input.style.borderColor = '#4CAF50';
-    }
-    input.disabled = true;
-  });
+  // Mostrar o display do timer
+  timerDisplay.style.display = 'flex';
 
-  const exercise = grammarActiveExercises[currentExerciseIndex];
-  const correctEl = document.getElementById('exerciseCorrectAnswer');
+  let secondsLeft = timerSeconds;
+  timeRemaining.textContent = secondsLeft;
 
-  if (allCorrect) {
-    grammarPoints++;
-    grammarUsedExercises.push(exercise);
-    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove de vez
-    if (correctEl) correctEl.style.display = 'none';
+  // Atualizar a classe com base no tempo restante
+  if (secondsLeft <= 10) {
+    timerDisplay.classList.add('danger');
+    timerDisplay.classList.remove('warning');
+  } else if (secondsLeft <= 30) {
+    timerDisplay.classList.add('warning');
+    timerDisplay.classList.remove('danger');
   } else {
-    grammarErrors++;
-    // mover para o final da fila
-    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
-    grammarActiveExercises.push(errado);
-
-    // Mostrar resposta correta composta
-    const respostasFormatadas = answers.map(a => (typeof a === 'string' ? a.replace(/\//g, ' ou ') : String(a))).join(' , ');
-    if (correctEl) {
-      correctEl.style.display = 'block';
-      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostasFormatadas}</span>`;
-    }
+    timerDisplay.classList.remove('warning', 'danger');
   }
 
-  atualizarPontuacaoGrammar();
-  
-  // 🔹 DIFERENCIAR TEMPO: 1.2s para acerto, 4s para erro
-  const delayTime = allCorrect ? 1200 : 3000;
-  setTimeout(proximoExercicio, delayTime);
+  // Limpar qualquer timer existente
+  if (timerInterval) {
+    clearInterval(timerInterval);
+  }
+
+  // Iniciar novo timer
+  timerInterval = setInterval(() => {
+    secondsLeft--;
+    timeRemaining.textContent = secondsLeft;
+
+    // Atualizar a classe com base no tempo restante
+    if (secondsLeft <= 10) {
+      timerDisplay.classList.add('danger');
+      timerDisplay.classList.remove('warning');
+    } else if (secondsLeft <= 30) {
+      timerDisplay.classList.add('warning');
+      timerDisplay.classList.remove('danger');
+    }
+
+    // Quando o tempo acabar
+    if (secondsLeft <= 0) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+      timerDisplay.style.display = 'none';
+      
+      // Mostrar notificação de tempo esgotado
+      const timeUpNotification = document.getElementById('timeUpNotification');
+      if (timeUpNotification) {
+        timeUpNotification.style.display = 'block';
+      }
+    }
+  }, 1000);
 }
 
+// ============================================
+// FUNÇÃO DE TEXTO PARA FALA
+// ============================================
 
-function verificarExercicioComCaixas(correctAnswer) {
-  const gapInputs = document.querySelectorAll('.gap-input');
-  const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
-  let allCorrect = true;
-
-  gapInputs.forEach((input, index) => {
-    const userAnswer = input.value.trim().toLowerCase();
-    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
-    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
-
-    if (!isCorrect) {
-      allCorrect = false;
-      input.style.borderColor = '#F44336';
-    } else {
-      input.style.borderColor = '#4CAF50';
-    }
-    input.disabled = true;
-  });
-
-  const exercise = grammarActiveExercises[currentExerciseIndex];
-  const correctEl = document.getElementById('exerciseCorrectAnswer');
-
-  if (allCorrect) {
-    grammarPoints++;
-    grammarUsedExercises.push(exercise);
-    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove de vez
-    if (correctEl) correctEl.style.display = 'none';
+function falarTexto(texto, idioma = 'en-US') {
+  if ('speechSynthesis' in window) {
+    // Cancelar qualquer fala em andamento
+    window.speechSynthesis.cancel();
+    
+    const utterance = new SpeechSynthesisUtterance(texto);
+    utterance.lang = idioma;
+    utterance.rate = 0.9;
+    window.speechSynthesis.speak(utterance);
   } else {
-    grammarErrors++;
-    // mover para o final da fila
-    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
-    grammarActiveExercises.push(errado);
-
-    // Mostrar resposta correta composta
-    const respostasFormatadas = answers.map(a => (typeof a === 'string' ? a.replace(/\//g, ' ou ') : String(a))).join(' , ');
-    if (correctEl) {
-      correctEl.style.display = 'block';
-      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostasFormatadas}</span>`;
-    }
+    alert('Seu navegador não suporta síntese de voz.');
   }
-
-  atualizarPontuacaoGrammar();
-  
-  // 🔹 DIFERENCIAR TEMPO: 1.2s para acerto, 4s para erro
-  const delayTime = allCorrect ? 1200 : 3000;
-  setTimeout(proximoExercicio, delayTime);
 }
 
+// ============================================
+// FUNÇÃO CRIAR EXERCÍCIO COM LACUNAS
+// ============================================
 
-function verificarExercicio() {
-  const userAnswerElement = document.getElementById('exerciseAnswer');
-  if (!userAnswerElement) return;
+function criarExercicioComLacunas(exercise, modeDisplay = '') {
+  // Dividir a pergunta nas lacunas
+  const parts = exercise.question.split('_____');
+  const numGaps = parts.length - 1;
 
-  const userAnswer = userAnswerElement.value.trim();
-  if (!userAnswer) {
-    const feedbackElement = document.getElementById('exerciseFeedback');
-    feedbackElement.innerHTML = '<span style="color: #FF9800;">⚠️ Por favor, digite uma resposta primeiro!</span>';
-    feedbackElement.className = 'exercise-feedback warning';
-    return;
-  }
+  // Criar HTML com campos de entrada para cada lacuna
+  let questionHTML = `
+    ${modeDisplay}
+    <div class="exercise-title">${exercise.instruction}</div>
+    <div class="exercise-content" style="font-size: 1.1rem; line-height: 1.6;">
+  `;
 
-  const feedbackElement = document.getElementById('exerciseFeedback');
-  const exercise = grammarActiveExercises[currentExerciseIndex];
-  const possibleAnswers = obterRespostasValidas(exercise.answer);
-  const normalizedUserAnswer = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-
-  const isCorrect = possibleAnswers.some(correct => {
-    const normalizedCorrect = correct.toLowerCase().replace(/\s+/g, ' ').trim();
-    return normalizedUserAnswer === normalizedCorrect;
+  parts.forEach((part, index) => {
+    questionHTML += part;
+    if (index < numGaps) {
+      questionHTML += `
+        <input type="text" class="gap-input" data-index="${index}" 
+               style="min-width: 150px; width: 150px; padding: 10px 20px; font-size: 1.1rem;
+                      border: 2px solid #8A2BE2; border-radius: 8px; margin: 0 10px;"
+               placeholder="________" oninput="ajustarLarguraInput(this)">
+      `;
+    }
   });
 
-  const correctEl = document.getElementById('exerciseCorrectAnswer');
+  questionHTML += `</div>`;
 
-  if (isCorrect) {
-    grammarPoints++;
-    grammarUsedExercises.push(exercise);
-    grammarActiveExercises.splice(currentExerciseIndex, 1); // remove de vez
+  document.getElementById('exerciseContainer').innerHTML = questionHTML + `
+    <div class="exercise-buttons" style="margin-top: 25px; text-align: center;">
+      <button class="check-btn" id="inlineCheckBtn" style="padding: 12px 24px; font-size: 1.1rem;">✓ Verificar Resposta</button>
+    </div>
+    <div class="exercise-feedback" id="exerciseFeedback" style="margin-top: 20px;"></div>
+    <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none; margin-top: 15px;">
+      <strong>Resposta correta:</strong> <span style="font-weight: 600;">${exercise.answer}</span>
+    </div>
+  `;
 
-    if (correctEl) {
-      correctEl.style.display = 'none';
-    }
+  // Adicionar event listeners
+  const gapInputs = document.querySelectorAll('.gap-input');
+  gapInputs.forEach((input, index) => {
+    input.addEventListener('input', function () {
+      ajustarLarguraInput(this);
+    });
 
-    feedbackElement.innerHTML = '<span style="color:#4CAF50;">✅ Correto! Parabéns!</span>';
-    feedbackElement.className = 'exercise-feedback correct';
-  } else {
-    grammarErrors++;
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        verificarExercicioComLacunas(exercise.answer);
+      }
 
-    // mover para o final da fila
-    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
-    grammarActiveExercises.push(errado);
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        const nextIndex = parseInt(this.dataset.index) + 1;
+        const nextInput = document.querySelector(`.gap-input[data-index="${nextIndex}"]`);
+        if (nextInput) nextInput.focus();
+      }
+    });
+  });
 
-    // Mostrar resposta correta (formatada)
-    const respostaTexto = possibleAnswers.join(' ou ');
-    if (correctEl) {
-      correctEl.style.display = 'block';
-      correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostaTexto}</span>`;
-    }
-
-    feedbackElement.innerHTML = '<span style="color:#F44336;">❌ Incorreto. Você verá este exercício novamente no final.</span>';
-    feedbackElement.className = 'exercise-feedback incorrect';
+  // Adicionar event listener ao botão de verificação
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) {
+    inlineBtn.onclick = () => verificarExercicioComLacunas(exercise.answer);
   }
 
-  atualizarPontuacaoGrammar();
-  
-  // 🔹 DIFERENCIAR TEMPO: 1.2s para acerto, 4s para erro
-  const delayTime = isCorrect ? 1200 : 3000;
-  setTimeout(proximoExercicio, delayTime);
+  // Focar no primeiro campo
+  if (gapInputs.length > 0) {
+    setTimeout(() => gapInputs[0].focus(), 100);
+  }
+}
+
+// ============================================
+// FUNÇÃO AJUSTAR LARGURA INPUT (já existe, mas garantir)
+// ============================================
+
+function ajustarLarguraInput(input) {
+  const minWidth = 120;
+  const charWidth = 10;
+  const padding = 30;
+  const newWidth = Math.max(minWidth, (input.value.length * charWidth) + padding);
+  input.style.width = newWidth + 'px';
 }
 
 

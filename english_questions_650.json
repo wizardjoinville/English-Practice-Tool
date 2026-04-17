@@ -479,10 +479,7 @@
     "level": "A1",
     "question": "Do you want to answer?"
   },
-  {
-    "level": "A1",
-    "question": "Do you want to ask something?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you want to practice more?"
@@ -2796,10 +2793,7 @@
     "level": "A1",
     "question": "Do you sometimes walk to school or do you always go by bus?"
   },
-  {
-    "level": "A1",
-    "question": "What is that? Is this your pen or my pen?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you need to buy some food or do you have any food at home?"
