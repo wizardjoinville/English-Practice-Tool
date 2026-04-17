@@ -1946,5 +1946,151 @@ h1 {
 label[for="grammarModeSelect"] {
   display: none !important;
 }
+/* ============================================
+   DOAÇÃO / QR CODE PIX
+   ============================================ */
+
+.donation-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.donation-button {
+  background: linear-gradient(135deg, #00D4FF, #0099CC);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.donation-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.donation-modal {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  max-width: 300px;
+  text-align: center;
+  animation: slideUp 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.donation-modal.show {
+  display: block;
+}
+
+.donation-modal h4 {
+  color: #0099CC;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.donation-modal p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.donation-modal .qr-code {
+  margin: 15px 0;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+.donation-modal .qr-code img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.donation-modal .pix-key {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 12px;
+  word-break: break-all;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.donation-modal .pix-key:hover {
+  background: #e0e0e0;
+}
+
+.donation-modal .close-btn {
+  background: #e0e0e0;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.donation-modal .close-btn:hover {
+  background: #ccc;
+}
+
+.donation-modal .copy-feedback {
+  font-size: 11px;
+  color: #4CAF50;
+  margin-top: 5px;
+  display: none;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+  .donation-button {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+  
+  .donation-modal {
+    right: 10px;
+    bottom: 70px;
+    max-width: 280px;
+    padding: 15px;
+  }
+  
+  .donation-modal .qr-code img {
+    max-width: 180px;
+  }
+}
 
 

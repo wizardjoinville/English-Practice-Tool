@@ -209,7 +209,7 @@ function inicializarEventListeners() {
   document.getElementById('btnStartQuiz').addEventListener('click', iniciarQuiz);
   document.getElementById('btnDrawPhrasal').addEventListener('click', sortearPhrasalVerb);
   document.getElementById('btnVocabBack').addEventListener('click', voltarVocabulario);
-  
+
 
 
   // Botões secundários
@@ -360,7 +360,7 @@ function filtrarPerguntas() {
 // --- FUNÇÕES DE PERGUNTAS ---
 function sortearPergunta() {
   // Primeiro filtrar as perguntas baseado no nível selecionado
-  
+
 
   // Verificar se há perguntas disponíveis
   if (perguntasAtivas.length === 0) {
@@ -970,7 +970,7 @@ function praticarGramatica(forceRefresh = false) {
     alert(`No ${selectedMode} exercises available for this topic.`);
     return;
   }
-  
+
   grammarActiveExercises = [...exerciciosFiltrados];
   grammarUsedExercises = [];
   grammarPoints = 0;
@@ -1709,10 +1709,10 @@ function proximoExercicio() {
   if (topicSelect && topicSelect.value === 'random') {
     const randomIndex = Math.floor(Math.random() * grammarTopics.length);
     currentGrammarTopic = grammarTopics[randomIndex];
-    
+
     const modeSelect = document.getElementById('grammarModeSelect');
     const selectedMode = modeSelect ? modeSelect.value : 'all';
-    
+
     let exerciciosFiltrados = filtrarExerciciosPorModo(currentGrammarTopic.exercises, selectedMode);
     grammarActiveExercises = [...exerciciosFiltrados];
     currentExerciseIndex = 0;
@@ -1742,7 +1742,7 @@ function proximoExercicio() {
 
   // Pegar o próximo exercício
   const exercise = grammarActiveExercises[currentExerciseIndex];
-  
+
   // Recriar o exercício na tela
   iniciarExercicios([exercise]);
 }
@@ -1753,7 +1753,7 @@ function proximoExercicio() {
 function verificarExercicioComLacunas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
   if (gapInputs.length === 0) return;
-  
+
   const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
   let allCorrect = true;
   const userAnswers = [];
@@ -1762,7 +1762,7 @@ function verificarExercicioComLacunas(correctAnswer) {
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
     userAnswers.push(userAnswer);
-    
+
     const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
     const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
 
@@ -1786,9 +1786,9 @@ function verificarExercicioComLacunas(correctAnswer) {
     grammarPoints++;
     grammarActiveExercises.splice(currentExerciseIndex, 1);
     // Não incrementar currentExerciseIndex porque o próximo item agora está no mesmo índice
-    
+
     if (correctEl) correctEl.style.display = 'none';
-    
+
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Excelente!</span>';
       feedbackElement.className = 'exercise-feedback correct';
@@ -1796,12 +1796,12 @@ function verificarExercicioComLacunas(correctAnswer) {
   } else {
     // ❌ ERRO: Move o exercício para o final da fila
     grammarErrors++;
-    
+
     // Remove da posição atual e adiciona ao final
     const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
     grammarActiveExercises.push(errado);
     // Não incrementar currentExerciseIndex porque o próximo item agora está no mesmo índice
-    
+
     // Mostrar resposta correta formatada
     const respostasFormatadas = answers.map((a, idx) => {
       const answerStr = typeof a === 'string' ? a : String(a);
@@ -1810,12 +1810,12 @@ function verificarExercicioComLacunas(correctAnswer) {
         <strong>Campo ${idx + 1}:</strong> Sua resposta: "${userAnswer}" | Correto: ${answerStr.replace(/\//g, ' ou ')}
       </div>`;
     }).join('');
-    
+
     if (correctEl) {
       correctEl.style.display = 'block';
       correctEl.innerHTML = `<strong>Respostas corretas:</strong><br>${respostasFormatadas}`;
     }
-    
+
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Incorreto. Você verá este exercício novamente.</span>';
       feedbackElement.className = 'exercise-feedback incorrect';
@@ -1823,11 +1823,11 @@ function verificarExercicioComLacunas(correctAnswer) {
   }
 
   atualizarPontuacaoGrammar();
-  
+
   // Desabilitar botão de verificação inline
   const inlineBtn = document.getElementById('inlineCheckBtn');
   if (inlineBtn) inlineBtn.disabled = true;
-  
+
   // Aguardar e ir para o próximo exercício
   const delayTime = allCorrect ? 1500 : 3000;
   setTimeout(() => {
@@ -1841,7 +1841,7 @@ function verificarExercicioComLacunas(correctAnswer) {
 function verificarExercicioComCaixas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
   if (gapInputs.length === 0) return;
-  
+
   const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
   let allCorrect = true;
   const userAnswers = [];
@@ -1849,7 +1849,7 @@ function verificarExercicioComCaixas(correctAnswer) {
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
     userAnswers.push(userAnswer);
-    
+
     const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
     const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
 
@@ -1871,9 +1871,9 @@ function verificarExercicioComCaixas(correctAnswer) {
   if (allCorrect) {
     grammarPoints++;
     grammarActiveExercises.splice(currentExerciseIndex, 1);
-    
+
     if (correctEl) correctEl.style.display = 'none';
-    
+
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
       feedbackElement.className = 'exercise-feedback correct';
@@ -1882,7 +1882,7 @@ function verificarExercicioComCaixas(correctAnswer) {
     grammarErrors++;
     const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
     grammarActiveExercises.push(errado);
-    
+
     const respostasFormatadas = answers.map((a, idx) => {
       const answerStr = typeof a === 'string' ? a : String(a);
       const userAnswer = userAnswers[idx] || '(vazio)';
@@ -1890,12 +1890,12 @@ function verificarExercicioComCaixas(correctAnswer) {
         <strong>Campo ${idx + 1}:</strong> Sua resposta: "${userAnswer}" | Correto: ${answerStr.replace(/\//g, ' ou ')}
       </div>`;
     }).join('');
-    
+
     if (correctEl) {
       correctEl.style.display = 'block';
       correctEl.innerHTML = `<strong>Respostas corretas:</strong><br>${respostasFormatadas}`;
     }
-    
+
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Algumas respostas estão incorretas.</span>';
       feedbackElement.className = 'exercise-feedback incorrect';
@@ -1903,10 +1903,10 @@ function verificarExercicioComCaixas(correctAnswer) {
   }
 
   atualizarPontuacaoGrammar();
-  
+
   const inlineBtn = document.getElementById('inlineCheckBtn');
   if (inlineBtn) inlineBtn.disabled = true;
-  
+
   const delayTime = allCorrect ? 1500 : 3000;
   setTimeout(() => {
     proximoExercicio();
@@ -1945,28 +1945,28 @@ function verificarExercicio() {
   if (isCorrect) {
     grammarPoints++;
     grammarActiveExercises.splice(currentExerciseIndex, 1);
-    
+
     if (correctEl) correctEl.style.display = 'none';
-    
+
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#4CAF50;">✅ Correto! Parabéns!</span>';
       feedbackElement.className = 'exercise-feedback correct';
     }
     userAnswerElement.disabled = true;
-    
+
     const inlineCheckBtn = document.getElementById('inlineCheckBtn');
     if (inlineCheckBtn) inlineCheckBtn.disabled = true;
   } else {
     grammarErrors++;
     const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
     grammarActiveExercises.push(errado);
-    
+
     const respostaTexto = possibleAnswers.join(' ou ');
     if (correctEl) {
       correctEl.style.display = 'block';
       correctEl.innerHTML = `<strong>Resposta correta:</strong> <span>${respostaTexto}</span>`;
     }
-    
+
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#F44336;">❌ Incorreto. Você verá este exercício novamente.</span>';
       feedbackElement.className = 'exercise-feedback incorrect';
@@ -1974,7 +1974,7 @@ function verificarExercicio() {
   }
 
   atualizarPontuacaoGrammar();
-  
+
   const delayTime = isCorrect ? 1500 : 3000;
   setTimeout(() => {
     proximoExercicio();
@@ -1999,7 +1999,7 @@ function iniciarExercicios(exercises) {
     console.error('No exercise found at index', currentExerciseIndex);
     return;
   }
-  
+
   exerciseContainer.innerHTML = '';
 
   let modeDisplay = '';
@@ -2152,13 +2152,13 @@ function exibirPhrasalVerb(phrasalVerb) {
     levelEl.className = `difficulty ${phrasalVerb.level}`;
     levelEl.textContent = phrasalVerb.level;
   }
-  
+
   const verbEl = document.getElementById('phrasalVerb');
   if (verbEl) verbEl.textContent = phrasalVerb.phrasal_verb;
-  
+
   const transEl = document.getElementById('phrasalTranslation');
   if (transEl) transEl.textContent = phrasalVerb.translation;
-  
+
   const defEl = document.getElementById('phrasalDefinition');
   if (defEl) {
     defEl.innerHTML = `<strong>English:</strong> ${phrasalVerb.definition_en || "—"}<br>
@@ -2170,10 +2170,10 @@ function exibirPhrasalVerb(phrasalVerb) {
     const regex = new RegExp(`\\b${phrasalVerb.phrasal_verb}\\b`, 'gi');
     exemploDestacado = phrasalVerb.example.replace(regex, `<span class="vocab-highlight">$&</span>`);
   }
-  
+
   const exEl = document.getElementById('phrasalExample');
   if (exEl) exEl.innerHTML = `Example: ${exemploDestacado}`;
-  
+
   if (transEl) transEl.style.display = 'none';
   if (defEl) defEl.style.display = 'block';
 }
@@ -2211,17 +2211,17 @@ function resetarExercicios() {
   // Resetar arrays de exercícios
   grammarActiveExercises = [];
   grammarUsedExercises = [];
-  
+
   // Resetar pontuação
   grammarPoints = 0;
   grammarErrors = 0;
-  
+
   // Resetar índice
   currentExerciseIndex = 0;
-  
+
   // Atualizar display da pontuação
   atualizarPontuacaoGrammar();
-  
+
   // Limpar o container de exercícios
   const exerciseContainer = document.getElementById('exerciseContainer');
   if (exerciseContainer) {
@@ -2232,27 +2232,27 @@ function resetarExercicios() {
       </div>
     `;
   }
-  
+
   // Esconder a seção de prática
   const grammarPractice = document.getElementById('grammarPractice');
   if (grammarPractice) {
     grammarPractice.style.display = 'none';
   }
-  
+
   // Resetar botões
   const checkBtn = document.getElementById('btnCheckExercise');
   if (checkBtn) checkBtn.disabled = true;
-  
+
   const nextBtn = document.getElementById('btnNextExercise');
   if (nextBtn) nextBtn.disabled = false;
-  
+
   // Limpar feedback se existir
   const feedbackElement = document.getElementById('exerciseFeedback');
   if (feedbackElement) {
     feedbackElement.innerHTML = '';
     feedbackElement.className = 'exercise-feedback';
   }
-  
+
   // Mostrar mensagem de sucesso
   console.log('Exercícios resetados com sucesso!');
 }
@@ -2280,7 +2280,7 @@ function resetarExercicios() {
   grammarErrors = 0;
   currentExerciseIndex = 0;
   atualizarPontuacaoGrammar();
-  
+
   const exerciseContainer = document.getElementById('exerciseContainer');
   if (exerciseContainer) {
     exerciseContainer.innerHTML = `
@@ -2290,13 +2290,13 @@ function resetarExercicios() {
       </div>
     `;
   }
-  
+
   const grammarPractice = document.getElementById('grammarPractice');
   if (grammarPractice) grammarPractice.style.display = 'none';
-  
+
   const checkBtn = document.getElementById('btnCheckExercise');
   if (checkBtn) checkBtn.disabled = true;
-  
+
   const nextBtn = document.getElementById('btnNextExercise');
   if (nextBtn) nextBtn.disabled = false;
 }
@@ -2421,7 +2421,7 @@ function iniciarTimer() {
       clearInterval(timerInterval);
       timerInterval = null;
       timerDisplay.style.display = 'none';
-      
+
       // Mostrar notificação de tempo esgotado
       const timeUpNotification = document.getElementById('timeUpNotification');
       if (timeUpNotification) {
@@ -2439,7 +2439,7 @@ function falarTexto(texto, idioma = 'en-US') {
   if ('speechSynthesis' in window) {
     // Cancelar qualquer fala em andamento
     window.speechSynthesis.cancel();
-    
+
     const utterance = new SpeechSynthesisUtterance(texto);
     utterance.lang = idioma;
     utterance.rate = 0.9;
@@ -2533,6 +2533,134 @@ function ajustarLarguraInput(input) {
   const padding = 30;
   const newWidth = Math.max(minWidth, (input.value.length * charWidth) + padding);
   input.style.width = newWidth + 'px';
+}
+// ============================================
+// DOAÇÃO / QR CODE PIX - VERSÃO DINÂMICA
+// ============================================
+
+// ============================================
+// DOAÇÃO / QR CODE PIX - VERSÃO CORRIGIDA
+// ============================================
+
+// CONFIGURE AQUI SUA CHAVE PIX (formato copia e cola do banco)
+const PIX_KEY = "00020101021126580014br.gov.bcb.pix01366e4d4649-5b1d-41d3-8a31-45ded88c81f35204000053039865802BR5919LUCAS DO NASCIMENTO6008BRASILIA62080504SXQR6304F0D4";
+
+function initDonation() {
+  const donationButton = document.getElementById('donationButton');
+  const donationModal = document.getElementById('donationModal');
+  const closeBtn = document.getElementById('closeDonationModal');
+  const pixKeyElement = document.getElementById('pixKey');
+  const copyFeedback = document.getElementById('copyFeedback');
+  const qrContainer = document.querySelector('.qr-code');
+
+  // Configurar a chave PIX no elemento
+  // Configurar a chave PIX no elemento - VERSÃO SIMPLES
+  if (pixKeyElement) {
+    pixKeyElement.innerHTML = `
+    <span>💳 PIX</span>
+    <br>
+    <small>👆 Clique para copiar a chave</small>
+  `;
+    pixKeyElement.title = "Clique para copiar a chave PIX";
+    pixKeyElement.style.cursor = "pointer";
+  }
+
+  // Limpar o container do QR Code se já existir algo
+  if (qrContainer) {
+    qrContainer.innerHTML = '';
+
+    // OPÇÃO 1: Usar QR Code via API (funciona melhor)
+    const pixKeyEncoded = encodeURIComponent(PIX_KEY);
+
+    // Tentar múltiplas APIs de QR Code
+    const qrCodeUrl = `https://quickchart.io/qr?text=${pixKeyEncoded}&size=200&margin=2`;
+
+    const qrImage = document.createElement('img');
+    qrImage.id = 'qrCodeImage';
+    qrImage.src = qrCodeUrl;
+    qrImage.alt = "QR Code PIX para doação";
+    qrImage.style.maxWidth = "200px";
+    qrImage.style.width = "100%";
+    qrImage.style.height = "auto";
+    qrImage.style.borderRadius = "10px";
+    qrImage.style.border = "1px solid #ddd";
+
+    // Adicionar loading e fallback
+    qrImage.onerror = function () {
+      console.log("Erro ao carregar QR Code, tentando API alternativa...");
+      // Fallback para outra API
+      this.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${pixKeyEncoded}`;
+
+      this.onerror = function () {
+        console.log("Segunda API falhou, mostrando mensagem");
+        qrContainer.innerHTML = `
+          <div style="padding: 20px; background: #f0f0f0; border-radius: 10px;">
+            <p>⚠️ QR Code não pôde ser carregado</p>
+            <p style="font-size: 12px;">Use a chave abaixo para fazer o PIX</p>
+          </div>
+        `;
+      };
+    };
+
+    qrContainer.appendChild(qrImage);
+  }
+
+  // Abrir modal ao clicar no botão
+  if (donationButton) {
+    donationButton.addEventListener('click', (e) => {
+      e.stopPropagation();
+      donationModal.classList.toggle('show');
+    });
+  }
+
+  // Fechar modal ao clicar no botão fechar
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      donationModal.classList.remove('show');
+    });
+  }
+
+  // Fechar modal ao clicar fora
+  document.addEventListener('click', (e) => {
+    if (donationModal && donationModal.classList.contains('show')) {
+      if (!donationModal.contains(e.target) && !donationButton.contains(e.target)) {
+        donationModal.classList.remove('show');
+      }
+    }
+  });
+
+  // Copiar chave PIX ao clicar
+  if (pixKeyElement) {
+    pixKeyElement.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(PIX_KEY);
+        copyFeedback.style.display = 'block';
+        setTimeout(() => {
+          copyFeedback.style.display = 'none';
+        }, 2000);
+      } catch (err) {
+        console.error('Erro ao copiar:', err);
+        // Fallback: selecionar o texto
+        const textArea = document.createElement('textarea');
+        textArea.value = PIX_KEY;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        copyFeedback.style.display = 'block';
+        setTimeout(() => {
+          copyFeedback.style.display = 'none';
+        }, 2000);
+      }
+    });
+  }
+}
+
+// Inicializar
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initDonation);
+} else {
+  initDonation();
 }
 
 

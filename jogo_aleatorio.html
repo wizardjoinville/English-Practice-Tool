@@ -291,6 +291,32 @@
       <div id="youglishPhrasalContainer" style="display:none"></div>
     </div>
   </div>
+  <!-- ============================================
+       BOTÃO E MODAL DE DOAÇÃO PIX
+       ============================================ -->
+  <div class="donation-container">
+    <button class="donation-button" id="donationButton">
+      💖 Apoiar Projeto
+    </button>
+
+    <div class="donation-modal" id="donationModal">
+      <h4>💖 Ajude o Luquinhas!</h4>
+      <p>Se este conteúdo está te ajudando a aprender inglês, considere fazer uma doação de qualquer valor. 💖🙏</p>
+
+      <div class="qr-code">
+        <!-- COLOQUE AQUI O SEU QR CODE - Substitua o src pelo caminho da sua imagem -->
+        <img src="seu_qrcode_pix.png" alt="QR Code PIX" id="qrCodeImage">
+      </div>
+
+      <div class="pix-key" id="pixKey">
+        <span id="pixKeyText">📋 00020101021126580014br.gov...</span>
+        <br>
+        <small style="font-size:10px;">(clique para copiar a chave completa)</small>
+      </div>
+
+      <button class="close-btn" id="closeDonationModal">Fechar</button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 
