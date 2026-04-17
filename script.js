@@ -2542,7 +2542,11 @@ function ajustarLarguraInput(input) {
 // DOAÇÃO / QR CODE PIX - VERSÃO CORRIGIDA
 // ============================================
 
-// CONFIGURE AQUI SUA CHAVE PIX (formato copia e cola do banco)
+
+/// ============================================
+// DOAÇÃO / QR CODE PIX - VERSÃO SIMPLES
+// ============================================
+
 const PIX_KEY = "00020101021126580014br.gov.bcb.pix01366e4d4649-5b1d-41d3-8a31-45ded88c81f35204000053039865802BR5919LUCAS DO NASCIMENTO6008BRASILIA62080504SXQR6304F0D4";
 
 function initDonation() {
@@ -2551,112 +2555,70 @@ function initDonation() {
   const closeBtn = document.getElementById('closeDonationModal');
   const pixKeyElement = document.getElementById('pixKey');
   const copyFeedback = document.getElementById('copyFeedback');
-  const qrContainer = document.querySelector('.qr-code');
 
-  // Configurar a chave PIX no elemento
-  // Configurar a chave PIX no elemento - VERSÃO SIMPLES
+  if (!donationButton || !donationModal) {
+    console.log("Elementos de doação não encontrados");
+    return;
+  }
+
+  // Configurar a chave PIX
   if (pixKeyElement) {
     pixKeyElement.innerHTML = `
-    <span>💳 PIX</span>
-    <br>
-    <small>👆 Clique para copiar a chave</small>
-  `;
-    pixKeyElement.title = "Clique para copiar a chave PIX";
+      <div style="display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 5px;">
+        <span>🔐</span>
+        <span style="font-weight: 600;">Chave PIX</span>
+      </div>
+      <small style="font-size: 11px; color: #666;">Clique para copiar a chave</small>
+    `;
     pixKeyElement.style.cursor = "pointer";
+    pixKeyElement.style.backgroundColor = "#e8f5e9";
+    pixKeyElement.style.border = "1px solid #4CAF50";
+    pixKeyElement.style.borderRadius = "8px";
+    pixKeyElement.style.padding = "12px";
   }
 
-  // Limpar o container do QR Code se já existir algo
-  if (qrContainer) {
-    qrContainer.innerHTML = '';
+  // Abrir modal
+  donationButton.addEventListener('click', (e) => {
+    e.stopPropagation();
+    donationModal.classList.toggle('show');
+  });
 
-    // OPÇÃO 1: Usar QR Code via API (funciona melhor)
-    const pixKeyEncoded = encodeURIComponent(PIX_KEY);
-
-    // Tentar múltiplas APIs de QR Code
-    const qrCodeUrl = `https://quickchart.io/qr?text=${pixKeyEncoded}&size=200&margin=2`;
-
-    const qrImage = document.createElement('img');
-    qrImage.id = 'qrCodeImage';
-    qrImage.src = qrCodeUrl;
-    qrImage.alt = "QR Code PIX para doação";
-    qrImage.style.maxWidth = "200px";
-    qrImage.style.width = "100%";
-    qrImage.style.height = "auto";
-    qrImage.style.borderRadius = "10px";
-    qrImage.style.border = "1px solid #ddd";
-
-    // Adicionar loading e fallback
-    qrImage.onerror = function () {
-      console.log("Erro ao carregar QR Code, tentando API alternativa...");
-      // Fallback para outra API
-      this.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${pixKeyEncoded}`;
-
-      this.onerror = function () {
-        console.log("Segunda API falhou, mostrando mensagem");
-        qrContainer.innerHTML = `
-          <div style="padding: 20px; background: #f0f0f0; border-radius: 10px;">
-            <p>⚠️ QR Code não pôde ser carregado</p>
-            <p style="font-size: 12px;">Use a chave abaixo para fazer o PIX</p>
-          </div>
-        `;
-      };
-    };
-
-    qrContainer.appendChild(qrImage);
-  }
-
-  // Abrir modal ao clicar no botão
-  if (donationButton) {
-    donationButton.addEventListener('click', (e) => {
-      e.stopPropagation();
-      donationModal.classList.toggle('show');
-    });
-  }
-
-  // Fechar modal ao clicar no botão fechar
+  // Fechar modal
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       donationModal.classList.remove('show');
     });
   }
 
-  // Fechar modal ao clicar fora
+  // Fechar ao clicar fora
   document.addEventListener('click', (e) => {
-    if (donationModal && donationModal.classList.contains('show')) {
+    if (donationModal.classList.contains('show')) {
       if (!donationModal.contains(e.target) && !donationButton.contains(e.target)) {
         donationModal.classList.remove('show');
       }
     }
   });
 
-  // Copiar chave PIX ao clicar
+  // Copiar chave PIX
   if (pixKeyElement) {
     pixKeyElement.addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(PIX_KEY);
-        copyFeedback.style.display = 'block';
-        setTimeout(() => {
-          copyFeedback.style.display = 'none';
-        }, 2000);
+        if (copyFeedback) {
+          copyFeedback.style.display = 'block';
+          setTimeout(() => {
+            copyFeedback.style.display = 'none';
+          }, 2000);
+        }
+        alert("✅ Chave PIX copiada!");
       } catch (err) {
-        console.error('Erro ao copiar:', err);
-        // Fallback: selecionar o texto
-        const textArea = document.createElement('textarea');
-        textArea.value = PIX_KEY;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        copyFeedback.style.display = 'block';
-        setTimeout(() => {
-          copyFeedback.style.display = 'none';
-        }, 2000);
+        alert("📋 Chave PIX: " + PIX_KEY.substring(0, 30) + "...");
       }
     });
   }
 }
 
-// Inicializar
+// Inicializar a doação
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', initDonation);
 } else {
