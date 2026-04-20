@@ -2419,11 +2419,1760 @@
     "translation": "Eles estavam assistindo TV quando eu cheguei",
     "words": ["They", "were", "watching", "TV", "when", "I", "arrived"]
   },
+  
+  {
+    "level": "B1",
+    "correct": "I have been working here for five years",
+    "translation": "Eu tenho trabalhado aqui por cinco anos",
+    "words": ["I", "have", "been", "working", "here", "for", "five", "years"]
+  },
+  {
+    "level": "B1",
+    "correct": "They were watching TV when I arrived",
+    "translation": "Eles estavam assistindo TV quando eu cheguei",
+    "words": ["They", "were", "watching", "TV", "when", "I", "arrived"]
+  },
+  {
+    "level": "B1",
+    "correct": "She has lived in Paris since 2010",
+    "translation": "Ela mora em Paris desde 2010",
+    "words": ["She", "has", "lived", "in", "Paris", "since", "2010"]
+  },
+  {
+    "level": "B1",
+    "correct": "We will travel to Japan next summer",
+    "translation": "Nós viajaremos para o Japão no próximo verão",
+    "words": ["We", "will", "travel", "to", "Japan", "next", "summer"]
+  },
+  {
+    "level": "B1",
+    "correct": "He used to smoke when he was young",
+    "translation": "Ele costumava fumar quando era jovem",
+    "words": ["He", "used", "to", "smoke", "when", "he", "was", "young"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is used to waking up early",
+    "translation": "Ela está acostumada a acordar cedo",
+    "words": ["She", "is", "used", "to", "waking", "up", "early"]
+  },
+  {
+    "level": "B1",
+    "correct": "If I were you I would study harder",
+    "translation": "Se eu fosse você, estudaria mais",
+    "words": ["If", "I", "were", "you", "I", "would", "study", "harder"]
+  },
+  {
+    "level": "B1",
+    "correct": "She told me that she was leaving",
+    "translation": "Ela me disse que estava saindo",
+    "words": ["She", "told", "me", "that", "she", "was", "leaving"]
+  },
+  {
+    "level": "B1",
+    "correct": "The movie which we saw last night was amazing",
+    "translation": "O filme que vimos ontem à noite foi incrível",
+    "words": ["The", "movie", "which", "we", "saw", "last", "night", "was", "amazing"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is the person who helped me",
+    "translation": "Ela é a pessoa que me ajudou",
+    "words": ["She", "is", "the", "person", "who", "helped", "me"]
+  },
+  {
+    "level": "B1",
+    "correct": "I need to finish this report by tomorrow",
+    "translation": "Eu preciso terminar este relatório até amanhã",
+    "words": ["I", "need", "to", "finish", "this", "report", "by", "tomorrow"]
+  },
+  {
+    "level": "B1",
+    "correct": "You ought to see a doctor immediately",
+    "translation": "Você deveria ver um médico imediatamente",
+    "words": ["You", "ought", "to", "see", "a", "doctor", "immediately"]
+  },
+  {
+    "level": "B1",
+    "correct": "She might come to the party tonight",
+    "translation": "Ela pode vir à festa hoje à noite",
+    "words": ["She", "might", "come", "to", "the", "party", "tonight"]
+  },
+  {
+    "level": "B1",
+    "correct": "The meeting was postponed due to bad weather",
+    "translation": "A reunião foi adiada devido ao mau tempo",
+    "words": ["The", "meeting", "was", "postponed", "due", "to", "bad", "weather"]
+  },
+  {
+    "level": "B1",
+    "correct": "This book was written by a famous author",
+    "translation": "Este livro foi escrito por um autor famoso",
+    "words": ["This", "book", "was", "written", "by", "a", "famous", "author"]
+  },
+  {
+    "level": "B1",
+    "correct": "The cake is being baked by my mother",
+    "translation": "O bolo está sendo assado pela minha mãe",
+    "words": ["The", "cake", "is", "being", "baked", "by", "my", "mother"]
+  },
+  {
+    "level": "B1",
+    "correct": "She has been studying English for three years",
+    "translation": "Ela tem estudado inglês há três anos",
+    "words": ["She", "has", "been", "studying", "English", "for", "three", "years"]
+  },
+  {
+    "level": "B1",
+    "correct": "By the time we arrived the movie had already started",
+    "translation": "Quando chegamos, o filme já havia começado",
+    "words": ["By", "the", "time", "we", "arrived", "the", "movie", "had", "already", "started"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is looking forward to meeting her friends",
+    "translation": "Ela está ansiosa para encontrar seus amigos",
+    "words": ["She", "is", "looking", "forward", "to", "meeting", "her", "friends"]
+  },
+  {
+    "level": "B1",
+    "correct": "I can't stand waiting in long lines",
+    "translation": "Eu não suporto esperar em filas longas",
+    "words": ["I", "can't", "stand", "waiting", "in", "long", "lines"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is interested in learning new languages",
+    "translation": "Ela está interessada em aprender novos idiomas",
+    "words": ["She", "is", "interested", "in", "learning", "new", "languages"]
+  },
+  {
+    "level": "B1",
+    "correct": "The more you practice the better you become",
+    "translation": "Quanto mais você pratica, melhor você fica",
+    "words": ["The", "more", "you", "practice", "the", "better", "you", "become"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is as intelligent as her sister",
+    "translation": "Ela é tão inteligente quanto a irmã dela",
+    "words": ["She", "is", "as", "intelligent", "as", "her", "sister"]
+  },
+  {
+    "level": "B1",
+    "correct": "He is the tallest person in the room",
+    "translation": "Ele é a pessoa mais alta da sala",
+    "words": ["He", "is", "the", "tallest", "person", "in", "the", "room"]
+  },
+  {
+    "level": "B1",
+    "correct": "This is the most beautiful place I have ever seen",
+    "translation": "Este é o lugar mais bonito que já vi",
+    "words": ["This", "is", "the", "most", "beautiful", "place", "I", "have", "ever", "seen"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is less experienced than her colleague",
+    "translation": "Ela é menos experiente que a colega dela",
+    "words": ["She", "is", "less", "experienced", "than", "her", "colleague"]
+  },
+  {
+    "level": "B1",
+    "correct": "He speaks English more fluently than me",
+    "translation": "Ele fala inglês mais fluentemente do que eu",
+    "words": ["He", "speaks", "English", "more", "fluently", "than", "me"]
+  },
+  {
+    "level": "B1",
+    "correct": "The sooner we leave the sooner we will arrive",
+    "translation": "Quanto mais cedo sairmos, mais cedo chegaremos",
+    "words": ["The", "sooner", "we", "leave", "the", "sooner", "we", "will", "arrive"]
+  },
+  {
+    "level": "B1",
+    "correct": "She works as hard as her boss",
+    "translation": "Ela trabalha tão duro quanto o chefe dela",
+    "words": ["She", "works", "as", "hard", "as", "her", "boss"]
+  },
+  {
+    "level": "B1",
+    "correct": "He doesn't earn as much as his wife",
+    "translation": "Ele não ganha tanto quanto a esposa dele",
+    "words": ["He", "doesn't", "earn", "as", "much", "as", "his", "wife"]
+  },
+  {
+    "level": "B1",
+    "correct": "The traffic is worse than yesterday",
+    "translation": "O trânsito está pior do que ontem",
+    "words": ["The", "traffic", "is", "worse", "than", "yesterday"]
+  },
+  {
+    "level": "B1",
+    "correct": "This restaurant is better than the one we went to",
+    "translation": "Este restaurante é melhor do que aquele que fomos",
+    "words": ["This", "restaurant", "is", "better", "than", "the", "one", "we", "went", "to"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is the least qualified candidate",
+    "translation": "Ela é a candidata menos qualificada",
+    "words": ["She", "is", "the", "least", "qualified", "candidate"]
+  },
+  {
+    "level": "B1",
+    "correct": "He is by far the best player on the team",
+    "translation": "Ele é de longe o melhor jogador do time",
+    "words": ["He", "is", "by", "far", "the", "best", "player", "on", "the", "team"]
+  },
+  {
+    "level": "B1",
+    "correct": "This is slightly more expensive than I thought",
+    "translation": "Isto é ligeiramente mais caro do que eu pensava",
+    "words": ["This", "is", "slightly", "more", "expensive", "than", "I", "thought"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is getting more and more confident",
+    "translation": "Ela está ficando cada vez mais confiante",
+    "words": ["She", "is", "getting", "more", "and", "more", "confident"]
+  },
+  {
+    "level": "B1",
+    "correct": "The situation is becoming less and less stable",
+    "translation": "A situação está se tornando cada vez menos estável",
+    "words": ["The", "situation", "is", "becoming", "less", "and", "less", "stable"]
+  },
+  {
+    "level": "B1",
+    "correct": "She has already finished her assignment",
+    "translation": "Ela já terminou sua tarefa",
+    "words": ["She", "has", "already", "finished", "her", "assignment"]
+  },
+  {
+    "level": "B1",
+    "correct": "I have never been to Australia",
+    "translation": "Eu nunca estive na Austrália",
+    "words": ["I", "have", "never", "been", "to", "Australia"]
+  },
+  {
+    "level": "B1",
+    "correct": "They have just arrived at the airport",
+    "translation": "Eles acabaram de chegar ao aeroporto",
+    "words": ["They", "have", "just", "arrived", "at", "the", "airport"]
+  },
+  {
+    "level": "B1",
+    "correct": "I haven't seen him since last month",
+    "translation": "Eu não o vejo desde o mês passado",
+    "words": ["I", "haven't", "seen", "him", "since", "last", "month"]
+  },
+  {
+    "level": "B1",
+    "correct": "She has been working here since 2015",
+    "translation": "Ela tem trabalhado aqui desde 2015",
+    "words": ["She", "has", "been", "working", "here", "since", "2015"]
+  },
+  {
+    "level": "B1",
+    "correct": "We had already eaten when they arrived",
+    "translation": "Nós já tínhamos comido quando eles chegaram",
+    "words": ["We", "had", "already", "eaten", "when", "they", "arrived"]
+  },
+  {
+    "level": "B1",
+    "correct": "She had never traveled abroad before",
+    "translation": "Ela nunca havia viajado para o exterior antes",
+    "words": ["She", "had", "never", "traveled", "abroad", "before"]
+  },
+  {
+    "level": "B1",
+    "correct": "He will be studying at the library tomorrow",
+    "translation": "Ele estará estudando na biblioteca amanhã",
+    "words": ["He", "will", "be", "studying", "at", "the", "library", "tomorrow"]
+  },
+  {
+    "level": "B1",
+    "correct": "They will have finished the project by Friday",
+    "translation": "Eles terão terminado o projeto até sexta-feira",
+    "words": ["They", "will", "have", "finished", "the", "project", "by", "Friday"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is going to apply for the job",
+    "translation": "Ela vai se candidatar ao emprego",
+    "words": ["She", "is", "going", "to", "apply", "for", "the", "job"]
+  },
+  {
+    "level": "B1",
+    "correct": "We are about to leave for the airport",
+    "translation": "Estamos prestes a sair para o aeroporto",
+    "words": ["We", "are", "about", "to", "leave", "for", "the", "airport"]
+  },
+  {
+    "level": "B1",
+    "correct": "I would rather stay home than go out",
+    "translation": "Eu prefiro ficar em casa do que sair",
+    "words": ["I", "would", "rather", "stay", "home", "than", "go", "out"]
+  },
+  {
+    "level": "B1",
+    "correct": "She would rather not talk about it",
+    "translation": "Ela prefere não falar sobre isso",
+    "words": ["She", "would", "rather", "not", "talk", "about", "it"]
+  },
+  {
+    "level": "B1",
+    "correct": "He had better see a doctor immediately",
+    "translation": "É melhor ele ver um médico imediatamente",
+    "words": ["He", "had", "better", "see", "a", "doctor", "immediately"]
+  },
+  {
+    "level": "B1",
+    "correct": "She prefers reading to watching TV",
+    "translation": "Ela prefere ler a assistir TV",
+    "words": ["She", "prefers", "reading", "to", "watching", "TV"]
+  },
+  {
+    "level": "B1",
+    "correct": "I am considering changing my job",
+    "translation": "Estou considerando mudar de emprego",
+    "words": ["I", "am", "considering", "changing", "my", "job"]
+  },
+  {
+    "level": "B1",
+    "correct": "She denied having stolen the money",
+    "translation": "Ela negou ter roubado o dinheiro",
+    "words": ["She", "denied", "having", "stolen", "the", "money"]
+  },
+  {
+    "level": "B1",
+    "correct": "He admitted making a mistake",
+    "translation": "Ele admitiu ter cometido um erro",
+    "words": ["He", "admitted", "making", "a", "mistake"]
+  },
+  {
+    "level": "B1",
+    "correct": "I regret not studying harder",
+    "translation": "Eu me arrependo de não ter estudado mais",
+    "words": ["I", "regret", "not", "studying", "harder"]
+  },
+  {
+    "level": "B1",
+    "correct": "She apologized for being late",
+    "translation": "Ela se desculpou por estar atrasada",
+    "words": ["She", "apologized", "for", "being", "late"]
+  },
+  {
+    "level": "B1",
+    "correct": "He insisted on paying for dinner",
+    "translation": "Ele insistiu em pagar o jantar",
+    "words": ["He", "insisted", "on", "paying", "for", "dinner"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is capable of solving the problem",
+    "translation": "Ela é capaz de resolver o problema",
+    "words": ["She", "is", "capable", "of", "solving", "the", "problem"]
+  },
+  {
+    "level": "B1",
+    "correct": "I am responsible for organizing the event",
+    "translation": "Sou responsável por organizar o evento",
+    "words": ["I", "am", "responsible", "for", "organizing", "the", "event"]
+  },
+  {
+    "level": "B1",
+    "correct": "He is good at playing the guitar",
+    "translation": "Ele é bom em tocar violão",
+    "words": ["He", "is", "good", "at", "playing", "the", "guitar"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is afraid of speaking in public",
+    "translation": "Ela tem medo de falar em público",
+    "words": ["She", "is", "afraid", "of", "speaking", "in", "public"]
+  },
+  {
+    "level": "B1",
+    "correct": "I am tired of waiting for the bus",
+    "translation": "Estou cansado de esperar pelo ônibus",
+    "words": ["I", "am", "tired", "of", "waiting", "for", "the", "bus"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is interested in starting her own business",
+    "translation": "Ela está interessada em abrir o próprio negócio",
+    "words": ["She", "is", "interested", "in", "starting", "her", "own", "business"]
+  },
+  {
+    "level": "B1",
+    "correct": "He is excited about going on vacation",
+    "translation": "Ele está animado para sair de férias",
+    "words": ["He", "is", "excited", "about", "going", "on", "vacation"]
+  },
+  {
+    "level": "B1",
+    "correct": "We are worried about losing our jobs",
+    "translation": "Estamos preocupados em perder nossos empregos",
+    "words": ["We", "are", "worried", "about", "losing", "our", "jobs"]
+  },
+  {
+    "level": "B1",
+    "correct": "She is known for being very generous",
+    "translation": "Ela é conhecida por ser muito generosa",
+    "words": ["She", "is", "known", "for", "being", "very", "generous"]
+  },
+  {
+    "level": "B1",
+    "correct": "I am not used to waking up so early",
+    "translation": "Não estou acostumado a acordar tão cedo",
+    "words": ["I", "am", "not", "used", "to", "waking", "up", "so", "early"]
+  },
+  {
+    "level": "B1",
+    "correct": "I don't have enough money to buy a car",
+    "translation": "Eu não tenho dinheiro suficiente para comprar um carro",
+    "words": ["I", "don't", "have", "enough", "money", "to", "buy", "a", "car"]
+  },
+  {
+    "level": "B1",
+    "correct": "She doesn't have enough experience for the job",
+    "translation": "Ela não tem experiência suficiente para o emprego",
+    "words": ["She", "doesn't", "have", "enough", "experience", "for", "the", "job"]
+  },
+  {
+    "level": "B1",
+    "correct": "They don't have enough time to finish the project",
+    "translation": "Eles não têm tempo suficiente para terminar o projeto",
+    "words": ["They", "don't", "have", "enough", "time", "to", "finish", "the", "project"]
+  },
+  {
+    "level": "B1",
+    "correct": "He doesn't speak English well enough to get the job",
+    "translation": "Ele não fala inglês bem o suficiente para conseguir o emprego",
+    "words": ["He", "doesn't", "speak", "English", "well", "enough", "to", "get", "the", "job"]
+  },
+  {
+    "level": "B1",
+    "correct": "I haven't seen that movie yet",
+    "translation": "Eu ainda não vi aquele filme",
+    "words": ["I", "haven't", "seen", "that", "movie", "yet"]
+  },
+  {
+    "level": "B1",
+    "correct": "She hasn't decided what to study yet",
+    "translation": "Ela ainda não decidiu o que estudar",
+    "words": ["She", "hasn't", "decided", "what", "to", "study", "yet"]
+  },
+  {
+    "level": "B1",
+    "correct": "They haven't arrived at the hotel yet",
+    "translation": "Eles ainda não chegaram ao hotel",
+    "words": ["They", "haven't", "arrived", "at", "the", "hotel", "yet"]
+  },
+  {
+    "level": "B1",
+    "correct": "He hasn't called me back yet",
+    "translation": "Ele ainda não me ligou de volta",
+    "words": ["He", "hasn't", "called", "me", "back", "yet"]
+  },
+  {
+    "level": "B1",
+    "correct": "We haven't received the package yet",
+    "translation": "Ainda não recebemos o pacote",
+    "words": ["We", "haven't", "received", "the", "package", "yet"]
+  },
+  {
+    "level": "B1",
+    "correct": "She doesn't like it when people are late",
+    "translation": "Ela não gosta quando as pessoas se atrasam",
+    "words": ["She", "doesn't", "like", "it", "when", "people", "are", "late"]
+  },
+  {
+    "level": "B1",
+    "correct": "He can't stand being interrupted",
+    "translation": "Ele não suporta ser interrompido",
+    "words": ["He", "can't", "stand", "being", "interrupted"]
+  },
+  {
+    "level": "B1",
+    "correct": "I don't mind helping you with your homework",
+    "translation": "Não me importo de ajudar você com sua lição de casa",
+    "words": ["I", "don't", "mind", "helping", "you", "with", "your", "homework"]
+  },
+  {
+    "level": "B1",
+    "correct": "She avoids eating junk food",
+    "translation": "Ela evita comer comida industrializada",
+    "words": ["She", "avoids", "eating", "junk", "food"]
+  },
+  {
+    "level": "B1",
+    "correct": "He suggested going to the beach",
+    "translation": "Ele sugeriu ir à praia",
+    "words": ["He", "suggested", "going", "to", "the", "beach"]
+  },
+  {
+    "level": "B1",
+    "correct": "I recommend reading this book",
+    "translation": "Eu recomendo ler este livro",
+    "words": ["I", "recommend", "reading", "this", "book"]
+  },
+  {
+    "level": "B1",
+    "correct": "She finished writing her essay",
+    "translation": "Ela terminou de escrever sua redação",
+    "words": ["She", "finished", "writing", "her", "essay"]
+  },
+  {
+    "level": "B1",
+    "correct": "He stopped smoking last year",
+    "translation": "Ele parou de fumar no ano passado",
+    "words": ["He", "stopped", "smoking", "last", "year"]
+  },
+  {
+    "level": "B1",
+    "correct": "I remember locking the door before I left",
+    "translation": "Eu me lembro de ter trancado a porta antes de sair",
+    "words": ["I", "remember", "locking", "the", "door", "before", "I", "left"]
+  },
+  {
+    "level": "B1",
+    "correct": "She forgot to call her mother",
+    "translation": "Ela esqueceu de ligar para a mãe",
+    "words": ["She", "forgot", "to", "call", "her", "mother"]
+  },
+  {
+    "level": "B1",
+    "correct": "He tried to open the window but it was stuck",
+    "translation": "Ele tentou abrir a janela, mas estava presa",
+    "words": ["He", "tried", "to", "open", "the", "window", "but", "it", "was", "stuck"]
+  },
+  {
+    "level": "B1",
+    "correct": "She promised to help me with the presentation",
+    "translation": "Ela prometeu me ajudar com a apresentação",
+    "words": ["She", "promised", "to", "help", "me", "with", "the", "presentation"]
+  },
+  {
+    "level": "B1",
+    "correct": "We expect to arrive by noon",
+    "translation": "Esperamos chegar até o meio-dia",
+    "words": ["We", "expect", "to", "arrive", "by", "noon"]
+  },
+  {
+    "level": "B1",
+    "correct": "I have decided to learn French",
+    "translation": "Eu decidi aprender francês",
+    "words": ["I", "have", "decided", "to", "learn", "French"]
+  },
+  {
+    "level": "B1",
+    "correct": "She plans to travel around the world",
+    "translation": "Ela planeja viajar pelo mundo",
+    "words": ["She", "plans", "to", "travel", "around", "the", "world"]
+  },
+  {
+    "level": "B1",
+    "correct": "He needs to find a new apartment",
+    "translation": "Ele precisa encontrar um novo apartamento",
+    "words": ["He", "needs", "to", "find", "a", "new", "apartment"]
+  },
+  {
+    "level": "B1",
+    "correct": "I want you to tell me the truth",
+    "translation": "Eu quero que você me diga a verdade",
+    "words": ["I", "want", "you", "to", "tell", "me", "the", "truth"]
+  },
+  {
+    "level": "B1",
+    "correct": "She asked me to wait for her",
+    "translation": "Ela me pediu para esperar por ela",
+    "words": ["She", "asked", "me", "to", "wait", "for", "her"]
+  },
+  {
+    "level": "B1",
+    "correct": "He told me to be careful",
+    "translation": "Ele me disse para ter cuidado",
+    "words": ["He", "told", "me", "to", "be", "careful"]
+  },
+  {
+    "level": "B1",
+    "correct": "I don't have any money left",
+    "translation": "Não me resta nenhum dinheiro",
+    "words": ["I", "don't", "have", "any", "money", "left"]
+  },
+  {
+    "level": "B1",
+    "correct": "She doesn't have any friends in this city",
+    "translation": "Ela não tem nenhum amigo nesta cidade",
+    "words": ["She", "doesn't", "have", "any", "friends", "in", "this", "city"]
+  },
+  {
+    "level": "B1",
+    "correct": "There isn't any milk in the fridge",
+    "translation": "Não há leite na geladeira",
+    "words": ["There", "isn't", "any", "milk", "in", "the", "fridge"]
+  },
+  {
+    "level": "B1",
+    "correct": "There aren't any tickets available",
+    "translation": "Não há ingressos disponíveis",
+    "words": ["There", "aren't", "any", "tickets", "available"]
+  },
+  {
+    "level": "B1",
+    "correct": "I can't find my keys anywhere",
+    "translation": "Não consigo encontrar minhas chaves em lugar nenhum",
+    "words": ["I", "can't", "find", "my", "keys", "anywhere"]
+  },
+  {
+    "level": "B1",
+    "correct": "She doesn't go anywhere without her phone",
+    "translation": "Ela não vai a lugar nenhum sem o celular",
+    "words": ["She", "doesn't", "go", "anywhere", "without", "her", "phone"]
+  },
+  {
+    "level": "B1",
+    "correct": "I have nothing to wear to the party",
+    "translation": "Não tenho nada para vestir para a festa",
+    "words": ["I", "have", "nothing", "to", "wear", "to", "the", "party"]
+  },
+  {
+    "level": "B1",
+    "correct": "She knows nothing about the situation",
+    "translation": "Ela não sabe nada sobre a situação",
+    "words": ["She", "knows", "nothing", "about", "the", "situation"]
+  },
+  {
+    "level": "B1",
+    "correct": "Nobody came to the meeting",
+    "translation": "Ninguém veio à reunião",
+    "words": ["Nobody", "came", "to", "the", "meeting"]
+  },
+  {
+    "level": "B1",
+    "correct": "No one knows the answer to this question",
+    "translation": "Ninguém sabe a resposta para esta pergunta",
+    "words": ["No", "one", "knows", "the", "answer", "to", "this", "question"]
+  },
+  {
+    "level": "B1",
+    "correct": "I have never been so embarrassed in my life",
+    "translation": "Nunca fiquei tão envergonhado na minha vida",
+    "words": ["I", "have", "never", "been", "so", "embarrassed", "in", "my", "life"]
+  },
+  {
+    "level": "B1",
+    "correct": "She has never tried sushi before",
+    "translation": "Ela nunca experimentou sushi antes",
+    "words": ["She", "has", "never", "tried", "sushi", "before"]
+  },
+  {
+    "level": "B1",
+    "correct": "I can't believe you said that",
+    "translation": "Não acredito que você disse isso",
+    "words": ["I", "can't", "believe", "you", "said", "that"]
+  },
+  {
+    "level": "B1",
+    "correct": "She shouldn't have lied to her parents",
+    "translation": "Ela não deveria ter mentido para os pais",
+    "words": ["She", "shouldn't", "have", "lied", "to", "her", "parents"]
+  },
+  {
+    "level": "B1",
+    "correct": "You mustn't smoke in this area",
+    "translation": "Você não pode fumar nesta área",
+    "words": ["You", "mustn't", "smoke", "in", "this", "area"]
+  },
+  {
+    "level": "B1",
+    "correct": "He doesn't have to wear a uniform at work",
+    "translation": "Ele não precisa usar uniforme no trabalho",
+    "words": ["He", "doesn't", "have", "to", "wear", "a", "uniform", "at", "work"]
+  },
+  {
+    "level": "B1",
+    "correct": "They weren't supposed to tell anyone about the surprise",
+    "translation": "Eles não deveriam contar a ninguém sobre a surpresa",
+    "words": ["They", "weren't", "supposed", "to", "tell", "anyone", "about", "the", "surprise"]
+  },
+  {
+    "level": "B1",
+    "correct": "Did you enjoy the concert last night?",
+    "translation": "Você gostou do show ontem à noite?",
+    "words": ["Did", "you", "enjoy", "the", "concert", "last", "night", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Have you ever been to New York?",
+    "translation": "Você já esteve em Nova York?",
+    "words": ["Have", "you", "ever", "been", "to", "New", "York", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "What time does the meeting start?",
+    "translation": "Que horas a reunião começa?",
+    "words": ["What", "time", "does", "the", "meeting", "start", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Why didn't you tell me the truth?",
+    "translation": "Por que você não me contou a verdade?",
+    "words": ["Why", "didn't", "you", "tell", "me", "the", "truth", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Where did you buy that jacket?",
+    "translation": "Onde você comprou essa jaqueta?",
+    "words": ["Where", "did", "you", "buy", "that", "jacket", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How long have you been waiting for?",
+    "translation": "Há quanto tempo você está esperando?",
+    "words": ["How", "long", "have", "you", "been", "waiting", "for", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How often do you go to the gym?",
+    "translation": "Com que frequência você vai à academia?",
+    "words": ["How", "often", "do", "you", "go", "to", "the", "gym", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Would you like some more coffee?",
+    "translation": "Você gostaria de mais um pouco de café?",
+    "words": ["Would", "you", "like", "some", "more", "coffee", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Could you help me carry these bags?",
+    "translation": "Você poderia me ajudar a carregar estas bolsas?",
+    "words": ["Could", "you", "help", "me", "carry", "these", "bags", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Do you mind if I open the window?",
+    "translation": "Você se importa se eu abrir a janela?",
+    "words": ["Do", "you", "mind", "if", "I", "open", "the", "window", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Is it okay if I leave early today?",
+    "translation": "Tudo bem se eu sair mais cedo hoje?",
+    "words": ["Is", "it", "okay", "if", "I", "leave", "early", "today", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "What would you do if you won the lottery?",
+    "translation": "O que você faria se ganhasse na loteria?",
+    "words": ["What", "would", "you", "do", "if", "you", "won", "the", "lottery", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Do you know where the nearest bank is?",
+    "translation": "Você sabe onde fica o banco mais próximo?",
+    "words": ["Do", "you", "know", "where", "the", "nearest", "bank", "is", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Can you tell me what time it is?",
+    "translation": "Você pode me dizer que horas são?",
+    "words": ["Can", "you", "tell", "me", "what", "time", "it", "is", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Have you seen my glasses anywhere?",
+    "translation": "Você viu meus óculos em algum lugar?",
+    "words": ["Have", "you", "seen", "my", "glasses", "anywhere", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Did she remember to lock the door?",
+    "translation": "Ela lembrou de trancar a porta?",
+    "words": ["Did", "she", "remember", "to", "lock", "the", "door", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Will you be attending the conference tomorrow?",
+    "translation": "Você vai participar da conferência amanhã?",
+    "words": ["Will", "you", "be", "attending", "the", "conference", "tomorrow", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Has she ever traveled outside the country?",
+    "translation": "Ela já viajou para fora do país?",
+    "words": ["Has", "she", "ever", "traveled", "outside", "the", "country", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Do you think it's going to rain today?",
+    "translation": "Você acha que vai chover hoje?",
+    "words": ["Do", "you", "think", "it's", "going", "to", "rain", "today", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "What kind of music do you listen to?",
+    "translation": "Que tipo de música você ouve?",
+    "words": ["What", "kind", "of", "music", "do", "you", "listen", "to", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Which restaurant do you recommend?",
+    "translation": "Qual restaurante você recomenda?",
+    "words": ["Which", "restaurant", "do", "you", "recommend", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How much did you pay for that laptop?",
+    "translation": "Quanto você pagou por aquele laptop?",
+    "words": ["How", "much", "did", "you", "pay", "for", "that", "laptop", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How many people are coming to the party?",
+    "translation": "Quantas pessoas estão vindo para a festa?",
+    "words": ["How", "many", "people", "are", "coming", "to", "the", "party", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Who is going to pick you up from the airport?",
+    "translation": "Quem vai buscá-lo no aeroporto?",
+    "words": ["Who", "is", "going", "to", "pick", "you", "up", "from", "the", "airport", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Whose car is parked outside?",
+    "translation": "De quem é o carro estacionado lá fora?",
+    "words": ["Whose", "car", "is", "parked", "outside", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Why do you always arrive late?",
+    "translation": "Por que você sempre chega atrasado?",
+    "words": ["Why", "do", "you", "always", "arrive", "late", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "When are you planning to move to the new house?",
+    "translation": "Quando você está planejando se mudar para a nova casa?",
+    "words": ["When", "are", "you", "planning", "to", "move", "to", "the", "new", "house", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Where were you born?",
+    "translation": "Onde você nasceu?",
+    "words": ["Where", "were", "you", "born", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How are you feeling today?",
+    "translation": "Como você está se sentindo hoje?",
+    "words": ["How", "are", "you", "feeling", "today", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "What do you do for a living?",
+    "translation": "O que você faz para viver?",
+    "words": ["What", "do", "you", "do", "for", "a", "living", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Is there anything I can do to help?",
+    "translation": "Há algo que eu possa fazer para ajudar?",
+    "words": ["Is", "there", "anything", "I", "can", "do", "to", "help", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Would you rather stay home or go out?",
+    "translation": "Você prefere ficar em casa ou sair?",
+    "words": ["Would", "you", "rather", "stay", "home", "or", "go", "out", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Did you hear what happened to John?",
+    "translation": "Você ouviu o que aconteceu com o João?",
+    "words": ["Did", "you", "hear", "what", "happened", "to", "John", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Have you finished reading that book?",
+    "translation": "Você terminou de ler aquele livro?",
+    "words": ["Have", "you", "finished", "reading", "that", "book", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Could you please speak a little slower?",
+    "translation": "Você poderia falar um pouco mais devagar?",
+    "words": ["Could", "you", "please", "speak", "a", "little", "slower", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Do you happen to know where the restroom is?",
+    "translation": "Por acaso você sabe onde fica o banheiro?",
+    "words": ["Do", "you", "happen", "to", "know", "where", "the", "restroom", "is", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "What were you doing when I called you?",
+    "translation": "O que você estava fazendo quando te liguei?",
+    "words": ["What", "were", "you", "doing", "when", "I", "called", "you", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How long have you known your best friend?",
+    "translation": "Há quanto tempo você conhece seu melhor amigo?",
+    "words": ["How", "long", "have", "you", "known", "your", "best", "friend", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Is this the first time you've visited this city?",
+    "translation": "É a primeira vez que você visita esta cidade?",
+    "words": ["Is", "this", "the", "first", "time", "you've", "visited", "this", "city", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Don't you think we should leave now?",
+    "translation": "Você não acha que deveríamos sair agora?",
+    "words": ["Don't", "you", "think", "we", "should", "leave", "now", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Haven't you finished your homework yet?",
+    "translation": "Você ainda não terminou sua lição de casa?",
+    "words": ["Haven't", "you", "finished", "your", "homework", "yet", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "Why didn't she come to the meeting?",
+    "translation": "Por que ela não veio à reunião?",
+    "words": ["Why", "didn't", "she", "come", "to", "the", "meeting", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "What's the matter with you today?",
+    "translation": "O que há com você hoje?",
+    "words": ["What's", "the", "matter", "with", "you", "today", "?"]
+  },
+  {
+    "level": "B1",
+    "correct": "How are you getting along with your new colleagues?",
+    "translation": "Como você está se dando com seus novos colegas?",
+    "words": ["How", "are", "you", "getting", "along", "with", "your", "new", "colleagues", "?"]
+  },
+
   {
     "level": "B2",
     "correct": "Despite the challenges we managed to succeed",
     "translation": "Apesar dos desafios, conseguimos ter sucesso",
     "words": ["Despite", "the", "challenges", "we", "managed", "to", "succeed"]
+  },
+  
+  {
+    "level": "B2",
+    "correct": "Having finished his work he went out for dinner",
+    "translation": "Tendo terminado seu trabalho, ele saiu para jantar",
+    "words": ["Having", "finished", "his", "work", "he", "went", "out", "for", "dinner"]
+  },
+  {
+    "level": "B2",
+    "correct": "She would rather have stayed home than gone to the party",
+    "translation": "Ela preferiria ter ficado em casa do que ido à festa",
+    "words": ["She", "would", "rather", "have", "stayed", "home", "than", "gone", "to", "the", "party"]
+  },
+  {
+    "level": "B2",
+    "correct": "Had I known about the problem I would have helped",
+    "translation": "Se eu soubesse do problema, teria ajudado",
+    "words": ["Had", "I", "known", "about", "the", "problem", "I", "would", "have", "helped"]
+  },
+  {
+    "level": "B2",
+    "correct": "The report being written by the team will be submitted tomorrow",
+    "translation": "O relatório sendo escrito pela equipe será entregue amanhã",
+    "words": ["The", "report", "being", "written", "by", "the", "team", "will", "be", "submitted", "tomorrow"]
+  },
+  {
+    "level": "B2",
+    "correct": "It is essential that all employees attend the training session",
+    "translation": "É essencial que todos os funcionários participem da sessão de treinamento",
+    "words": ["It", "is", "essential", "that", "all", "employees", "attend", "the", "training", "session"]
+  },
+  {
+    "level": "B2",
+    "correct": "The company is looking for someone with experience in marketing",
+    "translation": "A empresa está procurando alguém com experiência em marketing",
+    "words": ["The", "company", "is", "looking", "for", "someone", "with", "experience", "in", "marketing"]
+  },
+  {
+    "level": "B2",
+    "correct": "By the time we got to the station the train had already left",
+    "translation": "Quando chegamos à estação, o trem já havia partido",
+    "words": ["By", "the", "time", "we", "got", "to", "the", "station", "the", "train", "had", "already", "left"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is considered to be one of the best doctors in the city",
+    "translation": "Ela é considerada uma das melhores médicas da cidade",
+    "words": ["She", "is", "considered", "to", "be", "one", "of", "the", "best", "doctors", "in", "the", "city"]
+  },
+  {
+    "level": "B2",
+    "correct": "The more you practice the more confident you become",
+    "translation": "Quanto mais você pratica, mais confiante você se torna",
+    "words": ["The", "more", "you", "practice", "the", "more", "confident", "you", "become"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is not only intelligent but also very hardworking",
+    "translation": "Ela não é apenas inteligente, mas também muito trabalhadora",
+    "words": ["She", "is", "not", "only", "intelligent", "but", "also", "very", "hardworking"]
+  },
+  {
+    "level": "B2",
+    "correct": "Despite the heavy rain they continued playing the match",
+    "translation": "Apesar da chuva forte, eles continuaram jogando a partida",
+    "words": ["Despite", "the", "heavy", "rain", "they", "continued", "playing", "the", "match"]
+  },
+  {
+    "level": "B2",
+    "correct": "In spite of being tired she stayed up to finish her work",
+    "translation": "Apesar de estar cansada, ela ficou acordada para terminar seu trabalho",
+    "words": ["In", "spite", "of", "being", "tired", "she", "stayed", "up", "to", "finish", "her", "work"]
+  },
+  {
+    "level": "B2",
+    "correct": "Due to the economic crisis many people lost their jobs",
+    "translation": "Devido à crise econômica, muitas pessoas perderam seus empregos",
+    "words": ["Due", "to", "the", "economic", "crisis", "many", "people", "lost", "their", "jobs"]
+  },
+  {
+    "level": "B2",
+    "correct": "Provided that you study hard you will pass the exam",
+    "translation": "Desde que você estude muito, passará no exame",
+    "words": ["Provided", "that", "you", "study", "hard", "you", "will", "pass", "the", "exam"]
+  },
+  {
+    "level": "B2",
+    "correct": "Unless you apologize she won't forgive you",
+    "translation": "A menos que você se desculpe, ela não o perdoará",
+    "words": ["Unless", "you", "apologize", "she", "won't", "forgive", "you"]
+  },
+  {
+    "level": "B2",
+    "correct": "As long as we work together we can achieve our goals",
+    "translation": "Contanto que trabalhemos juntos, podemos alcançar nossos objetivos",
+    "words": ["As", "long", "as", "we", "work", "together", "we", "can", "achieve", "our", "goals"]
+  },
+  {
+    "level": "B2",
+    "correct": "The CEO as well as the board members attended the meeting",
+    "translation": "O CEO, bem como os membros do conselho, participaram da reunião",
+    "words": ["The", "CEO", "as", "well", "as", "the", "board", "members", "attended", "the", "meeting"]
+  },
+  {
+    "level": "B2",
+    "correct": "Neither the manager nor the employees were satisfied with the result",
+    "translation": "Nem o gerente nem os funcionários ficaram satisfeitos com o resultado",
+    "words": ["Neither", "the", "manager", "nor", "the", "employees", "were", "satisfied", "with", "the", "result"]
+  },
+  {
+    "level": "B2",
+    "correct": "Not only did she finish the project but she also presented it perfectly",
+    "translation": "Não só ela terminou o projeto, como também o apresentou perfeitamente",
+    "words": ["Not", "only", "did", "she", "finish", "the", "project", "but", "she", "also", "presented", "it", "perfectly"]
+  },
+  {
+    "level": "B2",
+    "correct": "Hardly had I arrived when the phone rang",
+    "translation": "Mal eu havia chegado quando o telefone tocou",
+    "words": ["Hardly", "had", "I", "arrived", "when", "the", "phone", "rang"]
+  },
+  {
+    "level": "B2",
+    "correct": "No sooner had she left than he started crying",
+    "translation": "Mal ela havia saído e ele começou a chorar",
+    "words": ["No", "sooner", "had", "she", "left", "than", "he", "started", "crying"]
+  },
+  {
+    "level": "B2",
+    "correct": "Only after the storm had passed did they leave the shelter",
+    "translation": "Só depois que a tempestade passou eles saíram do abrigo",
+    "words": ["Only", "after", "the", "storm", "had", "passed", "did", "they", "leave", "the", "shelter"]
+  },
+  {
+    "level": "B2",
+    "correct": "Were she to arrive early she could help us set up",
+    "translation": "Se ela chegasse cedo, poderia nos ajudar a montar",
+    "words": ["Were", "she", "to", "arrive", "early", "she", "could", "help", "us", "set", "up"]
+  },
+  {
+    "level": "B2",
+    "correct": "Had they known about the traffic they would have taken another route",
+    "translation": "Se eles soubessem do trânsito, teriam pegado outra rota",
+    "words": ["Had", "they", "known", "about", "the", "traffic", "they", "would", "have", "taken", "another", "route"]
+  },
+  {
+    "level": "B2",
+    "correct": "The painting believed to be from the 18th century was actually a fake",
+    "translation": "A pintura que se acreditava ser do século 18 era na verdade uma falsificação",
+    "words": ["The", "painting", "believed", "to", "be", "from", "the", "18th", "century", "was", "actually", "a", "fake"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is said to have written over fifty novels",
+    "translation": "Diz-se que ela escreveu mais de cinquenta romances",
+    "words": ["She", "is", "said", "to", "have", "written", "over", "fifty", "novels"]
+  },
+  {
+    "level": "B2",
+    "correct": "The suspect is thought to be hiding in another country",
+    "translation": "Acredita-se que o suspeito esteja escondido em outro país",
+    "words": ["The", "suspect", "is", "thought", "to", "be", "hiding", "in", "another", "country"]
+  },
+  {
+    "level": "B2",
+    "correct": "She seems to have forgotten about our appointment",
+    "translation": "Ela parece ter esquecido do nosso compromisso",
+    "words": ["She", "seems", "to", "have", "forgotten", "about", "our", "appointment"]
+  },
+  {
+    "level": "B2",
+    "correct": "He appears to be very knowledgeable about the subject",
+    "translation": "Ele parece ser muito conhecedor do assunto",
+    "words": ["He", "appears", "to", "be", "very", "knowledgeable", "about", "the", "subject"]
+  },
+  {
+    "level": "B2",
+    "correct": "The new law is expected to be approved by the end of the month",
+    "translation": "Espera-se que a nova lei seja aprovada até o final do mês",
+    "words": ["The", "new", "law", "is", "expected", "to", "be", "approved", "by", "the", "end", "of", "the", "month"]
+  },
+  {
+    "level": "B2",
+    "correct": "She regrets not having taken the opportunity when she had the chance",
+    "translation": "Ela se arrepende de não ter aproveitado a oportunidade quando teve chance",
+    "words": ["She", "regrets", "not", "having", "taken", "the", "opportunity", "when", "she", "had", "the", "chance"]
+  },
+  {
+    "level": "B2",
+    "correct": "He denied having stolen the money from the safe",
+    "translation": "Ele negou ter roubado o dinheiro do cofre",
+    "words": ["He", "denied", "having", "stolen", "the", "money", "from", "the", "safe"]
+  },
+  {
+    "level": "B2",
+    "correct": "I appreciate your helping me with this difficult task",
+    "translation": "Agradeço sua ajuda com esta tarefa difícil",
+    "words": ["I", "appreciate", "your", "helping", "me", "with", "this", "difficult", "task"]
+  },
+  {
+    "level": "B2",
+    "correct": "She avoided answering the reporter's questions",
+    "translation": "Ela evitou responder às perguntas do repórter",
+    "words": ["She", "avoided", "answering", "the", "reporter's", "questions"]
+  },
+  {
+    "level": "B2",
+    "correct": "I can't help feeling nervous about the interview",
+    "translation": "Não posso deixar de me sentir nervoso com a entrevista",
+    "words": ["I", "can't", "help", "feeling", "nervous", "about", "the", "interview"]
+  },
+  {
+    "level": "B2",
+    "correct": "She couldn't resist buying that beautiful dress",
+    "translation": "Ela não pôde resistir a comprar aquele vestido lindo",
+    "words": ["She", "couldn't", "resist", "buying", "that", "beautiful", "dress"]
+  },
+  {
+    "level": "B2",
+    "correct": "I look forward to hearing from you soon",
+    "translation": "Aguardo ansiosamente notícias suas em breve",
+    "words": ["I", "look", "forward", "to", "hearing", "from", "you", "soon"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is used to working under pressure",
+    "translation": "Ela está acostumada a trabalhar sob pressão",
+    "words": ["She", "is", "used", "to", "working", "under", "pressure"]
+  },
+  {
+    "level": "B2",
+    "correct": "He objected to being treated like a child",
+    "translation": "Ele se opôs a ser tratado como uma criança",
+    "words": ["He", "objected", "to", "being", "treated", "like", "a", "child"]
+  },
+  {
+    "level": "B2",
+    "correct": "She insisted on paying for the entire meal",
+    "translation": "Ela insistiu em pagar por toda a refeição",
+    "words": ["She", "insisted", "on", "paying", "for", "the", "entire", "meal"]
+  },
+  {
+    "level": "B2",
+    "correct": "He is capable of solving even the most complex problems",
+    "translation": "Ele é capaz de resolver até os problemas mais complexos",
+    "words": ["He", "is", "capable", "of", "solving", "even", "the", "most", "complex", "problems"]
+  },
+  {
+    "level": "B2",
+    "correct": "The company is responsible for providing training to its employees",
+    "translation": "A empresa é responsável por fornecer treinamento aos seus funcionários",
+    "words": ["The", "company", "is", "responsible", "for", "providing", "training", "to", "its", "employees"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is interested in pursuing a career in medicine",
+    "translation": "Ela está interessada em seguir uma carreira na medicina",
+    "words": ["She", "is", "interested", "in", "pursuing", "a", "career", "in", "medicine"]
+  },
+  {
+    "level": "B2",
+    "correct": "He is known for being extremely generous",
+    "translation": "Ele é conhecido por ser extremamente generoso",
+    "words": ["He", "is", "known", "for", "being", "extremely", "generous"]
+  },
+  {
+    "level": "B2",
+    "correct": "The government is committed to reducing pollution levels",
+    "translation": "O governo está comprometido em reduzir os níveis de poluição",
+    "words": ["The", "government", "is", "committed", "to", "reducing", "pollution", "levels"]
+  },
+  {
+    "level": "B2",
+    "correct": "She apologized for being late to the meeting",
+    "translation": "Ela se desculpou por estar atrasada para a reunião",
+    "words": ["She", "apologized", "for", "being", "late", "to", "the", "meeting"]
+  },
+  {
+    "level": "B2",
+    "correct": "He blamed me for losing the documents",
+    "translation": "Ele me culpou por perder os documentos",
+    "words": ["He", "blamed", "me", "for", "losing", "the", "documents"]
+  },
+  {
+    "level": "B2",
+    "correct": "She congratulated him on winning the competition",
+    "translation": "Ela o parabenizou por vencer a competição",
+    "words": ["She", "congratulated", "him", "on", "winning", "the", "competition"]
+  },
+  {
+    "level": "B2",
+    "correct": "He prevented her from making a serious mistake",
+    "translation": "Ele a impediu de cometer um erro grave",
+    "words": ["He", "prevented", "her", "from", "making", "a", "serious", "mistake"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is thinking of changing her career path",
+    "translation": "Ela está pensando em mudar sua carreira",
+    "words": ["She", "is", "thinking", "of", "changing", "her", "career", "path"]
+  },
+  {
+    "level": "B2",
+    "correct": "He dreams of becoming a famous musician",
+    "translation": "Ele sonha em se tornar um músico famoso",
+    "words": ["He", "dreams", "of", "becoming", "a", "famous", "musician"]
+  },
+  {
+    "level": "B2",
+    "correct": "She succeeded in convincing the board to approve the project",
+    "translation": "Ela conseguiu convencer o conselho a aprovar o projeto",
+    "words": ["She", "succeeded", "in", "convincing", "the", "board", "to", "approve", "the", "project"]
+  },
+  {
+    "level": "B2",
+    "correct": "He failed to deliver the report on time",
+    "translation": "Ele não conseguiu entregar o relatório a tempo",
+    "words": ["He", "failed", "to", "deliver", "the", "report", "on", "time"]
+  },
+  {
+    "level": "B2",
+    "correct": "The population of the city has increased significantly over the last decade",
+    "translation": "A população da cidade aumentou significativamente na última década",
+    "words": ["The", "population", "of", "the", "city", "has", "increased", "significantly", "over", "the", "last", "decade"]
+  },
+  {
+    "level": "B2",
+    "correct": "The quality of the product is far superior to its competitors",
+    "translation": "A qualidade do produto é muito superior à de seus concorrentes",
+    "words": ["The", "quality", "of", "the", "product", "is", "far", "superior", "to", "its", "competitors"]
+  },
+  {
+    "level": "B2",
+    "correct": "The number of unemployed people has fallen dramatically",
+    "translation": "O número de desempregados caiu drasticamente",
+    "words": ["The", "number", "of", "unemployed", "people", "has", "fallen", "dramatically"]
+  },
+  {
+    "level": "B2",
+    "correct": "The results of the study are highly questionable",
+    "translation": "Os resultados do estudo são altamente questionáveis",
+    "words": ["The", "results", "of", "the", "study", "are", "highly", "questionable"]
+  },
+  {
+    "level": "B2",
+    "correct": "The situation is becoming increasingly difficult to manage",
+    "translation": "A situação está se tornando cada vez mais difícil de gerenciar",
+    "words": ["The", "situation", "is", "becoming", "increasingly", "difficult", "to", "manage"]
+  },
+  {
+    "level": "B2",
+    "correct": "He is extremely knowledgeable about ancient history",
+    "translation": "Ele é extremamente conhecedor de história antiga",
+    "words": ["He", "is", "extremely", "knowledgeable", "about", "ancient", "history"]
+  },
+  {
+    "level": "B2",
+    "correct": "She was utterly disappointed with the outcome",
+    "translation": "Ela ficou totalmente decepcionada com o resultado",
+    "words": ["She", "was", "utterly", "disappointed", "with", "the", "outcome"]
+  },
+  {
+    "level": "B2",
+    "correct": "The proposal is completely unacceptable to the committee",
+    "translation": "A proposta é completamente inaceitável para o comitê",
+    "words": ["The", "proposal", "is", "completely", "unacceptable", "to", "the", "committee"]
+  },
+  {
+    "level": "B2",
+    "correct": "He was absolutely certain about his decision",
+    "translation": "Ele estava absolutamente certo sobre sua decisão",
+    "words": ["He", "was", "absolutely", "certain", "about", "his", "decision"]
+  },
+  {
+    "level": "B2",
+    "correct": "The weather is relatively mild for this time of year",
+    "translation": "O tempo está relativamente ameno para esta época do ano",
+    "words": ["The", "weather", "is", "relatively", "mild", "for", "this", "time", "of", "year"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is fairly confident that she will get the job",
+    "translation": "Ela está razoavelmente confiante de que conseguirá o emprego",
+    "words": ["She", "is", "fairly", "confident", "that", "she", "will", "get", "the", "job"]
+  },
+  {
+    "level": "B2",
+    "correct": "He is somewhat hesitant about accepting the offer",
+    "translation": "Ele está um pouco hesitante em aceitar a oferta",
+    "words": ["He", "is", "somewhat", "hesitant", "about", "accepting", "the", "offer"]
+  },
+  {
+    "level": "B2",
+    "correct": "The plan is utterly ridiculous and impractical",
+    "translation": "O plano é totalmente ridículo e impraticável",
+    "words": ["The", "plan", "is", "utterly", "ridiculous", "and", "impractical"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is highly respected in her field of work",
+    "translation": "Ela é altamente respeitada em sua área de trabalho",
+    "words": ["She", "is", "highly", "respected", "in", "her", "field", "of", "work"]
+  },
+  {
+    "level": "B2",
+    "correct": "The company has not yet released its financial results",
+    "translation": "A empresa ainda não divulgou seus resultados financeiros",
+    "words": ["The", "company", "has", "not", "yet", "released", "its", "financial", "results"]
+  },
+  {
+    "level": "B2",
+    "correct": "She doesn't seem to care about what others think",
+    "translation": "Ela parece não se importar com o que os outros pensam",
+    "words": ["She", "doesn't", "seem", "to", "care", "about", "what", "others", "think"]
+  },
+  {
+    "level": "B2",
+    "correct": "He hasn't been feeling well lately",
+    "translation": "Ele não tem se sentido bem ultimamente",
+    "words": ["He", "hasn't", "been", "feeling", "well", "lately"]
+  },
+  {
+    "level": "B2",
+    "correct": "They weren't aware of the potential risks involved",
+    "translation": "Eles não estavam cientes dos riscos potenciais envolvidos",
+    "words": ["They", "weren't", "aware", "of", "the", "potential", "risks", "involved"]
+  },
+  {
+    "level": "B2",
+    "correct": "I wouldn't have said that if I had known the truth",
+    "translation": "Eu não teria dito isso se soubesse a verdade",
+    "words": ["I", "wouldn't", "have", "said", "that", "if", "I", "had", "known", "the", "truth"]
+  },
+  {
+    "level": "B2",
+    "correct": "She should not have trusted him with her secret",
+    "translation": "Ela não deveria ter confiado nele com seu segredo",
+    "words": ["She", "should", "not", "have", "trusted", "him", "with", "her", "secret"]
+  },
+  {
+    "level": "B2",
+    "correct": "He needn't have worried about the presentation it went perfectly",
+    "translation": "Ele não precisava ter se preocupado com a apresentação, correu perfeitamente",
+    "words": ["He", "needn't", "have", "worried", "about", "the", "presentation", "it", "went", "perfectly"]
+  },
+  {
+    "level": "B2",
+    "correct": "The evidence was not considered sufficient to prove his guilt",
+    "translation": "As evidências não foram consideradas suficientes para provar sua culpa",
+    "words": ["The", "evidence", "was", "not", "considered", "sufficient", "to", "prove", "his", "guilt"]
+  },
+  {
+    "level": "B2",
+    "correct": "She didn't use to enjoy classical music but now she loves it",
+    "translation": "Ela não costumava gostar de música clássica, mas agora adora",
+    "words": ["She", "didn't", "use", "to", "enjoy", "classical", "music", "but", "now", "she", "loves", "it"]
+  },
+  {
+    "level": "B2",
+    "correct": "He wouldn't listen to anyone's advice no matter what",
+    "translation": "Ele não ouvia os conselhos de ninguém, não importava o que fosse",
+    "words": ["He", "wouldn't", "listen", "to", "anyone's", "advice", "no", "matter", "what"]
+  },
+  {
+    "level": "B2",
+    "correct": "The government hasn't taken any action to address the issue",
+    "translation": "O governo não tomou nenhuma atitude para resolver o problema",
+    "words": ["The", "government", "hasn't", "taken", "any", "action", "to", "address", "the", "issue"]
+  },
+  {
+    "level": "B2",
+    "correct": "She couldn't have known about the surprise party",
+    "translation": "Ela não poderia ter sabido sobre a festa surpresa",
+    "words": ["She", "couldn't", "have", "known", "about", "the", "surprise", "party"]
+  },
+  {
+    "level": "B2",
+    "correct": "He might not have received my message",
+    "translation": "Ele pode não ter recebido minha mensagem",
+    "words": ["He", "might", "not", "have", "received", "my", "message"]
+  },
+  {
+    "level": "B2",
+    "correct": "There is no point in arguing with someone who won't listen",
+    "translation": "Não adianta discutir com alguém que não quer ouvir",
+    "words": ["There", "is", "no", "point", "in", "arguing", "with", "someone", "who", "won't", "listen"]
+  },
+  {
+    "level": "B2",
+    "correct": "It's no use trying to convince him he's already made up his mind",
+    "translation": "Não adianta tentar convencê-lo, ele já decidiu",
+    "words": ["It's", "no", "use", "trying", "to", "convince", "him", "he's", "already", "made", "up", "his", "mind"]
+  },
+  {
+    "level": "B2",
+    "correct": "She can't stand being criticized in front of others",
+    "translation": "Ela não suporta ser criticada na frente dos outros",
+    "words": ["She", "can't", "stand", "being", "criticized", "in", "front", "of", "others"]
+  },
+  {
+    "level": "B2",
+    "correct": "He doesn't mind working late when necessary",
+    "translation": "Ele não se importa em trabalhar até tarde quando necessário",
+    "words": ["He", "doesn't", "mind", "working", "late", "when", "necessary"]
+  },
+  {
+    "level": "B2",
+    "correct": "I'm not accustomed to being treated so formally",
+    "translation": "Não estou acostumado a ser tratado de forma tão formal",
+    "words": ["I'm", "not", "accustomed", "to", "being", "treated", "so", "formally"]
+  },
+  {
+    "level": "B2",
+    "correct": "She is not used to living in such a crowded city",
+    "translation": "Ela não está acostumada a morar em uma cidade tão lotada",
+    "words": ["She", "is", "not", "used", "to", "living", "in", "such", "a", "crowded", "city"]
+  },
+  {
+    "level": "B2",
+    "correct": "He had no intention of deceiving anyone",
+    "translation": "Ele não tinha intenção de enganar ninguém",
+    "words": ["He", "had", "no", "intention", "of", "deceiving", "anyone"]
+  },
+  {
+    "level": "B2",
+    "correct": "There was nothing she could do to change the situation",
+    "translation": "Não havia nada que ela pudesse fazer para mudar a situação",
+    "words": ["There", "was", "nothing", "she", "could", "do", "to", "change", "the", "situation"]
+  },
+  {
+    "level": "B2",
+    "correct": "He has nowhere to go after losing his home",
+    "translation": "Ele não tem para onde ir depois de perder sua casa",
+    "words": ["He", "has", "nowhere", "to", "go", "after", "losing", "his", "home"]
+  },
+  {
+    "level": "B2",
+    "correct": "She knows nobody in this city",
+    "translation": "Ela não conhece ninguém nesta cidade",
+    "words": ["She", "knows", "nobody", "in", "this", "city"]
+  },
+  {
+    "level": "B2",
+    "correct": "He never fails to impress his audience with his speeches",
+    "translation": "Ele nunca deixa de impressionar seu público com seus discursos",
+    "words": ["He", "never", "fails", "to", "impress", "his", "audience", "with", "his", "speeches"]
+  },
+  {
+    "level": "B2",
+    "correct": "Under no circumstances should you open that door",
+    "translation": "Sob nenhuma circunstância você deve abrir aquela porta",
+    "words": ["Under", "no", "circumstances", "should", "you", "open", "that", "door"]
+  },
+  {
+    "level": "B2",
+    "correct": "On no account will the company tolerate such behavior",
+    "translation": "De forma alguma a empresa tolerará tal comportamento",
+    "words": ["On", "no", "account", "will", "the", "company", "tolerate", "such", "behavior"]
+  },
+  {
+    "level": "B2",
+    "correct": "Nowhere in the world will you find a more beautiful beach",
+    "translation": "Em nenhum lugar do mundo você encontrará uma praia mais bonita",
+    "words": ["Nowhere", "in", "the", "world", "will", "you", "find", "a", "more", "beautiful", "beach"]
+  },
+  {
+    "level": "B2",
+    "correct": "Rarely does she complain about anything",
+    "translation": "Raramente ela reclama de alguma coisa",
+    "words": ["Rarely", "does", "she", "complain", "about", "anything"]
+  },
+  {
+    "level": "B2",
+    "correct": "Never have I seen such a magnificent view",
+    "translation": "Nunca vi uma vista tão magnífica",
+    "words": ["Never", "have", "I", "seen", "such", "a", "magnificent", "view"]
+  },
+  {
+    "level": "B2",
+    "correct": "What would you have done if you had been in his position?",
+    "translation": "O que você teria feito se estivesse na posição dele?",
+    "words": ["What", "would", "you", "have", "done", "if", "you", "had", "been", "in", "his", "position", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Why did she decide to quit her job without finding another one?",
+    "translation": "Por que ela decidiu pedir demissão sem encontrar outro emprego?",
+    "words": ["Why", "did", "she", "decide", "to", "quit", "her", "job", "without", "finding", "another", "one", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How long have you been waiting for a response?",
+    "translation": "Há quanto tempo você está esperando por uma resposta?",
+    "words": ["How", "long", "have", "you", "been", "waiting", "for", "a", "response", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Where did you learn to speak such fluent French?",
+    "translation": "Onde você aprendeu a falar francês tão fluente?",
+    "words": ["Where", "did", "you", "learn", "to", "speak", "such", "fluent", "French", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "When are you planning to finally take some time off?",
+    "translation": "Quando você está planejando finalmente tirar um tempo de folga?",
+    "words": ["When", "are", "you", "planning", "to", "finally", "take", "some", "time", "off", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Would you mind if I joined you for dinner?",
+    "translation": "Você se importaria se eu me juntasse a você para o jantar?",
+    "words": ["Would", "you", "mind", "if", "I", "joined", "you", "for", "dinner", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Could you possibly lend me some money until next week?",
+    "translation": "Você poderia por acaso me emprestar algum dinheiro até a próxima semana?",
+    "words": ["Could", "you", "possibly", "lend", "me", "some", "money", "until", "next", "week", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Do you have any idea what time the meeting starts?",
+    "translation": "Você tem alguma ideia de que horas a reunião começa?",
+    "words": ["Do", "you", "have", "any", "idea", "what", "time", "the", "meeting", "starts", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Is there any chance we could reschedule our appointment?",
+    "translation": "Há alguma chance de remarcarmos nosso compromisso?",
+    "words": ["Is", "there", "any", "chance", "we", "could", "reschedule", "our", "appointment", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Have you considered the possibility that he might be lying?",
+    "translation": "Você considerou a possibilidade de que ele possa estar mentindo?",
+    "words": ["Have", "you", "considered", "the", "possibility", "that", "he", "might", "be", "lying", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What exactly do you mean by that statement?",
+    "translation": "O que exatamente você quer dizer com essa declaração?",
+    "words": ["What", "exactly", "do", "you", "mean", "by", "that", "statement", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How do you intend to solve this problem without any resources?",
+    "translation": "Como você pretende resolver esse problema sem recursos?",
+    "words": ["How", "do", "you", "intend", "to", "solve", "this", "problem", "without", "any", "resources", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Why don't we take a break and continue later?",
+    "translation": "Por que não fazemos uma pausa e continuamos mais tarde?",
+    "words": ["Why", "don't", "we", "take", "a", "break", "and", "continue", "later", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What would be the consequences if we failed to meet the deadline?",
+    "translation": "Quais seriam as consequências se não cumpríssemos o prazo?",
+    "words": ["What", "would", "be", "the", "consequences", "if", "we", "failed", "to", "meet", "the", "deadline", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How are you planning to deal with the unexpected delay?",
+    "translation": "Como você está planejando lidar com o atraso inesperado?",
+    "words": ["How", "are", "you", "planning", "to", "deal", "with", "the", "unexpected", "delay", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Who do you think is responsible for this mess?",
+    "translation": "Quem você acha que é responsável por essa bagunça?",
+    "words": ["Who", "do", "you", "think", "is", "responsible", "for", "this", "mess", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Which of these options do you consider the most viable?",
+    "translation": "Qual dessas opções você considera a mais viável?",
+    "words": ["Which", "of", "these", "options", "do", "you", "consider", "the", "most", "viable", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Why haven't you informed me about this situation earlier?",
+    "translation": "Por que você não me informou sobre esta situação antes?",
+    "words": ["Why", "haven't", "you", "informed", "me", "about", "this", "situation", "earlier", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How much longer will we have to wait for a decision?",
+    "translation": "Quanto tempo mais teremos que esperar por uma decisão?",
+    "words": ["How", "much", "longer", "will", "we", "have", "to", "wait", "for", "a", "decision", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What makes you think that your approach is better than mine?",
+    "translation": "O que faz você pensar que sua abordagem é melhor que a minha?",
+    "words": ["What", "makes", "you", "think", "that", "your", "approach", "is", "better", "than", "mine", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How often do you get the opportunity to travel abroad for work?",
+    "translation": "Com que frequência você tem a oportunidade de viajar para o exterior a trabalho?",
+    "words": ["How", "often", "do", "you", "get", "the", "opportunity", "to", "travel", "abroad", "for", "work", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Do you have any suggestions on how we could improve our service?",
+    "translation": "Você tem alguma sugestão sobre como poderíamos melhorar nosso serviço?",
+    "words": ["Do", "you", "have", "any", "suggestions", "on", "how", "we", "could", "improve", "our", "service", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What would you do if you were in my position?",
+    "translation": "O que você faria se estivesse na minha posição?",
+    "words": ["What", "would", "you", "do", "if", "you", "were", "in", "my", "position", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Could you tell me what the main purpose of this project is?",
+    "translation": "Você poderia me dizer qual é o objetivo principal deste projeto?",
+    "words": ["Could", "you", "tell", "me", "what", "the", "main", "purpose", "of", "this", "project", "is", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Why do you think so many people are leaving the company?",
+    "translation": "Por que você acha que tantas pessoas estão saindo da empresa?",
+    "words": ["Why", "do", "you", "think", "so", "many", "people", "are", "leaving", "the", "company", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How do you explain the sudden drop in sales this quarter?",
+    "translation": "Como você explica a queda repentina nas vendas neste trimestre?",
+    "words": ["How", "do", "you", "explain", "the", "sudden", "drop", "in", "sales", "this", "quarter", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What measures have been taken to prevent this from happening again?",
+    "translation": "Que medidas foram tomadas para evitar que isso aconteça novamente?",
+    "words": ["What", "measures", "have", "been", "taken", "to", "prevent", "this", "from", "happening", "again", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Is there any reason why we should reconsider our decision?",
+    "translation": "Há alguma razão para reconsiderarmos nossa decisão?",
+    "words": ["Is", "there", "any", "reason", "why", "we", "should", "reconsider", "our", "decision", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How would you feel if the same thing happened to you?",
+    "translation": "Como você se sentiria se a mesma coisa acontecesse com você?",
+    "words": ["How", "would", "you", "feel", "if", "the", "same", "thing", "happened", "to", "you", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What are the main challenges that you face in your daily work?",
+    "translation": "Quais são os principais desafios que você enfrenta no seu trabalho diário?",
+    "words": ["What", "are", "the", "main", "challenges", "that", "you", "face", "in", "your", "daily", "work", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Could you please clarify what you meant by your previous comment?",
+    "translation": "Você poderia por favor esclarecer o que quis dizer com seu comentário anterior?",
+    "words": ["Could", "you", "please", "clarify", "what", "you", "meant", "by", "your", "previous", "comment", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Why did you choose to pursue this particular career path?",
+    "translation": "Por que você escolheu seguir essa carreira específica?",
+    "words": ["Why", "did", "you", "choose", "to", "pursue", "this", "particular", "career", "path", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How long did it take you to complete the training program?",
+    "translation": "Quanto tempo você levou para concluir o programa de treinamento?",
+    "words": ["How", "long", "did", "it", "take", "you", "to", "complete", "the", "training", "program", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What do you consider to be your greatest professional achievement?",
+    "translation": "O que você considera ser sua maior conquista profissional?",
+    "words": ["What", "do", "you", "consider", "to", "be", "your", "greatest", "professional", "achievement", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Do you think it's possible to achieve a work-life balance in today's world?",
+    "translation": "Você acha que é possível alcançar um equilíbrio entre vida pessoal e profissional no mundo atual?",
+    "words": ["Do", "you", "think", "it's", "possible", "to", "achieve", "a", "work-life", "balance", "in", "today's", "world", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "How would you handle a situation where you disagree with your boss?",
+    "translation": "Como você lidaria com uma situação em que discorda do seu chefe?",
+    "words": ["How", "would", "you", "handle", "a", "situation", "where", "you", "disagree", "with", "your", "boss", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "What skills do you think are most important for success in this industry?",
+    "translation": "Quais habilidades você acha que são mais importantes para o sucesso neste setor?",
+    "words": ["What", "skills", "do", "you", "think", "are", "most", "important", "for", "success", "in", "this", "industry", "?"]
+  },
+  {
+    "level": "B2",
+    "correct": "Could you recommend any resources for learning more about this topic?",
+    "translation": "Você poderia recomendar alguns recursos para aprender mais sobre este tópico?",
+    "words": ["Could", "you", "recommend", "any", "resources", "for", "learning", "more", "about", "this", "topic", "?"]
   },
   {
     "level": "B2",
@@ -2436,6 +4185,721 @@
     "correct": "Had I known about the traffic I would have left earlier",
     "translation": "Se eu soubesse do trânsito, teria saído mais cedo",
     "words": ["Had", "I", "known", "about", "the", "traffic", "I", "would", "have", "left", "earlier"]
+  },
+  
+  {
+    "level": "C1",
+    "correct": "Were it not for your support I would have given up long ago",
+    "translation": "Não fosse pelo seu apoio, eu teria desistido há muito tempo",
+    "words": ["Were", "it", "not", "for", "your", "support", "I", "would", "have", "given", "up", "long", "ago"]
+  },
+  {
+    "level": "C1",
+    "correct": "Had she been more careful the accident could have been avoided",
+    "translation": "Se ela tivesse sido mais cuidadosa, o acidente poderia ter sido evitado",
+    "words": ["Had", "she", "been", "more", "careful", "the", "accident", "could", "have", "been", "avoided"]
+  },
+  {
+    "level": "C1",
+    "correct": "Not until the CEO intervened did they reach an agreement",
+    "translation": "Só quando o CEO interveio eles chegaram a um acordo",
+    "words": ["Not", "until", "the", "CEO", "intervened", "did", "they", "reach", "an", "agreement"]
+  },
+  {
+    "level": "C1",
+    "correct": "Scarcely had she entered the room when everyone fell silent",
+    "translation": "Mal ela entrou na sala e todos ficaram em silêncio",
+    "words": ["Scarcely", "had", "she", "entered", "the", "room", "when", "everyone", "fell", "silent"]
+  },
+  {
+    "level": "C1",
+    "correct": "Only by working together can we hope to solve this crisis",
+    "translation": "Somente trabalhando juntos podemos esperar resolver esta crise",
+    "words": ["Only", "by", "working", "together", "can", "we", "hope", "to", "solve", "this", "crisis"]
+  },
+  {
+    "level": "C1",
+    "correct": "So captivating was her speech that the audience gave her a standing ovation",
+    "translation": "Tão cativante foi seu discurso que a plateia lhe deu uma ovação de pé",
+    "words": ["So", "captivating", "was", "her", "speech", "that", "the", "audience", "gave", "her", "a", "standing", "ovation"]
+  },
+  {
+    "level": "C1",
+    "correct": "Such was his determination that he overcame every obstacle",
+    "translation": "Tamanha foi sua determinação que ele superou todos os obstáculos",
+    "words": ["Such", "was", "his", "determination", "that", "he", "overcame", "every", "obstacle"]
+  },
+  {
+    "level": "C1",
+    "correct": "Little did she know that her life was about to change forever",
+    "translation": "Mal ela sabia que sua vida estava prestes a mudar para sempre",
+    "words": ["Little", "did", "she", "know", "that", "her", "life", "was", "about", "to", "change", "forever"]
+  },
+  {
+    "level": "C1",
+    "correct": "Never before had the committee faced such a difficult decision",
+    "translation": "Nunca antes o comitê havia enfrentado uma decisão tão difícil",
+    "words": ["Never", "before", "had", "the", "committee", "faced", "such", "a", "difficult", "decision"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal put forward by the opposition was met with widespread criticism",
+    "translation": "A proposta apresentada pela oposição foi recebida com críticas generalizadas",
+    "words": ["The", "proposal", "put", "forward", "by", "the", "opposition", "was", "met", "with", "widespread", "criticism"]
+  },
+  {
+    "level": "C1",
+    "correct": "Having been informed of the risks he decided to proceed anyway",
+    "translation": "Tendo sido informado dos riscos, ele decidiu prosseguir mesmo assim",
+    "words": ["Having", "been", "informed", "of", "the", "risks", "he", "decided", "to", "proceed", "anyway"]
+  },
+  {
+    "level": "C1",
+    "correct": "The suspect is believed to be hiding somewhere in Eastern Europe",
+    "translation": "Acredita-se que o suspeito esteja escondido em algum lugar da Europa Oriental",
+    "words": ["The", "suspect", "is", "believed", "to", "be", "hiding", "somewhere", "in", "Eastern", "Europe"]
+  },
+  {
+    "level": "C1",
+    "correct": "It is imperative that all employees comply with the new safety regulations",
+    "translation": "É imperativo que todos os funcionários cumpram as novas normas de segurança",
+    "words": ["It", "is", "imperative", "that", "all", "employees", "comply", "with", "the", "new", "safety", "regulations"]
+  },
+  {
+    "level": "C1",
+    "correct": "The committee recommended that the proposal be rejected",
+    "translation": "O comitê recomendou que a proposta fosse rejeitada",
+    "words": ["The", "committee", "recommended", "that", "the", "proposal", "be", "rejected"]
+  },
+  {
+    "level": "C1",
+    "correct": "It is essential that she arrive before the meeting starts",
+    "translation": "É essencial que ela chegue antes do início da reunião",
+    "words": ["It", "is", "essential", "that", "she", "arrive", "before", "the", "meeting", "starts"]
+  },
+  {
+    "level": "C1",
+    "correct": "The government demanded that the company pay the fine immediately",
+    "translation": "O governo exigiu que a empresa pagasse a multa imediatamente",
+    "words": ["The", "government", "demanded", "that", "the", "company", "pay", "the", "fine", "immediately"]
+  },
+  {
+    "level": "C1",
+    "correct": "I would rather you didn't mention this to anyone",
+    "translation": "Eu preferia que você não mencionasse isso a ninguém",
+    "words": ["I", "would", "rather", "you", "didn't", "mention", "this", "to", "anyone"]
+  },
+  {
+    "level": "C1",
+    "correct": "She insisted that he be present at the ceremony",
+    "translation": "Ela insistiu que ele estivesse presente na cerimônia",
+    "words": ["She", "insisted", "that", "he", "be", "present", "at", "the", "ceremony"]
+  },
+  {
+    "level": "C1",
+    "correct": "It is of utmost importance that we address this issue without delay",
+    "translation": "É de extrema importância que resolvamos esta questão sem demora",
+    "words": ["It", "is", "of", "utmost", "importance", "that", "we", "address", "this", "issue", "without", "delay"]
+  },
+  {
+    "level": "C1",
+    "correct": "The findings are consistent with those of previous studies",
+    "translation": "Os achados são consistentes com os de estudos anteriores",
+    "words": ["The", "findings", "are", "consistent", "with", "those", "of", "previous", "studies"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her argument was based on a flawed premise",
+    "translation": "Seu argumento foi baseado em uma premissa falha",
+    "words": ["Her", "argument", "was", "based", "on", "a", "flawed", "premise"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's success can be attributed to its innovative approach",
+    "translation": "O sucesso da empresa pode ser atribuído à sua abordagem inovadora",
+    "words": ["The", "company's", "success", "can", "be", "attributed", "to", "its", "innovative", "approach"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her refusal to compromise ultimately led to the collapse of the negotiations",
+    "translation": "Sua recusa em comprometer-se acabou levando ao colapso das negociações",
+    "words": ["Her", "refusal", "to", "compromise", "ultimately", "led", "to", "the", "collapse", "of", "the", "negotiations"]
+  },
+  {
+    "level": "C1",
+    "correct": "The new evidence casts doubt on the reliability of the initial report",
+    "translation": "As novas evidências lançam dúvidas sobre a confiabilidade do relatório inicial",
+    "words": ["The", "new", "evidence", "casts", "doubt", "on", "the", "reliability", "of", "the", "initial", "report"]
+  },
+  {
+    "level": "C1",
+    "correct": "The government's response to the crisis has been widely criticized",
+    "translation": "A resposta do governo à crise tem sido amplamente criticada",
+    "words": ["The", "government's", "response", "to", "the", "crisis", "has", "been", "widely", "criticized"]
+  },
+  {
+    "level": "C1",
+    "correct": "The committee's decision is final and binding",
+    "translation": "A decisão do comitê é final e vinculativa",
+    "words": ["The", "committee's", "decision", "is", "final", "and", "binding"]
+  },
+  {
+    "level": "C1",
+    "correct": "The report highlights the need for further research in this area",
+    "translation": "O relatório destaca a necessidade de mais pesquisas nesta área",
+    "words": ["The", "report", "highlights", "the", "need", "for", "further", "research", "in", "this", "area"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal represents a significant departure from previous policy",
+    "translation": "A proposta representa um afastamento significativo da política anterior",
+    "words": ["The", "proposal", "represents", "a", "significant", "departure", "from", "previous", "policy"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her achievements are all the more impressive given her difficult background",
+    "translation": "Suas conquistas são ainda mais impressionantes dado seu histórico difícil",
+    "words": ["Her", "achievements", "are", "all", "the", "more", "impressive", "given", "her", "difficult", "background"]
+  },
+  {
+    "level": "C1",
+    "correct": "The new law has far-reaching implications for small businesses",
+    "translation": "A nova lei tem implicações de longo alcance para as pequenas empresas",
+    "words": ["The", "new", "law", "has", "far-reaching", "implications", "for", "small", "businesses"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company is on the verge of bankruptcy",
+    "translation": "A empresa está à beira da falência",
+    "words": ["The", "company", "is", "on", "the", "verge", "of", "bankruptcy"]
+  },
+  {
+    "level": "C1",
+    "correct": "The two countries have reached a tentative agreement",
+    "translation": "Os dois países chegaram a um acordo provisório",
+    "words": ["The", "two", "countries", "have", "reached", "a", "tentative", "agreement"]
+  },
+  {
+    "level": "C1",
+    "correct": "The project is still in its preliminary stages",
+    "translation": "O projeto ainda está em seus estágios preliminares",
+    "words": ["The", "project", "is", "still", "in", "its", "preliminary", "stages"]
+  },
+  {
+    "level": "C1",
+    "correct": "The candidate's speech was nothing short of brilliant",
+    "translation": "O discurso do candidato foi simplesmente brilhante",
+    "words": ["The", "candidate's", "speech", "was", "nothing", "short", "of", "brilliant"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company is facing an unprecedented challenge",
+    "translation": "A empresa enfrenta um desafio sem precedentes",
+    "words": ["The", "company", "is", "facing", "an", "unprecedented", "challenge"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her latest novel is a worthy successor to her previous work",
+    "translation": "Seu último romance é um sucessor à altura de seu trabalho anterior",
+    "words": ["Her", "latest", "novel", "is", "a", "worthy", "successor", "to", "her", "previous", "work"]
+  },
+  {
+    "level": "C1",
+    "correct": "The team's victory was met with jubilation",
+    "translation": "A vitória do time foi recebida com júbilo",
+    "words": ["The", "team's", "victory", "was", "met", "with", "jubilation"]
+  },
+  {
+    "level": "C1",
+    "correct": "The negotiations reached an impasse after hours of discussion",
+    "translation": "As negociações chegaram a um impasse após horas de discussão",
+    "words": ["The", "negotiations", "reached", "an", "impasse", "after", "hours", "of", "discussion"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's quarterly profits exceeded all expectations",
+    "translation": "Os lucros trimestrais da empresa superaram todas as expectativas",
+    "words": ["The", "company's", "quarterly", "profits", "exceeded", "all", "expectations"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her resignation came as a bolt from the blue",
+    "translation": "Sua renúncia veio como um raio em céu azul",
+    "words": ["Her", "resignation", "came", "as", "a", "bolt", "from", "the", "blue"]
+  },
+  {
+    "level": "C1",
+    "correct": "The new policy is a double-edged sword",
+    "translation": "A nova política é uma faca de dois gumes",
+    "words": ["The", "new", "policy", "is", "a", "double-edged", "sword"]
+  },
+  {
+    "level": "C1",
+    "correct": "The success of the project hinges on securing adequate funding",
+    "translation": "O sucesso do projeto depende da obtenção de financiamento adequado",
+    "words": ["The", "success", "of", "the", "project", "hinges", "on", "securing", "adequate", "funding"]
+  },
+  {
+    "level": "C1",
+    "correct": "The report paints a grim picture of the situation",
+    "translation": "O relatório pinta um quadro sombrio da situação",
+    "words": ["The", "report", "paints", "a", "grim", "picture", "of", "the", "situation"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's reputation has taken a severe hit",
+    "translation": "A reputação da empresa sofreu um duro golpe",
+    "words": ["The", "company's", "reputation", "has", "taken", "a", "severe", "hit"]
+  },
+  {
+    "level": "C1",
+    "correct": "The project is still in its infancy",
+    "translation": "O projeto ainda está em sua infância",
+    "words": ["The", "project", "is", "still", "in", "its", "infancy"]
+  },
+  {
+    "level": "C1",
+    "correct": "The two theories are mutually exclusive",
+    "translation": "As duas teorias são mutuamente exclusivas",
+    "words": ["The", "two", "theories", "are", "mutually", "exclusive"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her argument is compelling but not without flaws",
+    "translation": "Seu argumento é convincente, mas não isento de falhas",
+    "words": ["Her", "argument", "is", "compelling", "but", "not", "without", "flaws"]
+  },
+  {
+    "level": "C1",
+    "correct": "The new evidence is at odds with previous findings",
+    "translation": "As novas evidências estão em desacordo com descobertas anteriores",
+    "words": ["The", "new", "evidence", "is", "at", "odds", "with", "previous", "findings"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal is subject to approval by the board",
+    "translation": "A proposta está sujeita à aprovação do conselho",
+    "words": ["The", "proposal", "is", "subject", "to", "approval", "by", "the", "board"]
+  },
+  {
+    "level": "C1",
+    "correct": "The situation is beyond our control",
+    "translation": "A situação está além do nosso controle",
+    "words": ["The", "situation", "is", "beyond", "our", "control"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her decision is understandable given the circumstances",
+    "translation": "Sua decisão é compreensível dadas as circunstâncias",
+    "words": ["Her", "decision", "is", "understandable", "given", "the", "circumstances"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company is on solid financial footing",
+    "translation": "A empresa está em situação financeira sólida",
+    "words": ["The", "company", "is", "on", "solid", "financial", "footing"]
+  },
+  {
+    "level": "C1",
+    "correct": "The agreement is legally binding on both parties",
+    "translation": "O acordo é juridicamente vinculativo para ambas as partes",
+    "words": ["The", "agreement", "is", "legally", "binding", "on", "both", "parties"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her performance was nothing short of extraordinary",
+    "translation": "Sua performance foi simplesmente extraordinária",
+    "words": ["Her", "performance", "was", "nothing", "short", "of", "extraordinary"]
+  },
+  {
+    "level": "C1",
+    "correct": "The team's success is a testament to their hard work",
+    "translation": "O sucesso da equipe é um testemunho de seu trabalho duro",
+    "words": ["The", "team's", "success", "is", "a", "testament", "to", "their", "hard", "work"]
+  },
+  {
+    "level": "C1",
+    "correct": "The new regulations are a step in the right direction",
+    "translation": "Os novos regulamentos são um passo na direção certa",
+    "words": ["The", "new", "regulations", "are", "a", "step", "in", "the", "right", "direction"]
+  },
+  {
+    "level": "C1",
+    "correct": "The report calls into question the validity of the study",
+    "translation": "O relatório questiona a validade do estudo",
+    "words": ["The", "report", "calls", "into", "question", "the", "validity", "of", "the", "study"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company is at a crossroads in its development",
+    "translation": "A empresa está numa encruzilhada em seu desenvolvimento",
+    "words": ["The", "company", "is", "at", "a", "crossroads", "in", "its", "development"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her speech struck a chord with the audience",
+    "translation": "Seu discurso ressoou com a plateia",
+    "words": ["Her", "speech", "struck", "a", "chord", "with", "the", "audience"]
+  },
+  {
+    "level": "C1",
+    "correct": "The project is gathering momentum",
+    "translation": "O projeto está ganhando impulso",
+    "words": ["The", "project", "is", "gathering", "momentum"]
+  },
+  {
+    "level": "C1",
+    "correct": "The negotiations are at a critical juncture",
+    "translation": "As negociações estão em um momento crítico",
+    "words": ["The", "negotiations", "are", "at", "a", "critical", "juncture"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her latest work is a tour de force",
+    "translation": "Seu trabalho mais recente é um tour de force",
+    "words": ["Her", "latest", "work", "is", "a", "tour", "de", "force"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's future hangs in the balance",
+    "translation": "O futuro da empresa está por um fio",
+    "words": ["The", "company's", "future", "hangs", "in", "the", "balance"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her resignation was a bombshell",
+    "translation": "Sua renúncia foi uma bomba",
+    "words": ["Her", "resignation", "was", "a", "bombshell"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal is a non-starter",
+    "translation": "A proposta não tem chance",
+    "words": ["The", "proposal", "is", "a", "non-starter"]
+  },
+  {
+    "level": "C1",
+    "correct": "The report is a must-read for anyone in the field",
+    "translation": "O relatório é leitura obrigatória para qualquer pessoa na área",
+    "words": ["The", "report", "is", "a", "must-read", "for", "anyone", "in", "the", "field"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's strategy is a game-changer",
+    "translation": "A estratégia da empresa é inovadora",
+    "words": ["The", "company's", "strategy", "is", "a", "game-changer"]
+  },
+  {
+    "level": "C1",
+    "correct": "The two leaders see eye to eye on most issues",
+    "translation": "Os dois líderes concordam na maioria das questões",
+    "words": ["The", "two", "leaders", "see", "eye", "to", "eye", "on", "most", "issues"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company is in dire straits",
+    "translation": "A empresa está em apuros",
+    "words": ["The", "company", "is", "in", "dire", "straits"]
+  },
+  {
+    "level": "C1",
+    "correct": "Under no circumstances should the confidential information be disclosed",
+    "translation": "Sob nenhuma circunstância as informações confidenciais devem ser divulgadas",
+    "words": ["Under", "no", "circumstances", "should", "the", "confidential", "information", "be", "disclosed"]
+  },
+  {
+    "level": "C1",
+    "correct": "Had it not been for his timely intervention the project would have failed",
+    "translation": "Não fosse por sua intervenção oportuna, o projeto teria falhado",
+    "words": ["Had", "it", "not", "been", "for", "his", "timely", "intervention", "the", "project", "would", "have", "failed"]
+  },
+  {
+    "level": "C1",
+    "correct": "The committee rejected the proposal outright",
+    "translation": "O comitê rejeitou a proposta completamente",
+    "words": ["The", "committee", "rejected", "the", "proposal", "outright"]
+  },
+  {
+    "level": "C1",
+    "correct": "The evidence against him was circumstantial at best",
+    "translation": "As evidências contra ele eram no máximo circunstanciais",
+    "words": ["The", "evidence", "against", "him", "was", "circumstantial", "at", "best"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company has failed to deliver on its promises",
+    "translation": "A empresa não cumpriu suas promessas",
+    "words": ["The", "company", "has", "failed", "to", "deliver", "on", "its", "promises"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her argument was far from convincing",
+    "translation": "Seu argumento estava longe de ser convincente",
+    "words": ["Her", "argument", "was", "far", "from", "convincing"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal is not without its merits",
+    "translation": "A proposta não é isenta de méritos",
+    "words": ["The", "proposal", "is", "not", "without", "its", "merits"]
+  },
+  {
+    "level": "C1",
+    "correct": "He is by no means the most qualified candidate",
+    "translation": "Ele não é de forma alguma o candidato mais qualificado",
+    "words": ["He", "is", "by", "no", "means", "the", "most", "qualified", "candidate"]
+  },
+  {
+    "level": "C1",
+    "correct": "The situation is far from ideal",
+    "translation": "A situação está longe do ideal",
+    "words": ["The", "situation", "is", "far", "from", "ideal"]
+  },
+  {
+    "level": "C1",
+    "correct": "The report leaves much to be desired",
+    "translation": "O relatório deixa muito a desejar",
+    "words": ["The", "report", "leaves", "much", "to", "be", "desired"]
+  },
+  {
+    "level": "C1",
+    "correct": "The new policy is not without controversy",
+    "translation": "A nova política não é isenta de controvérsia",
+    "words": ["The", "new", "policy", "is", "not", "without", "controversy"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's performance has been less than stellar",
+    "translation": "O desempenho da empresa tem sido aquém do estelar",
+    "words": ["The", "company's", "performance", "has", "been", "less", "than", "stellar"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal failed to gain traction",
+    "translation": "A proposta não ganhou força",
+    "words": ["The", "proposal", "failed", "to", "gain", "traction"]
+  },
+  {
+    "level": "C1",
+    "correct": "The evidence is far from conclusive",
+    "translation": "As evidências estão longe de ser conclusivas",
+    "words": ["The", "evidence", "is", "far", "from", "conclusive"]
+  },
+  {
+    "level": "C1",
+    "correct": "The plan is not feasible given the current constraints",
+    "translation": "O plano não é viável dadas as restrições atuais",
+    "words": ["The", "plan", "is", "not", "feasible", "given", "the", "current", "constraints"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company has not been immune to the economic downturn",
+    "translation": "A empresa não ficou imune à recessão econômica",
+    "words": ["The", "company", "has", "not", "been", "immune", "to", "the", "economic", "downturn"]
+  },
+  {
+    "level": "C1",
+    "correct": "Her decision was anything but rash",
+    "translation": "Sua decisão não foi nada precipitada",
+    "words": ["Her", "decision", "was", "anything", "but", "rash"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal is devoid of any original ideas",
+    "translation": "A proposta é desprovida de ideias originais",
+    "words": ["The", "proposal", "is", "devoid", "of", "any", "original", "ideas"]
+  },
+  {
+    "level": "C1",
+    "correct": "The report is silent on this crucial issue",
+    "translation": "O relatório silencia sobre esta questão crucial",
+    "words": ["The", "report", "is", "silent", "on", "this", "crucial", "issue"]
+  },
+  {
+    "level": "C1",
+    "correct": "The government has turned a blind eye to the problem",
+    "translation": "O governo fez vista grossa para o problema",
+    "words": ["The", "government", "has", "turned", "a", "blind", "eye", "to", "the", "problem"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's response was inadequate to say the least",
+    "translation": "A resposta da empresa foi inadequada, para dizer o mínimo",
+    "words": ["The", "company's", "response", "was", "inadequate", "to", "say", "the", "least"]
+  },
+  {
+    "level": "C1",
+    "correct": "The agreement fell short of expectations",
+    "translation": "O acordo ficou aquém das expectativas",
+    "words": ["The", "agreement", "fell", "short", "of", "expectations"]
+  },
+  {
+    "level": "C1",
+    "correct": "The proposal was met with a lukewarm response",
+    "translation": "A proposta foi recebida com uma resposta morna",
+    "words": ["The", "proposal", "was", "met", "with", "a", "lukewarm", "response"]
+  },
+  {
+    "level": "C1",
+    "correct": "The company's actions are not above reproach",
+    "translation": "As ações da empresa não estão acima de qualquer suspeita",
+    "words": ["The", "company's", "actions", "are", "not", "above", "reproach"]
+  },
+  {
+    "level": "C1",
+    "correct": "To what extent do you think social media influences public opinion?",
+    "translation": "Até que ponto você acha que as redes sociais influenciam a opinião pública?",
+    "words": ["To", "what", "extent", "do", "you", "think", "social", "media", "influences", "public", "opinion", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What are the implications of this decision for future policy?",
+    "translation": "Quais são as implicações desta decisão para políticas futuras?",
+    "words": ["What", "are", "the", "implications", "of", "this", "decision", "for", "future", "policy", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How would you account for the discrepancy between the two reports?",
+    "translation": "Como você explicaria a discrepância entre os dois relatórios?",
+    "words": ["How", "would", "you", "account", "for", "the", "discrepancy", "between", "the", "two", "reports", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What measures could be taken to mitigate the impact of climate change?",
+    "translation": "Que medidas poderiam ser tomadas para mitigar o impacto das mudanças climáticas?",
+    "words": ["What", "measures", "could", "be", "taken", "to", "mitigate", "the", "impact", "of", "climate", "change", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "Why do you suppose the committee rejected the proposal?",
+    "translation": "Por que você supõe que o comitê rejeitou a proposta?",
+    "words": ["Why", "do", "you", "suppose", "the", "committee", "rejected", "the", "proposal", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How feasible is it to implement these changes within the current timeframe?",
+    "translation": "Quão viável é implementar essas mudanças dentro do prazo atual?",
+    "words": ["How", "feasible", "is", "it", "to", "implement", "these", "changes", "within", "the", "current", "timeframe", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What would be the consequences of failing to address this issue?",
+    "translation": "Quais seriam as consequências de não abordar esta questão?",
+    "words": ["What", "would", "be", "the", "consequences", "of", "failing", "to", "address", "this", "issue", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "To what degree does socioeconomic background affect educational outcomes?",
+    "translation": "Até que ponto a origem socioeconômica afeta os resultados educacionais?",
+    "words": ["To", "what", "degree", "does", "socioeconomic", "background", "affect", "educational", "outcomes", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What factors should be taken into consideration when evaluating this proposal?",
+    "translation": "Que fatores devem ser levados em consideração ao avaliar esta proposta?",
+    "words": ["What", "factors", "should", "be", "taken", "into", "consideration", "when", "evaluating", "this", "proposal", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How does the current situation compare to previous crises?",
+    "translation": "Como a situação atual se compara a crises anteriores?",
+    "words": ["How", "does", "the", "current", "situation", "compare", "to", "previous", "crises", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What are the underlying causes of the current economic instability?",
+    "translation": "Quais são as causas subjacentes da atual instabilidade econômica?",
+    "words": ["What", "are", "the", "underlying", "causes", "of", "the", "current", "economic", "instability", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How would you go about resolving this conflict?",
+    "translation": "Como você resolveria este conflito?",
+    "words": ["How", "would", "you", "go", "about", "resolving", "this", "conflict", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What are the potential drawbacks of adopting this approach?",
+    "translation": "Quais são as possíveis desvantagens de adotar esta abordagem?",
+    "words": ["What", "are", "the", "potential", "drawbacks", "of", "adopting", "this", "approach", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "To what extent has technology changed the way we communicate?",
+    "translation": "Até que ponto a tecnologia mudou a forma como nos comunicamos?",
+    "words": ["To", "what", "extent", "has", "technology", "changed", "the", "way", "we", "communicate", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What distinguishes successful entrepreneurs from those who fail?",
+    "translation": "O que distingue empreendedores de sucesso daqueles que falham?",
+    "words": ["What", "distinguishes", "successful", "entrepreneurs", "from", "those", "who", "fail", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How would you assess the effectiveness of current government policies?",
+    "translation": "Como você avaliaria a eficácia das políticas governamentais atuais?",
+    "words": ["How", "would", "you", "assess", "the", "effectiveness", "of", "current", "government", "policies", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What are the ethical implications of this research?",
+    "translation": "Quais são as implicações éticas desta pesquisa?",
+    "words": ["What", "are", "the", "ethical", "implications", "of", "this", "research", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "Could you elaborate on the main points of your argument?",
+    "translation": "Você poderia elaborar sobre os principais pontos do seu argumento?",
+    "words": ["Could", "you", "elaborate", "on", "the", "main", "points", "of", "your", "argument", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What led you to draw such a conclusion?",
+    "translation": "O que o levou a tirar essa conclusão?",
+    "words": ["What", "led", "you", "to", "draw", "such", "a", "conclusion", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How do you reconcile these two apparently contradictory statements?",
+    "translation": "Como você concilia essas duas declarações aparentemente contraditórias?",
+    "words": ["How", "do", "you", "reconcile", "these", "two", "apparently", "contradictory", "statements", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What evidence supports your hypothesis?",
+    "translation": "Que evidências apoiam sua hipótese?",
+    "words": ["What", "evidence", "supports", "your", "hypothesis", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "In what ways does this study contribute to existing knowledge?",
+    "translation": "De que forma este estudo contribui para o conhecimento existente?",
+    "words": ["In", "what", "ways", "does", "this", "study", "contribute", "to", "existing", "knowledge", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What assumptions underlie your analysis?",
+    "translation": "Quais premissas fundamentam sua análise?",
+    "words": ["What", "assumptions", "underlie", "your", "analysis", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "How might these findings be applied in a practical context?",
+    "translation": "Como essas descobertas poderiam ser aplicadas em um contexto prático?",
+    "words": ["How", "might", "these", "findings", "be", "applied", "in", "a", "practical", "context", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "What are the limitations of this methodology?",
+    "translation": "Quais são as limitações desta metodologia?",
+    "words": ["What", "are", "the", "limitations", "of", "this", "methodology", "?"]
+  },
+  {
+    "level": "C1",
+    "correct": "To what extent can we generalize these results to other populations?",
+    "translation": "Até que ponto podemos generalizar esses resultados para outras populações?",
+    "words": ["To", "what", "extent", "can", "we", "generalize", "these", "results", "to", "other", "populations", "?"]
   },
   {
     "level": "C1",

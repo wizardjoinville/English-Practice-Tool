@@ -2953,13 +2953,14 @@ function startSentenceBuilder() {
 
 function loadNextSentence() {
   const container = document.getElementById('sentenceContainer');
+  const startBtn = document.getElementById('btnStartSentence');
+  
   if (!container) return;
   
   if (sentenceQueue.length === 0) {
     isGameActive = false;
     container.innerHTML = `<div class="empty-message">🎉 PARABÉNS! Você completou todas as ${sentenceTotalCount} frases! 🎉<br><button class="reset-btn" onclick="resetSentenceBuilder()">Jogar Novamente</button></div>`;
-    const startBtn = document.getElementById('btnStartSentence');
-    if (startBtn) startBtn.disabled = false;
+    if (startBtn) startBtn.style.display = 'flex';
     updateSentenceStats();
     return;
   }
@@ -2970,6 +2971,11 @@ function loadNextSentence() {
   shuffleArray(availableWords);
   renderSentenceBuilder();
   updateSentenceStats();
+  
+  // 🔊 Tocar áudio da frase correta em inglês no início da atividade
+  setTimeout(() => {
+    falarTexto(currentSentenceObj.correct, 'en-US');
+  }, 300);
 }
 
 function shuffleArray(arr) {
@@ -2988,6 +2994,8 @@ function renderSentenceBuilder() {
       <div class="translation-area">
         <div class="translation-label">🇧🇷 PORTUGUÊS</div>
         <div class="translation-text">"${escapeHtml(currentSentenceObj.translation)}"</div>
+        <button class="audio-btn" onclick="playEnglishAudio()">🔊 Play again</button>
+        
       </div>
       
       <div class="area-label">📝 PALAVRAS DISPONÍVEIS</div>
@@ -2996,7 +3004,7 @@ function renderSentenceBuilder() {
         ${availableWords.length === 0 ? '<div style="color:#8A2BE2; text-align:center; width:100%;">✨ Todas as palavras usadas! ✨</div>' : ''}
       </div>
       
-      <div class="area-label built-label"> SUA FRASE</div>
+      <div class="area-label built-label">🔨 SUA FRASE</div>
       <div class="sentence-built-area">
         ${builtWords.map((word, i) => `<button class="sentence-built-word" onclick="removeWord(${i})">${escapeHtml(word)} ✕</button>`).join('')}
         ${builtWords.length === 0 ? '<div style="color:#4CAF50; text-align:center; width:100%;">✨ Clique nas palavras acima ✨</div>' : ''}
@@ -3009,6 +3017,19 @@ function renderSentenceBuilder() {
       <div id="sentenceFeedback" class="sentence-feedback"></div>
     </div>
   `;
+}
+
+// Funções para os botões de áudio
+function playEnglishAudio() {
+  if (currentSentenceObj) {
+    falarTexto(currentSentenceObj.correct, 'en-US');
+  }
+}
+
+function playPortugueseAudio() {
+  if (currentSentenceObj) {
+    falarTexto(currentSentenceObj.translation, 'pt-BR');
+  }
 }
 
 function escapeHtml(text) {
@@ -3060,7 +3081,8 @@ function checkSentence() {
       feedbackDiv.style.display = 'block';
     }
     
-    falarTexto(correctSentence, 'en-US');
+    // REMOVA esta linha se não quiser mais áudio no final:
+    // falarTexto(correctSentence, 'en-US');
     
     setTimeout(() => {
       isChecking = false;
