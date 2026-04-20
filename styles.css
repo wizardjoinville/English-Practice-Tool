@@ -2905,3 +2905,248 @@ html, body {
     white-space: normal;
   }
 }
+/* ============================================
+   BOTÃO CHECK SENTENCE MOVIDO PARA CIMA
+   ============================================ */
+
+/* Container do botão Check */
+.check-button-container {
+  margin: 1rem 0 0.5rem 0;
+  text-align: center;
+}
+
+/* Botão Check - versão destacada */
+.btn-check-mobile {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  border: none;
+  border-radius: 60px;
+  padding: 14px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+  max-width: 280px;
+  box-shadow: 0 4px 12px rgba(109, 116, 14, 0.3);
+  letter-spacing: 1px;
+}
+
+.btn-check-mobile:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(76, 175, 80, 0.4);
+}
+
+.btn-check-mobile:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Esconder o botão Check original da barra secundária */
+#sentenceControls .secondary-buttons #btnCheckSentence {
+  display: none;
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .btn-check-mobile {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+  
+  .check-button-container {
+    margin: 0.8rem 0 0.5rem 0;
+  }
+}
+
+/* Para desktop - manter o botão original e esconder o mobile? */
+/* Se quiser manter apenas o botão em cima também no desktop, remova esta regra */
+@media (min-width: 769px) {
+  /* Opcional: manter apenas o botão em cima também no desktop */
+  .btn-check-mobile {
+    max-width: 300px;
+  }
+}
+/* ============================================
+   CORREÇÃO DO TOPO PARA CELULAR
+   ============================================ */
+
+/* Container do select e botão Start */
+#sentenceControls .controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Select de nível ocupando toda largura */
+#sentenceLevelSelect {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #8A2BE2;
+  border-radius: 12px;
+  background: white;
+}
+
+/* Label do select */
+#sentenceControls .control-group label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Botão Start - ocupando toda largura */
+#btnStartSentence {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+#btnStartSentence:active {
+  transform: scale(0.98);
+}
+
+/* Estatísticas - layout em grid para celular */
+.sentence-builder-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+  padding: 0.6rem;
+  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.sentence-builder-stats span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sentence-builder-stats span span {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 8px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* Ajuste para o container principal do Sentence Builder */
+.sentence-builder-wrapper {
+  background: white;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+}
+
+/* Ajustes específicos para mobile */
+@media (max-width: 768px) {
+  /* Estatísticas em grid */
+  .sentence-builder-stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+  
+  .sentence-builder-stats span {
+    font-size: 0.65rem;
+  }
+  
+  .sentence-builder-stats span span {
+    font-size: 1rem;
+    padding: 2px 6px;
+  }
+  
+  /* Botão Start */
+  #btnStartSentence {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+  
+  /* Select */
+  #sentenceLevelSelect {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+  
+  /* Label */
+  #sentenceControls .control-group label {
+    font-size: 0.65rem;
+  }
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 480px) {
+  .sentence-builder-stats span {
+    font-size: 0.6rem;
+  }
+  
+  .sentence-builder-stats span span {
+    font-size: 0.9rem;
+  }
+  
+  .sentence-builder-stats {
+    gap: 0.2rem;
+    padding: 0.4rem;
+  }
+}
+
+/* Desktop - manter layout original */
+@media (min-width: 769px) {
+  .sentence-builder-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+  }
+  
+  .sentence-builder-stats span {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  
+  .sentence-builder-stats span span {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 10px;
+  }
+  
+  #sentenceControls .controls {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  #sentenceLevelSelect {
+    width: auto;
+    min-width: 200px;
+  }
+  
+  #btnStartSentence {
+    width: auto;
+    margin-bottom: 0;
+  }
+}

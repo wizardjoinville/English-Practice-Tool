@@ -2841,7 +2841,7 @@ if (document.readyState === 'loading') {
   initDonation();
 }
 // ============================================
-// SENTENCE BUILDER MODE - COM JSON EXTERNO
+// SENTENCE BUILDER MODE - VERSÃO SIMPLES E ROBUSTA
 // ============================================
 
 let SENTENCE_DATA = [];
@@ -2854,156 +2854,110 @@ let sentenceTotalCount = 0;
 let isChecking = false;
 let isGameActive = false;
 
-// URL do arquivo JSON
 const URL_SENTENCE_DATA = "sentence_builder.json";
 
-// Função para carregar os dados do JSON
+// Carregar dados do JSON
 async function loadSentenceData() {
   try {
     const response = await fetch(URL_SENTENCE_DATA);
-    if (!response.ok) throw new Error(`Failed to load sentence data from ${URL_SENTENCE_DATA}`);
+    if (!response.ok) throw new Error(`Failed to load: ${URL_SENTENCE_DATA}`);
     SENTENCE_DATA = await response.json();
-    console.log(`✅ Sentence Builder: ${SENTENCE_DATA.length} sentences loaded successfully!`);
-    
-    // Inicializar após carregar os dados
+    console.log(`✅ Sentence Builder: ${SENTENCE_DATA.length} frases carregadas!`);
     initSentenceBuilder();
   } catch (error) {
-    console.error("❌ Error loading sentence data:", error);
-    // Dados de fallback caso o JSON não carregue
+    console.error("❌ Erro:", error);
     SENTENCE_DATA = [
-      { level: "A1", correct: "I like apples", words: ["I", "like", "apples"] },
-      { level: "A1", correct: "She is a teacher", words: ["She", "is", "a", "teacher"] },
-      { level: "A1", correct: "They are happy", words: ["They", "are", "happy"] }
+      { level: "A1", correct: "I like apples", translation: "Eu gosto de maçãs", words: ["I", "like", "apples"] },
+      { level: "A1", correct: "She is a teacher", translation: "Ela é uma professora", words: ["She", "is", "a", "teacher"] },
+      { level: "A1", correct: "They are happy", translation: "Eles estão felizes", words: ["They", "are", "happy"] }
     ];
-    console.log("⚠️ Using fallback sentence data");
     initSentenceBuilder();
-    
-    // Mostrar aviso no container
-    const container = document.getElementById('sentenceContainer');
-    if (container) {
-      container.innerHTML = `
-        <div class="empty-message" style="background: #fff3cd; color: #856404;">
-          <p>⚠️ Could not load sentence data from JSON file.</p>
-          <p>Using fallback data. Please check if sentence_builder.json exists.</p>
-        </div>
-      `;
-    }
   }
 }
 
 function initSentenceBuilder() {
   const levelSelect = document.getElementById('sentenceLevelSelect');
   const startBtn = document.getElementById('btnStartSentence');
-  const checkBtn = document.getElementById('btnCheckSentence');
   const resetBtn = document.getElementById('btnResetSentence');
-
-  // Quando o nível mudar, recarregar instantaneamente
-  if (levelSelect) {
-    levelSelect.addEventListener('change', function() {
-      refreshByLevel();
-    });
-  }
   
-  if (startBtn) startBtn.addEventListener('click', startSentenceBuilder);
-  if (checkBtn) checkBtn.addEventListener('click', checkSentence);
-  if (resetBtn) resetBtn.addEventListener('click', resetSentenceBuilder);
-
-  // Carregar frases do nível inicial
+  if (levelSelect) levelSelect.onchange = () => refreshByLevel();
+  if (startBtn) startBtn.onclick = () => startSentenceBuilder();
+  if (resetBtn) resetBtn.onclick = () => resetSentenceBuilder();
+  
   refreshByLevel();
 }
 
 function refreshByLevel() {
-  const level = document.getElementById('sentenceLevelSelect').value;
+  const levelSelect = document.getElementById('sentenceLevelSelect');
+  const startBtn = document.getElementById('btnStartSentence');
+  const container = document.getElementById('sentenceContainer');
   
-  // Filtrar frases pelo nível selecionado
-  const filteredSentences = SENTENCE_DATA.filter(s => s.level === level);
+  if (!levelSelect || !startBtn || !container) return;
   
-  if (filteredSentences.length === 0) {
-    document.getElementById('sentenceContainer').innerHTML = `
-      <div class="empty-message">
-        <p>⚠️ No sentences available for level ${level}.</p>
-        <p>Please select another level.</p>
-      </div>
-    `;
-    document.getElementById('btnStartSentence').disabled = true;
-    document.getElementById('btnCheckSentence').disabled = true;
-    isGameActive = false;
+  const level = levelSelect.value;
+  const filtered = SENTENCE_DATA.filter(s => s.level === level);
+  
+  if (filtered.length === 0) {
+    container.innerHTML = `<div class="empty-message">⚠️ Nenhuma frase para o nível ${level}.</div>`;
+    startBtn.disabled = true;
     return;
   }
   
-  // Resetar todas as variáveis
-  sentenceQueue = [...filteredSentences];
+  sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
   currentSentenceObj = null;
   availableWords = [];
   builtWords = [];
-  isChecking = false;
   isGameActive = false;
+  isChecking = false;
   
-  // Embaralhar a fila para mais variedade
   shuffleArray(sentenceQueue);
-  
-  // Atualizar estatísticas
   updateSentenceStats();
   
-  // Mostrar mensagem de prontidão
-  document.getElementById('sentenceContainer').innerHTML = `
-    <div class="empty-message">
-      <p>✨ ${sentenceQueue.length} sentences available for level ${level} ✨</p>
-      <p>Click "Start Sentence Builder" to begin!</p>
-    </div>
-  `;
-  
-  // Resetar botões
-  document.getElementById('btnStartSentence').disabled = false;
-  document.getElementById('btnCheckSentence').disabled = true;
+  container.innerHTML = `<div class="empty-message">✨ ${sentenceQueue.length} frases disponíveis para nível ${level}<br>Clique em "Start Sentence Builder" para começar ✨</div>`;
+  startBtn.disabled = false;
 }
 
 function startSentenceBuilder() {
-  const level = document.getElementById('sentenceLevelSelect').value;
-  const filteredSentences = SENTENCE_DATA.filter(s => s.level === level);
+  const levelSelect = document.getElementById('sentenceLevelSelect');
+  const startBtn = document.getElementById('btnStartSentence');
   
-  if (filteredSentences.length === 0) {
-    alert('No sentences available for this level. Please select another level.');
+  if (!levelSelect || !startBtn) return;
+  
+  const level = levelSelect.value;
+  const filtered = SENTENCE_DATA.filter(s => s.level === level);
+  
+  if (filtered.length === 0) {
+    alert('Nenhuma frase disponível para este nível.');
     return;
   }
   
-  // Inicializar o jogo com as frases do nível atual
-  sentenceQueue = [...filteredSentences];
+  sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
   isChecking = false;
   isGameActive = true;
   
-  // Embaralhar a fila
   shuffleArray(sentenceQueue);
-  
-  // Carregar primeira frase
   loadNextSentence();
   
-  // Atualizar botões
-  document.getElementById('btnStartSentence').disabled = true;
-  document.getElementById('btnCheckSentence').disabled = false;
+  startBtn.disabled = true;
 }
 
 function loadNextSentence() {
+  const container = document.getElementById('sentenceContainer');
+  if (!container) return;
+  
   if (sentenceQueue.length === 0) {
-    // Fim do jogo!
     isGameActive = false;
-    document.getElementById('sentenceContainer').innerHTML = `
-      <div class="empty-message">
-        <p>🎉🎉🎉 CONGRATULATIONS! 🎉🎉🎉</p>
-        <p>You completed all ${sentenceTotalCount} sentences correctly!</p>
-        <button class="reset-btn" onclick="resetSentenceBuilder()">Play Again</button>
-      </div>
-    `;
-    document.getElementById('btnCheckSentence').disabled = true;
-    document.getElementById('btnStartSentence').disabled = false;
+    container.innerHTML = `<div class="empty-message">🎉 PARABÉNS! Você completou todas as ${sentenceTotalCount} frases! 🎉<br><button class="reset-btn" onclick="resetSentenceBuilder()">Jogar Novamente</button></div>`;
+    const startBtn = document.getElementById('btnStartSentence');
+    if (startBtn) startBtn.disabled = false;
     updateSentenceStats();
     return;
   }
-
+  
   currentSentenceObj = sentenceQueue[0];
   availableWords = [...currentSentenceObj.words];
   builtWords = [];
@@ -3021,6 +2975,8 @@ function shuffleArray(arr) {
 
 function renderSentenceBuilder() {
   const container = document.getElementById('sentenceContainer');
+  if (!container || !currentSentenceObj) return;
+  
   container.innerHTML = `
     <div class="sentence-builder-wrapper">
       <div class="difficulty ${currentSentenceObj.level}">${currentSentenceObj.level}</div>
@@ -3034,18 +2990,18 @@ function renderSentenceBuilder() {
       
       <div class="area-label">📝 PALAVRAS DISPONÍVEIS</div>
       <div class="sentence-words-area">
-        ${availableWords.map((word, i) => `
-          <button class="sentence-word-btn" onclick="selectWord(${i})">${escapeHtml(word)}</button>
-        `).join('')}
+        ${availableWords.map((word, i) => `<button class="sentence-word-btn" onclick="selectWord(${i})">${escapeHtml(word)}</button>`).join('')}
         ${availableWords.length === 0 ? '<div style="color:#8A2BE2; text-align:center; width:100%;">✨ Todas as palavras usadas! ✨</div>' : ''}
       </div>
       
       <div class="area-label built-label">🔨 SUA FRASE</div>
       <div class="sentence-built-area">
-        ${builtWords.map((word, i) => `
-          <button class="sentence-built-word" onclick="removeWord(${i})">${escapeHtml(word)} ✕</button>
-        `).join('')}
+        ${builtWords.map((word, i) => `<button class="sentence-built-word" onclick="removeWord(${i})">${escapeHtml(word)} ✕</button>`).join('')}
         ${builtWords.length === 0 ? '<div style="color:#4CAF50; text-align:center; width:100%;">✨ Clique nas palavras acima ✨</div>' : ''}
+      </div>
+      
+      <div class="check-button-container">
+        <button class="btn-check-mobile" onclick="checkSentence()">✔️ VERIFICAR FRASE</button>
       </div>
       
       <div id="sentenceFeedback" class="sentence-feedback"></div>
@@ -3053,26 +3009,21 @@ function renderSentenceBuilder() {
   `;
 }
 
-// Função para mostrar/esconder a dica
-function toggleTranslationHint() {
-  const hint = document.getElementById('translationHint');
-  if (hint) {
-    if (hint.style.display === 'none') {
-      hint.style.display = 'block';
-      setTimeout(() => {
-        hint.style.display = 'none';
-      }, 3000);
-    } else {
-      hint.style.display = 'none';
-    }
-  }
-}
-
-// Função auxiliar para escapar HTML
 function escapeHtml(text) {
+  if (!text) return '';
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
+}
+
+function toggleTranslationHint() {
+  const hint = document.getElementById('translationHint');
+  if (hint) {
+    hint.style.display = hint.style.display === 'none' ? 'block' : 'none';
+    if (hint.style.display === 'block') {
+      setTimeout(() => { hint.style.display = 'none'; }, 3000);
+    }
+  }
 }
 
 function selectWord(index) {
@@ -3090,59 +3041,61 @@ function removeWord(index) {
 }
 
 function checkSentence() {
-  if (isChecking || !isGameActive) return;
+  if (isChecking || !isGameActive || !currentSentenceObj) return;
   
   const userSentence = builtWords.join(' ');
   const correctSentence = currentSentenceObj.correct;
   const feedbackDiv = document.getElementById('sentenceFeedback');
   
   if (userSentence.toLowerCase() === correctSentence.toLowerCase()) {
-    // RESPOSTA CORRETA
     isChecking = true;
     sentenceCorrectCount++;
     sentenceQueue.shift();
     
-    feedbackDiv.className = 'sentence-feedback correct';
-    feedbackDiv.innerHTML = '✅✅✅ CORRECT! Well done! 🎉🎉🎉';
-    feedbackDiv.style.display = 'block';
+    if (feedbackDiv) {
+      feedbackDiv.className = 'sentence-feedback correct';
+      feedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
+      feedbackDiv.style.display = 'block';
+    }
     
     falarTexto(correctSentence, 'en-US');
     
-    document.getElementById('btnCheckSentence').disabled = true;
-    
     setTimeout(() => {
       isChecking = false;
-      feedbackDiv.style.display = 'none';
+      if (feedbackDiv) feedbackDiv.style.display = 'none';
       loadNextSentence();
-      document.getElementById('btnCheckSentence').disabled = false;
     }, 2000);
   } else {
-    // RESPOSTA INCORRETA
     isChecking = true;
     const wrongSentence = sentenceQueue.shift();
     sentenceQueue.push(wrongSentence);
     
-    feedbackDiv.className = 'sentence-feedback incorrect';
-    feedbackDiv.innerHTML = `❌❌❌ INCORRECT! ❌❌❌<br><br>Correct sentence: <strong>"${escapeHtml(correctSentence)}"</strong><br><br>You will try again! 🔄`;
-    feedbackDiv.style.display = 'block';
-    
-    document.getElementById('btnCheckSentence').disabled = true;
+    if (feedbackDiv) {
+      feedbackDiv.className = 'sentence-feedback incorrect';
+      feedbackDiv.innerHTML = `❌❌❌ INCORRETO! ❌❌❌<br><br>Frase correta: <strong>"${escapeHtml(correctSentence)}"</strong><br><br>Você vai tentar novamente! 🔄`;
+      feedbackDiv.style.display = 'block';
+    }
     
     setTimeout(() => {
       isChecking = false;
-      feedbackDiv.style.display = 'none';
+      if (feedbackDiv) feedbackDiv.style.display = 'none';
       loadNextSentence();
-      document.getElementById('btnCheckSentence').disabled = false;
     }, 4000);
   }
   updateSentenceStats();
 }
 
 function resetSentenceBuilder() {
-  const level = document.getElementById('sentenceLevelSelect').value;
-  const filteredSentences = SENTENCE_DATA.filter(s => s.level === level);
+  const levelSelect = document.getElementById('sentenceLevelSelect');
+  const startBtn = document.getElementById('btnStartSentence');
+  const container = document.getElementById('sentenceContainer');
   
-  sentenceQueue = [...filteredSentences];
+  if (!levelSelect || !startBtn || !container) return;
+  
+  const level = levelSelect.value;
+  const filtered = SENTENCE_DATA.filter(s => s.level === level);
+  
+  sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
   currentSentenceObj = null;
@@ -3154,16 +3107,8 @@ function resetSentenceBuilder() {
   shuffleArray(sentenceQueue);
   updateSentenceStats();
   
-  document.getElementById('sentenceContainer').innerHTML = `
-    <div class="empty-message">
-      <p>🔄 Sentence Builder has been reset! 🔄</p>
-      <p>📚 ${sentenceQueue.length} sentences available for level ${level}</p>
-      <p>✨ Click "Start Sentence Builder" to begin ✨</p>
-    </div>
-  `;
-  
-  document.getElementById('btnStartSentence').disabled = false;
-  document.getElementById('btnCheckSentence').disabled = true;
+  container.innerHTML = `<div class="empty-message">🔄 Reiniciado! ${sentenceQueue.length} frases disponíveis.<br>Clique em "Start Sentence Builder" para começar 🔄</div>`;
+  startBtn.disabled = false;
 }
 
 function updateSentenceStats() {
@@ -3180,7 +3125,8 @@ function updateSentenceStats() {
 window.selectWord = selectWord;
 window.removeWord = removeWord;
 window.resetSentenceBuilder = resetSentenceBuilder;
-
+window.checkSentence = checkSentence;
+window.toggleTranslationHint = toggleTranslationHint;
 
 
 

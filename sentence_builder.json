@@ -1530,6 +1530,889 @@
     "translation": "Eu tenho trabalhado aqui por cinco anos",
     "words": ["I", "have", "been", "working", "here", "for", "five", "years"]
   },
+  
+  {
+    "level": "A2",
+    "correct": "I am going to the store",
+    "translation": "Eu estou indo para a loja",
+    "words": ["I", "am", "going", "to", "the", "store"]
+  },
+  {
+    "level": "A2",
+    "correct": "She usually wakes up early",
+    "translation": "Ela geralmente acorda cedo",
+    "words": ["She", "usually", "wakes", "up", "early"]
+  },
+  {
+    "level": "A2",
+    "correct": "They have finished their homework",
+    "translation": "Eles terminaram a lição de casa",
+    "words": ["They", "have", "finished", "their", "homework"]
+  },
+  {
+    "level": "A2",
+    "correct": "He is cooking dinner right now",
+    "translation": "Ele está cozinhando o jantar agora",
+    "words": ["He", "is", "cooking", "dinner", "right", "now"]
+  },
+  {
+    "level": "A2",
+    "correct": "We are watching a movie tonight",
+    "translation": "Nós vamos assistir um filme hoje à noite",
+    "words": ["We", "are", "watching", "a", "movie", "tonight"]
+  },
+  {
+    "level": "A2",
+    "correct": "She went to the beach yesterday",
+    "translation": "Ela foi à praia ontem",
+    "words": ["She", "went", "to", "the", "beach", "yesterday"]
+  },
+  {
+    "level": "A2",
+    "correct": "I bought a new phone last week",
+    "translation": "Eu comprei um telefone novo na semana passada",
+    "words": ["I", "bought", "a", "new", "phone", "last", "week"]
+  },
+  {
+    "level": "A2",
+    "correct": "They visited their grandparents last month",
+    "translation": "Eles visitaram os avós no mês passado",
+    "words": ["They", "visited", "their", "grandparents", "last", "month"]
+  },
+  {
+    "level": "A2",
+    "correct": "He will arrive tomorrow morning",
+    "translation": "Ele vai chegar amanhã de manhã",
+    "words": ["He", "will", "arrive", "tomorrow", "morning"]
+  },
+  {
+    "level": "A2",
+    "correct": "We are going to travel next year",
+    "translation": "Nós vamos viajar no ano que vem",
+    "words": ["We", "are", "going", "to", "travel", "next", "year"]
+  },
+  {
+    "level": "A2",
+    "correct": "She can speak three languages",
+    "translation": "Ela pode falar três idiomas",
+    "words": ["She", "can", "speak", "three", "languages"]
+  },
+  {
+    "level": "A2",
+    "correct": "I must finish this project today",
+    "translation": "Eu preciso terminar este projeto hoje",
+    "words": ["I", "must", "finish", "this", "project", "today"]
+  },
+  {
+    "level": "A2",
+    "correct": "You should see a doctor",
+    "translation": "Você deveria ver um médico",
+    "words": ["You", "should", "see", "a", "doctor"]
+  },
+  {
+    "level": "A2",
+    "correct": "They might come to the party",
+    "translation": "Eles podem vir à festa",
+    "words": ["They", "might", "come", "to", "the", "party"]
+  },
+  {
+    "level": "A2",
+    "correct": "She is taller than her brother",
+    "translation": "Ela é mais alta que o irmão dela",
+    "words": ["She", "is", "taller", "than", "her", "brother"]
+  },
+  {
+    "level": "A2",
+    "correct": "This book is more interesting than that one",
+    "translation": "Este livro é mais interessante que aquele",
+    "words": ["This", "book", "is", "more", "interesting", "than", "that", "one"]
+  },
+  {
+    "level": "A2",
+    "correct": "He runs as fast as his friend",
+    "translation": "Ele corre tão rápido quanto o amigo dele",
+    "words": ["He", "runs", "as", "fast", "as", "his", "friend"]
+  },
+  {
+    "level": "A2",
+    "correct": "The weather is getting colder",
+    "translation": "O tempo está ficando mais frio",
+    "words": ["The", "weather", "is", "getting", "colder"]
+  },
+  {
+    "level": "A2",
+    "correct": "I am studying English at the moment",
+    "translation": "Eu estou estudando inglês no momento",
+    "words": ["I", "am", "studying", "English", "at", "the", "moment"]
+  },
+  {
+    "level": "A2",
+    "correct": "She has lived in London for two years",
+    "translation": "Ela mora em Londres há dois anos",
+    "words": ["She", "has", "lived", "in", "London", "for", "two", "years"]
+  },
+  {
+    "level": "A2",
+    "correct": "We have known each other since childhood",
+    "translation": "Nós nos conhecemos desde a infância",
+    "words": ["We", "have", "known", "each", "other", "since", "childhood"]
+  },
+  {
+    "level": "A2",
+    "correct": "He was reading a book when I called",
+    "translation": "Ele estava lendo um livro quando eu liguei",
+    "words": ["He", "was", "reading", "a", "book", "when", "I", "called"]
+  },
+  {
+    "level": "A2",
+    "correct": "They were playing soccer at 5 PM",
+    "translation": "Eles estavam jogando futebol às 5 da tarde",
+    "words": ["They", "were", "playing", "soccer", "at", "5", "PM"]
+  },
+  {
+    "level": "A2",
+    "correct": "I used to play the piano when I was young",
+    "translation": "Eu costumava tocar piano quando era jovem",
+    "words": ["I", "used", "to", "play", "the", "piano", "when", "I", "was", "young"]
+  },
+  {
+    "level": "A2",
+    "correct": "She would always help her neighbors",
+    "translation": "Ela sempre ajudava os vizinhos",
+    "words": ["She", "would", "always", "help", "her", "neighbors"]
+  },
+  {
+    "level": "A2",
+    "correct": "If it rains we will stay home",
+    "translation": "Se chover, ficaremos em casa",
+    "words": ["If", "it", "rains", "we", "will", "stay", "home"]
+  },
+  {
+    "level": "A2",
+    "correct": "I would buy a car if I had enough money",
+    "translation": "Eu compraria um carro se tivesse dinheiro suficiente",
+    "words": ["I", "would", "buy", "a", "car", "if", "I", "had", "enough", "money"]
+  },
+  {
+    "level": "A2",
+    "correct": "She asked me where I lived",
+    "translation": "Ela me perguntou onde eu morava",
+    "words": ["She", "asked", "me", "where", "I", "lived"]
+  },
+  {
+    "level": "A2",
+    "correct": "He told me that he was tired",
+    "translation": "Ele me disse que estava cansado",
+    "words": ["He", "told", "me", "that", "he", "was", "tired"]
+  },
+  {
+    "level": "A2",
+    "correct": "I want you to help me with this",
+    "translation": "Eu quero que você me ajude com isto",
+    "words": ["I", "want", "you", "to", "help", "me", "with", "this"]
+  },
+  {
+    "level": "A2",
+    "correct": "She needs to finish her report",
+    "translation": "Ela precisa terminar o relatório dela",
+    "words": ["She", "needs", "to", "finish", "her", "report"]
+  },
+  {
+    "level": "A2",
+    "correct": "The coffee is too hot to drink",
+    "translation": "O café está quente demais para beber",
+    "words": ["The", "coffee", "is", "too", "hot", "to", "drink"]
+  },
+  {
+    "level": "A2",
+    "correct": "She is old enough to drive",
+    "translation": "Ela tem idade suficiente para dirigir",
+    "words": ["She", "is", "old", "enough", "to", "drive"]
+  },
+  {
+    "level": "A2",
+    "correct": "I enjoy reading mystery novels",
+    "translation": "Eu gosto de ler romances de mistério",
+    "words": ["I", "enjoy", "reading", "mystery", "novels"]
+  },
+  {
+    "level": "A2",
+    "correct": "She avoids eating junk food",
+    "translation": "Ela evita comer comida industrializada",
+    "words": ["She", "avoids", "eating", "junk", "food"]
+  },
+  {
+    "level": "A2",
+    "correct": "The movie was really exciting",
+    "translation": "O filme foi realmente emocionante",
+    "words": ["The", "movie", "was", "really", "exciting"]
+  },
+  {
+    "level": "A2",
+    "correct": "She speaks English very well",
+    "translation": "Ela fala inglês muito bem",
+    "words": ["She", "speaks", "English", "very", "well"]
+  },
+  {
+    "level": "A2",
+    "correct": "He works quite hard every day",
+    "translation": "Ele trabalha bastante todos os dias",
+    "words": ["He", "works", "quite", "hard", "every", "day"]
+  },
+  {
+    "level": "A2",
+    "correct": "There is a book on the table",
+    "translation": "Há um livro sobre a mesa",
+    "words": ["There", "is", "a", "book", "on", "the", "table"]
+  },
+  {
+    "level": "A2",
+    "correct": "There are many people in the park",
+    "translation": "Há muitas pessoas no parque",
+    "words": ["There", "are", "many", "people", "in", "the", "park"]
+  },
+  {
+    "level": "A2",
+    "correct": "This is the house that I grew up in",
+    "translation": "Esta é a casa onde eu cresci",
+    "words": ["This", "is", "the", "house", "that", "I", "grew", "up", "in"]
+  },
+  {
+    "level": "A2",
+    "correct": "The man who called is my uncle",
+    "translation": "O homem que ligou é meu tio",
+    "words": ["The", "man", "who", "called", "is", "my", "uncle"]
+  },
+  {
+    "level": "A2",
+    "correct": "I don't know what she wants",
+    "translation": "Eu não sei o que ela quer",
+    "words": ["I", "don't", "know", "what", "she", "wants"]
+  },
+  {
+    "level": "A2",
+    "correct": "Please tell me where the station is",
+    "translation": "Por favor, me diga onde fica a estação",
+    "words": ["Please", "tell", "me", "where", "the", "station", "is"]
+  },
+  {
+    "level": "A2",
+    "correct": "I like both coffee and tea",
+    "translation": "Eu gosto tanto de café quanto de chá",
+    "words": ["I", "like", "both", "coffee", "and", "tea"]
+  },
+  {
+    "level": "A2",
+    "correct": "She can either stay or leave",
+    "translation": "Ela pode ficar ou sair",
+    "words": ["She", "can", "either", "stay", "or", "leave"]
+  },
+  {
+    "level": "A2",
+    "correct": "Neither option seems good",
+    "translation": "Nenhuma das opções parece boa",
+    "words": ["Neither", "option", "seems", "good"]
+  },
+  {
+    "level": "A2",
+    "correct": "First I woke up then I had breakfast",
+    "translation": "Primeiro eu acordei, depois tomei café",
+    "words": ["First", "I", "woke", "up", "then", "I", "had", "breakfast"]
+  },
+  {
+    "level": "A2",
+    "correct": "She is not only smart but also kind",
+    "translation": "Ela não é apenas inteligente, mas também gentil",
+    "words": ["She", "is", "not", "only", "smart", "but", "also", "kind"]
+  },
+  {
+    "level": "A2",
+    "correct": "Because it was raining we stayed inside",
+    "translation": "Porque estava chovendo, ficamos dentro de casa",
+    "words": ["Because", "it", "was", "raining", "we", "stayed", "inside"]
+  },
+  {
+    "level": "A2",
+    "correct": "Although he is rich he is unhappy",
+    "translation": "Embora ele seja rico, ele é infeliz",
+    "words": ["Although", "he", "is", "rich", "he", "is", "unhappy"]
+  },
+  {
+    "level": "A2",
+    "correct": "I was so tired that I fell asleep",
+    "translation": "Eu estava tão cansado que adormeci",
+    "words": ["I", "was", "so", "tired", "that", "I", "fell", "asleep"]
+  },
+  {
+    "level": "A2",
+    "correct": "She is such a nice person",
+    "translation": "Ela é uma pessoa tão legal",
+    "words": ["She", "is", "such", "a", "nice", "person"]
+  },
+  {
+    "level": "A2",
+    "correct": "The more you practice the better you become",
+    "translation": "Quanto mais você pratica, melhor você fica",
+    "words": ["The", "more", "you", "practice", "the", "better", "you", "become"]
+  },
+  {
+    "level": "A2",
+    "correct": "He is as tall as his father",
+    "translation": "Ele é tão alto quanto o pai dele",
+    "words": ["He", "is", "as", "tall", "as", "his", "father"]
+  },
+  {
+    "level": "A2",
+    "correct": "This is the best day of my life",
+    "translation": "Este é o melhor dia da minha vida",
+    "words": ["This", "is", "the", "best", "day", "of", "my", "life"]
+  },
+  {
+    "level": "A2",
+    "correct": "That was the worst movie ever",
+    "translation": "Esse foi o pior filme de todos",
+    "words": ["That", "was", "the", "worst", "movie", "ever"]
+  },
+  {
+    "level": "A2",
+    "correct": "She is the most talented singer I know",
+    "translation": "Ela é a cantora mais talentosa que conheço",
+    "words": ["She", "is", "the", "most", "talented", "singer", "I", "know"]
+  },
+  {
+    "level": "A2",
+    "correct": "He is the least experienced player on the team",
+    "translation": "Ele é o jogador menos experiente do time",
+    "words": ["He", "is", "the", "least", "experienced", "player", "on", "the", "team"]
+  },
+  {
+    "level": "A2",
+    "correct": "I have less time than I thought",
+    "translation": "Eu tenho menos tempo do que pensei",
+    "words": ["I", "have", "less", "time", "than", "I", "thought"]
+  },
+  {
+    "level": "A2",
+    "correct": "There are fewer cars on the road today",
+    "translation": "Há menos carros na estrada hoje",
+    "words": ["There", "are", "fewer", "cars", "on", "the", "road", "today"]
+  },
+  {
+    "level": "A2",
+    "correct": "She gave me some useful advice",
+    "translation": "Ela me deu alguns conselhos úteis",
+    "words": ["She", "gave", "me", "some", "useful", "advice"]
+  },
+  {
+    "level": "A2",
+    "correct": "I need a little help with this",
+    "translation": "Eu preciso de um pouco de ajuda com isto",
+    "words": ["I", "need", "a", "little", "help", "with", "this"]
+  },
+  {
+    "level": "A2",
+    "correct": "Many people attended the concert",
+    "translation": "Muitas pessoas compareceram ao show",
+    "words": ["Many", "people", "attended", "the", "concert"]
+  },
+  {
+    "level": "A2",
+    "correct": "Much has changed since then",
+    "translation": "Muita coisa mudou desde então",
+    "words": ["Much", "has", "changed", "since", "then"]
+  },
+  {
+    "level": "A2",
+    "correct": "A few students passed the exam",
+    "translation": "Alguns alunos passaram no exame",
+    "words": ["A", "few", "students", "passed", "the", "exam"]
+  },
+  {
+    "level": "A2",
+    "correct": "A little patience would help",
+    "translation": "Um pouco de paciência ajudaria",
+    "words": ["A", "little", "patience", "would", "help"]
+  },
+  {
+    "level": "A2",
+    "correct": "Each student received a certificate",
+    "translation": "Cada aluno recebeu um certificado",
+    "words": ["Each", "student", "received", "a", "certificate"]
+  },
+  {
+    "level": "A2",
+    "correct": "Every cloud has a silver lining",
+    "translation": "Toda nuvem tem um lado positivo",
+    "words": ["Every", "cloud", "has", "a", "silver", "lining"]
+  },
+  {
+    "level": "A2",
+    "correct": "She is the one who helped me",
+    "translation": "Ela é a pessoa que me ajudou",
+    "words": ["She", "is", "the", "one", "who", "helped", "me"]
+  },
+  {
+    "level": "A2",
+    "correct": "This is the place where we first met",
+    "translation": "Este é o lugar onde nos conhecemos",
+    "words": ["This", "is", "the", "place", "where", "we", "first", "met"]
+  },
+  {
+    "level": "A2",
+    "correct": "I don't like coffee",
+    "translation": "Eu não gosto de café",
+    "words": ["I", "don't", "like", "coffee"]
+  },
+  {
+    "level": "A2",
+    "correct": "She doesn't eat meat",
+    "translation": "Ela não come carne",
+    "words": ["She", "doesn't", "eat", "meat"]
+  },
+  {
+    "level": "A2",
+    "correct": "They don't have a car",
+    "translation": "Eles não têm um carro",
+    "words": ["They", "don't", "have", "a", "car"]
+  },
+  {
+    "level": "A2",
+    "correct": "He doesn't speak French",
+    "translation": "Ele não fala francês",
+    "words": ["He", "doesn't", "speak", "French"]
+  },
+  {
+    "level": "A2",
+    "correct": "We don't live in the city center",
+    "translation": "Nós não moramos no centro da cidade",
+    "words": ["We", "don't", "live", "in", "the", "city", "center"]
+  },
+  {
+    "level": "A2",
+    "correct": "It doesn't matter anymore",
+    "translation": "Isso não importa mais",
+    "words": ["It", "doesn't", "matter", "anymore"]
+  },
+  {
+    "level": "A2",
+    "correct": "I am not feeling well today",
+    "translation": "Eu não estou me sentindo bem hoje",
+    "words": ["I", "am", "not", "feeling", "well", "today"]
+  },
+  {
+    "level": "A2",
+    "correct": "She isn't coming to the party",
+    "translation": "Ela não está vindo para a festa",
+    "words": ["She", "isn't", "coming", "to", "the", "party"]
+  },
+  {
+    "level": "A2",
+    "correct": "They aren't ready yet",
+    "translation": "Eles não estão prontos ainda",
+    "words": ["They", "aren't", "ready", "yet"]
+  },
+  {
+    "level": "A2",
+    "correct": "He isn't working today",
+    "translation": "Ele não está trabalhando hoje",
+    "words": ["He", "isn't", "working", "today"]
+  },
+  {
+    "level": "A2",
+    "correct": "We aren't going anywhere tonight",
+    "translation": "Nós não vamos a lugar nenhum hoje à noite",
+    "words": ["We", "aren't", "going", "anywhere", "tonight"]
+  },
+  {
+    "level": "A2",
+    "correct": "I haven't seen that movie",
+    "translation": "Eu não assisti aquele filme",
+    "words": ["I", "haven't", "seen", "that", "movie"]
+  },
+  {
+    "level": "A2",
+    "correct": "She hasn't finished her homework",
+    "translation": "Ela não terminou a lição de casa",
+    "words": ["She", "hasn't", "finished", "her", "homework"]
+  },
+  {
+    "level": "A2",
+    "correct": "They haven't arrived yet",
+    "translation": "Eles ainda não chegaram",
+    "words": ["They", "haven't", "arrived", "yet"]
+  },
+  {
+    "level": "A2",
+    "correct": "He hasn't called me back",
+    "translation": "Ele não me ligou de volta",
+    "words": ["He", "hasn't", "called", "me", "back"]
+  },
+  {
+    "level": "A2",
+    "correct": "We haven't decided what to do",
+    "translation": "Nós não decidimos o que fazer",
+    "words": ["We", "haven't", "decided", "what", "to", "do"]
+  },
+  {
+    "level": "A2",
+    "correct": "I wasn't born in this country",
+    "translation": "Eu não nasci neste país",
+    "words": ["I", "wasn't", "born", "in", "this", "country"]
+  },
+  {
+    "level": "A2",
+    "correct": "She wasn't at home yesterday",
+    "translation": "Ela não estava em casa ontem",
+    "words": ["She", "wasn't", "at", "home", "yesterday"]
+  },
+  {
+    "level": "A2",
+    "correct": "They weren't happy with the result",
+    "translation": "Eles não ficaram felizes com o resultado",
+    "words": ["They", "weren't", "happy", "with", "the", "result"]
+  },
+  {
+    "level": "A2",
+    "correct": "He wasn't listening to the teacher",
+    "translation": "Ele não estava prestando atenção no professor",
+    "words": ["He", "wasn't", "listening", "to", "the", "teacher"]
+  },
+  {
+    "level": "A2",
+    "correct": "We weren't expecting you so soon",
+    "translation": "Nós não estávamos esperando você tão cedo",
+    "words": ["We", "weren't", "expecting", "you", "so", "soon"]
+  },
+  {
+    "level": "A2",
+    "correct": "I won't be able to attend the meeting",
+    "translation": "Eu não poderei comparecer à reunião",
+    "words": ["I", "won't", "be", "able", "to", "attend", "the", "meeting"]
+  },
+  {
+    "level": "A2",
+    "correct": "She won't like this idea",
+    "translation": "Ela não vai gostar desta ideia",
+    "words": ["She", "won't", "like", "this", "idea"]
+  },
+  {
+    "level": "A2",
+    "correct": "They won't arrive on time",
+    "translation": "Eles não vão chegar a tempo",
+    "words": ["They", "won't", "arrive", "on", "time"]
+  },
+  {
+    "level": "A2",
+    "correct": "He won't agree with us",
+    "translation": "Ele não vai concordar conosco",
+    "words": ["He", "won't", "agree", "with", "us"]
+  },
+  {
+    "level": "A2",
+    "correct": "We won't forget this day",
+    "translation": "Nós não vamos esquecer este dia",
+    "words": ["We", "won't", "forget", "this", "day"]
+  },
+  {
+    "level": "A2",
+    "correct": "I don't want to go out tonight",
+    "translation": "Eu não quero sair hoje à noite",
+    "words": ["I", "don't", "want", "to", "go", "out", "tonight"]
+  },
+  {
+    "level": "A2",
+    "correct": "She doesn't need any help",
+    "translation": "Ela não precisa de ajuda",
+    "words": ["She", "doesn't", "need", "any", "help"]
+  },
+  {
+    "level": "A2",
+    "correct": "They don't believe in ghosts",
+    "translation": "Eles não acreditam em fantasmas",
+    "words": ["They", "don't", "believe", "in", "ghosts"]
+  },
+  {
+    "level": "A2",
+    "correct": "He doesn't remember my name",
+    "translation": "Ele não lembra do meu nome",
+    "words": ["He", "doesn't", "remember", "my", "name"]
+  },
+  {
+    "level": "A2",
+    "correct": "We don't agree with your decision",
+    "translation": "Nós não concordamos com sua decisão",
+    "words": ["We", "don't", "agree", "with", "your", "decision"]
+  },
+  {
+    "level": "A2",
+    "correct": "I can't swim very well",
+    "translation": "Eu não sei nadar muito bem",
+    "words": ["I", "can't", "swim", "very", "well"]
+  },
+  {
+    "level": "A2",
+    "correct": "She can't drive a car",
+    "translation": "Ela não sabe dirigir um carro",
+    "words": ["She", "can't", "drive", "a", "car"]
+  },
+  {
+    "level": "A2",
+    "correct": "They can't come to the party",
+    "translation": "Eles não podem vir à festa",
+    "words": ["They", "can't", "come", "to", "the", "party"]
+  },
+  {
+    "level": "A2",
+    "correct": "He can't speak Chinese",
+    "translation": "Ele não sabe falar chinês",
+    "words": ["He", "can't", "speak", "Chinese"]
+  },
+  {
+    "level": "A2",
+    "correct": "We can't stay here any longer",
+    "translation": "Nós não podemos ficar aqui por mais tempo",
+    "words": ["We", "can't", "stay", "here", "any", "longer"]
+  },
+  {
+    "level": "A2",
+    "correct": "Do you like coffee?",
+    "translation": "Você gosta de café?",
+    "words": ["Do", "you", "like", "coffee", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Does she speak English?",
+    "translation": "Ela fala inglês?",
+    "words": ["Does", "she", "speak", "English", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Do they have children?",
+    "translation": "Eles têm filhos?",
+    "words": ["Do", "they", "have", "children", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Does he work here?",
+    "translation": "Ele trabalha aqui?",
+    "words": ["Does", "he", "work", "here", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Do we need tickets?",
+    "translation": "Nós precisamos de ingressos?",
+    "words": ["Do", "we", "need", "tickets", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Are you ready?",
+    "translation": "Você está pronto?",
+    "words": ["Are", "you", "ready", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Is she at home?",
+    "translation": "Ela está em casa?",
+    "words": ["Is", "she", "at", "home", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Are they coming?",
+    "translation": "Eles estão vindo?",
+    "words": ["Are", "they", "coming", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Is he your brother?",
+    "translation": "Ele é seu irmão?",
+    "words": ["Is", "he", "your", "brother", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Are we late?",
+    "translation": "Nós estamos atrasados?",
+    "words": ["Are", "we", "late", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Have you seen this movie?",
+    "translation": "Você já assistiu a este filme?",
+    "words": ["Have", "you", "seen", "this", "movie", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Has she finished her work?",
+    "translation": "Ela terminou o trabalho dela?",
+    "words": ["Has", "she", "finished", "her", "work", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Have they arrived yet?",
+    "translation": "Eles já chegaram?",
+    "words": ["Have", "they", "arrived", "yet", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Has he called you?",
+    "translation": "Ele te ligou?",
+    "words": ["Has", "he", "called", "you", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Have we met before?",
+    "translation": "Nós já nos conhecemos antes?",
+    "words": ["Have", "we", "met", "before", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Can you help me?",
+    "translation": "Você pode me ajudar?",
+    "words": ["Can", "you", "help", "me", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Can she drive?",
+    "translation": "Ela sabe dirigir?",
+    "words": ["Can", "she", "drive", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Can they come with us?",
+    "translation": "Eles podem vir conosco?",
+    "words": ["Can", "they", "come", "with", "us", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Can he speak French?",
+    "translation": "Ele sabe falar francês?",
+    "words": ["Can", "he", "speak", "French", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Can we stay here?",
+    "translation": "Nós podemos ficar aqui?",
+    "words": ["Can", "we", "stay", "here", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Will you be there?",
+    "translation": "Você estará lá?",
+    "words": ["Will", "you", "be", "there", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Will she come to the party?",
+    "translation": "Ela virá à festa?",
+    "words": ["Will", "she", "come", "to", "the", "party", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Will they arrive on time?",
+    "translation": "Eles chegarão a tempo?",
+    "words": ["Will", "they", "arrive", "on", "time", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Will he agree with us?",
+    "translation": "Ele concordará conosco?",
+    "words": ["Will", "he", "agree", "with", "us", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Will we finish on time?",
+    "translation": "Nós terminaremos a tempo?",
+    "words": ["Will", "we", "finish", "on", "time", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Do you want to go out tonight?",
+    "translation": "Você quer sair hoje à noite?",
+    "words": ["Do", "you", "want", "to", "go", "out", "tonight", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Does she need any help?",
+    "translation": "Ela precisa de ajuda?",
+    "words": ["Does", "she", "need", "any", "help", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Do they believe in ghosts?",
+    "translation": "Eles acreditam em fantasmas?",
+    "words": ["Do", "they", "believe", "in", "ghosts", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Does he remember my name?",
+    "translation": "Ele lembra do meu nome?",
+    "words": ["Does", "he", "remember", "my", "name", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Do we agree with the plan?",
+    "translation": "Nós concordamos com o plano?",
+    "words": ["Do", "we", "agree", "with", "the", "plan", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "What is your name?",
+    "translation": "Qual é o seu nome?",
+    "words": ["What", "is", "your", "name", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Where do you live?",
+    "translation": "Onde você mora?",
+    "words": ["Where", "do", "you", "live", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "When does the movie start?",
+    "translation": "Quando o filme começa?",
+    "words": ["When", "does", "the", "movie", "start", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Why are you late?",
+    "translation": "Por que você está atrasado?",
+    "words": ["Why", "are", "you", "late", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "How are you today?",
+    "translation": "Como você está hoje?",
+    "words": ["How", "are", "you", "today", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "How much does it cost?",
+    "translation": "Quanto custa?",
+    "words": ["How", "much", "does", "it", "cost", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "How many people are coming?",
+    "translation": "Quantas pessoas estão vindo?",
+    "words": ["How", "many", "people", "are", "coming", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Which color do you prefer?",
+    "translation": "Qual cor você prefere?",
+    "words": ["Which", "color", "do", "you", "prefer", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Who is that woman?",
+    "translation": "Quem é aquela mulher?",
+    "words": ["Who", "is", "that", "woman", "?"]
+  },
+  {
+    "level": "A2",
+    "correct": "Whose book is this?",
+    "translation": "De quem é este livro?",
+    "words": ["Whose", "book", "is", "this", "?"]
+  },
   {
     "level": "B1",
     "correct": "They were watching TV when I arrived",
