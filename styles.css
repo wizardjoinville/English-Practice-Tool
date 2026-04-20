@@ -2165,15 +2165,15 @@ label[for="grammarModeSelect"] {
   height: 42px;
 }
 
-/* Estatísticas - em linha horizontal */
+/* Estatísticas - versão compacta */
 .sentence-builder-stats {
   display: flex;
   justify-content: space-between;
   gap: 0.3rem;
-  margin: 0.6rem 0;
-  padding: 0.5rem 0.8rem;
+  margin: 0.3rem 0;
+  padding: 0.2rem 0.5rem;
   background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  border-radius: 40px;
+  border-radius: 30px;
   text-align: center;
 }
 
@@ -2181,21 +2181,21 @@ label[for="grammarModeSelect"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
-  font-size: 0.75rem;
+  gap: 0.2rem;
+  font-size: 0.6rem;
   font-weight: 600;
   color: white;
   flex: 1;
 }
 
 .sentence-builder-stats span span {
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 800;
   background: rgba(255, 255, 255, 0.25);
-  padding: 2px 8px;
-  border-radius: 30px;
+  padding: 1px 5px;
+  border-radius: 20px;
   display: inline-block;
-  min-width: 35px;
+  min-width: 25px;
 }
 
 /* Caixa principal do conteúdo */
@@ -2210,22 +2210,60 @@ label[for="grammarModeSelect"] {
   overflow-x: hidden;
 }
 
-/* Área da tradução */
+/* Área da tradução - mais compacta */
 .translation-area {
   background: linear-gradient(135deg, #1a237e, #283593);
   border-radius: 12px;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
   text-align: center;
 }
 
 .translation-label {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   font-weight: 700;
   color: #FFD700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: 3px;
+}
+
+.translation-text {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: white;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  word-break: break-word;
+}
+
+/* Labels das áreas - mais compactas */
+.area-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #8A2BE2;
   margin-bottom: 5px;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.built-label {
+  color: #4CAF50;
+  margin-top: 0.5rem;
+}
+
+/* Caixa principal - menos padding */
+.sentence-builder-wrapper {
+  background: white;
+  border-radius: 16px;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .translation-text {
@@ -2511,7 +2549,7 @@ label[for="grammarModeSelect"] {
   .sentence-builder-stats {
     justify-content: center;
     gap: 2rem;
-    padding: 0.75rem 1.5rem;
+    
   }
   
   .sentence-builder-stats span {
