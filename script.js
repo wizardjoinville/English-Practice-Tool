@@ -3025,25 +3025,14 @@ function renderSentenceBuilder() {
     <div class="sentence-builder-wrapper">
       <div class="difficulty ${currentSentenceObj.level}">${currentSentenceObj.level}</div>
       
-      <!-- Área da tradução em português -->
       <div class="translation-area">
-        <div class="translation-label">
-          <span>🇧🇷</span> PORTUGUÊS
-        </div>
-        <div class="translation-text">
-          "${escapeHtml(currentSentenceObj.translation)}"
-        </div>
-        <button class="translation-hint-btn" onclick="toggleTranslationHint()">
-          🔍 Dica
-        </button>
-        <div id="translationHint" class="translation-hint" style="display: none;">
-          💡 Monte a frase em INGLÊS!
-        </div>
+        <div class="translation-label">🇧🇷 PORTUGUÊS</div>
+        <div class="translation-text">"${escapeHtml(currentSentenceObj.translation)}"</div>
+        <button class="translation-hint-btn" onclick="toggleTranslationHint()">🔍 Dica</button>
+        <div id="translationHint" class="translation-hint" style="display: none;">💡 Monte a frase em INGLÊS!</div>
       </div>
       
-      <div class="area-label">
-        <span>📝</span> PALAVRAS DISPONÍVEIS
-      </div>
+      <div class="area-label">📝 PALAVRAS DISPONÍVEIS</div>
       <div class="sentence-words-area">
         ${availableWords.map((word, i) => `
           <button class="sentence-word-btn" onclick="selectWord(${i})">${escapeHtml(word)}</button>
@@ -3051,9 +3040,7 @@ function renderSentenceBuilder() {
         ${availableWords.length === 0 ? '<div style="color:#8A2BE2; text-align:center; width:100%;">✨ Todas as palavras usadas! ✨</div>' : ''}
       </div>
       
-      <div class="area-label built-label">
-        <span>🔨</span> SUA FRASE
-      </div>
+      <div class="area-label built-label">🔨 SUA FRASE</div>
       <div class="sentence-built-area">
         ${builtWords.map((word, i) => `
           <button class="sentence-built-word" onclick="removeWord(${i})">${escapeHtml(word)} ✕</button>
