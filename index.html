@@ -293,45 +293,42 @@
     </div>
   </div>
   <div id="sentenceControls" style="display: none;">
-  <div class="controls">
-    <div class="control-group">
-      <label for="sentenceLevelSelect">Level</label>
-      <select id="sentenceLevelSelect">
-        <option value="A1">A1 (Beginner)</option>
-        <option value="A2">A2 (Elementary)</option>
-        <option value="B1">B1 (Intermediate)</option>
-        <option value="B2">B2 (Upper Intermediate)</option>
-        <option value="C1">C1 (Advanced)</option>
-        <option value="C2">C2 (Proficiency)</option>
-      </select>
+    <div class="controls">
+      <div class="control-group">
+        <label for="sentenceLevelSelect">NÍVEL</label>
+        <select id="sentenceLevelSelect">
+          <option value="A1">A1 (Iniciante)</option>
+          <option value="A2">A2 (Básico)</option>
+          <option value="B1">B1 (Intermediário)</option>
+          <option value="B2">B2 (Intermediário Superior)</option>
+          <option value="C1">C1 (Avançado)</option>
+          <option value="C2">C2 (Proficiência)</option>
+        </select>
+      </div>
+    </div>
+
+    <button id="btnStartSentence" class="main-action">
+      <span>🧩</span> INICIAR
+    </button>
+
+    <div class="sentence-builder-stats" id="sentenceStats">
+      <span>✅ <span id="sentenceCorrect">0</span></span>
+      <span>📝 <span id="sentenceRemaining">0</span></span>
+      <span>📊 <span id="sentenceTotal">0</span></span>
+    </div>
+
+    <div class="sentence-container" id="sentenceContainer">
+      <div class="empty-message">
+        Selecione um nível e clique em "INICIAR"
+      </div>
+    </div>
+
+    <div class="secondary-buttons">
+      <button id="btnResetSentence" class="secondary-button">
+        <span>🔄</span> Reset
+      </button>
     </div>
   </div>
-
-  <button id="btnStartSentence" class="main-action">
-    <span>🧩</span> Start Sentence Builder
-  </button>
-
-  <div class="sentence-builder-stats" id="sentenceStats">
-    <span>✅ Correct: <span id="sentenceCorrect">0</span></span>
-    <span>📝 Remaining: <span id="sentenceRemaining">0</span></span>
-    <span>📊 Total: <span id="sentenceTotal">0</span></span>
-  </div>
-
-  <div class="sentence-container" id="sentenceContainer">
-    <div class="empty-message">
-      Select a level and start the exercise.
-    </div>
-  </div>
-
-  <div class="secondary-buttons">
-    <button id="btnCheckSentence" class="secondary-button" disabled>
-      <span>✔️</span> Check Sentence
-    </button>
-    <button id="btnResetSentence" class="secondary-button">
-      <span>🔄</span> Reset
-    </button>
-  </div>
-</div>
   <!-- ============================================
        BOTÃO E MODAL DE DOAÇÃO PIX
        ============================================ -->
