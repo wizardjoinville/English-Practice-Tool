@@ -239,6 +239,227 @@ function inicializarEventListeners() {
     document.getElementById('timeUpNotification').style.display = 'none';
   });
 }
+// ============================================
+// FUNÇÃO PROXIMO EXERCICIO - ADICIONAR ANTES DE SER CHAMADA
+// ============================================
+function proximoExercicio() {
+  // Limpar feedback anterior
+  const feedbackElement = document.getElementById('exerciseFeedback');
+  if (feedbackElement) {
+    feedbackElement.innerHTML = '';
+    feedbackElement.className = 'exercise-feedback';
+    feedbackElement.style.display = 'none';
+  }
+  
+  // Limpar resposta correta
+  const correctAnswerElement = document.getElementById('exerciseCorrectAnswer');
+  if (correctAnswerElement) {
+    correctAnswerElement.style.display = 'none';
+  }
+  
+  // Verificar se ainda há exercícios
+  if (grammarActiveExercises.length === 0) {
+    const exerciseContainer = document.getElementById('exerciseContainer');
+    if (exerciseContainer) {
+      exerciseContainer.innerHTML = `
+        <div class="empty-message">
+          <p>🎉 Congratulations! You've completed all exercises! 🎉</p>
+          <p>Final score: ${grammarPoints} correct, ${grammarErrors} errors</p>
+          <button class="reset-btn" onclick="resetarExercicios()">Practice Again</button>
+        </div>
+      `;
+    }
+    const nextBtn = document.getElementById('btnNextExercise');
+    if (nextBtn) nextBtn.disabled = true;
+    const checkBtn = document.getElementById('btnCheckExercise');
+    if (checkBtn) checkBtn.disabled = true;
+    return;
+  }
+  
+  // Garantir que o índice esteja dentro dos limites
+  if (currentExerciseIndex >= grammarActiveExercises.length) {
+    currentExerciseIndex = 0;
+  }
+  
+  // Recriar o exercício atual (que pode ser o mesmo ou um novo)
+  iniciarExercicios(grammarActiveExercises);
+  
+  // Reabilitar o botão de verificação
+  const checkBtn = document.getElementById('btnCheckExercise');
+  if (checkBtn) checkBtn.disabled = false;
+  
+  // Habilitar campo de resposta se existir
+  const userAnswerElement = document.getElementById('exerciseAnswer');
+  if (userAnswerElement) {
+    userAnswerElement.disabled = false;
+    userAnswerElement.value = '';
+    userAnswerElement.focus();
+  }
+  
+  // Reabilitar botão inline se existir
+  const inlineCheckBtn = document.getElementById('inlineCheckBtn');
+  if (inlineCheckBtn) {
+    inlineCheckBtn.disabled = false;
+  }
+  
+  // Reabilitar inputs de lacunas se existirem
+  const gapInputs = document.querySelectorAll('.gap-input');
+  gapInputs.forEach(input => {
+    input.disabled = false;
+    input.style.borderColor = '#8A2BE2';
+    input.style.backgroundColor = 'white';
+    input.value = '';
+  });
+}
+
+// ============================================
+// FUNÇÃO CRIAR EXERCICIO COM LACUNAS (se não existir)
+// ============================================
+function criarExercicioComLacunas(exercise, modeDisplay = '') {
+  // Dividir a pergunta nas lacunas
+  const parts = exercise.question.split('_____');
+  const numGaps = parts.length - 1;
+  
+  // Obter respostas
+  let answers;
+  if (Array.isArray(exercise.answer)) {
+    answers = exercise.answer;
+  } else {
+    answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
+  }
+  
+  // Criar HTML
+  let questionHTML = `
+    ${modeDisplay}
+    <div class="exercise-title">${exercise.instruction || 'Complete the sentence'}</div>
+    <div class="exercise-content" style="font-size: 1rem; line-height: 1.6;">
+  `;
+  
+  parts.forEach((part, index) => {
+    questionHTML += `<span>${part}</span>`;
+    if (index < numGaps) {
+      const answerValue = answers[index] ? answers[index].trim() : '';
+      questionHTML += `
+        <input type="text" class="gap-input" data-index="${index}" 
+               data-answer="${answerValue.replace(/"/g, '&quot;')}"
+               style="min-width: 150px; width: 150px; padding: 8px 12px; 
+                      margin: 0 5px; border: 2px solid #8A2BE2; border-radius: 6px;
+                      font-size: 0.95rem;"
+               placeholder="________">
+      `;
+    }
+  });
+  
+  questionHTML += `</div>`;
+  
+  const exerciseContainer = document.getElementById('exerciseContainer');
+  if (!exerciseContainer) return;
+  
+  exerciseContainer.innerHTML = questionHTML + `
+    <div class="exercise-buttons" style="margin-top: 20px; text-align: center;">
+      <button class="check-btn" id="inlineCheckBtn" style="padding: 10px 20px;">
+        ✓ Verificar Resposta
+      </button>
+    </div>
+    <div class="exercise-feedback" id="exerciseFeedback"></div>
+    <div class="exercise-answer" id="exerciseCorrectAnswer" style="display: none;">
+      <strong>Resposta correta:</strong> <span>${answers.join(', ')}</span>
+    </div>
+  `;
+  
+  // Adicionar event listeners
+  const gapInputs = document.querySelectorAll('.gap-input');
+  gapInputs.forEach((input, idx) => {
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        verificarExercicioComLacunas(exercise.answer);
+      }
+      if (e.key === 'Tab' && idx < gapInputs.length - 1) {
+        e.preventDefault();
+        gapInputs[idx + 1].focus();
+      }
+    });
+  });
+  
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) {
+    inlineBtn.onclick = () => verificarExercicioComLacunas(exercise.answer);
+  }
+  
+  if (gapInputs.length > 0) {
+    setTimeout(() => gapInputs[0].focus(), 100);
+  }
+}
+
+// ============================================
+// FUNÇÃO VERIFICAR EXERCICIO COM LACUNAS (versão corrigida)
+// ============================================
+function verificarExercicioComLacunas(correctAnswer) {
+  const gapInputs = document.querySelectorAll('.gap-input');
+  if (gapInputs.length === 0) return;
+  
+  const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
+  let allCorrect = true;
+  
+  gapInputs.forEach((input, index) => {
+    const userAnswer = input.value.trim().toLowerCase();
+    const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
+    const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
+    
+    if (isCorrect) {
+      input.style.borderColor = '#4CAF50';
+      input.style.backgroundColor = 'rgba(76,175,80,0.1)';
+    } else {
+      input.style.borderColor = '#F44336';
+      input.style.backgroundColor = 'rgba(244,67,54,0.1)';
+      allCorrect = false;
+    }
+    input.disabled = true;
+  });
+  
+  const feedbackElement = document.getElementById('exerciseFeedback');
+  const correctEl = document.getElementById('exerciseCorrectAnswer');
+  const inlineBtn = document.getElementById('inlineCheckBtn');
+  if (inlineBtn) inlineBtn.disabled = true;
+  
+  if (allCorrect) {
+    grammarPoints++;
+    grammarActiveExercises.splice(currentExerciseIndex, 1);
+    
+    if (correctEl) correctEl.style.display = 'none';
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
+      feedbackElement.className = 'exercise-feedback correct';
+      feedbackElement.style.display = 'block';
+    }
+    
+    atualizarPontuacaoGrammar();
+    
+    setTimeout(() => {
+      proximoExercicio();
+    }, 1500);
+  } else {
+    grammarErrors++;
+    const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
+    grammarActiveExercises.push(errado);
+    
+    if (correctEl) {
+      correctEl.style.display = 'block';
+    }
+    if (feedbackElement) {
+      feedbackElement.innerHTML = '<span style="color:#F44336;font-weight:600;">❌ Incorreto. Tente novamente mais tarde.</span>';
+      feedbackElement.className = 'exercise-feedback incorrect';
+      feedbackElement.style.display = 'block';
+    }
+    
+    atualizarPontuacaoGrammar();
+    
+    setTimeout(() => {
+      proximoExercicio();
+    }, 3000);
+  }
+}
 
 function preencherSelects() {
   // Preencher select de gramática
@@ -299,22 +520,17 @@ function atualizarBotoes() {
 }
 
 function alternarModo(modo) {
-  currentMode = modo;
-
-  // Esconder todos os painéis de controle
   document.getElementById('questionsControls').style.display = 'none';
   document.getElementById('vocabularyControls').style.display = 'none';
   document.getElementById('quizControls').style.display = 'none';
   document.getElementById('grammarControls').style.display = 'none';
   document.getElementById('phrasalControls').style.display = 'none';
-
-  // Mostrar o painel correspondente ao modo selecionado
+  document.getElementById('sentenceControls').style.display = 'none';
+  
   document.getElementById(`${modo}Controls`).style.display = 'block';
-
-  // Atualizar botões
+  currentMode = modo;
   atualizarBotoes();
-
-  // Resetar timer se estiver ativo
+  
   if (timerInterval) {
     clearInterval(timerInterval);
     timerInterval = null;
@@ -2624,8 +2840,365 @@ if (document.readyState === 'loading') {
 } else {
   initDonation();
 }
+// ============================================
+// SENTENCE BUILDER MODE - COM JSON EXTERNO
+// ============================================
+
+let SENTENCE_DATA = [];
+let sentenceQueue = [];
+let currentSentenceObj = null;
+let availableWords = [];
+let builtWords = [];
+let sentenceCorrectCount = 0;
+let sentenceTotalCount = 0;
+let isChecking = false;
+let isGameActive = false;
+
+// URL do arquivo JSON
+const URL_SENTENCE_DATA = "sentence_builder.json";
+
+// Função para carregar os dados do JSON
+async function loadSentenceData() {
+  try {
+    const response = await fetch(URL_SENTENCE_DATA);
+    if (!response.ok) throw new Error(`Failed to load sentence data from ${URL_SENTENCE_DATA}`);
+    SENTENCE_DATA = await response.json();
+    console.log(`✅ Sentence Builder: ${SENTENCE_DATA.length} sentences loaded successfully!`);
+    
+    // Inicializar após carregar os dados
+    initSentenceBuilder();
+  } catch (error) {
+    console.error("❌ Error loading sentence data:", error);
+    // Dados de fallback caso o JSON não carregue
+    SENTENCE_DATA = [
+      { level: "A1", correct: "I like apples", words: ["I", "like", "apples"] },
+      { level: "A1", correct: "She is a teacher", words: ["She", "is", "a", "teacher"] },
+      { level: "A1", correct: "They are happy", words: ["They", "are", "happy"] }
+    ];
+    console.log("⚠️ Using fallback sentence data");
+    initSentenceBuilder();
+    
+    // Mostrar aviso no container
+    const container = document.getElementById('sentenceContainer');
+    if (container) {
+      container.innerHTML = `
+        <div class="empty-message" style="background: #fff3cd; color: #856404;">
+          <p>⚠️ Could not load sentence data from JSON file.</p>
+          <p>Using fallback data. Please check if sentence_builder.json exists.</p>
+        </div>
+      `;
+    }
+  }
+}
+
+function initSentenceBuilder() {
+  const levelSelect = document.getElementById('sentenceLevelSelect');
+  const startBtn = document.getElementById('btnStartSentence');
+  const checkBtn = document.getElementById('btnCheckSentence');
+  const resetBtn = document.getElementById('btnResetSentence');
+
+  // Quando o nível mudar, recarregar instantaneamente
+  if (levelSelect) {
+    levelSelect.addEventListener('change', function() {
+      refreshByLevel();
+    });
+  }
+  
+  if (startBtn) startBtn.addEventListener('click', startSentenceBuilder);
+  if (checkBtn) checkBtn.addEventListener('click', checkSentence);
+  if (resetBtn) resetBtn.addEventListener('click', resetSentenceBuilder);
+
+  // Carregar frases do nível inicial
+  refreshByLevel();
+}
+
+function refreshByLevel() {
+  const level = document.getElementById('sentenceLevelSelect').value;
+  
+  // Filtrar frases pelo nível selecionado
+  const filteredSentences = SENTENCE_DATA.filter(s => s.level === level);
+  
+  if (filteredSentences.length === 0) {
+    document.getElementById('sentenceContainer').innerHTML = `
+      <div class="empty-message">
+        <p>⚠️ No sentences available for level ${level}.</p>
+        <p>Please select another level.</p>
+      </div>
+    `;
+    document.getElementById('btnStartSentence').disabled = true;
+    document.getElementById('btnCheckSentence').disabled = true;
+    isGameActive = false;
+    return;
+  }
+  
+  // Resetar todas as variáveis
+  sentenceQueue = [...filteredSentences];
+  sentenceCorrectCount = 0;
+  sentenceTotalCount = sentenceQueue.length;
+  currentSentenceObj = null;
+  availableWords = [];
+  builtWords = [];
+  isChecking = false;
+  isGameActive = false;
+  
+  // Embaralhar a fila para mais variedade
+  shuffleArray(sentenceQueue);
+  
+  // Atualizar estatísticas
+  updateSentenceStats();
+  
+  // Mostrar mensagem de prontidão
+  document.getElementById('sentenceContainer').innerHTML = `
+    <div class="empty-message">
+      <p>✨ ${sentenceQueue.length} sentences available for level ${level} ✨</p>
+      <p>Click "Start Sentence Builder" to begin!</p>
+    </div>
+  `;
+  
+  // Resetar botões
+  document.getElementById('btnStartSentence').disabled = false;
+  document.getElementById('btnCheckSentence').disabled = true;
+}
+
+function startSentenceBuilder() {
+  const level = document.getElementById('sentenceLevelSelect').value;
+  const filteredSentences = SENTENCE_DATA.filter(s => s.level === level);
+  
+  if (filteredSentences.length === 0) {
+    alert('No sentences available for this level. Please select another level.');
+    return;
+  }
+  
+  // Inicializar o jogo com as frases do nível atual
+  sentenceQueue = [...filteredSentences];
+  sentenceCorrectCount = 0;
+  sentenceTotalCount = sentenceQueue.length;
+  isChecking = false;
+  isGameActive = true;
+  
+  // Embaralhar a fila
+  shuffleArray(sentenceQueue);
+  
+  // Carregar primeira frase
+  loadNextSentence();
+  
+  // Atualizar botões
+  document.getElementById('btnStartSentence').disabled = true;
+  document.getElementById('btnCheckSentence').disabled = false;
+}
+
+function loadNextSentence() {
+  if (sentenceQueue.length === 0) {
+    // Fim do jogo!
+    isGameActive = false;
+    document.getElementById('sentenceContainer').innerHTML = `
+      <div class="empty-message">
+        <p>🎉🎉🎉 CONGRATULATIONS! 🎉🎉🎉</p>
+        <p>You completed all ${sentenceTotalCount} sentences correctly!</p>
+        <button class="reset-btn" onclick="resetSentenceBuilder()">Play Again</button>
+      </div>
+    `;
+    document.getElementById('btnCheckSentence').disabled = true;
+    document.getElementById('btnStartSentence').disabled = false;
+    updateSentenceStats();
+    return;
+  }
+
+  currentSentenceObj = sentenceQueue[0];
+  availableWords = [...currentSentenceObj.words];
+  builtWords = [];
+  shuffleArray(availableWords);
+  renderSentenceBuilder();
+  updateSentenceStats();
+}
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
+function renderSentenceBuilder() {
+  const container = document.getElementById('sentenceContainer');
+  container.innerHTML = `
+    <div class="sentence-builder-wrapper">
+      <div class="difficulty ${currentSentenceObj.level}">${currentSentenceObj.level}</div>
+      
+      <!-- Área da tradução em português -->
+      <div class="translation-area">
+        <div class="translation-label">
+          <span>🇧🇷</span> PORTUGUÊS
+        </div>
+        <div class="translation-text">
+          "${escapeHtml(currentSentenceObj.translation)}"
+        </div>
+        <button class="translation-hint-btn" onclick="toggleTranslationHint()">
+          🔍 Dica
+        </button>
+        <div id="translationHint" class="translation-hint" style="display: none;">
+          💡 Monte a frase em INGLÊS!
+        </div>
+      </div>
+      
+      <div class="area-label">
+        <span>📝</span> PALAVRAS DISPONÍVEIS
+      </div>
+      <div class="sentence-words-area">
+        ${availableWords.map((word, i) => `
+          <button class="sentence-word-btn" onclick="selectWord(${i})">${escapeHtml(word)}</button>
+        `).join('')}
+        ${availableWords.length === 0 ? '<div style="color:#8A2BE2; text-align:center; width:100%;">✨ Todas as palavras usadas! ✨</div>' : ''}
+      </div>
+      
+      <div class="area-label built-label">
+        <span>🔨</span> SUA FRASE
+      </div>
+      <div class="sentence-built-area">
+        ${builtWords.map((word, i) => `
+          <button class="sentence-built-word" onclick="removeWord(${i})">${escapeHtml(word)} ✕</button>
+        `).join('')}
+        ${builtWords.length === 0 ? '<div style="color:#4CAF50; text-align:center; width:100%;">✨ Clique nas palavras acima ✨</div>' : ''}
+      </div>
+      
+      <div id="sentenceFeedback" class="sentence-feedback"></div>
+    </div>
+  `;
+}
+
+// Função para mostrar/esconder a dica
+function toggleTranslationHint() {
+  const hint = document.getElementById('translationHint');
+  if (hint) {
+    if (hint.style.display === 'none') {
+      hint.style.display = 'block';
+      setTimeout(() => {
+        hint.style.display = 'none';
+      }, 3000);
+    } else {
+      hint.style.display = 'none';
+    }
+  }
+}
+
+// Função auxiliar para escapar HTML
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function selectWord(index) {
+  if (isChecking || !isGameActive) return;
+  builtWords.push(availableWords[index]);
+  availableWords.splice(index, 1);
+  renderSentenceBuilder();
+}
+
+function removeWord(index) {
+  if (isChecking || !isGameActive) return;
+  availableWords.push(builtWords[index]);
+  builtWords.splice(index, 1);
+  renderSentenceBuilder();
+}
+
+function checkSentence() {
+  if (isChecking || !isGameActive) return;
+  
+  const userSentence = builtWords.join(' ');
+  const correctSentence = currentSentenceObj.correct;
+  const feedbackDiv = document.getElementById('sentenceFeedback');
+  
+  if (userSentence.toLowerCase() === correctSentence.toLowerCase()) {
+    // RESPOSTA CORRETA
+    isChecking = true;
+    sentenceCorrectCount++;
+    sentenceQueue.shift();
+    
+    feedbackDiv.className = 'sentence-feedback correct';
+    feedbackDiv.innerHTML = '✅✅✅ CORRECT! Well done! 🎉🎉🎉';
+    feedbackDiv.style.display = 'block';
+    
+    falarTexto(correctSentence, 'en-US');
+    
+    document.getElementById('btnCheckSentence').disabled = true;
+    
+    setTimeout(() => {
+      isChecking = false;
+      feedbackDiv.style.display = 'none';
+      loadNextSentence();
+      document.getElementById('btnCheckSentence').disabled = false;
+    }, 2000);
+  } else {
+    // RESPOSTA INCORRETA
+    isChecking = true;
+    const wrongSentence = sentenceQueue.shift();
+    sentenceQueue.push(wrongSentence);
+    
+    feedbackDiv.className = 'sentence-feedback incorrect';
+    feedbackDiv.innerHTML = `❌❌❌ INCORRECT! ❌❌❌<br><br>Correct sentence: <strong>"${escapeHtml(correctSentence)}"</strong><br><br>You will try again! 🔄`;
+    feedbackDiv.style.display = 'block';
+    
+    document.getElementById('btnCheckSentence').disabled = true;
+    
+    setTimeout(() => {
+      isChecking = false;
+      feedbackDiv.style.display = 'none';
+      loadNextSentence();
+      document.getElementById('btnCheckSentence').disabled = false;
+    }, 4000);
+  }
+  updateSentenceStats();
+}
+
+function resetSentenceBuilder() {
+  const level = document.getElementById('sentenceLevelSelect').value;
+  const filteredSentences = SENTENCE_DATA.filter(s => s.level === level);
+  
+  sentenceQueue = [...filteredSentences];
+  sentenceCorrectCount = 0;
+  sentenceTotalCount = sentenceQueue.length;
+  currentSentenceObj = null;
+  availableWords = [];
+  builtWords = [];
+  isChecking = false;
+  isGameActive = false;
+  
+  shuffleArray(sentenceQueue);
+  updateSentenceStats();
+  
+  document.getElementById('sentenceContainer').innerHTML = `
+    <div class="empty-message">
+      <p>🔄 Sentence Builder has been reset! 🔄</p>
+      <p>📚 ${sentenceQueue.length} sentences available for level ${level}</p>
+      <p>✨ Click "Start Sentence Builder" to begin ✨</p>
+    </div>
+  `;
+  
+  document.getElementById('btnStartSentence').disabled = false;
+  document.getElementById('btnCheckSentence').disabled = true;
+}
+
+function updateSentenceStats() {
+  const correctSpan = document.getElementById('sentenceCorrect');
+  const remainingSpan = document.getElementById('sentenceRemaining');
+  const totalSpan = document.getElementById('sentenceTotal');
+  
+  if (correctSpan) correctSpan.textContent = sentenceCorrectCount;
+  if (remainingSpan) remainingSpan.textContent = sentenceQueue.length;
+  if (totalSpan) totalSpan.textContent = sentenceTotalCount;
+}
+
+// Tornar funções globais
+window.selectWord = selectWord;
+window.removeWord = removeWord;
+window.resetSentenceBuilder = resetSentenceBuilder;
+
 
 
 
 // --- INICIALIZAÇÃO ---
-document.addEventListener('DOMContentLoaded', carregarDados);
+document.addEventListener('DOMContentLoaded', () => {
+  carregarDados();
+  loadSentenceData(); // Adicione esta linha para carregar o Sentence Builder
+});
