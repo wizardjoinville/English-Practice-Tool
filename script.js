@@ -2915,8 +2915,10 @@ function refreshByLevel() {
   shuffleArray(sentenceQueue);
   updateSentenceStats();
   
-  container.innerHTML = `<div class="empty-message">✨ ${sentenceQueue.length} frases disponíveis para nível ${level}<br>Clique em "Start Sentence Builder" para começar ✨</div>`;
+  container.innerHTML = `<div class="empty-message">✨ ${sentenceQueue.length} frases disponíveis para nível ${level}<br>Clique em "INICIAR" para começar ✨</div>`;
+  
   startBtn.disabled = false;
+  startBtn.style.display = 'flex'; // Garantir que o botão está visível
 }
 
 function startSentenceBuilder() {
@@ -2942,7 +2944,11 @@ function startSentenceBuilder() {
   shuffleArray(sentenceQueue);
   loadNextSentence();
   
-  startBtn.disabled = true;
+  // Esconder o botão Start
+  startBtn.style.display = 'none';
+  
+  // Opcional: também esconder o select de nível se quiser
+  // levelSelect.style.display = 'none';
 }
 
 function loadNextSentence() {
@@ -2984,8 +2990,6 @@ function renderSentenceBuilder() {
       <div class="translation-area">
         <div class="translation-label">🇧🇷 PORTUGUÊS</div>
         <div class="translation-text">"${escapeHtml(currentSentenceObj.translation)}"</div>
-        <button class="translation-hint-btn" onclick="toggleTranslationHint()">🔍 Dica</button>
-        <div id="translationHint" class="translation-hint" style="display: none;">💡 Monte a frase em INGLÊS!</div>
       </div>
       
       <div class="area-label">📝 PALAVRAS DISPONÍVEIS</div>
@@ -3107,8 +3111,10 @@ function resetSentenceBuilder() {
   shuffleArray(sentenceQueue);
   updateSentenceStats();
   
-  container.innerHTML = `<div class="empty-message">🔄 Reiniciado! ${sentenceQueue.length} frases disponíveis.<br>Clique em "Start Sentence Builder" para começar 🔄</div>`;
-  startBtn.disabled = false;
+  container.innerHTML = `<div class="empty-message">🔄 Reiniciado! ${sentenceQueue.length} frases disponíveis.<br>Clique em "INICIAR" para começar 🔄</div>`;
+  
+  // Mostrar o botão Start novamente
+  startBtn.style.display = 'flex';
 }
 
 function updateSentenceStats() {
