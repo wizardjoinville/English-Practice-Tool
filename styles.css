@@ -2093,7 +2093,7 @@ label[for="grammarModeSelect"] {
   }
 }
 /* ============================================
-   SENTENCE BUILDER - VERSÃO COMPLETA OTIMIZADA
+   SENTENCE BUILDER - VERSÃO LIMPA E ORGANIZADA
    ============================================ */
 
 /* Container principal */
@@ -2136,7 +2136,7 @@ label[for="grammarModeSelect"] {
 /* Select de nível */
 #sentenceLevelSelect {
   width: 100%;
-  padding: 10px 8px;
+  padding: 10px 12px;
   font-size: 0.85rem;
   font-weight: 600;
   border: 2px solid #8A2BE2;
@@ -2149,7 +2149,7 @@ label[for="grammarModeSelect"] {
 /* Botão Start */
 #btnStartSentence {
   flex: 1;
-  padding: 10px 8px;
+  padding: 10px 12px;
   font-size: 0.8rem;
   font-weight: 700;
   background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
@@ -2162,7 +2162,6 @@ label[for="grammarModeSelect"] {
   letter-spacing: 0.5px;
   white-space: nowrap;
   min-width: 70px;
-  height: 42px;
 }
 
 /* Estatísticas - versão compacta */
@@ -2170,10 +2169,10 @@ label[for="grammarModeSelect"] {
   display: flex;
   justify-content: space-between;
   gap: 0.3rem;
-  margin: 0.3rem 0;
-  padding: 0.2rem 0.5rem;
+  margin: 0.5rem 0;
+  padding: 0.3rem 0.8rem;
   background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  border-radius: 30px;
+  border-radius: 40px;
   text-align: center;
 }
 
@@ -2181,21 +2180,21 @@ label[for="grammarModeSelect"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.2rem;
-  font-size: 0.6rem;
+  gap: 0.3rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: white;
   flex: 1;
 }
 
 .sentence-builder-stats span span {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 800;
   background: rgba(255, 255, 255, 0.25);
-  padding: 1px 5px;
-  border-radius: 20px;
+  padding: 2px 8px;
+  border-radius: 30px;
   display: inline-block;
-  min-width: 25px;
+  min-width: 30px;
 }
 
 /* Caixa principal do conteúdo */
@@ -2210,12 +2209,12 @@ label[for="grammarModeSelect"] {
   overflow-x: hidden;
 }
 
-/* Área da tradução - mais compacta */
+/* Área da tradução */
 .translation-area {
   background: linear-gradient(135deg, #1a237e, #283593);
   border-radius: 12px;
-  padding: 0.5rem;
-  margin-bottom: 0.8rem;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -2225,66 +2224,17 @@ label[for="grammarModeSelect"] {
   color: #FFD700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .translation-text {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: white;
-  padding: 4px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  word-break: break-word;
-}
-
-/* Labels das áreas - mais compactas */
-.area-label {
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: #8A2BE2;
-  margin-bottom: 5px;
-  margin-top: 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.built-label {
-  color: #4CAF50;
-  margin-top: 0.5rem;
-}
-
-/* Caixa principal - menos padding */
-.sentence-builder-wrapper {
-  background: white;
-  border-radius: 16px;
-  padding: 0.8rem;
-  margin-top: 0.3rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e0e0e0;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.translation-text {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   color: white;
   padding: 6px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   word-break: break-word;
-}
-
-.translation-hint-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: none;
-  border-radius: 50px;
-  padding: 3px 10px;
-  font-size: 0.65rem;
-  color: #FFD700;
-  cursor: pointer;
-  margin-top: 6px;
 }
 
 /* Labels das áreas */
@@ -2342,6 +2292,11 @@ label[for="grammarModeSelect"] {
   transition: all 0.2s ease;
 }
 
+.sentence-word-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(138, 43, 226, 0.3);
+}
+
 .sentence-built-word {
   background: linear-gradient(135deg, #4CAF50, #388E3C);
   color: white;
@@ -2352,6 +2307,11 @@ label[for="grammarModeSelect"] {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.sentence-built-word:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #F44336, #D32F2F);
 }
 
 /* Botão Check */
@@ -2371,6 +2331,11 @@ label[for="grammarModeSelect"] {
   cursor: pointer;
   width: 100%;
   transition: all 0.2s ease;
+}
+
+.btn-check-mobile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
 }
 
 /* Feedback */
@@ -2395,25 +2360,6 @@ label[for="grammarModeSelect"] {
   background: #F44336;
   color: white;
 }
-
-/* Nível */
-#sentenceContainer .difficulty {
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 40px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: white;
-  margin-bottom: 1rem;
-  background: #8A2BE2;
-}
-
-#sentenceContainer .difficulty.A1 { background: #4CAF50; }
-#sentenceContainer .difficulty.A2 { background: #8BC34A; }
-#sentenceContainer .difficulty.B1 { background: #FFC107; }
-#sentenceContainer .difficulty.B2 { background: #FF9800; }
-#sentenceContainer .difficulty.C1 { background: #FF5722; }
-#sentenceContainer .difficulty.C2 { background: #F44336; }
 
 /* Mensagem vazia */
 #sentenceContainer .empty-message {
@@ -2442,6 +2388,11 @@ label[for="grammarModeSelect"] {
   cursor: pointer;
   background: linear-gradient(135deg, #FF9800, #F57C00);
   color: white;
+  transition: all 0.2s ease;
+}
+
+#btnResetSentence:hover {
+  transform: translateY(-2px);
 }
 
 /* Esconder botão Check original */
@@ -2459,28 +2410,27 @@ label[for="grammarModeSelect"] {
   }
   
   #sentenceLevelSelect {
-    padding: 8px 6px;
+    padding: 8px 10px;
     font-size: 0.75rem;
   }
   
   #btnStartSentence {
-    padding: 8px 6px;
+    padding: 8px 10px;
     font-size: 0.7rem;
-    height: 38px;
   }
   
   .sentence-builder-stats {
-    padding: 0.4rem 0.6rem;
+    padding: 0.25rem 0.5rem;
   }
   
   .sentence-builder-stats span {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
   
   .sentence-builder-stats span span {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 2px 6px;
-    min-width: 30px;
+    min-width: 28px;
   }
   
   .sentence-word-btn, .sentence-built-word {
@@ -2489,26 +2439,24 @@ label[for="grammarModeSelect"] {
   }
   
   .translation-text {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   
   .btn-check-mobile {
     padding: 10px 16px;
     font-size: 0.85rem;
   }
-  
-  .sentence-words-area, .sentence-built-area {
-    padding: 0.8rem;
-  }
 }
 
 @media (max-width: 480px) {
   .sentence-builder-stats span {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
   
   .sentence-builder-stats span span {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
+    padding: 1px 5px;
+    min-width: 25px;
   }
   
   .sentence-word-btn, .sentence-built-word {
@@ -2517,22 +2465,21 @@ label[for="grammarModeSelect"] {
   }
   
   .translation-text {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
   
   .area-label {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
 }
 
 /* ============================================
-   DESKTOP - CENTRALIZADO E LARGURA FIXA
+   DESKTOP - CENTRALIZADO E BONITO
    ============================================ */
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   #sentenceControls {
-    max-width: 999px;
-    margin: 0 auto;
+    max-width: 700px;
   }
   
   #sentenceLevelSelect {
@@ -2543,26 +2490,38 @@ label[for="grammarModeSelect"] {
   #btnStartSentence {
     padding: 12px 24px;
     font-size: 0.9rem;
-    height: auto;
   }
   
   .sentence-builder-stats {
     justify-content: center;
     gap: 2rem;
-    
+    padding: 0.4rem 1rem;
   }
   
   .sentence-builder-stats span {
-    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .sentence-builder-stats span span {
+    font-size: 1rem;
+    padding: 2px 10px;
   }
   
   .btn-check-mobile {
-    max-width: 300px;
+    max-width: 280px;
     margin: 0 auto;
   }
   
   .sentence-word-btn, .sentence-built-word {
-    padding: 10px 18px;
+    padding: 10px 20px;
     font-size: 0.9rem;
+  }
+  
+  .translation-text {
+    font-size: 1.1rem;
+  }
+  
+  .sentence-builder-wrapper {
+    padding: 1.2rem;
   }
 }
