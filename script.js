@@ -2985,8 +2985,6 @@ function renderSentenceBuilder() {
   
   container.innerHTML = `
     <div class="sentence-builder-wrapper">
-      <div class="difficulty ${currentSentenceObj.level}">${currentSentenceObj.level}</div>
-      
       <div class="translation-area">
         <div class="translation-label">🇧🇷 PORTUGUÊS</div>
         <div class="translation-text">"${escapeHtml(currentSentenceObj.translation)}"</div>
@@ -2998,7 +2996,7 @@ function renderSentenceBuilder() {
         ${availableWords.length === 0 ? '<div style="color:#8A2BE2; text-align:center; width:100%;">✨ Todas as palavras usadas! ✨</div>' : ''}
       </div>
       
-      <div class="area-label built-label">🔨 SUA FRASE</div>
+      <div class="area-label built-label"> SUA FRASE</div>
       <div class="sentence-built-area">
         ${builtWords.map((word, i) => `<button class="sentence-built-word" onclick="removeWord(${i})">${escapeHtml(word)} ✕</button>`).join('')}
         ${builtWords.length === 0 ? '<div style="color:#4CAF50; text-align:center; width:100%;">✨ Clique nas palavras acima ✨</div>' : ''}
