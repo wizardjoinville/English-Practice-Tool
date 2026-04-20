@@ -1,0 +1,1575 @@
+[
+  {
+    "level": "A1",
+    "correct": "I like apples",
+    "translation": "Eu gosto de maçãs",
+    "words": ["I", "like", "apples"]
+  },
+  {
+    "level": "A1",
+    "correct": "She is a teacher",
+    "translation": "Ela é uma professora",
+    "words": ["She", "is", "a", "teacher"]
+  },
+  {
+    "level": "A1",
+    "correct": "They are happy",
+    "translation": "Eles estão felizes",
+    "words": ["They", "are", "happy"]
+  },
+  {
+    "level": "A1",
+    "correct": "My name is John",
+    "translation": "Meu nome é João",
+    "words": ["My", "name", "is", "John"]
+  },
+  {
+    "level": "A1",
+    "correct": "We go to school",
+    "translation": "Nós vamos para a escola",
+    "words": ["We", "go", "to", "school"]
+  },
+  {
+    "level": "A1",
+    "correct": "The cat is sleeping",
+    "translation": "O gato está dormindo",
+    "words": ["The", "cat", "is", "sleeping"]
+  },
+  {
+    "level": "A1",
+    "correct": "I have a dog",
+    "translation": "Eu tenho um cachorro",
+    "words": ["I", "have", "a", "dog"]
+  },
+  {
+    "level": "A1",
+    "correct": "She likes coffee",
+    "translation": "Ela gosta de café",
+    "words": ["She", "likes", "coffee"]
+  },
+  {
+    "level": "A1",
+    "correct": "He plays football",
+    "translation": "Ele joga futebol",
+    "words": ["He", "plays", "football"]
+  },
+  {
+    "level": "A1",
+    "correct": "We are friends",
+    "translation": "Nós somos amigos",
+    "words": ["We", "are", "friends"]
+  },
+  {
+    "level": "A1",
+    "correct": "It is a cat",
+    "translation": "É um gato",
+    "words": ["It", "is", "a", "cat"]
+  },
+  {
+    "level": "A1",
+    "correct": "You are my friend",
+    "translation": "Você é meu amigo",
+    "words": ["You", "are", "my", "friend"]
+  },
+  {
+    "level": "A1",
+    "correct": "The sun is hot",
+    "translation": "O sol é quente",
+    "words": ["The", "sun", "is", "hot"]
+  },
+  {
+    "level": "A1",
+    "correct": "I drink water",
+    "translation": "Eu bebo água",
+    "words": ["I", "drink", "water"]
+  },
+  {
+    "level": "A1",
+    "correct": "She eats bread",
+    "translation": "Ela come pão",
+    "words": ["She", "eats", "bread"]
+  },
+  {
+    "level": "A1",
+    "correct": "The car is red",
+    "translation": "O carro é vermelho",
+    "words": ["The", "car", "is", "red"]
+  },
+  {
+    "level": "A1",
+    "correct": "I love pizza",
+    "translation": "Eu amo pizza",
+    "words": ["I", "love", "pizza"]
+  },
+  {
+    "level": "A1",
+    "correct": "The house is big",
+    "translation": "A casa é grande",
+    "words": ["The", "house", "is", "big"]
+  },
+  {
+    "level": "A1",
+    "correct": "She has blue eyes",
+    "translation": "Ela tem olhos azuis",
+    "words": ["She", "has", "blue", "eyes"]
+  },
+  {
+    "level": "A1",
+    "correct": "The dog barks loudly",
+    "translation": "O cachorro late alto",
+    "words": ["The", "dog", "barks", "loudly"]
+  },
+  {
+    "level": "A1",
+    "correct": "I like to read books",
+    "translation": "Eu gosto de ler livros",
+    "words": ["I", "like", "to", "read", "books"]
+  },
+  {
+    "level": "A1",
+    "correct": "She writes a letter",
+    "translation": "Ela escreve uma carta",
+    "words": ["She", "writes", "a", "letter"]
+  },
+  {
+    "level": "A1",
+    "correct": "We live in a house",
+    "translation": "Nós moramos em uma casa",
+    "words": ["We", "live", "in", "a", "house"]
+  },
+  {
+    "level": "A1",
+    "correct": "He drives a car",
+    "translation": "Ele dirige um carro",
+    "words": ["He", "drives", "a", "car"]
+  },
+  {
+    "level": "A1",
+    "correct": "The bird sings",
+    "translation": "O pássaro canta",
+    "words": ["The", "bird", "sings"]
+  },
+  {
+    "level": "A1",
+    "correct": "I wake up early",
+    "translation": "Eu acordo cedo",
+    "words": ["I", "wake", "up", "early"]
+  },
+  {
+    "level": "A1",
+    "correct": "She goes to work",
+    "translation": "Ela vai para o trabalho",
+    "words": ["She", "goes", "to", "work"]
+  },
+  {
+    "level": "A1",
+    "correct": "The flower is beautiful",
+    "translation": "A flor é bonita",
+    "words": ["The", "flower", "is", "beautiful"]
+  },
+  {
+    "level": "A1",
+    "correct": "I need a pen",
+    "translation": "Eu preciso de uma caneta",
+    "words": ["I", "need", "a", "pen"]
+  },
+  {
+    "level": "A1",
+    "correct": "The coffee is hot",
+    "translation": "O café está quente",
+    "words": ["The", "coffee", "is", "hot"]
+  },
+  {
+    "level": "A1",
+    "correct": "She studies English",
+    "translation": "Ela estuda inglês",
+    "words": ["She", "studies", "English"]
+  },
+  {
+    "level": "A1",
+    "correct": "The sky is blue",
+    "translation": "O céu é azul",
+    "words": ["The", "sky", "is", "blue"]
+  },
+  {
+    "level": "A1",
+    "correct": "I have two brothers",
+    "translation": "Eu tenho dois irmãos",
+    "words": ["I", "have", "two", "brothers"]
+  },
+  {
+    "level": "A1",
+    "correct": "The milk is fresh",
+    "translation": "O leite está fresco",
+    "words": ["The", "milk", "is", "fresh"]
+  },
+  {
+    "level": "A1",
+    "correct": "He is a doctor",
+    "translation": "Ele é médico",
+    "words": ["He", "is", "a", "doctor"]
+  },
+  {
+    "level": "A1",
+    "correct": "The chair is comfortable",
+    "translation": "A cadeira é confortável",
+    "words": ["The", "chair", "is", "comfortable"]
+  },
+  {
+    "level": "A1",
+    "correct": "I eat breakfast",
+    "translation": "Eu tomo café da manhã",
+    "words": ["I", "eat", "breakfast"]
+  },
+  {
+    "level": "A1",
+    "correct": "She wears a dress",
+    "translation": "Ela veste um vestido",
+    "words": ["She", "wears", "a", "dress"]
+  },
+  {
+    "level": "A1",
+    "correct": "The music is loud",
+    "translation": "A música está alta",
+    "words": ["The", "music", "is", "loud"]
+  },
+  {
+    "level": "A1",
+    "correct": "We watch television",
+    "translation": "Nós assistimos televisão",
+    "words": ["We", "watch", "television"]
+  },
+  {
+    "level": "A1",
+    "correct": "The water is cold",
+    "translation": "A água está fria",
+    "words": ["The", "water", "is", "cold"]
+  },
+  {
+    "level": "A1",
+    "correct": "I close the door",
+    "translation": "Eu fecho a porta",
+    "words": ["I", "close", "the", "door"]
+  },
+  {
+    "level": "A1",
+    "correct": "She opens the window",
+    "translation": "Ela abre a janela",
+    "words": ["She", "opens", "the", "window"]
+  },
+  {
+    "level": "A1",
+    "correct": "The boy runs fast",
+    "translation": "O menino corre rápido",
+    "words": ["The", "boy", "runs", "fast"]
+  },
+  {
+    "level": "A1",
+    "correct": "I write a story",
+    "translation": "Eu escrevo uma história",
+    "words": ["I", "write", "a", "story"]
+  },
+  {
+    "level": "A1",
+    "correct": "She dances well",
+    "translation": "Ela dança bem",
+    "words": ["She", "dances", "well"]
+  },
+  {
+    "level": "A1",
+    "correct": "The phone rings",
+    "translation": "O telefone toca",
+    "words": ["The", "phone", "rings"]
+  },
+  {
+    "level": "A1",
+    "correct": "I buy vegetables",
+    "translation": "Eu compro vegetais",
+    "words": ["I", "buy", "vegetables"]
+  },
+  {
+    "level": "A1",
+    "correct": "She sells flowers",
+    "translation": "Ela vende flores",
+    "words": ["She", "sells", "flowers"]
+  },
+  {
+    "level": "A1",
+    "correct": "The baby cries",
+    "translation": "O bebê chora",
+    "words": ["The", "baby", "cries"]
+  },
+  {
+    "level": "A1",
+    "correct": "I work in an office",
+    "translation": "Eu trabalho em um escritório",
+    "words": ["I", "work", "in", "an", "office"]
+  },
+  {
+    "level": "A1",
+    "correct": "She teaches children",
+    "translation": "Ela ensina crianças",
+    "words": ["She", "teaches", "children"]
+  },
+  {
+    "level": "A1",
+    "correct": "The food is delicious",
+    "translation": "A comida é deliciosa",
+    "words": ["The", "food", "is", "delicious"]
+  },
+  {
+    "level": "A1",
+    "correct": "I take a shower",
+    "translation": "Eu tomo banho",
+    "words": ["I", "take", "a", "shower"]
+  },
+  {
+    "level": "A1",
+    "correct": "She brushes her teeth",
+    "translation": "Ela escova os dentes",
+    "words": ["She", "brushes", "her", "teeth"]
+  },
+  {
+    "level": "A1",
+    "correct": "The train arrives late",
+    "translation": "O trem chega tarde",
+    "words": ["The", "train", "arrives", "late"]
+  },
+  {
+    "level": "A1",
+    "correct": "I love my family",
+    "translation": "Eu amo minha família",
+    "words": ["I", "love", "my", "family"]
+  },
+  {
+    "level": "A1",
+    "correct": "She misses her friends",
+    "translation": "Ela sente falta dos amigos",
+    "words": ["She", "misses", "her", "friends"]
+  },
+  {
+    "level": "A1",
+    "correct": "The price is high",
+    "translation": "O preço é alto",
+    "words": ["The", "price", "is", "high"]
+  },
+  {
+    "level": "A1",
+    "correct": "I feel happy today",
+    "translation": "Eu me sinto feliz hoje",
+    "words": ["I", "feel", "happy", "today"]
+  },
+  {
+    "level": "A1",
+    "correct": "She looks tired",
+    "translation": "Ela parece cansada",
+    "words": ["She", "looks", "tired"]
+  },
+  {
+    "level": "A1",
+    "correct": "The movie is boring",
+    "translation": "O filme é chato",
+    "words": ["The", "movie", "is", "boring"]
+  },
+  {
+    "level": "A1",
+    "correct": "I listen to music",
+    "translation": "Eu ouço música",
+    "words": ["I", "listen", "to", "music"]
+  },
+  {
+    "level": "A1",
+    "correct": "She speaks softly",
+    "translation": "Ela fala baixo",
+    "words": ["She", "speaks", "softly"]
+  },
+  {
+    "level": "A1",
+    "correct": "The store is closed",
+    "translation": "A loja está fechada",
+    "words": ["The", "store", "is", "closed"]
+  },
+  {
+    "level": "A1",
+    "correct": "I carry a bag",
+    "translation": "Eu carrego uma bolsa",
+    "words": ["I", "carry", "a", "bag"]
+  },
+  {
+    "level": "A1",
+    "correct": "She pushes the cart",
+    "translation": "Ela empurra o carrinho",
+    "words": ["She", "pushes", "the", "cart"]
+  },
+  {
+    "level": "A1",
+    "correct": "The sun rises in the east",
+    "translation": "O sol nasce no leste",
+    "words": ["The", "sun", "rises", "in", "the", "east"]
+  },
+  {
+    "level": "A1",
+    "correct": "I cook dinner every night",
+    "translation": "Eu cozinho o jantar toda noite",
+    "words": ["I", "cook", "dinner", "every", "night"]
+  },
+  {
+    "level": "A1",
+    "correct": "She cleans the house",
+    "translation": "Ela limpa a casa",
+    "words": ["She", "cleans", "the", "house"]
+  },
+  {
+    "level": "A1",
+    "correct": "The children play outside",
+    "translation": "As crianças brincam lá fora",
+    "words": ["The", "children", "play", "outside"]
+  },
+  {
+    "level": "A1",
+    "correct": "I wash my hands",
+    "translation": "Eu lavo minhas mãos",
+    "words": ["I", "wash", "my", "hands"]
+  },
+  {
+    "level": "A1",
+    "correct": "She dries her hair",
+    "translation": "Ela seca o cabelo",
+    "words": ["She", "dries", "her", "hair"]
+  },
+  {
+    "level": "A1",
+    "correct": "The bus stops here",
+    "translation": "O ônibus para aqui",
+    "words": ["The", "bus", "stops", "here"]
+  },
+  {
+    "level": "A1",
+    "correct": "I wait for the bus",
+    "translation": "Eu espero pelo ônibus",
+    "words": ["I", "wait", "for", "the", "bus"]
+  },
+  {
+    "level": "A1",
+    "correct": "She calls her mother",
+    "translation": "Ela liga para a mãe",
+    "words": ["She", "calls", "her", "mother"]
+  },
+  {
+    "level": "A1",
+    "correct": "The answer is correct",
+    "translation": "A resposta está correta",
+    "words": ["The", "answer", "is", "correct"]
+  },
+  {
+    "level": "A1",
+    "correct": "I make a mistake",
+    "translation": "Eu cometo um erro",
+    "words": ["I", "make", "a", "mistake"]
+  },
+  {
+    "level": "A1",
+    "correct": "She learns quickly",
+    "translation": "Ela aprende rapidamente",
+    "words": ["She", "learns", "quickly"]
+  },
+  {
+    "level": "A1",
+    "correct": "The teacher explains the lesson",
+    "translation": "O professor explica a lição",
+    "words": ["The", "teacher", "explains", "the", "lesson"]
+  },
+  {
+    "level": "A1",
+    "correct": "I ask a question",
+    "translation": "Eu faço uma pergunta",
+    "words": ["I", "ask", "a", "question"]
+  },
+  {
+    "level": "A1",
+    "correct": "She answers correctly",
+    "translation": "Ela responde corretamente",
+    "words": ["She", "answers", "correctly"]
+  },
+  {
+    "level": "A1",
+    "correct": "The test is difficult",
+    "translation": "O teste é difícil",
+    "words": ["The", "test", "is", "difficult"]
+  },
+  {
+    "level": "A1",
+    "correct": "I pass the exam",
+    "translation": "Eu passo no exame",
+    "words": ["I", "pass", "the", "exam"]
+  },
+  {
+    "level": "A1",
+    "correct": "She fails the test",
+    "translation": "Ela reprova no teste",
+    "words": ["She", "fails", "the", "test"]
+  },
+  {
+    "level": "A1",
+    "correct": "The room is dark",
+    "translation": "O quarto está escuro",
+    "words": ["The", "room", "is", "dark"]
+  },
+  {
+    "level": "A1",
+    "correct": "I turn on the light",
+    "translation": "Eu ligo a luz",
+    "words": ["I", "turn", "on", "the", "light"]
+  },
+  {
+    "level": "A1",
+    "correct": "She turns off the TV",
+    "translation": "Ela desliga a TV",
+    "words": ["She", "turns", "off", "the", "TV"]
+  },
+  {
+    "level": "A1",
+    "correct": "The battery is dead",
+    "translation": "A bateria está descarregada",
+    "words": ["The", "battery", "is", "dead"]
+  },
+  {
+    "level": "A1",
+    "correct": "I charge my phone",
+    "translation": "Eu carrego meu telefone",
+    "words": ["I", "charge", "my", "phone"]
+  },
+  {
+    "level": "A1",
+    "correct": "She uses a computer",
+    "translation": "Ela usa um computador",
+    "words": ["She", "uses", "a", "computer"]
+  },
+  {
+    "level": "A1",
+    "correct": "The internet is slow",
+    "translation": "A internet está lenta",
+    "words": ["The", "internet", "is", "slow"]
+  },
+  {
+    "level": "A1",
+    "correct": "I send an email",
+    "translation": "Eu envio um e-mail",
+    "words": ["I", "send", "an", "email"]
+  },
+  {
+    "level": "A1",
+    "correct": "She receives a message",
+    "translation": "Ela recebe uma mensagem",
+    "words": ["She", "receives", "a", "message"]
+  },
+  {
+    "level": "A1",
+    "correct": "The website is useful",
+    "translation": "O site é útil",
+    "words": ["The", "website", "is", "useful"]
+  },
+  {
+    "level": "A1",
+    "correct": "I search for information",
+    "translation": "Eu procuro por informação",
+    "words": ["I", "search", "for", "information"]
+  },
+  {
+    "level": "A1",
+    "correct": "She finds a job",
+    "translation": "Ela encontra um emprego",
+    "words": ["She", "finds", "a", "job"]
+  },
+  {
+    "level": "A1",
+    "correct": "The salary is good",
+    "translation": "O salário é bom",
+    "words": ["The", "salary", "is", "good"]
+  },
+  {
+    "level": "A1",
+    "correct": "I save money",
+    "translation": "Eu economizo dinheiro",
+    "words": ["I", "save", "money"]
+  },
+  {
+    "level": "A1",
+    "correct": "She spends too much",
+    "translation": "Ela gasta demais",
+    "words": ["She", "spends", "too", "much"]
+  },
+    {
+    "level": "A1",
+    "correct": "Do you like coffee?",
+    "translation": "Você gosta de café?",
+    "words": ["Do", "you", "like", "coffee", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she speak English?",
+    "translation": "Ela fala inglês?",
+    "words": ["Does", "she", "speak", "English", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they have children?",
+    "translation": "Eles têm filhos?",
+    "words": ["Do", "they", "have", "children", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he work here?",
+    "translation": "Ele trabalha aqui?",
+    "words": ["Does", "he", "work", "here", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we need tickets?",
+    "translation": "Nós precisamos de ingressos?",
+    "words": ["Do", "we", "need", "tickets", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are you ready?",
+    "translation": "Você está pronto?",
+    "words": ["Are", "you", "ready", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is she at home?",
+    "translation": "Ela está em casa?",
+    "words": ["Is", "she", "at", "home", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are they coming?",
+    "translation": "Eles estão vindo?",
+    "words": ["Are", "they", "coming", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is he your friend?",
+    "translation": "Ele é seu amigo?",
+    "words": ["Is", "he", "your", "friend", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are we late?",
+    "translation": "Nós estamos atrasados?",
+    "words": ["Are", "we", "late", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do you understand?",
+    "translation": "Você entende?",
+    "words": ["Do", "you", "understand", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she know the way?",
+    "translation": "Ela sabe o caminho?",
+    "words": ["Does", "she", "know", "the", "way", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they believe us?",
+    "translation": "Eles acreditam em nós?",
+    "words": ["Do", "they", "believe", "us", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he remember me?",
+    "translation": "Ele se lembra de mim?",
+    "words": ["Does", "he", "remember", "me", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we agree?",
+    "translation": "Nós concordamos?",
+    "words": ["Do", "we", "agree", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do you have money?",
+    "translation": "Você tem dinheiro?",
+    "words": ["Do", "you", "have", "money", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she need help?",
+    "translation": "Ela precisa de ajuda?",
+    "words": ["Does", "she", "need", "help", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they want to leave?",
+    "translation": "Eles querem sair?",
+    "words": ["Do", "they", "want", "to", "leave", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he like pizza?",
+    "translation": "Ele gosta de pizza?",
+    "words": ["Does", "he", "like", "pizza", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we watch TV?",
+    "translation": "Nós assistimos TV?",
+    "words": ["Do", "we", "watch", "TV", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is it important?",
+    "translation": "É importante?",
+    "words": ["Is", "it", "important", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are you hungry?",
+    "translation": "Você está com fome?",
+    "words": ["Are", "you", "hungry", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is she feeling well?",
+    "translation": "Ela está se sentindo bem?",
+    "words": ["Is", "she", "feeling", "well", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are they working today?",
+    "translation": "Eles estão trabalhando hoje?",
+    "words": ["Are", "they", "working", "today", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is he sleeping?",
+    "translation": "Ele está dormindo?",
+    "words": ["Is", "he", "sleeping", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do you smoke?",
+    "translation": "Você fuma?",
+    "words": ["Do", "you", "smoke", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she drink coffee?",
+    "translation": "Ela bebe café?",
+    "words": ["Does", "she", "drink", "coffee", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they exercise regularly?",
+    "translation": "Eles se exercitam regularmente?",
+    "words": ["Do", "they", "exercise", "regularly", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he sleep well?",
+    "translation": "Ele dorme bem?",
+    "words": ["Does", "he", "sleep", "well", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we eat healthy food?",
+    "translation": "Nós comemos comida saudável?",
+    "words": ["Do", "we", "eat", "healthy", "food", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do you play games?",
+    "translation": "Você joga jogos?",
+    "words": ["Do", "you", "play", "games", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she sing well?",
+    "translation": "Ela canta bem?",
+    "words": ["Does", "she", "sing", "well", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they dance?",
+    "translation": "Eles dançam?",
+    "words": ["Do", "they", "dance", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he swim?",
+    "translation": "Ele nada?",
+    "words": ["Does", "he", "swim", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we run every day?",
+    "translation": "Nós corremos todos os dias?",
+    "words": ["Do", "we", "run", "every", "day", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do you drive?",
+    "translation": "Você dirige?",
+    "words": ["Do", "you", "drive", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she cook dinner?",
+    "translation": "Ela cozinha o jantar?",
+    "words": ["Does", "she", "cook", "dinner", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they clean the house?",
+    "translation": "Eles limpam a casa?",
+    "words": ["Do", "they", "clean", "the", "house", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he study hard?",
+    "translation": "Ele estuda muito?",
+    "words": ["Does", "he", "study", "hard", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we travel often?",
+    "translation": "Nós viajamos frequentemente?",
+    "words": ["Do", "we", "travel", "often", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do you read books?",
+    "translation": "Você lê livros?",
+    "words": ["Do", "you", "read", "books", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does she write stories?",
+    "translation": "Ela escreve histórias?",
+    "words": ["Does", "she", "write", "stories", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do they listen to music?",
+    "translation": "Eles ouvem música?",
+    "words": ["Do", "they", "listen", "to", "music", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Does he speak loudly?",
+    "translation": "Ele fala alto?",
+    "words": ["Does", "he", "speak", "loudly", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Do we stay home?",
+    "translation": "Nós ficamos em casa?",
+    "words": ["Do", "we", "stay", "home", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are you interested?",
+    "translation": "Você está interessado?",
+    "words": ["Are", "you", "interested", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is she married?",
+    "translation": "Ela é casada?",
+    "words": ["Is", "she", "married", "?"]
+  },
+    {
+    "level": "A1",
+    "correct": "I don't like coffee",
+    "translation": "Eu não gosto de café",
+    "words": ["I", "don't", "like", "coffee"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't eat meat",
+    "translation": "Ela não come carne",
+    "words": ["She", "doesn't", "eat", "meat"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't have a car",
+    "translation": "Eles não têm um carro",
+    "words": ["They", "don't", "have", "a", "car"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't speak Spanish",
+    "translation": "Ele não fala espanhol",
+    "words": ["He", "doesn't", "speak", "Spanish"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't live here",
+    "translation": "Nós não moramos aqui",
+    "words": ["We", "don't", "live", "here"]
+  },
+  {
+    "level": "A1",
+    "correct": "It doesn't work",
+    "translation": "Isso não funciona",
+    "words": ["It", "doesn't", "work"]
+  },
+  {
+    "level": "A1",
+    "correct": "I'm not tired",
+    "translation": "Eu não estou cansado",
+    "words": ["I'm", "not", "tired"]
+  },
+  {
+    "level": "A1",
+    "correct": "She isn't at home",
+    "translation": "Ela não está em casa",
+    "words": ["She", "isn't", "at", "home"]
+  },
+  {
+    "level": "A1",
+    "correct": "They aren't students",
+    "translation": "Eles não são estudantes",
+    "words": ["They", "aren't", "students"]
+  },
+  {
+    "level": "A1",
+    "correct": "He isn't my brother",
+    "translation": "Ele não é meu irmão",
+    "words": ["He", "isn't", "my", "brother"]
+  },
+  {
+    "level": "A1",
+    "correct": "We aren't ready",
+    "translation": "Nós não estamos prontos",
+    "words": ["We", "aren't", "ready"]
+  },
+  {
+    "level": "A1",
+    "correct": "I don't understand",
+    "translation": "Eu não entendo",
+    "words": ["I", "don't", "understand"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't know the answer",
+    "translation": "Ela não sabe a resposta",
+    "words": ["She", "doesn't", "know", "the", "answer"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't believe me",
+    "translation": "Eles não acreditam em mim",
+    "words": ["They", "don't", "believe", "me"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't remember",
+    "translation": "Ele não se lembra",
+    "words": ["He", "doesn't", "remember"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't agree",
+    "translation": "Nós não concordamos",
+    "words": ["We", "don't", "agree"]
+  },
+  {
+    "level": "A1",
+    "correct": "I don't have money",
+    "translation": "Eu não tenho dinheiro",
+    "words": ["I", "don't", "have", "money"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't need help",
+    "translation": "Ela não precisa de ajuda",
+    "words": ["She", "doesn't", "need", "help"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't want to go",
+    "translation": "Eles não querem ir",
+    "words": ["They", "don't", "want", "to", "go"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't like pizza",
+    "translation": "Ele não gosta de pizza",
+    "words": ["He", "doesn't", "like", "pizza"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't watch TV",
+    "translation": "Nós não assistimos TV",
+    "words": ["We", "don't", "watch", "TV"]
+  },
+  {
+    "level": "A1",
+    "correct": "It isn't important",
+    "translation": "Não é importante",
+    "words": ["It", "isn't", "important"]
+  },
+  {
+    "level": "A1",
+    "correct": "I'm not hungry",
+    "translation": "Eu não estou com fome",
+    "words": ["I'm", "not", "hungry"]
+  },
+  {
+    "level": "A1",
+    "correct": "She isn't feeling well",
+    "translation": "Ela não está se sentindo bem",
+    "words": ["She", "isn't", "feeling", "well"]
+  },
+  {
+    "level": "A1",
+    "correct": "They aren't coming",
+    "translation": "Eles não estão vindo",
+    "words": ["They", "aren't", "coming"]
+  },
+  {
+    "level": "A1",
+    "correct": "He isn't working today",
+    "translation": "Ele não está trabalhando hoje",
+    "words": ["He", "isn't", "working", "today"]
+  },
+  {
+    "level": "A1",
+    "correct": "We aren't leaving",
+    "translation": "Nós não estamos saindo",
+    "words": ["We", "aren't", "leaving"]
+  },
+  {
+    "level": "A1",
+    "correct": "I don't smoke",
+    "translation": "Eu não fumo",
+    "words": ["I", "don't", "smoke"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't drink alcohol",
+    "translation": "Ela não bebe álcool",
+    "words": ["She", "doesn't", "drink", "alcohol"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't exercise",
+    "translation": "Eles não se exercitam",
+    "words": ["They", "don't", "exercise"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't sleep well",
+    "translation": "Ele não dorme bem",
+    "words": ["He", "doesn't", "sleep", "well"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't eat sugar",
+    "translation": "Nós não comemos açúcar",
+    "words": ["We", "don't", "eat", "sugar"]
+  },
+  {
+    "level": "A1",
+    "correct": "I don't play games",
+    "translation": "Eu não jogo jogos",
+    "words": ["I", "don't", "play", "games"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't sing well",
+    "translation": "Ela não canta bem",
+    "words": ["She", "doesn't", "sing", "well"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't dance",
+    "translation": "Eles não dançam",
+    "words": ["They", "don't", "dance"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't swim",
+    "translation": "Ele não nada",
+    "words": ["He", "doesn't", "swim"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't run",
+    "translation": "Nós não corremos",
+    "words": ["We", "don't", "run"]
+  },
+  {
+    "level": "A1",
+    "correct": "I don't drive",
+    "translation": "Eu não dirijo",
+    "words": ["I", "don't", "drive"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't cook",
+    "translation": "Ela não cozinha",
+    "words": ["She", "doesn't", "cook"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't clean",
+    "translation": "Eles não limpam",
+    "words": ["They", "don't", "clean"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't study",
+    "translation": "Ele não estuda",
+    "words": ["He", "doesn't", "study"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't travel",
+    "translation": "Nós não viajamos",
+    "words": ["We", "don't", "travel"]
+  },
+  {
+    "level": "A1",
+    "correct": "I don't read newspapers",
+    "translation": "Eu não leio jornais",
+    "words": ["I", "don't", "read", "newspapers"]
+  },
+  {
+    "level": "A1",
+    "correct": "She doesn't write emails",
+    "translation": "Ela não escreve e-mails",
+    "words": ["She", "doesn't", "write", "emails"]
+  },
+  {
+    "level": "A1",
+    "correct": "They don't listen to music",
+    "translation": "Eles não ouvem música",
+    "words": ["They", "don't", "listen", "to", "music"]
+  },
+  {
+    "level": "A1",
+    "correct": "He doesn't speak loudly",
+    "translation": "Ele não fala alto",
+    "words": ["He", "doesn't", "speak", "loudly"]
+  },
+  {
+    "level": "A1",
+    "correct": "We don't stay home",
+    "translation": "Nós não ficamos em casa",
+    "words": ["We", "don't", "stay", "home"]
+  },
+  {
+    "level": "A1",
+    "correct": "I'm not interested",
+    "translation": "Eu não estou interessado",
+    "words": ["I'm", "not", "interested"]
+  },
+    {
+    "level": "A1",
+    "correct": "I do not have a dog",
+    "translation": "Eu não tenho um cachorro",
+    "words": ["I", "do", "not", "have", "a", "dog"]
+  },
+  {
+    "level": "A1",
+    "correct": "She does not like bananas",
+    "translation": "Ela não gosta de bananas",
+    "words": ["She", "does", "not", "like", "bananas"]
+  },
+  {
+    "level": "A1",
+    "correct": "They do not eat fish",
+    "translation": "Eles não comem peixe",
+    "words": ["They", "do", "not", "eat", "fish"]
+  },
+  {
+    "level": "A1",
+    "correct": "He does not have a sister",
+    "translation": "Ele não tem uma irmã",
+    "words": ["He", "does", "not", "have", "a", "sister"]
+  },
+  {
+    "level": "A1",
+    "correct": "We do not like vegetables",
+    "translation": "Nós não gostamos de vegetais",
+    "words": ["We", "do", "not", "like", "vegetables"]
+  },
+  {
+    "level": "A1",
+    "correct": "It does not rain here",
+    "translation": "Não chove aqui",
+    "words": ["It", "does", "not", "rain", "here"]
+  },
+  {
+    "level": "A1",
+    "correct": "I am not a doctor",
+    "translation": "Eu não sou médico",
+    "words": ["I", "am", "not", "a", "doctor"]
+  },
+  {
+    "level": "A1",
+    "correct": "She is not a nurse",
+    "translation": "Ela não é enfermeira",
+    "words": ["She", "is", "not", "a", "nurse"]
+  },
+  {
+    "level": "A1",
+    "correct": "They are not my parents",
+    "translation": "Eles não são meus pais",
+    "words": ["They", "are", "not", "my", "parents"]
+  },
+  {
+    "level": "A1",
+    "correct": "He is not a student",
+    "translation": "Ele não é estudante",
+    "words": ["He", "is", "not", "a", "student"]
+  },
+  {
+    "level": "A1",
+    "correct": "We are not singers",
+    "translation": "Nós não somos cantores",
+    "words": ["We", "are", "not", "singers"]
+  },
+  {
+    "level": "A1",
+    "correct": "I do not eat breakfast",
+    "translation": "Eu não tomo café da manhã",
+    "words": ["I", "do", "not", "eat", "breakfast"]
+  },
+  {
+    "level": "A1",
+    "correct": "She does not drink tea",
+    "translation": "Ela não bebe chá",
+    "words": ["She", "does", "not", "drink", "tea"]
+  },
+  {
+    "level": "A1",
+    "correct": "They do not play soccer",
+    "translation": "Eles não jogam futebol",
+    "words": ["They", "do", "not", "play", "soccer"]
+  },
+  {
+    "level": "A1",
+    "correct": "He does not watch movies",
+    "translation": "Ele não assiste filmes",
+    "words": ["He", "does", "not", "watch", "movies"]
+  },
+  {
+    "level": "A1",
+    "correct": "We do not speak French",
+    "translation": "Nós não falamos francês",
+    "words": ["We", "do", "not", "speak", "French"]
+  },
+  {
+    "level": "A1",
+    "correct": "I am not happy today",
+    "translation": "Eu não estou feliz hoje",
+    "words": ["I", "am", "not", "happy", "today"]
+  },
+  {
+    "level": "A1",
+    "correct": "She is not sad",
+    "translation": "Ela não está triste",
+    "words": ["She", "is", "not", "sad"]
+  },
+  {
+    "level": "A1",
+    "correct": "They are not angry",
+    "translation": "Eles não estão com raiva",
+    "words": ["They", "are", "not", "angry"]
+  },
+  {
+    "level": "A1",
+    "correct": "He is not tall",
+    "translation": "Ele não é alto",
+    "words": ["He", "is", "not", "tall"]
+  },
+  {
+    "level": "A1",
+    "correct": "We are not short",
+    "translation": "Nós não somos baixos",
+    "words": ["We", "are", "not", "short"]
+  },
+  {
+    "level": "A1",
+    "correct": "I do not like cold weather",
+    "translation": "Eu não gosto de clima frio",
+    "words": ["I", "do", "not", "like", "cold", "weather"]
+  },
+  {
+    "level": "A1",
+    "correct": "She does not like hot weather",
+    "translation": "Ela não gosta de clima quente",
+    "words": ["She", "does", "not", "like", "hot", "weather"]
+  },
+  {
+    "level": "A1",
+    "correct": "They do not like rain",
+    "translation": "Eles não gostam de chuva",
+    "words": ["They", "do", "not", "like", "rain"]
+  },
+  {
+    "level": "A1",
+    "correct": "He does not like snow",
+    "translation": "Ele não gosta de neve",
+    "words": ["He", "does", "not", "like", "snow"]
+  },
+  {
+    "level": "A1",
+    "correct": "We do not like wind",
+    "translation": "Nós não gostamos de vento",
+    "words": ["We", "do", "not", "like", "wind"]
+  },
+  {
+    "level": "A1",
+    "correct": "I do not have a bicycle",
+    "translation": "Eu não tenho uma bicicleta",
+    "words": ["I", "do", "not", "have", "a", "bicycle"]
+  },
+  {
+    "level": "A1",
+    "correct": "She does not have a phone",
+    "translation": "Ela não tem um telefone",
+    "words": ["She", "does", "not", "have", "a", "phone"]
+  },
+  {
+    "level": "A1",
+    "correct": "They do not have a computer",
+    "translation": "Eles não têm um computador",
+    "words": ["They", "do", "not", "have", "a", "computer"]
+  },
+  {
+    "level": "A1",
+    "correct": "He does not have a watch",
+    "translation": "Ele não tem um relógio",
+    "words": ["He", "does", "not", "have", "a", "watch"]
+  },
+  {
+    "level": "A1",
+    "correct": "We do not have a television",
+    "translation": "Nós não temos uma televisão",
+    "words": ["We", "do", "not", "have", "a", "television"]
+  },
+  {
+    "level": "A1",
+    "correct": "I am not a teacher",
+    "translation": "Eu não sou professor",
+    "words": ["I", "am", "not", "a", "teacher"]
+  },
+  {
+    "level": "A1",
+    "correct": "She is not an engineer",
+    "translation": "Ela não é engenheira",
+    "words": ["She", "is", "not", "an", "engineer"]
+  },
+  {
+    "level": "A1",
+    "correct": "They are not lawyers",
+    "translation": "Eles não são advogados",
+    "words": ["They", "are", "not", "lawyers"]
+  },
+  {
+    "level": "A1",
+    "correct": "He is not a chef",
+    "translation": "Ele não é chef de cozinha",
+    "words": ["He", "is", "not", "a", "chef"]
+  },
+  {
+    "level": "A1",
+    "correct": "We are not artists",
+    "translation": "Nós não somos artistas",
+    "words": ["We", "are", "not", "artists"]
+  },
+  {
+    "level": "A1",
+    "correct": "I do not eat meat",
+    "translation": "Eu não como carne",
+    "words": ["I", "do", "not", "eat", "meat"]
+  },
+  {
+    "level": "A1",
+    "correct": "She does not eat eggs",
+    "translation": "Ela não come ovos",
+    "words": ["She", "does", "not", "eat", "eggs"]
+  },
+  {
+    "level": "A1",
+    "correct": "They do not eat cheese",
+    "translation": "Eles não comem queijo",
+    "words": ["They", "do", "not", "eat", "cheese"]
+  },
+  {
+    "level": "A1",
+    "correct": "He does not eat rice",
+    "translation": "Ele não come arroz",
+    "words": ["He", "does", "not", "eat", "rice"]
+  },
+  {
+    "level": "A1",
+    "correct": "We do not eat pasta",
+    "translation": "Nós não comemos macarrão",
+    "words": ["We", "do", "not", "eat", "pasta"]
+  },
+  {
+    "level": "A1",
+    "correct": "I do not drink soda",
+    "translation": "Eu não bebo refrigerante",
+    "words": ["I", "do", "not", "drink", "soda"]
+  },
+  {
+    "level": "A1",
+    "correct": "She does not drink juice",
+    "translation": "Ela não bebe suco",
+    "words": ["She", "does", "not", "drink", "juice"]
+  },
+  {
+    "level": "A1",
+    "correct": "They do not drink milk",
+    "translation": "Eles não bebem leite",
+    "words": ["They", "do", "not", "drink", "milk"]
+  },
+  {
+    "level": "A1",
+    "correct": "He does not drink beer",
+    "translation": "Ele não bebe cerveja",
+    "words": ["He", "does", "not", "drink", "beer"]
+  },
+  {
+    "level": "A1",
+    "correct": "We do not drink wine",
+    "translation": "Nós não bebemos vinho",
+    "words": ["We", "do", "not", "drink", "wine"]
+  },
+  {
+    "level": "A1",
+    "correct": "I am not young",
+    "translation": "Eu não sou jovem",
+    "words": ["I", "am", "not", "young"]
+  },
+  {
+    "level": "A1",
+    "correct": "She is not old",
+    "translation": "Ela não é velha",
+    "words": ["She", "is", "not", "old"]
+  },
+  {
+    "level": "A1",
+    "correct": "They are not strong",
+    "translation": "Eles não são fortes",
+    "words": ["They", "are", "not", "strong"]
+  },
+  {
+    "level": "A1",
+    "correct": "He is not weak",
+    "translation": "Ele não é fraco",
+    "words": ["He", "is", "not", "weak"]
+  },
+  {
+    "level": "A1",
+    "correct": "We are not lazy",
+    "translation": "Nós não somos preguiçosos",
+    "words": ["We", "are", "not", "lazy"]
+  },
+  {
+    "level": "A1",
+    "correct": "She isn't married",
+    "translation": "Ela não é casada",
+    "words": ["She", "isn't", "married"]
+  },
+  {
+    "level": "A1",
+    "correct": "They aren't rich",
+    "translation": "Eles não são ricos",
+    "words": ["They", "aren't", "rich"]
+  },
+  {
+    "level": "A1",
+    "correct": "Are they rich?",
+    "translation": "Eles são ricos?",
+    "words": ["Are", "they", "rich", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "Is he your brother?",
+    "translation": "Ele é seu irmão?",
+    "words": ["Is", "he", "your", "brother", "?"]
+  },
+  {
+    "level": "A1",
+    "correct": "The wallet is empty",
+    "translation": "A carteira está vazia",
+    "words": ["The", "wallet", "is", "empty"]
+  },
+
+  {
+    "level": "A2",
+    "correct": "I am going to the store",
+    "translation": "Eu estou indo para a loja",
+    "words": ["I", "am", "going", "to", "the", "store"]
+  },
+  {
+    "level": "A2",
+    "correct": "She usually wakes up early",
+    "translation": "Ela geralmente acorda cedo",
+    "words": ["She", "usually", "wakes", "up", "early"]
+  },
+  {
+    "level": "A2",
+    "correct": "They have finished their homework",
+    "translation": "Eles terminaram a lição de casa",
+    "words": ["They", "have", "finished", "their", "homework"]
+  },
+  {
+    "level": "B1",
+    "correct": "I have been working here for five years",
+    "translation": "Eu tenho trabalhado aqui por cinco anos",
+    "words": ["I", "have", "been", "working", "here", "for", "five", "years"]
+  },
+  {
+    "level": "B1",
+    "correct": "They were watching TV when I arrived",
+    "translation": "Eles estavam assistindo TV quando eu cheguei",
+    "words": ["They", "were", "watching", "TV", "when", "I", "arrived"]
+  },
+  {
+    "level": "B2",
+    "correct": "Despite the challenges we managed to succeed",
+    "translation": "Apesar dos desafios, conseguimos ter sucesso",
+    "words": ["Despite", "the", "challenges", "we", "managed", "to", "succeed"]
+  },
+  {
+    "level": "B2",
+    "correct": "The company is looking for someone with experience",
+    "translation": "A empresa está procurando alguém com experiência",
+    "words": ["The", "company", "is", "looking", "for", "someone", "with", "experience"]
+  },
+  {
+    "level": "C1",
+    "correct": "Had I known about the traffic I would have left earlier",
+    "translation": "Se eu soubesse do trânsito, teria saído mais cedo",
+    "words": ["Had", "I", "known", "about", "the", "traffic", "I", "would", "have", "left", "earlier"]
+  },
+  {
+    "level": "C1",
+    "correct": "The results of the study have yet to be published",
+    "translation": "Os resultados do estudo ainda não foram publicados",
+    "words": ["The", "results", "of", "the", "study", "have", "yet", "to", "be", "published"]
+  },
+  {
+    "level": "C2",
+    "correct": "Were the government to implement such policies it would be catastrophic",
+    "translation": "Se o governo implementasse tais políticas, seria catastrófico",
+    "words": ["Were", "the", "government", "to", "implement", "such", "policies", "it", "would", "be", "catastrophic"]
+  },
+  {
+    "level": "C2",
+    "correct": "Not until he apologized did she agree to speak to him again",
+    "translation": "Só depois que ele se desculpou ela concordou em falar com ele novamente",
+    "words": ["Not", "until", "he", "apologized", "did", "she", "agree", "to", "speak", "to", "him", "again"]
+  }
+]
