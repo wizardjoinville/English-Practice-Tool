@@ -3070,7 +3070,20 @@ function checkSentence() {
   const correctSentence = currentSentenceObj.correct;
   const feedbackDiv = document.getElementById('sentenceFeedback');
   
-  if (userSentence.toLowerCase() === correctSentence.toLowerCase()) {
+  // Normalizar ambas as frases para comparação
+  // Remove espaços antes de pontuação (. , ! ?)
+  const normalizeForComparison = (str) => {
+    return str
+      .toLowerCase()
+      .replace(/\s+([.,!?])/g, '$1')  // Remove espaço antes de pontuação
+      .replace(/\s+/g, ' ')            // Normaliza espaços múltiplos
+      .trim();
+  };
+  
+  const normalizedUser = normalizeForComparison(userSentence);
+  const normalizedCorrect = normalizeForComparison(correctSentence);
+  
+  if (normalizedUser === normalizedCorrect) {
     isChecking = true;
     sentenceCorrectCount++;
     sentenceQueue.shift();
@@ -3080,9 +3093,6 @@ function checkSentence() {
       feedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
       feedbackDiv.style.display = 'block';
     }
-    
-    // REMOVA esta linha se não quiser mais áudio no final:
-    // falarTexto(correctSentence, 'en-US');
     
     setTimeout(() => {
       isChecking = false;
