@@ -30,6 +30,7 @@
       <button class="mode-btn" id="btnModeQuiz">Quiz</button>
       <button class="mode-btn" id="btnModeGrammar">Grammar</button>
       <button class="mode-btn" id="btnModePhrasal">Phrasal Verbs</button>
+      <button class="mode-btn" id="btnModeSentence">Sentence Builder</button>
     </div>
 
     <div id="questionsControls">
@@ -291,6 +292,46 @@
       <div id="youglishPhrasalContainer" style="display:none"></div>
     </div>
   </div>
+  <div id="sentenceControls" style="display: none;">
+  <div class="controls">
+    <div class="control-group">
+      <label for="sentenceLevelSelect">Level</label>
+      <select id="sentenceLevelSelect">
+        <option value="A1">A1 (Beginner)</option>
+        <option value="A2">A2 (Elementary)</option>
+        <option value="B1">B1 (Intermediate)</option>
+        <option value="B2">B2 (Upper Intermediate)</option>
+        <option value="C1">C1 (Advanced)</option>
+        <option value="C2">C2 (Proficiency)</option>
+      </select>
+    </div>
+  </div>
+
+  <button id="btnStartSentence" class="main-action">
+    <span>🧩</span> Start Sentence Builder
+  </button>
+
+  <div class="sentence-builder-stats" id="sentenceStats">
+    <span>✅ Correct: <span id="sentenceCorrect">0</span></span>
+    <span>📝 Remaining: <span id="sentenceRemaining">0</span></span>
+    <span>📊 Total: <span id="sentenceTotal">0</span></span>
+  </div>
+
+  <div class="sentence-container" id="sentenceContainer">
+    <div class="empty-message">
+      Select a level and start the exercise.
+    </div>
+  </div>
+
+  <div class="secondary-buttons">
+    <button id="btnCheckSentence" class="secondary-button" disabled>
+      <span>✔️</span> Check Sentence
+    </button>
+    <button id="btnResetSentence" class="secondary-button">
+      <span>🔄</span> Reset
+    </button>
+  </div>
+</div>
   <!-- ============================================
        BOTÃO E MODAL DE DOAÇÃO PIX
        ============================================ -->
