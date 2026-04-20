@@ -2093,93 +2093,165 @@ label[for="grammarModeSelect"] {
   }
 }
 /* ============================================
-   SENTENCE BUILDER STYLES - SIMPLES E ORGANIZADO
+   SENTENCE BUILDER - VERSÃO COMPLETA OTIMIZADA
    ============================================ */
 
-/* Container principal do Sentence Builder */
+/* Container principal */
 #sentenceControls {
   margin-top: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-/* Caixa principal que envolve todo o conteúdo */
-.sentence-builder-wrapper {
+/* Container do select e botão Start - lado a lado */
+#sentenceControls .controls {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  align-items: flex-end;
+}
+
+/* Grupo do select */
+#sentenceControls .control-group {
+  flex: 2;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+/* Label do select */
+#sentenceControls .control-group label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #8A2BE2;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Select de nível */
+#sentenceLevelSelect {
+  width: 100%;
+  padding: 10px 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 2px solid #8A2BE2;
+  border-radius: 10px;
   background: white;
-  border-radius: 24px;
-  padding: 1.5rem;
-  margin-top: 1rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e0e0e0;
+  color: #333;
+  cursor: pointer;
 }
 
-/* Estatísticas */
+/* Botão Start */
+#btnStartSentence {
+  flex: 1;
+  padding: 10px 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  min-width: 70px;
+  height: 42px;
+}
+
+/* Estatísticas - em linha horizontal */
 .sentence-builder-stats {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 0 0 1.5rem 0;
-  padding: 0.75rem 1.5rem;
+  justify-content: space-between;
+  gap: 0.3rem;
+  margin: 0.6rem 0;
+  padding: 0.5rem 0.8rem;
   background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  border-radius: 50px;
-  font-weight: 600;
-  color: white;
+  border-radius: 40px;
+  text-align: center;
 }
 
 .sentence-builder-stats span {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  flex: 1;
+}
+
+.sentence-builder-stats span span {
+  font-size: 1rem;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 2px 8px;
+  border-radius: 30px;
+  display: inline-block;
+  min-width: 35px;
+}
+
+/* Caixa principal do conteúdo */
+.sentence-builder-wrapper {
+  background: white;
+  border-radius: 16px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* Área da tradução */
 .translation-area {
   background: linear-gradient(135deg, #1a237e, #283593);
-  border-radius: 16px;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 .translation-label {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
   color: #FFD700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .translation-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   color: white;
-  padding: 8px;
+  padding: 6px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  word-break: break-word;
 }
 
 .translation-hint-btn {
   background: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 50px;
-  padding: 4px 12px;
-  font-size: 0.7rem;
+  padding: 3px 10px;
+  font-size: 0.65rem;
   color: #FFD700;
   cursor: pointer;
-  margin-top: 8px;
-}
-
-.translation-hint {
-  margin-top: 8px;
-  font-size: 0.75rem;
-  color: #FFD700;
+  margin-top: 6px;
 }
 
 /* Labels das áreas */
 .area-label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: #8A2BE2;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -2194,11 +2266,11 @@ label[for="grammarModeSelect"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   background: #f5f0ff;
-  border-radius: 16px;
+  border-radius: 12px;
   padding: 1rem;
-  min-height: 100px;
+  min-height: 90px;
   border: 1px solid #8A2BE2;
 }
 
@@ -2207,11 +2279,11 @@ label[for="grammarModeSelect"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
   background: #e8f5e9;
-  border-radius: 16px;
+  border-radius: 12px;
   padding: 1rem;
-  min-height: 100px;
+  min-height: 90px;
   border: 1px solid #4CAF50;
   margin-top: 0.5rem;
 }
@@ -2221,45 +2293,54 @@ label[for="grammarModeSelect"] {
   background: linear-gradient(135deg, #8A2BE2, #7B1FA2);
   color: white;
   border: none;
-  border-radius: 50px;
+  border-radius: 40px;
   padding: 8px 16px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.sentence-word-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(138, 43, 226, 0.3);
-}
-
-/* Botões da frase construída */
 .sentence-built-word {
   background: linear-gradient(135deg, #4CAF50, #388E3C);
   color: white;
   border: none;
-  border-radius: 50px;
+  border-radius: 40px;
   padding: 8px 16px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.sentence-built-word:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, #F44336, #D32F2F);
+/* Botão Check */
+.check-button-container {
+  margin: 1rem 0 0.5rem 0;
+  text-align: center;
+}
+
+.btn-check-mobile {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s ease;
 }
 
 /* Feedback */
 .sentence-feedback {
   margin-top: 1rem;
-  padding: 12px;
-  border-radius: 12px;
+  padding: 10px;
+  border-radius: 10px;
   text-align: center;
   display: none;
   font-weight: 600;
+  font-size: 0.85rem;
 }
 
 .sentence-feedback.correct {
@@ -2274,64 +2355,11 @@ label[for="grammarModeSelect"] {
   color: white;
 }
 
-/* Botões de ação */
-#sentenceControls .secondary-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 1.5rem;
-}
-
-#btnCheckSentence, #btnResetSentence {
-  padding: 10px 24px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-}
-
-#btnCheckSentence {
-  background: linear-gradient(135deg, #4CAF50, #2E7D32);
-  color: white;
-}
-
-#btnCheckSentence:hover:not(:disabled) {
-  transform: translateY(-2px);
-}
-
-#btnResetSentence {
-  background: linear-gradient(135deg, #FF9800, #F57C00);
-  color: white;
-}
-
-#btnResetSentence:hover {
-  transform: translateY(-2px);
-}
-
-/* Botão Start */
-#btnStartSentence {
-  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  color: white;
-  border: none;
-  border-radius: 50px;
-  padding: 12px 24px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-#btnStartSentence:hover:not(:disabled) {
-  transform: translateY(-2px);
-}
-
 /* Nível */
 #sentenceContainer .difficulty {
   display: inline-block;
   padding: 4px 12px;
-  border-radius: 50px;
+  border-radius: 40px;
   font-size: 0.7rem;
   font-weight: 700;
   color: white;
@@ -2339,7 +2367,6 @@ label[for="grammarModeSelect"] {
   background: #8A2BE2;
 }
 
-/* Cores dos níveis */
 #sentenceContainer .difficulty.A1 { background: #4CAF50; }
 #sentenceContainer .difficulty.A2 { background: #8BC34A; }
 #sentenceContainer .difficulty.B1 { background: #FFC107; }
@@ -2349,811 +2376,140 @@ label[for="grammarModeSelect"] {
 
 /* Mensagem vazia */
 #sentenceContainer .empty-message {
-  padding: 30px 20px;
+  padding: 30px 15px;
   text-align: center;
   color: #8A2BE2;
   background: #f8f9ff;
-  border-radius: 16px;
+  border-radius: 12px;
   border: 1px dashed #8A2BE2;
-}
-
-/* Select de nível */
-#sentenceLevelSelect {
-  background: white;
-  border: 1px solid #8A2BE2;
-  border-radius: 8px;
-  padding: 8px 12px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #333;
-  cursor: pointer;
-  width: 100%;
-}
-
-#sentenceLevelSelect:focus {
-  outline: none;
-  border-color: #6a1b9a;
-}
-
-/* Label do select */
-#sentenceControls .control-group label {
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: #666;
-  margin-bottom: 4px;
-  display: block;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .sentence-word-btn, .sentence-built-word {
-    padding: 6px 12px;
-    font-size: 0.8rem;
-  }
-  
-  .sentence-builder-stats {
-    gap: 1rem;
-    font-size: 0.8rem;
-    padding: 0.5rem 1rem;
-  }
-  
-  .translation-text {
-    font-size: 1rem;
-  }
-  
-  .sentence-builder-wrapper {
-    padding: 1rem;
-  }
-}
-/* ============================================
-   TRANSLATION AREA STYLES
-   ============================================ */
-
-.translation-area {
-  background: linear-gradient(135deg, #1a237e, #283593);
-  border-radius: 20px;
-  padding: 1.2rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.translation-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #FFD700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-}
-
-.translation-text {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: white;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  margin-bottom: 12px;
-}
-
-.translation-hint-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50px;
-  padding: 6px 16px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #FFD700;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.translation-hint-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: scale(1.02);
-}
-
-.translation-hint {
-  margin-top: 10px;
-  padding: 8px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
-  font-size: 0.8rem;
-  color: #FFD700;
-  animation: fadeIn 0.3s ease;
-}
-
-/* Responsividade para mobile */
-@media (max-width: 768px) {
-  .translation-text {
-    font-size: 1rem;
-  }
-  
-  .translation-area {
-    padding: 0.8rem;
-  }
-}
-/* ============================================
-   LABEL LEVEL MAIS VISÍVEL
-   ============================================ */
-
-/* Label do select de nível */
-#sentenceControls .control-group label[for="sentenceLevelSelect"] {
-  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  color: white;
   font-size: 0.85rem;
-  font-weight: 800;
-  padding: 6px 14px;
-  border-radius: 50px;
-  display: inline-block;
-  width: auto;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.3);
-  margin-bottom: 8px;
 }
 
-/* Container do control-group para melhor espaçamento */
-#sentenceControls .control-group {
+/* Botão Reset */
+#sentenceControls .secondary-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-}
-
-/* Select de nível também mais visível */
-#sentenceLevelSelect {
-  background: white;
-  border: 2px solid #8A2BE2;
-  border-radius: 12px;
-  padding: 12px 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #4A4A5A;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  width: 100%;
-}
-
-#sentenceLevelSelect:hover {
-  border-color: #6a1b9a;
-  background: #f8f9ff;
-  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
-}
-
-#sentenceLevelSelect:focus {
-  outline: none;
-  border-color: #8A2BE2;
-  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.2);
-}
-
-/* ============================================
-   MELHORIAS DE RESPONSIVIDADE PARA SMARTPHONES
-   ============================================ */
-
-/* Reset para mobile - evitar zoom automático */
-html, body {
-  touch-action: manipulation;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* Container principal responsivo - apenas em mobile */
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0.8rem;
-    border-radius: 16px;
-  }
-}
-
-/* Mode selector - rolagem horizontal em mobile APENAS */
-@media (max-width: 768px) {
-  .mode-selector {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    justify-content: flex-start;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    margin: 0 auto 1rem;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-  }
-  
-  .mode-btn {
-    flex-shrink: 0;
-    padding: 0.5rem 1rem;
-    font-size: 0.75rem;
-    white-space: nowrap;
-  }
-}
-
-/* ============================================
-   SENTENCE BUILDER - VERSÃO MOBILE OTIMIZADA (APENAS MOBILE)
-   ============================================ */
-
-/* Layout normal para desktop */
-.sentence-builder-wrapper {
-  background: white;
-  border-radius: 20px;
-  padding: 1.5rem;
+  justify-content: center;
   margin-top: 1rem;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e0e0e0;
 }
 
-/* Ajustes apenas para mobile */
-@media (max-width: 768px) {
-  .sentence-builder-wrapper {
-    padding: 1rem;
-    margin-top: 0.5rem;
-  }
-  
-  /* Estatísticas - mais compactas */
-  .sentence-builder-stats {
-    display: flex;
-    justify-content: space-around;
-    gap: 0.5rem;
-    margin: 0 0 1rem 0;
-    padding: 0.5rem;
-    font-size: 0.75rem;
-    flex-wrap: wrap;
-  }
-  
-  /* Área da tradução */
-  .translation-area {
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-  }
-  
-  .translation-text {
-    font-size: 1rem;
-    padding: 6px;
-    word-break: break-word;
-  }
-  
-  /* Labels */
-  .area-label {
-    font-size: 0.7rem;
-    margin-bottom: 8px;
-  }
-  
-  /* Área de palavras */
-  .sentence-words-area {
-    gap: 8px;
-    padding: 0.8rem;
-    max-height: 200px;
-    overflow-y: auto;
-  }
-  
-  /* Área da frase construída */
-  .sentence-built-area {
-    gap: 8px;
-    padding: 0.8rem;
-    max-height: 200px;
-    overflow-y: auto;
-    margin-top: 0.5rem;
-  }
-  
-  /* Botões de palavra - maiores para toque */
-  .sentence-word-btn, .sentence-built-word {
-    padding: 10px 16px;
-    font-size: 0.85rem;
-    min-height: 44px;
-    min-width: 44px;
-  }
-  
-  /* Botões de ação */
-  #sentenceControls .secondary-buttons {
-    gap: 0.8rem;
-    margin-top: 1rem;
-    padding: 0.5rem 0;
-  }
-  
-  #btnCheckSentence, #btnResetSentence {
-    padding: 12px 20px;
-    font-size: 0.9rem;
-    min-height: 48px;
-    flex: 1;
-    max-width: 180px;
-  }
-  
-  /* Botão Start */
-  #btnStartSentence {
-    padding: 14px 20px;
-    font-size: 1rem;
-    min-height: 50px;
-  }
-  
-  /* Select de nível */
-  #sentenceLevelSelect {
-    padding: 12px 16px;
-    font-size: 0.9rem;
-    min-height: 48px;
-  }
-}
-
-/* ============================================
-   AJUSTES GERAIS PARA MOBILE (APENAS EM TELAS PEQUENAS)
-   ============================================ */
-
-@media (max-width: 768px) {
-  /* Evitar zoom em inputs em iOS */
-  select, input, button {
-    font-size: 16px !important;
-  }
-  
-  /* Quiz buttons responsivos */
-  .quiz-options {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  
-  .quiz-btn {
-    padding: 14px 10px;
-    min-height: 50px;
-    font-size: 0.85rem;
-  }
-  
-  /* Vocabulary card */
-  .vocab-card {
-    padding: 1rem;
-  }
-  
-  .vocab-word {
-    font-size: 1.2rem;
-    word-break: break-word;
-  }
-  
-  /* Grammar container */
-  .exercise-container {
-    padding: 1rem;
-    overflow-x: auto;
-  }
-  
-  .exercise-input {
-    font-size: 16px !important;
-    padding: 12px;
-  }
-  
-  /* Timer */
-  .timer-display {
-    position: static;
-    margin-top: 8px;
-    display: inline-flex;
-  }
-  
-  .timer-container {
-    position: relative;
-  }
-  
-  /* Doação - ajuste para não atrapalhar */
-  .donation-container {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    z-index: 1000;
-  }
-  
-  .donation-button {
-    padding: 8px 14px;
-    font-size: 12px;
-  }
-  
-  .donation-modal {
-    right: 10px;
-    bottom: 60px;
-    max-width: 260px;
-    padding: 12px;
-  }
-}
-
-/* ============================================
-   MEDIA QUERIES - SMARTPHONES
-   ============================================ */
-
-@media (max-width: 768px) {
-  body {
-    padding: 0.5rem;
-  }
-  
-  h1 {
-    font-size: 1.4rem;
-    margin-bottom: 0.8rem;
-  }
-  
-  .controls {
-    flex-direction: column;
-    gap: 0.8rem;
-  }
-  
-  .control-group {
-    width: 100%;
-  }
-  
-  select, input {
-    padding: 10px 12px;
-    font-size: 16px !important;
-  }
-  
-  .main-action {
-    padding: 12px 16px;
-    font-size: 0.9rem;
-  }
-  
-  .secondary-button {
-    padding: 8px 12px;
-    font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .sentence-builder-stats {
-    font-size: 0.65rem;
-    gap: 0.3rem;
-  }
-  
-  .sentence-word-btn, .sentence-built-word {
-    padding: 8px 12px;
-    font-size: 0.75rem;
-  }
-  
-  #btnCheckSentence, #btnResetSentence {
-    padding: 10px 16px;
-    font-size: 0.8rem;
-  }
-  
-  .translation-text {
-    font-size: 0.85rem;
-  }
-  
-  .area-label {
-    font-size: 0.6rem;
-  }
-  
-  .mode-btn {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.7rem;
-  }
-  
-  .sentence-words-area, .sentence-built-area {
-    max-height: 150px;
-  }
-}
-
-/* Prevenir zoom em inputs no iOS */
-@media (max-width: 768px) {
-  select, input, textarea {
-    font-size: 16px !important;
-  }
-}
-
-/* Melhorar a experiência de toque APENAS em mobile */
-@media (hover: none) and (pointer: coarse) {
-  button, .mode-btn, .sentence-word-btn, .sentence-built-word {
-    cursor: default;
-  }
-  
-  button:active, .mode-btn:active {
-    opacity: 0.7;
-    transform: scale(0.98);
-  }
-}
-
-/* ============================================
-   CORREÇÃO PARA DESKTOP - MANTER LAYOUT ORIGINAL
-   ============================================ */
-
-/* Garantir que o container tenha largura máxima no desktop */
-@media (min-width: 769px) {
-  .container {
-    max-width: 800px;
-    margin: 0.5rem auto;
-    padding: 1.5rem;
-  }
-  
-  /* Restaurar layout original dos botões do Sentence Builder */
-  #sentenceControls .secondary-buttons {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-    margin-top: 0.5rem;
-  }
-  
-  #btnCheckSentence, #btnResetSentence {
-    padding: 0.4rem 0.7rem;
-    font-size: 0.75rem;
-    min-height: auto;
-    max-width: none;
-    flex: none;
-  }
-  
-  .sentence-words-area, .sentence-built-area {
-    max-height: none;
-    overflow-y: visible;
-  }
-  
-  .sentence-word-btn, .sentence-built-word {
-    padding: 10px 18px;
-    font-size: 1rem;
-    min-height: auto;
-    min-width: auto;
-  }
-  
-  /* Restaurar layout do mode selector */
-  .mode-selector {
-    display: flex;
-    flex-wrap: wrap;
-    overflow-x: visible;
-    justify-content: center;
-  }
-  
-  .mode-btn {
-    flex-shrink: 1;
-    white-space: normal;
-  }
-}
-/* ============================================
-   BOTÃO CHECK SENTENCE MOVIDO PARA CIMA
-   ============================================ */
-
-/* Container do botão Check */
-.check-button-container {
-  margin: 1rem 0 0.5rem 0;
-  text-align: center;
-}
-
-/* Botão Check - versão destacada */
-.btn-check-mobile {
-  background: linear-gradient(135deg, #4CAF50, #2E7D32);
-  color: white;
+#btnResetSentence {
+  padding: 8px 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 40px;
   border: none;
-  border-radius: 60px;
-  padding: 14px 24px;
-  font-size: 1rem;
-  font-weight: 700;
   cursor: pointer;
-  transition: all 0.2s ease;
-  width: 100%;
-  max-width: 280px;
-  box-shadow: 0 4px 12px rgba(109, 116, 14, 0.3);
-  letter-spacing: 1px;
+  background: linear-gradient(135deg, #FF9800, #F57C00);
+  color: white;
 }
 
-.btn-check-mobile:hover:not(:disabled) {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(76, 175, 80, 0.4);
-}
-
-.btn-check-mobile:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  transform: none;
-}
-
-/* Esconder o botão Check original da barra secundária */
+/* Esconder botão Check original */
 #sentenceControls .secondary-buttons #btnCheckSentence {
   display: none;
 }
 
-/* Ajustes para mobile */
-@media (max-width: 768px) {
-  .btn-check-mobile {
-    padding: 12px 20px;
-    font-size: 0.9rem;
-    max-width: 100%;
-  }
-  
-  .check-button-container {
-    margin: 0.8rem 0 0.5rem 0;
-  }
-}
-
-/* Para desktop - manter o botão original e esconder o mobile? */
-/* Se quiser manter apenas o botão em cima também no desktop, remova esta regra */
-@media (min-width: 769px) {
-  /* Opcional: manter apenas o botão em cima também no desktop */
-  .btn-check-mobile {
-    max-width: 300px;
-  }
-}
 /* ============================================
-   CORREÇÃO DO TOPO PARA CELULAR - VERSÃO MELHORADA
+   MOBILE - AJUSTES (mantém tudo na tela)
    ============================================ */
 
-/* Container do select e botão Start */
-#sentenceControls .controls {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  margin-bottom: 1rem;
-}
-
-/* Grupo do select */
-#sentenceControls .control-group {
-  width: 100%;
-  margin-bottom: 0;
-}
-
-/* Label do select */
-#sentenceControls .control-group label {
-  display: block;
-  font-size: 0.7rem;
-  font-weight: 800;
-  color: #8A2BE2;
-  margin-bottom: 6px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-/* Select de nível */
-#sentenceLevelSelect {
-  width: 100%;
-  padding: 14px 16px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  border: 2px solid #8A2BE2;
-  border-radius: 14px;
-  background: white;
-  color: #333;
-  cursor: pointer;
-}
-
-/* Botão Start */
-#btnStartSentence {
-  width: 100%;
-  padding: 16px 20px;
-  font-size: 1rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  color: white;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  margin: 0.5rem 0;
-  transition: all 0.2s ease;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-#btnStartSentence:active {
-  transform: scale(0.98);
-}
-
-/* Estatísticas - layout em grid para celular */
-.sentence-builder-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
-  margin: 0.8rem 0;
-  padding: 0.8rem 0.5rem;
-  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
-  border-radius: 20px;
-  text-align: center;
-}
-
-.sentence-builder-stats span {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.sentence-builder-stats span span {
-  font-size: 1.3rem;
-  font-weight: 800;
-  color: white;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 4px 10px;
-  border-radius: 30px;
-  display: inline-block;
-  min-width: 50px;
-}
-
-/* Ajustes específicos para mobile */
 @media (max-width: 768px) {
-  /* Select */
   #sentenceLevelSelect {
-    padding: 12px 14px;
-    font-size: 0.9rem;
+    padding: 8px 6px;
+    font-size: 0.75rem;
   }
   
-  /* Botão Start */
   #btnStartSentence {
-    padding: 14px 16px;
-    font-size: 0.9rem;
+    padding: 8px 6px;
+    font-size: 0.7rem;
+    height: 38px;
   }
   
-  /* Estatísticas */
   .sentence-builder-stats {
-    gap: 0.3rem;
-    padding: 0.6rem 0.3rem;
-    border-radius: 16px;
+    padding: 0.4rem 0.6rem;
   }
   
   .sentence-builder-stats span {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
   
   .sentence-builder-stats span span {
-    font-size: 1.1rem;
-    padding: 3px 8px;
-    min-width: 45px;
+    font-size: 0.9rem;
+    padding: 2px 6px;
+    min-width: 30px;
   }
   
-  /* Label */
-  #sentenceControls .control-group label {
-    font-size: 0.65rem;
-    margin-bottom: 4px;
+  .sentence-word-btn, .sentence-built-word {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+  
+  .translation-text {
+    font-size: 0.9rem;
+  }
+  
+  .btn-check-mobile {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+  
+  .sentence-words-area, .sentence-built-area {
+    padding: 0.8rem;
   }
 }
 
-/* Para telas muito pequenas */
 @media (max-width: 480px) {
   .sentence-builder-stats span {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
   }
   
   .sentence-builder-stats span span {
-    font-size: 1rem;
-    padding: 2px 6px;
-    min-width: 40px;
+    font-size: 0.85rem;
   }
   
-  .sentence-builder-stats {
-    gap: 0.2rem;
-    padding: 0.5rem 0.2rem;
+  .sentence-word-btn, .sentence-built-word {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+  
+  .translation-text {
+    font-size: 0.85rem;
+  }
+  
+  .area-label {
+    font-size: 0.65rem;
   }
 }
 
-/* Desktop - manter layout original */
+/* Desktop - mantém o layout original */
 @media (min-width: 769px) {
+  .container {
+    max-width: 800px;
+    margin: 0.5rem auto;
+  }
+  
+  #sentenceLevelSelect {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+  
+  #btnStartSentence {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    height: auto;
+  }
+  
   .sentence-builder-stats {
-    display: flex;
     justify-content: center;
     gap: 2rem;
     padding: 0.75rem 1.5rem;
-    border-radius: 50px;
   }
   
   .sentence-builder-stats span {
-    flex-direction: row;
     gap: 0.5rem;
   }
   
-  .sentence-builder-stats span span {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 2px 10px;
-  }
-  
-  #sentenceControls .controls {
-    flex-direction: row;
-    align-items: flex-end;
-  }
-  
-  #sentenceLevelSelect {
-    width: auto;
-    min-width: 200px;
-  }
-  
-  #btnStartSentence {
-    width: auto;
-    margin-bottom: 0;
-    margin-left: 1rem;
+  .btn-check-mobile {
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
