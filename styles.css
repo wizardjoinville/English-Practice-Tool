@@ -2092,5 +2092,445 @@ label[for="grammarModeSelect"] {
     max-width: 180px;
   }
 }
+/* ============================================
+   SENTENCE BUILDER STYLES - SIMPLES E ORGANIZADO
+   ============================================ */
 
+/* Container principal do Sentence Builder */
+#sentenceControls {
+  margin-top: 0;
+}
 
+/* Caixa principal que envolve todo o conteúdo */
+.sentence-builder-wrapper {
+  background: white;
+  border-radius: 24px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+}
+
+/* Estatísticas */
+.sentence-builder-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 0 1.5rem 0;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
+  border-radius: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.sentence-builder-stats span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Área da tradução */
+.translation-area {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.translation-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #FFD700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.translation-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.translation-hint-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50px;
+  padding: 4px 12px;
+  font-size: 0.7rem;
+  color: #FFD700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.translation-hint {
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: #FFD700;
+}
+
+/* Labels das áreas */
+.area-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #8A2BE2;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.built-label {
+  color: #4CAF50;
+  margin-top: 1rem;
+}
+
+/* Área de palavras disponíveis */
+.sentence-words-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background: #f5f0ff;
+  border-radius: 16px;
+  padding: 1rem;
+  min-height: 100px;
+  border: 1px solid #8A2BE2;
+}
+
+/* Área da frase construída */
+.sentence-built-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background: #e8f5e9;
+  border-radius: 16px;
+  padding: 1rem;
+  min-height: 100px;
+  border: 1px solid #4CAF50;
+  margin-top: 0.5rem;
+}
+
+/* Botões de palavra */
+.sentence-word-btn {
+  background: linear-gradient(135deg, #8A2BE2, #7B1FA2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sentence-word-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(138, 43, 226, 0.3);
+}
+
+/* Botões da frase construída */
+.sentence-built-word {
+  background: linear-gradient(135deg, #4CAF50, #388E3C);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sentence-built-word:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #F44336, #D32F2F);
+}
+
+/* Feedback */
+.sentence-feedback {
+  margin-top: 1rem;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  display: none;
+  font-weight: 600;
+}
+
+.sentence-feedback.correct {
+  display: block;
+  background: #4CAF50;
+  color: white;
+}
+
+.sentence-feedback.incorrect {
+  display: block;
+  background: #F44336;
+  color: white;
+}
+
+/* Botões de ação */
+#sentenceControls .secondary-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+#btnCheckSentence, #btnResetSentence {
+  padding: 10px 24px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+#btnCheckSentence {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+}
+
+#btnCheckSentence:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+#btnResetSentence {
+  background: linear-gradient(135deg, #FF9800, #F57C00);
+  color: white;
+}
+
+#btnResetSentence:hover {
+  transform: translateY(-2px);
+}
+
+/* Botão Start */
+#btnStartSentence {
+  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#btnStartSentence:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+/* Nível */
+#sentenceContainer .difficulty {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  background: #8A2BE2;
+}
+
+/* Cores dos níveis */
+#sentenceContainer .difficulty.A1 { background: #4CAF50; }
+#sentenceContainer .difficulty.A2 { background: #8BC34A; }
+#sentenceContainer .difficulty.B1 { background: #FFC107; }
+#sentenceContainer .difficulty.B2 { background: #FF9800; }
+#sentenceContainer .difficulty.C1 { background: #FF5722; }
+#sentenceContainer .difficulty.C2 { background: #F44336; }
+
+/* Mensagem vazia */
+#sentenceContainer .empty-message {
+  padding: 30px 20px;
+  text-align: center;
+  color: #8A2BE2;
+  background: #f8f9ff;
+  border-radius: 16px;
+  border: 1px dashed #8A2BE2;
+}
+
+/* Select de nível */
+#sentenceLevelSelect {
+  background: white;
+  border: 1px solid #8A2BE2;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  width: 100%;
+}
+
+#sentenceLevelSelect:focus {
+  outline: none;
+  border-color: #6a1b9a;
+}
+
+/* Label do select */
+#sentenceControls .control-group label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sentence-word-btn, .sentence-built-word {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+  
+  .sentence-builder-stats {
+    gap: 1rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .translation-text {
+    font-size: 1rem;
+  }
+  
+  .sentence-builder-wrapper {
+    padding: 1rem;
+  }
+}
+/* ============================================
+   TRANSLATION AREA STYLES
+   ============================================ */
+
+.translation-area {
+  background: linear-gradient(135deg, #1a237e, #283593);
+  border-radius: 20px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.translation-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #FFD700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.translation-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.translation-hint-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  padding: 6px 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #FFD700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.translation-hint-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.02);
+}
+
+.translation-hint {
+  margin-top: 10px;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #FFD700;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+  .translation-text {
+    font-size: 1rem;
+  }
+  
+  .translation-area {
+    padding: 0.8rem;
+  }
+}
+/* ============================================
+   LABEL LEVEL MAIS VISÍVEL
+   ============================================ */
+
+/* Label do select de nível */
+#sentenceControls .control-group label[for="sentenceLevelSelect"] {
+  background: linear-gradient(135deg, #8A2BE2, #6a1b9a);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 50px;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.3);
+  margin-bottom: 8px;
+}
+
+/* Container do control-group para melhor espaçamento */
+#sentenceControls .control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+/* Select de nível também mais visível */
+#sentenceLevelSelect {
+  background: white;
+  border: 2px solid #8A2BE2;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4A4A5A;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+#sentenceLevelSelect:hover {
+  border-color: #6a1b9a;
+  background: #f8f9ff;
+  box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
+}
+
+#sentenceLevelSelect:focus {
+  outline: none;
+  border-color: #8A2BE2;
+  box-shadow: 0 0 0 4px rgba(138, 43, 226, 0.2);
+}
