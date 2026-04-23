@@ -15,6 +15,14 @@ let savedQuestions = JSON.parse(localStorage.getItem('savedQuestions')) || [];
 let currentMode = 'questions';
 let vocabularioHistorico = [];
 let phrasalHistorico = [];
+// Idiomatic Expressions
+let idiomaticExpressionsOriginal = [];
+let idiomaticExpressionsAtivo = [];
+let idiomaticExpressionsUsado = [];
+let idiomaticExpressionHistorico = [];
+let currentIdiom = null;
+const URL_IDIOMATIC = "idiomatic_expressions.json";
+let currentVocabMode = 'words'; // 'words' or 'idioms'
 
 
 
@@ -61,6 +69,9 @@ async function carregarDados() {
     if (!responseVocab.ok) throw new Error(`Failed to load vocabulary from ${URL_VOCABULARIO}`);
     vocabularioOriginal = await responseVocab.json();
     quizVocabulary = [...vocabularioOriginal];
+    const responseIdioms = await fetch(URL_IDIOMATIC);
+    if (!responseIdioms.ok) throw new Error(`Failed to load idioms from ${URL_IDIOMATIC}`);
+    idiomaticExpressionsOriginal = await responseIdioms.json();
 
     const responseGrammar = await fetch(URL_GRAMMAR);
     if (!responseGrammar.ok) throw new Error(`Failed to load grammar from ${URL_GRAMMAR}`);
@@ -187,6 +198,14 @@ function inicializarSelects() {
     phrasalVerbSelect.addEventListener('change', () => {
       filtrarPhrasalVerbs(); // Isso filtra quando o verbo é alterado
       atualizarBotoes();
+    });
+  }
+  // Vocab Mode Select
+  const vocabModeSelect = document.getElementById('vocabModeSelect');
+  if (vocabModeSelect) {
+    vocabModeSelect.addEventListener('change', () => {
+      filtrarVocabulario();
+      resetarVocabulario(); // Reset quando mudar de modo
     });
   }
 }
@@ -649,41 +668,42 @@ function resetarPerguntas() {
 // --- FUNÇÕES DE VOCABULÁRIO ---
 function filtrarVocabulario() {
   const nivel = document.getElementById('vocabLevelSelect').value;
+  const vocabMode = document.getElementById('vocabModeSelect').value;
 
-  if (nivel === 'all') {
-    vocabularioFiltrado = [...vocabularioOriginal];
-  } else {
-    // CORRIGIR: Verificar se vocabularioOriginal tem itens antes de filtrar
-    vocabularioFiltrado = vocabularioOriginal.filter(v => v && v.level === nivel);
-  }
+  if (vocabMode === 'words') {
+    if (nivel === 'all') {
+      vocabularioFiltrado = [...vocabularioOriginal];
+    } else {
+      vocabularioFiltrado = vocabularioOriginal.filter(v => v && v.level === nivel);
+    }
 
-  // Reiniciar vocabulário ativo e usado
-  vocabularioAtivo = [...vocabularioFiltrado];
-  vocabularioUsado = [];
-  currentVocabIndex = 0;
+    vocabularioAtivo = [...vocabularioFiltrado];
+    vocabularioUsado = [];
+    currentVocabIndex = 0;
 
-  // ATUALIZAR BOTÕES E MENSAGEM
-  atualizarBotoes();
-
-  // Mostrar mensagem de status
-  if (vocabularioFiltrado.length === 0) {
-    document.getElementById('vocabCard').style.display = 'none';
-    const vocabularyControls = document.getElementById('vocabularyControls');
-    const emptyMessage = vocabularyControls.querySelector('.empty-message');
-    if (!emptyMessage) {
-      vocabularyControls.insertAdjacentHTML('beforeend', `
-        <div class="empty-message">
-          <p>No vocabulary found for ${nivel} level.</p>
-        </div>
-      `);
+    // Mostrar mensagem de status
+    if (vocabularioFiltrado.length === 0) {
+      document.getElementById('vocabCard').style.display = 'none';
     }
   } else {
-    const emptyMessage = document.querySelector('#vocabularyControls .empty-message');
-    if (emptyMessage) emptyMessage.remove();
+    filtrarIdiomaticExpressions();
   }
+
+  atualizarBotoes();
 }
 
 function sortearVocabulario() {
+  const vocabMode = document.getElementById('vocabModeSelect').value;
+  currentVocabMode = vocabMode;
+
+  if (vocabMode === 'words') {
+    sortearPalavra();
+  } else {
+    sortearIdiomaticExpression();
+  }
+}
+
+function sortearPalavra() {
   // Verificar se há vocabulário disponível
   if (vocabularioAtivo.length === 0) {
     document.getElementById('vocabCard').style.display = 'none';
@@ -713,7 +733,7 @@ function sortearVocabulario() {
   vocabularioAtivo.splice(indiceSorteado, 1);
   vocabularioUsado.push(palavraSorteada);
 
-  // 👉 Guardar no histórico para permitir "voltar"
+  // Guardar no histórico
   vocabularioHistorico.push(palavraSorteada);
 
   // Exibir a palavra
@@ -723,22 +743,38 @@ function sortearVocabulario() {
   atualizarBotoes();
 }
 function voltarVocabulario() {
-  if (vocabularioHistorico.length < 2) {
-    alert("No previous word to return to.");
-    return;
+  const vocabMode = document.getElementById('vocabModeSelect').value;
+
+  if (vocabMode === 'words') {
+    if (vocabularioHistorico.length < 2) {
+      alert("No previous word to return to.");
+      return;
+    }
+    vocabularioHistorico.pop();
+    const palavraAnterior = vocabularioHistorico[vocabularioHistorico.length - 1];
+    exibirVocabulario(palavraAnterior);
+  } else {
+    if (idiomaticExpressionHistorico.length < 2) {
+      alert("No previous idiom to return to.");
+      return;
+    }
+    idiomaticExpressionHistorico.pop();
+    const idiomAnterior = idiomaticExpressionHistorico[idiomaticExpressionHistorico.length - 1];
+    exibirIdiomaticExpression(idiomAnterior);
   }
-
-  // Remover a última sorteada
-  vocabularioHistorico.pop();
-
-  // Pegar a anterior
-  const palavraAnterior = vocabularioHistorico[vocabularioHistorico.length - 1];
-
-  // Mostrar de novo
-  exibirVocabulario(palavraAnterior);
 }
 
 function resetarVocabulario() {
+  const vocabMode = document.getElementById('vocabModeSelect').value;
+
+  if (vocabMode === 'words') {
+    resetarPalavras();
+  } else {
+    resetarIdiomaticExpressions();
+  }
+}
+
+function resetarPalavras() {
   const nivel = document.getElementById('vocabLevelSelect').value;
 
   if (nivel === 'all') {
@@ -749,6 +785,7 @@ function resetarVocabulario() {
 
   vocabularioUsado = [];
   currentVocabIndex = 0;
+  vocabularioHistorico = [];
 
   document.getElementById('vocabCard').style.display = 'none';
 
@@ -766,10 +803,9 @@ function resetarVocabulario() {
   resetMessage.className = 'empty-message';
   resetMessage.innerHTML = `
     <p>Vocabulary has been reset.</p>
-    <p>Click "Practice Vocabulary" to draw a new word.</p>
+    <p>Click "Practice" to draw a new word.</p>
   `;
 
-  // Verificar se já existe uma mensagem para não duplicar
   if (!vocabularyControls.querySelector('.empty-message')) {
     vocabularyControls.appendChild(resetMessage);
   }
@@ -820,7 +856,160 @@ setTimeout(() => {
   addVoiceToVocabulary();
 }, 100);
 
-// YouGlish removed
+// ============================================
+// FUNÇÕES PARA IDIOMATIC EXPRESSIONS
+// ============================================
+
+function filtrarIdiomaticExpressions() {
+  const nivel = document.getElementById('vocabLevelSelect').value;
+
+  if (nivel === 'all') {
+    idiomaticExpressionsAtivo = [...idiomaticExpressionsOriginal];
+  } else {
+    idiomaticExpressionsAtivo = idiomaticExpressionsOriginal.filter(exp => exp && exp.level === nivel);
+  }
+
+  idiomaticExpressionsUsado = [];
+  currentIdiom = null;
+  idiomaticExpressionHistorico = [];
+
+  // Atualizar botões
+  atualizarBotoes();
+
+  // Mostrar mensagem de status
+  if (idiomaticExpressionsAtivo.length === 0) {
+    document.getElementById('vocabCard').style.display = 'none';
+    const vocabularyControls = document.getElementById('vocabularyControls');
+    const emptyMessage = vocabularyControls.querySelector('.empty-message');
+    if (!emptyMessage) {
+      vocabularyControls.insertAdjacentHTML('beforeend', `
+        <div class="empty-message">
+          <p>No idiomatic expressions found for ${nivel} level.</p>
+        </div>
+      `);
+    }
+  }
+}
+
+function sortearIdiomaticExpression() {
+  // Verificar se há expressões disponíveis
+  if (idiomaticExpressionsAtivo.length === 0) {
+    document.getElementById('vocabCard').style.display = 'none';
+    const vocabularyControls = document.getElementById('vocabularyControls');
+    const emptyMessage = vocabularyControls.querySelector('.empty-message');
+    if (!emptyMessage) {
+      vocabularyControls.insertAdjacentHTML('beforeend', `
+        <div class="empty-message">
+          <p>No more idioms left. Click "Reset" to start again.</p>
+        </div>
+      `);
+    }
+    return;
+  }
+
+  // Sortear uma expressão aleatória
+  const indiceSorteado = Math.floor(Math.random() * idiomaticExpressionsAtivo.length);
+  currentIdiom = idiomaticExpressionsAtivo[indiceSorteado];
+
+  // Remover do ativo e colocar no usado
+  idiomaticExpressionsAtivo.splice(indiceSorteado, 1);
+  idiomaticExpressionsUsado.push(currentIdiom);
+
+  // Guardar no histórico
+  idiomaticExpressionHistorico.push(currentIdiom);
+
+  // Exibir a expressão
+  exibirIdiomaticExpression(currentIdiom);
+
+  // Atualizar botões
+  atualizarBotoes();
+}
+
+function exibirIdiomaticExpression(idiom) {
+  const vocabCard = document.getElementById('vocabCard');
+  vocabCard.style.display = 'block';
+
+  document.getElementById('vocabLevel').className = `difficulty ${idiom.level}`;
+  document.getElementById('vocabLevel').textContent = idiom.level;
+  document.getElementById('vocabWord').textContent = idiom.expression;
+  document.getElementById('vocabTranslation').textContent = idiom.translation;
+
+  // Definir definição em inglês e português
+  document.getElementById('vocabDefinition').innerHTML = `
+    <strong>English:</strong> ${idiom.definition_en}<br>
+    <strong>Português:</strong> ${idiom.definition_pt}
+  `;
+
+  // Destacar a expressão no exemplo
+  let exemploDestacado = idiom.example;
+  if (idiom.expression && idiom.example) {
+    const regex = new RegExp(`\\b${idiom.expression.replace(/\*/g, '\\*')}\\b`, 'gi');
+    exemploDestacado = idiom.example.replace(regex, `<span class="vocab-highlight">$&</span>`);
+  }
+
+  document.getElementById('vocabExample').innerHTML = `Example: ${exemploDestacado}`;
+
+  // Esconder a tradução inicialmente
+  document.getElementById('vocabTranslation').style.display = 'none';
+
+  // Adicionar voz
+  setTimeout(() => {
+    addVoiceToVocabulary();
+  }, 100);
+}
+
+function voltarIdiomaticExpression() {
+  if (idiomaticExpressionHistorico.length < 2) {
+    alert("No previous idiom to return to.");
+    return;
+  }
+
+  // Remover a última sorteada
+  idiomaticExpressionHistorico.pop();
+
+  // Pegar a anterior
+  const idiomAnterior = idiomaticExpressionHistorico[idiomaticExpressionHistorico.length - 1];
+
+  // Mostrar de novo
+  exibirIdiomaticExpression(idiomAnterior);
+}
+
+function resetarIdiomaticExpressions() {
+  const nivel = document.getElementById('vocabLevelSelect').value;
+
+  if (nivel === 'all') {
+    idiomaticExpressionsAtivo = [...idiomaticExpressionsOriginal];
+  } else {
+    idiomaticExpressionsAtivo = idiomaticExpressionsOriginal.filter(exp => exp.level === nivel);
+  }
+
+  idiomaticExpressionsUsado = [];
+  idiomaticExpressionHistorico = [];
+  currentIdiom = null;
+
+  document.getElementById('vocabCard').style.display = 'none';
+
+  // Remover mensagem de empty se existir
+  const emptyMessage = document.querySelector('#vocabularyControls .empty-message');
+  if (emptyMessage) {
+    emptyMessage.remove();
+  }
+
+  atualizarBotoes();
+
+  // Mostrar mensagem de reset
+  const vocabularyControls = document.getElementById('vocabularyControls');
+  const resetMessage = document.createElement('div');
+  resetMessage.className = 'empty-message';
+  resetMessage.innerHTML = `
+    <p>Idiomatic expressions have been reset.</p>
+    <p>Click "Practice" to draw a new expression.</p>
+  `;
+
+  if (!vocabularyControls.querySelector('.empty-message')) {
+    vocabularyControls.appendChild(resetMessage);
+  }
+}
 
 // --- FUNÇÕES DE QUIZ ---
 
@@ -923,7 +1112,7 @@ function exibirQuizQuestion() {
     </div>
     <div class="quiz-feedback" id="quizFeedback"></div>
   `;
-  
+
 
   // Adicionar evento de áudio
   document.getElementById("btnSpeakQuiz").onclick = () => {
@@ -2920,7 +3109,7 @@ function refreshByLevel() {
   sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
-  
+
   // Se o jogo estiver ativo, reiniciar com as novas frases
   if (isGameActive) {
     currentSentenceObj = null;
@@ -2941,40 +3130,40 @@ function refreshByLevel() {
   }
 
   startBtn.disabled = false;
-  
+
   // Garantir que o select fique sempre visível e habilitado
   levelSelect.style.display = 'block';
   levelSelect.disabled = false;
-  
+
   updateSentenceStats();
 }
 
 function startSentenceBuilder() {
   const levelSelect = document.getElementById('sentenceLevelSelect');
   const startBtn = document.getElementById('btnStartSentence');
-  
+
   if (!levelSelect || !startBtn) return;
-  
+
   const level = levelSelect.value;
   const filtered = SENTENCE_DATA.filter(s => s.level === level);
-  
+
   if (filtered.length === 0) {
     alert('Nenhuma frase disponível para este nível.');
     return;
   }
-  
+
   sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
   isChecking = false;
   isGameActive = true;
-  
+
   shuffleArray(sentenceQueue);
   loadNextSentence();
-  
+
   // Esconder o botão Start
   startBtn.style.display = 'none';
-  
+
   // Manter o select VISÍVEL e HABILITADO
   levelSelect.style.display = 'block';
   levelSelect.disabled = false;
@@ -2998,7 +3187,7 @@ function loadNextSentence() {
 
   // Resetar flags antes de carregar nova frase
   isChecking = false;
-  
+
   currentSentenceObj = sentenceQueue[0];
   availableWords = [...currentSentenceObj.words];
   builtWords = [];
@@ -3026,7 +3215,7 @@ function shuffleArray(arr) {
 function renderSentenceBuilder() {
   const container = document.getElementById('sentenceContainer');
   if (!container || !currentSentenceObj) return;
-  
+
   container.innerHTML = `
     <div class="sentence-builder-wrapper">
       <div class="translation-area">
@@ -3061,20 +3250,20 @@ function renderSentenceBuilder() {
       <div id="sentenceFeedback" class="sentence-feedback"></div>
     </div>
   `;
-  
+
   // Adicionar evento do botão de voz
   const voiceBtn = document.getElementById('voiceSentenceBtn');
   if (voiceBtn) {
     // Remove listener antigo se existir
     const newVoiceBtn = voiceBtn.cloneNode(true);
     voiceBtn.parentNode.replaceChild(newVoiceBtn, voiceBtn);
-    
+
     newVoiceBtn.addEventListener('click', () => {
       if (!currentSentenceObj) {
         alert('Nenhuma frase ativa. Inicie o Sentence Builder primeiro.');
         return;
       }
-      
+
       const expectedSentence = currentSentenceObj.correct;
       startVoiceRecordingForSentence(expectedSentence);
     });
@@ -3092,22 +3281,22 @@ function startVoiceRecordingForSentence(expectedAnswer) {
     alert('Seu navegador não suporta reconhecimento de voz. Use Chrome, Edge ou Safari.');
     return;
   }
-  
+
   if (isSentenceRecording) {
     stopSentenceVoiceRecording();
     return;
   }
-  
+
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   sentenceRecognition = new SpeechRecognition();
-  
+
   sentenceRecognition.continuous = false;
   sentenceRecognition.interimResults = false;
   sentenceRecognition.lang = 'en-US';
-  
+
   const voiceBtn = document.getElementById('voiceSentenceBtn');
   const feedbackDiv = document.getElementById('voiceSentenceFeedback');
-  
+
   sentenceRecognition.onstart = () => {
     isSentenceRecording = true;
     if (voiceBtn) {
@@ -3115,7 +3304,7 @@ function startVoiceRecordingForSentence(expectedAnswer) {
       voiceBtn.innerHTML = '🎤 Gravando... Parar';
     }
   };
-  
+
   sentenceRecognition.onend = () => {
     isSentenceRecording = false;
     if (voiceBtn) {
@@ -3123,11 +3312,11 @@ function startVoiceRecordingForSentence(expectedAnswer) {
       voiceBtn.innerHTML = '🎤 Falar Frase Completa';
     }
   };
-  
+
   sentenceRecognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     const result = comparePronunciation(transcript, expectedAnswer);
-    
+
     if (feedbackDiv) {
       if (result.isCorrect) {
         feedbackDiv.className = 'voice-feedback correct';
@@ -3136,10 +3325,10 @@ function startVoiceRecordingForSentence(expectedAnswer) {
           <div class="voice-transcript">Você disse: "${result.userOriginal}"</div>
         `;
         feedbackDiv.style.display = 'block';
-        
+
         // Processar a resposta correta
         processCorrectSentence(transcript, expectedAnswer);
-        
+
       } else {
         feedbackDiv.className = 'voice-feedback incorrect';
         feedbackDiv.innerHTML = `
@@ -3150,7 +3339,7 @@ function startVoiceRecordingForSentence(expectedAnswer) {
         `;
         feedbackDiv.style.display = 'block';
       }
-      
+
       // Esconder feedback de voz após 3 segundos
       setTimeout(() => {
         if (feedbackDiv) {
@@ -3158,10 +3347,10 @@ function startVoiceRecordingForSentence(expectedAnswer) {
         }
       }, 3000);
     }
-    
+
     stopSentenceVoiceRecording();
   };
-  
+
   sentenceRecognition.onerror = (event) => {
     console.error('Erro no reconhecimento:', event.error);
     if (feedbackDiv) {
@@ -3177,7 +3366,7 @@ function startVoiceRecordingForSentence(expectedAnswer) {
     }
     stopSentenceVoiceRecording();
   };
-  
+
   sentenceRecognition.start();
 }
 
@@ -3187,7 +3376,7 @@ function stopSentenceVoiceRecording() {
     sentenceRecognition = null;
   }
   isSentenceRecording = false;
-  
+
   const voiceBtn = document.getElementById('voiceSentenceBtn');
   if (voiceBtn) {
     voiceBtn.classList.remove('recording');
@@ -3275,13 +3464,13 @@ function checkSentence() {
       sentenceFeedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
       sentenceFeedbackDiv.style.display = 'block';
     }
-    
+
     updateSentenceStats();
 
     setTimeout(() => {
       isChecking = false;
       if (sentenceFeedbackDiv) sentenceFeedbackDiv.style.display = 'none';
-      
+
       if (sentenceQueue.length === 0) {
         const container = document.getElementById('sentenceContainer');
         const startBtn = document.getElementById('btnStartSentence');
@@ -3294,7 +3483,7 @@ function checkSentence() {
         loadNextSentence();
       }
     }, 2000);
-    
+
   } else {
     console.log("❌ CLIQUE - FRASE INCORRETA");
     isChecking = true;
@@ -3306,7 +3495,7 @@ function checkSentence() {
       sentenceFeedbackDiv.innerHTML = `❌❌❌ INCORRETO! ❌❌❌<br><br>Frase correta: <strong>"${escapeHtml(correctSentence)}"</strong><br><br>Você vai tentar novamente! 🔄`;
       sentenceFeedbackDiv.style.display = 'block';
     }
-    
+
     updateSentenceStats();
 
     setTimeout(() => {
@@ -3343,7 +3532,7 @@ function resetSentenceBuilder() {
 
   // Mostrar o botão Start novamente
   startBtn.style.display = 'flex';
-  
+
   // Manter o select VISÍVEL e HABILITADO
   levelSelect.style.display = 'block';
   levelSelect.disabled = false;
@@ -3391,125 +3580,125 @@ if (!isSpeechSupported) {
 // Função para inicializar o reconhecimento de voz
 function initSpeechRecognition() {
   if (!isSpeechSupported) return null;
-  
+
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   const recognitionInstance = new SpeechRecognition();
-  
+
   recognitionInstance.continuous = false;
   recognitionInstance.interimResults = false;
   recognitionInstance.lang = 'en-US';
-  
+
   return recognitionInstance;
 }
 
 // Função para normalizar texto (remover pontuação, lowercase, etc.)
 // Função para converter números ordinais/falados de volta para palavras
 function convertNumbersToWords(text) {
-    // Mapeamento de números ordinais e cardinais
-    const numberMap = {
-        // Ordinais
-        '1st': 'first',
-        '2nd': 'second', 
-        '3rd': 'third',
-        '4th': 'fourth',
-        '5th': 'fifth',
-        '6th': 'sixth',
-        '7th': 'seventh',
-        '8th': 'eighth',
-        '9th': 'ninth',
-        '10th': 'tenth',
-        '11th': 'eleventh',
-        '12th': 'twelfth',
-        '13th': 'thirteenth',
-        '14th': 'fourteenth',
-        '15th': 'fifteenth',
-        '16th': 'sixteenth',
-        '17th': 'seventeenth',
-        '18th': 'eighteenth',
-        '19th': 'nineteenth',
-        '20th': 'twentieth',
-        '21st': 'twenty-first',
-        '22nd': 'twenty-second',
-        '23rd': 'twenty-third',
-        '24th': 'twenty-fourth',
-        '25th': 'twenty-fifth',
-        '30th': 'thirtieth',
-        '31st': 'thirty-first',
-        // Cardinais simples
-        '1': 'one',
-        '2': 'two',
-        '3': 'three',
-        '4': 'four',
-        '5': 'five',
-        '6': 'six',
-        '7': 'seven',
-        '8': 'eight',
-        '9': 'nine',
-        '10': 'ten',
-        '11': 'eleven',
-        '12': 'twelve',
-        '13': 'thirteen',
-        '14': 'fourteen',
-        '15': 'fifteen',
-        '16': 'sixteen',
-        '17': 'seventeen',
-        '18': 'eighteen',
-        '19': 'nineteen',
-        '20': 'twenty',
-        '21': 'twenty-one',
-        '22': 'twenty-two',
-        '23': 'twenty-three',
-        '24': 'twenty-four',
-        '25': 'twenty-five',
-        '30': 'thirty',
-        '31': 'thirty-one'
-    };
-    
-    let converted = text;
-    
-    // Ordenar pelas chaves mais longas primeiro para evitar substituições parciais
-    const sortedKeys = Object.keys(numberMap).sort((a, b) => b.length - a.length);
-    
-    for (const key of sortedKeys) {
-        // Usar regex para substituir números inteiros, não partes de palavras
-        const regex = new RegExp(`\\b${key}\\b`, 'gi');
-        converted = converted.replace(regex, numberMap[key]);
-    }
-    
-    return converted;
+  // Mapeamento de números ordinais e cardinais
+  const numberMap = {
+    // Ordinais
+    '1st': 'first',
+    '2nd': 'second',
+    '3rd': 'third',
+    '4th': 'fourth',
+    '5th': 'fifth',
+    '6th': 'sixth',
+    '7th': 'seventh',
+    '8th': 'eighth',
+    '9th': 'ninth',
+    '10th': 'tenth',
+    '11th': 'eleventh',
+    '12th': 'twelfth',
+    '13th': 'thirteenth',
+    '14th': 'fourteenth',
+    '15th': 'fifteenth',
+    '16th': 'sixteenth',
+    '17th': 'seventeenth',
+    '18th': 'eighteenth',
+    '19th': 'nineteenth',
+    '20th': 'twentieth',
+    '21st': 'twenty-first',
+    '22nd': 'twenty-second',
+    '23rd': 'twenty-third',
+    '24th': 'twenty-fourth',
+    '25th': 'twenty-fifth',
+    '30th': 'thirtieth',
+    '31st': 'thirty-first',
+    // Cardinais simples
+    '1': 'one',
+    '2': 'two',
+    '3': 'three',
+    '4': 'four',
+    '5': 'five',
+    '6': 'six',
+    '7': 'seven',
+    '8': 'eight',
+    '9': 'nine',
+    '10': 'ten',
+    '11': 'eleven',
+    '12': 'twelve',
+    '13': 'thirteen',
+    '14': 'fourteen',
+    '15': 'fifteen',
+    '16': 'sixteen',
+    '17': 'seventeen',
+    '18': 'eighteen',
+    '19': 'nineteen',
+    '20': 'twenty',
+    '21': 'twenty-one',
+    '22': 'twenty-two',
+    '23': 'twenty-three',
+    '24': 'twenty-four',
+    '25': 'twenty-five',
+    '30': 'thirty',
+    '31': 'thirty-one'
+  };
+
+  let converted = text;
+
+  // Ordenar pelas chaves mais longas primeiro para evitar substituições parciais
+  const sortedKeys = Object.keys(numberMap).sort((a, b) => b.length - a.length);
+
+  for (const key of sortedKeys) {
+    // Usar regex para substituir números inteiros, não partes de palavras
+    const regex = new RegExp(`\\b${key}\\b`, 'gi');
+    converted = converted.replace(regex, numberMap[key]);
+  }
+
+  return converted;
 }
 
 // Função para normalizar texto (remover pontuação, lowercase, converter números)
 function normalizeText(text) {
-    if (!text) return '';
-    
-    let normalized = text
-        .toLowerCase()
-        .trim();
-    
-    // Primeiro, converter números para palavras
-    normalized = convertNumbersToWords(normalized);
-    
-    // Depois remover pontuação
-    normalized = normalized
-        .replace(/[^\w\s]/g, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-    
-    return normalized;
+  if (!text) return '';
+
+  let normalized = text
+    .toLowerCase()
+    .trim();
+
+  // Primeiro, converter números para palavras
+  normalized = convertNumbersToWords(normalized);
+
+  // Depois remover pontuação
+  normalized = normalized
+    .replace(/[^\w\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return normalized;
 }
 
 // Função para calcular distância de Levenshtein
 function levenshteinDistance(a, b) {
   const matrix = [];
-  
+
   for (let i = 0; i <= b.length; i++) {
     matrix[i] = [i];
   }
   for (let j = 0; j <= a.length; j++) {
     matrix[0][j] = j;
   }
-  
+
   for (let i = 1; i <= b.length; i++) {
     for (let j = 1; j <= a.length; j++) {
       const cost = a[j - 1] === b[i - 1] ? 0 : 1;
@@ -3520,7 +3709,7 @@ function levenshteinDistance(a, b) {
       );
     }
   }
-  
+
   return matrix[b.length][a.length];
 }
 
@@ -3528,14 +3717,14 @@ function levenshteinDistance(a, b) {
 function calculateSimilarity(userText, expectedText) {
   const normalizedUser = normalizeText(userText);
   const normalizedExpected = normalizeText(expectedText);
-  
+
   if (normalizedUser === normalizedExpected) return 100;
-  
+
   const distance = levenshteinDistance(normalizedUser, normalizedExpected);
   const maxLength = Math.max(normalizedUser.length, normalizedExpected.length);
-  
+
   if (maxLength === 0) return 0;
-  
+
   const similarity = ((maxLength - distance) / maxLength) * 100;
   return Math.max(0, Math.min(100, similarity));
 }
@@ -3544,7 +3733,7 @@ function calculateSimilarity(userText, expectedText) {
 function comparePronunciation(userText, expectedText, threshold = 70) {
   const similarity = calculateSimilarity(userText, expectedText);
   const isCorrect = similarity >= threshold;
-  
+
   return {
     isCorrect,
     similarity,
@@ -3559,7 +3748,7 @@ function comparePronunciation(userText, expectedText, threshold = 70) {
 function showVoiceFeedback(elementId, result) {
   const feedbackDiv = document.getElementById(elementId);
   if (!feedbackDiv) return;
-  
+
   if (result.isCorrect) {
     feedbackDiv.className = 'voice-feedback correct';
     feedbackDiv.innerHTML = `
@@ -3575,9 +3764,9 @@ function showVoiceFeedback(elementId, result) {
       <div class="similarity-score">Tente novamente! Foque na pronúncia correta.</div>
     `;
   }
-  
+
   feedbackDiv.style.display = 'block';
-  
+
   setTimeout(() => {
     if (feedbackDiv) {
       feedbackDiv.style.display = 'none';
@@ -3591,45 +3780,45 @@ function startVoiceRecording(context, expectedAnswer, callback) {
     alert('Seu navegador não suporta reconhecimento de voz. Use Chrome, Edge ou Safari.');
     return;
   }
-  
+
   if (isRecording) {
     stopVoiceRecording();
     return;
   }
-  
+
   currentVoiceContext = context;
   currentExpectedAnswer = expectedAnswer;
-  
+
   recognition = initSpeechRecognition();
   if (!recognition) return;
-  
+
   recognition.onstart = () => {
     isRecording = true;
     updateVoiceButtonState(context, true);
   };
-  
+
   recognition.onend = () => {
     isRecording = false;
     updateVoiceButtonState(context, false);
   };
-  
+
   recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     const result = comparePronunciation(transcript, expectedAnswer);
-    
+
     if (callback) {
       callback(result, transcript);
     }
-    
+
     stopVoiceRecording();
   };
-  
+
   recognition.onerror = (event) => {
     console.error('Erro no reconhecimento de voz:', event.error);
     showVoiceError(context, event.error);
     stopVoiceRecording();
   };
-  
+
   recognition.start();
 }
 
@@ -3702,25 +3891,25 @@ function getVoiceFeedbackId(context) {
 function addVoiceToVocabulary() {
   const vocabCard = document.getElementById('vocabCard');
   if (!vocabCard) return;
-  
+
   if (document.getElementById('voiceVocabBtn')) return;
-  
+
   const voiceContainer = document.createElement('div');
   voiceContainer.className = 'voice-controls';
   voiceContainer.innerHTML = `
     <button id="voiceVocabBtn" class="voice-btn voice-vocab-btn">🎤 Falar Palavra</button>
     <div id="voiceVocabFeedback" class="voice-feedback"></div>
   `;
-  
+
   vocabCard.appendChild(voiceContainer);
-  
+
   document.getElementById('voiceVocabBtn').addEventListener('click', () => {
     const vocabWord = document.getElementById('vocabWord');
     if (!vocabWord || !vocabWord.textContent) {
       alert('Nenhuma palavra de vocabulário ativa.');
       return;
     }
-    
+
     const expectedWord = vocabWord.textContent;
     startVoiceRecording('vocab', expectedWord, (result, transcript) => {
       showVoiceFeedback('voiceVocabFeedback', result);
@@ -3735,25 +3924,25 @@ function addVoiceToVocabulary() {
 function addVoiceToPhrasal() {
   const phrasalCard = document.getElementById('phrasalCard');
   if (!phrasalCard) return;
-  
+
   if (document.getElementById('voicePhrasalBtn')) return;
-  
+
   const voiceContainer = document.createElement('div');
   voiceContainer.className = 'voice-controls';
   voiceContainer.innerHTML = `
     <button id="voicePhrasalBtn" class="voice-btn voice-phrasal-btn">🎤 Falar Phrasal Verb</button>
     <div id="voicePhrasalFeedback" class="voice-feedback"></div>
   `;
-  
+
   phrasalCard.appendChild(voiceContainer);
-  
+
   document.getElementById('voicePhrasalBtn').addEventListener('click', () => {
     const phrasalVerb = document.getElementById('phrasalVerb');
     if (!phrasalVerb || !phrasalVerb.textContent) {
       alert('Nenhum phrasal verb ativo.');
       return;
     }
-    
+
     const expectedVerb = phrasalVerb.textContent;
     startVoiceRecording('phrasal', expectedVerb, (result, transcript) => {
       showVoiceFeedback('voicePhrasalFeedback', result);
@@ -3770,11 +3959,11 @@ function initVoiceFeatures() {
     console.log('WebSpeech API não suportada. Funcionalidade de voz desabilitada.');
     return;
   }
-  
+
   // Observer para quando os modos são ativados
   const observer = new MutationObserver(() => {
     const currentDisplay = document.querySelector('[style*="display: block"]')?.id;
-    
+
     if (currentDisplay === 'vocabularyControls' && document.getElementById('vocabCard').style.display === 'block') {
       setTimeout(addVoiceToVocabulary, 100);
     }
@@ -3782,7 +3971,7 @@ function initVoiceFeatures() {
       setTimeout(addVoiceToPhrasal, 100);
     }
   });
-  
+
   observer.observe(document.body, { attributes: true, subtree: true, attributeFilter: ['style'] });
 }
 
@@ -3808,9 +3997,9 @@ function processCorrectSentence(spokenText, expectedAnswer) {
     console.log("Já está verificando, ignorando...");
     return;
   }
-  
+
   const sentenceFeedbackDiv = document.getElementById('sentenceFeedback');
-  
+
   // 🔥 CORREÇÃO: Função de normalização mais robusta
   const normalizeForComparison = (str) => {
     if (!str) return '';
@@ -3820,10 +4009,10 @@ function processCorrectSentence(spokenText, expectedAnswer) {
       .replace(/\s+/g, ' ')      // Normaliza espaços
       .trim();
   };
-  
+
   const normalizedSpoken = normalizeForComparison(spokenText);
   const normalizedExpected = normalizeForComparison(expectedAnswer);
-  
+
   console.log("=== COMPARAÇÃO ===");
   console.log("Falado ORIGINAL:", `"${spokenText}"`);
   console.log("Falado NORMALIZADO:", `"${normalizedSpoken}"`);
@@ -3831,30 +4020,30 @@ function processCorrectSentence(spokenText, expectedAnswer) {
   console.log("Esperado NORMALIZADO:", `"${normalizedExpected}"`);
   console.log("São iguais?", normalizedSpoken === normalizedExpected);
   console.log("SentenceQueue length:", sentenceQueue.length);
-  
+
   // Verificar se a frase está correta
   if (normalizedSpoken === normalizedExpected && sentenceQueue.length > 0) {
     console.log("✅✅✅ FRASE CORRETA! Processando...");
-    
+
     isChecking = true;
     sentenceCorrectCount++;
     sentenceQueue.shift(); // Remove a frase atual da fila
-    
+
     // Mostrar feedback visual
     if (sentenceFeedbackDiv) {
       sentenceFeedbackDiv.className = 'sentence-feedback correct';
       sentenceFeedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
       sentenceFeedbackDiv.style.display = 'block';
     }
-    
+
     // Atualizar estatísticas
     updateSentenceStats();
-    
+
     // Aguardar e carregar próxima frase
     setTimeout(() => {
       isChecking = false;
       if (sentenceFeedbackDiv) sentenceFeedbackDiv.style.display = 'none';
-      
+
       // Verificar se ainda há frases
       if (sentenceQueue.length === 0) {
         console.log("🏆 JOGO TERMINADO!");
@@ -3870,33 +4059,33 @@ function processCorrectSentence(spokenText, expectedAnswer) {
         loadNextSentence();
       }
     }, 2000);
-    
+
   } else {
     console.log("❌ Frase incorreta - normalizados diferentes");
-    
+
     // Tenta extrair palavras e montar automaticamente se o texto for similar
     if (sentenceQueue.length > 0 && currentSentenceObj) {
       const spokenWords = normalizeForComparison(spokenText).split(/\s+/);
       const expectedWords = normalizeForComparison(expectedAnswer).split(/\s+/);
-      
+
       // Verificar se as palavras são as mesmas (ignorando ordem)
       const spokenSet = new Set(spokenWords);
       const expectedSet = new Set(expectedWords);
       let allWordsMatch = true;
-      
+
       for (const word of expectedSet) {
         if (!spokenSet.has(word)) {
           allWordsMatch = false;
           break;
         }
       }
-      
+
       if (allWordsMatch && spokenWords.length === expectedWords.length) {
         console.log("🔧 Palavras correspondem! Montando frase automaticamente...");
         builtWords = [...expectedWords];
         availableWords = [];
         renderSentenceBuilder();
-        
+
         // Verificar a frase após montar
         setTimeout(() => {
           checkSentence();
