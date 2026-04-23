@@ -250,13 +250,13 @@ function proximoExercicio() {
     feedbackElement.className = 'exercise-feedback';
     feedbackElement.style.display = 'none';
   }
-  
+
   // Limpar resposta correta
   const correctAnswerElement = document.getElementById('exerciseCorrectAnswer');
   if (correctAnswerElement) {
     correctAnswerElement.style.display = 'none';
   }
-  
+
   // Verificar se ainda há exercícios
   if (grammarActiveExercises.length === 0) {
     const exerciseContainer = document.getElementById('exerciseContainer');
@@ -275,19 +275,19 @@ function proximoExercicio() {
     if (checkBtn) checkBtn.disabled = true;
     return;
   }
-  
+
   // Garantir que o índice esteja dentro dos limites
   if (currentExerciseIndex >= grammarActiveExercises.length) {
     currentExerciseIndex = 0;
   }
-  
+
   // Recriar o exercício atual (que pode ser o mesmo ou um novo)
   iniciarExercicios(grammarActiveExercises);
-  
+
   // Reabilitar o botão de verificação
   const checkBtn = document.getElementById('btnCheckExercise');
   if (checkBtn) checkBtn.disabled = false;
-  
+
   // Habilitar campo de resposta se existir
   const userAnswerElement = document.getElementById('exerciseAnswer');
   if (userAnswerElement) {
@@ -295,13 +295,13 @@ function proximoExercicio() {
     userAnswerElement.value = '';
     userAnswerElement.focus();
   }
-  
+
   // Reabilitar botão inline se existir
   const inlineCheckBtn = document.getElementById('inlineCheckBtn');
   if (inlineCheckBtn) {
     inlineCheckBtn.disabled = false;
   }
-  
+
   // Reabilitar inputs de lacunas se existirem
   const gapInputs = document.querySelectorAll('.gap-input');
   gapInputs.forEach(input => {
@@ -319,7 +319,7 @@ function criarExercicioComLacunas(exercise, modeDisplay = '') {
   // Dividir a pergunta nas lacunas
   const parts = exercise.question.split('_____');
   const numGaps = parts.length - 1;
-  
+
   // Obter respostas
   let answers;
   if (Array.isArray(exercise.answer)) {
@@ -327,14 +327,14 @@ function criarExercicioComLacunas(exercise, modeDisplay = '') {
   } else {
     answers = typeof exercise.answer === 'string' ? exercise.answer.split(',') : [exercise.answer];
   }
-  
+
   // Criar HTML
   let questionHTML = `
     ${modeDisplay}
     <div class="exercise-title">${exercise.instruction || 'Complete the sentence'}</div>
     <div class="exercise-content" style="font-size: 1rem; line-height: 1.6;">
   `;
-  
+
   parts.forEach((part, index) => {
     questionHTML += `<span>${part}</span>`;
     if (index < numGaps) {
@@ -349,12 +349,12 @@ function criarExercicioComLacunas(exercise, modeDisplay = '') {
       `;
     }
   });
-  
+
   questionHTML += `</div>`;
-  
+
   const exerciseContainer = document.getElementById('exerciseContainer');
   if (!exerciseContainer) return;
-  
+
   exerciseContainer.innerHTML = questionHTML + `
     <div class="exercise-buttons" style="margin-top: 20px; text-align: center;">
       <button class="check-btn" id="inlineCheckBtn" style="padding: 10px 20px;">
@@ -366,7 +366,7 @@ function criarExercicioComLacunas(exercise, modeDisplay = '') {
       <strong>Resposta correta:</strong> <span>${answers.join(', ')}</span>
     </div>
   `;
-  
+
   // Adicionar event listeners
   const gapInputs = document.querySelectorAll('.gap-input');
   gapInputs.forEach((input, idx) => {
@@ -381,12 +381,12 @@ function criarExercicioComLacunas(exercise, modeDisplay = '') {
       }
     });
   });
-  
+
   const inlineBtn = document.getElementById('inlineCheckBtn');
   if (inlineBtn) {
     inlineBtn.onclick = () => verificarExercicioComLacunas(exercise.answer);
   }
-  
+
   if (gapInputs.length > 0) {
     setTimeout(() => gapInputs[0].focus(), 100);
   }
@@ -398,15 +398,15 @@ function criarExercicioComLacunas(exercise, modeDisplay = '') {
 function verificarExercicioComLacunas(correctAnswer) {
   const gapInputs = document.querySelectorAll('.gap-input');
   if (gapInputs.length === 0) return;
-  
+
   const answers = Array.isArray(correctAnswer) ? correctAnswer : String(correctAnswer).split(',');
   let allCorrect = true;
-  
+
   gapInputs.forEach((input, index) => {
     const userAnswer = input.value.trim().toLowerCase();
     const possibleAnswers = answers[index] ? String(answers[index]).trim().toLowerCase().split('/') : [''];
     const isCorrect = possibleAnswers.some(correct => userAnswer === correct.trim());
-    
+
     if (isCorrect) {
       input.style.borderColor = '#4CAF50';
       input.style.backgroundColor = 'rgba(76,175,80,0.1)';
@@ -417,25 +417,25 @@ function verificarExercicioComLacunas(correctAnswer) {
     }
     input.disabled = true;
   });
-  
+
   const feedbackElement = document.getElementById('exerciseFeedback');
   const correctEl = document.getElementById('exerciseCorrectAnswer');
   const inlineBtn = document.getElementById('inlineCheckBtn');
   if (inlineBtn) inlineBtn.disabled = true;
-  
+
   if (allCorrect) {
     grammarPoints++;
     grammarActiveExercises.splice(currentExerciseIndex, 1);
-    
+
     if (correctEl) correctEl.style.display = 'none';
     if (feedbackElement) {
       feedbackElement.innerHTML = '<span style="color:#4CAF50;font-weight:600;">✅ Correto! Parabéns!</span>';
       feedbackElement.className = 'exercise-feedback correct';
       feedbackElement.style.display = 'block';
     }
-    
+
     atualizarPontuacaoGrammar();
-    
+
     setTimeout(() => {
       proximoExercicio();
     }, 1500);
@@ -443,7 +443,7 @@ function verificarExercicioComLacunas(correctAnswer) {
     grammarErrors++;
     const errado = grammarActiveExercises.splice(currentExerciseIndex, 1)[0];
     grammarActiveExercises.push(errado);
-    
+
     if (correctEl) {
       correctEl.style.display = 'block';
     }
@@ -452,9 +452,9 @@ function verificarExercicioComLacunas(correctAnswer) {
       feedbackElement.className = 'exercise-feedback incorrect';
       feedbackElement.style.display = 'block';
     }
-    
+
     atualizarPontuacaoGrammar();
-    
+
     setTimeout(() => {
       proximoExercicio();
     }, 3000);
@@ -526,11 +526,11 @@ function alternarModo(modo) {
   document.getElementById('grammarControls').style.display = 'none';
   document.getElementById('phrasalControls').style.display = 'none';
   document.getElementById('sentenceControls').style.display = 'none';
-  
+
   document.getElementById(`${modo}Controls`).style.display = 'block';
   currentMode = modo;
   atualizarBotoes();
-  
+
   if (timerInterval) {
     clearInterval(timerInterval);
     timerInterval = null;
@@ -816,6 +816,9 @@ function exibirVocabulario(vocab) {
 
   // YouGlish removed
 }
+setTimeout(() => {
+  addVoiceToVocabulary();
+}, 100);
 
 // YouGlish removed
 
@@ -920,6 +923,7 @@ function exibirQuizQuestion() {
     </div>
     <div class="quiz-feedback" id="quizFeedback"></div>
   `;
+  
 
   // Adicionar evento de áudio
   document.getElementById("btnSpeakQuiz").onclick = () => {
@@ -2239,6 +2243,7 @@ function iniciarExercicios(exercises) {
   const nextBtn = document.getElementById('btnNextExercise');
   if (nextBtn) nextBtn.disabled = false;
 }
+
 // ============================================
 // FUNÇÕES DE PHRASAL VERBS - ADICIONAR COMPLETAMENTE
 // ============================================
@@ -2393,6 +2398,10 @@ function exibirPhrasalVerb(phrasalVerb) {
   if (transEl) transEl.style.display = 'none';
   if (defEl) defEl.style.display = 'block';
 }
+// Adicione esta linha no final da função exibirPhrasalVerb():
+setTimeout(() => {
+  addVoiceToPhrasal();
+}, 100);
 
 function voltarPhrasalVerb() {
   if (!phrasalHistorico || phrasalHistorico.length < 2) {
@@ -2750,13 +2759,7 @@ function ajustarLarguraInput(input) {
   const newWidth = Math.max(minWidth, (input.value.length * charWidth) + padding);
   input.style.width = newWidth + 'px';
 }
-// ============================================
-// DOAÇÃO / QR CODE PIX - VERSÃO DINÂMICA
-// ============================================
 
-// ============================================
-// DOAÇÃO / QR CODE PIX - VERSÃO CORRIGIDA
-// ============================================
 
 
 /// ============================================
@@ -2879,11 +2882,21 @@ function initSentenceBuilder() {
   const levelSelect = document.getElementById('sentenceLevelSelect');
   const startBtn = document.getElementById('btnStartSentence');
   const resetBtn = document.getElementById('btnResetSentence');
-  
-  if (levelSelect) levelSelect.onchange = () => refreshByLevel();
+
+  if (levelSelect) {
+    // Remove o listener antigo se existir
+    levelSelect.removeEventListener('change', refreshByLevel);
+    levelSelect.addEventListener('change', () => {
+      refreshByLevel(); // Recarrega as frases
+      // Se o jogo estiver ativo, reinicia automaticamente
+      if (isGameActive) {
+        startSentenceBuilder(); // Reinicia com o novo nível
+      }
+    });
+  }
   if (startBtn) startBtn.onclick = () => startSentenceBuilder();
   if (resetBtn) resetBtn.onclick = () => resetSentenceBuilder();
-  
+
   refreshByLevel();
 }
 
@@ -2891,34 +2904,49 @@ function refreshByLevel() {
   const levelSelect = document.getElementById('sentenceLevelSelect');
   const startBtn = document.getElementById('btnStartSentence');
   const container = document.getElementById('sentenceContainer');
-  
+
   if (!levelSelect || !startBtn || !container) return;
-  
+
   const level = levelSelect.value;
   const filtered = SENTENCE_DATA.filter(s => s.level === level);
-  
+
   if (filtered.length === 0) {
     container.innerHTML = `<div class="empty-message">⚠️ Nenhuma frase para o nível ${level}.</div>`;
     startBtn.disabled = true;
     return;
   }
-  
+
+  // Recarregar as frases do novo nível
   sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
-  currentSentenceObj = null;
-  availableWords = [];
-  builtWords = [];
-  isGameActive = false;
-  isChecking = false;
   
-  shuffleArray(sentenceQueue);
-  updateSentenceStats();
-  
-  container.innerHTML = `<div class="empty-message">✨ ${sentenceQueue.length} frases disponíveis para nível ${level}<br>Clique em "INICIAR" para começar ✨</div>`;
-  
+  // Se o jogo estiver ativo, reiniciar com as novas frases
+  if (isGameActive) {
+    currentSentenceObj = null;
+    availableWords = [];
+    builtWords = [];
+    isChecking = false;
+    shuffleArray(sentenceQueue);
+    loadNextSentence();
+  } else {
+    currentSentenceObj = null;
+    availableWords = [];
+    builtWords = [];
+    isGameActive = false;
+    isChecking = false;
+    shuffleArray(sentenceQueue);
+    updateSentenceStats();
+    container.innerHTML = `<div class="empty-message">✨ ${sentenceQueue.length} frases disponíveis para nível ${level}<br>Clique em "INICIAR" para começar ✨</div>`;
+  }
+
   startBtn.disabled = false;
-  startBtn.style.display = 'flex'; // Garantir que o botão está visível
+  
+  // Garantir que o select fique sempre visível e habilitado
+  levelSelect.style.display = 'block';
+  levelSelect.disabled = false;
+  
+  updateSentenceStats();
 }
 
 function startSentenceBuilder() {
@@ -2947,16 +2975,19 @@ function startSentenceBuilder() {
   // Esconder o botão Start
   startBtn.style.display = 'none';
   
-  // Opcional: também esconder o select de nível se quiser
-  // levelSelect.style.display = 'none';
+  // Manter o select VISÍVEL e HABILITADO
+  levelSelect.style.display = 'block';
+  levelSelect.disabled = false;
 }
 
 function loadNextSentence() {
   const container = document.getElementById('sentenceContainer');
   const startBtn = document.getElementById('btnStartSentence');
-  
+
   if (!container) return;
-  
+
+  console.log("loadNextSentence chamado. Queue length:", sentenceQueue.length);
+
   if (sentenceQueue.length === 0) {
     isGameActive = false;
     container.innerHTML = `<div class="empty-message">🎉 PARABÉNS! Você completou todas as ${sentenceTotalCount} frases! 🎉<br><button class="reset-btn" onclick="resetSentenceBuilder()">Jogar Novamente</button></div>`;
@@ -2964,6 +2995,9 @@ function loadNextSentence() {
     updateSentenceStats();
     return;
   }
+
+  // Resetar flags antes de carregar nova frase
+  isChecking = false;
   
   currentSentenceObj = sentenceQueue[0];
   availableWords = [...currentSentenceObj.words];
@@ -2971,10 +3005,14 @@ function loadNextSentence() {
   shuffleArray(availableWords);
   renderSentenceBuilder();
   updateSentenceStats();
-  
-  // 🔊 Tocar áudio da frase correta em inglês no início da atividade
+
+  console.log("Nova frase carregada:", currentSentenceObj.correct);
+
+  // 🔊 Tocar áudio da frase correta em inglês
   setTimeout(() => {
-    falarTexto(currentSentenceObj.correct, 'en-US');
+    if (currentSentenceObj && isGameActive) {
+      falarTexto(currentSentenceObj.correct, 'en-US');
+    }
   }, 300);
 }
 
@@ -3014,9 +3052,147 @@ function renderSentenceBuilder() {
         <button class="btn-check-mobile" onclick="checkSentence()">✔️ VERIFICAR FRASE</button>
       </div>
       
+      <!-- VOICE CONTROLS - ADICIONADO AQUI -->
+      <div class="voice-controls">
+        <button id="voiceSentenceBtn" class="voice-btn">🎤 Falar Frase Completa</button>
+        <div id="voiceSentenceFeedback" class="voice-feedback"></div>
+      </div>
+      
       <div id="sentenceFeedback" class="sentence-feedback"></div>
     </div>
   `;
+  
+  // Adicionar evento do botão de voz
+  const voiceBtn = document.getElementById('voiceSentenceBtn');
+  if (voiceBtn) {
+    // Remove listener antigo se existir
+    const newVoiceBtn = voiceBtn.cloneNode(true);
+    voiceBtn.parentNode.replaceChild(newVoiceBtn, voiceBtn);
+    
+    newVoiceBtn.addEventListener('click', () => {
+      if (!currentSentenceObj) {
+        alert('Nenhuma frase ativa. Inicie o Sentence Builder primeiro.');
+        return;
+      }
+      
+      const expectedSentence = currentSentenceObj.correct;
+      startVoiceRecordingForSentence(expectedSentence);
+    });
+  }
+}
+// ============================================
+// VOICE RECOGNITION ESPECÍFICO PARA SENTENCE BUILDER
+// ============================================
+
+let sentenceRecognition = null;
+let isSentenceRecording = false;
+
+function startVoiceRecordingForSentence(expectedAnswer) {
+  if (!isSpeechSupported) {
+    alert('Seu navegador não suporta reconhecimento de voz. Use Chrome, Edge ou Safari.');
+    return;
+  }
+  
+  if (isSentenceRecording) {
+    stopSentenceVoiceRecording();
+    return;
+  }
+  
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  sentenceRecognition = new SpeechRecognition();
+  
+  sentenceRecognition.continuous = false;
+  sentenceRecognition.interimResults = false;
+  sentenceRecognition.lang = 'en-US';
+  
+  const voiceBtn = document.getElementById('voiceSentenceBtn');
+  const feedbackDiv = document.getElementById('voiceSentenceFeedback');
+  
+  sentenceRecognition.onstart = () => {
+    isSentenceRecording = true;
+    if (voiceBtn) {
+      voiceBtn.classList.add('recording');
+      voiceBtn.innerHTML = '🎤 Gravando... Parar';
+    }
+  };
+  
+  sentenceRecognition.onend = () => {
+    isSentenceRecording = false;
+    if (voiceBtn) {
+      voiceBtn.classList.remove('recording');
+      voiceBtn.innerHTML = '🎤 Falar Frase Completa';
+    }
+  };
+  
+  sentenceRecognition.onresult = (event) => {
+    const transcript = event.results[0][0].transcript;
+    const result = comparePronunciation(transcript, expectedAnswer);
+    
+    if (feedbackDiv) {
+      if (result.isCorrect) {
+        feedbackDiv.className = 'voice-feedback correct';
+        feedbackDiv.innerHTML = `
+          🎉 Excelente pronúncia! (${Math.round(result.similarity)}% similar)
+          <div class="voice-transcript">Você disse: "${result.userOriginal}"</div>
+        `;
+        feedbackDiv.style.display = 'block';
+        
+        // Processar a resposta correta
+        processCorrectSentence(transcript, expectedAnswer);
+        
+      } else {
+        feedbackDiv.className = 'voice-feedback incorrect';
+        feedbackDiv.innerHTML = `
+          ❌ Pronúncia precisa melhorar (${Math.round(result.similarity)}% similar)
+          <div class="voice-transcript">Você disse: "${result.userOriginal}"</div>
+          <div class="voice-transcript">Esperado: "${result.expectedOriginal}"</div>
+          <div class="similarity-score">Tente falar mais claramente ou use os botões de palavras.</div>
+        `;
+        feedbackDiv.style.display = 'block';
+      }
+      
+      // Esconder feedback de voz após 3 segundos
+      setTimeout(() => {
+        if (feedbackDiv) {
+          feedbackDiv.style.display = 'none';
+        }
+      }, 3000);
+    }
+    
+    stopSentenceVoiceRecording();
+  };
+  
+  sentenceRecognition.onerror = (event) => {
+    console.error('Erro no reconhecimento:', event.error);
+    if (feedbackDiv) {
+      feedbackDiv.className = 'voice-feedback warning';
+      feedbackDiv.innerHTML = `
+        ⚠️ Erro: ${event.error}
+        <div class="voice-transcript">Tente novamente ou verifique seu microfone.</div>
+      `;
+      feedbackDiv.style.display = 'block';
+      setTimeout(() => {
+        feedbackDiv.style.display = 'none';
+      }, 3000);
+    }
+    stopSentenceVoiceRecording();
+  };
+  
+  sentenceRecognition.start();
+}
+
+function stopSentenceVoiceRecording() {
+  if (sentenceRecognition) {
+    sentenceRecognition.stop();
+    sentenceRecognition = null;
+  }
+  isSentenceRecording = false;
+  
+  const voiceBtn = document.getElementById('voiceSentenceBtn');
+  if (voiceBtn) {
+    voiceBtn.classList.remove('recording');
+    voiceBtn.innerHTML = '🎤 Falar Frase Completa';
+  }
 }
 
 // Funções para os botões de áudio
@@ -3064,71 +3240,93 @@ function removeWord(index) {
 }
 
 function checkSentence() {
+  // Se já está verificando, não faz nada
   if (isChecking || !isGameActive || !currentSentenceObj) return;
-  
+
   const userSentence = builtWords.join(' ');
   const correctSentence = currentSentenceObj.correct;
-  const feedbackDiv = document.getElementById('sentenceFeedback');
-  
-  // Normalizar ambas as frases para comparação
-  // Remove espaços antes de pontuação (. , ! ?)
+  const sentenceFeedbackDiv = document.getElementById('sentenceFeedback');
+
+  // 🔥 Usar a MESMA função de normalização
   const normalizeForComparison = (str) => {
+    if (!str) return '';
     return str
       .toLowerCase()
-      .replace(/\s+([.,!?])/g, '$1')  // Remove espaço antes de pontuação
-      .replace(/\s+/g, ' ')            // Normaliza espaços múltiplos
+      .replace(/[^\w\s]/g, '')
+      .replace(/\s+/g, ' ')
       .trim();
   };
-  
+
   const normalizedUser = normalizeForComparison(userSentence);
   const normalizedCorrect = normalizeForComparison(correctSentence);
-  
+
+  console.log("=== CHECK SENTENCE (CLIQUE) ===");
+  console.log("Usuário:", `"${normalizedUser}"`);
+  console.log("Correto:", `"${normalizedCorrect}"`);
+
   if (normalizedUser === normalizedCorrect) {
+    console.log("✅ CLIQUE - FRASE CORRETA!");
     isChecking = true;
     sentenceCorrectCount++;
     sentenceQueue.shift();
-    
-    if (feedbackDiv) {
-      feedbackDiv.className = 'sentence-feedback correct';
-      feedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
-      feedbackDiv.style.display = 'block';
+
+    if (sentenceFeedbackDiv) {
+      sentenceFeedbackDiv.className = 'sentence-feedback correct';
+      sentenceFeedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
+      sentenceFeedbackDiv.style.display = 'block';
     }
     
+    updateSentenceStats();
+
     setTimeout(() => {
       isChecking = false;
-      if (feedbackDiv) feedbackDiv.style.display = 'none';
-      loadNextSentence();
+      if (sentenceFeedbackDiv) sentenceFeedbackDiv.style.display = 'none';
+      
+      if (sentenceQueue.length === 0) {
+        const container = document.getElementById('sentenceContainer');
+        const startBtn = document.getElementById('btnStartSentence');
+        if (container) {
+          container.innerHTML = `<div class="empty-message">🎉 PARABÉNS! Você completou todas as ${sentenceTotalCount} frases! 🎉<br><button class="reset-btn" onclick="resetSentenceBuilder()">Jogar Novamente</button></div>`;
+        }
+        if (startBtn) startBtn.style.display = 'flex';
+        isGameActive = false;
+      } else {
+        loadNextSentence();
+      }
     }, 2000);
+    
   } else {
+    console.log("❌ CLIQUE - FRASE INCORRETA");
     isChecking = true;
     const wrongSentence = sentenceQueue.shift();
     sentenceQueue.push(wrongSentence);
-    
-    if (feedbackDiv) {
-      feedbackDiv.className = 'sentence-feedback incorrect';
-      feedbackDiv.innerHTML = `❌❌❌ INCORRETO! ❌❌❌<br><br>Frase correta: <strong>"${escapeHtml(correctSentence)}"</strong><br><br>Você vai tentar novamente! 🔄`;
-      feedbackDiv.style.display = 'block';
+
+    if (sentenceFeedbackDiv) {
+      sentenceFeedbackDiv.className = 'sentence-feedback incorrect';
+      sentenceFeedbackDiv.innerHTML = `❌❌❌ INCORRETO! ❌❌❌<br><br>Frase correta: <strong>"${escapeHtml(correctSentence)}"</strong><br><br>Você vai tentar novamente! 🔄`;
+      sentenceFeedbackDiv.style.display = 'block';
     }
     
+    updateSentenceStats();
+
     setTimeout(() => {
       isChecking = false;
-      if (feedbackDiv) feedbackDiv.style.display = 'none';
+      if (sentenceFeedbackDiv) sentenceFeedbackDiv.style.display = 'none';
       loadNextSentence();
     }, 4000);
   }
-  updateSentenceStats();
 }
 
 function resetSentenceBuilder() {
   const levelSelect = document.getElementById('sentenceLevelSelect');
   const startBtn = document.getElementById('btnStartSentence');
   const container = document.getElementById('sentenceContainer');
-  
+
   if (!levelSelect || !startBtn || !container) return;
-  
+
   const level = levelSelect.value;
   const filtered = SENTENCE_DATA.filter(s => s.level === level);
-  
+
   sentenceQueue = [...filtered];
   sentenceCorrectCount = 0;
   sentenceTotalCount = sentenceQueue.length;
@@ -3137,21 +3335,25 @@ function resetSentenceBuilder() {
   builtWords = [];
   isChecking = false;
   isGameActive = false;
-  
+
   shuffleArray(sentenceQueue);
   updateSentenceStats();
-  
+
   container.innerHTML = `<div class="empty-message">🔄 Reiniciado! ${sentenceQueue.length} frases disponíveis.<br>Clique em "INICIAR" para começar 🔄</div>`;
-  
+
   // Mostrar o botão Start novamente
   startBtn.style.display = 'flex';
+  
+  // Manter o select VISÍVEL e HABILITADO
+  levelSelect.style.display = 'block';
+  levelSelect.disabled = false;
 }
 
 function updateSentenceStats() {
   const correctSpan = document.getElementById('sentenceCorrect');
   const remainingSpan = document.getElementById('sentenceRemaining');
   const totalSpan = document.getElementById('sentenceTotal');
-  
+
   if (correctSpan) correctSpan.textContent = sentenceCorrectCount;
   if (remainingSpan) remainingSpan.textContent = sentenceQueue.length;
   if (totalSpan) totalSpan.textContent = sentenceTotalCount;
@@ -3163,6 +3365,556 @@ window.removeWord = removeWord;
 window.resetSentenceBuilder = resetSentenceBuilder;
 window.checkSentence = checkSentence;
 window.toggleTranslationHint = toggleTranslationHint;
+// Adicione ao final do arquivo script.js, antes da última linha de fechamento
+
+// ============================================
+// VOICE RECOGNITION USING WEBSPEECH API
+// ============================================
+
+// ============================================
+// VOICE RECOGNITION USING WEBSPEECH API
+// APENAS PARA VOCABULARY E PHRASAL VERBS
+// ============================================
+
+let recognition = null;
+let isRecording = false;
+let currentVoiceContext = null;
+let currentExpectedAnswer = '';
+
+// Verificar suporte ao WebSpeech API
+const isSpeechSupported = 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window;
+
+if (!isSpeechSupported) {
+  console.warn('WebSpeech API não é suportada neste navegador');
+}
+
+// Função para inicializar o reconhecimento de voz
+function initSpeechRecognition() {
+  if (!isSpeechSupported) return null;
+  
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const recognitionInstance = new SpeechRecognition();
+  
+  recognitionInstance.continuous = false;
+  recognitionInstance.interimResults = false;
+  recognitionInstance.lang = 'en-US';
+  
+  return recognitionInstance;
+}
+
+// Função para normalizar texto (remover pontuação, lowercase, etc.)
+// Função para converter números ordinais/falados de volta para palavras
+function convertNumbersToWords(text) {
+    // Mapeamento de números ordinais e cardinais
+    const numberMap = {
+        // Ordinais
+        '1st': 'first',
+        '2nd': 'second', 
+        '3rd': 'third',
+        '4th': 'fourth',
+        '5th': 'fifth',
+        '6th': 'sixth',
+        '7th': 'seventh',
+        '8th': 'eighth',
+        '9th': 'ninth',
+        '10th': 'tenth',
+        '11th': 'eleventh',
+        '12th': 'twelfth',
+        '13th': 'thirteenth',
+        '14th': 'fourteenth',
+        '15th': 'fifteenth',
+        '16th': 'sixteenth',
+        '17th': 'seventeenth',
+        '18th': 'eighteenth',
+        '19th': 'nineteenth',
+        '20th': 'twentieth',
+        '21st': 'twenty-first',
+        '22nd': 'twenty-second',
+        '23rd': 'twenty-third',
+        '24th': 'twenty-fourth',
+        '25th': 'twenty-fifth',
+        '30th': 'thirtieth',
+        '31st': 'thirty-first',
+        // Cardinais simples
+        '1': 'one',
+        '2': 'two',
+        '3': 'three',
+        '4': 'four',
+        '5': 'five',
+        '6': 'six',
+        '7': 'seven',
+        '8': 'eight',
+        '9': 'nine',
+        '10': 'ten',
+        '11': 'eleven',
+        '12': 'twelve',
+        '13': 'thirteen',
+        '14': 'fourteen',
+        '15': 'fifteen',
+        '16': 'sixteen',
+        '17': 'seventeen',
+        '18': 'eighteen',
+        '19': 'nineteen',
+        '20': 'twenty',
+        '21': 'twenty-one',
+        '22': 'twenty-two',
+        '23': 'twenty-three',
+        '24': 'twenty-four',
+        '25': 'twenty-five',
+        '30': 'thirty',
+        '31': 'thirty-one'
+    };
+    
+    let converted = text;
+    
+    // Ordenar pelas chaves mais longas primeiro para evitar substituições parciais
+    const sortedKeys = Object.keys(numberMap).sort((a, b) => b.length - a.length);
+    
+    for (const key of sortedKeys) {
+        // Usar regex para substituir números inteiros, não partes de palavras
+        const regex = new RegExp(`\\b${key}\\b`, 'gi');
+        converted = converted.replace(regex, numberMap[key]);
+    }
+    
+    return converted;
+}
+
+// Função para normalizar texto (remover pontuação, lowercase, converter números)
+function normalizeText(text) {
+    if (!text) return '';
+    
+    let normalized = text
+        .toLowerCase()
+        .trim();
+    
+    // Primeiro, converter números para palavras
+    normalized = convertNumbersToWords(normalized);
+    
+    // Depois remover pontuação
+    normalized = normalized
+        .replace(/[^\w\s]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    
+    return normalized;
+}
+
+// Função para calcular distância de Levenshtein
+function levenshteinDistance(a, b) {
+  const matrix = [];
+  
+  for (let i = 0; i <= b.length; i++) {
+    matrix[i] = [i];
+  }
+  for (let j = 0; j <= a.length; j++) {
+    matrix[0][j] = j;
+  }
+  
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      const cost = a[j - 1] === b[i - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + cost
+      );
+    }
+  }
+  
+  return matrix[b.length][a.length];
+}
+
+// Função para calcular similaridade entre duas strings (0-100%)
+function calculateSimilarity(userText, expectedText) {
+  const normalizedUser = normalizeText(userText);
+  const normalizedExpected = normalizeText(expectedText);
+  
+  if (normalizedUser === normalizedExpected) return 100;
+  
+  const distance = levenshteinDistance(normalizedUser, normalizedExpected);
+  const maxLength = Math.max(normalizedUser.length, normalizedExpected.length);
+  
+  if (maxLength === 0) return 0;
+  
+  const similarity = ((maxLength - distance) / maxLength) * 100;
+  return Math.max(0, Math.min(100, similarity));
+}
+
+// Função para comparar pronúncia
+function comparePronunciation(userText, expectedText, threshold = 70) {
+  const similarity = calculateSimilarity(userText, expectedText);
+  const isCorrect = similarity >= threshold;
+  
+  return {
+    isCorrect,
+    similarity,
+    normalizedUser: normalizeText(userText),
+    normalizedExpected: normalizeText(expectedText),
+    userOriginal: userText,
+    expectedOriginal: expectedText
+  };
+}
+
+// Função para mostrar feedback de voz
+function showVoiceFeedback(elementId, result) {
+  const feedbackDiv = document.getElementById(elementId);
+  if (!feedbackDiv) return;
+  
+  if (result.isCorrect) {
+    feedbackDiv.className = 'voice-feedback correct';
+    feedbackDiv.innerHTML = `
+      🎉 Ótima pronúncia! (${Math.round(result.similarity)}% similar)
+      <div class="voice-transcript">Você disse: "${result.userOriginal}"</div>
+    `;
+  } else {
+    feedbackDiv.className = 'voice-feedback incorrect';
+    feedbackDiv.innerHTML = `
+      ❌ Pronúncia precisa melhorar (${Math.round(result.similarity)}% similar)
+      <div class="voice-transcript">Você disse: "${result.userOriginal}"</div>
+      <div class="voice-transcript">Esperado: "${result.expectedOriginal}"</div>
+      <div class="similarity-score">Tente novamente! Foque na pronúncia correta.</div>
+    `;
+  }
+  
+  feedbackDiv.style.display = 'block';
+  
+  setTimeout(() => {
+    if (feedbackDiv) {
+      feedbackDiv.style.display = 'none';
+    }
+  }, 4000);
+}
+
+// Função para iniciar gravação de voz
+function startVoiceRecording(context, expectedAnswer, callback) {
+  if (!isSpeechSupported) {
+    alert('Seu navegador não suporta reconhecimento de voz. Use Chrome, Edge ou Safari.');
+    return;
+  }
+  
+  if (isRecording) {
+    stopVoiceRecording();
+    return;
+  }
+  
+  currentVoiceContext = context;
+  currentExpectedAnswer = expectedAnswer;
+  
+  recognition = initSpeechRecognition();
+  if (!recognition) return;
+  
+  recognition.onstart = () => {
+    isRecording = true;
+    updateVoiceButtonState(context, true);
+  };
+  
+  recognition.onend = () => {
+    isRecording = false;
+    updateVoiceButtonState(context, false);
+  };
+  
+  recognition.onresult = (event) => {
+    const transcript = event.results[0][0].transcript;
+    const result = comparePronunciation(transcript, expectedAnswer);
+    
+    if (callback) {
+      callback(result, transcript);
+    }
+    
+    stopVoiceRecording();
+  };
+  
+  recognition.onerror = (event) => {
+    console.error('Erro no reconhecimento de voz:', event.error);
+    showVoiceError(context, event.error);
+    stopVoiceRecording();
+  };
+  
+  recognition.start();
+}
+
+// Função para parar gravação
+function stopVoiceRecording() {
+  if (recognition) {
+    recognition.stop();
+    recognition = null;
+  }
+  isRecording = false;
+  if (currentVoiceContext) {
+    updateVoiceButtonState(currentVoiceContext, false);
+  }
+}
+
+// Função para atualizar estado do botão de voz
+function updateVoiceButtonState(context, isRecording) {
+  const buttonId = getVoiceButtonId(context);
+  const button = document.getElementById(buttonId);
+  if (button) {
+    if (isRecording) {
+      button.classList.add('recording');
+      button.innerHTML = '🎤 Gravando... Parar';
+    } else {
+      button.classList.remove('recording');
+      button.innerHTML = '🎤 Falar Palavra';
+    }
+  }
+}
+
+// Função para obter ID do botão de voz baseado no contexto
+function getVoiceButtonId(context) {
+  const ids = {
+    'vocab': 'voiceVocabBtn',
+    'phrasal': 'voicePhrasalBtn'
+  };
+  return ids[context] || 'voiceVocabBtn';
+}
+
+// Função para mostrar erro de voz
+function showVoiceError(context, error) {
+  const feedbackId = getVoiceFeedbackId(context);
+  const feedbackDiv = document.getElementById(feedbackId);
+  if (feedbackDiv) {
+    feedbackDiv.className = 'voice-feedback warning';
+    feedbackDiv.innerHTML = `
+      ⚠️ Erro no reconhecimento: ${error}
+      <div class="voice-transcript">Tente novamente ou verifique seu microfone.</div>
+    `;
+    feedbackDiv.style.display = 'block';
+    setTimeout(() => {
+      feedbackDiv.style.display = 'none';
+    }, 3000);
+  }
+}
+
+// Função para obter ID do feedback de voz
+function getVoiceFeedbackId(context) {
+  const ids = {
+    'vocab': 'voiceVocabFeedback',
+    'phrasal': 'voicePhrasalFeedback'
+  };
+  return ids[context] || 'voiceVocabFeedback';
+}
+
+// ============================================
+// VOICE PARA VOCABULARY
+// ============================================
+
+function addVoiceToVocabulary() {
+  const vocabCard = document.getElementById('vocabCard');
+  if (!vocabCard) return;
+  
+  if (document.getElementById('voiceVocabBtn')) return;
+  
+  const voiceContainer = document.createElement('div');
+  voiceContainer.className = 'voice-controls';
+  voiceContainer.innerHTML = `
+    <button id="voiceVocabBtn" class="voice-btn voice-vocab-btn">🎤 Falar Palavra</button>
+    <div id="voiceVocabFeedback" class="voice-feedback"></div>
+  `;
+  
+  vocabCard.appendChild(voiceContainer);
+  
+  document.getElementById('voiceVocabBtn').addEventListener('click', () => {
+    const vocabWord = document.getElementById('vocabWord');
+    if (!vocabWord || !vocabWord.textContent) {
+      alert('Nenhuma palavra de vocabulário ativa.');
+      return;
+    }
+    
+    const expectedWord = vocabWord.textContent;
+    startVoiceRecording('vocab', expectedWord, (result, transcript) => {
+      showVoiceFeedback('voiceVocabFeedback', result);
+    });
+  });
+}
+
+// ============================================
+// VOICE PARA PHRASAL VERBS
+// ============================================
+
+function addVoiceToPhrasal() {
+  const phrasalCard = document.getElementById('phrasalCard');
+  if (!phrasalCard) return;
+  
+  if (document.getElementById('voicePhrasalBtn')) return;
+  
+  const voiceContainer = document.createElement('div');
+  voiceContainer.className = 'voice-controls';
+  voiceContainer.innerHTML = `
+    <button id="voicePhrasalBtn" class="voice-btn voice-phrasal-btn">🎤 Falar Phrasal Verb</button>
+    <div id="voicePhrasalFeedback" class="voice-feedback"></div>
+  `;
+  
+  phrasalCard.appendChild(voiceContainer);
+  
+  document.getElementById('voicePhrasalBtn').addEventListener('click', () => {
+    const phrasalVerb = document.getElementById('phrasalVerb');
+    if (!phrasalVerb || !phrasalVerb.textContent) {
+      alert('Nenhum phrasal verb ativo.');
+      return;
+    }
+    
+    const expectedVerb = phrasalVerb.textContent;
+    startVoiceRecording('phrasal', expectedVerb, (result, transcript) => {
+      showVoiceFeedback('voicePhrasalFeedback', result);
+    });
+  });
+}
+
+// ============================================
+// INICIALIZAR VOICE APENAS PARA VOCABULARY E PHRASAL
+// ============================================
+
+function initVoiceFeatures() {
+  if (!isSpeechSupported) {
+    console.log('WebSpeech API não suportada. Funcionalidade de voz desabilitada.');
+    return;
+  }
+  
+  // Observer para quando os modos são ativados
+  const observer = new MutationObserver(() => {
+    const currentDisplay = document.querySelector('[style*="display: block"]')?.id;
+    
+    if (currentDisplay === 'vocabularyControls' && document.getElementById('vocabCard').style.display === 'block') {
+      setTimeout(addVoiceToVocabulary, 100);
+    }
+    if (currentDisplay === 'phrasalControls') {
+      setTimeout(addVoiceToPhrasal, 100);
+    }
+  });
+  
+  observer.observe(document.body, { attributes: true, subtree: true, attributeFilter: ['style'] });
+}
+
+// Inicializar
+document.addEventListener('DOMContentLoaded', () => {
+  initVoiceFeatures();
+});
+// ============================================
+// FUNÇÃO PARA PROCESSAR FRASE CORRETA (SENTENCE BUILDER)
+// ============================================
+
+// ============================================
+// FUNÇÃO PARA PROCESSAR FRASE CORRETA (SENTENCE BUILDER)
+// ============================================
+
+// ============================================
+// FUNÇÃO PARA PROCESSAR FRASE CORRETA (SENTENCE BUILDER)
+// ============================================
+
+function processCorrectSentence(spokenText, expectedAnswer) {
+  // Evitar processamento duplicado
+  if (isChecking) {
+    console.log("Já está verificando, ignorando...");
+    return;
+  }
+  
+  const sentenceFeedbackDiv = document.getElementById('sentenceFeedback');
+  
+  // 🔥 CORREÇÃO: Função de normalização mais robusta
+  const normalizeForComparison = (str) => {
+    if (!str) return '';
+    return str
+      .toLowerCase()
+      .replace(/[^\w\s]/g, '')  // Remove TODA pontuação (.,!?;: etc)
+      .replace(/\s+/g, ' ')      // Normaliza espaços
+      .trim();
+  };
+  
+  const normalizedSpoken = normalizeForComparison(spokenText);
+  const normalizedExpected = normalizeForComparison(expectedAnswer);
+  
+  console.log("=== COMPARAÇÃO ===");
+  console.log("Falado ORIGINAL:", `"${spokenText}"`);
+  console.log("Falado NORMALIZADO:", `"${normalizedSpoken}"`);
+  console.log("Esperado ORIGINAL:", `"${expectedAnswer}"`);
+  console.log("Esperado NORMALIZADO:", `"${normalizedExpected}"`);
+  console.log("São iguais?", normalizedSpoken === normalizedExpected);
+  console.log("SentenceQueue length:", sentenceQueue.length);
+  
+  // Verificar se a frase está correta
+  if (normalizedSpoken === normalizedExpected && sentenceQueue.length > 0) {
+    console.log("✅✅✅ FRASE CORRETA! Processando...");
+    
+    isChecking = true;
+    sentenceCorrectCount++;
+    sentenceQueue.shift(); // Remove a frase atual da fila
+    
+    // Mostrar feedback visual
+    if (sentenceFeedbackDiv) {
+      sentenceFeedbackDiv.className = 'sentence-feedback correct';
+      sentenceFeedbackDiv.innerHTML = '✅✅✅ CORRETO! Muito bem! 🎉🎉🎉';
+      sentenceFeedbackDiv.style.display = 'block';
+    }
+    
+    // Atualizar estatísticas
+    updateSentenceStats();
+    
+    // Aguardar e carregar próxima frase
+    setTimeout(() => {
+      isChecking = false;
+      if (sentenceFeedbackDiv) sentenceFeedbackDiv.style.display = 'none';
+      
+      // Verificar se ainda há frases
+      if (sentenceQueue.length === 0) {
+        console.log("🏆 JOGO TERMINADO!");
+        const container = document.getElementById('sentenceContainer');
+        const startBtn = document.getElementById('btnStartSentence');
+        if (container) {
+          container.innerHTML = `<div class="empty-message">🎉 PARABÉNS! Você completou todas as ${sentenceTotalCount} frases! 🎉<br><button class="reset-btn" onclick="resetSentenceBuilder()">Jogar Novamente</button></div>`;
+        }
+        if (startBtn) startBtn.style.display = 'flex';
+        isGameActive = false;
+      } else {
+        console.log("➡️ Carregando próxima frase...");
+        loadNextSentence();
+      }
+    }, 2000);
+    
+  } else {
+    console.log("❌ Frase incorreta - normalizados diferentes");
+    
+    // Tenta extrair palavras e montar automaticamente se o texto for similar
+    if (sentenceQueue.length > 0 && currentSentenceObj) {
+      const spokenWords = normalizeForComparison(spokenText).split(/\s+/);
+      const expectedWords = normalizeForComparison(expectedAnswer).split(/\s+/);
+      
+      // Verificar se as palavras são as mesmas (ignorando ordem)
+      const spokenSet = new Set(spokenWords);
+      const expectedSet = new Set(expectedWords);
+      let allWordsMatch = true;
+      
+      for (const word of expectedSet) {
+        if (!spokenSet.has(word)) {
+          allWordsMatch = false;
+          break;
+        }
+      }
+      
+      if (allWordsMatch && spokenWords.length === expectedWords.length) {
+        console.log("🔧 Palavras correspondem! Montando frase automaticamente...");
+        builtWords = [...expectedWords];
+        availableWords = [];
+        renderSentenceBuilder();
+        
+        // Verificar a frase após montar
+        setTimeout(() => {
+          checkSentence();
+        }, 500);
+      }
+    }
+  }
+}
+
+// Exportar funções
+window.startVoiceRecording = startVoiceRecording;
+window.stopVoiceRecording = stopVoiceRecording;
+window.comparePronunciation = comparePronunciation;
+
+// Exportar funções
+window.startVoiceRecording = startVoiceRecording;
+window.stopVoiceRecording = stopVoiceRecording;
+window.comparePronunciation = comparePronunciation;
 
 
 

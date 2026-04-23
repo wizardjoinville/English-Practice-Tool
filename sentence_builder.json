@@ -4918,5 +4918,636 @@
     "correct": "Not until he apologized did she agree to speak to him again",
     "translation": "Só depois que ele se desculpou ela concordou em falar com ele novamente",
     "words": ["Not", "until", "he", "apologized", "did", "she", "agree", "to", "speak", "to", "him", "again"]
+  },
+  
+  {
+    "level": "C2",
+    "correct": "Were it not for his timely intervention the company would have gone bankrupt",
+    "translation": "Não fosse por sua intervenção oportuna, a empresa teria falido",
+    "words": ["Were", "it", "not", "for", "his", "timely", "intervention", "the", "company", "would", "have", "gone", "bankrupt"]
+  },
+  {
+    "level": "C2",
+    "correct": "Had the government implemented stricter measures the pandemic could have been contained",
+    "translation": "Se o governo tivesse implementado medidas mais rigorosas, a pandemia poderia ter sido contida",
+    "words": ["Had", "the", "government", "implemented", "stricter", "measures", "the", "pandemic", "could", "have", "been", "contained"]
+  },
+  {
+    "level": "C2",
+    "correct": "So profound was the impact of her speech that it sparked a nationwide movement",
+    "translation": "Tão profundo foi o impacto de seu discurso que ele desencadeou um movimento nacional",
+    "words": ["So", "profound", "was", "the", "impact", "of", "her", "speech", "that", "it", "sparked", "a", "nationwide", "movement"]
+  },
+  {
+    "level": "C2",
+    "correct": "Such was the complexity of the issue that even experts struggled to find a solution",
+    "translation": "Tamanha era a complexidade da questão que até especialistas tiveram dificuldade em encontrar uma solução",
+    "words": ["Such", "was", "the", "complexity", "of", "the", "issue", "that", "even", "experts", "struggled", "to", "find", "a", "solution"]
+  },
+  {
+    "level": "C2",
+    "correct": "Only after exhaustive research did the scientists arrive at a conclusive answer",
+    "translation": "Só após pesquisa exaustiva os cientistas chegaram a uma resposta conclusiva",
+    "words": ["Only", "after", "exhaustive", "research", "did", "the", "scientists", "arrive", "at", "a", "conclusive", "answer"]
+  },
+  {
+    "level": "C2",
+    "correct": "Not once during the entire debate did he deviate from his core argument",
+    "translation": "Nem uma vez durante todo o debate ele se desviou de seu argumento central",
+    "words": ["Not", "once", "during", "the", "entire", "debate", "did", "he", "deviate", "from", "his", "core", "argument"]
+  },
+  {
+    "level": "C2",
+    "correct": "Seldom have I encountered such a profound and thought-provoking piece of literature",
+    "translation": "Raramente encontrei uma obra literária tão profunda e instigante",
+    "words": ["Seldom", "have", "I", "encountered", "such", "a", "profound", "and", "thought-provoking", "piece", "of", "literature"]
+  },
+  {
+    "level": "C2",
+    "correct": "The hypothesis posited by the researcher challenges the very foundations of conventional wisdom",
+    "translation": "A hipótese proposta pelo pesquisador desafia os próprios fundamentos da sabedoria convencional",
+    "words": ["The", "hypothesis", "posited", "by", "the", "researcher", "challenges", "the", "very", "foundations", "of", "conventional", "wisdom"]
+  },
+  {
+    "level": "C2",
+    "correct": "The ramifications of this decision will reverberate throughout the industry for decades to come",
+    "translation": "As ramificações desta decisão reverberarão por toda a indústria nas próximas décadas",
+    "words": ["The", "ramifications", "of", "this", "decision", "will", "reverberate", "throughout", "the", "industry", "for", "decades", "to", "come"]
+  },
+  {
+    "level": "C2",
+    "correct": "Having been subjected to rigorous scrutiny the theory ultimately withstood every test",
+    "translation": "Tendo sido submetida a um escrutínio rigoroso, a teoria resistiu a todos os testes",
+    "words": ["Having", "been", "subjected", "to", "rigorous", "scrutiny", "the", "theory", "ultimately", "withstood", "every", "test"]
+  },
+  {
+    "level": "C2",
+    "correct": "The phenomenon can be explained by a confluence of interrelated socioeconomic factors",
+    "translation": "O fenômeno pode ser explicado por uma confluência de fatores socioeconômicos inter-relacionados",
+    "words": ["The", "phenomenon", "can", "be", "explained", "by", "a", "confluence", "of", "interrelated", "socioeconomic", "factors"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her analysis of the situation was nothing short of a tour de force in critical thinking",
+    "translation": "Sua análise da situação foi simplesmente um tour de force em pensamento crítico",
+    "words": ["Her", "analysis", "of", "the", "situation", "was", "nothing", "short", "of", "a", "tour", "de", "force", "in", "critical", "thinking"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's unprecedented growth can be attributed to a paradigm shift in consumer behavior",
+    "translation": "O crescimento sem precedentes da empresa pode ser atribuído a uma mudança de paradigma no comportamento do consumidor",
+    "words": ["The", "company's", "unprecedented", "growth", "can", "be", "attributed", "to", "a", "paradigm", "shift", "in", "consumer", "behavior"]
+  },
+  {
+    "level": "C2",
+    "correct": "The board's decision to divest from fossil fuels was a watershed moment for the industry",
+    "translation": "A decisão do conselho de desinvestir em combustíveis fósseis foi um momento divisor de águas para a indústria",
+    "words": ["The", "board's", "decision", "to", "divest", "from", "fossil", "fuels", "was", "a", "watershed", "moment", "for", "the", "industry"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her eloquent defense of the controversial policy swayed even her most ardent critics",
+    "translation": "Sua eloquente defesa da política controversa convenceu até mesmo seus críticos mais ferrenhos",
+    "words": ["Her", "eloquent", "defense", "of", "the", "controversial", "policy", "swayed", "even", "her", "most", "ardent", "critics"]
+  },
+  {
+    "level": "C2",
+    "correct": "The committee's report was remarkably comprehensive leaving no stone unturned",
+    "translation": "O relatório do comitê foi notavelmente abrangente, não deixando pedra sobre pedra",
+    "words": ["The", "committee's", "report", "was", "remarkably", "comprehensive", "leaving", "no", "stone", "unturned"]
+  },
+  {
+    "level": "C2",
+    "correct": "The ambassador's remarks were deliberately ambiguous to avoid diplomatic repercussions",
+    "translation": "As observações do embaixador foram deliberadamente ambíguas para evitar repercussões diplomáticas",
+    "words": ["The", "ambassador's", "remarks", "were", "deliberately", "ambiguous", "to", "avoid", "diplomatic", "repercussions"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her nuanced understanding of the cultural context lent credibility to her research findings",
+    "translation": "Sua compreensão sutil do contexto cultural conferiu credibilidade às suas descobertas de pesquisa",
+    "words": ["Her", "nuanced", "understanding", "of", "the", "cultural", "context", "lent", "credibility", "to", "her", "research", "findings"]
+  },
+  {
+    "level": "C2",
+    "correct": "The economic downturn has precipitated a seismic shift in employment patterns",
+    "translation": "A recessão econômica precipitou uma mudança sísmica nos padrões de emprego",
+    "words": ["The", "economic", "downturn", "has", "precipitated", "a", "seismic", "shift", "in", "employment", "patterns"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her groundbreaking research has opened up new avenues for therapeutic intervention",
+    "translation": "Sua pesquisa inovadora abriu novos caminhos para intervenção terapêutica",
+    "words": ["Her", "groundbreaking", "research", "has", "opened", "up", "new", "avenues", "for", "therapeutic", "intervention"]
+  },
+  {
+    "level": "C2",
+    "correct": "The protagonist's moral ambiguity serves as a powerful critique of societal norms",
+    "translation": "A ambiguidade moral do protagonista serve como uma poderosa crítica às normas sociais",
+    "words": ["The", "protagonist's", "moral", "ambiguity", "serves", "as", "a", "powerful", "critique", "of", "societal", "norms"]
+  },
+  {
+    "level": "C2",
+    "correct": "The two nations have forged a rapprochement after decades of hostility",
+    "translation": "As duas nações forjaram uma reaproximação após décadas de hostilidade",
+    "words": ["The", "two", "nations", "have", "forged", "a", "rapprochement", "after", "decades", "of", "hostility"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her virtuosic performance left the audience utterly spellbound",
+    "translation": "Sua performance virtuosística deixou a plateia completamente fascinada",
+    "words": ["Her", "virtuosic", "performance", "left", "the", "audience", "utterly", "spellbound"]
+  },
+  {
+    "level": "C2",
+    "correct": "The CEO's resignation sent shockwaves through the financial markets",
+    "translation": "A renúncia do CEO enviou ondas de choque pelos mercados financeiros",
+    "words": ["The", "CEO's", "resignation", "sent", "shockwaves", "through", "the", "financial", "markets"]
+  },
+  {
+    "level": "C2",
+    "correct": "The treatise provides an incisive critique of neoliberal economic policies",
+    "translation": "O tratado fornece uma crítica incisiva das políticas econômicas neoliberais",
+    "words": ["The", "treatise", "provides", "an", "incisive", "critique", "of", "neoliberal", "economic", "policies"]
+  },
+  {
+    "level": "C2",
+    "correct": "The negotiations reached an impasse when neither party would concede on key issues",
+    "translation": "As negociações chegaram a um impasse quando nenhuma das partes cedeu em questões-chave",
+    "words": ["The", "negotiations", "reached", "an", "impasse", "when", "neither", "party", "would", "concede", "on", "key", "issues"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her magnum opus is widely regarded as a seminal work in the field",
+    "translation": "Sua obra-prima é amplamente considerada um trabalho seminal na área",
+    "words": ["Her", "magnum", "opus", "is", "widely", "regarded", "as", "a", "seminal", "work", "in", "the", "field"]
+  },
+  {
+    "level": "C2",
+    "correct": "The artist's oeuvre defies easy categorization blending multiple genres seamlessly",
+    "translation": "A obra do artista desafia qualquer categorização fácil, mesclando vários gêneros perfeitamente",
+    "words": ["The", "artist's", "oeuvre", "defies", "easy", "categorization", "blending", "multiple", "genres", "seamlessly"]
+  },
+  {
+    "level": "C2",
+    "correct": "The government's policy is a double-edged sword that could have unintended consequences",
+    "translation": "A política do governo é uma faca de dois gumes que pode ter consequências não intencionais",
+    "words": ["The", "government's", "policy", "is", "a", "double-edged", "sword", "that", "could", "have", "unintended", "consequences"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her argument rests on a tenuous premise that fails to withstand close scrutiny",
+    "translation": "Seu argumento baseia-se em uma premissa tênue que não resiste ao escrutínio minucioso",
+    "words": ["Her", "argument", "rests", "on", "a", "tenuous", "premise", "that", "fails", "to", "withstand", "close", "scrutiny"]
+  },
+  {
+    "level": "C2",
+    "correct": "The findings of the study are at odds with previously established theories",
+    "translation": "Os achados do estudo estão em desacordo com teorias previamente estabelecidas",
+    "words": ["The", "findings", "of", "the", "study", "are", "at", "odds", "with", "previously", "established", "theories"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's meteoric rise was followed by an equally precipitous fall",
+    "translation": "A ascensão meteórica da empresa foi seguida por uma queda igualmente precipitada",
+    "words": ["The", "company's", "meteoric", "rise", "was", "followed", "by", "an", "equally", "precipitous", "fall"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her nuanced performance captured the character's inner turmoil with astonishing precision",
+    "translation": "Sua atuação sutil capturou a turbulência interior da personagem com precisão surpreendente",
+    "words": ["Her", "nuanced", "performance", "captured", "the", "character's", "inner", "turmoil", "with", "astonishing", "precision"]
+  },
+  {
+    "level": "C2",
+    "correct": "The legislation represents a landmark achievement in environmental protection",
+    "translation": "A legislação representa uma conquista histórica na proteção ambiental",
+    "words": ["The", "legislation", "represents", "a", "landmark", "achievement", "in", "environmental", "protection"]
+  },
+  {
+    "level": "C2",
+    "correct": "The CEO's visionary leadership has transformed the company into an industry juggernaut",
+    "translation": "A liderança visionária do CEO transformou a empresa em um gigante da indústria",
+    "words": ["The", "CEO's", "visionary", "leadership", "has", "transformed", "the", "company", "into", "an", "industry", "juggernaut"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her eloquent prose and incisive wit make her a formidable literary voice",
+    "translation": "Sua prosa eloquente e sagacidade incisiva fazem dela uma voz literária formidável",
+    "words": ["Her", "eloquent", "prose", "and", "incisive", "wit", "make", "her", "a", "formidable", "literary", "voice"]
+  },
+  {
+    "level": "C2",
+    "correct": "The treaty has been hailed as a watershed moment in international relations",
+    "translation": "O tratado foi saudado como um momento histórico nas relações internacionais",
+    "words": ["The", "treaty", "has", "been", "hailed", "as", "a", "watershed", "moment", "in", "international", "relations"]
+  },
+  {
+    "level": "C2",
+    "correct": "His magnanimous gesture towards his rivals earned him widespread respect",
+    "translation": "Seu gesto magnânimo para com seus rivais lhe rendeu amplo respeito",
+    "words": ["His", "magnanimous", "gesture", "towards", "his", "rivals", "earned", "him", "widespread", "respect"]
+  },
+  {
+    "level": "C2",
+    "correct": "The project's success hinges on a delicate balance of competing interests",
+    "translation": "O sucesso do projeto depende de um delicado equilíbrio de interesses concorrentes",
+    "words": ["The", "project's", "success", "hinges", "on", "a", "delicate", "balance", "of", "competing", "interests"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her tenacity in the face of overwhelming odds is truly inspirational",
+    "translation": "Sua tenacidade diante de probabilidades esmagadoras é verdadeiramente inspiradora",
+    "words": ["Her", "tenacity", "in", "the", "face", "of", "overwhelming", "odds", "is", "truly", "inspirational"]
+  },
+  {
+    "level": "C2",
+    "correct": "The candidate's lackluster performance during the debate cost him the election",
+    "translation": "O desempenho medíocre do candidato durante o debate lhe custou a eleição",
+    "words": ["The", "candidate's", "lackluster", "performance", "during", "the", "debate", "cost", "him", "the", "election"]
+  },
+  {
+    "level": "C2",
+    "correct": "The government's complacency in the face of the crisis proved to be catastrophic",
+    "translation": "A complacência do governo diante da crise provou ser catastrófica",
+    "words": ["The", "government's", "complacency", "in", "the", "face", "of", "the", "crisis", "proved", "to", "be", "catastrophic"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's failure to innovate ultimately led to its demise",
+    "translation": "A falta de inovação da empresa acabou levando ao seu fim",
+    "words": ["The", "company's", "failure", "to", "innovate", "ultimately", "led", "to", "its", "demise"]
+  },
+  {
+    "level": "C2",
+    "correct": "His argument is predicated on a fundamental misunderstanding of the data",
+    "translation": "Seu argumento baseia-se em um mal-entendido fundamental dos dados",
+    "words": ["His", "argument", "is", "predicated", "on", "a", "fundamental", "misunderstanding", "of", "the", "data"]
+  },
+  {
+    "level": "C2",
+    "correct": "The proposal was met with resounding indifference by the committee",
+    "translation": "A proposta foi recebida com indiferença retumbante pelo comitê",
+    "words": ["The", "proposal", "was", "met", "with", "resounding", "indifference", "by", "the", "committee"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's aggressive expansion strategy backfired spectacularly",
+    "translation": "A estratégia agressiva de expansão da empresa saiu pela culatra espetacularmente",
+    "words": ["The", "company's", "aggressive", "expansion", "strategy", "backfired", "spectacularly"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her refusal to compromise was perceived as intransigence rather than principle",
+    "translation": "Sua recusa em comprometer foi percebida como intransigência em vez de princípio",
+    "words": ["Her", "refusal", "to", "compromise", "was", "perceived", "as", "intransigence", "rather", "than", "principle"]
+  },
+  {
+    "level": "C2",
+    "correct": "The policy has been roundly criticized by experts across the political spectrum",
+    "translation": "A política foi amplamente criticada por especialistas de todo o espectro político",
+    "words": ["The", "policy", "has", "been", "roundly", "criticized", "by", "experts", "across", "the", "political", "spectrum"]
+  },
+  {
+    "level": "C2",
+    "correct": "His remarks were widely interpreted as a veiled criticism of the administration",
+    "translation": "Suas observações foram amplamente interpretadas como uma crítica velada à administração",
+    "words": ["His", "remarks", "were", "widely", "interpreted", "as", "a", "veiled", "criticism", "of", "the", "administration"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's financial woes are largely attributable to mismanagement",
+    "translation": "As dificuldades financeiras da empresa são amplamente atribuíveis à má gestão",
+    "words": ["The", "company's", "financial", "woes", "are", "largely", "attributable", "to", "mismanagement"]
+  },
+  {
+    "level": "C2",
+    "correct": "The negotiations collapsed due to irreconcilable differences between the parties",
+    "translation": "As negociações fracassaram devido a diferenças irreconciliáveis entre as partes",
+    "words": ["The", "negotiations", "collapsed", "due", "to", "irreconcilable", "differences", "between", "the", "parties"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her latest novel pales in comparison to her earlier masterpieces",
+    "translation": "Seu último romance empalidece em comparação com suas obras-primas anteriores",
+    "words": ["Her", "latest", "novel", "pales", "in", "comparison", "to", "her", "earlier", "masterpieces"]
+  },
+  {
+    "level": "C2",
+    "correct": "The candidate's speech fell flat failing to resonate with the audience",
+    "translation": "O discurso do candidato não teve impacto, não conseguindo ressoar com a plateia",
+    "words": ["The", "candidate's", "speech", "fell", "flat", "failing", "to", "resonate", "with", "the", "audience"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's attempts to diversify have thus far proved fruitless",
+    "translation": "As tentativas da empresa de diversificar até agora se mostraram infrutíferas",
+    "words": ["The", "company's", "attempts", "to", "diversify", "have", "thus", "far", "proved", "fruitless"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her argument is undermined by a glaring logical fallacy",
+    "translation": "Seu argumento é prejudicado por uma falácia lógica gritante",
+    "words": ["Her", "argument", "is", "undermined", "by", "a", "glaring", "logical", "fallacy"]
+  },
+  {
+    "level": "C2",
+    "correct": "The report was dismissed as alarmist by government officials",
+    "translation": "O relatório foi descartado como alarmista por funcionários do governo",
+    "words": ["The", "report", "was", "dismissed", "as", "alarmist", "by", "government", "officials"]
+  },
+  {
+    "level": "C2",
+    "correct": "His promises ring hollow given his track record of broken commitments",
+    "translation": "Suas promessas soam vazias dado seu histórico de compromissos quebrados",
+    "words": ["His", "promises", "ring", "hollow", "given", "his", "track", "record", "of", "broken", "commitments"]
+  },
+  {
+    "level": "C2",
+    "correct": "The proposal is devoid of any substantive content",
+    "translation": "A proposta é desprovida de qualquer conteúdo substancial",
+    "words": ["The", "proposal", "is", "devoid", "of", "any", "substantive", "content"]
+  },
+  {
+    "level": "C2",
+    "correct": "The government's response has been woefully inadequate",
+    "translation": "A resposta do governo tem sido lamentavelmente inadequada",
+    "words": ["The", "government's", "response", "has", "been", "woefully", "inadequate"]
+  },
+  {
+    "level": "C2",
+    "correct": "His explanation beggars belief given the overwhelming evidence to the contrary",
+    "translation": "Sua explicação desafia a crença, dada a esmagadora evidência em contrário",
+    "words": ["His", "explanation", "beggars", "belief", "given", "the", "overwhelming", "evidence", "to", "the", "contrary"]
+  },
+  {
+    "level": "C2",
+    "correct": "The committee's decision flies in the face of common sense",
+    "translation": "A decisão do comitê vai contra o senso comum",
+    "words": ["The", "committee's", "decision", "flies", "in", "the", "face", "of", "common", "sense"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's ethical standards leave much to be desired",
+    "translation": "Os padrões éticos da empresa deixam muito a desejar",
+    "words": ["The", "company's", "ethical", "standards", "leave", "much", "to", "be", "desired"]
+  },
+  {
+    "level": "C2",
+    "correct": "The government's policy is predicated on a false dichotomy",
+    "translation": "A política do governo baseia-se em uma falsa dicotomia",
+    "words": ["The", "government's", "policy", "is", "predicated", "on", "a", "false", "dichotomy"]
+  },
+  {
+    "level": "C2",
+    "correct": "Her argument is replete with logical inconsistencies",
+    "translation": "Seu argumento está repleto de inconsistências lógicas",
+    "words": ["Her", "argument", "is", "replete", "with", "logical", "inconsistencies"]
+  },
+  {
+    "level": "C2",
+    "correct": "The project is doomed to fail unless fundamental changes are made",
+    "translation": "O projeto está fadado ao fracasso a menos que mudanças fundamentais sejam feitas",
+    "words": ["The", "project", "is", "doomed", "to", "fail", "unless", "fundamental", "changes", "are", "made"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's strategy is built on shifting sands",
+    "translation": "A estratégia da empresa é construída em areias movediças",
+    "words": ["The", "company's", "strategy", "is", "built", "on", "shifting", "sands"]
+  },
+  {
+    "level": "C2",
+    "correct": "The government's assurances ring hollow in light of recent events",
+    "translation": "As garantias do governo soam vazias à luz dos eventos recentes",
+    "words": ["The", "government's", "assurances", "ring", "hollow", "in", "light", "of", "recent", "events"]
+  },
+  {
+    "level": "C2",
+    "correct": "His credibility has been irreparably damaged by the scandal",
+    "translation": "Sua credibilidade foi irremediavelmente danificada pelo escândalo",
+    "words": ["His", "credibility", "has", "been", "irreparably", "damaged", "by", "the", "scandal"]
+  },
+  {
+    "level": "C2",
+    "correct": "The company's efforts to rebrand have been an unmitigated disaster",
+    "translation": "Os esforços da empresa para se repositionar foram um desastre total",
+    "words": ["The", "company's", "efforts", "to", "rebrand", "have", "been", "an", "unmitigated", "disaster"]
+  },
+  {
+    "level": "C2",
+    "correct": "The policy is unlikely to achieve its stated objectives",
+    "translation": "É improvável que a política atinja seus objetivos declarados",
+    "words": ["The", "policy", "is", "unlikely", "to", "achieve", "its", "stated", "objectives"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the fundamental assumptions underpinning your theoretical framework?",
+    "translation": "Quais são as premissas fundamentais que sustentam seu quadro teórico?",
+    "words": ["What", "are", "the", "fundamental", "assumptions", "underpinning", "your", "theoretical", "framework", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "To what extent can we extrapolate these findings to other demographic groups?",
+    "translation": "Até que ponto podemos extrapolar essas descobertas para outros grupos demográficos?",
+    "words": ["To", "what", "extent", "can", "we", "extrapolate", "these", "findings", "to", "other", "demographic", "groups", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you reconcile the apparent contradiction between these two data sets?",
+    "translation": "Como você reconciliaria a aparente contradição entre esses dois conjuntos de dados?",
+    "words": ["How", "would", "you", "reconcile", "the", "apparent", "contradiction", "between", "these", "two", "data", "sets", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the ethical implications of conducting research without informed consent?",
+    "translation": "Quais são as implicações éticas de conduzir pesquisas sem consentimento informado?",
+    "words": ["What", "are", "the", "ethical", "implications", "of", "conducting", "research", "without", "informed", "consent", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How do you account for the discrepancy between the projected and actual outcomes?",
+    "translation": "Como você explica a discrepância entre os resultados projetados e reais?",
+    "words": ["How", "do", "you", "account", "for", "the", "discrepancy", "between", "the", "projected", "and", "actual", "outcomes", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What measures could be implemented to mitigate the adverse effects of this policy?",
+    "translation": "Que medidas poderiam ser implementadas para mitigar os efeitos adversos desta política?",
+    "words": ["What", "measures", "could", "be", "implemented", "to", "mitigate", "the", "adverse", "effects", "of", "this", "policy", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "To what degree does socioeconomic status influence educational attainment?",
+    "translation": "Até que ponto o status socioeconômico influencia o nível educacional?",
+    "words": ["To", "what", "degree", "does", "socioeconomic", "status", "influence", "educational", "attainment", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What factors would you consider most critical in assessing the viability of this venture?",
+    "translation": "Que fatores você consideraria mais críticos para avaliar a viabilidade deste empreendimento?",
+    "words": ["What", "factors", "would", "you", "consider", "most", "critical", "in", "assessing", "the", "viability", "of", "this", "venture", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How might we reinterpret these findings in light of recent theoretical developments?",
+    "translation": "Como poderíamos reinterpretar essas descobertas à luz dos recentes desenvolvimentos teóricos?",
+    "words": ["How", "might", "we", "reinterpret", "these", "findings", "in", "light", "of", "recent", "theoretical", "developments", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the potential unintended consequences of implementing this solution?",
+    "translation": "Quais são as potenciais consequências não intencionais de implementar esta solução?",
+    "words": ["What", "are", "the", "potential", "unintended", "consequences", "of", "implementing", "this", "solution", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you defend your hypothesis against potential criticisms?",
+    "translation": "Como você defenderia sua hipótese contra possíveis críticas?",
+    "words": ["How", "would", "you", "defend", "your", "hypothesis", "against", "potential", "criticisms", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What evidence would be required to falsify your theory?",
+    "translation": "Que evidências seriam necessárias para falsear sua teoria?",
+    "words": ["What", "evidence", "would", "be", "required", "to", "falsify", "your", "theory", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "To what extent does your analysis account for confounding variables?",
+    "translation": "Até que ponto sua análise leva em conta variáveis de confusão?",
+    "words": ["To", "what", "extent", "does", "your", "analysis", "account", "for", "confounding", "variables", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you address the limitations of your methodological approach?",
+    "translation": "Como você abordaria as limitações de sua abordagem metodológica?",
+    "words": ["How", "would", "you", "address", "the", "limitations", "of", "your", "methodological", "approach", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the ontological assumptions underlying your research paradigm?",
+    "translation": "Quais são as premissas ontológicas subjacentes ao seu paradigma de pesquisa?",
+    "words": ["What", "are", "the", "ontological", "assumptions", "underlying", "your", "research", "paradigm", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you differentiate your theory from competing explanations?",
+    "translation": "Como você diferenciaria sua teoria de explicações concorrentes?",
+    "words": ["How", "would", "you", "differentiate", "your", "theory", "from", "competing", "explanations", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the epistemological implications of adopting this methodological stance?",
+    "translation": "Quais são as implicações epistemológicas de adotar esta postura metodológica?",
+    "words": ["What", "are", "the", "epistemological", "implications", "of", "adopting", "this", "methodological", "stance", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How might cultural biases have influenced your interpretation of the data?",
+    "translation": "Como os vieses culturais podem ter influenciado sua interpretação dos dados?",
+    "words": ["How", "might", "cultural", "biases", "have", "influenced", "your", "interpretation", "of", "the", "data", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What alternative explanations might account for the observed phenomena?",
+    "translation": "Que explicações alternativas poderiam explicar os fenômenos observados?",
+    "words": ["What", "alternative", "explanations", "might", "account", "for", "the", "observed", "phenomena", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you operationalize the key constructs in your theoretical model?",
+    "translation": "Como você operacionalizaria os principais construtos em seu modelo teórico?",
+    "words": ["How", "would", "you", "operationalize", "the", "key", "constructs", "in", "your", "theoretical", "model", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What criteria should be used to evaluate the validity of these claims?",
+    "translation": "Que critérios devem ser usados para avaliar a validade dessas afirmações?",
+    "words": ["What", "criteria", "should", "be", "used", "to", "evaluate", "the", "validity", "of", "these", "claims", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you design a study to test the causal relationship you propose?",
+    "translation": "Como você desenharia um estudo para testar a relação causal que propõe?",
+    "words": ["How", "would", "you", "design", "a", "study", "to", "test", "the", "causal", "relationship", "you", "propose", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the practical implications of your findings for policy makers?",
+    "translation": "Quais são as implicações práticas de suas descobertas para os formuladores de políticas?",
+    "words": ["What", "are", "the", "practical", "implications", "of", "your", "findings", "for", "policy", "makers", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you respond to the critique that your sample size is insufficient?",
+    "translation": "Como você responderia à crítica de que seu tamanho de amostra é insuficiente?",
+    "words": ["How", "would", "you", "respond", "to", "the", "critique", "that", "your", "sample", "size", "is", "insufficient", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the potential confounding factors that your analysis may have overlooked?",
+    "translation": "Quais são os potenciais fatores de confusão que sua análise pode ter negligenciado?",
+    "words": ["What", "are", "the", "potential", "confounding", "factors", "that", "your", "analysis", "may", "have", "overlooked", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you replicate this study to verify the robustness of your results?",
+    "translation": "Como você replicaria este estudo para verificar a robustez de seus resultados?",
+    "words": ["How", "would", "you", "replicate", "this", "study", "to", "verify", "the", "robustness", "of", "your", "results", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the ethical considerations that must be addressed before proceeding?",
+    "translation": "Quais são as considerações éticas que devem ser abordadas antes de prosseguir?",
+    "words": ["What", "are", "the", "ethical", "considerations", "that", "must", "be", "addressed", "before", "proceeding", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How does your theoretical framework account for anomalous cases?",
+    "translation": "Como seu quadro teórico explica casos anômalos?",
+    "words": ["How", "does", "your", "theoretical", "framework", "account", "for", "anomalous", "cases", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the limitations of generalizing your findings beyond the study context?",
+    "translation": "Quais são as limitações de generalizar suas descobertas além do contexto do estudo?",
+    "words": ["What", "are", "the", "limitations", "of", "generalizing", "your", "findings", "beyond", "the", "study", "context", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you refine your methodology to address potential sources of bias?",
+    "translation": "Como você refinaria sua metodologia para abordar fontes potenciais de viés?",
+    "words": ["How", "would", "you", "refine", "your", "methodology", "to", "address", "potential", "sources", "of", "bias", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the theoretical contributions of your work to the existing literature?",
+    "translation": "Quais são as contribuições teóricas de seu trabalho para a literatura existente?",
+    "words": ["What", "are", "the", "theoretical", "contributions", "of", "your", "work", "to", "the", "existing", "literature", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How might your findings inform future research directions in this field?",
+    "translation": "Como suas descobertas podem informar futuras direções de pesquisa neste campo?",
+    "words": ["How", "might", "your", "findings", "inform", "future", "research", "directions", "in", "this", "field", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the policy implications of your research for developing countries?",
+    "translation": "Quais são as implicações políticas de sua pesquisa para os países em desenvolvimento?",
+    "words": ["What", "are", "the", "policy", "implications", "of", "your", "research", "for", "developing", "countries", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "How would you address the issue of replicability in your experimental design?",
+    "translation": "Como você abordaria a questão da replicabilidade em seu desenho experimental?",
+    "words": ["How", "would", "you", "address", "the", "issue", "of", "replicability", "in", "your", "experimental", "design", "?"]
+  },
+  {
+    "level": "C2",
+    "correct": "What are the potential confounding variables that could threaten internal validity?",
+    "translation": "Quais são as potenciais variáveis de confusão que poderiam ameaçar a validade interna?",
+    "words": ["What", "are", "the", "potential", "confounding", "variables", "that", "could", "threaten", "internal", "validity", "?"]
   }
 ]

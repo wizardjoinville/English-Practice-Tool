@@ -2543,3 +2543,244 @@ label[for="grammarModeSelect"] {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.02);
 }
+/* Adicione ao final do arquivo styles.css */
+
+/* ============================================
+   VOICE RECOGNITION FEATURE
+   ============================================ */
+
+.voice-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.voice-btn {
+  background: linear-gradient(135deg, #2196F3, #1976D2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.voice-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+}
+
+.voice-btn.recording {
+  background: linear-gradient(135deg, #F44336, #D32F2F);
+  animation: pulse-red 1s infinite;
+}
+
+.voice-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@keyframes pulse-red {
+  0% {
+    box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(244, 67, 54, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(244, 67, 54, 0);
+  }
+}
+
+.voice-feedback {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  text-align: center;
+  display: none;
+}
+
+.voice-feedback.correct {
+  display: block;
+  background: #e8f5e9;
+  border: 1px solid #4CAF50;
+  color: #2E7D32;
+}
+
+.voice-feedback.incorrect {
+  display: block;
+  background: #ffebee;
+  border: 1px solid #F44336;
+  color: #C62828;
+}
+
+.voice-feedback.warning {
+  display: block;
+  background: #fff8e1;
+  border: 1px solid #FF9800;
+  color: #E65100;
+}
+
+.voice-transcript {
+  margin-top: 8px;
+  padding: 8px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+.similarity-score {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  color: #8A2BE2;
+}
+
+/* Voice button específico para cada modo */
+.voice-quiz-btn, .voice-vocab-btn, .voice-phrasal-btn, .voice-grammar-btn {
+  background: linear-gradient(135deg, #2196F3, #1976D2);
+}
+
+/* Indicador de volume/áudio */
+.voice-level {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(33, 150, 243, 0.2);
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.voice-level.active {
+  animation: pulse-blue 0.5s infinite;
+}
+
+@keyframes pulse-blue {
+  0%, 100% {
+    background: rgba(33, 150, 243, 0.2);
+  }
+  50% {
+    background: rgba(33, 150, 243, 0.8);
+  }
+}
+/* ============================================
+   VOICE CONTROLS PARA SENTENCE BUILDER
+   ============================================ */
+
+.voice-controls {
+  margin: 15px 0 10px 0;
+  text-align: center;
+}
+
+.voice-btn {
+  background: linear-gradient(135deg, #2196F3, #1976D2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.voice-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+}
+
+.voice-btn.recording {
+  background: linear-gradient(135deg, #F44336, #D32F2F);
+  animation: pulse-red 1s infinite;
+}
+
+@keyframes pulse-red {
+  0% {
+    box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(244, 67, 54, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(244, 67, 54, 0);
+  }
+}
+
+.voice-feedback {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  text-align: center;
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+
+.voice-feedback.correct {
+  display: block;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  border: 2px solid #4CAF50;
+  color: #2E7D32;
+}
+
+.voice-feedback.incorrect {
+  display: block;
+  background: linear-gradient(135deg, #ffebee, #ffcdd2);
+  border: 2px solid #F44336;
+  color: #C62828;
+}
+
+.voice-feedback.warning {
+  display: block;
+  background: linear-gradient(135deg, #fff8e1, #ffecb3);
+  border: 2px solid #FF9800;
+  color: #E65100;
+}
+
+.voice-transcript {
+  margin-top: 8px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.similarity-score {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Botões de áudio */
+.audio-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  padding: 5px 12px;
+  margin: 5px 5px 0 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #FFD700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.audio-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.02);
+}
