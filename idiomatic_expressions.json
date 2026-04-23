@@ -447,6 +447,406 @@
     "definition_pt": "Enfrentar uma situação difícil ou desagradável com coragem",
     "example": "I decided to bite the bullet and go to the dentist."
   },
+    {
+    "level": "B1",
+    "expression": "actions speak louder than words",
+    "translation": "ações falam mais alto que palavras",
+    "definition_en": "What you do is more important than what you say",
+    "definition_pt": "O que você faz é mais importante do que o que você diz",
+    "example": "Don't just promise to help - actions speak louder than words."
+  },
+  {
+    "level": "B1",
+    "expression": "all ears",
+    "translation": "todo ouvidos",
+    "definition_en": "Listening carefully and attentively",
+    "definition_pt": "Ouvindo cuidadosa e atentamente",
+    "example": "Tell me what happened - I'm all ears."
+  },
+  {
+    "level": "B1",
+    "expression": "an arm and a leg",
+    "translation": "os olhos da cara",
+    "definition_en": "Very expensive",
+    "definition_pt": "Muito caro",
+    "example": "The repairs cost me an arm and a leg."
+  },
+  {
+    "level": "B1",
+    "expression": "apple of my eye",
+    "translation": "menina dos meus olhos",
+    "definition_en": "Someone you love very much",
+    "definition_pt": "Alguém que você ama muito",
+    "example": "My daughter is the apple of my eye."
+  },
+  {
+    "level": "B1",
+    "expression": "at the drop of a hat",
+    "translation": "imediatamente",
+    "definition_en": "Immediately, without any hesitation",
+    "definition_pt": "Imediatamente, sem qualquer hesitação",
+    "example": "She would help me at the drop of a hat."
+  },
+  {
+    "level": "B1",
+    "expression": "back to square one",
+    "translation": "voltar à estaca zero",
+    "definition_en": "To start again from the beginning",
+    "definition_pt": "Começar novamente do início",
+    "example": "The computer crashed, so I'm back to square one."
+  },
+  {
+    "level": "B1",
+    "expression": "barking up the wrong tree",
+    "translation": "procurar no lugar errado",
+    "definition_en": "Looking for something in the wrong place",
+    "definition_pt": "Procurar algo no lugar errado",
+    "example": "If you think I took your keys, you're barking up the wrong tree."
+  },
+  {
+    "level": "B1",
+    "expression": "beat the clock",
+    "translation": "terminar antes do prazo",
+    "definition_en": "To finish something before the deadline",
+    "definition_pt": "Terminar algo antes do prazo",
+    "example": "We worked hard to beat the clock and finish on time."
+  },
+  {
+    "level": "B1",
+    "expression": "beauty is in the eye of the beholder",
+    "translation": "a beleza está nos olhos de quem vê",
+    "definition_en": "Different people have different tastes",
+    "definition_pt": "Pessoas diferentes têm gostos diferentes",
+    "example": "I think it's ugly, but beauty is in the eye of the beholder."
+  },
+  {
+    "level": "B1",
+    "expression": "beating around the bush",
+    "translation": "fazer rodeios",
+    "definition_en": "Avoiding the main point",
+    "definition_pt": "Evitar o ponto principal",
+    "example": "Stop beating around the bush and tell me the truth."
+  },
+  {
+    "level": "B1",
+    "expression": "bend over backwards",
+    "translation": "fazer de tudo",
+    "definition_en": "To try very hard to help someone",
+    "definition_pt": "Tentar muito ajudar alguém",
+    "example": "She bent over backwards to make us comfortable."
+  },
+  {
+    "level": "B1",
+    "expression": "between a rock and a hard place",
+    "translation": "entre a cruz e a espada",
+    "definition_en": "In a difficult situation with no good options",
+    "definition_pt": "Em uma situação difícil sem boas opções",
+    "example": "I'm between a rock and a hard place with this decision."
+  },
+  {
+    "level": "B1",
+    "expression": "bite off more than you can chew",
+    "translation": "pegar mais do que pode carregar",
+    "definition_en": "To take on too much responsibility",
+    "definition_pt": "Assumir responsabilidade demais",
+    "example": "I bit off more than I could chew with this project."
+  },
+  {
+    "level": "B1",
+    "expression": "blow off steam",
+    "translation": "aliviar a tensão",
+    "definition_en": "To release stress or energy",
+    "definition_pt": "Liberar estresse ou energia",
+    "example": "I go for a run to blow off steam."
+  },
+  {
+    "level": "B1",
+    "expression": "break the bank",
+    "translation": "custar muito caro",
+    "definition_en": "To be very expensive",
+    "definition_pt": "Ser muito caro",
+    "example": "This vacation won't break the bank."
+  },
+  {
+    "level": "B1",
+    "expression": "burn the candle at both ends",
+    "translation": "queimar vela pelos dois lados",
+    "definition_en": "To work too hard and get too little rest",
+    "definition_pt": "Trabalhar demais e descansar pouco",
+    "example": "He's burning the candle at both ends and getting sick."
+  },
+  {
+    "level": "B1",
+    "expression": "butterflies in my stomach",
+    "translation": "frio na barriga",
+    "definition_en": "A nervous feeling before something important",
+    "definition_pt": "Uma sensação de nervosismo antes de algo importante",
+    "example": "I have butterflies in my stomach before the interview."
+  },
+  {
+    "level": "B1",
+    "expression": "call the shots",
+    "translation": "mandar na parada",
+    "definition_en": "To be in charge and make decisions",
+    "definition_pt": "Estar no comando e tomar decisões",
+    "example": "The CEO calls the shots around here."
+  },
+  {
+    "level": "B1",
+    "expression": "chip on your shoulder",
+    "translation": "sentimento de inferioridade",
+    "definition_en": "To be angry about something in the past",
+    "definition_pt": "Estar irritado com algo do passado",
+    "example": "He has a chip on his shoulder about not going to college."
+  },
+  {
+    "level": "B1",
+    "expression": "cold feet",
+    "translation": "ficar com medo na hora",
+    "definition_en": "To become nervous before doing something",
+    "definition_pt": "Ficar nervoso antes de fazer algo",
+    "example": "She got cold feet and didn't go through with it."
+  },
+  {
+    "level": "B1",
+    "expression": "cross that bridge when you come to it",
+    "translation": "deixar para resolver quando acontecer",
+    "definition_en": "To deal with a problem when it happens",
+    "definition_pt": "Lidar com um problema quando ele acontecer",
+    "example": "We'll cross that bridge when we come to it."
+  },
+  {
+    "level": "B1",
+    "expression": "cry wolf",
+    "translation": "dar alarme falso",
+    "definition_en": "To give a false alarm",
+    "definition_pt": "Dar um alarme falso",
+    "example": "If you keep crying wolf, nobody will believe you."
+  },
+  {
+    "level": "B1",
+    "expression": "cut someone some slack",
+    "translation": "dar uma folga para alguém",
+    "definition_en": "To be less critical of someone",
+    "definition_pt": "Ser menos crítico com alguém",
+    "example": "Cut him some slack - he's new at this job."
+  },
+  {
+    "level": "B1",
+    "expression": "daydream",
+    "translation": "devaneio",
+    "definition_en": "To think about pleasant things instead of working",
+    "definition_pt": "Pensar em coisas agradáveis em vez de trabalhar",
+    "example": "Stop daydreaming and finish your homework."
+  },
+  {
+    "level": "B1",
+    "expression": "devil's advocate",
+    "translation": "advogado do diabo",
+    "definition_en": "Someone who argues against an idea for the sake of debate",
+    "definition_pt": "Alguém que argumenta contra uma ideia para estimular o debate",
+    "example": "I'll play devil's advocate and question your plan."
+  },
+  {
+    "level": "B1",
+    "expression": "don't count your chickens before they hatch",
+    "translation": "não conte com o ovo antes da galinha botar",
+    "definition_en": "Don't assume something will happen before it does",
+    "definition_pt": "Não assuma que algo vai acontecer antes de acontecer",
+    "example": "You might not win - don't count your chickens before they hatch."
+  },
+  {
+    "level": "B1",
+    "expression": "don't give up your day job",
+    "translation": "não largue o emprego",
+    "definition_en": "You're not good enough to do this professionally",
+    "definition_pt": "Você não é bom o suficiente para fazer isso profissionalmente",
+    "example": "Your singing is okay, but don't give up your day job."
+  },
+  {
+    "level": "B1",
+    "expression": "drag your feet",
+    "translation": "protelar",
+    "definition_en": "To delay doing something",
+    "definition_pt": "Atrasar ou adiar fazer algo",
+    "example": "The government is dragging its feet on this issue."
+  },
+  {
+    "level": "B1",
+    "expression": "draw a blank",
+    "translation": "dar um branco",
+    "definition_en": "To fail to remember something",
+    "definition_pt": "Falhar em lembrar de algo",
+    "example": "I know his name, but I'm drawing a blank."
+  },
+  {
+    "level": "B1",
+    "expression": "due to",
+    "translation": "devido a",
+    "definition_en": "Because of",
+    "definition_pt": "Por causa de",
+    "example": "The flight was delayed due to bad weather."
+  },
+  {
+    "level": "B1",
+    "expression": "elbow grease",
+    "translation": "trabalho pesado",
+    "definition_en": "Hard physical effort",
+    "definition_pt": "Esforço físico intenso",
+    "example": "This floor needs some elbow grease to get clean."
+  },
+  {
+    "level": "B1",
+    "expression": "every cloud has a silver lining",
+    "translation": "toda nuvem tem um lado positivo",
+    "definition_en": "There is something good in every bad situation",
+    "definition_pt": "Há algo bom em toda situação ruim",
+    "example": "Don't be sad - every cloud has a silver lining."
+  },
+  {
+    "level": "B1",
+    "expression": "face the music",
+    "translation": "encarar as consequências",
+    "definition_en": "To accept the negative consequences of your actions",
+    "definition_pt": "Aceitar as consequências negativas de suas ações",
+    "example": "I made a mistake, time to face the music."
+  },
+  {
+    "level": "B1",
+    "expression": "fed up with",
+    "translation": "cansado de",
+    "definition_en": "Annoyed or tired of something",
+    "definition_pt": "Irritado ou cansado de algo",
+    "example": "I'm fed up with your excuses."
+  },
+  {
+    "level": "B1",
+    "expression": "feel under the weather",
+    "translation": "sentindo-se indisposto",
+    "definition_en": "To feel slightly sick",
+    "definition_pt": "Sentir-se ligeiramente doente",
+    "example": "I think I'll stay home today, I feel under the weather."
+  },
+  {
+    "level": "B1",
+    "expression": "fine line",
+    "translation": "linha tênue",
+    "definition_en": "A small difference between two things",
+    "definition_pt": "Uma pequena diferença entre duas coisas",
+    "example": "There's a fine line between confidence and arrogance."
+  },
+  {
+    "level": "B1",
+    "expression": "get a grip",
+    "translation": "se controlar",
+    "definition_en": "To control your emotions",
+    "definition_pt": "Controlar suas emoções",
+    "example": "Get a grip and stop crying over nothing."
+  },
+  {
+    "level": "B1",
+    "expression": "get off on the wrong foot",
+    "translation": "começar com o pé esquerdo",
+    "definition_en": "To start a relationship badly",
+    "definition_pt": "Começar um relacionamento mal",
+    "example": "We got off on the wrong foot, but now we're friends."
+  },
+  {
+    "level": "B1",
+    "expression": "get over it",
+    "translation": "superar",
+    "definition_en": "To move past a problem or emotion",
+    "definition_pt": "Superar um problema ou emoção",
+    "example": "It happened a year ago - you need to get over it."
+  },
+  {
+    "level": "B1",
+    "expression": "get your act together",
+    "translation": "se organizar",
+    "definition_en": "To become more organized",
+    "definition_pt": "Ficar mais organizado",
+    "example": "You need to get your act together and study more."
+  },
+  {
+    "level": "B1",
+    "expression": "give the benefit of the doubt",
+    "translation": "dar o benefício da dúvida",
+    "definition_en": "To believe someone's excuse without proof",
+    "definition_pt": "Acreditar na desculpa de alguém sem provas",
+    "example": "I'll give you the benefit of the doubt this time."
+  },
+  {
+    "level": "B1",
+    "expression": "go for broke",
+    "translation": "arriscar tudo",
+    "definition_en": "To risk everything in an attempt to succeed",
+    "definition_pt": "Arriscar tudo em uma tentativa de ter sucesso",
+    "example": "We're going for broke and launching the product early."
+  },
+  {
+    "level": "B1",
+    "expression": "go out on a limb",
+    "translation": "arriscar-se",
+    "definition_en": "To take a risk",
+    "definition_pt": "Correr um risco",
+    "example": "I'll go out on a limb and say you'll get the job."
+  },
+  {
+    "level": "B1",
+    "expression": "green with envy",
+    "translation": "verde de inveja",
+    "definition_en": "Very jealous",
+    "definition_pt": "Muito invejoso",
+    "example": "I'm green with envy about your new car."
+  },
+  {
+    "level": "B1",
+    "expression": "gut feeling",
+    "translation": "intuição",
+    "definition_en": "A strong feeling about someone or something",
+    "definition_pt": "Um forte pressentimento sobre alguém ou algo",
+    "example": "I have a gut feeling that something is wrong."
+  },
+  {
+    "level": "B1",
+    "expression": "hang in there",
+    "translation": "aguenta firme",
+    "definition_en": "To persevere through a difficult time",
+    "definition_pt": "Perseverar em um momento difícil",
+    "example": "I know it's hard, but hang in there."
+  },
+  {
+    "level": "B1",
+    "expression": "have your hands full",
+    "translation": "estar muito ocupado",
+    "definition_en": "To be very busy",
+    "definition_pt": "Estar muito ocupado",
+    "example": "I have my hands full with these three kids."
+  },
+  {
+    "level": "B1",
+    "expression": "hit the jackpot",
+    "translation": "ganhar na loteria",
+    "definition_en": "To have a big success or win a lot of money",
+    "definition_pt": "Ter um grande sucesso ou ganhar muito dinheiro",
+    "example": "She hit the jackpot with that investment."
+  },
+  {
+    "level": "B1",
+    "expression": "in dire straits",
+    "translation": "em situação difícil",
+    "definition_en": "In a very difficult situation",
+    "definition_pt": "Em uma situação muito difícil",
+    "example": "The company is in dire straits financially."
+  },
+  {
+    "level": "B1",
+    "expression": "in the black",
+    "translation": "no azul",
+    "definition_en": "Making a profit, not losing money",
+    "definition_pt": "Tendo lucro, não perdendo dinheiro",
+    "example": "Our business is finally in the black this year."
+  },
   {
     "level": "B1",
     "expression": "hit the nail on the head",
@@ -526,6 +926,406 @@
     "definition_en": "To work late into the night",
     "definition_pt": "Trabalhar até tarde da noite",
     "example": "She burned the midnight oil to finish the project."
+  },
+    {
+    "level": "B2",
+    "expression": "a bird's eye view",
+    "translation": "vista aérea, visão geral",
+    "definition_en": "A view from above or a general overview",
+    "definition_pt": "Uma vista de cima ou uma visão geral",
+    "example": "From the rooftop, you get a bird's eye view of the city."
+  },
+  {
+    "level": "B2",
+    "expression": "a fish out of water",
+    "translation": "fora do seu ambiente",
+    "definition_en": "Someone who feels uncomfortable in a situation",
+    "definition_pt": "Alguém que se sente desconfortável em uma situação",
+    "example": "I felt like a fish out of water at the fancy party."
+  },
+  {
+    "level": "B2",
+    "expression": "a picture is worth a thousand words",
+    "translation": "uma imagem vale mais que mil palavras",
+    "definition_en": "Visual images are more powerful than words",
+    "definition_pt": "Imagens visuais são mais poderosas que palavras",
+    "example": "I won't explain it - a picture is worth a thousand words."
+  },
+  {
+    "level": "B2",
+    "expression": "actions speak louder than words",
+    "translation": "ações falam mais alto que palavras",
+    "definition_en": "What you do is more important than what you say",
+    "definition_pt": "O que você faz é mais importante do que o que você diz",
+    "example": "Don't just promise - actions speak louder than words."
+  },
+  {
+    "level": "B2",
+    "expression": "all that glitters is not gold",
+    "translation": "nem tudo que reluz é ouro",
+    "definition_en": "Things that look good aren't always good",
+    "definition_pt": "Coisas que parecem boas nem sempre são boas",
+    "example": "The job offer seems great, but all that glitters is not gold."
+  },
+  {
+    "level": "B2",
+    "expression": "as right as rain",
+    "translation": "em perfeitas condições",
+    "definition_en": "Perfectly fine or in good condition",
+    "definition_pt": "Perfeitamente bem ou em boas condições",
+    "example": "After some rest, I'm as right as rain."
+  },
+  {
+    "level": "B2",
+    "expression": "at your wits' end",
+    "translation": "não saber mais o que fazer",
+    "definition_en": "To be completely frustrated and out of ideas",
+    "definition_pt": "Estar completamente frustrado e sem ideias",
+    "example": "I'm at my wits' end with this computer problem."
+  },
+  {
+    "level": "B2",
+    "expression": "back against the wall",
+    "translation": "com a corda no pescoço",
+    "definition_en": "In a difficult situation with few options",
+    "definition_pt": "Em uma situação difícil com poucas opções",
+    "example": "With my back against the wall, I had to accept their offer."
+  },
+  {
+    "level": "B2",
+    "expression": "beat a dead horse",
+    "translation": "bater em cavalo morto",
+    "definition_en": "To waste time on something already settled",
+    "definition_pt": "Perder tempo com algo já resolvido",
+    "example": "We already decided - stop beating a dead horse."
+  },
+  {
+    "level": "B2",
+    "expression": "beggars can't be choosers",
+    "translation": "esmola demais, pobre duvida",
+    "definition_en": "Those in need must accept what they get",
+    "definition_pt": "Aqueles que precisam devem aceitar o que recebem",
+    "example": "I didn't like the hotel, but beggars can't be choosers."
+  },
+  {
+    "level": "B2",
+    "expression": "birds of a feather flock together",
+    "translation": "cada qual se junta com seu igual",
+    "definition_en": "Similar people tend to stay together",
+    "definition_pt": "Pessoas semelhantes tendem a ficar juntas",
+    "example": "They're both artists - birds of a feather flock together."
+  },
+  {
+    "level": "B2",
+    "expression": "bite your tongue",
+    "translation": "morder a língua, conter-se",
+    "definition_en": "To stop yourself from saying something",
+    "definition_pt": "Parar de falar algo que quer dizer",
+    "example": "I wanted to argue, but I bit my tongue."
+  },
+  {
+    "level": "B2",
+    "expression": "blow the whistle",
+    "translation": "denunciar irregularidades",
+    "definition_en": "To report illegal or dishonest activity",
+    "definition_pt": "Denunciar atividade ilegal ou desonesta",
+    "example": "An employee blew the whistle on the fraud."
+  },
+  {
+    "level": "B2",
+    "expression": "born with a silver spoon in your mouth",
+    "translation": "nascer em berço de ouro",
+    "definition_en": "To be born into a wealthy family",
+    "definition_pt": "Nascer em uma família rica",
+    "example": "He never struggled - he was born with a silver spoon."
+  },
+  {
+    "level": "B2",
+    "expression": "break the bank",
+    "translation": "custar muito caro",
+    "definition_en": "To be too expensive or to ruin financially",
+    "definition_pt": "Ser muito caro ou arruinar financeiramente",
+    "example": "Dinner was expensive but didn't break the bank."
+  },
+  {
+    "level": "B2",
+    "expression": "burning the candle at both ends",
+    "translation": "queimar a vela em ambas as pontas",
+    "definition_en": "To work too hard and get too little rest",
+    "definition_pt": "Trabalhar demais e descansar muito pouco",
+    "example": "You'll get sick if you keep burning the candle at both ends."
+  },
+  {
+    "level": "B2",
+    "expression": "by the skin of your teeth",
+    "translation": "por um triz",
+    "definition_en": "Just barely succeeding",
+    "definition_pt": "Conseguindo apenas por pouco",
+    "example": "I passed the exam by the skin of my teeth."
+  },
+  {
+    "level": "B2",
+    "expression": "catch-22",
+    "translation": "dilema sem saída",
+    "definition_en": "A difficult situation with no good solution",
+    "definition_pt": "Uma situação difícil sem boa solução",
+    "example": "I need experience to get a job, but I need a job to get experience - it's a catch-22."
+  },
+  {
+    "level": "B2",
+    "expression": "cheap as chips",
+    "translation": "barato como o diabo",
+    "definition_en": "Very inexpensive",
+    "definition_pt": "Muito barato",
+    "example": "The tickets were cheap as chips."
+  },
+  {
+    "level": "B2",
+    "expression": "clean slate",
+    "translation": "recomeçar do zero",
+    "definition_en": "A fresh start without past mistakes",
+    "definition_pt": "Um recomeço sem erros passados",
+    "example": "After moving, I had a clean slate."
+  },
+  {
+    "level": "B2",
+    "expression": "clear as mud",
+    "translation": "claro como a água suja",
+    "definition_en": "Not clear at all; confusing",
+    "definition_pt": "Nada claro; confuso",
+    "example": "The instructions were as clear as mud."
+  },
+  {
+    "level": "B2",
+    "expression": "cost an arm and a leg",
+    "translation": "custar os olhos da cara",
+    "definition_en": "To be extremely expensive",
+    "definition_pt": "Ser extremamente caro",
+    "example": "The repairs cost me an arm and a leg."
+  },
+  {
+    "level": "B2",
+    "expression": "cry wolf",
+    "translation": "dar alarme falso",
+    "definition_en": "To call for help when not needed",
+    "definition_pt": "Pedir ajuda quando não é necessário",
+    "example": "Stop crying wolf, or no one will believe you when it's real."
+  },
+  {
+    "level": "B2",
+    "expression": "cut to the chase",
+    "translation": "ir direto ao ponto",
+    "definition_en": "To get to the point without wasting time",
+    "definition_pt": "Ir direto ao ponto sem perder tempo",
+    "example": "Let's cut to the chase - how much will it cost?"
+  },
+  {
+    "level": "B2",
+    "expression": "dark horse",
+    "translation": "azarão, desconhecido que vence",
+    "definition_en": "A little-known person who surprises others",
+    "definition_pt": "Uma pessoa pouco conhecida que surpreende os outros",
+    "example": "She was a dark horse who won the competition."
+  },
+  {
+    "level": "B2",
+    "expression": "don't count your chickens before they hatch",
+    "translation": "não conte com o ovo antes da galinha botar",
+    "definition_en": "Don't assume success before it happens",
+    "definition_pt": "Não assuma o sucesso antes de acontecer",
+    "example": "You haven't won yet - don't count your chickens before they hatch."
+  },
+  {
+    "level": "B2",
+    "expression": "don't give up your day job",
+    "translation": "não largue o emprego",
+    "definition_en": "You're not good enough to do this professionally",
+    "definition_pt": "Você não é bom o suficiente para fazer isso profissionalmente",
+    "example": "Your singing is okay, but don't give up your day job."
+  },
+  {
+    "level": "B2",
+    "expression": "drag your feet",
+    "translation": "protelar, enrolar",
+    "definition_en": "To delay doing something",
+    "definition_pt": "Atrasar ou adiar fazer algo",
+    "example": "The government is dragging its feet on the decision."
+  },
+  {
+    "level": "B2",
+    "expression": "eat like a horse",
+    "translation": "comer feito um cavalo",
+    "definition_en": "To eat a very large amount",
+    "definition_pt": "Comer uma quantidade muito grande",
+    "example": "After the game, he eats like a horse."
+  },
+  {
+    "level": "B2",
+    "expression": "every dog has its day",
+    "translation": "cada cachorro tem seu dia",
+    "definition_en": "Everyone gets a chance to succeed",
+    "definition_pt": "Todo mundo tem a chance de ter sucesso",
+    "example": "Don't worry - every dog has its day."
+  },
+  {
+    "level": "B2",
+    "expression": "familiarity breeds contempt",
+    "translation": "a familiaridade gera desprezo",
+    "definition_en": "Knowing someone too well can make you dislike them",
+    "definition_pt": "Conhecer alguém muito bem pode fazer você não gostar dela",
+    "example": "After ten years together, familiarity breeds contempt."
+  },
+  {
+    "level": "B2",
+    "expression": "feather your nest",
+    "translation": "enriquecer-se",
+    "definition_en": "To enrich yourself, often dishonestly",
+    "definition_pt": "Enriquecer-se, frequentemente de forma desonesta",
+    "example": "The politician used his position to feather his nest."
+  },
+  {
+    "level": "B2",
+    "expression": "get a taste of your own medicine",
+    "translation": "provar do próprio veneno",
+    "definition_en": "To experience the same bad treatment you give",
+    "definition_pt": "Experimentar o mesmo tratamento ruim que você dá",
+    "example": "He was rude, and then someone was rude to him - he got a taste of his own medicine."
+  },
+  {
+    "level": "B2",
+    "expression": "get off your high horse",
+    "translation": "descer do salto",
+    "definition_en": "To stop acting superior",
+    "definition_pt": "Parar de agir como superior",
+    "example": "Get off your high horse and listen to others."
+  },
+  {
+    "level": "B2",
+    "expression": "get your act together",
+    "translation": "se organizar",
+    "definition_en": "To become more organized",
+    "definition_pt": "Ficar mais organizado",
+    "example": "You need to get your act together and study more."
+  },
+  {
+    "level": "B2",
+    "expression": "give the benefit of the doubt",
+    "translation": "dar o benefício da dúvida",
+    "definition_en": "To believe someone without proof",
+    "definition_pt": "Acreditar em alguém sem provas",
+    "example": "I'll give you the benefit of the doubt this time."
+  },
+  {
+    "level": "B2",
+    "expression": "go down in flames",
+    "translation": "fracassar completamente",
+    "definition_en": "To fail spectacularly",
+    "definition_pt": "Fracassar de forma espetacular",
+    "example": "His presentation went down in flames."
+  },
+  {
+    "level": "B2",
+    "expression": "go out on a limb",
+    "translation": "arriscar-se",
+    "definition_en": "To take a risk to help someone",
+    "definition_pt": "Correr um risco para ajudar alguém",
+    "example": "I'll go out on a limb and support your idea."
+  },
+  {
+    "level": "B2",
+    "expression": "go with the flow",
+    "translation": "seguir a corrente",
+    "definition_en": "To do what others are doing",
+    "definition_pt": "Fazer o que os outros estão fazendo",
+    "example": "I don't have a plan - I just go with the flow."
+  },
+  {
+    "level": "B2",
+    "expression": "grease the wheels",
+    "translation": "facilitar as coisas",
+    "definition_en": "To make something go more smoothly",
+    "definition_pt": "Fazer algo correr mais suavemente",
+    "example": "A small donation can grease the wheels at city hall."
+  },
+  {
+    "level": "B2",
+    "expression": "grin and bear it",
+    "translation": "atravessar a tempestade",
+    "definition_en": "To accept something unpleasant without complaining",
+    "definition_pt": "Aceitar algo desagradável sem reclamar",
+    "example": "The wait is long, but we'll just grin and bear it."
+  },
+  {
+    "level": "B2",
+    "expression": "gut feeling",
+    "translation": "intuição",
+    "definition_en": "A strong instinct about something",
+    "definition_pt": "Um forte instinto sobre algo",
+    "example": "I have a gut feeling that something is wrong."
+  },
+  {
+    "level": "B2",
+    "expression": "hang in there",
+    "translation": "aguenta firme",
+    "definition_en": "To persevere and not give up",
+    "definition_pt": "Perseverar e não desistir",
+    "example": "I know it's hard, but hang in there."
+  },
+  {
+    "level": "B2",
+    "expression": "have your hands full",
+    "translation": "estar muito ocupado",
+    "definition_en": "To be very busy with something",
+    "definition_pt": "Estar muito ocupado com algo",
+    "example": "I have my hands full with these three kids."
+  },
+  {
+    "level": "B2",
+    "expression": "hear something straight from the horse's mouth",
+    "translation": "saber diretamente da fonte",
+    "definition_en": "To hear information directly from the source",
+    "definition_pt": "Ouvir informação diretamente da fonte",
+    "example": "I heard it straight from the horse's mouth - he's quitting."
+  },
+  {
+    "level": "B2",
+    "expression": "hit the jackpot",
+    "translation": "ganhar na loteria",
+    "definition_en": "To have a big success or win a lot",
+    "definition_pt": "Ter um grande sucesso ou ganhar muito",
+    "example": "She hit the jackpot with that investment."
+  },
+  {
+    "level": "B2",
+    "expression": "hold your horses",
+    "translation": "segurar a ansiedade",
+    "definition_en": "To wait and be patient",
+    "definition_pt": "Esperar e ser paciente",
+    "example": "Hold your horses! We're not ready yet."
+  },
+  {
+    "level": "B2",
+    "expression": "in dire straits",
+    "translation": "em situação difícil",
+    "definition_en": "In a very difficult or dangerous situation",
+    "definition_pt": "Em uma situação muito difícil ou perigosa",
+    "example": "The company is in dire straits financially."
+  },
+  {
+    "level": "B2",
+    "expression": "in hot water",
+    "translation": "em apuros",
+    "definition_en": "In trouble",
+    "definition_pt": "Em apuros",
+    "example": "I'm in hot water with my boss for being late."
+  },
+  {
+    "level": "B2",
+    "expression": "in the black",
+    "translation": "no azul",
+    "definition_en": "Making a profit, not losing money",
+    "definition_pt": "Tendo lucro, não perdendo dinheiro",
+    "example": "Our business is finally in the black this year."
   },
   {
     "level": "B2",
@@ -607,6 +1407,406 @@
     "definition_pt": "Desistir; admitir derrota",
     "example": "After many failed attempts, he threw in the towel."
   },
+    {
+    "level": "C1",
+    "expression": "a dime a dozen",
+    "translation": "muito comum, não especial",
+    "definition_en": "Very common and not special",
+    "definition_pt": "Muito comum e não especial",
+    "example": "College graduates are a dime a dozen these days."
+  },
+  {
+    "level": "C1",
+    "expression": "a taste of your own medicine",
+    "translation": "provar do próprio veneno",
+    "definition_en": "Having the same bad treatment you give to others",
+    "definition_pt": "Receber o mesmo tratamento ruim que você dá aos outros",
+    "example": "He was rude, so I gave him a taste of his own medicine."
+  },
+  {
+    "level": "C1",
+    "expression": "all talk and no action",
+    "translation": "fala muito e não faz nada",
+    "definition_en": "Promising to do things but never doing them",
+    "definition_pt": "Prometer fazer coisas mas nunca fazê-las",
+    "example": "Don't trust him - he's all talk and no action."
+  },
+  {
+    "level": "C1",
+    "expression": "ballpark figure",
+    "translation": "estimativa aproximada",
+    "definition_en": "An approximate estimate",
+    "definition_pt": "Uma estimativa aproximada",
+    "example": "Can you give me a ballpark figure of the cost?"
+  },
+  {
+    "level": "C1",
+    "expression": "beat around the bush",
+    "translation": "fazer rodeios",
+    "definition_en": "To avoid talking about the main topic",
+    "definition_pt": "Evitar falar sobre o assunto principal",
+    "example": "Stop beating around the bush and tell me the truth."
+  },
+  {
+    "level": "C1",
+    "expression": "beside the point",
+    "translation": "irrelevante",
+    "definition_en": "Irrelevant or not important to the main topic",
+    "definition_pt": "Irrelevante ou não importante para o assunto principal",
+    "example": "That argument is beside the point entirely."
+  },
+  {
+    "level": "C1",
+    "expression": "beyond the pale",
+    "translation": "fora dos limites aceitáveis",
+    "definition_en": "Unacceptable or outside agreed standards",
+    "definition_pt": "Inaceitável ou fora dos padrões acordados",
+    "example": "His behavior was beyond the pale."
+  },
+  {
+    "level": "C1",
+    "expression": "bite the bullet",
+    "translation": "enfrentar algo difícil",
+    "definition_en": "To face a difficult situation bravely",
+    "definition_pt": "Enfrentar uma situação difícil com bravura",
+    "example": "I'll just have to bite the bullet and apologize."
+  },
+  {
+    "level": "C1",
+    "expression": "blow a fuse",
+    "translation": "perder a paciência completamente",
+    "definition_en": "To become extremely angry",
+    "definition_pt": "Ficar extremamente irritado",
+    "example": "My mom will blow a fuse when she sees this mess."
+  },
+  {
+    "level": "C1",
+    "expression": "break new ground",
+    "translation": "inovar",
+    "definition_en": "To innovate or do something original",
+    "definition_pt": "Inovar ou fazer algo original",
+    "example": "The scientist broke new ground with her discovery."
+  },
+  {
+    "level": "C1",
+    "expression": "burn bridges",
+    "translation": "queimar pontes",
+    "definition_en": "To damage a relationship permanently",
+    "definition_pt": "Danificar um relacionamento permanentemente",
+    "example": "Don't burn bridges with your former employer."
+  },
+  {
+    "level": "C1",
+    "expression": "burst your bubble",
+    "translation": "estragar a ilusão",
+    "definition_en": "To disappoint someone by revealing the truth",
+    "definition_pt": "Decepcionar alguém ao revelar a verdade",
+    "example": "I hate to burst your bubble, but you didn't win."
+  },
+  {
+    "level": "C1",
+    "expression": "calling the shots",
+    "translation": "comandar a situação",
+    "definition_en": "Being in charge and making decisions",
+    "definition_pt": "Estar no comando e tomar decisões",
+    "example": "The new manager is now calling the shots."
+  },
+  {
+    "level": "C1",
+    "expression": "caught between a rock and a hard place",
+    "translation": "entre a cruz e a espada",
+    "definition_en": "Stuck in a difficult situation with limited options",
+    "definition_pt": "Preso em uma situação difícil com opções limitadas",
+    "example": "I'm caught between a rock and a hard place."
+  },
+  {
+    "level": "C1",
+    "expression": "chasing rainbows",
+    "translation": "perseguir ilusões",
+    "definition_en": "Trying to achieve something impossible",
+    "definition_pt": "Tentar alcançar algo impossível",
+    "example": "You're chasing rainbows if you think that will work."
+  },
+  {
+    "level": "C1",
+    "expression": "clear the air",
+    "translation": "esclarecer mal-entendidos",
+    "definition_en": "To remove tension by honest discussion",
+    "definition_pt": "Remover a tensão através de uma discussão honesta",
+    "example": "We need to clear the air about what happened."
+  },
+  {
+    "level": "C1",
+    "expression": "come full circle",
+    "translation": "voltar ao ponto de partida",
+    "definition_en": "To return to the original situation after changes",
+    "definition_pt": "Retornar à situação original após mudanças",
+    "example": "After ten years, my career has come full circle."
+  },
+  {
+    "level": "C1",
+    "expression": "cross your fingers",
+    "translation": "torcer por sorte",
+    "definition_en": "To hope for good luck",
+    "definition_pt": "Esperar por boa sorte",
+    "example": "I'm crossing my fingers that I get the job."
+  },
+  {
+    "level": "C1",
+    "expression": "cut the mustard",
+    "translation": "estar à altura",
+    "definition_en": "To meet expectations or be good enough",
+    "definition_pt": "Atender às expectativas ou ser bom o suficiente",
+    "example": "He's a nice guy, but he can't cut the mustard."
+  },
+  {
+    "level": "C1",
+    "expression": "dead as a doornail",
+    "translation": "completamente morto",
+    "definition_en": "Completely dead or no longer working",
+    "definition_pt": "Completamente morto ou não funcionando mais",
+    "example": "The battery is dead as a doornail."
+  },
+  {
+    "level": "C1",
+    "expression": "do a double take",
+    "translation": "olhar duas vezes com surpresa",
+    "definition_en": "To look at something twice because you're surprised",
+    "definition_pt": "Olhar algo duas vezes porque está surpreso",
+    "example": "I did a double take when I saw the price."
+  },
+  {
+    "level": "C1",
+    "expression": "don't hold your breath",
+    "translation": "não crie expectativas",
+    "definition_en": "Don't expect something to happen soon",
+    "definition_pt": "Não espere que algo aconteça logo",
+    "example": "He said he'll pay me back, but don't hold your breath."
+  },
+  {
+    "level": "C1",
+    "expression": "down to the wire",
+    "translation": "até o último minuto",
+    "definition_en": "Until the very last moment",
+    "definition_pt": "Até o último momento",
+    "example": "The game was close right down to the wire."
+  },
+  {
+    "level": "C1",
+    "expression": "drop in the bucket",
+    "translation": "gota no oceano",
+    "definition_en": "A very small amount compared to what is needed",
+    "definition_pt": "Uma quantidade muito pequena comparada ao que é necessário",
+    "example": "Our donation is just a drop in the bucket."
+  },
+  {
+    "level": "C1",
+    "expression": "fed up to the back teeth",
+    "translation": "absolutamente cansado",
+    "definition_en": "Completely annoyed or tired of something",
+    "definition_pt": "Completamente irritado ou cansado de algo",
+    "example": "I'm fed up to the back teeth with your excuses."
+  },
+  {
+    "level": "C1",
+    "expression": "feet on the ground",
+    "translation": "pé no chão, realista",
+    "definition_en": "To be practical and realistic",
+    "definition_pt": "Ser prático e realista",
+    "example": "She has her feet on the ground despite her success."
+  },
+  {
+    "level": "C1",
+    "expression": "flesh and blood",
+    "translation": "carne e osso, família",
+    "definition_en": "Related by blood or human nature",
+    "definition_pt": "Relacionado por sangue ou natureza humana",
+    "example": "You can't abandon your own flesh and blood."
+  },
+  {
+    "level": "C1",
+    "expression": "get down to brass tacks",
+    "translation": "ir direto ao ponto crucial",
+    "definition_en": "To start discussing the important matters",
+    "definition_pt": "Começar a discutir os assuntos importantes",
+    "example": "Let's get down to brass tacks and talk about money."
+  },
+  {
+    "level": "C1",
+    "expression": "get the show on the road",
+    "translation": "dar início",
+    "definition_en": "To start something or begin a journey",
+    "definition_pt": "Começar algo ou iniciar uma jornada",
+    "example": "Let's get the show on the road, we're late."
+  },
+  {
+    "level": "C1",
+    "expression": "give the green light",
+    "translation": "dar sinal verde",
+    "definition_en": "To give permission to proceed",
+    "definition_pt": "Dar permissão para prosseguir",
+    "example": "The boss gave the green light to start production."
+  },
+  {
+    "level": "C1",
+    "expression": "go against the grain",
+    "translation": "ir contra a corrente",
+    "definition_en": "To do something opposite to what is normal",
+    "definition_pt": "Fazer algo oposto ao que é normal",
+    "example": "His ideas go against the grain of traditional thinking."
+  },
+  {
+    "level": "C1",
+    "expression": "go off the deep end",
+    "translation": "perder o controle",
+    "definition_en": "To become very angry or lose control",
+    "definition_pt": "Ficar muito irritado ou perder o controle",
+    "example": "He went off the deep end when he heard the news."
+  },
+  {
+    "level": "C1",
+    "expression": "go through the roof",
+    "translation": "subir drasticamente",
+    "definition_en": "To increase dramatically",
+    "definition_pt": "Aumentar drasticamente",
+    "example": "Prices have gone through the roof lately."
+  },
+  {
+    "level": "C1",
+    "expression": "grasping at straws",
+    "translation": "agarrar-se a qualquer coisa",
+    "definition_en": "To try something unlikely to solve a problem",
+    "definition_pt": "Tentar algo improvável para resolver um problema",
+    "example": "I'm grasping at straws for a solution."
+  },
+  {
+    "level": "C1",
+    "expression": "have your work cut out for you",
+    "translation": "ter muito trabalho pela frente",
+    "definition_en": "To have a difficult task ahead",
+    "definition_pt": "Ter uma tarefa difícil pela frente",
+    "example": "You have your work cut out for you with this project."
+  },
+  {
+    "level": "C1",
+    "expression": "if the shoe fits, wear it",
+    "translation": "se a carapuça serviu, veste",
+    "definition_en": "If a criticism applies to you, accept it",
+    "definition_pt": "Se uma crítica se aplica a você, aceite-a",
+    "example": "If the shoe fits, wear it - you are lazy."
+  },
+  {
+    "level": "C1",
+    "expression": "in hot water",
+    "translation": "em apuros",
+    "definition_en": "In trouble or in a difficult situation",
+    "definition_pt": "Em apuros ou em uma situação difícil",
+    "example": "I'm in hot water with my boss for being late."
+  },
+  {
+    "level": "C1",
+    "expression": "in the red",
+    "translation": "no vermelho",
+    "definition_en": "Losing money or having debt",
+    "definition_pt": "Perdendo dinheiro ou tendo dívidas",
+    "example": "The company has been in the red for two years."
+  },
+  {
+    "level": "C1",
+    "expression": "jump on the bandwagon",
+    "translation": "seguir a moda",
+    "definition_en": "To join a popular trend or activity",
+    "definition_pt": "Juntar-se a uma tendência ou atividade popular",
+    "example": "Everyone is jumping on the plant-based diet bandwagon."
+  },
+  {
+    "level": "C1",
+    "expression": "keep something at bay",
+    "translation": "manter algo afastado",
+    "definition_en": "To prevent something unpleasant from approaching",
+    "definition_pt": "Prevenir que algo desagradável se aproxime",
+    "example": "Vaccines help keep diseases at bay."
+  },
+  {
+    "level": "C1",
+    "expression": "kill time",
+    "translation": "matar tempo",
+    "definition_en": "To do something while waiting",
+    "definition_pt": "Fazer algo enquanto espera",
+    "example": "I'm just killing time until the movie starts."
+  },
+  {
+    "level": "C1",
+    "expression": "leave no stone unturned",
+    "translation": "não deixar pedra sobre pedra",
+    "definition_en": "To search everywhere possible",
+    "definition_pt": "Procurar em todos os lugares possíveis",
+    "example": "The detective left no stone unturned."
+  },
+  {
+    "level": "C1",
+    "expression": "make a mountain out of a molehill",
+    "translation": "transformar um problema pequeno em grande",
+    "definition_en": "To exaggerate a small problem",
+    "definition_pt": "Exagerar um pequeno problema",
+    "example": "You're making a mountain out of a molehill."
+  },
+  {
+    "level": "C1",
+    "expression": "make waves",
+    "translation": "causar problemas",
+    "definition_en": "To cause trouble or change",
+    "definition_pt": "Causar problemas ou mudanças",
+    "example": "Don't make waves at the meeting."
+  },
+  {
+    "level": "C1",
+    "expression": "my lips are sealed",
+    "translation": "boca fechada, boca de siri",
+    "definition_en": "I won't tell anyone the secret",
+    "definition_pt": "Não contarei o segredo a ninguém",
+    "example": "Don't worry, my lips are sealed."
+  },
+  {
+    "level": "C1",
+    "expression": "no pain, no gain",
+    "translation": "sem dor não há ganho",
+    "definition_en": "You must suffer to achieve something",
+    "definition_pt": "Você precisa sofrer para alcançar algo",
+    "example": "I know training is hard, but no pain, no gain."
+  },
+  {
+    "level": "C1",
+    "expression": "off the top of my head",
+    "translation": "de cabeça, sem pensar muito",
+    "definition_en": "Without thinking or checking first",
+    "definition_pt": "Sem pensar ou verificar primeiro",
+    "example": "Off the top of my head, I'd say about 50 people."
+  },
+  {
+    "level": "C1",
+    "expression": "on the same page",
+    "translation": "na mesma sintonia",
+    "definition_en": "To agree or understand something similarly",
+    "definition_pt": "Concordar ou entender algo de forma semelhante",
+    "example": "We need to get on the same page before we proceed."
+  },
+  {
+    "level": "C1",
+    "expression": "out of the blue",
+    "translation": "do nada, inesperado",
+    "definition_en": "Unexpectedly, without warning",
+    "definition_pt": "Inesperadamente, sem aviso",
+    "example": "He called me out of the blue after years."
+  },
+  {
+    "level": "C1",
+    "expression": "play a role",
+    "translation": "desempenhar um papel",
+    "definition_en": "To have an influence or be part of something",
+    "definition_pt": "Ter influência ou fazer parte de algo",
+    "example": "His attitude played a role in losing the client."
+  },
   {
     "level": "C1",
     "expression": "hit the ground running",
@@ -678,6 +1878,406 @@
     "definition_en": "The worst possible situation that can happen",
     "definition_pt": "A pior situação possível que pode acontecer",
     "example": "The economic crisis created a perfect storm for small businesses."
+  },
+    {
+    "level": "C2",
+    "expression": "a blessing in disguise",
+    "translation": "um mal que vem para bem",
+    "definition_en": "Something that seems bad but turns out to be good",
+    "definition_pt": "Algo que parece ruim mas acaba sendo bom",
+    "example": "Losing that job was a blessing in disguise."
+  },
+  {
+    "level": "C2",
+    "expression": "a herculean task",
+    "translation": "tarefa hercúlea",
+    "definition_en": "An extremely difficult and demanding task",
+    "definition_pt": "Uma tarefa extremamente difícil e exigente",
+    "example": "Cleaning the entire house alone was a herculean task."
+  },
+  {
+    "level": "C2",
+    "expression": "a shot in the dark",
+    "translation": "um palpite sem fundamento",
+    "definition_en": "A guess without any evidence",
+    "definition_pt": "Um palpite sem nenhuma evidência",
+    "example": "My answer was a shot in the dark, but I got it right."
+  },
+  {
+    "level": "C2",
+    "expression": "a wolf in sheep's clothing",
+    "translation": "lobo em pele de cordeiro",
+    "definition_en": "Someone who appears friendly but is dangerous",
+    "definition_pt": "Alguém que parece amigável mas é perigoso",
+    "example": "He seems kind, but he's a wolf in sheep's clothing."
+  },
+  {
+    "level": "C2",
+    "expression": "all hell broke loose",
+    "translation": "o caos se instalou",
+    "definition_en": "Suddenly became chaotic and out of control",
+    "definition_pt": "Repentinamente tornou-se caótico e fora de controle",
+    "example": "When the news spread, all hell broke loose."
+  },
+  {
+    "level": "C2",
+    "expression": "at each other's throats",
+    "translation": "implicando o tempo todo",
+    "definition_en": "Always arguing in an aggressive way",
+    "definition_pt": "Sempre discutindo de forma agressiva",
+    "example": "The two politicians are at each other's throats."
+  },
+  {
+    "level": "C2",
+    "expression": "baptism of fire",
+    "translation": "batismo de fogo",
+    "definition_en": "A difficult first experience in a new job or activity",
+    "definition_pt": "Uma primeira experiência difícil em um novo trabalho ou atividade",
+    "example": "My first day alone was a baptism of fire."
+  },
+  {
+    "level": "C2",
+    "expression": "bury the hatchet",
+    "translation": "enterrar o machado, fazer as pazes",
+    "definition_en": "To end a quarrel and become friendly again",
+    "definition_pt": "Terminar uma briga e tornar-se amigável novamente",
+    "example": "After five years, they finally buried the hatchet."
+  },
+  {
+    "level": "C2",
+    "expression": "by leaps and bounds",
+    "translation": "a passos largos",
+    "definition_en": "Very quickly and with great progress",
+    "definition_pt": "Muito rapidamente e com grande progresso",
+    "example": "Her English has improved by leaps and bounds."
+  },
+  {
+    "level": "C2",
+    "expression": "call a spade a spade",
+    "translation": "chamar as coisas pelos nomes",
+    "definition_en": "To speak frankly and directly",
+    "definition_pt": "Falar francamente e diretamente",
+    "example": "I like him because he calls a spade a spade."
+  },
+  {
+    "level": "C2",
+    "expression": "cast the first stone",
+    "translation": "atirar a primeira pedra",
+    "definition_en": "To be the first to criticize or accuse someone",
+    "definition_pt": "Ser o primeiro a criticar ou acusar alguém",
+    "example": "Let he who is without sin cast the first stone."
+  },
+  {
+    "level": "C2",
+    "expression": "chew the fat",
+    "translation": "bater papo",
+    "definition_en": "To chat casually with someone",
+    "definition_pt": "Conversar casualmente com alguém",
+    "example": "We spent the afternoon chewing the fat."
+  },
+  {
+    "level": "C2",
+    "expression": "chomping at the bit",
+    "translation": "ansioso para começar",
+    "definition_en": "Impatient and eager to start something",
+    "definition_pt": "Impaciente e ansioso para começar algo",
+    "example": "The team was chomping at the bit to play."
+  },
+  {
+    "level": "C2",
+    "expression": "close but no cigar",
+    "translation": "quase lá, mas não foi",
+    "definition_en": "Almost successful, but not quite",
+    "definition_pt": "Quase bem-sucedido, mas não completamente",
+    "example": "Your guess was close but no cigar."
+  },
+  {
+    "level": "C2",
+    "expression": "cut off your nose to spite your face",
+    "translation": "cortar o nariz para irritar o rosto",
+    "definition_en": "To act out of revenge that ends up hurting yourself",
+    "definition_pt": "Agir por vingança que acaba machucando a si mesmo",
+    "example": "Don't quit just to upset them - that's cutting off your nose to spite your face."
+  },
+  {
+    "level": "C2",
+    "expression": "don't put all your eggs in one basket",
+    "translation": "não colocar todos os ovos na mesma cesta",
+    "definition_en": "Don't risk everything on a single venture",
+    "definition_pt": "Não arrisque tudo em um único empreendimento",
+    "example": "Invest in different things - don't put all your eggs in one basket."
+  },
+  {
+    "level": "C2",
+    "expression": "fat chance",
+    "translation": "cavalo não voa",
+    "definition_en": "Very unlikely or impossible",
+    "definition_pt": "Muito improvável ou impossível",
+    "example": "Fat chance he'll apologize; he's too proud."
+  },
+  {
+    "level": "C2",
+    "expression": "fools rush in where angels fear to tread",
+    "translation": "onde os anjos temem pisar, os tolos se apressam",
+    "definition_en": "Inexperienced people try things that wise people avoid",
+    "definition_pt": "Pessoas inexperientes tentam coisas que os sábios evitam",
+    "example": "He invested without research - fools rush in where angels fear to tread."
+  },
+  {
+    "level": "C2",
+    "expression": "for all intents and purposes",
+    "translation": "para todos os efeitos",
+    "definition_en": "In almost every important way",
+    "definition_pt": "Em quase todos os aspectos importantes",
+    "example": "For all intents and purposes, the project is finished."
+  },
+  {
+    "level": "C2",
+    "expression": "from rags to riches",
+    "translation": "da pobreza à riqueza",
+    "definition_en": "From being very poor to being very rich",
+    "definition_pt": "De ser muito pobre a ser muito rico",
+    "example": "His story is a true from rags to riches tale."
+  },
+  {
+    "level": "C2",
+    "expression": "get your ducks in a row",
+    "translation": "deixar tudo em ordem",
+    "definition_en": "To get organized and prepared",
+    "definition_pt": "Organizar-se e preparar-se",
+    "example": "We need to get our ducks in a row before the audit."
+  },
+  {
+    "level": "C2",
+    "expression": "give someone the runaround",
+    "translation": "enrolar alguém",
+    "definition_en": "To give excuses instead of a direct answer",
+    "definition_pt": "Dar desculpas em vez de uma resposta direta",
+    "example": "Customer service gave me the runaround for an hour."
+  },
+  {
+    "level": "C2",
+    "expression": "go the whole nine yards",
+    "translation": "ir até o fim",
+    "definition_en": "To do everything that is possible",
+    "definition_pt": "Fazer tudo que é possível",
+    "example": "We went the whole nine yards for the wedding."
+  },
+  {
+    "level": "C2",
+    "expression": "have your head in the clouds",
+    "translation": "estar distraído",
+    "definition_en": "To be unrealistic or daydreaming",
+    "definition_pt": "Ser irrealista ou estar sonhando acordado",
+    "example": "He has his head in the clouds and can't focus."
+  },
+  {
+    "level": "C2",
+    "expression": "if you can't stand the heat, get out of the kitchen",
+    "translation": "se não suporta o calor, saia da cozinha",
+    "definition_en": "If you can't handle pressure, leave",
+    "definition_pt": "Se você não consegue lidar com pressão, saia",
+    "example": "This job is stressful - if you can't stand the heat, get out of the kitchen."
+  },
+  {
+    "level": "C2",
+    "expression": "in the blink of an eye",
+    "translation": "num piscar de olhos",
+    "definition_en": "Very quickly",
+    "definition_pt": "Muito rapidamente",
+    "example": "The car disappeared in the blink of an eye."
+  },
+  {
+    "level": "C2",
+    "expression": "jump through hoops",
+    "translation": "passar por dificuldades",
+    "definition_en": "To go through many difficult steps",
+    "definition_pt": "Passar por muitas etapas difíceis",
+    "example": "I had to jump through hoops to get my visa."
+  },
+  {
+    "level": "C2",
+    "expression": "keep your nose to the grindstone",
+    "translation": "trabalhar duro continuamente",
+    "definition_en": "To work hard without stopping",
+    "definition_pt": "Trabalhar duro sem parar",
+    "example": "She kept her nose to the grindstone and finished early."
+  },
+  {
+    "level": "C2",
+    "expression": "let the chips fall where they may",
+    "translation": "deixe acontecer, seja o que Deus quiser",
+    "definition_en": "To let things happen without worrying about results",
+    "definition_pt": "Deixar as coisas acontecerem sem se preocupar com os resultados",
+    "example": "I'll do my best and let the chips fall where they may."
+  },
+  {
+    "level": "C2",
+    "expression": "make hay while the sun shines",
+    "translation": "aproveitar enquanto há oportunidade",
+    "definition_en": "To take advantage of a good opportunity",
+    "definition_pt": "Aproveitar uma boa oportunidade",
+    "example": "Business is good now, so make hay while the sun shines."
+  },
+  {
+    "level": "C2",
+    "expression": "no use crying over spilled milk",
+    "translation": "não adianta chorar pelo leite derramado",
+    "definition_en": "Don't be upset about things that can't be changed",
+    "definition_pt": "Não fique chateado com coisas que não podem ser mudadas",
+    "example": "It happened, so no use crying over spilled milk."
+  },
+  {
+    "level": "C2",
+    "expression": "on pins and needles",
+    "translation": "ansioso e nervoso",
+    "definition_en": "Nervous and anxious",
+    "definition_pt": "Nervoso e ansioso",
+    "example": "I've been on pins and needles waiting for the results."
+  },
+  {
+    "level": "C2",
+    "expression": "once bitten, twice shy",
+    "translation": "cachorro queimado tem medo de água fria",
+    "definition_en": "After a bad experience, you become more cautious",
+    "definition_pt": "Após uma experiência ruim, você se torna mais cauteloso",
+    "example": "I won't lend money again - once bitten, twice shy."
+  },
+  {
+    "level": "C2",
+    "expression": "out of the frying pan into the fire",
+    "translation": "pular da frigideira para o fogo",
+    "definition_en": "From a bad situation to a worse one",
+    "definition_pt": "De uma situação ruim para uma pior",
+    "example": "I left one bad job for an even worse one - out of the frying pan into the fire."
+  },
+  {
+    "level": "C2",
+    "expression": "play devil's advocate",
+    "translation": "advogado do diabo",
+    "definition_en": "To argue the opposite side for the sake of debate",
+    "definition_pt": "Argumentar o lado oposto para estimular o debate",
+    "example": "Let me play devil's advocate and question your idea."
+  },
+  {
+    "level": "C2",
+    "expression": "put something on ice",
+    "translation": "deixar em espera",
+    "definition_en": "To postpone something",
+    "definition_pt": "Adiar algo",
+    "example": "We put the project on ice until next year."
+  },
+  {
+    "level": "C2",
+    "expression": "raise the bar",
+    "translation": "elevar o padrão",
+    "definition_en": "To set higher standards",
+    "definition_pt": "Estabelecer padrões mais altos",
+    "example": "Her performance raised the bar for everyone."
+  },
+  {
+    "level": "C2",
+    "expression": "read the riot act",
+    "translation": "dar uma bronca severa",
+    "definition_en": "To give a strong warning or scolding",
+    "definition_pt": "Dar um aviso severo ou repreensão",
+    "example": "The boss read him the riot act for being late."
+  },
+  {
+    "level": "C2",
+    "expression": "rest on your laurels",
+    "translation": "descansar sobre os louros",
+    "definition_en": "To be satisfied with past success and stop trying",
+    "definition_pt": "Estar satisfeito com sucessos passados e parar de tentar",
+    "example": "You can't rest on your laurels in this industry."
+  },
+  {
+    "level": "C2",
+    "expression": "see which way the wind blows",
+    "translation": "sentir o clima",
+    "definition_en": "To find out what people think before deciding",
+    "definition_pt": "Descobrir o que as pessoas pensam antes de decidir",
+    "example": "I'll see which way the wind blows before I vote."
+  },
+  {
+    "level": "C2",
+    "expression": "slip through the cracks",
+    "translation": "passar despercebido",
+    "definition_en": "To go unnoticed or unattended",
+    "definition_pt": "Passar despercebido ou desassistido",
+    "example": "Some mistakes slip through the cracks despite our checks."
+  },
+  {
+    "level": "C2",
+    "expression": "steal a march",
+    "translation": "ganhar vantagem sobre alguém",
+    "definition_en": "To gain an advantage over someone by doing something before them",
+    "definition_pt": "Ganhar vantagem sobre alguém fazendo algo antes",
+    "example": "Our competitor stole a march on us with their new product."
+  },
+  {
+    "level": "C2",
+    "expression": "steal someone's thunder",
+    "translation": "roubar a atenção",
+    "definition_en": "To take credit for someone else's achievement",
+    "definition_pt": "Tomar o crédito pela conquista de outra pessoa",
+    "example": "She announced her pregnancy at my wedding and stole my thunder."
+  },
+  {
+    "level": "C2",
+    "expression": "stick out like a sore thumb",
+    "translation": "destacar-se negativamente",
+    "definition_en": "To be very obvious or noticeable in a negative way",
+    "definition_pt": "Ser muito óbvio ou perceptível de forma negativa",
+    "example": "In my formal suit, I stuck out like a sore thumb at the beach party."
+  },
+  {
+    "level": "C2",
+    "expression": "strike while the iron is hot",
+    "translation": "bater enquanto o ferro está quente",
+    "definition_en": "To take advantage of an opportunity immediately",
+    "definition_pt": "Aproveitar uma oportunidade imediatamente",
+    "example": "He's in a good mood - strike while the iron is hot and ask for a raise."
+  },
+  {
+    "level": "C2",
+    "expression": "take with a pinch of salt",
+    "translation": "desconfiar de algo",
+    "definition_en": "To not completely believe something",
+    "definition_pt": "Não acreditar completamente em algo",
+    "example": "Take his promises with a pinch of salt."
+  },
+  {
+    "level": "C2",
+    "expression": "the devil is in the details",
+    "translation": "o diabo está nos detalhes",
+    "definition_en": "Small things can cause big problems",
+    "definition_pt": "Pequenas coisas podem causar grandes problemas",
+    "example": "The contract looks good, but the devil is in the details."
+  },
+  {
+    "level": "C2",
+    "expression": "the pot calling the kettle black",
+    "translation": "o sujo falando do mal lavado",
+    "definition_en": "Accusing someone of something you are also guilty of",
+    "definition_pt": "Acusar alguém de algo que você também é culpado",
+    "example": "You're criticizing my lateness? That's the pot calling the kettle black."
+  },
+  {
+    "level": "C2",
+    "expression": "two sides of the same coin",
+    "translation": "dois lados da mesma moeda",
+    "definition_en": "Very closely related things that seem different",
+    "definition_pt": "Coisas muito relacionadas que parecem diferentes",
+    "example": "Genius and madness are two sides of the same coin."
+  },
+  {
+    "level": "C2",
+    "expression": "up a creek without a paddle",
+    "translation": "enrascado",
+    "definition_en": "In a difficult situation without solutions",
+    "definition_pt": "Em uma situação difícil sem soluções",
+    "example": "Without the car, we're up a creek without a paddle."
   },
   {
     "level": "C2",
