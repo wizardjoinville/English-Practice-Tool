@@ -17,6 +17,306 @@
     "translation": "Eles estão felizes",
     "words": ["They", "are", "happy"]
   },
+    {
+    "level": "A1",
+    "correct": "The book is on the table",
+    "translation": "O livro está sobre a mesa",
+    "words": ["The", "book", "is", "on", "the", "table"]
+  },
+  {
+    "level": "A1",
+    "correct": "My mother cooks dinner",
+    "translation": "Minha mãe cozinha o jantar",
+    "words": ["My", "mother", "cooks", "dinner"]
+  },
+  {
+    "level": "A1",
+    "correct": "The children are playing",
+    "translation": "As crianças estão brincando",
+    "words": ["The", "children", "are", "playing"]
+  },
+  {
+    "level": "A1",
+    "correct": "I want a new phone",
+    "translation": "Eu quero um telefone novo",
+    "words": ["I", "want", "a", "new", "phone"]
+  },
+  {
+    "level": "A1",
+    "correct": "She wears glasses",
+    "translation": "Ela usa óculos",
+    "words": ["She", "wears", "glasses"]
+  },
+  {
+    "level": "A1",
+    "correct": "The restaurant is closed",
+    "translation": "O restaurante está fechado",
+    "words": ["The", "restaurant", "is", "closed"]
+  },
+  {
+    "level": "A1",
+    "correct": "We need more time",
+    "translation": "Nós precisamos de mais tempo",
+    "words": ["We", "need", "more", "time"]
+  },
+  {
+    "level": "A1",
+    "correct": "He lives in London",
+    "translation": "Ele mora em Londres",
+    "words": ["He", "lives", "in", "London"]
+  },
+  {
+    "level": "A1",
+    "correct": "The flowers are beautiful",
+    "translation": "As flores são bonitas",
+    "words": ["The", "flowers", "are", "beautiful"]
+  },
+  {
+    "level": "A1",
+    "correct": "I forgot my keys",
+    "translation": "Eu esqueci minhas chaves",
+    "words": ["I", "forgot", "my", "keys"]
+  },
+  {
+    "level": "A1",
+    "correct": "She teaches math",
+    "translation": "Ela ensina matemática",
+    "words": ["She", "teaches", "math"]
+  },
+  {
+    "level": "A1",
+    "correct": "The bus is late",
+    "translation": "O ônibus está atrasado",
+    "words": ["The", "bus", "is", "late"]
+  },
+  {
+    "level": "A1",
+    "correct": "They bought a house",
+    "translation": "Eles compraram uma casa",
+    "words": ["They", "bought", "a", "house"]
+  },
+  {
+    "level": "A1",
+    "correct": "I feel sick",
+    "translation": "Eu me sinto doente",
+    "words": ["I", "feel", "sick"]
+  },
+  {
+    "level": "A1",
+    "correct": "The window is open",
+    "translation": "A janela está aberta",
+    "words": ["The", "window", "is", "open"]
+  },
+  {
+    "level": "A1",
+    "correct": "We visited the museum",
+    "translation": "Nós visitamos o museu",
+    "words": ["We", "visited", "the", "museum"]
+  },
+  {
+    "level": "A1",
+    "correct": "He drives slowly",
+    "translation": "Ele dirige devagar",
+    "words": ["He", "drives", "slowly"]
+  },
+  {
+    "level": "A1",
+    "correct": "The shoes are new",
+    "translation": "Os sapatos são novos",
+    "words": ["The", "shoes", "are", "new"]
+  },
+  {
+    "level": "A1",
+    "correct": "I met a friend",
+    "translation": "Eu encontrei um amigo",
+    "words": ["I", "met", "a", "friend"]
+  },
+  {
+    "level": "A1",
+    "correct": "She laughs loudly",
+    "translation": "Ela ri alto",
+    "words": ["She", "laughs", "loudly"]
+  },
+  {
+    "level": "A1",
+    "correct": "The train is fast",
+    "translation": "O trem é rápido",
+    "words": ["The", "train", "is", "fast"]
+  },
+  {
+    "level": "A1",
+    "correct": "We ate lunch together",
+    "translation": "Nós almoçamos juntos",
+    "words": ["We", "ate", "lunch", "together"]
+  },
+  {
+    "level": "A1",
+    "correct": "He broke his leg",
+    "translation": "Ele quebrou a perna",
+    "words": ["He", "broke", "his", "leg"]
+  },
+  {
+    "level": "A1",
+    "correct": "The garden is green",
+    "translation": "O jardim está verde",
+    "words": ["The", "garden", "is", "green"]
+  },
+  {
+    "level": "A1",
+    "correct": "I need some help",
+    "translation": "Eu preciso de ajuda",
+    "words": ["I", "need", "some", "help"]
+  },
+  {
+    "level": "A1",
+    "correct": "She paints pictures",
+    "translation": "Ela pinta quadros",
+    "words": ["She", "paints", "pictures"]
+  },
+  {
+    "level": "A1",
+    "correct": "The keys are on the desk",
+    "translation": "As chaves estão na mesa",
+    "words": ["The", "keys", "are", "on", "the", "desk"]
+  },
+  {
+    "level": "A1",
+    "correct": "They arrived late",
+    "translation": "Eles chegaram tarde",
+    "words": ["They", "arrived", "late"]
+  },
+  {
+    "level": "A1",
+    "correct": "I like my job",
+    "translation": "Eu gosto do meu trabalho",
+    "words": ["I", "like", "my", "job"]
+  },
+  {
+    "level": "A1",
+    "correct": "The soup is hot",
+    "translation": "A sopa está quente",
+    "words": ["The", "soup", "is", "hot"]
+  },
+  {
+    "level": "A1",
+    "correct": "She sings beautifully",
+    "translation": "Ela canta lindamente",
+    "words": ["She", "sings", "beautifully"]
+  },
+  {
+    "level": "A1",
+    "correct": "We walked to the park",
+    "translation": "Nós caminhamos até o parque",
+    "words": ["We", "walked", "to", "the", "park"]
+  },
+  {
+    "level": "A1",
+    "correct": "His name is Peter",
+    "translation": "O nome dele é Pedro",
+    "words": ["His", "name", "is", "Peter"]
+  },
+  {
+    "level": "A1",
+    "correct": "The phone is ringing",
+    "translation": "O telefone está tocando",
+    "words": ["The", "phone", "is", "ringing"]
+  },
+  {
+    "level": "A1",
+    "correct": "I took a taxi",
+    "translation": "Eu peguei um táxi",
+    "words": ["I", "took", "a", "taxi"]
+  },
+  {
+    "level": "A1",
+    "correct": "The dress is expensive",
+    "translation": "O vestido é caro",
+    "words": ["The", "dress", "is", "expensive"]
+  },
+  {
+    "level": "A1",
+    "correct": "She closed the window",
+    "translation": "Ela fechou a janela",
+    "words": ["She", "closed", "the", "window"]
+  },
+  {
+    "level": "A1",
+    "correct": "We stayed at a hotel",
+    "translation": "Nós ficamos em um hotel",
+    "words": ["We", "stayed", "at", "a", "hotel"]
+  },
+  {
+    "level": "A1",
+    "correct": "He raised his hand",
+    "translation": "Ele levantou a mão",
+    "words": ["He", "raised", "his", "hand"]
+  },
+  {
+    "level": "A1",
+    "correct": "The bread is fresh",
+    "translation": "O pão está fresco",
+    "words": ["The", "bread", "is", "fresh"]
+  },
+  {
+    "level": "A1",
+    "correct": "I found my wallet",
+    "translation": "Eu encontrei minha carteira",
+    "words": ["I", "found", "my", "wallet"]
+  },
+  {
+    "level": "A1",
+    "correct": "The moon is bright",
+    "translation": "A lua está brilhante",
+    "words": ["The", "moon", "is", "bright"]
+  },
+  {
+    "level": "A1",
+    "correct": "She washed her hands",
+    "translation": "Ela lavou as mãos",
+    "words": ["She", "washed", "her", "hands"]
+  },
+  {
+    "level": "A1",
+    "correct": "The party was fun",
+    "translation": "A festa foi divertida",
+    "words": ["The", "party", "was", "fun"]
+  },
+  {
+    "level": "A1",
+    "correct": "I turned off the light",
+    "translation": "Eu desliguei a luz",
+    "words": ["I", "turned", "off", "the", "light"]
+  },
+  {
+    "level": "A1",
+    "correct": "The grass is green",
+    "translation": "A grama é verde",
+    "words": ["The", "grass", "is", "green"]
+  },
+  {
+    "level": "A1",
+    "correct": "She packed her bag",
+    "translation": "Ela fez a mala",
+    "words": ["She", "packed", "her", "bag"]
+  },
+  {
+    "level": "A1",
+    "correct": "The store opens at nine",
+    "translation": "A loja abre às nove",
+    "words": ["The", "store", "opens", "at", "nine"]
+  },
+  {
+    "level": "A1",
+    "correct": "I lost my umbrella",
+    "translation": "Eu perdi meu guarda-chuva",
+    "words": ["I", "lost", "my", "umbrella"]
+  },
+  {
+    "level": "A1",
+    "correct": "The stars are shining",
+    "translation": "As estrelas estão brilhando",
+    "words": ["The", "stars", "are", "shining"]
+  },
   {
     "level": "A1",
     "correct": "My name is John",

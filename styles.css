@@ -2784,3 +2784,102 @@ label[for="grammarModeSelect"] {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.02);
 }
+/* ============================================
+   SPEED RATE CONTROLS FOR SENTENCE BUILDER
+   ============================================ */
+
+.speech-rate-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 12px 0;
+  padding: 8px 12px;
+  background: rgba(138, 43, 226, 0.08);
+  border-radius: 60px;
+}
+
+.rate-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #8A2BE2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rate-btn {
+  background: white;
+  border: 2px solid #8A2BE2;
+  border-radius: 30px;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #8A2BE2;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rate-btn:hover {
+  background: #8A2BE2;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.rate-btn.active {
+  background: #8A2BE2;
+  color: white;
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.3);
+}
+
+/* Notificação de velocidade */
+.rate-notification {
+  animation: fadeInOut 1.5s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  85% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsividade para mobile */
+@media (max-width: 768px) {
+  .speech-rate-controls {
+    gap: 5px;
+    padding: 6px 10px;
+  }
+  
+  .rate-btn {
+    padding: 4px 10px;
+    font-size: 0.7rem;
+  }
+  
+  .rate-label {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .speech-rate-controls {
+    gap: 4px;
+  }
+  
+  .rate-btn {
+    padding: 3px 8px;
+    font-size: 0.65rem;
+  }
+}

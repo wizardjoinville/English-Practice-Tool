@@ -1,5 +1,7 @@
 // --- VARIÁVEIS GLOBAIS ---
 let perguntasOriginais = [];
+// Velocidade da fala (padrão 1.0)
+let speechRate = 1.0;
 let perguntasAtivas = [];
 let perguntasFiltradas = [];
 let vocabularioOriginal = [];
@@ -2849,18 +2851,84 @@ function iniciarTimer() {
 // FUNÇÃO DE TEXTO PARA FALA
 // ============================================
 
+// Função que retorna a melhor voz em inglês disponível no sistema
+function getBestEnglishVoice() {
+    // 1. Pega a lista de todas as vozes
+    const voices = window.speechSynthesis.getVoices();
+    
+    // 2. Lista de prioridades: As vozes mais "nativas" e realistas possíveis
+    const priorityList = [
+        // Google Chrome (Windows/Mac/Linux) - As melhores gratuitas
+        "Google UK English Female",   
+        "Google UK English Male",     
+        "Google US English",          
+        
+        // Microsoft Edge (Windows 10/11) - Vozes Neurais excelentes
+        "Microsoft Jenny - English (United States)",
+        "Microsoft Aria - English (United States)",
+        "Microsoft David - English (United States)",
+        
+        // Apple (MacOS / iOS) - Vozes do sistema, muito boas
+        "Samantha",                  
+        "Alex",                      
+        "Fiona",                     
+        
+        // Android / Samsung
+        "en-US-Wavenet-A",
+        "en-US-Neural2-F",
+        
+        // Fallback
+        "Microsoft Zira - English (United States)"
+    ];
+
+    // 3. Tenta encontrar pela primeira da lista que existir
+    for (let voiceName of priorityList) {
+        const foundVoice = voices.find(voice => voice.name === voiceName);
+        if (foundVoice) {
+            console.log(`✅ Voz de alta qualidade encontrada: ${foundVoice.name}`);
+            return foundVoice;
+        }
+    }
+
+    // 4. Fallback: tenta qualquer voz feminina em inglês dos EUA
+    const fallbackVoice = voices.find(voice => voice.lang === 'en-US' && voice.name.includes('Female'));
+    if (fallbackVoice) {
+        console.log(`⚠️ Usando voz de fallback: ${fallbackVoice.name}`);
+        return fallbackVoice;
+    }
+
+    // 5. Último recurso
+    console.warn("⚠️ Nenhuma voz premium encontrada. Usando a voz padrão do sistema.");
+    return voices.find(voice => voice.lang === 'en-US');
+}
+
+// Função principal de fala com voz melhorada
 function falarTexto(texto, idioma = 'en-US') {
-  if ('speechSynthesis' in window) {
-    // Cancelar qualquer fala em andamento
+    if (!('speechSynthesis' in window)) {
+        alert('Seu navegador não suporta síntese de voz.');
+        return;
+    }
+
+    // Cancela qualquer coisa que esteja falando
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(texto);
     utterance.lang = idioma;
-    utterance.rate = 0.9;
+    utterance.rate = speechRate || 0.9; // Usa a velocidade que você já tem
+    utterance.pitch = 1.0;
+    utterance.volume = 1;
+
+    // 🔥 Tenta pegar a melhor voz disponível
+    const bestVoice = getBestEnglishVoice();
+    if (bestVoice) {
+        utterance.voice = bestVoice;
+    }
+
+    // Log para debug (opcional)
+    utterance.onstart = () => console.log(`Falando com a voz: ${utterance.voice?.name}`);
+    utterance.onerror = (event) => console.error('Erro na fala:', event);
+
     window.speechSynthesis.speak(utterance);
-  } else {
-    alert('Seu navegador não suporta síntese de voz.');
-  }
 }
 
 // ============================================
@@ -3221,8 +3289,18 @@ function renderSentenceBuilder() {
       <div class="translation-area">
         <div class="translation-label">🇧🇷 PORTUGUÊS</div>
         <div class="translation-text">"${escapeHtml(currentSentenceObj.translation)}"</div>
-        <button class="audio-btn" onclick="playEnglishAudio()">🔊 Play again</button>
+        <button class="audio-btn" onclick="playEnglishAudio()">🔊 Play English</button>
         
+      </div>
+      
+      <!-- CONTROLES DE VELOCIDADE -->
+      <div class="speech-rate-controls">
+        <span class="rate-label">⚡ Velocidade da fala:</span>
+        <button class="rate-btn ${speechRate === 0.3 ? 'active' : ''}" onclick="setSpeechRate(0.3)">0.3x</button>
+        <button class="rate-btn ${speechRate === 0.5 ? 'active' : ''}" onclick="setSpeechRate(0.5)">0.5x</button>
+        <button class="rate-btn ${speechRate === 0.7 ? 'active' : ''}" onclick="setSpeechRate(0.7)">0.7x</button>
+        <button class="rate-btn ${speechRate === 1.0 ? 'active' : ''}" onclick="setSpeechRate(1.0)">1x</button>
+        <button class="rate-btn ${speechRate === 1.5 ? 'active' : ''}" onclick="setSpeechRate(1.5)">1.5x</button>
       </div>
       
       <div class="area-label">📝 PALAVRAS DISPONÍVEIS</div>
@@ -3241,7 +3319,7 @@ function renderSentenceBuilder() {
         <button class="btn-check-mobile" onclick="checkSentence()">✔️ VERIFICAR FRASE</button>
       </div>
       
-      <!-- VOICE CONTROLS - ADICIONADO AQUI -->
+      <!-- VOICE CONTROLS -->
       <div class="voice-controls">
         <button id="voiceSentenceBtn" class="voice-btn">🎤 Falar Frase Completa</button>
         <div id="voiceSentenceFeedback" class="voice-feedback"></div>
@@ -3254,7 +3332,6 @@ function renderSentenceBuilder() {
   // Adicionar evento do botão de voz
   const voiceBtn = document.getElementById('voiceSentenceBtn');
   if (voiceBtn) {
-    // Remove listener antigo se existir
     const newVoiceBtn = voiceBtn.cloneNode(true);
     voiceBtn.parentNode.replaceChild(newVoiceBtn, voiceBtn);
 
@@ -3369,6 +3446,56 @@ function startVoiceRecordingForSentence(expectedAnswer) {
 
   sentenceRecognition.start();
 }
+// Função para ajustar a velocidade da fala
+function setSpeechRate(rate) {
+  speechRate = rate;
+  
+  // Atualizar a classe active nos botões
+  document.querySelectorAll('.rate-btn').forEach(btn => {
+    const btnRate = parseFloat(btn.textContent.replace('x', ''));
+    if (btnRate === rate) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+  
+  // Feedback opcional (pode remover se não quiser)
+  console.log(`Velocidade da fala ajustada para: ${rate}x`);
+  
+  // Mostrar notificação sutil
+  const container = document.getElementById('sentenceContainer');
+  if (container) {
+    const notification = document.createElement('div');
+    notification.className = 'rate-notification';
+    notification.textContent = `⚡ Velocidade: ${rate}x`;
+    notification.style.position = 'absolute';
+    notification.style.bottom = '10px';
+    notification.style.right = '10px';
+    notification.style.background = '#8A2BE2';
+    notification.style.color = 'white';
+    notification.style.padding = '4px 12px';
+    notification.style.borderRadius = '20px';
+    notification.style.fontSize = '0.7rem';
+    notification.style.zIndex = '100';
+    notification.style.opacity = '0';
+    notification.style.transition = 'opacity 0.3s ease';
+    
+    container.style.position = 'relative';
+    container.appendChild(notification);
+    
+    setTimeout(() => {
+      notification.style.opacity = '1';
+      setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => notification.remove(), 300);
+      }, 1500);
+    }, 10);
+  }
+}
+
+// Exportar para uso global
+window.setSpeechRate = setSpeechRate;
 
 function stopSentenceVoiceRecording() {
   if (sentenceRecognition) {
@@ -4110,5 +4237,14 @@ window.comparePronunciation = comparePronunciation;
 // --- INICIALIZAÇÃO ---
 document.addEventListener('DOMContentLoaded', () => {
   carregarDados();
-  loadSentenceData(); // Adicione esta linha para carregar o Sentence Builder
+  loadSentenceData();
+  
+  // Garante que as vozes estão carregadas antes de tentar usar
+  if (window.speechSynthesis.onvoiceschanged !== undefined) {
+      window.speechSynthesis.onvoiceschanged = () => {
+          console.log("🎤 Vozes carregadas. Vozes disponíveis:", window.speechSynthesis.getVoices().length);
+          // Opcional: já prepara a melhor voz
+          getBestEnglishVoice();
+      };
+  }
 });
