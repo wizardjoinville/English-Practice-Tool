@@ -451,18 +451,7 @@
     "level": "A1",
     "question": "Are you thirsty now?"
   },
-  {
-    "level": "A1",
-    "question": "Do you need water now?"
-  },
-  {
-    "level": "A1",
-    "question": "Do you need a break?"
-  },
-  {
-    "level": "A1",
-    "question": "Do you need help now?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you understand the question?"
@@ -576,10 +565,7 @@
     "level": "A1",
     "question": "Do you study at night?"
   },
-  {
-    "level": "A1",
-    "question": "Do you prefer short classes or long classes?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you prefer online classes or in-person classes?"
@@ -908,10 +894,7 @@
     "level": "A1",
     "question": "Where is the hospital?"
   },
-  {
-    "level": "A1",
-    "question": "How much is this? (point to an object)"
-  },
+  
   {
     "level": "A1",
     "question": "What time do you have breakfast?"
@@ -1244,10 +1227,7 @@
     "level": "A1",
     "question": "How do you go to school or work?"
   },
-  {
-    "level": "A1",
-    "question": "What's your email address?"
-  },
+
   {
     "level": "A1",
     "question": "Do you like music?"
@@ -1560,10 +1540,7 @@
     "level": "A1",
     "question": "Can you play volleyball?"
   },
-  {
-    "level": "A1",
-    "question": "What's your favorite toothpaste?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you like stormy days?"
@@ -2588,10 +2565,7 @@
     "level": "A1",
     "question": "Where do you go on weekends?"
   },
-  {
-    "level": "A1",
-    "question": "Do you need help?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you read books?"
@@ -2681,14 +2655,8 @@
     "level": "A1",
     "question": "Do you want to give me an example?"
   },
-  {
-    "level": "A1",
-    "question": "Can you open the window?"
-  },
-  {
-    "level": "A1",
-    "question": "Can you close the door?"
-  },
+  
+  
   {
     "level": "A1",
     "question": "Who do you call every day?"
@@ -2737,10 +2705,7 @@
     "level": "A1",
     "question": "Where do you live? Alone or with your family?"
   },
-  {
-    "level": "A1",
-    "question": "Do you need a pen or a pencil to write?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you usually read a book in the evening?"
@@ -2794,10 +2759,7 @@
     "question": "Do you sometimes walk to school or do you always go by bus?"
   },
   
-  {
-    "level": "A1",
-    "question": "Do you need to buy some food or do you have any food at home?"
-  },
+  
   {
     "level": "A1",
     "question": "Do you usually do your homework in the afternoon or in the evening?"
@@ -3509,10 +3471,7 @@
     "level": "A2",
     "question": "What did you drink with your lunch?"
   },
-  {
-    "level": "A2",
-    "question": "Can you help me with this exercise, please?"
-  },
+  
   {
     "level": "A2",
     "question": "Where were you born?"
@@ -3569,10 +3528,7 @@
     "level": "A2",
     "question": "What did you do last Saturday?"
   },
-  {
-    "level": "A2",
-    "question": "Can you turn off the light, please?"
-  },
+  
   {
     "level": "A2",
     "question": "Where did you put my keys?"
@@ -3609,10 +3565,7 @@
     "level": "A2",
     "question": "What did you have for dinner yesterday?"
   },
-  {
-    "level": "A2",
-    "question": "Can you lend me some money until tomorrow?"
-  },
+  
   {
     "level": "A2",
     "question": "Where did you find your lost phone?"
@@ -3745,10 +3698,7 @@
     "level": "A2",
     "question": "What were you thinking about during the break?"
   },
-  {
-    "level": "A2",
-    "question": "Can you wait for me for five minutes?"
-  },
+  
   {
     "level": "A2",
     "question": "Where did you hide the birthday present?"
@@ -3785,10 +3735,7 @@
     "level": "A2",
     "question": "What time are you going to wake up tomorrow?"
   },
-  {
-    "level": "A2",
-    "question": "Can you help me move this table?"
-  },
+  
   {
     "level": "A2",
     "question": "Where did you go after school yesterday?"
@@ -3865,10 +3812,7 @@
     "level": "A2",
     "question": "What time did you start work yesterday?"
   },
-  {
-    "level": "A2",
-    "question": "Can you show me how to use this app?"
-  },
+  
   {
     "level": "A2",
     "question": "Where did you meet your best friend?"
