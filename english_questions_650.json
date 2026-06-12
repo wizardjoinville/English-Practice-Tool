@@ -2673,10 +2673,7 @@
     "level": "A1",
     "question": "What are you changing now?"
   },
-  {
-    "level": "A1",
-    "question": "Are you selling something?"
-  },
+  
   {
     "level": "A1",
     "question": "when you buy things Do you usually pay by cash or card?"
@@ -4678,6 +4675,8 @@
     "question": "Are you always available to talk to your friends?"
   },
   {
+
+
     "level": "A2",
     "question": "Are you going to attend any conferences, conventions or lectures in the near future?"
   },
@@ -4685,10 +4684,7 @@
     "level": "A2",
     "question": "Tell us about a career you definitely wouldn’t follow."
   },
-  {
-    "level": "A2",
-    "question": "Are you selling anything?"
-  },
+  
   {
     "level": "A2",
     "question": "Would you be a good salesperson?"
